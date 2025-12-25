@@ -8,83 +8,101 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="header">
-  <div class="header-text">
-    <h1>Mallas Saber Lab<br>Propuesta Curricular Nacional</h1>
-    <h2>Consulta rápida de mallas por área, grado y período</h2>
-  </div>
-</header>
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="header-text">
+      <h1>Mallas Saber Lab<br>Propuesta Curricular Nacional</h1>
+      <h2>Consulta rápida de mallas por área, grado y período</h2>
+    </div>
+  </header>
 
- <main class="dashboard">
-  <section class="filtros filtros-linea">
-    <div class="filtro-grupo filtro-mallas">
-      <label>Mallas a:</label>
-      <div class="radio-group-inline">
-        <label><input type="radio" name="periodos" value="3" checked onchange="updatePeriodos()"> 3 períodos</label>
-        <label><input type="radio" name="periodos" value="4" onchange="updatePeriodos()"> 4 períodos</label>
+  <!-- Contenido principal -->
+  <main class="dashboard">
+
+    <!-- Filtros en una sola franja -->
+    <section class="filtros">
+      <!-- Mallas a: 3 / 4 períodos -->
+      <div class="filtro-grupo filtro-mallas">
+        <label>Mallas a:</label>
+        <div class="radio-group-inline">
+          <label>
+            <input type="radio" name="periodos" value="3" checked>
+            3 períodos
+          </label>
+          <label>
+            <input type="radio" name="periodos" value="4">
+            4 períodos
+          </label>
+        </div>
       </div>
-    </div>
 
-    <div class="filtro-grupo">
-      <label for="area">Área</label>
-      <select id="area" onchange="updateGrado()">
-        <option value="">Seleccionar</option>
-        <option value="matematicas">Matemáticas</option>
-      </select>
-    </div>
+      <!-- Área -->
+      <div class="filtro-grupo">
+        <label for="area">Área</label>
+        <select id="area">
+          <option value="">Seleccionar</option>
+          <option value="matematicas">Matemáticas</option>
+          <!-- otras áreas se agregarán después -->
+        </select>
+      </div>
 
-    <div class="filtro-grupo">
-      <label for="grado">Grado</label>
-      <select id="grado" disabled onchange="updatePeriodo()">
-        <option value="">Seleccionar</option>
-        <option value="5">5°</option>
-      </select>
-    </div>
+      <!-- Grado -->
+      <div class="filtro-grupo">
+        <label for="grado">Grado</label>
+        <select id="grado" disabled>
+          <option value="">Seleccionar</option>
+          <option value="5">5°</option>
+          <!-- otros grados se agregarán después -->
+        </select>
+      </div>
 
-    <div class="filtro-grupo">
-      <label for="periodo">Período</label>
-      <select id="periodo" disabled onchange="updateComponentes()">
-        <option value="">Seleccionar</option>
-      </select>
-    </div>
+      <!-- Período -->
+      <div class="filtro-grupo">
+        <label for="periodo">Período</label>
+        <select id="periodo" disabled>
+          <option value="">Seleccionar</option>
+        </select>
+      </div>
 
-    <div class="filtro-grupo">
-      <label for="componente">Componente</label>
-      <select id="componente" disabled>
-        <option value="todos">Todos</option>
-      </select>
-    </div>
+      <!-- Componente -->
+      <div class="filtro-grupo">
+        <label for="componente">Componente</label>
+        <select id="componente" disabled>
+          <option value="todos">Todos</option>
+        </select>
+      </div>
 
-    <button class="btn-buscar" onclick="buscarMalla()">🔍 Consultar Malla</button>
-  </section>
-</main>
+      <!-- Botón -->
+      <button class="btn-buscar">🔍 Consultar Malla</button>
+    </section>
 
+    <!-- Resultados -->
+    <section id="resultados" class="resultados">
+      <div class="tabla-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Componente</th>
+              <th>Código EBC</th>
+              <th>Estandar</th>
+              <th>DBA</th>
+              <th>Evidencias</th>
+              <th>Saberes</th>
+              <th>Socioemocional</th>
+              <th>Tareas DCE</th>
+              <th>Fuente</th>
+            </tr>
+          </thead>
+          <tbody id="tabla-body"></tbody>
+        </table>
+      </div>
+    </section>
 
-  <script src="data-mallas.js"></script>
-  <script>
-    function updatePeriodos() {
-      const maxPeriodo = document.querySelector('input[name="periodos"]:checked').value;
-      updatePeriodo();
-    }
-    function updateGrado() { document.querySelector('#grado').disabled = !document.querySelector('#area').value; }
-    function updatePeriodo() {
-      const area = document.getElementById('area').value;
-      const grado = document.getElementById('grado').value;
-      const periodoSel = document.getElementById('periodo');
-      const maxPeriodo = document.querySelector('input[name="periodos"]:checked').value;
-      
-      periodoSel.innerHTML = '<option value="">Seleccionar</option>';
-      for(let i=1; i<=maxPeriodo; i++) periodoSel.innerHTML += `<option value="${i}">${i}</option>`;
-      periodoSel.disabled = !grado || !area;
-      updateComponentes();
-    }
-    function updateComponentes() {
-      const periodo = document.getElementById('periodo').value;
-      const compSel = document.getElementById('componente');
-      compSel.innerHTML = '<option value="todos">Todos</option>';
-      compSel.disabled = !periodo;
-    }
-    // resto funciones buscarMalla() igual...
-  </script>
+  </main>
+
+  <!-- JS modular -->
+  <script src="js/tabla-mallas.js"></script>
+  <script src="js/ui-filtros.js"></script>
+  <script src="js/data-loader.js"></script>
 </body>
 </html>
