@@ -8,54 +8,57 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <img src="assets/logo-principal.png" alt="Grupo Edúcate Colombia" class="logo">
-    <div class="header-text">
-      <h1>Mallas Saber Lab</h1>
-      <p>Propuesta Curricular Nacional</p>
-    </div>
-  </header>
+<header class="header">
+  <div class="header-text">
+    <h1>Mallas Saber Lab<br>Propuesta Curricular Nacional</h1>
+    <h2>Consulta rápida de mallas por área, grado y período</h2>
+  </div>
+</header>
 
-  <main class="dashboard">
-    <!-- Toggle Mallas a: 3/4 períodos -->
-    <section class="toggle-periodos">
+ <main class="dashboard">
+  <section class="filtros filtros-linea">
+    <div class="filtro-grupo filtro-mallas">
       <label>Mallas a:</label>
-      <div class="radio-group">
+      <div class="radio-group-inline">
         <label><input type="radio" name="periodos" value="3" checked onchange="updatePeriodos()"> 3 períodos</label>
         <label><input type="radio" name="periodos" value="4" onchange="updatePeriodos()"> 4 períodos</label>
       </div>
-    </section>
+    </div>
 
-    <section class="filtros">
-      <div class="filtro-row">
-        <div class="filtro-grupo">
-          <label for="area">Área</label>
-          <select id="area" onchange="updateGrado()"><option value="">Seleccionar</option><option value="matematicas">Matemáticas</option></select>
-        </div>
-        <div class="filtro-grupo">
-          <label for="grado">Grado</label>
-          <select id="grado" disabled onchange="updatePeriodo()"><option value="">Seleccionar</option><option value="5">5°</option></select>
-        </div>
-      </div>
-      <div class="filtro-row">
-        <div class="filtro-grupo">
-          <label for="periodo">Período</label>
-          <select id="periodo" disabled onchange="updateComponentes()"><option value="">Seleccionar</option></select>
-        </div>
-        <div class="filtro-grupo">
-          <label for="componente">Componente</label>
-          <select id="componente" disabled><option value="todos">Todos</option></select>
-        </div>
-      </div>
-      <button class="btn-buscar" onclick="buscarMalla()">🔍 Consultar Malla</button>
-    </section>
+    <div class="filtro-grupo">
+      <label for="area">Área</label>
+      <select id="area" onchange="updateGrado()">
+        <option value="">Seleccionar</option>
+        <option value="matematicas">Matemáticas</option>
+      </select>
+    </div>
 
-    <section id="resultados" class="resultados">
-      <div class="tabla-container">
-        <table><thead><tr><th>Componente</th><th>Código EBC</th><th>Estandar</th><th>DBA</th><th>Evidencias</th><th>Saberes</th><th>Socioemocional</th><th>Tareas DCE</th><th>Fuente</th></tr></thead><tbody id="tabla-body"></tbody></table>
-      </div>
-    </section>
-  </main>
+    <div class="filtro-grupo">
+      <label for="grado">Grado</label>
+      <select id="grado" disabled onchange="updatePeriodo()">
+        <option value="">Seleccionar</option>
+        <option value="5">5°</option>
+      </select>
+    </div>
+
+    <div class="filtro-grupo">
+      <label for="periodo">Período</label>
+      <select id="periodo" disabled onchange="updateComponentes()">
+        <option value="">Seleccionar</option>
+      </select>
+    </div>
+
+    <div class="filtro-grupo">
+      <label for="componente">Componente</label>
+      <select id="componente" disabled>
+        <option value="todos">Todos</option>
+      </select>
+    </div>
+
+    <button class="btn-buscar" onclick="buscarMalla()">🔍 Consultar Malla</button>
+  </section>
+</main>
+
 
   <script src="data-mallas.js"></script>
   <script>
