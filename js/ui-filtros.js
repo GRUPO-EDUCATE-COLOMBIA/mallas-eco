@@ -1,7 +1,19 @@
 // js/ui-filtros.js
 
 document.addEventListener('DOMContentLoaded', () => {
+  const modalError = document.getElementById('modal-error');
+const btnModalCancelar = document.getElementById('btn-modal-cancelar');
 
+function mostrarErrorConsulta() {
+  if (!modalError) return;
+  modalError.classList.add('mostrar');
+}
+
+if (btnModalCancelar && modalError) {
+  btnModalCancelar.addEventListener('click', () => {
+    modalError.classList.remove('mostrar');
+  });
+}
   const areaSel = document.getElementById('area');
   const gradoSel = document.getElementById('grado');
   const periodoSel = document.getElementById('periodo');
@@ -135,13 +147,36 @@ document.addEventListener('DOMContentLoaded', () => {
     const componente = compSel.value;
 
     if (!areaNombre || !grado || !periodo) {
-      alert('Selecciona área, grado y período');
+    if (!areaNombre || !grado || !periodo) {
+  mostrarErrorConsulta();
+  return;
+}
+
+const malla = obtenerMallaSeleccionada();
+if (!malla) {
+  mostrarErrorConsulta();
+  limpiarPeriodosYComponentes();
+  resultados.classList.remove('mostrar');
+  document.getElementById('tabla-body').innerHTML = '';
+  return;
+}
       return;
     }
 
     const malla = obtenerMallaSeleccionada();
     if (!malla) {
-      alert('No hay malla cargada para esta combinación de área, grado y tipo de malla.');
+     if (!areaNombre || !grado || !periodo) {
+         mostrarErrorConsulta();
+     return;
+      }
+      const malla = obtenerMallaSeleccionada();
+     if (!malla) {
+         mostrarErrorConsulta();
+         limpiarPeriodosYComponentes();
+         resultados.classList.remove('mostrar');
+         document.getElementById('tabla-body').innerHTML = '';
+      return;
+      }
       limpiarPeriodosYComponentes();
       resultados.classList.remove('mostrar');
       document.getElementById('tabla-body').innerHTML = '';
@@ -160,3 +195,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // Inicial
   limpiarPeriodosYComponentes();
 });
+
