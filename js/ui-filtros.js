@@ -8,36 +8,71 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnBuscar = document.querySelector('.btn-buscar');
   const resultados = document.getElementById('resultados');
 
-  if (!areaSel || !gradoSel || !periodoSel || !compSel || !btnBuscar) return;
+  if (!areaSel || !gradoSel || !periodoSel || !compSel || !btnBuscar || !resultados) return;
 
-  // listeners
+  // LISTENERS
+
+  // Radio "Mallas a: 3 / 4 períodos"
   document.querySelectorAll('input[name="periodos"]').forEach(radio => {
     radio.addEventListener('change', updatePeriodosUI);
   });
 
+  // Cambio de área
   areaSel.addEventListener('change', () => {
-    gradoSel.disabled = !areaSel.value;
+    // Por ahora solo Matemáticas; si no es Matemáticas, deshabilitar
+    const isMatematicas = areaSel.value === 'matematicas';
+    gradoSel.disabled = !isMatematicas;
+    if (!isMatematicas) {
+      gradoSel.value = '';
+      periodoSel.innerHTML = '<option value="">Seleccionar</option>';
+      periodoSel.disabled = true;
+      compSel.innerHTML = '<option value="todos">Todos</option>';
+      compSel.disabled = true;
+    }
   });
 
+  // Cambio de grado
   gradoSel.addEventListener('change', () => {
     updatePeriodosUI();
   });
 
+  // Cambio de período
   periodoSel.addEventListener('change', () => {
     updateComponentesUI();
   });
 
+  // Botón Consultar
   btnBuscar.addEventListener('click', () => {
     consultarMalla();
   });
 
+  // FUNCIONES
+
+  function obtenerMallaSeleccionada() {
+    const area = areaSel.value;
+    const grado = gradoSel.value;
+
+    if (area !== 'matematicas' || !grado) return null;
+
+    const data = window.MallasData?.matematicas?.[grado];
+    return data || null;
+  }
+
   function updatePeriodosUI() {
-    const maxPeriodo = document.querySelector('input[name="periodos"]:checked')?.value || '4';
+    const malla = obtenerMallaSeleccionada();
+    const maxPeriodoJSON = malla?.numero_periodos || 4; // 3 o 4 según JSON
+
+    const valorToggle = document.querySelector('input[name="periodos"]:checked')?.value;
+    const maxPeriodoToggle = valorToggle ? Number(valorToggle) : maxPeriodoJSON;
+
+    const max = Math.min(maxPeriodoJSON, maxPeriodoToggle);
+
     periodoSel.innerHTML = '<option value="">Seleccionar</option>';
-    for (let i = 1; i <= Number(maxPeriodo); i++) {
+    for (let i = 1; i <= max; i++) {
       periodoSel.innerHTML += `<option value="${i}">${i}</option>`;
     }
-    periodoSel.disabled = !areaSel.value || !gradoSel.value;
+
+    periodoSel.disabled = !malla;
     updateComponentesUI();
   }
 
@@ -45,17 +80,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const periodo = periodoSel.value;
     compSel.innerHTML = '<option value="todos">Todos</option>';
 
-    const data = window.MallasData?.matematicas_5;
-    if (!data || !periodo) {
+    const malla = obtenerMallaSeleccionada();
+    if (!malla || !periodo) {
       compSel.disabled = true;
       return;
     }
-    const periodoData = data.periodos?.[periodo] || [];
+
+    const periodoData = malla.periodos?.[periodo] || [];
     const nombres = [...new Set(periodoData.map(it => it.componente))];
 
     nombres.forEach(nombre => {
       compSel.innerHTML += `<option value="${nombre}">${nombre}</option>`;
     });
+
     compSel.disabled = false;
   }
 
@@ -70,13 +107,13 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    const data = window.MallasData?.matematicas_5;
-    if (!data) {
-      alert('La malla de Matemáticas 5° aún no se ha cargado.');
+    const malla = obtenerMallaSeleccionada();
+    if (!malla) {
+      alert('La malla seleccionada aún no se ha cargado.');
       return;
     }
 
-    const periodoData = data.periodos?.[periodo] || [];
+    const periodoData = malla.periodos?.[periodo] || [];
     const items = componente === 'todos'
       ? periodoData
       : periodoData.filter(it => it.componente === componente);
@@ -85,6 +122,6 @@ document.addEventListener('DOMContentLoaded', () => {
     resultados.classList.add('mostrar');
   }
 
-  // inicial
+  // Inicializar con estado actual (por si ya hay algo seleccionado)
   updatePeriodosUI();
 });
