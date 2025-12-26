@@ -406,3 +406,39 @@ tr.copiable{
 .tabla-container thead{
   display:none;
 }
+.modal-error {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-error.mostrar {
+  display: flex;
+}
+
+.modal-error-contenido {
+  background: #fff;
+  padding: 20px 24px;
+  border-radius: 8px;
+  max-width: 360px;
+  text-align: center;
+}
+
+.modal-error-contenido h2 {
+  margin-top: 0;
+}
+
+.btn-modal-cancelar {
+  margin-top: 12px;
+  background: #c0392b;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
