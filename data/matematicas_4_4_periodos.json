@@ -128,7 +128,7 @@
       "fuente": null
       }
     ],
-"3": [
+  "3": [
   {
     "componente": "Numérico Variacional",
     "estandar": "Resuelvo y formulo problemas en situaciones aditivas de composición, transformación, comparación e igualación. Predigo patrones de variación en una secuencia numérica, geométrica o gráfica. Describe y justifica diferentes estrategias para representar, operar y hacer estimaciones con números naturales y números racionales (fraccionarios), expresados como fracción o como decimal.",
@@ -261,5 +261,6 @@
     ]
   }
 }
+
 
 
