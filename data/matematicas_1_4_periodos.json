@@ -70,13 +70,7 @@
       "fuente": null
     }
   ],
-   Periodo 2 del grado 1 queda así, con DBA y evidencias alineados al maestro:
-​
-​
-
-json
-{
-  "2": [
+   "2": [
     {
       "componente": "Numérico Variacional",
       "estandar": "Resuelvo y formulo problemas en situaciones aditivas de composición y de transformación. Reconozco propiedades de los números (ser par, ser impar, etc.) y relaciones entre ellos (ser mayor que, ser menor que, ser múltiplo de, ser divisible por, etc.) en diferentes contextos. Describo cualitativamente situaciones de cambio y variación utilizando el lenguaje natural, dibujos y gráficas.",
@@ -278,3 +272,4 @@ json
   ]
   }
 }
+
