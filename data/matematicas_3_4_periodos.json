@@ -76,13 +76,7 @@
         "componente": "Numérico Variacional",
         "estandar": "Uso diversas estrategias de cálculo (especialmente cálculo mental) y de estimación para resolver problemas en situaciones aditivas y multiplicativas. Identifico, si a la luz de los datos de un problema, los resultados obtenidos son o no razonables. Describo cualitativamente situaciones de cambio y variación utilizando el lenguaje natural, dibujos y gráficas.",
         "dba": [
-         Periodo 2 de grado 3°; sustituye solo las listas dba y evidencias de cada componente.
-​
-
-Numérico variacional
-json
-"dba": [
-  "DBA-MAT-3-1: Interpreta, propone y resuelve problemas aditivos y multiplicativos que involucren cantidades discretas y continuas en diferentes contextos.",
+     "DBA-MAT-3-1: Interpreta, propone y resuelve problemas aditivos y multiplicativos que involucren cantidades discretas y continuas en diferentes contextos.",
   "DBA-MAT-3-8: Describe cualitativamente situaciones de cambio y variación utilizando lenguaje natural, gestos, dibujos y gráficas, e identifica regularidades en secuencias numéricas y patrones."
 ],
 "evidencias": [
@@ -275,5 +269,6 @@ json
     ]
   }
 }
+
 
 
