@@ -1,0 +1,80 @@
+{
+  "area": "Proyecto Socioemocional",
+  "grado": "2",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "competencia_anual": "Regulación básica y expresión emocional",
+        "estandar": "Desarrollo la conciencia emocional básica identificando y nombrando mis emociones (alegría, tristeza, miedo, enojo) en situaciones cotidianas de la escuela para iniciar su gestión personal",
+        "competencia": "Conciencia emocional",
+        "eje_central": "Identifico mis emociones en la escuela",
+        "Habilidades": [
+          "1. Identificación Emocional Básica: Nombra cómo se siente ante nuevas situaciones de aprendizaje escolar",
+          "2. Reconocimiento de Emociones Desafiantes: Identifica el miedo, el enojo o el nerviosismo en contextos de clase",
+          "3. Expresión Emocional Positiva: Expresa la alegría y la sorpresa al participar en actividades escolares"
+        ],
+        "evidencias_de_desempeno": [
+          "Nombra y describe cómo se siente frente a nuevas tareas escolares, diferenciando al menos dos emociones básicas y relacionándolas con la situación que las provoca",
+          "Comunica a sus compañeros y al docente cuando siente miedo, enojo o nerviosismo, y acepta o solicita estrategias de apoyo para gestionar esas emociones y participar de manera respetuosa en la actividad"
+        ],
+        "orientacion_bateria": "Reconocimiento emocional"
+      }
+    ],
+    "2": [
+      {
+        "competencia_anual": "Regulación básica y expresión emocional",
+        "estandar": "Aplico estrategias simples de autorregulación (respirar, pausar) ante emociones desafiantes como frustración o enojo durante actividades escolares, manteniendo la participación",
+        "competencia": "Autonomía emocional",
+        "eje_central": "Me autorregulo en clases",
+        "Habilidades": [
+          "1. Manejo de Impulsos: Aplica técnicas de respiración para tranquilizar el enojo en el aula",
+          "2. Persistencia y Esfuerzo: Demuestra esfuerzo y paciencia al enfrentar tareas desafiantes",
+          "3. Búsqueda de Apoyo: Solicita ayuda al adulto o compañero cuando no comprende una tarea"
+        ],
+        "evidencias_de_desempeno": [
+          "Aplica al menos una estrategia de autorregulación aprendida en clase, como respirar profundo o hacer una pausa breve, antes de continuar con la actividad",
+          "Frente a tareas desafiantes, el estudiante mantiene el esfuerzo y la paciencia durante un tiempo acordado con el docente, evitando abandonar de inmediato y solicitando ayuda cuando la dificultad supera sus recursos"
+        ],
+        "orientacion_bateria": "Auto regulación"
+      }
+    ],
+    "3": [
+      {
+        "competencia_anual": "Regulación básica y expresión emocional",
+        "estandar": "Expreso mis emociones con respeto usando palabras amables y tono adecuado, solicitando ayuda o turnos de manera pacífica en interacciones con compañeros y docentes",
+        "competencia": "Regulación emocional",
+        "eje_central": "Me expreso con respeto",
+        "Habilidades": [
+          "1. Comunicación Asertiva de Emociones: Expresa sus emociones utilizando palabras sin recurrir a gritos",
+          "2. Uso de Lenguaje Respetuoso: Emplea palabras amables al interactuar con compañeros y adultos",
+          "3. Solicitud Respetuosa de Necesidades: Comunica sus necesidades y peticiones de manera respetuosa al profesor"
+        ],
+        "evidencias_de_desempeno": [
+          "En situaciones de juego o trabajo en el aula, el estudiante expresa cómo se siente usando palabras amables y un tono de voz adecuado, evitando gritos o insultos",
+          "Cuando necesita algo (materiales, ayuda, turno para hablar), formula su pedido en forma de solicitud respetuosa, esperando su turno y escuchando la respuesta del adulto o de sus pares antes de actuar"
+        ],
+        "orientacion_bateria": "Comunicación emocional"
+      }
+    ],
+    "4": [
+      {
+        "competencia_anual": "Regulación básica y expresión emocional",
+        "estandar": "Expreso mis emociones con respeto usando palabras amables y tono adecuado, solicitando ayuda o turnos de manera pacífica en interacciones con compañeros y docentes",
+        "competencia": "Habilidades sociales",
+        "eje_central": "Convivo con los demás en paz",
+        "Habilidades": [
+          "1. Cooperación y Trabajo en Equipo: Colabora activamente en tareas grupales y escucha otras opiniones",
+          "2. Resolución Pacífica de Conflictos: Propone soluciones pacíficas ante desacuerdos con sus compañeros",
+          "3. Respeto de Normas y Acuerdos: Acata y respeta los acuerdos establecidos para la convivencia en el aula"
+        ],
+        "evidencias_de_desempeno": [
+          "Colabora con sus compañeros compartiendo materiales, participando en las tareas comunes y escuchando las opiniones de los demás",
+          "Ante desacuerdos o conflictos sencillos (por ejemplo, por un juguete o el turno en un juego), el estudiante acepta o propone soluciones pacíficas, como turnarse, compartir o pedir mediación al docente, respetando los acuerdos que se establecen en el aula"
+        ],
+        "orientacion_bateria": "Convivencia"
+      }
+    ]
+  }
+}
