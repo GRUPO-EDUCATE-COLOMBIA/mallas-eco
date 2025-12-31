@@ -3,74 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mallas Saber Lab - Grupo Edúcate Colombia</title>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Buscador de Mallas Curriculares - GEC</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Encabezado -->
-  <header class="header">
-    <div class="header-text">
-      <h1>Mallas Saber Lab<br>Propuesta Curricular Nacional</h1>
-      <h2>Consulta rápida de mallas por área, grado y período</h2>
-    </div>
+  <header>
+    <h1>Buscador de Mallas Curriculares</h1>
+    <p>Grupo Edúcate Colombia - Dirección de Pedagogía</p>
   </header>
 
-  <!-- Contenido principal -->
-  <main class="dashboard">
+  <main>
+    <!-- Filtros -->
+    <section id="filtros" class="filtros">
+      <div class="filtro-grupo">
+        <label for="area">Área</label>
+        <select id="area">
+          <option value="">Seleccionar</option>
+          <option value="matematicas">Matemáticas</option>
+          <option value="lenguaje">Lenguaje</option>
+          <option value="ciencias-sociales">Ciencias Sociales y Ciudadanas</option>
+          <option value="ciencias-naturales">Ciencias Naturales y Ambiental</option>
+          <option value="ingles">Inglés</option>
+          <option value="proyecto-socioemocional">Proyecto Socioemocional</option>
+        </select>
+      </div>
 
-    <!-- Filtros en una sola franja -->
-    <section class="filtros">
-      <!-- Mallas a: 3 / 4 períodos -->
-      <div class="filtro-grupo filtro-mallas">
-        <label>Mallas a:</label>
-        <div class="radio-group-inline">
-          <label>
-            <input type="radio" name="periodos" value="3" checked>
-            3 períodos
-          </label>
-          <label>
-            <input type="radio" name="periodos" value="4">
-            4 períodos
-          </label>
+      <div class="filtro-grupo">
+        <label for="grado">Grado</label>
+        <select id="grado" disabled>
+          <option value="">Seleccionar</option>
+          <option value="-1">Jardín (-1)</option>
+          <option value="0">Transición (0)</option>
+          <option value="1">1°</option>
+          <option value="2">2°</option>
+          <option value="3">3°</option>
+          <option value="4">4°</option>
+          <option value="5">5°</option>
+          <option value="6">6°</option>
+          <option value="7">7°</option>
+          <option value="8">8°</option>
+          <option value="9">9°</option>
+          <option value="10">10°</option>
+          <option value="11">11°</option>
+        </select>
+      </div>
+
+      <div class="filtro-grupo">
+        <label>Mallas a</label>
+        <div class="radios-periodos">
+          <label><input type="radio" name="periodos" value="3"> 3 períodos</label>
+          <label><input type="radio" name="periodos" value="4" checked> 4 períodos</label>
         </div>
       </div>
 
-      <!-- Área -->
-     <div class="filtro-grupo">
-  <label for="area">Área</label>
-  <select id="area">
-    <option value="">Seleccionar</option>
-    <option value="matematicas">Matemáticas</option>
-    <option value="lenguaje">Lenguaje</option>
-    <option value="ciencias-sociales">Ciencias Sociales y Ciudadanas</option>
-    <option value="ciencias-naturales">Ciencias Naturales y Ambiental</option>
-    <option value="ingles">Inglés</option>
-    <option value="proyecto-socioemocional">Proyecto Socioemocional</option>
-  </select>
-</div>
-
-      <!-- Grado -->
-      <div class="filtro-grupo">
-  <label for="grado">Grado</label>
-  <select id="grado" disabled>
-    <option value="">Seleccionar</option>
-    <option value="0">Transición (0)</option>
-    <option value="1">1°</option>
-    <option value="2">2°</option>
-    <option value="3">3°</option>
-    <option value="4">4°</option>
-    <option value="5">5°</option>
-    <option value="6">6°</option>
-    <option value="7">7°</option>
-    <option value="8">8°</option>
-    <option value="9">9°</option>
-    <option value="10">10°</option>
-    <option value="11">11°</option>
-  </select>
-</div>
-
-      <!-- Período -->
       <div class="filtro-grupo">
         <label for="periodo">Período</label>
         <select id="periodo" disabled>
@@ -78,7 +63,6 @@
         </select>
       </div>
 
-      <!-- Componente -->
       <div class="filtro-grupo">
         <label for="componente">Componente</label>
         <select id="componente" disabled>
@@ -86,48 +70,32 @@
         </select>
       </div>
 
-      <!-- Botón -->
-      <button class="btn-buscar">🔍 Consultar Malla</button>
+      <button class="btn-buscar">Consultar</button>
     </section>
 
-    <!-- Resultados -->
-    <section id="resultados" class="resultados">
-      <div class="tabla-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Componente</th>
-              <th>Código EBC</th>
-              <th>Estandar</th>
-              <th>DBA</th>
-              <th>Evidencias</th>
-              <th>Saberes</th>
-              <th>Socioemocional</th>
-              <th>Tareas DCE</th>
-              <th>Fuente</th>
-            </tr>
-          </thead>
-          <tbody id="tabla-body"></tbody>
-        </table>
-      </div>
+    <!-- Resultados Núcleo Común -->
+    <section id="resultados-nucleo" class="resultados ocultar">
+      <div id="tabla-body-nucleo" class="tabla-body"></div>
     </section>
 
+    <!-- Resultados Socioemocional -->
+    <section id="resultados-socio" class="resultados ocultar">
+      <div id="tabla-body-socio" class="tabla-body"></div>
+    </section>
   </main>
 
-  <!-- JS modular -->
-  <script src="js/tabla-mallas.js"></script>
-  <script src="js/ui-filtros.js"></script>
-  <script src="js/data-loader.js"></script>
+  <!-- Modal de Error -->
   <div id="modal-error" class="modal-error">
-  <div class="modal-error-contenido">
-    <h2>Mensaje de error</h2>
-    <p>Revise los parámetros de consulta y vuelva a intentarlo.</p>
-    <button id="btn-modal-cancelar" class="btn-modal-cancelar">Cancelar</button>
+    <div class="modal-error-contenido">
+      <h2>Mensaje de error</h2>
+      <p>Revise los parámetros de consulta y vuelva a intentarlo.</p>
+      <button id="btn-modal-cancelar" class="btn-modal-cancelar">Cancelar</button>
+    </div>
   </div>
-</div>
 
+  <script src="js/data-loader.js"></script>
+  <script src="js/ui-filtros.js"></script>
+  <script src="js/render-nucleo.js"></script>
+  <script src="js/render-socio.js"></script>
 </body>
 </html>
-
-
-
