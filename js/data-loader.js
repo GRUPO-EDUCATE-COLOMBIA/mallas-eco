@@ -55,7 +55,7 @@ function cargarSocioemocional4Periodos() {
 
   for (const grado of grados) {
     const gradoStr = grado === -1 ? '-1' : String(grado);
-    const fileName = `/mallas-saber-lab//data/Socioemocional/Socioemocional_${gradoStr}_4_Periodos.json`;
+    const fileName = `/mallas-saber-lab/data/Socioemocional/Socioemocional_${gradoStr}_4_Periodos.json`;
 
     const p = fetch(fileName)
       .then(r => {
@@ -100,4 +100,5 @@ Promise.all([
   console.log(`Total grados: ${totalGrados}`);
   console.log('Prueba en consola: window.MallasData.Matemáticas["5"]["4_periodos"]');
 });
+
 
