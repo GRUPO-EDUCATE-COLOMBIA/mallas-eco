@@ -17,7 +17,7 @@ function cargarMatematicas4Periodos() {
 
   // Grados 1 a 11
   for (let grado = 1; grado <= 11; grado++) {
-    const fileName = `data/matematicas/matematicas_${grado}_4_periodos.json`;
+    const fileName = `../data/matematicas/matematicas_${grado}_4_periodos.json`;
 
     const p = fetch(fileName)
       .then(r => {
@@ -54,7 +54,7 @@ function cargarSocioemocional4Periodos() {
 
   for (const grado of grados) {
     const gradoStr = grado === -1 ? '-1' : String(grado);
-    const fileName = `data/Socioemocional/Socioemocional_${gradoStr}_4_Periodos.json`;
+    const fileName = `../data/Socioemocional/Socioemocional_${gradoStr}_4_Periodos.json`;
 
     const p = fetch(fileName)
       .then(r => {
@@ -96,3 +96,4 @@ cargarMatematicas4Periodos()
   .catch(err => {
     console.error("❌ Error en carga:", err);
   });
+
