@@ -16,7 +16,7 @@ function cargarMatematicas4Periodos() {
 
   for (let grado = 1; grado <= 11; grado++) {
     // RUTA RELATIVA desde raíz del sitio (sin ../)
-    const fileName = `./data/matematicas/matematicas_${grado}_4_periodos.json`;
+    const fileName = `/mallas-saber-lab/data/matematicas/matematicas_${grado}_4_periodos.json`;
 
     const p = fetch(fileName)
       .then(r => {
@@ -55,7 +55,7 @@ function cargarSocioemocional4Periodos() {
 
   for (const grado of grados) {
     const gradoStr = grado === -1 ? '-1' : String(grado);
-    const fileName = `./data/Socioemocional/Socioemocional_${gradoStr}_4_Periodos.json`;
+    const fileName = `/mallas-saber-lab//data/Socioemocional/Socioemocional_${gradoStr}_4_Periodos.json`;
 
     const p = fetch(fileName)
       .then(r => {
@@ -100,3 +100,4 @@ Promise.all([
   console.log(`Total grados: ${totalGrados}`);
   console.log('Prueba en consola: window.MallasData.Matemáticas["5"]["4_periodos"]');
 });
+
