@@ -1,6 +1,6 @@
 {
   "area": "Proyecto Socioemocional",
-  "grado": "10",
+  "grado": "11",
   "tipo_malla": "4_periodos",
   "numero_periodos": 4,
   "periodos": {
@@ -78,3 +78,4 @@
     ]
   }
 }
+
