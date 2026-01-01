@@ -1,5 +1,10 @@
 // js/render-nucleo.js
 
+/**
+ * Renderiza la malla de las áreas del Núcleo Común con integración ECO.
+ * Ajustado para mostrar habilidades y evidencias en líneas separadas 
+ * y habilitar diccionarios para todos los grados.
+ */
 window.renderTablaMallas = function(items, grado, periodo) {
   const container = document.getElementById('tabla-body');
   if (!container) return;
@@ -7,35 +12,47 @@ window.renderTablaMallas = function(items, grado, periodo) {
   container.innerHTML = '';
 
   if (!items || items.length === 0) {
-    container.innerHTML = '<p class="sin-resultados">No se hallaron registros.</p>';
+    container.innerHTML = '<p class="sin-resultados">No se hallaron registros para los criterios seleccionados.</p>';
     return;
   }
 
+  // --- LÓGICA DE INTEGRACIÓN SOCIOEMOCIONAL ECO ---
   const areaSocioNombre = "Proyecto Socioemocional";
   const tipoMalla = "4_periodos"; 
   const socioDataRaw = window.MallasData?.[areaSocioNombre]?.[grado]?.[tipoMalla]?.periodos?.[periodo];
   const infoSocio = socioDataRaw && socioDataRaw.length > 0 ? socioDataRaw[0] : null;
 
-  let urlDiccionario = null;
-  const gradoNum = parseInt(grado);
-  if (gradoNum >= 1 && gradoNum <= 5) {
-    urlDiccionario = `eco/diccionario/eco_dic_${gradoNum}.html`;
-  }
+  // --- LÓGICA DE ENLACE AL DICCIONARIO ECO (Universal: -1 a 11) ---
+  // Construcción dinámica de la ruta: eco/diccionario/eco_dic_[grado].html
+  const urlDiccionario = `eco/diccionario/eco_dic_${grado}.html`;
+  
+  // Formateo del nombre del grado para el botón
+  let nombreGradoBoton = grado + "°";
+  if (grado === "0") nombreGradoBoton = "Transición";
+  if (grado === "-1") nombreGradoBoton = "Jardín";
 
   container.innerHTML = items.map(item => {
     
     // Preparación del bloque Socioemocional ECO
     let contenidoSocioHTML = '';
     if (infoSocio) {
+      // Formateamos Habilidades y Evidencias para que salgan en líneas separadas
+      const habilidadesHTML = infoSocio.Habilidades 
+        ? infoSocio.Habilidades.map(h => `<div style="margin-bottom: 5px;">${h}</div>`).join('') 
+        : 'No definidas';
+        
+      const evidenciasSocioHTML = infoSocio.evidencias_de_desempeno 
+        ? infoSocio.evidencias_de_desempeno.map(ev => `<div style="margin-bottom: 5px;">${ev}</div>`).join('') 
+        : 'No definidas';
+
       contenidoSocioHTML = `
-        <!-- Nueva Fila Separadora Pedida -->
         <div class="fila-separador-eco">Responsabilidad Socioemocional Proyecto ECO</div>
         
         <div class="seccion-eco-integrada">
           <div class="eco-badge">Cátedra ECO</div>
           <div class="eco-campo-dato"><strong>Eje Central:</strong> ${infoSocio.eje_central || ''}</div>
-          <div class="eco-campo-dato"><strong>Habilidades:</strong> ${infoSocio.Habilidades ? infoSocio.Habilidades.join(' • ') : ''}</div>
-          <div class="eco-campo-dato"><strong>Evidencias de Desempeño:</strong> ${infoSocio.evidencias_de_desempeno ? infoSocio.evidencias_de_desempeno.join(' • ') : ''}</div>
+          <div class="eco-campo-dato"><strong>Habilidades:</strong> <div style="margin-top:5px;">${habilidadesHTML}</div></div>
+          <div class="eco-campo-dato"><strong>Evidencias de Desempeño:</strong> <div style="margin-top:5px;">${evidenciasSocioHTML}</div></div>
         </div>
       `;
     }
@@ -72,13 +89,11 @@ window.renderTablaMallas = function(items, grado, periodo) {
             ${contenidoSocioHTML}
           </div>
 
-          <!-- ENLACE AL DICCIONARIO ECO -->
+          <!-- ENLACE AL DICCIONARIO ECO (Universal) -->
           <div class="campo">
             <strong class="label-eco">Recursos Pedagógicos:</strong>
             <div class="dic-link-container">
-              ${urlDiccionario ? 
-                `<a href="${urlDiccionario}" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO - Grado ${gradoNum}°</a>` : 
-                '<p class="texto-vacio">Recurso no disponible para este grado.</p>'}
+               <a href="${urlDiccionario}" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO - ${nombreGradoBoton}</a>
             </div>
           </div>
 
