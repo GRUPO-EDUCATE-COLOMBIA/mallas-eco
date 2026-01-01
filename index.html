@@ -15,7 +15,7 @@
   </header>
 
   <main>
-    <!-- Filtros Horizontales -->
+    <!-- Sección de Filtros Horizontales y Sticky -->
     <section id="filtros" class="filtros">
       
       <!-- 1. Mallas A -->
@@ -65,19 +65,64 @@
         </select>
       </div>
 
-      <button class="btn-buscar">Consultar</button>
+      <!-- Botones de Acción -->
+      <div class="botones-container">
+        <button class="btn-buscar">Consultar</button>
+        <button id="btn-progresion" class="btn-progresion" disabled>Progresión del Aprendizaje</button>
+      </div>
     </section>
 
-    <!-- Contenedor de Resultados Núcleo Común -->
+    <!-- Resultados Núcleo Común -->
     <section id="resultados-nucleo" class="resultados ocultar">
       <div id="tabla-body" class="tabla-body"></div>
     </section>
 
-    <!-- Contenedor de Resultados Socioemocional -->
+    <!-- Resultados Socioemocional -->
     <section id="resultados-socio" class="resultados ocultar">
       <div id="tabla-body-socio" class="tabla-body"></div>
     </section>
   </main>
+
+  <!-- VENTANA OVERLAY DE PROGRESIÓN (Oculta por defecto) -->
+  <div id="overlay-progresion" class="overlay-progresion ocultar">
+    <div class="progresion-container">
+      
+      <!-- Encabezado de la Ventana -->
+      <div class="progresion-header">
+        <button id="btn-cerrar-progresion" class="btn-cerrar-overlay">Cerrar Vista</button>
+        <div class="progresion-titulo-texto">
+          <h2>Progresión de Aprendizajes: <span id="prog-area-txt"></span></h2>
+          <h3>Componente: <span id="prog-comp-txt"></span></h3>
+        </div>
+      </div>
+
+      <!-- Controles de Navegación de Grados -->
+      <div class="progresion-navegacion">
+        <button id="prog-prev" class="btn-nav"> &larr; Grados Anteriores</button>
+        <div class="info-ciclo">Visualizando secuencia de 3 grados</div>
+        <button id="prog-next" class="btn-nav">Grados Siguientes &rarr;</button>
+      </div>
+
+      <!-- Cuerpo de 3 Columnas -->
+      <div class="progresion-columnas">
+        <!-- Columna X - 1 -->
+        <div class="col-prog" id="col-grado-prev">
+          <div class="col-header">Grado Anterior</div>
+          <div class="col-content" id="cont-grado-prev"></div>
+        </div>
+        <!-- Columna X (Actual) -->
+        <div class="col-prog actual" id="col-grado-actual">
+          <div class="col-header">Grado Seleccionado</div>
+          <div class="col-content" id="cont-grado-actual"></div>
+        </div>
+        <!-- Columna X + 1 -->
+        <div class="col-prog" id="col-grado-next">
+          <div class="col-header">Grado Siguiente</div>
+          <div class="col-content" id="cont-grado-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Modal de Error -->
   <div id="modal-error" class="modal-error">
@@ -88,9 +133,11 @@
     </div>
   </div>
 
+  <!-- Scripts -->
   <script src="js/data-loader.js"></script>
   <script src="js/render-nucleo.js"></script>
   <script src="js/render-socio.js"></script>
+  <script src="js/render-progresion.js"></script> <!-- Nuevo archivo para el reto -->
   <script src="js/ui-filtros.js"></script>
 
 </body>
