@@ -1,11 +1,15 @@
 // js/ui-filtros.js
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Captura de elementos del DOM
   const areaSel = document.getElementById('area');
   const gradoSel = document.getElementById('grado');
   const periodoSel = document.getElementById('periodo');
   const compSel = document.getElementById('componente');
+  
   const btnBuscar = document.querySelector('.btn-buscar');
+  const btnProgresion = document.getElementById('btn-progresion'); // Nuevo botón del reto
+  
   const resNucleo = document.getElementById('resultados-nucleo');
   const resSocio = document.getElementById('resultados-socio');
   const modalError = document.getElementById('modal-error');
@@ -20,12 +24,14 @@ document.addEventListener('DOMContentLoaded', () => {
     "proyecto-socioemocional": { nombre: "Proyecto Socioemocional", clase: "area-socioemocional" }
   };
 
-  // 1. Bloqueo de menú contextual (Clic derecho) en resultados para evitar copia
+  // Bloqueo de menú contextual en resultados
   [resNucleo, resSocio].forEach(contenedor => {
     contenedor.addEventListener('contextmenu', e => e.preventDefault());
   });
 
-  // 2. EVENTO: CAMBIO DE ÁREA
+  // --- ESCUCHADORES DE EVENTOS ---
+
+  // Cambio de Área
   areaSel.addEventListener('change', () => {
     const config = AREA_CONFIG[areaSel.value];
     ocultarResultados();
@@ -33,17 +39,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!config || !window.MallasData[config.nombre]) {
       gradoSel.disabled = true;
       limpiarSelects([gradoSel, periodoSel, compSel]);
+      validarEstadoBotones();
       return;
     }
 
-    // Extraer grados disponibles dinámicamente del JSON cargado
     const gradosDisponibles = Object.keys(window.MallasData[config.nombre]);
-    
     gradoSel.innerHTML = '<option value="">Seleccionar</option>';
     gradosDisponibles.sort((a, b) => a - b).forEach(grado => {
       const opt = document.createElement('option');
       opt.value = grado;
-      // Formateo de nombres de grados
       if (grado === "0") opt.textContent = "Transición (0)";
       else if (grado === "-1") opt.textContent = "Jardín (-1)";
       else opt.textContent = grado + "°";
@@ -53,19 +57,48 @@ document.addEventListener('DOMContentLoaded', () => {
     gradoSel.disabled = false;
     periodoSel.disabled = true;
     compSel.disabled = true;
+    validarEstadoBotones();
   });
 
-  // 3. EVENTO: CAMBIO DE GRADO -> Actualiza Períodos
-  gradoSel.addEventListener('change', updatePeriodosUI);
+  // Cambio de Grado
+  gradoSel.addEventListener('change', () => {
+    updatePeriodosUI();
+    validarEstadoBotones();
+  });
 
-  // 4. EVENTO: CAMBIO DE PERIODO -> Actualiza Componentes
-  periodoSel.addEventListener('change', updateComponentesUI);
+  // Cambio de Período
+  periodoSel.addEventListener('change', () => {
+    updateComponentesUI();
+    validarEstadoBotones();
+  });
+
+  // Cambio de Componente
+  compSel.addEventListener('change', () => {
+    validarEstadoBotones();
+  });
+
+  // Botón Consultar Malla (Vertical)
+  btnBuscar.addEventListener('click', () => {
+    consultarMalla();
+  });
+
+  // Botón Progresión (Reto Alineación Vertical)
+  if (btnProgresion) {
+    btnProgresion.addEventListener('click', () => {
+      const areaNombre = AREA_CONFIG[areaSel.value].nombre;
+      const grado = gradoSel.value;
+      const componente = compSel.value;
+      // Llamamos al motor de progresión
+      window.ProgresionMotor.abrir(areaNombre, grado, componente);
+    });
+  }
+
+  // --- LÓGICA DE INTERFAZ ---
 
   function updatePeriodosUI() {
     const config = AREA_CONFIG[areaSel.value];
     const grado = gradoSel.value;
     const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
-
     const malla = window.MallasData?.[config.nombre]?.[grado]?.[tipo];
     
     if (!malla) {
@@ -89,7 +122,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const grado = gradoSel.value;
     const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
     const periodo = periodoSel.value;
-
     const malla = window.MallasData?.[config.nombre]?.[grado]?.[tipo];
     const items = malla?.periodos?.[periodo] || [];
 
@@ -104,14 +136,29 @@ document.addEventListener('DOMContentLoaded', () => {
     compSel.disabled = false;
   }
 
-  // 5. BOTÓN CONSULTAR
+  /**
+   * Determina si el botón de progresión debe estar activo.
+   * Se activa solo si hay Área, Grado y un Componente específico (no "todos").
+   */
+  function validarEstadoBotones() {
+    const area = areaSel.value;
+    const grado = gradoSel.value;
+    const componente = compSel.value;
+
+    if (btnProgresion) {
+      // El reto exige restringirlo a un componente a la vez para facilitar la lectura
+      const esValido = area && grado && componente && componente !== 'todos';
+      btnProgresion.disabled = !esValido;
+    }
+  }
+
   function consultarMalla() {
     const areaVal = areaSel.value;
     const config = AREA_CONFIG[areaVal];
     const grado = gradoSel.value;
-    const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
     const periodo = periodoSel.value;
     const componente = compSel.value;
+    const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
 
     const malla = window.MallasData?.[config?.nombre]?.[grado]?.[tipo];
     if (!malla || !periodo) {
@@ -124,22 +171,17 @@ document.addEventListener('DOMContentLoaded', () => {
       : malla.periodos[periodo].filter(it => (it.componente === componente || it.competencia === componente));
 
     ocultarResultados();
-
-    // APLICAR CLASE DE COLOR DINÁMICA
     resNucleo.className = "resultados ocultar"; 
     resSocio.className = "resultados ocultar";
 
     if (areaVal === "proyecto-socioemocional") {
       resSocio.classList.add('mostrar', config.clase);
-      if (window.renderSocioemocional) window.renderSocioemocional(items);
+      window.renderSocioemocional(items);
     } else {
       resNucleo.classList.add('mostrar', config.clase);
-      // CAMBIO CLAVE: Enviamos grado y periodo para el cruce de datos con ECO
-      if (window.renderTablaMallas) window.renderTablaMallas(items, grado, periodo);
+      window.renderTablaMallas(items, grado, periodo);
     }
   }
-
-  btnBuscar.addEventListener('click', consultarMalla);
 
   function ocultarResultados() {
     resNucleo.classList.remove('mostrar');
