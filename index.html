@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Buscador de Mallas Curriculares - GEC</title>
-  <!-- Mantengo la fuente y el estilo original -->
+  <title>Mallas Curriculares Nacionales - GEC</title>
+  <!-- Fuente Barlow Condensed -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Buscador de Mallas Curriculares</h1>
+    <h1>Mallas Curriculares Nacionales</h1>
     <p>Grupo Edúcate Colombia - Dirección de Pedagogía</p>
   </header>
 
   <main>
-    <!-- Sección de Filtros Reordenada -->
+    <!-- Filtros Horizontales -->
     <section id="filtros" class="filtros">
       
-      <!-- 1. Mallas A (Estructura de períodos) -->
+      <!-- 1. Mallas A -->
       <div class="filtro-grupo">
         <label>Mallas a</label>
         <div class="radios-periodos">
@@ -46,19 +46,6 @@
         <label for="grado">Grado</label>
         <select id="grado" disabled>
           <option value="">Seleccionar</option>
-          <option value="-1">Jardín (-1)</option>
-          <option value="0">Transición (0)</option>
-          <option value="1">1°</option>
-          <option value="2">2°</option>
-          <option value="3">3°</option>
-          <option value="4">4°</option>
-          <option value="5">5°</option>
-          <option value="6">6°</option>
-          <option value="7">7°</option>
-          <option value="8">8°</option>
-          <option value="9">9°</option>
-          <option value="10">10°</option>
-          <option value="11">11°</option>
         </select>
       </div>
 
@@ -78,19 +65,16 @@
         </select>
       </div>
 
-      <!-- Botón de Acción -->
       <button class="btn-buscar">Consultar</button>
     </section>
 
-    <!-- Resultados Núcleo Común (Matemáticas, Lenguaje, etc.) -->
+    <!-- Contenedor de Resultados Núcleo Común -->
     <section id="resultados-nucleo" class="resultados ocultar">
-      <!-- Corregido a id="tabla-body" para coincidir con render-nucleo.js -->
       <div id="tabla-body" class="tabla-body"></div>
     </section>
 
-    <!-- Resultados Socioemocional -->
+    <!-- Contenedor de Resultados Socioemocional -->
     <section id="resultados-socio" class="resultados ocultar">
-      <!-- Coincide con render-socio.js -->
       <div id="tabla-body-socio" class="tabla-body"></div>
     </section>
   </main>
@@ -104,7 +88,6 @@
     </div>
   </div>
 
-  <!-- Carga de Scripts (Ordenados por jerarquía y sin duplicados) -->
   <script src="js/data-loader.js"></script>
   <script src="js/render-nucleo.js"></script>
   <script src="js/render-socio.js"></script>
