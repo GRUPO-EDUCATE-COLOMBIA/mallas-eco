@@ -1,4 +1,4 @@
-/* styles.css - Buscador de Mallas Curriculares GEC */
+/* styles.css - Mallas Curriculares Nacionales */
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Barlow Condensed', sans-serif;
-  background: #f0f2f5;
+  background: #f4f7f9;
   min-height: 100vh;
   color: #17334B;
   line-height: 1.6;
@@ -22,104 +22,114 @@ header {
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 header p {
   opacity: 0.9;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 main {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
 }
 
-/* Filtros Horizontales debajo del título */
+/* --- SECCIÓN DE FILTROS (DISEÑO HORIZONTAL) --- */
 .filtros {
   background: white;
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  margin-bottom: 1.5rem;
-  
-  /* Alineación Horizontal */
+  padding: 1.2rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .filtro-grupo {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
-  min-width: 150px;
-}
-
-/* Ajuste específico para el grupo de radios */
-.filtro-grupo:first-child {
-  min-width: 200px;
+  gap: 0.4rem;
+  min-width: 160px;
 }
 
 .filtros label {
   font-weight: 700;
   color: #17334B;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .filtros select {
-  padding: 0.5rem;
-  border: 1px solid #ced4da;
-  border-radius: 6px;
-  font-size: 0.95rem;
+  padding: 0.6rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  font-size: 1rem;
   background: white;
-  width: 100%;
+  transition: border-color 0.3s;
+  cursor: pointer;
+}
+
+.filtros select:focus {
+  outline: none;
+  border-color: #11678B;
 }
 
 .radios-periodos {
   display: flex;
-  gap: 0.8rem;
-  padding: 0.4rem;
-  border: 1px solid #ced4da;
-  border-radius: 6px;
+  gap: 1rem;
+  padding: 0.5rem 0.8rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
 }
 
 .radios-periodos label {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
   cursor: pointer;
   text-transform: none;
   font-weight: 500;
+  font-size: 1rem;
 }
 
 .btn-buscar {
   background: #11678B;
   color: white;
   border: none;
-  padding: 0.6rem 2rem;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-weight: 600;
+  padding: 0 2.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: background 0.3s;
-  height: 40px; /* Alineado con los selectores */
+  transition: all 0.3s ease;
+  height: 44px;
 }
 
 .btn-buscar:hover {
-  background: #54BBAB;
+  background: #17334B;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(17, 103, 139, 0.3);
 }
 
-/* Resultados con crecimiento vertical */
+/* --- CONTENEDORES DE RESULTADOS --- */
 .resultados {
   display: none;
+  /* Bloqueo de selección y copia */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 .resultados.mostrar {
@@ -129,69 +139,112 @@ main {
 .tabla-body {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
-  max-width: 900px;
-  margin: 0 auto;
+  gap: 2rem;
+  /* Tamaño de fuente aumentado para legibilidad */
+  font-size: 1.15rem;
 }
 
 .item-malla {
   background: white;
-  border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-  border-left: 6px solid #54BBAB;
+  border-radius: 12px;
+  overflow: hidden; /* Para que el encabezado respete el radio */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.05);
 }
 
-.item-malla.socioemocional {
-  border-left-color: #F39325;
-}
-
+/* Encabezado del Componente (Primera Fila) */
 .item-malla h3 {
-  font-size: 1.2rem;
-  color: #17334B;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.item-malla-contenido {
+  padding: 1.5rem 2rem;
 }
 
 .campo {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .campo strong {
-  font-size: 0.8rem;
-  color: #11678B;
-  text-transform: uppercase;
   display: block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
 }
 
-/* Estilo para Socioemocional */
-.item-malla.socioemocional h3 { color: #D94D15; }
+/* --- CLASES DINÁMICAS POR ÁREA --- */
 
-/* Modal de Error */
+/* Matemáticas #F07F3C */
+.area-matematicas .item-malla h3 { background-color: #F07F3C; }
+.area-matematicas .item-malla { background-color: rgba(240, 127, 60, 0.06); }
+.area-matematicas .campo strong { color: #D35400; }
+
+/* Lenguaje #FBBB21 */
+.area-lenguaje .item-malla h3 { background-color: #FBBB21; }
+.area-lenguaje .item-malla { background-color: rgba(251, 187, 33, 0.06); }
+.area-lenguaje .campo strong { color: #9A7D0A; }
+
+/* Sociales #3974B9 */
+.area-sociales .item-malla h3 { background-color: #3974B9; }
+.area-sociales .item-malla { background-color: rgba(57, 116, 185, 0.06); }
+.area-sociales .campo strong { color: #1F4E79; }
+
+/* Naturales #95C11F */
+.area-naturales .item-malla h3 { background-color: #95C11F; }
+.area-naturales .item-malla { background-color: rgba(149, 193, 31, 0.06); }
+.area-naturales .campo strong { color: #4D6211; }
+
+/* Ingles #8257A0 */
+.area-ingles .item-malla h3 { background-color: #8257A0; }
+.area-ingles .item-malla { background-color: rgba(130, 87, 160, 0.06); }
+.area-ingles .campo strong { color: #513366; }
+
+/* Socioemocional (Mantiene su estilo) */
+.area-socioemocional .item-malla h3 { background-color: #D94D15; }
+.area-socioemocional .item-malla { background-color: #fffaf5; }
+
+/* --- MODAL Y OTROS --- */
 .modal-error {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(23, 51, 75, 0.8);
+  backdrop-filter: blur(4px);
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 9999;
 }
 
 .modal-error.mostrar { display: flex; }
 
 .modal-error-contenido {
   background: white;
-  padding: 2rem;
-  border-radius: 10px;
+  padding: 3rem;
+  border-radius: 15px;
   text-align: center;
+  max-width: 450px;
 }
 
-/* Responsivo */
-@media (max-width: 992px) {
-  .filtros {
-    flex-direction: column;
-    align-items: stretch;
-  }
+.btn-modal-cancelar {
+  background: #c0392b;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+/* Cursor de solo lectura para evitar sensación de edición */
+.item-malla, .item-malla * {
+  cursor: default;
 }
