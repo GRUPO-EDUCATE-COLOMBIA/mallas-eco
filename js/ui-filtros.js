@@ -1,20 +1,16 @@
 // js/ui-filtros.js
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Captura de elementos del DOM
   const areaSel = document.getElementById('area');
   const gradoSel = document.getElementById('grado');
   const periodoSel = document.getElementById('periodo');
   const compSel = document.getElementById('componente');
-  
   const btnBuscar = document.querySelector('.btn-buscar');
-  const btnProgresion = document.getElementById('btn-progresion'); // Nuevo botón del reto
-  
+  const btnProgresion = document.getElementById('btn-progresion');
   const resNucleo = document.getElementById('resultados-nucleo');
   const resSocio = document.getElementById('resultados-socio');
   const modalError = document.getElementById('modal-error');
 
-  // Mapeo detallado para vincular HTML -> JSON -> CSS
   const AREA_CONFIG = {
     "matematicas": { nombre: "Matemáticas", clase: "area-matematicas" },
     "lenguaje": { nombre: "Lenguaje", clase: "area-lenguaje" },
@@ -24,93 +20,65 @@ document.addEventListener('DOMContentLoaded', () => {
     "proyecto-socioemocional": { nombre: "Proyecto Socioemocional", clase: "area-socioemocional" }
   };
 
-  // Bloqueo de menú contextual en resultados
-  [resNucleo, resSocio].forEach(contenedor => {
-    contenedor.addEventListener('contextmenu', e => e.preventDefault());
-  });
+  // Asegurar que el modal esté oculto al iniciar
+  if (modalError) modalError.classList.remove('mostrar');
 
-  // --- ESCUCHADORES DE EVENTOS ---
-
-  // Cambio de Área
+  // EVENTOS
   areaSel.addEventListener('change', () => {
     const config = AREA_CONFIG[areaSel.value];
     ocultarResultados();
-    
     if (!config || !window.MallasData[config.nombre]) {
       gradoSel.disabled = true;
       limpiarSelects([gradoSel, periodoSel, compSel]);
       validarEstadoBotones();
       return;
     }
-
-    const gradosDisponibles = Object.keys(window.MallasData[config.nombre]);
+    const grados = Object.keys(window.MallasData[config.nombre]);
     gradoSel.innerHTML = '<option value="">Seleccionar</option>';
-    gradosDisponibles.sort((a, b) => a - b).forEach(grado => {
+    grados.sort((a,b)=>a-b).forEach(g => {
       const opt = document.createElement('option');
-      opt.value = grado;
-      if (grado === "0") opt.textContent = "Transición (0)";
-      else if (grado === "-1") opt.textContent = "Jardín (-1)";
-      else opt.textContent = grado + "°";
+      opt.value = g;
+      opt.textContent = g === "0" ? "Transición (0)" : (g === "-1" ? "Jardín (-1)" : g + "°");
       gradoSel.appendChild(opt);
     });
-
     gradoSel.disabled = false;
-    periodoSel.disabled = true;
-    compSel.disabled = true;
+    limpiarSelects([periodoSel, compSel]);
     validarEstadoBotones();
   });
 
-  // Cambio de Grado
   gradoSel.addEventListener('change', () => {
     updatePeriodosUI();
     validarEstadoBotones();
   });
 
-  // Cambio de Período
   periodoSel.addEventListener('change', () => {
     updateComponentesUI();
     validarEstadoBotones();
   });
 
-  // Cambio de Componente
-  compSel.addEventListener('change', () => {
-    validarEstadoBotones();
-  });
+  compSel.addEventListener('change', validarEstadoBotones);
 
-  // Botón Consultar Malla (Vertical)
-  btnBuscar.addEventListener('click', () => {
-    consultarMalla();
-  });
+  btnBuscar.addEventListener('click', consultarMalla);
 
-  // Botón Progresión (Reto Alineación Vertical)
   if (btnProgresion) {
     btnProgresion.addEventListener('click', () => {
-      const areaNombre = AREA_CONFIG[areaSel.value].nombre;
-      const grado = gradoSel.value;
-      const componente = compSel.value;
-      // Llamamos al motor de progresión
-      window.ProgresionMotor.abrir(areaNombre, grado, componente);
+      const area = AREA_CONFIG[areaSel.value].nombre;
+      window.ProgresionMotor.abrir(area, gradoSel.value, compSel.value);
     });
   }
 
-  // --- LÓGICA DE INTERFAZ ---
-
+  // FUNCIONES
   function updatePeriodosUI() {
     const config = AREA_CONFIG[areaSel.value];
     const grado = gradoSel.value;
     const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
     const malla = window.MallasData?.[config.nombre]?.[grado]?.[tipo];
-    
-    if (!malla) {
-      limpiarSelects([periodoSel, compSel]);
-      return;
-    }
+    if (!malla) return;
 
     periodoSel.innerHTML = '<option value="">Seleccionar</option>';
-    for (let i = 1; i <= malla.numero_periodos; i++) {
+    for(let i=1; i<=malla.numero_periodos; i++) {
       const opt = document.createElement('option');
-      opt.value = String(i);
-      opt.textContent = `${i}° período`;
+      opt.value = String(i); opt.textContent = `${i}° período`;
       periodoSel.appendChild(opt);
     }
     periodoSel.disabled = false;
@@ -127,7 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     compSel.innerHTML = '<option value="todos">Todos</option>';
     const nombres = [...new Set(items.map(it => it.componente || it.competencia))];
-    
     nombres.sort().forEach(n => {
       const opt = document.createElement('option');
       opt.value = n; opt.textContent = n;
@@ -136,50 +103,35 @@ document.addEventListener('DOMContentLoaded', () => {
     compSel.disabled = false;
   }
 
-  /**
-   * Determina si el botón de progresión debe estar activo.
-   * Se activa solo si hay Área, Grado y un Componente específico (no "todos").
-   */
   function validarEstadoBotones() {
-    const area = areaSel.value;
-    const grado = gradoSel.value;
-    const componente = compSel.value;
-
     if (btnProgresion) {
-      // El reto exige restringirlo a un componente a la vez para facilitar la lectura
-      const esValido = area && grado && componente && componente !== 'todos';
-      btnProgresion.disabled = !esValido;
+      btnProgresion.disabled = !(areaSel.value && gradoSel.value && compSel.value && compSel.value !== 'todos');
     }
   }
 
   function consultarMalla() {
-    const areaVal = areaSel.value;
-    const config = AREA_CONFIG[areaVal];
-    const grado = gradoSel.value;
-    const periodo = periodoSel.value;
-    const componente = compSel.value;
+    const config = AREA_CONFIG[areaSel.value];
     const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
+    const malla = window.MallasData?.[config?.nombre]?.[gradoSel.value]?.[tipo];
 
-    const malla = window.MallasData?.[config?.nombre]?.[grado]?.[tipo];
-    if (!malla || !periodo) {
-      if (modalError) modalError.classList.add('mostrar');
+    if (!malla || !periodoSel.value) {
+      modalError.classList.add('mostrar');
       return;
     }
 
-    const items = componente === "todos" 
-      ? malla.periodos[periodo] 
-      : malla.periodos[periodo].filter(it => (it.componente === componente || it.competencia === componente));
+    const items = compSel.value === "todos" 
+      ? malla.periodos[periodoSel.value] 
+      : malla.periodos[periodoSel.value].filter(it => it.componente === compSel.value || it.competencia === compSel.value);
 
-    ocultarResultados();
     resNucleo.className = "resultados ocultar"; 
     resSocio.className = "resultados ocultar";
 
-    if (areaVal === "proyecto-socioemocional") {
+    if (areaSel.value === "proyecto-socioemocional") {
       resSocio.classList.add('mostrar', config.clase);
       window.renderSocioemocional(items);
     } else {
       resNucleo.classList.add('mostrar', config.clase);
-      window.renderTablaMallas(items, grado, periodo);
+      window.renderTablaMallas(items, gradoSel.value, periodoSel.value);
     }
   }
 
