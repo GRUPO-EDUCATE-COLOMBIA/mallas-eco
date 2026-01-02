@@ -13,97 +13,71 @@ function ensureAreaGradeTipo(area, grado, tipo) {
 }
 
 /**
- * Carga los archivos JSON de Matemáticas (Grados 1 a 11)
- * Utiliza rutas relativas para mayor portabilidad.
+ * Carga los archivos JSON de Matemáticas
+ * CORRECCIÓN: Se ajustó el inicio del ciclo a 0 para incluir Transición.
  */
 function cargarMatematicas4Periodos() {
   const areaNombre = "Matemáticas";
   const tipo_malla = "4_periodos";
   const promesas = [];
-  const cargadas = [];
 
-  for (let grado = 1; grado <= 11; grado++) {
-    // RUTA RELATIVA: Se elimina el prefijo fijo para que funcione en cualquier entorno
-    const fileName = `data/matematicas/matematicas_${grado}_4_periodos.json`;
+  // CAMBIO CLAVE: Empezamos en 0 para cargar matematicas_0_4_periodos.json
+  for (let grado = 0; grado <= 11; grado++) {
+    const gradoStr = String(grado);
+    const fileName = `data/matematicas/matematicas_${gradoStr}_4_periodos.json`;
 
     const p = fetch(fileName)
       .then(r => {
-        if (!r.ok) throw new Error(`HTTP ${r.status} - No encontrado`);
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
       })
       .then(json => {
-        const gradoJson = String(json.grado || grado);
-        const tipoJson = json.tipo_malla || tipo_malla;
-        const areaJson = json.area || areaNombre;
-
-        ensureAreaGradeTipo(areaJson, gradoJson, tipoJson);
-        window.MallasData[areaJson][gradoJson][tipoJson] = json;
-        cargadas.push(gradoJson);
-        
-        console.log(`✅ ${areaJson} ${gradoJson}° cargada`);
+        // Blindaje: Usamos gradoStr (nombre archivo) para asegurar la posición correcta
+        ensureAreaGradeTipo(areaNombre, gradoStr, tipo_malla);
+        window.MallasData[areaNombre][gradoStr][tipo_malla] = json;
+        console.log(`✅ Matemáticas ${gradoStr}° cargada`);
       })
       .catch(err => {
-        console.warn(`⚠️ Error cargando ${fileName}:`, err.message);
+        // Solo mostramos advertencia si el archivo realmente debería existir
+        if (grado >= 0) {
+          console.warn(`⚠️ No se halló o hubo error en: ${fileName}`);
+        }
       });
 
     promesas.push(p);
   }
-
-  return Promise.all(promesas).then(() => {
-    console.log(`📊 Matemáticas: ${cargadas.length}/11 grados disponibles.`);
-  });
+  return Promise.all(promesas);
 }
 
 /**
  * Carga los archivos JSON de Proyecto Socioemocional
- * Incluye grados especiales como Jardín (-1) y Transición (0)
  */
 function cargarSocioemocional4Periodos() {
   const areaNombre = "Proyecto Socioemocional";
   const tipo_malla = "4_periodos";
   const promesas = [];
-  const grados = [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-  const cargadas = [];
+  const niveles = ["-1", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"];
 
-  for (const grado of grados) {
-    const gradoStr = String(grado);
-    // RUTA RELATIVA: Se respeta la subcarpeta 'Socioemocional' detectada en el análisis
+  niveles.forEach(gradoStr => {
     const fileName = `data/Socioemocional/Socioemocional_${gradoStr}_4_periodos.json`;
 
     const p = fetch(fileName)
-      .then(r => {
-        if (!r.ok) throw new Error(`HTTP ${r.status} - No encontrado`);
-        return r.json();
-      })
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
       .then(json => {
-        const gradoJson = String(json.grado || gradoStr);
-        const tipoJson = json.tipo_malla || tipo_malla;
-        const areaJson = json.area || areaNombre;
-
-        ensureAreaGradeTipo(areaJson, gradoJson, tipoJson);
-        window.MallasData[areaJson][gradoJson][tipoJson] = json;
-        cargadas.push(gradoJson);
-        
-        console.log(`✅ ${areaJson} ${gradoJson}° cargada`);
+        ensureAreaGradeTipo(areaNombre, gradoStr, tipo_malla);
+        window.MallasData[areaNombre][gradoStr][tipo_malla] = json;
+        console.log(`✅ Proyecto Socioemocional ${gradoStr}° cargada`);
       })
-      .catch(err => {
-        console.warn(`⚠️ Error cargando ${fileName}:`, err.message);
-      });
-
+      .catch(() => console.warn(`⚠️ No se halló Socioemocional: ${fileName}`));
     promesas.push(p);
-  }
-
-  return Promise.all(promesas).then(() => {
-    console.log(`📊 Socioemocional: ${cargadas.length}/13 niveles disponibles.`);
   });
+  return Promise.all(promesas);
 }
 
-/**
- * Ejecución de carga en paralelo al iniciar la aplicación
- */
+// Ejecución de carga inicial
 Promise.all([
   cargarMatematicas4Periodos(),
   cargarSocioemocional4Periodos()
 ]).then(() => {
-  console.log('🚀 PROCESO DE CARGA DE DATOS FINALIZADO');
+  console.log("🚀 VINCULACIÓN FINALIZADA");
 });
