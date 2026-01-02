@@ -1,5 +1,10 @@
 // js/render-progresion.js
 
+/**
+ * Motor de Progresión de Aprendizajes con Puente Pedagógico Universal.
+ * Resuelve el conflicto de nombres entre Preescolar (Integral/DBA) 
+ * y Primaria (Componentes/Estándares) para todas las áreas.
+ */
 window.ProgresionMotor = (function() {
   
   let estado = {
@@ -9,6 +14,7 @@ window.ProgresionMotor = (function() {
     tipoMalla: '4_periodos'
   };
 
+  // Referencias DOM
   const overlay = document.getElementById('overlay-progresion');
   const btnCerrar = document.getElementById('btn-cerrar-progresion');
   const btnPrev = document.getElementById('prog-prev');
@@ -45,10 +51,9 @@ window.ProgresionMotor = (function() {
     txtArea.textContent = estado.area;
     txtComp.textContent = estado.componente;
 
-    // --- LÓGICA DE EXCEPCIÓN PARA PREESCOLAR ---
+    // --- LÓGICA DE EXCEPCIÓN PARA PREESCOLAR (Puente 2 Columnas) ---
     if (g <= 0) {
-      // Modo Preescolar: 2 Columnas
-      colNext.style.display = 'none'; // Ocultamos la 3ra columna
+      colNext.style.display = 'none'; // Ocultamos la 3ra columna en preescolar
       
       if (g === -1) { // JARDÍN
         dibujarColumna(contPrev, labelPrev, "-1");
@@ -61,11 +66,11 @@ window.ProgresionMotor = (function() {
       }
       
       btnPrev.disabled = (g === -1);
-      btnNext.disabled = true; // Bloqueamos avanzar para forzar selección de componente en 1°
+      btnNext.disabled = true; // Bloqueo pedagógico para forzar selección de componente en 1°
       
       const msg = g === 0 
-        ? "Para avanzar a 2°, cierre esta vista y seleccione un componente académico en Grado 1°."
-        : "Secuencia de Preescolar.";
+        ? "Para avanzar a 2°, cierre esta vista y seleccione un componente en Grado 1°."
+        : "Secuencia de Preescolar Integral.";
       document.querySelector('.info-ciclo').textContent = msg;
 
     } else {
@@ -96,12 +101,10 @@ window.ProgresionMotor = (function() {
     etiqueta.textContent = formatearNombreGrado(gradoStr);
 
     const esPreescolar = (gradoStr === "0" || gradoStr === "-1");
-    // Si estamos en preescolar O si estamos viendo el Grado 1 desde Transición, 
-    // usamos una lógica de "Muestra todo"
     const datosAnuales = obtenerDatosAnuales(gradoStr, esPreescolar);
 
     if (datosAnuales.length === 0) {
-      contenedor.innerHTML = '<p class="texto-vacio">No se halló información.</p>';
+      contenedor.innerHTML = '<p class="texto-vacio">No se halló información para este componente.</p>';
     } else {
       datosAnuales.forEach(texto => {
         const item = document.createElement('div');
@@ -121,16 +124,18 @@ window.ProgresionMotor = (function() {
     Object.keys(malla.periodos).forEach(pNum => {
       malla.periodos[pNum].forEach(it => {
         if (esPreescolar) {
+          // Preescolar: Toma DBA integrales de cualquier componente
           if (it.dba) {
             if (Array.isArray(it.dba)) acumulado.push(...it.dba);
             else acumulado.push(it.dba);
           }
         } else {
-          // Si el grado central es Transición y miramos Grado 1, traemos todo (Puente)
+          // Primaria/Bachillerato: Filtra por componente seleccionado
+          // PUENTE: Si miramos Grado 1° desde Transición, traemos todos los estándares
           if (estado.gradoCentral === 0 && gradoStr === "1") {
             if (it.estandar) acumulado.push(it.estandar);
           } 
-          // Si es Primaria normal, filtramos por componente
+          // Consulta normal por componente
           else if (it.componente === estado.componente && it.estandar) {
             acumulado.push(it.estandar);
           }
