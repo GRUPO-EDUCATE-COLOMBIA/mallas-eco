@@ -1,9 +1,8 @@
 // js/render-progresion.js
 
 /**
- * Motor de Progresión de Aprendizajes con Puente Pedagógico.
- * Implementa la excepción para Preescolar: muestra DBA en lugar de Estándares
- * e ignora el filtro de componente para evitar columnas vacías.
+ * Motor de Progresión de Aprendizajes con Puente Pedagógico Blindado.
+ * Resuelve el conflicto de nombres de componentes entre Preescolar y Primaria.
  */
 window.ProgresionMotor = (function() {
   
@@ -66,53 +65,58 @@ window.ProgresionMotor = (function() {
 
     etiqueta.textContent = formatearNombreGrado(gradoStr);
 
-    // EXCEPCIÓN PREESCOLAR: Si es 0 o -1, mostramos DBA. Si es 1-11, Estándares.
+    // Determinamos si el grado que estamos dibujando es preescolar
     const esPreescolar = (gradoStr === "0" || gradoStr === "-1");
     const datosAnuales = obtenerDatosAnuales(gradoStr, esPreescolar);
 
     if (datosAnuales.length === 0) {
-      contenedor.innerHTML = '<p class="texto-vacio">No se halló información.</p>';
+      contenedor.innerHTML = '<p class="texto-vacio">No se halló información para este componente.</p>';
     } else {
       datosAnuales.forEach(texto => {
         const item = document.createElement('div');
         item.className = 'prog-estandar-item';
-        // Si es preescolar, añadimos un pequeño prefijo visual
+        // Diferenciamos visualmente si es DBA o Estándar
         item.innerHTML = esPreescolar ? `<strong>DBA:</strong> ${texto}` : texto;
         contenedor.appendChild(item);
       });
     }
   }
 
-  /**
-   * REGLA DE NEGOCIO:
-   * Si es Preescolar: Toma todos los DBA del año (Integración).
-   * Si es Primaria/Bachillerato: Filtra por Componente y toma Estándares.
-   */
   function obtenerDatosAnuales(gradoStr, esPreescolar) {
     const malla = window.MallasData?.[estado.area]?.[gradoStr]?.[estado.tipoMalla];
     if (!malla || !malla.periodos) return [];
 
     let acumulado = [];
     
+    // PRIMERA PASADA: Intentar filtrar por componente
     Object.keys(malla.periodos).forEach(pNum => {
       const itemsPeriodo = malla.periodos[pNum];
-      
       itemsPeriodo.forEach(it => {
         if (esPreescolar) {
-          // EXCEPCIÓN: En preescolar tomamos los DBA sin importar el nombre del componente
-          // Esto evita la columna vacía y muestra la base integral.
+          // Preescolar siempre es INTEGRAL (ignora el nombre del componente)
           if (it.dba) {
             if (Array.isArray(it.dba)) acumulado.push(...it.dba);
             else acumulado.push(it.dba);
           }
         } else {
-          // LÓGICA ESTÁNDAR: Filtro estricto por componente y toma de estándares
+          // Primaria/Bachillerato: Intenta filtrar por el componente seleccionado
           if (it.componente === estado.componente && it.estandar) {
             acumulado.push(it.estandar);
           }
         }
       });
     });
+
+    // SEGUNDA PASADA: "EL PUENTE PARA GRADO 1°"
+    // Si estamos en Grado 1 y la lista está vacía (porque el componente viene de preescolar),
+    // mostramos TODOS los estándares de Grado 1 para que la columna no esté vacía.
+    if (gradoStr === "1" && acumulado.length === 0) {
+      Object.keys(malla.periodos).forEach(pNum => {
+        malla.periodos[pNum].forEach(it => {
+          if (it.estandar) acumulado.push(it.estandar);
+        });
+      });
+    }
 
     return [...new Set(acumulado)];
   }
