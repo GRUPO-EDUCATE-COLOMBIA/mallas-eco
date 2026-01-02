@@ -2,8 +2,7 @@
 
 /**
  * Renderiza la malla de las áreas del Núcleo Común con integración ECO.
- * Ajustado para mostrar habilidades y evidencias en líneas separadas 
- * y habilitar diccionarios para todos los grados.
+ * Incluye validación para campos adicionales como Tareas DCE y Fuente.
  */
 window.renderTablaMallas = function(items, grado, periodo) {
   const container = document.getElementById('tabla-body');
@@ -22,11 +21,8 @@ window.renderTablaMallas = function(items, grado, periodo) {
   const socioDataRaw = window.MallasData?.[areaSocioNombre]?.[grado]?.[tipoMalla]?.periodos?.[periodo];
   const infoSocio = socioDataRaw && socioDataRaw.length > 0 ? socioDataRaw[0] : null;
 
-  // --- LÓGICA DE ENLACE AL DICCIONARIO ECO (Universal: -1 a 11) ---
-  // Construcción dinámica de la ruta: eco/diccionario/eco_dic_[grado].html
+  // --- LÓGICA DE ENLACE AL DICCIONARIO ECO ---
   const urlDiccionario = `eco/diccionario/eco_dic_${grado}.html`;
-  
-  // Formateo del nombre del grado para el botón
   let nombreGradoBoton = grado + "°";
   if (grado === "0") nombreGradoBoton = "Transición";
   if (grado === "-1") nombreGradoBoton = "Jardín";
@@ -36,7 +32,6 @@ window.renderTablaMallas = function(items, grado, periodo) {
     // Preparación del bloque Socioemocional ECO
     let contenidoSocioHTML = '';
     if (infoSocio) {
-      // Formateamos Habilidades y Evidencias para que salgan en líneas separadas
       const habilidadesHTML = infoSocio.Habilidades 
         ? infoSocio.Habilidades.map(h => `<div style="margin-bottom: 5px;">${h}</div>`).join('') 
         : 'No definidas';
@@ -63,7 +58,6 @@ window.renderTablaMallas = function(items, grado, periodo) {
         
         <div class="item-malla-contenido">
           
-          <!-- Bloques Académicos -->
           <div class="campo">
             <strong>Estándar Curricular:</strong>
             <div>${item.estandar || ''}</div>
@@ -84,12 +78,28 @@ window.renderTablaMallas = function(items, grado, periodo) {
             <div>${Array.isArray(item.saberes) ? item.saberes.join(' • ') : (item.saberes || '')}</div>
           </div>
 
+          <!-- NUEVA VALIDACIÓN: TAREAS DCE -->
+          ${item.tareas_dce ? `
+            <div class="campo">
+              <strong>Tareas DCE:</strong>
+              <div>${item.tareas_dce}</div>
+            </div>
+          ` : ''}
+
+          <!-- NUEVA VALIDACIÓN: FUENTE -->
+          ${item.fuente ? `
+            <div class="campo">
+              <strong>Fuente:</strong>
+              <div style="font-style: italic; font-size: 0.95rem;">${item.fuente}</div>
+            </div>
+          ` : ''}
+
           <!-- INTEGRACIÓN CÁTEDRA SOCIOEMOCIONAL ECO -->
           <div class="campo">
             ${contenidoSocioHTML}
           </div>
 
-          <!-- ENLACE AL DICCIONARIO ECO (Universal) -->
+          <!-- ENLACE AL DICCIONARIO ECO -->
           <div class="campo">
             <strong class="label-eco">Recursos Pedagógicos:</strong>
             <div class="dic-link-container">
