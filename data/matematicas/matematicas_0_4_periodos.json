@@ -9,7 +9,8 @@
         "componente": "Lógico - matemáticas",
         "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-16: Determina la cantidad de objetos que conforman una colección, al establecer relaciones de correspondencia y acciones de juntar y separar."
+          "DBA-0-Prop.3-16: Determina la cantidad de objetos que conforman una colección, al establecer relaciones de correspondencia y acciones de juntar y separar.",
+          "DBA-0-Prop.3-14: Construye nociones de espacio, tiempo y medida a través de experiencias cotidianas."
         ],
         "evidencias": [
           "DBA-0-Prop.3-16-EV-1: Determina cuántos objetos conforman una colección a partir de: la percepción global, la enumeración y la correspondencia uno a uno."
@@ -88,4 +89,5 @@
       }
     ]
   }
+
 }
