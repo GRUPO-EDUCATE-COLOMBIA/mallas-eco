@@ -1,84 +1,107 @@
 // js/ui-filtros.js
 
+/**
+ * CONTROLADOR DE INTERFAZ (UI)
+ * Gestiona eventos de usuario y comunica los filtros con los motores de renderizado.
+ */
 document.addEventListener('DOMContentLoaded', () => {
+  // Elementos de entrada
   const areaSel = document.getElementById('area');
   const gradoSel = document.getElementById('grado');
   const periodoSel = document.getElementById('periodo');
   const compSel = document.getElementById('componente');
+  
+  // Botones
   const btnBuscar = document.querySelector('.btn-buscar');
   const btnProgresion = document.getElementById('btn-progresion');
+  
+  // Capas de visualización
   const resNucleo = document.getElementById('resultados-nucleo');
   const resSocio = document.getElementById('resultados-socio');
   const modalError = document.getElementById('modal-error');
 
-  const AREA_CONFIG = {
-    "matematicas": { nombre: "Matemáticas", clase: "area-matematicas" },
-    "lenguaje": { nombre: "Lenguaje", clase: "area-lenguaje" },
-    "ciencias-sociales": { nombre: "Ciencias Sociales y Ciudadanas", clase: "area-sociales" },
-    "ciencias-naturales": { nombre: "Ciencias Naturales y Ambiental", clase: "area-naturales" },
-    "ingles": { nombre: "Inglés", clase: "area-ingles" },
-    "proyecto-socioemocional": { nombre: "Proyecto Socioemocional", clase: "area-socioemocional" }
-  };
-
-  // Asegurar que el modal esté oculto al iniciar
+  // Inicialización: Asegurar estado limpio
   if (modalError) modalError.classList.remove('mostrar');
+  ocultarResultadosUI();
 
-  // EVENTOS
+  // --- ESCUCHADORES DE EVENTOS ---
+
+  // 1. Cambio de Área
   areaSel.addEventListener('change', () => {
-    const config = AREA_CONFIG[areaSel.value];
-    ocultarResultados();
+    const areaId = areaSel.value;
+    const config = window.APP_CONFIG.AREAS[areaId];
+    
+    ocultarResultadosUI();
+
     if (!config || !window.MallasData[config.nombre]) {
       gradoSel.disabled = true;
       limpiarSelects([gradoSel, periodoSel, compSel]);
       validarEstadoBotones();
       return;
     }
-    const grados = Object.keys(window.MallasData[config.nombre]);
+
+    // Poblar Grados dinámicamente según lo cargado en memoria
+    const gradosCargados = Object.keys(window.MallasData[config.nombre]);
     gradoSel.innerHTML = '<option value="">Seleccionar</option>';
-    grados.sort((a,b)=>a-b).forEach(g => {
+    
+    gradosCargados.sort((a, b) => a - b).forEach(g => {
       const opt = document.createElement('option');
       opt.value = g;
-      opt.textContent = g === "0" ? "Transición (0)" : (g === "-1" ? "Jardín (-1)" : g + "°");
+      // Formateo visual del grado
+      if (g === "0") opt.textContent = "Transición (0)";
+      else if (g === "-1") opt.textContent = "Jardín (-1)";
+      else opt.textContent = g + "°";
       gradoSel.appendChild(opt);
     });
+
     gradoSel.disabled = false;
     limpiarSelects([periodoSel, compSel]);
     validarEstadoBotones();
   });
 
+  // 2. Cambio de Grado
   gradoSel.addEventListener('change', () => {
     updatePeriodosUI();
     validarEstadoBotones();
   });
 
+  // 3. Cambio de Período
   periodoSel.addEventListener('change', () => {
     updateComponentesUI();
     validarEstadoBotones();
   });
 
+  // 4. Cambio de Componente
   compSel.addEventListener('change', validarEstadoBotones);
 
-  btnBuscar.addEventListener('click', consultarMalla);
+  // 5. Botón Consultar Malla
+  btnBuscar.addEventListener('click', ejecutarConsultaMalla);
 
+  // 6. Botón Progresión (Alineación Vertical)
   if (btnProgresion) {
     btnProgresion.addEventListener('click', () => {
-      const area = AREA_CONFIG[areaSel.value].nombre;
-      window.ProgresionMotor.abrir(area, gradoSel.value, compSel.value);
+      const config = window.APP_CONFIG.AREAS[areaSel.value];
+      window.ProgresionMotor.abrir(config.nombre, gradoSel.value, compSel.value);
     });
   }
 
-  // FUNCIONES
+  // --- LÓGICA DE ACTUALIZACIÓN DE SELECTORES ---
+
   function updatePeriodosUI() {
-    const config = AREA_CONFIG[areaSel.value];
-    const grado = gradoSel.value;
-    const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
-    const malla = window.MallasData?.[config.nombre]?.[grado]?.[tipo];
-    if (!malla) return;
+    const config = window.APP_CONFIG.AREAS[areaSel.value];
+    const tipo = obtenerTipoMallaSeleccionado();
+    const malla = window.MallasData?.[config.nombre]?.[gradoSel.value]?.[tipo];
+    
+    if (!malla) {
+      limpiarSelects([periodoSel, compSel]);
+      return;
+    }
 
     periodoSel.innerHTML = '<option value="">Seleccionar</option>';
-    for(let i=1; i<=malla.numero_periodos; i++) {
+    for (let i = 1; i <= malla.numero_periodos; i++) {
       const opt = document.createElement('option');
-      opt.value = String(i); opt.textContent = `${i}° período`;
+      opt.value = String(i);
+      opt.textContent = `${i}° período`;
       periodoSel.appendChild(opt);
     }
     periodoSel.disabled = false;
@@ -86,56 +109,77 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function updateComponentesUI() {
-    const config = AREA_CONFIG[areaSel.value];
-    const grado = gradoSel.value;
-    const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
+    const config = window.APP_CONFIG.AREAS[areaSel.value];
+    const tipo = obtenerTipoMallaSeleccionado();
     const periodo = periodoSel.value;
-    const malla = window.MallasData?.[config.nombre]?.[grado]?.[tipo];
+    const malla = window.MallasData?.[config.nombre]?.[gradoSel.value]?.[tipo];
+    
     const items = malla?.periodos?.[periodo] || [];
-
     compSel.innerHTML = '<option value="todos">Todos</option>';
+    
+    // Extraer componentes únicos (o competencias en caso de Socioemocional)
     const nombres = [...new Set(items.map(it => it.componente || it.competencia))];
+    
     nombres.sort().forEach(n => {
       const opt = document.createElement('option');
-      opt.value = n; opt.textContent = n;
+      opt.value = n;
+      opt.textContent = n;
       compSel.appendChild(opt);
     });
     compSel.disabled = false;
   }
 
-  function validarEstadoBotones() {
-    if (btnProgresion) {
-      btnProgresion.disabled = !(areaSel.value && gradoSel.value && compSel.value && compSel.value !== 'todos');
-    }
-  }
+  // --- FUNCIONES DE ACCIÓN ---
 
-  function consultarMalla() {
-    const config = AREA_CONFIG[areaSel.value];
-    const tipo = document.querySelector('input[name="periodos"]:checked').value === "3" ? "3_periodos" : "4_periodos";
+  function ejecutarConsultaMalla() {
+    const areaId = areaSel.value;
+    const config = window.APP_CONFIG.AREAS[areaId];
+    const tipo = obtenerTipoMallaSeleccionado();
     const malla = window.MallasData?.[config?.nombre]?.[gradoSel.value]?.[tipo];
 
     if (!malla || !periodoSel.value) {
-      modalError.classList.add('mostrar');
+      if (modalError) modalError.classList.add('mostrar');
       return;
     }
 
+    // Filtrado de ítems
     const items = compSel.value === "todos" 
       ? malla.periodos[periodoSel.value] 
-      : malla.periodos[periodoSel.value].filter(it => it.componente === compSel.value || it.competencia === compSel.value);
+      : malla.periodos[periodoSel.value].filter(it => 
+          (it.componente === compSel.value || it.competencia === compSel.value)
+        );
 
+    ocultarResultadosUI();
+
+    // Resetear clases de color y mostrar el contenedor correcto
     resNucleo.className = "resultados ocultar"; 
     resSocio.className = "resultados ocultar";
 
-    if (areaSel.value === "proyecto-socioemocional") {
+    if (areaId === "proyecto-socioemocional") {
       resSocio.classList.add('mostrar', config.clase);
-      window.renderSocioemocional(items);
+      if (window.renderSocioemocional) window.renderSocioemocional(items);
     } else {
       resNucleo.classList.add('mostrar', config.clase);
-      window.renderTablaMallas(items, gradoSel.value, periodoSel.value);
+      if (window.renderTablaMallas) window.renderTablaMallas(items, gradoSel.value, periodoSel.value);
     }
   }
 
-  function ocultarResultados() {
+  // --- UTILIDADES ---
+
+  function obtenerTipoMallaSeleccionado() {
+    const radio = document.querySelector('input[name="periodos"]:checked');
+    return radio && radio.value === "3" ? "3_periodos" : "4_periodos";
+  }
+
+  function validarEstadoBotones() {
+    if (btnProgresion) {
+      // Activo solo si: Área + Grado + Componente específico (no "todos")
+      const esValido = areaSel.value && gradoSel.value && compSel.value && compSel.value !== 'todos';
+      btnProgresion.disabled = !esValido;
+    }
+  }
+
+  function ocultarResultadosUI() {
     resNucleo.classList.remove('mostrar');
     resSocio.classList.remove('mostrar');
   }
@@ -147,7 +191,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  document.getElementById('btn-modal-cancelar').addEventListener('click', () => {
-    modalError.classList.remove('mostrar');
-  });
+  // Cerrar Modal
+  if (document.getElementById('btn-modal-cancelar')) {
+    document.getElementById('btn-modal-cancelar').addEventListener('click', () => {
+      modalError.classList.remove('mostrar');
+    });
+  }
 });
