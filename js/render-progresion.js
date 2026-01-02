@@ -1,10 +1,5 @@
 // js/render-progresion.js
 
-/**
- * Motor de Progresión de Aprendizajes con Puente Pedagógico Universal.
- * Resuelve el conflicto de nombres entre Preescolar (Integral/DBA) 
- * y Primaria (Componentes/Estándares) para todas las áreas.
- */
 window.ProgresionMotor = (function() {
   
   let estado = {
@@ -14,7 +9,6 @@ window.ProgresionMotor = (function() {
     tipoMalla: '4_periodos'
   };
 
-  // Referencias DOM
   const overlay = document.getElementById('overlay-progresion');
   const btnCerrar = document.getElementById('btn-cerrar-progresion');
   const btnPrev = document.getElementById('prog-prev');
@@ -51,14 +45,13 @@ window.ProgresionMotor = (function() {
     txtArea.textContent = estado.area;
     txtComp.textContent = estado.componente;
 
-    // --- LÓGICA DE EXCEPCIÓN PARA PREESCOLAR (Puente 2 Columnas) ---
+    // --- LÓGICA DE EXCEPCIÓN PARA PREESCOLAR ---
     if (g <= 0) {
-      colNext.style.display = 'none'; // Ocultamos la 3ra columna en preescolar
+      colNext.style.display = 'none'; 
       
       if (g === -1) { // JARDÍN
         dibujarColumna(contPrev, labelPrev, "-1");
         dibujarColumna(contActual, labelActual, "0");
-        labelActual.textContent = "Transición (0)";
       } else { // TRANSICIÓN
         dibujarColumna(contPrev, labelPrev, "0");
         dibujarColumna(contActual, labelActual, "1");
@@ -66,15 +59,14 @@ window.ProgresionMotor = (function() {
       }
       
       btnPrev.disabled = (g === -1);
-      btnNext.disabled = true; // Bloqueo pedagógico para forzar selección de componente en 1°
+      btnNext.disabled = true; 
       
       const msg = g === 0 
-        ? "Para avanzar a 2°, cierre esta vista y seleccione un componente en Grado 1°."
+        ? "Para avanzar a 2°, seleccione un componente en Grado 1°."
         : "Secuencia de Preescolar Integral.";
       document.querySelector('.info-ciclo').textContent = msg;
 
     } else {
-      // Modo Primaria/Bachillerato: 3 Columnas Normales
       colNext.style.display = 'flex';
       
       const gPrev = calcularGradoRelativo(g, -1);
@@ -104,7 +96,7 @@ window.ProgresionMotor = (function() {
     const datosAnuales = obtenerDatosAnuales(gradoStr, esPreescolar);
 
     if (datosAnuales.length === 0) {
-      contenedor.innerHTML = '<p class="texto-vacio">No se halló información para este componente.</p>';
+      contenedor.innerHTML = `<p class="texto-vacio">No hay datos de ${estado.area} para el grado ${gradoStr}.</p>`;
     } else {
       datosAnuales.forEach(texto => {
         const item = document.createElement('div');
@@ -117,26 +109,29 @@ window.ProgresionMotor = (function() {
 
   function obtenerDatosAnuales(gradoStr, esPreescolar) {
     const malla = window.MallasData?.[estado.area]?.[gradoStr]?.[estado.tipoMalla];
+    
+    // Si la malla no existe en memoria, retornamos vacío (Archivo no cargado)
     if (!malla || !malla.periodos) return [];
 
     let acumulado = [];
     
     Object.keys(malla.periodos).forEach(pNum => {
-      malla.periodos[pNum].forEach(it => {
+      const itemsPeriodo = malla.periodos[pNum];
+      itemsPeriodo.forEach(it => {
         if (esPreescolar) {
-          // Preescolar: Toma DBA integrales de cualquier componente
+          // Preescolar toma todos los DBA (Integral)
           if (it.dba) {
             if (Array.isArray(it.dba)) acumulado.push(...it.dba);
             else acumulado.push(it.dba);
           }
         } else {
-          // Primaria/Bachillerato: Filtra por componente seleccionado
-          // PUENTE: Si miramos Grado 1° desde Transición, traemos todos los estándares
+          // Si el grado central es Transición (0) y estamos dibujando la columna de Grado 1,
+          // ignoramos el filtro de componente para mostrar todo el panorama.
           if (estado.gradoCentral === 0 && gradoStr === "1") {
             if (it.estandar) acumulado.push(it.estandar);
           } 
-          // Consulta normal por componente
-          else if (it.componente === estado.componente && it.estandar) {
+          // Consulta normal: Misma área, mismo componente
+          else if (it.componente && it.componente.toLowerCase() === estado.componente.toLowerCase() && it.estandar) {
             acumulado.push(it.estandar);
           }
         }
