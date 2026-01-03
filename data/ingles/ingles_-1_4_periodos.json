@@ -1,0 +1,242 @@
+{
+  "area": "Inglés",
+  "grado": "-1",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Escucha",
+        "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra.",
+        "dba": [
+          "DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Stand up, Sit down)."
+        ],
+        "evidencias": [
+          "Señala sus ojos, nariz o boca cuando el docente los nombra.",
+          "Realiza movimientos corporales al escuchar canciones infantiles en inglés."
+        ],
+        "saberes": [
+          "Vocabulario: Face (eyes, nose, mouth), Body (hands, feet), My Family (Mom, Dad), Colors (Red, Blue), Numbers 1-3. Gramática: Hello, Bye, Sit down, Stand up, Look!"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Exploración del medio: \"The Magic Bag\" (sacar objetos de colores o juguetes y escuchar su nombre). Juego: \"Freeze\" (congelados) al ritmo de música en inglés. Articulación con Grado 0°: Prepara la comprensión de comandos complejos y la discriminación auditiva de partes del cuerpo detalladas. Criterios de Evaluación Formativa: ¿El niño identifica físicamente la parte del cuerpo que se le pide? ¿Muestra alegría o interés al escuchar rimas en inglés?",
+        "fuente": null
+      },
+      {
+        "componente": "Monólogo",
+        "estandar": "Imito sonidos y palabras cortas con ayuda del docente. Intento repetir estribillos de canciones muy sencillas.",
+        "dba": [
+          "DBA 3: Reproduce por imitación palabras muy familiares (colores básicos y miembros de la familia)."
+        ],
+        "evidencias": [
+          "Repite palabras sencillas de su entorno inmediato.",
+          "Dice su nombre cuando el docente le pregunta de forma lúdica.",
+          "Produce onomatopeyas de animales en inglés."
+        ],
+        "saberes": [
+          "Vocabulario: Face (eyes, nose, mouth), Body (hands, feet), My Family (Mom, Dad), Colors (Red, Blue), Numbers 1-3. Gramática: Hello, Bye, Sit down, Stand up, Look!"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Arte: Pintura dactilar usando solo el color Red o Blue mientras repite el nombre del color. Literatura: Rimas cortas con títeres de dedo (Finger puppets). Articulación con Grado 0°: Prepara la producción de frases cortas (My name is...) y el conteo hasta 5. Criterios de Evaluación Formativa: ¿El niño intenta imitar la pronunciación del docente? ¿Nombra al menos dos colores o partes de la cara de forma espontánea?",
+        "fuente": null
+      },
+      {
+        "componente": "Conversación",
+        "estandar": "Respondo con gestos a saludos y preguntas de sí/no. Participo en rondas y juegos grupales respetando el turno.",
+        "dba": [
+          "DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
+        ],
+        "evidencias": [
+          "Saluda con la mano al escuchar \"Hello\".",
+          "Elige entre dos opciones de objetos cuando se le pregunta en inglés (Red or Blue?)."
+        ],
+        "saberes": [
+          "Vocabulario: Face (eyes, nose, mouth), Body (hands, feet), My Family (Mom, Dad), Colors (Red, Blue), Numbers 1-3. Gramática: Hello, Bye, Sit down, Stand up, Look!"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Juego: Rondas infantiles tomadas de las manos donde se enfatiza el \"Hello\" y el \"Bye\". Interacción: \"The Puppet Friend\" (Un títere saluda a cada niño y ellos responden con la mano o voz). Articulación con Grado 0°: Prepara la interacción básica por parejas y la respuesta a preguntas sobre datos personales. Criterios de Evaluación Formativa: ¿El niño se integra en las dinámicas de grupo? ¿Responde con lenguaje no verbal a estímulos en inglés?",
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Escucha",
+        "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra.",
+        "dba": [
+          "DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Up, Down)."
+        ],
+        "evidencias": [
+          "Identifica las emociones básicas (Happy, Sad) al escuchar cuentos cortos.",
+          "Reacciona físicamente a los comandos de posición Up y Down.",
+          "Reconoce los nuevos colores Green y Orange en su entorno."
+        ],
+        "saberes": [
+          "Vocabulario: Emotions (Happy, Sad, Angry), Colors (Green, Orange), Numbers (1-5), Positions (Up, Down). Valores: Please, Thank you. Gramática: I am... (happy)."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Literatura: Lectura del cuento \"The Happy Monster\" con gestos exagerados. Juego: \"Simon Says\" con posiciones Up y Down. Exploración: Búsqueda de objetos de color Green y Orange en el salón. Articulación con Grado 0°: Prepara la discriminación de emociones más complejas (excited, scared) y el conteo hasta 20 que se ve en Transición. Criterios de Evaluación Formativa: ¿El niño reacciona correctamente a los comandos Up/Down? ¿Señala la carita feliz o triste según lo que escucha?",
+        "fuente": null
+      },
+      {
+        "componente": "Monólogo",
+        "estandar": "Imito sonidos y palabras cortas con ayuda del docente. Intento repetir estribillos de canciones muy sencillas.",
+        "dba": [
+          "DBA 3: Reproduce por imitación palabras muy familiares (emociones básicas y colores)."
+        ],
+        "evidencias": [
+          "Repite el nombre de su emoción actual con ayuda del docente.",
+          "Pronuncia los números del 1 al 5 en orden.",
+          "Nombra los colores Green y Orange al ver objetos reales."
+        ],
+        "saberes": [
+          "Vocabulario: Emotions (Happy, Sad, Angry), Colors (Green, Orange), Numbers (1-5), Positions (Up, Down). Valores: Please, Thank you. Gramática: I am... (happy)."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Arte: Elaboración de \"Paletas de Emociones\" (caritas en palos de helado). Literatura: Canto de la canción \"If you are happy and you know it\" (estrofa básica). Expresión: Mirarse al espejo e imitar caras de \"Angry\" o \"Happy\". Articulación con Grado 0°: Prepara la producción de frases completas de estado de ánimo y la descripción de materiales de clase. Criterios de Evaluación Formativa: ¿El niño intenta repetir las palabras de las emociones? ¿Nombra espontáneamente al menos un color nuevo aprendido?",
+        "fuente": null
+      },
+      {
+        "componente": "Conversación",
+        "estandar": "Respondo con gestos a saludos y preguntas de sí/no. Participo en rondas y juegos grupales respetando el turno.",
+        "dba": [
+          "DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
+        ],
+        "evidencias": [
+          "Usa las palabras mágicas \"Please\" y \"Thank you\" durante el juego grupal.",
+          "Saluda a sus compañeros según su estado de ánimo (Happy hello).",
+          "Responde con lenguaje no verbal a la pregunta ¿How are you?."
+        ],
+        "saberes": [
+          "Vocabulario: Emotions (Happy, Sad, Angry), Colors (Green, Orange), Numbers (1-5), Positions (Up, Down). Valores: Please, Thank you. Gramática: I am... (happy)."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Juego: \"The Magic Ball\" (quien tiene la bola dice su nombre y cómo se siente). Interacción: Compartir juguetes usando las expresiones \"Please\" y \"Thank you\". Rondas: Canciones circulares para fomentar el contacto visual y el respeto. Articulación con Grado 0°: Prepara la capacidad de responder preguntas sobre datos personales y la interacción en diálogos de convivencia. Criterios de Evaluación Formativa: ¿El niño integra las palabras Please y Thank you en su rutina? ¿Muestra disposición para participar en juegos con sus pares?",
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Escucha",
+        "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra.",
+        "dba": [
+          "DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Pick up, Clean)."
+        ],
+        "evidencias": [
+          "Identifica animales de la granja y mascotas por su sonido en inglés.",
+          "Reacciona al comando \"Pick up the trash\" durante la rutina de orden.",
+          "Asocia palabras de la naturaleza (Sun, Tree, Flower) con imágenes grandes."
+        ],
+        "saberes": [
+          "Animales: Dog, Cat, Bird, Cow, Duck, Pig. Naturaleza: Sun, Tree, Flower. Acciones: Jump, Fly, Sleep. Colores: Green, Yellow, Brown. Números: 1-4. Gramática: I like... (the dog). Look at the...!"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Exploración del medio: Salida al jardín para identificar \"Tree\" y \"Flower\" reales. Juego: \"Animal Sounds\" donde el niño corre hacia la imagen del animal que escucha. Canción: \"Old MacDonald had a farm\" enfocada en onomatopeyas. Articulación con Grado 0°: Prepara la clasificación técnica entre animales salvajes y domésticos que se realiza en Transición. Criterios de Evaluación Formativa: ¿El niño señala el sol o el árbol cuando escucha la palabra? ¿Imita el movimiento de \"Fly\" o \"Jump\" al escucharlo?",
+        "fuente": null
+      },
+      {
+        "componente": "Monólogo",
+        "estandar": "Imito sonidos y palabras cortas con ayuda del docente. Intento repetir estribillos de canciones muy sencillas.",
+        "dba": [
+          "DBA 3: Reproduce por imitación palabras muy familiares (animales comunes y elementos del paisaje)."
+        ],
+        "evidencias": [
+          "Nombra al menos tres animales de la granja en inglés.",
+          "Intenta decir el color de los elementos naturales (The tree is green).",
+          "Repite frases de afecto hacia la naturaleza (I like the sun)."
+        ],
+        "saberes": [
+          "Animales: Dog, Cat, Bird, Cow, Duck, Pig. Naturaleza: Sun, Tree, Flower. Acciones: Jump, Fly, Sleep. Colores: Green, Yellow, Brown. Números: 1-4. Gramática: I like... (the dog). Look at the...!"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Arte: Creación de un \"Nature Collage\" pegando hojas secas y flores mientras las nombra. Literatura: Uso de títeres de animales para repetir sus nombres en inglés. Expresión: \"Show and tell\" con su animal de peluche favorito. Articulación con Grado 0°: Prepara el uso de estructuras gramaticales de habilidad (Can/Can't) y descripciones de partes del cuerpo animal. Criterios de Evaluación Formativa: ¿El niño intenta pronunciar los nombres de los animales? ¿Nombra el color Green al pintar elementos de la naturaleza?",
+        "fuente": null
+      },
+      {
+        "componente": "Conversación",
+        "estandar": "Respondo con gestos a saludos y preguntas de sí/no. Participo en rondas y juegos grupales respetando el turno.",
+        "dba": [
+          "DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
+        ],
+        "evidencias": [
+          "Responde con \"Yes/No\" o señas a la pregunta ¿Do you like the duck?.",
+          "Interactúa con compañeros en la rutina de limpieza usando \"Clean up\".",
+          "Participa en juegos colectivos imitando los movimientos de los animales en grupo."
+        ],
+        "saberes": [
+          "Animales: Dog, Cat, Bird, Cow, Duck, Pig. Naturaleza: Sun, Tree, Flower. Acciones: Jump, Fly, Sleep. Colores: Green, Yellow, Brown. Números: 1-4. Gramática: I like... (the dog). Look at the...!"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Juego: \"Who am I?\" (un niño imita a un animal y los otros intentan decir el nombre). Interacción: Jornada de limpieza \"Happy Planet\" recogiendo papeles en el salón. Rondas: Canciones circulares imitando el vuelo de las aves o el salto del conejo. Articulación con Grado 0°: Prepara la capacidad de intercambiar información sobre el cuidado ambiental y clasificar hábitats. Criterios de Evaluación Formativa: ¿El niño participa voluntariamente en la canción Clean Up? ¿Responde con gestos de agrado o desagrado ante preguntas sobre animales?",
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Escucha",
+        "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra.",
+        "dba": [
+          "DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Stop, Go, Listen)."
+        ],
+        "evidencias": [
+          "Identifica a los miembros de la familia extendida (Grandparents) por su nombre en inglés.",
+          "Reconoce el sonido de profesiones clave (Teacher, Doctor, Police).",
+          "Reacciona rítmicamente a diferentes tipos de música (Vallenato, Salsa)."
+        ],
+        "saberes": [
+          "Familia: Grandfather, Grandmother, Sister, Brother. Profesiones: Teacher, Doctor, Police, Driver. Cultura: Music, Birthday, Party. Números: 1-5 (Consolidación). Gramática: I am a student. Happy Birthday! I am 4 years old."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Literatura: Escucha de cuentos cortos con títeres sobre \"Mi comunidad\". Juego: \"The Community Helpers\" donde el niño corre hacia la herramienta del profesional que escucha (Ej: silbato - police). Exploración: Identificación de sonidos musicales de su región. Articulación con Grado 0°: Prepara la discriminación auditiva de una lista extensa de profesiones y la comprensión de los meses del año. Criterios de Evaluación Formativa: ¿El niño identifica la imagen del abuelo o abuela al escuchar la palabra? ¿Distingue mediante gestos los roles de doctor o policía?",
+        "fuente": null
+      },
+      {
+        "componente": "Monólogo",
+        "estandar": "Imito sonidos y palabras cortas con ayuda del docente. Intento repetir estribillos de canciones muy sencillas.",
+        "dba": [
+          "DBA 3: Reproduce por imitación palabras muy familiares (miembros de la familia y profesiones básicas)."
+        ],
+        "evidencias": [
+          "Intenta decir qué quiere ser de grande (I want to be a doctor).",
+          "Nombra a los miembros de su familia al ver fotografías.",
+          "Canta fragmentos de la canción de cumpleaños en inglés."
+        ],
+        "saberes": [
+          "Familia: Grandfather, Grandmother, Sister, Brother. Profesiones: Teacher, Doctor, Police, Driver. Cultura: Music, Birthday, Party. Números: 1-5 (Consolidación). Gramática: I am a student. Happy Birthday! I am 4 years old."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Arte: Creación de un \"Family Tree\" con dibujos o fotos para presentar oralmente. Literatura: Uso de máscaras de profesiones para repetir frases sencillas de identidad. Expresión: \"Birthday Party\" simulada para practicar decir la edad. Articulación con Grado 0°: Prepara la producción de oraciones con \"I want to be a...\" y la descripción de celebraciones culturales regionales. Criterios de Evaluación Formativa: ¿El niño intenta imitar la frase \"I am 4 years old\"? ¿Nombra al menos dos profesiones de su comunidad de forma independiente?",
+        "fuente": null
+      },
+      {
+        "componente": "Conversación",
+        "estandar": "Respondo con gestos a saludos y preguntas de sí/no. Participo en rondas y juegos grupales respetando el turno.",
+        "dba": [
+          "DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
+        ],
+        "evidencias": [
+          "Responde a la pregunta \"How old are you?\" mostrando los dedos o diciendo el número.",
+          "Participa en diálogos sencillos con títeres saludando y diciendo \"I am a student\".",
+          "Interactúa en juegos de roles imitando a un conductor o un profesor."
+        ],
+        "saberes": [
+          "Familia: Grandfather, Grandmother, Sister, Brother. Profesiones: Teacher, Doctor, Police, Driver. Cultura: Music, Birthday, Party. Números: 1-5 (Consolidación). Gramática: I am a student. Happy Birthday! I am 4 years old."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": "Sugerencias metodológicas: Juego de Roles: \"The Global Village\" en el salón con estaciones de diferentes trabajos. Interacción: Intercambio de felicitaciones en la actividad \"Happy Birthday to you\". Rondas: Juegos de integración social para fortalecer el sentido de pertenencia al grupo. Articulación con Grado 0°: Prepara la interacción en obras de teatro con títeres y la respuesta a preguntas sobre preferencias culturales. Criterios de Evaluación Formativa: ¿El niño interactúa con sus pares usando saludos básicos? ¿Muestra respeto y alegría al participar en las celebraciones grupales?",
+        "fuente": null
+      }
+    ]
+  }
+}
