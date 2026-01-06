@@ -1,4 +1,4 @@
-// js/config.js
+// js/config.js - v5.6 (Configuración Maestra)
 
 /**
  * CONFIGURACIÓN GLOBAL DEL APLICATIVO
@@ -24,14 +24,14 @@ window.APP_CONFIG = {
       prefijo: "lenguaje"
     },
     "ciencias-sociales": {
-      nombre: "Ciencias Sociales y Ciudadanas",
+      nombre: "Ciencias Sociales",
       clase: "area-sociales",
       color: "#3974B9",
       carpeta: "sociales",
       prefijo: "sociales"
     },
     "ciencias-naturales": {
-      nombre: "Ciencias Naturales y Ambiental",
+      nombre: "Ciencias Naturales",
       clase: "area-naturales",
       color: "#95C11F",
       carpeta: "naturales",
@@ -47,7 +47,7 @@ window.APP_CONFIG = {
     "proyecto-socioemocional": {
       nombre: "Proyecto Socioemocional",
       clase: "area-socioemocional",
-      color: "#D94D15",
+      color: "#9B7BB6", // Color Púrpura ECO
       carpeta: "Socioemocional",
       prefijo: "Socioemocional"
     }
@@ -56,6 +56,6 @@ window.APP_CONFIG = {
   // 2. UNIVERSO DE GRADOS: Define qué niveles buscará el cargador
   GRADOS: ["-1", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
 
-  // 3. ESTRUCTURA ACADÉMICA: Sufijo de los archivos JSON
+  // 3. ESTRUCTURA ACADÉMICA: Sufijo de los archivos JSON por defecto
   TIPO_MALLA: "4_periodos"
 };
