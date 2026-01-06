@@ -1,31 +1,25 @@
+<!-- index.html v5.3 STABLE -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mallas Curriculares Nacionales - GEC</title>
-  <!-- Fuente Institucional -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
   <header>
     <h1>Mallas Curriculares Nacionales</h1>
     <p>Grupo Edúcate Colombia - Dirección de Pedagogía</p>
   </header>
-
   <main>
-    <!-- BLOQUE DE IMPRESIÓN (Oculto en web por CSS) -->
     <div class="print-only-header">
-      <h1 id="print-titulo-area">REPORTE CURRICULAR NACIONAL</h1>
-      <p>Generado por: Plataforma ECO - Grupo Edúcate Colombia</p>
-      <p id="print-fecha-txt"></p>
+      <h1>REPORTE CURRICULAR NACIONAL</h1>
+      <p>Plataforma ECO - Grupo Edúcate Colombia</p>
     </div>
 
-    <!-- SECCIÓN DE FILTROS -->
     <section id="filtros" class="filtros">
-      
       <div class="filtro-grupo">
         <label>Mallas a</label>
         <div class="radios-periodos">
@@ -33,9 +27,8 @@
           <label><input type="radio" name="periodos" value="4" checked> 4 PERÍODOS</label>
         </div>
       </div>
-
       <div class="filtro-grupo">
-        <label for="area">ÁREA</label>
+        <label>ÁREA</label>
         <select id="area">
           <option value="">Seleccionar</option>
           <option value="matematicas">Matemáticas</option>
@@ -45,52 +38,63 @@
           <option value="ingles">Inglés</option>
         </select>
       </div>
-
       <div class="filtro-grupo">
-        <label for="grado">GRADO</label>
+        <label>GRADO</label>
         <select id="grado" disabled><option value="">Seleccionar</option></select>
       </div>
-
       <div class="filtro-grupo">
-        <label for="periodo">PERÍODO</label>
+        <label>PERÍODO</label>
         <select id="periodo" disabled><option value="">Seleccionar</option></select>
       </div>
-
       <div class="filtro-grupo">
-        <label for="componente">COMPONENTE</label>
+        <label>COMPONENTE</label>
         <select id="componente" disabled><option value="todos">Todos</option></select>
       </div>
-
       <div class="botones-container">
         <button class="btn-buscar">Consultar</button>
-        <button id="btn-progresion" class="btn-progresion" disabled>Progresión Aprendizajes</button>
+        <!-- NOMBRE ACTUALIZADO -->
+        <button id="btn-progresion" class="btn-progresion" disabled>Progresión de estándares por grados</button>
       </div>
     </section>
 
-    <!-- HERRAMIENTAS (Botón a la derecha) -->
     <div id="herramientas-resultados" class="ocultar-inicial">
       <button id="btn-imprimir" class="btn-secundario">🖨️ Generar Ficha de Consulta</button>
     </div>
 
-    <!-- SPINNER DE CARGA -->
     <div id="loading-overlay" class="ocultar-inicial">
       <div class="spinner"></div>
-      <p>Procesando información curricular...</p>
+      <p>Procesando información...</p>
     </div>
 
-    <!-- CONTENEDOR DE RESULTADOS -->
     <section id="resultados-principal" class="resultados ocultar-inicial">
       <div id="contenedor-malla" class="tabla-body"></div>
     </section>
   </main>
 
-  <!-- SCRIPTS - ORDEN DE CARGA CRÍTICO -->
+  <div id="overlay-progresion" class="overlay-progresion">
+    <div class="progresion-container">
+      <div class="progresion-header">
+        <h2 id="prog-area-txt">PROGRESIÓN DE APRENDIZAJES</h2>
+        <button id="btn-cerrar-progresion" class="btn-cerrar-overlay">Cerrar</button>
+      </div>
+      <div class="progresion-navegacion">
+        <button id="prog-prev" class="btn-nav">←</button>
+        <span class="info-ciclo">Secuencia Curricular</span>
+        <button id="prog-next" class="btn-nav">→</button>
+      </div>
+      <div class="progresion-columnas">
+        <div class="col-prog" id="col-grado-prev"><div class="col-header">Grado Anterior</div><div id="cont-grado-prev" class="col-content"></div></div>
+        <div class="col-prog actual" id="col-grado-actual"><div class="col-header">Grado Actual</div><div id="cont-grado-actual" class="col-content"></div></div>
+        <div class="col-prog" id="col-grado-next"><div class="col-header">Grado Siguiente</div><div id="cont-grado-next" class="col-content"></div></div>
+      </div>
+    </div>
+  </div>
+
   <script src="js/config.js"></script>
   <script src="js/data-loader.js"></script>
   <script src="js/render-engine.js"></script>
   <script src="js/render-progresion.js"></script>
   <script src="js/ui-filtros.js"></script>
-  <script src="js/print-engine.js"></script> <!-- Motor de impresión -->
-
+  <script src="js/print-engine.js"></script>
 </body>
 </html>
