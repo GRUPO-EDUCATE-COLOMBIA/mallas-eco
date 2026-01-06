@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mallas Curriculares Nacionales - GEC</title>
-  <!-- Fuente Institucional Barlow Condensed -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,10 +15,15 @@
   </header>
 
   <main>
-    <!-- SECCIÓN DE FILTROS (STICKY) -->
+    <!-- Encabezado exclusivo para impresión (PDF/Papel) -->
+    <div class="print-only-header">
+      <h1 id="print-titulo-area">REPORTE CURRICULAR NACIONAL</h1>
+      <p id="print-subtitulo-malla">Generado por: Plataforma ECO - Grupo Edúcate Colombia</p>
+      <p id="print-fecha-txt"></p>
+    </div>
+
+    <!-- SECCIÓN DE FILTROS -->
     <section id="filtros" class="filtros">
-      
-      <!-- 1. Mallas A -->
       <div class="filtro-grupo">
         <label>Mallas a</label>
         <div class="radios-periodos">
@@ -28,7 +32,6 @@
         </div>
       </div>
 
-      <!-- 2. Área -->
       <div class="filtro-grupo">
         <label for="area">Área</label>
         <select id="area">
@@ -42,59 +45,47 @@
         </select>
       </div>
 
-      <!-- 3. Grado -->
       <div class="filtro-grupo">
         <label for="grado">Grado</label>
-        <select id="grado" disabled>
-          <option value="">Seleccionar</option>
-        </select>
+        <select id="grado" disabled><option value="">Seleccionar</option></select>
       </div>
 
-      <!-- 4. Período -->
       <div class="filtro-grupo">
         <label for="periodo">Período</label>
-        <select id="periodo" disabled>
-          <option value="">Seleccionar</option>
-        </select>
+        <select id="periodo" disabled><option value="">Seleccionar</option></select>
       </div>
 
-      <!-- 5. Componente -->
       <div class="filtro-grupo">
         <label for="componente">Componente</label>
-        <select id="componente" disabled>
-          <option value="todos">Todos</option>
-        </select>
+        <select id="componente" disabled><option value="todos">Todos</option></select>
       </div>
 
-      <!-- BOTONES DE ACCIÓN -->
       <div class="botones-container">
         <button class="btn-buscar">Consultar</button>
         <button id="btn-progresion" class="btn-progresion" disabled>Progresión Aprendizajes</button>
       </div>
     </section>
 
-    <!-- HERRAMIENTAS DE RESULTADOS (OCULTAR INICIAL) -->
+    <!-- HERRAMIENTAS -->
     <div id="herramientas-resultados" class="ocultar-inicial">
       <button id="btn-imprimir" class="btn-secundario">🖨️ Generar Ficha de Consulta</button>
     </div>
 
-    <!-- INDICADOR DE CARGA (SPINNER) -->
+    <!-- SPINNER -->
     <div id="loading-overlay" class="ocultar-inicial">
       <div class="spinner"></div>
       <p>Procesando información curricular...</p>
     </div>
 
-    <!-- CONTENEDOR UNIFICADO DE RESULTADOS (OCULTAR INICIAL) -->
+    <!-- RESULTADOS -->
     <section id="resultados-principal" class="resultados ocultar-inicial">
       <div id="contenedor-malla" class="tabla-body"></div>
     </section>
   </main>
 
-  <!-- VENTANA DE PROGRESIÓN (OVERLAY) -->
+  <!-- OVERLAY PROGRESIÓN -->
   <div id="overlay-progresion" class="overlay-progresion">
     <div class="progresion-container">
-      
-      <!-- Encabezado de Progresión -->
       <div class="progresion-header">
         <div class="progresion-titulo-texto">
           <h2 id="prog-area-txt">PROGRESIÓN DE APRENDIZAJES</h2>
@@ -102,27 +93,20 @@
         </div>
         <button id="btn-cerrar-progresion" class="btn-cerrar-overlay">Cerrar Vista</button>
       </div>
-
-      <!-- Navegación de Grados -->
       <div class="progresion-navegacion">
         <button id="prog-prev" class="btn-nav">← Grados Anteriores</button>
         <span class="info-ciclo">Secuencia Curricular de 3 Grados</span>
         <button id="prog-next" class="btn-nav">Grados Siguientes →</button>
       </div>
-
-      <!-- Columnas Comparativas -->
       <div class="progresion-columnas">
-        <!-- Columna Anterior -->
         <div class="col-prog" id="col-grado-prev">
           <div class="col-header">Grado Anterior</div>
           <div id="cont-grado-prev" class="col-content"></div>
         </div>
-        <!-- Columna Actual -->
         <div class="col-prog actual" id="col-grado-actual">
           <div class="col-header">Grado Actual</div>
           <div id="cont-grado-actual" class="col-content"></div>
         </div>
-        <!-- Columna Siguiente -->
         <div class="col-prog" id="col-grado-next">
           <div class="col-header">Grado Siguiente</div>
           <div id="cont-grado-next" class="col-content"></div>
@@ -131,22 +115,22 @@
     </div>
   </div>
 
-  <!-- MODAL DE ERROR (OVERLAY COMPLETO) -->
+  <!-- MODAL ERROR -->
   <div id="modal-error" class="modal-error-full">
     <div class="modal-error-contenido">
       <h2>⚠️ Error de Consulta</h2>
-      <p>Por favor, asegúrese de completar todos los filtros requeridos (Área, Grado, Período) antes de realizar la búsqueda.</p>
+      <p>Por favor, asegúrese de completar todos los filtros requeridos antes de realizar la búsqueda.</p>
       <button id="btn-modal-cancelar" class="btn-modal-cancelar">Entendido</button>
     </div>
   </div>
 
-  <!-- SCRIPTS - ORDEN DE CARGA CRÍTICO -->
-  <script src="js/config.js"></script>          <!-- 1. Definiciones base -->
-  <script src="js/data-loader.js"></script>     <!-- 2. Cargador de archivos -->
-  <script src="js/render-engine.js"></script>   <!-- 3. Motor visual de acordeones -->
-  <script src="js/render-progresion.js"></script><!-- 4. Motor de alineación vertical -->
-  <script src="js/ui-filtros.js"></script>      <!-- 5. Controlador de eventos -->
+  <!-- SCRIPTS -->
+  <script src="js/config.js"></script>
+  <script src="js/data-loader.js"></script>
+  <script src="js/render-engine.js"></script>
+  <script src="js/render-progresion.js"></script>
+  <script src="js/ui-filtros.js"></script>
+  <!-- Nuevo motor de impresión se vinculará aquí -->
 
 </body>
 </html>
-
