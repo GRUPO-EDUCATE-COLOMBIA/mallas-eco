@@ -1,7 +1,13 @@
 // js/config.js
 
+/**
+ * CONFIGURACIÓN GLOBAL DEL APLICATIVO
+ * Centraliza la identidad visual y la estructura de archivos.
+ */
+
 window.APP_CONFIG = {
-  // Áreas Académicas del Núcleo Común
+  
+  // 1. ÁREAS NACIONALES: Configuración de colores, rutas e identidad
   AREAS: {
     "matematicas": {
       nombre: "Matemáticas",
@@ -21,7 +27,7 @@ window.APP_CONFIG = {
       nombre: "Ciencias Sociales y Ciudadanas",
       clase: "area-sociales",
       color: "#3974B9",
-      carpeta: "sociales", // Ajustar según nombre real de tu carpeta
+      carpeta: "sociales",
       prefijo: "sociales"
     },
     "ciencias-naturales": {
@@ -47,9 +53,9 @@ window.APP_CONFIG = {
     }
   },
 
-  // Configuración de Grados
+  // 2. UNIVERSO DE GRADOS: Define qué niveles buscará el cargador
   GRADOS: ["-1", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
 
-  // Configuración de Períodos
+  // 3. ESTRUCTURA ACADÉMICA: Sufijo de los archivos JSON
   TIPO_MALLA: "4_periodos"
 };
