@@ -1,196 +1,74 @@
-/* styles.css - Mallas Curriculares Nacionales - v4.1 Professional */
+/* --- ARQUITECTURA DE IMPRESIÓN (PRINT STYLES) --- */
+@media print {
+  /* 1. Ocultar elementos de interfaz no deseados */
+  header, 
+  .filtros, 
+  .botones-container, 
+  #herramientas-resultados, 
+  #loading-overlay, 
+  .modal-error-full, 
+  .overlay-progresion,
+  .btn-eco-dic,
+  .acordeon-icono-btn {
+    display: none !important;
+  }
 
-:root {
-  --eco-purple: #9B7BB6;
-  --eco-teal: #00A19B;
-  --eco-dark: #17334B;
-  --eco-green: #54BBAB;
+  /* 2. Ajustes de Layout para Papel */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 10pt;
+  }
+
+  main {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 3. Expansión forzada de Acordeones */
+  .acordeon-panel {
+    max-height: none !important;
+    display: block !important;
+    opacity: 1 !important;
+    border: 1px solid #eee !important;
+    margin-top: 5px !important;
+  }
+
+  .item-malla {
+    break-inside: avoid; /* Evita que un bloque se parta entre dos páginas */
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    margin-bottom: 20px !important;
+  }
+
+  .item-malla h3 {
+    background: #f0f0f0 !important;
+    color: black !important;
+    border-bottom: 2px solid #333 !important;
+    font-size: 14pt !important;
+  }
+
+  /* 4. Optimización de Colores ECO y DCE para tinta */
+  .eco-texto, .dce-texto {
+    font-weight: bold !important;
+    text-decoration: underline !important;
+  }
+
+  .contenido-interno {
+    background: transparent !important;
+    padding: 10px !important;
+  }
+
+  /* 5. Título del Reporte (Solo visible al imprimir) */
+  .print-only-header {
+    display: block !important;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px double #000;
+    padding-bottom: 10px;
+  }
 }
 
-/* --- REGLAS BASE --- */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body {
-  font-family: 'Barlow Condensed', sans-serif;
-  background: #f4f7f9;
-  min-height: 100vh;
-  color: var(--eco-dark);
-  line-height: 1.6;
-}
-
-/* --- BLOQUEO DE SEGURIDAD: EVITA COLAPSO VISUAL AL CARGAR --- */
-.overlay-progresion, 
-.modal-error-full, 
-.ocultar-inicial,
-.resultados,
-.loading-oculto {
-  display: none !important; 
-}
-
-/* ESTADOS ACTIVOS (GESTIONADOS POR JS) */
-.mostrar-flex { display: flex !important; }
-.mostrar-block { display: block !important; }
-
-/* --- HEADER --- */
-header {
-  text-align: center;
-  padding: 1.5rem 1rem;
-  background: linear-gradient(135deg, var(--eco-dark) 0%, #11678B 100%);
-  color: white;
-}
-header h1 { font-size: 2.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
-
-main { max-width: 1200px; margin: 0 auto; padding: 1.5rem 1rem; }
-
-/* --- FILTROS STICKY --- */
-.filtros {
-  background: white;
-  padding: 1.2rem 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  margin-bottom: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  border-bottom: 3px solid var(--eco-green);
-}
-
-.filtro-grupo { display: flex; flex-direction: column; gap: 0.3rem; min-width: 160px; }
-.filtros label { font-weight: 700; font-size: 0.85rem; text-transform: uppercase; }
-.filtros select { padding: 0.6rem; border: 2px solid #e1e5e9; border-radius: 8px; font-size: 1rem; font-family: 'Barlow Condensed'; cursor: pointer; }
-
-.radios-periodos { display: flex; gap: 1rem; padding: 0.5rem 0.8rem; border: 2px solid #e1e5e9; border-radius: 8px; }
-
-.botones-container { display: flex; gap: 0.8rem; }
-.btn-buscar, .btn-progresion, .btn-secundario {
-  height: 44px; border: none; border-radius: 8px; font-weight: 700; cursor: pointer;
-  padding: 0 1.5rem; transition: all 0.3s; font-family: 'Barlow Condensed'; font-size: 1.05rem;
-}
-.btn-buscar { background: #11678B; color: white; }
-.btn-progresion { background: var(--eco-purple); color: white; }
-.btn-progresion:disabled { background: #e1e5e9; color: #999; cursor: not-allowed; }
-
-/* --- HERRAMIENTAS --- */
-#herramientas-resultados { display: flex; justify-content: flex-end; margin-bottom: 1rem; }
-.btn-secundario { background: var(--eco-teal); color: white; }
-
-/* --- RESULTADOS --- */
-.tabla-body { display: flex; flex-direction: column; gap: 2rem; font-size: 1.15rem; }
-.item-malla { 
-  background: white; border-radius: 15px; overflow: hidden; 
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
-  user-select: none; -webkit-user-select: none;
-}
-.item-malla h3 { text-align: center; padding: 1.2rem; font-size: 1.5rem; color: white; text-transform: uppercase; }
-.item-malla-contenido { padding: 1.5rem 2.5rem; }
-.campo { margin-bottom: 1.2rem; }
-.campo strong { display: block; font-size: 1rem; text-transform: uppercase; color: #888; margin-bottom: 0.3rem; }
-
-/* --- ACORDEONES E ICONOS CON PULSO --- */
-.contenedor-acordeon { margin-top: 1.2rem; border-top: 1px solid #eee; padding-top: 1.2rem; }
-
-.acordeon-header { 
-  display: flex; align-items: center; cursor: pointer; padding: 8px; 
-  border-radius: 50px; transition: background 0.3s; 
-}
-.acordeon-header:hover { background: #f8f9fa; }
-
-.acordeon-icono-btn {
-  width: 48px; height: 48px; border-radius: 50%; display: flex; 
-  align-items: center; justify-content: center; font-size: 1.4rem; 
-  color: white; margin-right: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  animation: pulso-interactivo 2.5s infinite ease-in-out;
-}
-
-@keyframes pulso-interactivo {
-  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(155, 123, 182, 0.4); }
-  70% { transform: scale(1.08); box-shadow: 0 0 0 10px rgba(155, 123, 182, 0); }
-  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(155, 123, 182, 0); }
-}
-
-.acordeon-titulo { font-size: 1.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
-
-.acordeon-panel { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-out; }
-.acordeon-panel.abierto { max-height: 1200px; padding: 1rem 0; }
-
-.contenido-interno { background: #fafafa; border: 1px solid #eee; border-radius: 12px; padding: 1.5rem; }
-
-/* COLORES POR ÁREA */
-.area-matematicas .item-malla h3, .area-matematicas .dce-color { background-color: #F07F3C; }
-.area-matematicas .dce-texto { color: #F07F3C; }
-
-.area-lenguaje .item-malla h3, .area-lenguaje .dce-color { background-color: #FBBB21; }
-.area-lenguaje .dce-texto { color: #FBBB21; }
-
-.area-sociales .item-malla h3, .area-sociales .dce-color { background-color: #3974B9; }
-.area-sociales .dce-texto { color: #3974B9; }
-
-.eco-color { background-color: var(--eco-purple); }
-.eco-texto { color: var(--eco-purple); }
-.eco-badge { background: var(--eco-purple); color: white; padding: 3px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; float: right; }
-
-/* --- BOTÓN DICCIONARIO (BLINDADO) --- */
-.dic-link-container { margin-top: 1.5rem; border-top: 1px solid #eee; padding-top: 1.2rem; }
-.btn-eco-dic {
-  display: inline-block !important; 
-  background-color: var(--eco-teal) !important; 
-  color: white !important;
-  text-decoration: none !important; 
-  padding: 12px 25px !important; 
-  border-radius: 8px !important; 
-  font-weight: 700 !important;
-  text-transform: uppercase !important; 
-  box-shadow: 0 4px 12px rgba(0, 161, 155, 0.2) !important;
-  transition: transform 0.2s !important;
-}
-.btn-eco-dic:hover { background-color: var(--eco-dark) !important; transform: translateY(-2px); }
-
-/* --- OVERLAY PROGRESIÓN --- */
-.overlay-progresion {
-  position: fixed; inset: 0; background: rgba(23, 51, 75, 0.98);
-  backdrop-filter: blur(10px); z-index: 5000; justify-content: center; align-items: center; padding: 1.5rem;
-}
-.progresion-container {
-  background: #f4f7f9; width: 100%; max-width: 1500px; height: 92vh;
-  border-radius: 15px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.5);
-}
-.progresion-header { background: var(--eco-dark); color: white; padding: 1.2rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 4px solid var(--eco-green); }
-.progresion-titulo-texto h2 { color: var(--eco-green); font-size: 1.8rem; text-transform: uppercase; }
-.btn-cerrar-overlay { background: #c0392b; color: white; }
-
-.progresion-navegacion { background: white; padding: 1rem; display: flex; justify-content: center; align-items: center; gap: 3rem; border-bottom: 1px solid #ddd; }
-.btn-nav { background: #11678B; color: white; border-radius: 50px; }
-.info-ciclo { font-weight: 700; color: var(--eco-dark); text-transform: uppercase; font-size: 0.9rem; }
-
-.progresion-columnas { display: flex; flex: 1; overflow: hidden; gap: 1px; background: #ddd; }
-.col-prog { flex: 1; background: white; display: flex; flex-direction: column; min-width: 0; }
-.col-header { background: var(--eco-dark); color: white; padding: 1rem; text-align: center; font-weight: 700; text-transform: uppercase; }
-.col-prog.actual { border-top: 6px solid #F07F3C; }
-.col-content { padding: 1.5rem; overflow-y: auto; flex: 1; }
-.prog-estandar-item { background: white; padding: 1.2rem; border-radius: 8px; margin-bottom: 1rem; border-left: 5px solid var(--eco-green); box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-
-/* --- MODAL ERROR --- */
-.modal-error-full {
-  position: fixed; inset: 0; background: rgba(23, 51, 75, 0.9);
-  z-index: 9999; justify-content: center; align-items: center;
-}
-.modal-error-contenido { background: white; padding: 2.5rem; border-radius: 15px; text-align: center; max-width: 400px; width: 90%; }
-.btn-modal-cancelar { background: #c0392b; color: white; border: none; padding: 0.8rem 2rem; border-radius: 8px; margin-top: 1rem; cursor: pointer; font-weight: 700; }
-
-/* --- SPINNER --- */
-#loading-overlay { display: flex; flex-direction: column; align-items: center; padding: 2rem; }
-.spinner { width: 40px; height: 40px; border: 4px solid #ddd; border-top: 4px solid var(--eco-purple); border-radius: 50%; animation: spin 1s linear infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
-
-/* --- RESPONSIVO --- */
-@media (max-width: 768px) {
-  .filtros { flex-direction: column; align-items: stretch; position: relative; }
-  .progresion-columnas { flex-direction: row; overflow-x: auto; scroll-snap-type: x mandatory; }
-  .col-prog { min-width: 88vw; scroll-snap-align: center; }
-}
+/* Ocultar el encabezado de impresión en la vista web normal */
+.print-only-header { display: none; }
