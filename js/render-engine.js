@@ -1,126 +1,118 @@
 // js/render-engine.js
 
 /**
- * MOTOR DE RENDERIZADO UNIFICADO (v2.1)
- * Optimización: Vinculación dinámica de elementos y búsqueda profunda.
+ * MOTOR DE RENDERIZADO UNIFICADO E INTERACTIVO (v3.0)
+ * Implementa Acordeones, Cruce de Datos DCE y Animaciones.
  */
 window.RenderEngine = (function() {
 
-  // Variables de estado interno
-  let itemsActuales = [];
+  // Referencias DOM
+  const containerMalla = document.getElementById('contenedor-malla');
+  const resPrincipal = document.getElementById('resultados-principal');
+  const herramientas = document.getElementById('herramientas-resultados');
+  const loading = document.getElementById('loading-overlay');
+
+  // Estado interno
   let contextoActual = { areaId: '', grado: '', periodo: '' };
 
   /**
-   * FUNCIÓN MAESTRA: Renderiza la malla y activa herramientas
+   * FUNCIÓN MAESTRA: Renderiza e inicializa interactividad
    */
   function renderizar(items, areaId, grado, periodo) {
-    itemsActuales = items;
     contextoActual = { areaId, grado, periodo };
 
-    // Captura de elementos asegurada en el momento de la consulta
-    const resPrincipal = document.getElementById('resultados-principal');
-    const herramientas = document.getElementById('herramientas-resultados');
-    const inputBusqueda = document.getElementById('input-busqueda');
-
-    // 1. Mostrar contenedores
     resPrincipal.classList.remove('ocultar');
     herramientas.classList.remove('herramientas-ocultas');
     
-    // 2. Limpiar búsqueda anterior al consultar algo nuevo
-    if (inputBusqueda) inputBusqueda.value = '';
-
-    // 3. Dibujar por primera vez
     dibujarHTML(items);
-
-    // 4. Activar el escuchador de búsqueda (Mejora: Usamos 'input' para máxima compatibilidad)
-    if (inputBusqueda) {
-      // Eliminamos cualquier listener previo para no duplicar procesos
-      inputBusqueda.oninput = (e) => {
-        const term = e.target.value.toLowerCase().trim();
-        
-        // Filtrado profundo sobre los datos originales
-        const filtrados = itemsActuales.filter(item => {
-          const contenidoTextual = JSON.stringify(item).toLowerCase();
-          return contenidoTextual.includes(term);
-        });
-
-        dibujarHTML(filtrados);
-      };
-    }
+    vincularAcordeones();
   }
 
   /**
-   * Genera el HTML basado en el tipo de área
+   * Genera el HTML recorriendo los ítems
    */
   function dibujarHTML(items) {
-    const containerMalla = document.getElementById('contenedor-malla');
-    if (!containerMalla) return;
-
     containerMalla.innerHTML = '';
 
     if (!items || items.length === 0) {
-      containerMalla.innerHTML = `
-        <div class="sin-resultados-caja">
-          <p>🔍 No se hallaron coincidencias para su búsqueda.</p>
-        </div>
-      `;
+      containerMalla.innerHTML = '<p class="sin-resultados">No se hallaron registros.</p>';
       return;
     }
 
-    const html = items.map(item => {
+    containerMalla.innerHTML = items.map(item => {
       if (contextoActual.areaId === "proyecto-socioemocional") {
         return plantillaSocioemocional(item);
       } else {
         return plantillaAcademica(item, contextoActual.grado, contextoActual.periodo);
       }
     }).join('');
-
-    containerMalla.innerHTML = html;
   }
 
   /**
-   * PLANTILLA: Áreas del Núcleo Común (Matemáticas, Lenguaje, Sociales, etc.)
+   * PLANTILLA: Áreas Académicas con Acordeones DCE y ECO
    */
   function plantillaAcademica(item, grado, periodo) {
-    const areaSocioNombre = "Proyecto Socioemocional";
-    const tipoMalla = window.APP_CONFIG.TIPO_MALLA;
-    const socioData = window.MallasData?.[areaSocioNombre]?.[grado]?.[tipoMalla]?.periodos?.[periodo];
+    // 1. Obtener Datos Socioemocionales (Cruce Interno)
+    const areaSocio = "Proyecto Socioemocional";
+    const tipo = window.APP_CONFIG.TIPO_MALLA;
+    const socioData = window.MallasData?.[areaSocio]?.[grado]?.[tipo]?.periodos?.[periodo];
     const infoSocio = socioData && socioData.length > 0 ? socioData[0] : null;
 
-    let bloqueECO = '';
-    if (infoSocio) {
-      const habs = infoSocio.Habilidades ? infoSocio.Habilidades.map(h => `<div>${h}</div>`).join('') : '';
-      const evids = infoSocio.evidencias_de_desempeno ? infoSocio.evidencias_de_desempeno.map(e => `<div>${e}</div>`).join('') : '';
-      
-      bloqueECO = `
-        <div class="fila-separador-eco">Responsabilidad Socioemocional Proyecto ECO</div>
-        <div class="seccion-eco-integrada">
-          <div class="eco-badge">Cátedra ECO</div>
-          <div class="campo"><strong>Eje Central:</strong> ${infoSocio.eje_central || ''}</div>
-          <div class="campo"><strong>Habilidades:</strong> <div style="margin-top:5px;">${habs}</div></div>
-          <div class="campo"><strong>Evidencias ECO:</strong> <div style="margin-top:5px;">${evids}</div></div>
-        </div>
-      `;
-    }
-
-    // Nombres dinámicos para el botón de diccionario
-    let nombreGrado = grado + "°";
-    if (grado === "0") nombreGrado = "Transición";
-    if (grado === "-1") nombreGrado = "Jardín";
+    // 2. Obtener Orientación Metodológica DCE (Cruce Externo)
+    // Buscamos en el objeto Tareas_DCE_Matematicas que el cargador poblará
+    const areaT = `Tareas_DCE_${window.APP_CONFIG.AREAS[contextoActual.areaId].nombre}`;
+    const tareasDCE = window.MallasData?.[areaT]?.[grado]?.[tipo]?.periodos?.[periodo];
+    // Buscamos la tarea que coincida con el componente actual
+    const tareaEspecifica = tareasDCE ? tareasDCE[item.componente] : (item.tareas_dce || null);
 
     return `
       <div class="item-malla">
         <h3>${item.componente || 'General'}</h3>
         <div class="item-malla-contenido">
-          ${item.estandar ? `<div class="campo"><strong>Estándar Curricular:</strong><div>${item.estandar}</div></div>` : ''}
-          ${item.dba ? `<div class="campo"><strong>Derechos Básicos (DBA):</strong><div>${Array.isArray(item.dba) ? item.dba.join('<br><br>') : item.dba}</div></div>` : ''}
-          ${item.evidencias ? `<div class="campo"><strong>Evidencias de Aprendizaje:</strong><div>${Array.isArray(item.evidencias) ? item.evidencias.join('<br><br>') : item.evidencias}</div></div>` : ''}
-          ${item.saberes ? `<div class="campo"><strong>Saberes y Temas:</strong><div>${Array.isArray(item.saberes) ? item.saberes.join(' • ') : item.saberes}</div></div>` : ''}
-          ${item.tareas_dce ? `<div class="campo"><strong>Tareas DCE:</strong><div>${item.tareas_dce}</div></div>` : ''}
-          ${item.fuente ? `<div class="campo"><strong>Fuente:</strong><div style="font-style:italic;">${item.fuente}</div></div>` : ''}
-          ${bloqueECO}
+          
+          <!-- Bloques Académicos (Siempre Visibles) -->
+          <div class="campo"><strong>Estándar Curricular:</strong><div>${item.estandar || ''}</div></div>
+          <div class="campo"><strong>Derechos Básicos (DBA):</strong><div>${Array.isArray(item.dba) ? item.dba.join('<br><br>') : (item.dba || '')}</div></div>
+          <div class="campo"><strong>Evidencias:</strong><div>${Array.isArray(item.evidencias) ? item.evidencias.join('<br><br>') : (item.evidencias || '')}</div></div>
+          <div class="campo"><strong>Saberes:</strong><div>${Array.isArray(item.saberes) ? item.saberes.join(' • ') : (item.saberes || '')}</div></div>
+
+          <!-- ACORDEÓN 1: CAJA DE ORIENTACIONES METODOLÓGICAS (DCE) -->
+          ${tareaEspecifica ? `
+            <div class="contenedor-acordeon">
+              <div class="acordeon-header" tabindex="0" role="button">
+                <span class="indicador-mano">👉</span>
+                <div class="acordeon-icono-btn dce-color">💡</div>
+                <div class="acordeon-titulo dce-texto">Caja de Orientaciones Metodológicas</div>
+              </div>
+              <div class="acordeon-panel">
+                <div class="contenido-interno">
+                  <div class="campo"><strong>Metodología DCE:</strong><div>${tareaEspecifica}</div></div>
+                </div>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- ACORDEÓN 2: RESPONSABILIDAD SOCIOEMOCIONAL (ECO) -->
+          ${infoSocio ? `
+            <div class="contenedor-acordeon">
+              <div class="acordeon-header" tabindex="0" role="button">
+                <span class="indicador-mano">👉</span>
+                <div class="acordeon-icono-btn eco-color">🧠</div>
+                <div class="acordeon-titulo eco-texto">Responsabilidad Socioemocional Proyecto ECO</div>
+              </div>
+              <div class="acordeon-panel">
+                <div class="contenido-interno">
+                  <div class="eco-badge">Cátedra ECO</div>
+                  <div class="campo"><strong>Eje Central:</strong><div>${infoSocio.eje_central || ''}</div></div>
+                  <div class="campo"><strong>Habilidades:</strong><div>${infoSocio.Habilidades ? infoSocio.Habilidades.join('<br>') : ''}</div></div>
+                  <div class="campo"><strong>Evidencias ECO:</strong><div>${infoSocio.evidencias_de_desempeno ? infoSocio.evidencias_de_desempeno.join('<br>') : ''}</div></div>
+                </div>
+              </div>
+            </div>
+          ` : ''}
+
           <div class="dic-link-container">
-            <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO - ${nombreGrado}</a>
+            <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
           </div>
         </div>
       </div>
@@ -131,44 +123,57 @@ window.RenderEngine = (function() {
    * PLANTILLA: Área Socioemocional Pura
    */
   function plantillaSocioemocional(item) {
-    const habs = item.Habilidades ? item.Habilidades.map(h => `<li>${h}</li>`).join('') : '';
-    const evids = item.evidencias_de_desempeno ? item.evidencias_de_desempeno.map(e => `<li>${e}</li>`).join('') : '';
     return `
-      <div class="item-malla socioemocional">
+      <div class="item-malla">
         <h3>${item.competencia || 'Competencia ECO'}</h3>
         <div class="item-malla-contenido">
           <div class="campo"><strong>Eje Central:</strong><div>${item.eje_central || ''}</div></div>
-          ${item.estandar ? `<div class="campo"><strong>Estándar:</strong><div>${item.estandar}</div></div>` : ''}
-          ${habs ? `<div class="campo"><strong>Habilidades:</strong><ul>${habs}</ul></div>` : ''}
-          ${evids ? `<div class="campo"><strong>Evidencias:</strong><ul>${evids}</ul></div>` : ''}
-          ${item.orientacion_bateria ? `<div class="campo"><strong>Orientación:</strong><div>${item.orientacion_bateria}</div></div>` : ''}
+          <div class="campo"><strong>Estándar:</strong><div>${item.estandar || ''}</div></div>
+          <div class="campo"><strong>Habilidades:</strong><div>${item.Habilidades ? item.Habilidades.join('<br>') : ''}</div></div>
+          <div class="campo"><strong>Evidencias:</strong><div>${item.evidencias_de_desempeno ? item.evidencias_de_desempeno.join('<br>') : ''}</div></div>
         </div>
       </div>
     `;
   }
 
   /**
-   * Control del Indicador de Carga
+   * LÓGICA DE INTERACCIÓN: Abre y cierra acordeones
    */
-  function setCargando(estado) {
-    const loading = document.getElementById('loading-overlay');
-    const resPrincipal = document.getElementById('resultados-principal');
-    if (!loading) return;
+  function vincularAcordeones() {
+    const headers = document.querySelectorAll('.acordeon-header');
+    
+    headers.forEach(header => {
+      // Función para alternar estado
+      const toggle = () => {
+        const panel = header.nextElementSibling;
+        const mano = header.querySelector('.indicador-mano');
+        
+        const estaAbierto = panel.classList.contains('abierto');
+        
+        // Cerrar todos los demás acordeones del mismo bloque para limpieza
+        const bloquePadre = header.closest('.item-malla-contenido');
+        bloquePadre.querySelectorAll('.acordeon-panel').forEach(p => p.classList.remove('abierto'));
+        bloquePadre.querySelectorAll('.indicador-mano').forEach(m => m.style.visibility = 'visible');
 
-    if (estado) {
-      loading.classList.remove('loading-oculto');
-      if (resPrincipal) resPrincipal.classList.add('ocultar');
-    } else {
-      loading.classList.add('loading-oculto');
-    }
+        if (!estaAbierto) {
+          panel.classList.add('abierto');
+          if(mano) mano.style.visibility = 'hidden'; // Ocultar mano al abrir
+        }
+      };
+
+      header.addEventListener('click', toggle);
+      header.addEventListener('keypress', (e) => { if(e.key === 'Enter') toggle(); });
+    });
   }
 
-  // Evento de Impresión Global
-  document.addEventListener('click', (e) => {
-    if (e.target && e.target.id === 'btn-imprimir') {
-      window.print();
-    }
-  });
+  function setCargando(estado) {
+    const loader = document.getElementById('loading-overlay');
+    if (!loader) return;
+    estado ? loader.classList.remove('loading-oculto') : loader.classList.add('loading-oculto');
+  }
+
+  // Evento Impresión
+  document.addEventListener('click', e => { if(e.target.id === 'btn-imprimir') window.print(); });
 
   return { renderizar, setCargando };
 
