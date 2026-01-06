@@ -1,1 +1,24 @@
-vacio
+{
+  "area": "Matemáticas",
+  "grado": "1",
+  "tipo": "Tareas DCE",
+  "periodos": {
+    "1": {
+      "Numérico Variacional": "<b>Sugerencia Metodológica:</b> Uso de material concreto (bloques multibase) para representar unidades y decenas. <br><b>Tarea DCE:</b> El estudiante debe agrupar fichas en grupos de 10 para explicar el concepto de decena. <br><b>Articulación Formativa:</b> Prepara la base para sumas con reagrupación en Grado 2°.",
+      "Espacial Métrico": "<b>Sugerencia Metodológica:</b> Actividades de ubicación espacial en el patio de recreo (izquierda, derecha, delante, detrás). <br><b>Tarea DCE:</b> Seguir un mapa del tesoro simple dentro del salón usando comandos espaciales. <br><b>Evaluación:</b> ¿El estudiante identifica su posición respecto a objetos fijos?",
+      "Aleatorio": "<b>Sugerencia Metodológica:</b> Recolección de datos sobre el color favorito de los compañeros. <br><b>Tarea DCE:</b> Crear un pictograma simple usando calcomanías para representar los votos del grupo."
+    },
+    "2": {
+      "Numérico Variacional": "<b>Sugerencia Metodológica:</b> Taller de 'La Tiendita' para practicar adición y sustracción de forma funcional. <br><b>Tarea DCE:</b> Simular una compra donde el estudiante debe calcular el total de dos productos y determinar si le alcanza el dinero ficticio.",
+      "Espacial Métrico": "<b>Tarea DCE:</b> Construcción de figuras geométricas básicas usando palillos y plastilina para identificar vértices y lados."
+    },
+    "3": {
+      "Numérico Variacional": "<b>Sugerencia Metodológica:</b> Introducción a las secuencias numéricas mediante el juego de 'La Escalera'. <br><b>Tarea DCE:</b> Completar series numéricas de 2 en 2 y de 5 en 5 identificando el patrón de crecimiento.",
+      "Aleatorio": "<b>Tarea DCE:</b> Observar el clima durante una semana y registrarlo en una tabla de frecuencia con dibujos (Sol, Nube, Lluvia)."
+    },
+    "4": {
+      "Numérico Variacional": "<b>Sugerencia Metodológica:</b> Resolución de problemas de la vida cotidiana que requieran dos pasos (suma y resta). <br><b>Tarea DCE:</b> Plantear un problema donde deban repartir dulces equitativamente (Noción de división). <br><b>Articulación:</b> Validación final de fluidez numérica para Grado 2°.",
+      "Espacial Métrico": "<b>Tarea DCE:</b> Medición de objetos del salón usando unidades no estandarizadas (pasos, cuartas, lápices) y comparación de resultados."
+    }
+  }
+}
