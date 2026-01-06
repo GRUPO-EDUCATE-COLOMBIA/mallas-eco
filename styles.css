@@ -26,42 +26,85 @@ body {
 .mostrar-block { display: block !important; }
 
 /* --- HEADER CON EFECTO SATINADO --- */
+/* --- HEADER CON ACABADO SATINADO PROFUNDO (V-GLASS) --- */
 header {
   text-align: center;
-  padding: 1.8rem 1rem;
-  background: linear-gradient(135deg, var(--eco-dark) 0%, #11678B 100%);
+  padding: 2rem 1rem;
+  /* Degradado base inspirado en tu imagen */
+  background: linear-gradient(180deg, #1a5b96 0%, #0d3d66 50%, #082b4a 100%);
   color: white;
-  position: relative; /* Necesario para el efecto satinado */
-  overflow: hidden;   /* Contiene el haz de luz */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+  
+  /* Borde metálico sutil y sombra de profundidad */
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    inset 0 -8px 15px rgba(0,0,0,0.4), /* Sombra interna inferior */
+    0 5px 15px rgba(0,0,0,0.3);       /* Sombra externa proyectada */
 }
 
-/* Luz Satinada Dinámica */
+/* Capa de Brillo Satinado (La luz en la parte superior) */
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%; /* Solo cubre la mitad superior para el efecto de reflejo */
+  background: linear-gradient(
+    180deg, 
+    rgba(255, 255, 255, 0.25) 0%, 
+    rgba(255, 255, 255, 0.1) 80%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Efecto de Haz de Luz Dinámico (Opcional, muy sutil) */
 header::after {
   content: "";
   position: absolute;
-  top: -50%;
-  left: -150%;
-  width: 50%;
-  height: 200%;
+  top: 0;
+  left: -100%;
+  width: 40%;
+  height: 100%;
   background: linear-gradient(
     to right, 
-    rgba(255, 255, 255, 0) 0%, 
-    rgba(255, 255, 255, 0.15) 50%, 
-    rgba(255, 255, 255, 0) 100%
+    rgba(255,255,255,0) 0%, 
+    rgba(255,255,255,0.08) 50%, 
+    rgba(255,255,255,0) 100%
   );
-  transform: rotate(25deg);
-  animation: brillo-satinado 7s infinite ease-in-out;
+  transform: skewX(-25deg);
+  animation: barrido-satinado 8s infinite ease-in-out;
+  z-index: 1;
 }
 
-@keyframes brillo-satinado {
-  0% { left: -150%; }
-  25% { left: 150%; }
+@keyframes barrido-satinado {
+  0% { left: -100%; }
+  30% { left: 150%; }
   100% { left: 150%; }
 }
 
-header h1 { font-size: 2.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; position: relative; z-index: 2; }
-header p { position: relative; z-index: 2; opacity: 0.9; }
+/* Asegurar que el texto esté por encima de los brillos */
+header h1 { 
+  font-size: 2.5rem; 
+  font-weight: 700; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  position: relative; 
+  z-index: 2;
+  /* Sombra de texto para mayor legibilidad sobre el satinado */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+header p { 
+  position: relative; 
+  z-index: 2; 
+  opacity: 0.95; 
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 
 main { max-width: 1200px; margin: 0 auto; padding: 1.5rem 1rem; }
 
