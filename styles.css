@@ -1,4 +1,4 @@
-/* styles.css - Mallas Curriculares Nacionales - v5.1 Professional */
+/* styles.css - Mallas Curriculares Nacionales - v5.2 Professional */
 
 :root {
   --eco-purple: #9B7BB6;
@@ -19,26 +19,49 @@ body {
 }
 
 /* --- BLOQUEO DE SEGURIDAD --- */
-.overlay-progresion, 
-.modal-error-full, 
-.ocultar-inicial,
-.resultados,
-.loading-oculto {
+.overlay-progresion, .modal-error-full, .ocultar-inicial, .resultados, .loading-oculto {
   display: none !important; 
 }
-
-/* ESTADOS ACTIVOS */
 .mostrar-flex { display: flex !important; }
 .mostrar-block { display: block !important; }
 
-/* --- HEADER --- */
+/* --- HEADER CON EFECTO SATINADO --- */
 header {
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 1.8rem 1rem;
   background: linear-gradient(135deg, var(--eco-dark) 0%, #11678B 100%);
   color: white;
+  position: relative; /* Necesario para el efecto satinado */
+  overflow: hidden;   /* Contiene el haz de luz */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
-header h1 { font-size: 2.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+
+/* Luz Satinada Dinámica */
+header::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -150%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.15) 50%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(25deg);
+  animation: brillo-satinado 7s infinite ease-in-out;
+}
+
+@keyframes brillo-satinado {
+  0% { left: -150%; }
+  25% { left: 150%; }
+  100% { left: 150%; }
+}
+
+header h1 { font-size: 2.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; position: relative; z-index: 2; }
+header p { position: relative; z-index: 2; opacity: 0.9; }
 
 main { max-width: 1200px; margin: 0 auto; padding: 1.5rem 1rem; }
 
@@ -92,33 +115,24 @@ main { max-width: 1200px; margin: 0 auto; padding: 1.5rem 1rem; }
 .campo { margin-bottom: 1.2rem; }
 .campo strong { display: block; font-size: 1rem; text-transform: uppercase; color: #888; margin-bottom: 0.3rem; }
 
-/* --- ACORDEONES E ICONOS CON PULSO --- */
+/* --- ACORDEONES E ICONOS --- */
 .contenedor-acordeon { margin-top: 1.2rem; border-top: 1px solid #eee; padding-top: 1.2rem; }
-
-.acordeon-header { 
-  display: flex; align-items: center; cursor: pointer; padding: 8px; 
-  border-radius: 50px; transition: background 0.3s; 
-}
+.acordeon-header { display: flex; align-items: center; cursor: pointer; padding: 8px; border-radius: 50px; transition: background 0.3s; }
 .acordeon-header:hover { background: #f8f9fa; }
-
 .acordeon-icono-btn {
   width: 48px; height: 48px; border-radius: 50%; display: flex; 
   align-items: center; justify-content: center; font-size: 1.4rem; 
   color: white; margin-right: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   animation: pulso-interactivo 2.5s infinite ease-in-out;
 }
-
 @keyframes pulso-interactivo {
   0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(155, 123, 182, 0.4); }
   70% { transform: scale(1.08); box-shadow: 0 0 0 10px rgba(155, 123, 182, 0); }
   100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(155, 123, 182, 0); }
 }
-
 .acordeon-titulo { font-size: 1.2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
-
 .acordeon-panel { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-out; }
 .acordeon-panel.abierto { max-height: 2000px; padding: 1rem 0; }
-
 .contenido-interno { background: #fafafa; border: 1px solid #eee; border-radius: 12px; padding: 1.5rem; }
 
 /* COLORES POR ÁREA */
@@ -132,78 +146,41 @@ main { max-width: 1200px; margin: 0 auto; padding: 1.5rem 1rem; }
 .eco-texto { color: var(--eco-purple); }
 .eco-badge { background: var(--eco-purple); color: white; padding: 3px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; float: right; }
 
+/* --- BOTÓN DICCIONARIO RECONSTRUIDO --- */
+.dic-link-container { margin-top: 1.5rem; border-top: 1px solid #eee; padding-top: 1.2rem; }
+.btn-eco-dic {
+  display: inline-block !important; 
+  background-color: var(--eco-teal) !important; 
+  color: white !important;
+  text-decoration: none !important; 
+  padding: 12px 25px !important; 
+  border-radius: 8px !important; 
+  font-weight: 700 !important;
+  text-transform: uppercase !important; 
+  box-shadow: 0 4px 12px rgba(0, 161, 155, 0.3) !important;
+  transition: all 0.3s !important;
+  font-family: 'Barlow Condensed', sans-serif !important;
+  font-size: 1rem !important;
+}
+.btn-eco-dic:hover { 
+  background-color: var(--eco-dark) !important; 
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 161, 155, 0.4) !important;
+}
+
 /* --- OVERLAY PROGRESIÓN --- */
-.overlay-progresion {
-  position: fixed; inset: 0; background: rgba(23, 51, 75, 0.98);
-  backdrop-filter: blur(10px); z-index: 5000; justify-content: center; align-items: center; padding: 1.5rem;
-}
-.progresion-container {
-  background: #f4f7f9; width: 100%; max-width: 1500px; height: 92vh;
-  border-radius: 15px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.5);
-}
+.overlay-progresion { position: fixed; inset: 0; background: rgba(23, 51, 75, 0.98); backdrop-filter: blur(10px); z-index: 5000; justify-content: center; align-items: center; padding: 1.5rem; }
+.progresion-container { background: #f4f7f9; width: 100%; max-width: 1500px; height: 92vh; border-radius: 15px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.5); }
 
-/* --- ARQUITECTURA DE IMPRESIÓN (VERSION 5.1 FIX) --- */
+/* --- ARQUITECTURA DE IMPRESIÓN (VERSION 5.1 FIX INTEGRADO) --- */
 @media print {
-  /* Eliminar espacios fantasma */
-  html, body { 
-    margin: 0 !important; 
-    padding: 0 !important; 
-    background: white !important; 
-    height: auto !important;
-  }
-
-  /* Forzar posición estática para evitar saltos de página por sticky elements */
-  * { 
-    position: static !important; 
-    overflow: visible !important;
-  }
-
-  /* Ocultar interfaz */
-  header, .filtros, .botones-container, #herramientas-resultados, 
-  #loading-overlay, .modal-error-full, .overlay-progresion,
-  .btn-eco-dic, .acordeon-icono-btn {
-    display: none !important;
-  }
-
-  main { 
-    max-width: 100% !important; 
-    width: 100% !important; 
-    margin: 0 !important; 
-    padding: 0 !important; 
-  }
-
-  /* Mostrar encabezado de impresión al inicio absoluto */
-  .print-only-header { 
-    display: block !important; 
-    text-align: center; 
-    padding: 10px 0;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #000;
-  }
-
-  /* Ajuste de Malla para evitar páginas en blanco */
-  .item-malla { 
-    break-inside: auto !important; /* Permitir que se divida si es muy largo */
-    page-break-inside: auto !important;
-    border: 1px solid #eee !important;
-    margin-bottom: 1.5rem !important;
-    box-shadow: none !important;
-    display: block !important;
-  }
-
-  .acordeon-panel {
-    max-height: none !important; 
-    display: block !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  .item-malla h3 {
-    background: #f0f0f0 !important;
-    color: black !important;
-    font-size: 14pt !important;
-    padding: 10px !important;
-  }
+  html, body { margin: 0 !important; padding: 0 !important; background: white !important; }
+  * { position: static !important; overflow: visible !important; }
+  header, .filtros, .botones-container, #herramientas-resultados, #loading-overlay, .modal-error-full, .overlay-progresion, .btn-eco-dic, .acordeon-icono-btn { display: none !important; }
+  main { max-width: 100% !important; margin: 0 !important; padding: 0 !important; }
+  .print-only-header { display: block !important; text-align: center; padding: 10px 0; margin-bottom: 10px; border-bottom: 2px solid #000; }
+  .item-malla { break-inside: auto !important; border: 1px solid #eee !important; margin-bottom: 1.5rem !important; box-shadow: none !important; display: block !important; }
+  .acordeon-panel { max-height: none !important; display: block !important; opacity: 1 !important; visibility: visible !important; }
+  .item-malla h3 { background: #f0f0f0 !important; color: black !important; font-size: 14pt !important; padding: 10px !important; }
 }
-
 .print-only-header { display: none; }
