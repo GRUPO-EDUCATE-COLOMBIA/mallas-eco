@@ -1,37 +1,41 @@
 // js/ui-filtros.js
 
 /**
- * CONTROLADOR DE INTERFAZ (UI) v4.0
- * Gestiona la lógica de filtros y la visibilidad de capas (Modales/Overlays).
+ * CONTROLADOR DE INTERFAZ (UI) v4.1
+ * Gestiona la visibilidad blindada de resultados, modales y overlays.
  */
 document.addEventListener('DOMContentLoaded', () => {
-  // Elementos de Selección
+  // Elementos de Entrada
   const areaSel = document.getElementById('area');
   const gradoSel = document.getElementById('grado');
   const periodoSel = document.getElementById('periodo');
   const compSel = document.getElementById('componente');
   
-  // Botones y Capas
+  // Botones
   const btnBuscar = document.querySelector('.btn-buscar');
   const btnProgresion = document.getElementById('btn-progresion');
+  
+  // Capas de UI (IDs sincronizados con index.html v4.0)
   const resPrincipal = document.getElementById('resultados-principal');
   const herramientas = document.getElementById('herramientas-resultados');
   const modalError = document.getElementById('modal-error');
   const btnModalCancelar = document.getElementById('btn-modal-cancelar');
 
-  // Inicialización: Asegurar que nada se vea al cargar
-  if (modalError) modalError.classList.remove('mostrar');
-  if (resPrincipal) resPrincipal.classList.add('ocultar-inicial');
-  if (herramientas) herramientas.classList.add('ocultar-inicial');
+  // INICIALIZACIÓN: Asegurar limpieza absoluta al cargar
+  if (modalError) modalError.classList.remove('mostrar-flex');
+  if (resPrincipal) {
+    resPrincipal.classList.remove('mostrar-block');
+    resPrincipal.classList.add('ocultar-inicial');
+  }
 
   // --- EVENTOS DE USUARIO ---
 
-  // 1. Cambio de Área
+  // 1. Cambio de Área: Población dinámica y limpieza
   areaSel.addEventListener('change', () => {
     const areaId = areaSel.value;
     const config = window.APP_CONFIG.AREAS[areaId];
     
-    resetInterfazCompleta();
+    resetInterfaz();
 
     if (!config || !window.MallasData[config.nombre]) {
       gradoSel.disabled = true;
@@ -40,10 +44,11 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Poblar grados cargados en memoria
-    const gradosDisponibles = Object.keys(window.MallasData[config.nombre]);
-    gradoSel.innerHTML = '<option value="">Seleccionar</option>';
+    // Poblar Grados según memoria
+    const areaData = window.MallasData[config.nombre];
+    const gradosDisponibles = Object.keys(areaData);
     
+    gradoSel.innerHTML = '<option value="">Seleccionar</option>';
     gradosDisponibles.sort((a, b) => a - b).forEach(g => {
       const opt = document.createElement('option');
       opt.value = g;
@@ -73,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 4. Cambio de Componente
   compSel.addEventListener('change', validarBotones);
 
-  // 5. Botón Consultar: Acción Principal
+  // 5. Botón Consultar: Acción con Spinner
   btnBuscar.addEventListener('click', () => {
     const areaId = areaSel.value;
     const config = window.APP_CONFIG.AREAS[areaId];
@@ -84,28 +89,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const malla = window.MallasData?.[config?.nombre]?.[grado]?.[tipo];
 
     if (!malla || !periodo) {
-      if (modalError) modalError.classList.add('mostrar');
+      // Activar modal de error con clase blindada
+      if (modalError) modalError.classList.add('mostrar-flex');
       return;
     }
 
-    // Activar flujo de carga
+    // Activar flujo de carga visual
     window.RenderEngine.setCargando(true);
 
     setTimeout(() => {
-      const itemsPeriodo = malla.periodos[periodo] || [];
+      const todosLosItems = malla.periodos[periodo] || [];
       const itemsFiltrados = compSel.value === "todos" 
-        ? itemsPeriodo 
-        : itemsPeriodo.filter(it => (it.componente === compSel.value || it.competencia === compSel.value));
+        ? todosLosItems 
+        : todosLosItems.filter(it => (it.componente === compSel.value || it.competencia === compSel.value));
 
+      // Llamada al motor unificado
       window.RenderEngine.renderizar(itemsFiltrados, areaId, grado, periodo);
       window.RenderEngine.setCargando(false);
       
-      // Aplicar color dinámico del área
-      resPrincipal.className = `resultados mostrar ${config.clase}`;
+      // Aplicar color dinámico y mostrar bloque
+      resPrincipal.className = `resultados mostrar-block ${config.clase}`;
     }, 400); 
   });
 
-  // 6. Botón Progresión (Alineación Vertical)
+  // 6. Botón Progresión: Alineación Vertical
   if (btnProgresion) {
     btnProgresion.addEventListener('click', () => {
       const config = window.APP_CONFIG.AREAS[areaSel.value];
@@ -113,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // --- LÓGICA INTERNA ---
+  // --- LÓGICA DE ACTUALIZACIÓN ---
 
   function updatePeriodosUI() {
     const areaId = areaSel.value;
@@ -155,6 +162,8 @@ document.addEventListener('DOMContentLoaded', () => {
     compSel.disabled = false;
   }
 
+  // --- UTILIDADES ---
+
   function obtenerTipoMalla() {
     const radio = document.querySelector('input[name="periodos"]:checked');
     return radio && radio.value === "3" ? "3_periodos" : "4_periodos";
@@ -162,15 +171,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function validarBotones() {
     if (btnProgresion) {
-      // Requisito: Área + Grado + Componente específico
       btnProgresion.disabled = !(areaSel.value && gradoSel.value && compSel.value && compSel.value !== 'todos');
     }
   }
 
-  function resetInterfazCompleta() {
-    resPrincipal.classList.add('ocultar-inicial');
-    resPrincipal.classList.remove('mostrar');
-    herramientas.classList.add('ocultar-inicial');
+  function resetInterfaz() {
+    if (resPrincipal) {
+      resPrincipal.classList.remove('mostrar-block');
+      resPrincipal.classList.add('ocultar-inicial');
+    }
+    if (herramientas) herramientas.classList.add('ocultar-inicial');
   }
 
   function limpiarSelects(selects) {
@@ -180,7 +190,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Cerrar Modal
   if (btnModalCancelar) {
-    btnModalCancelar.addEventListener('click', () => modalError.classList.remove('mostrar'));
+    btnModalCancelar.addEventListener('click', () => {
+      modalError.classList.remove('mostrar-flex');
+    });
   }
 });
