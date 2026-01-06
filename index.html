@@ -66,18 +66,16 @@
       </div>
     </section>
 
-    <!-- MEJORA 3 Y 5: HERRAMIENTAS DE RESULTADOS (Buscador e Impresión) -->
+    <!-- ACCIONES DE RESULTADOS (SOLO IMPRESIÓN) -->
     <div id="herramientas-resultados" class="herramientas-ocultas">
-      <div class="buscador-caja">
-        <input type="text" id="input-busqueda" placeholder="🔍 Filtrar por palabra clave (ej: fracciones, emociones)...">
-      </div>
+      <div class="espaciador"></div> <!-- Mantiene el botón a la derecha -->
       <button id="btn-imprimir" class="btn-secundario">🖨️ Generar Ficha de Consulta</button>
     </div>
 
-    <!-- MEJORA 4: INDICADOR DE CARGA (SPINNER) -->
+    <!-- INDICADOR DE CARGA (SPINNER) -->
     <div id="loading-overlay" class="loading-oculto">
       <div class="spinner"></div>
-      <p>Cargando información curricular...</p>
+      <p>Procesando información curricular...</p>
     </div>
 
     <!-- CONTENEDOR UNIFICADO DE RESULTADOS -->
@@ -127,10 +125,10 @@
     </div>
   </div>
 
-  <!-- CARGA MODULAR ACTUALIZADA -->
+  <!-- SCRIPTS -->
   <script src="js/config.js"></script>
   <script src="js/data-loader.js"></script>
-  <script src="js/render-engine.js"></script> <!-- Motor Unificado -->
+  <script src="js/render-engine.js"></script>
   <script src="js/render-progresion.js"></script>
   <script src="js/ui-filtros.js"></script>
 
