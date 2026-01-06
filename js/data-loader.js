@@ -1,70 +1,82 @@
-// js/data-loader.js
+// js/data-loader.js - v5.0 (Arquitectura Bajo Demanda)
 
 window.MallasData = {};
 
 /**
- * Prepara la estructura de la base de datos en memoria
+ * Función Maestra: Asegura que toda la tríada de datos de un grado esté en memoria.
+ * Carga: Malla Académica + Tareas DCE + Proyecto Socioemocional (ECO)
  */
-function prepararMemoria(area, grado, tipo) {
-  if (!window.MallasData[area]) window.MallasData[area] = {};
-  if (!window.MallasData[area][grado]) window.MallasData[area][grado] = {};
-  if (!window.MallasData[area][grado][tipo]) window.MallasData[area][grado][tipo] = null;
+async function asegurarDatosGrado(areaKey, grado) {
+  const config = window.APP_CONFIG;
+  const area = config.AREAS[areaIdAKey(areaKey)]; // Helper para obtener config del área
+  const tipo = config.TIPO_MALLA;
+  const gradoStr = String(grado).trim();
+
+  // 1. Verificar si ya tenemos los datos básicos de este grado para evitar descargas repetidas
+  if (window.MallasData[area.nombre]?.[gradoStr]?.[tipo]) {
+    return true; 
+  }
+
+  // 2. Definir Rutas de la Tríada
+  const rutaBase = `data/${area.carpeta}/${area.prefijo}_${gradoStr}_${tipo}.json`;
+  const rutaTareas = `data/${area.carpeta}/tareas_dce/t_${area.prefijo}_${gradoStr}_${tipo}.json`;
+  
+  // Ruta del Proyecto ECO (Siempre se carga para permitir el cruce transversal)
+  const areaEco = config.AREAS["proyecto-socioemocional"];
+  const rutaEco = `data/${areaEco.carpeta}/${areaEco.prefijo}_${gradoStr}_${tipo}.json`;
+
+  console.log(`📡 Solicitando Paquete Curricular: ${area.nombre} Grado ${gradoStr}`);
+
+  try {
+    // 3. Ejecutar Carga Paralela (Máxima Velocidad)
+    const [resBase, resTareas, resEco] = await Promise.all([
+      fetch(rutaBase).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(rutaTareas).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(rutaEco).then(r => r.ok ? r.json() : null).catch(() => null)
+    ]);
+
+    // 4. Indexar Malla Académica en Memoria
+    if (resBase) {
+      prepararEstructura(area.nombre, gradoStr, tipo);
+      window.MallasData[area.nombre][gradoStr][tipo] = resBase;
+    }
+
+    // 5. Indexar Tareas DCE (Espejo)
+    if (resTareas) {
+      const llaveT = `Tareas_DCE_${area.nombre}`;
+      prepararEstructura(llaveT, gradoStr, tipo);
+      window.MallasData[llaveT][gradoStr][tipo] = resTareas;
+    }
+
+    // 6. Indexar Proyecto ECO (Transversal)
+    if (resEco) {
+      prepararEstructura(areaEco.nombre, gradoStr, tipo);
+      window.MallasData[areaEco.nombre][gradoStr][tipo] = resEco;
+    }
+
+    return true;
+  } catch (error) {
+    console.error(`❌ Error crítico al cargar grado ${gradoStr}:`, error);
+    return false;
+  }
 }
 
 /**
- * Función Maestra de Carga v4.4
- * Ajustada para subcarpeta 'tareas_dce' y limpieza de rutas.
+ * Helper: Prepara el objeto en memoria para evitar errores de undefined
  */
-async function cargarAplicativo() {
-  console.log("⏳ Iniciando carga v4.4 (Rutas de subcarpeta)...");
-  
-  const config = window.APP_CONFIG;
-  const tipoLimpio = config.TIPO_MALLA.trim();
-  const areas = Object.values(config.AREAS);
-  const promesas = [];
-
-  areas.forEach(area => {
-    config.GRADOS.forEach(grado => {
-      const gradoStr = String(grado).trim();
-      const prefijoLimpio = area.prefijo.trim();
-      const carpetaLimpia = area.carpeta.trim();
-
-      // 1. RUTA BASE (data/matematicas/matematicas_1_4_periodos.json)
-      const rutaBase = `data/${carpetaLimpia}/${prefijoLimpio}_${gradoStr}_${tipoLimpio}.json`;
-      
-      // 2. RUTA DCE (data/matematicas/tareas_dce/t_matematicas_1_4_periodos.json)
-      // Se añade la subcarpeta 'tareas_dce' indicada por el usuario
-      const rutaTareas = `data/${carpetaLimpia}/tareas_dce/t_${prefijoLimpio}_${gradoStr}_${tipoLimpio}.json`;
-
-      // Carga de Malla Académica
-      const pBase = fetch(rutaBase)
-        .then(r => r.ok ? r.json() : null)
-        .then(json => {
-          if (json) {
-            prepararMemoria(area.nombre, gradoStr, tipoLimpio);
-            window.MallasData[area.nombre][gradoStr][tipoLimpio] = json;
-          }
-        }).catch(() => {});
-
-      // Carga de Tareas DCE (Espejo en subcarpeta)
-      const pTareas = fetch(rutaTareas)
-        .then(r => r.ok ? r.json() : null)
-        .then(json => {
-          if (json) {
-            const llaveT = `Tareas_DCE_${area.nombre}`;
-            prepararMemoria(llaveT, gradoStr, tipoLimpio);
-            window.MallasData[llaveT][gradoStr][tipoLimpio] = json;
-            console.log(`💎 Tareas DCE vinculadas: ${rutaTareas}`);
-          }
-        }).catch(() => {});
-
-      promesas.push(pBase, pTareas);
-    });
-  });
-
-  Promise.all(promesas).then(() => {
-    console.log("🚀 VINCULACIÓN EXITOSA CON SUBDIRECTORIOS.");
-  });
+function prepararEstructura(areaNombre, grado, tipo) {
+  if (!window.MallasData[areaNombre]) window.MallasData[areaNombre] = {};
+  if (!window.MallasData[areaNombre][grado]) window.MallasData[areaNombre][grado] = {};
 }
 
-cargarAplicativo();
+/**
+ * Helper: Encuentra la clave de configuración del área
+ */
+function areaIdAKey(id) {
+  // Si nos pasan el ID (ej: 'matematicas'), lo devolvemos. 
+  // Si nos pasan el nombre real, buscamos el ID.
+  if (window.APP_CONFIG.AREAS[id]) return id;
+  return Object.keys(window.APP_CONFIG.AREAS).find(key => window.APP_CONFIG.AREAS[key].nombre === id);
+}
+
+// Nota: Ya no se autoejecuta la carga masiva al inicio.
