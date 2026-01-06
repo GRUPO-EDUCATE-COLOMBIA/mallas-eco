@@ -1,4 +1,4 @@
-// js/render-engine.js - v5.4 STABLE (REVISADO)
+// js/render-engine.js v5.5 - FINAL STABLE
 window.RenderEngine = (function() {
   const containerMalla = document.getElementById('contenedor-malla');
 
@@ -7,13 +7,14 @@ window.RenderEngine = (function() {
     const tipo = window.APP_CONFIG.TIPO_MALLA;
     
     containerMalla.innerHTML = items.map(item => {
-      // 1. DATA JOINING DCE (Estructura de Arreglos)
+      // 1. DATA JOINING DCE
       const nombreArea = window.APP_CONFIG.AREAS[areaId].nombre;
-      const dceData = window.MallasData[`Tareas_DCE_${nombreArea}`]?.[grado]?.[tipo];
+      const llaveT = `Tareas_DCE_${nombreArea}`;
+      const dceData = window.MallasData[llaveT]?.[grado]?.[tipo];
       const dcePer = dceData?.periodos?.find(p => String(p.periodo_id) === String(periodo));
       const infoDCE = dcePer?.componentes?.find(c => c.nombre === (item.componente || item.competencia));
 
-      // 2. DATA JOINING ECO (Socioemocional - LLAVE EXACTA)
+      // 2. DATA JOINING ECO (CORREGIDO: Busca la llave exacta de config.js)
       const ecoData = window.MallasData["Proyecto Socioemocional"]?.[grado]?.[tipo];
       const ecoPer = ecoData?.periodos?.[periodo];
       const infoECO = ecoPer && ecoPer.length > 0 ? ecoPer[0] : null;
@@ -22,17 +23,16 @@ window.RenderEngine = (function() {
         <div class="item-malla">
           <h3>${item.componente || item.competencia || 'General'}</h3>
           <div class="item-malla-contenido">
-            <!-- BLOQUE ACADÉMICO COMPLETO -->
             <div class="campo"><strong>Estándar Curricular:</strong><div>${item.estandar || ''}</div></div>
             <div class="campo"><strong>DBA:</strong><div>${Array.isArray(item.dba) ? item.dba.join('<br><br>') : (item.dba || '')}</div></div>
             <div class="campo"><strong>Evidencias de Aprendizaje:</strong><div>${Array.isArray(item.evidencias) ? item.evidencias.join('<br><br>') : (item.evidencias || '')}</div></div>
             <div class="campo"><strong>Saberes / Contenidos:</strong><div>${Array.isArray(item.saberes) ? item.saberes.join(' • ') : (item.saberes || '')}</div></div>
 
-            <!-- ACORDEÓN DCE (ORIENTACIONES METODOLÓGICAS) -->
+            <!-- ACORDEÓN DCE -->
             ${infoDCE ? `
               <div class="contenedor-acordeon">
                 <div class="acordeon-header">
-                  <div class="acordeon-icono-btn dce-color" style="background-color:#F07F3C;">💡</div>
+                  <div class="acordeon-icono-btn" style="background-color:#F07F3C;">💡</div>
                   <div class="acordeon-titulo" style="color:#F07F3C;">Orientaciones: ${infoDCE.la_estrategia || ''}</div>
                 </div>
                 <div class="acordeon-panel">
@@ -45,22 +45,20 @@ window.RenderEngine = (function() {
                         <li><strong>Producción:</strong> ${infoDCE.ruta_de_exploracion?.produccion || ''}</li>
                       </ul>
                     </div>
-                    <div class="campo"><strong>Para Pensar (Preguntas):</strong>
-                      <div>${infoDCE.para_pensar ? infoDCE.para_pensar.map(p => `• ${p}`).join('<br>') : ''}</div>
-                    </div>
-                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; border-top:1px dashed #ccc; padding-top:10px;">
-                      <div><strong>Pistas del Éxito:</strong><br>${infoDCE.pistas_del_exito || ''}</div>
-                      <div><strong>Un Refuerzo:</strong><br>${infoDCE.un_refuerzo || ''}</div>
+                    <div class="campo"><strong>Para Pensar:</strong><div>${infoDCE.para_pensar ? infoDCE.para_pensar.join('<br>') : ''}</div></div>
+                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; border-top:1px dashed #ccc; padding-top:15px;">
+                      <div><strong>Pistas Éxito:</strong><br>${infoDCE.pistas_del_exito || ''}</div>
+                      <div><strong>Refuerzo:</strong><br>${infoDCE.un_refuerzo || ''}</div>
                     </div>
                   </div>
                 </div>
               </div>` : ''}
 
-            <!-- ACORDEÓN ECO (SOCIOMOCIONAL) -->
+            <!-- ACORDEÓN ECO (Socioemocional) -->
             ${infoECO ? `
               <div class="contenedor-acordeon">
                 <div class="acordeon-header">
-                  <div class="acordeon-icono-btn eco-color" style="background-color:#9B7BB6;">🧠</div>
+                  <div class="acordeon-icono-btn" style="background-color:#9B7BB6;">🧠</div>
                   <div class="acordeon-titulo" style="color:#9B7BB6;">Responsabilidad Socioemocional ECO</div>
                 </div>
                 <div class="acordeon-panel">
@@ -92,9 +90,5 @@ window.RenderEngine = (function() {
     });
   }
 
-  function setCargando(e) {
-    document.getElementById('loading-overlay').classList.toggle('mostrar-flex', e);
-  }
-
-  return { renderizar, setCargando };
+  return { renderizar, setCargando: (e) => document.getElementById('loading-overlay').classList.toggle('mostrar-flex', e) };
 })();
