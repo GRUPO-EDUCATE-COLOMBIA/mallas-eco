@@ -1,24 +1,218 @@
 {
-  "area": "Matemáticas",
-  "grado": "1",
-  "tipo": "Tareas DCE",
-  "periodos": {
-    "1": {
-      "Numérico Variacional": "<b>Sugerencia Metodológica:</b> Uso de material concreto (bloques multibase) para representar unidades y decenas. <br><b>Tarea DCE:</b> El estudiante debe agrupar fichas en grupos de 10 para explicar el concepto de decena. <br><b>Articulación Formativa:</b> Prepara la base para sumas con reagrupación en Grado 2°.",
-      "Espacial Métrico": "<b>Sugerencia Metodológica:</b> Actividades de ubicación espacial en el patio de recreo (izquierda, derecha, delante, detrás). <br><b>Tarea DCE:</b> Seguir un mapa del tesoro simple dentro del salón usando comandos espaciales. <br><b>Evaluación:</b> ¿El estudiante identifica su posición respecto a objetos fijos?",
-      "Aleatorio": "<b>Sugerencia Metodológica:</b> Recolección de datos sobre el color favorito de los compañeros. <br><b>Tarea DCE:</b> Crear un pictograma simple usando calcomanías para representar los votos del grupo."
+  "proyecto": "Tareas_DCE_Grado_1",
+  "meta_pedagogica": "Desarrollar el pensamiento matemático mediante la exploración sensorial, la representación gráfica y la formalización simbólica.",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "componentes": [
+        {
+          "nombre": "Numérico Variacional",
+          "la_estrategia": "El Detective de Números y Cambios",
+          "un_reto_sugerido": "Encontrar 'números escondidos' en el colegio que no sirvan para contar (ej. números de salones, placas de extintores) y explicar qué información dan.",
+          "ruta_de_exploracion": {
+            "explorar": "Jugar a 'La Tienda': los niños deben juntar sus colecciones de botones para 'comprar' y notar cómo el grupo aumenta o disminuye al entregar objetos.",
+            "visual": "Dibujar en el tablero 'trenes de cantidades' donde cada vagón representa un número y los niños dibujan los pasajeros correspondientes.",
+            "produccion": "Explicar mediante un dibujo por qué si tengo 3 dulces y me regalan 2, ahora tengo una bolsa más grande."
+          },
+          "para_pensar": [
+            "¿Si el número de tu casa es el 5, significa que hay 5 casas dentro de la tuya?",
+            "¿Qué palabra usamos cuando queremos que dos grupos se vuelvan uno solo?"
+          ],
+          "pistas_del_exito": "El niño diferencia el número como nombre (código) del número como cantidad (cardinal).",
+          "un_refuerzo": "Usar una recta numérica en el suelo para saltar hacia adelante (sumar) o atrás (restar) físicamente."
+        },
+        {
+          "nombre": "Espacial Métrico",
+          "la_estrategia": "Exploradores de Formas y Medidas",
+          "un_reto_sugerido": "Construir una torre que no se caiga usando solo objetos redondos y objetos con puntas, y descubrir cuál es más estable.",
+          "ruta_de_exploracion": {
+            "explorar": "Caminata sensorial: tocar objetos y decir si son 'lisos', 'pesados' o si tienen 'esquinas'.",
+            "visual": "Pintar las caras de una caja y sellarlas en papel para descubrir qué figuras geométricas (cuadrados, rectángulos) aparecen.",
+            "produccion": "Modelar con plastilina una esfera y transformarla en un cilindro, explicando qué cambió en su forma."
+          },
+          "para_pensar": [
+            "¿Por qué es difícil apilar pelotas una encima de otra?",
+            "¿Qué objeto del salón es más pesado que tu cuaderno pero más liviano que tu mesa?"
+          ],
+          "pistas_del_exito": "El estudiante agrupa objetos por su capacidad de rodar o por la forma de sus caras.",
+          "un_refuerzo": "Utilizar la 'Bolsa Misteriosa' donde el niño debe identificar un objeto (cubo, esfera) solo tocándolo."
+        },
+        {
+          "nombre": "Aleatorio",
+          "la_estrategia": "El Club de los Clasificadores",
+          "un_reto_sugerido": "Organizar todos los zapatos del salón en filas según si tienen cordones, velcro o son de meter.",
+          "ruta_de_exploracion": {
+            "explorar": "Repartir bloques lógicos y pedir que los separen en 'casitas' según el color o el tamaño.",
+            "visual": "Hacer un 'pictograma humano' donde cada niño se para en una columna según su fruta favorita.",
+            "produccion": "Señalar en el tablero cuál es el grupo que tiene 'más amigos' y cuál el que tiene 'menos'."
+          },
+          "para_pensar": [
+            "¿Cómo podemos saber cuántos niños trajeron maleta roja sin contarlos uno por uno cada vez?",
+            "¿Qué pasa con nuestra gráfica si un niño se cambia de grupo?"
+          ],
+          "pistas_del_exito": "El estudiante identifica la característica común (variable) que define a un grupo.",
+          "un_refuerzo": "Usar vasos transparentes para depositar fichas por cada categoría, permitiendo comparar alturas de forma directa."
+        }
+      ]
     },
-    "2": {
-      "Numérico Variacional": "<b>Sugerencia Metodológica:</b> Taller de 'La Tiendita' para practicar adición y sustracción de forma funcional. <br><b>Tarea DCE:</b> Simular una compra donde el estudiante debe calcular el total de dos productos y determinar si le alcanza el dinero ficticio.",
-      "Espacial Métrico": "<b>Tarea DCE:</b> Construcción de figuras geométricas básicas usando palillos y plastilina para identificar vértices y lados."
+    {
+      "periodo_id": 2,
+      "componentes": [
+        {
+          "nombre": "Numérico Variacional",
+          "la_estrategia": "El Saltamontes Matemático",
+          "un_reto_sugerido": "Contar los pasos de 2 en 2 desde la puerta hasta el tablero sin equivocarse.",
+          "ruta_de_exploracion": {
+            "explorar": "Agrupar semillas en montoncitos de 5 para contar grandes cantidades de forma más rápida.",
+            "visual": "Completar 'gusanos numéricos' donde faltan números en una secuencia de 2 en 2 o 5 en 5.",
+            "produccion": "Resolver el misterio del 'Número Perdido': si tengo 5 y ahora tengo 8, ¿cuántos llegaron a la fiesta?"
+          },
+          "para_pensar": [
+            "¿Si cuento de 5 en 5, llegaré más rápido al 20 que si cuento de 1 en 1?",
+            "¿Cómo podemos saber si un número es 'mayor que' otro sin dibujar todos los elementos?"
+          ],
+          "pistas_del_exito": "El niño realiza conteos saltados con fluidez y resuelve estructuras aditivas simples (a + ? = c).",
+          "un_refuerzo": "Usar cuentas de collar o ábacos para visualizar los saltos en el conteo."
+        },
+        {
+          "nombre": "Espacial Métrico",
+          "la_estrategia": "Ordenando mi Mundo",
+          "un_reto_sugerido": "Organizar a 5 compañeros del más bajito al más alto y luego del más pesado al más liviano.",
+          "ruta_de_exploracion": {
+            "explorar": "Comparar recipientes de diferentes formas para ver en cuál 'cabe más' agua (capacidad).",
+            "visual": "Dibujar el camino que hace un caracol comparando un trayecto recto vs. uno curvo.",
+            "produccion": "Crear una 'galería de objetos' etiquetados como 'rueda', 'no rueda' o 'tiene puntas'."
+          },
+          "para_pensar": [
+            "¿Un objeto muy grande siempre es más pesado que uno pequeño?",
+            "¿Cómo podemos medir el largo del salón usando nuestros pies?"
+          ],
+          "pistas_del_exito": "El niño utiliza términos de comparación (más alto, más pesado, más largo) con precisión.",
+          "un_refuerzo": "Utilizar una balanza de platos sencilla para comparar pesos de forma visual y directa."
+        },
+        {
+          "nombre": "Aleatorio",
+          "la_estrategia": "Cazadores de Datos",
+          "un_reto_sugerido": "Hacer una encuesta sobre el animal favorito y registrar las respuestas usando rayitas (tablas de conteo).",
+          "ruta_de_exploration": {
+            "explorar": "Lanzar un dado varias veces y anotar cuántas veces sale cada número.",
+            "visual": "Transformar las rayitas del conteo en una torre de bloques de colores.",
+            "produccion": "Contar las rayitas y escribir el número total de cada categoría."
+          },
+          "para_pensar": [
+            "¿Por qué es más fácil leer una tabla con rayitas que preguntar a todos otra vez?",
+            "¿Qué animal ganó en nuestra encuesta?"
+          ],
+          "pistas_del_exito": "El estudiante organiza información en tablas de conteo de forma estructurada.",
+          "un_refuerzo": "Usar plantillas cuadriculadas para que cada rayita ocupe un solo espacio y no se confundan."
+        }
+      ]
     },
-    "3": {
-      "Numérico Variacional": "<b>Sugerencia Metodológica:</b> Introducción a las secuencias numéricas mediante el juego de 'La Escalera'. <br><b>Tarea DCE:</b> Completar series numéricas de 2 en 2 y de 5 en 5 identificando el patrón de crecimiento.",
-      "Aleatorio": "<b>Tarea DCE:</b> Observar el clima durante una semana y registrarlo en una tabla de frecuencia con dibujos (Sol, Nube, Lluvia)."
+    {
+      "periodo_id": 3,
+      "componentes": [
+        {
+          "nombre": "Numérico Variacional",
+          "la_estrategia": "La Balanza del Signo Igual",
+          "un_reto_sugerido": "Lograr que dos platos de una balanza pesen lo mismo poniendo diferentes grupos de objetos (ej. 5 canicas = 3 canicas + 2 canicas).",
+          "ruta_de_exploracion": {
+            "explorar": "Usar regletas o bloques para encontrar diferentes formas de armar el mismo número (ej. el 7 es 4+3 y también 5+2).",
+            "visual": "Dibujar balanzas donde el signo '=' es el centro, equilibrando dibujos de cantidades.",
+            "produccion": "Escribir igualdades numéricas y explicar que el '=' significa que hay lo mismo en ambos lados."
+          },
+          "para_pensar": [
+            "¿El signo '=' siempre significa 'el resultado es' o puede significar 'es lo mismo que'?",
+            "¿Qué número falta en 4 + ___ = 10 para que la balanza no se incline?"
+          ],
+          "pistas_del_exito": "El estudiante propone números que satisfacen una igualdad y comprende la equivalencia.",
+          "un_refuerzo": "Utilizar fichas bicolores para mostrar que un total se puede descomponer de varias maneras."
+        },
+        {
+          "nombre": "Espacial Métrico",
+          "la_estrategia": "El Mapa del Tesoro",
+          "un_reto_sugerido": "Esconder un objeto y dar instrucciones a un compañero para encontrarlo usando 'derecha', 'izquierda', 'adelante' y 'atrás'.",
+          "ruta_de_exploracion": {
+            "explorar": "Medir el tablero usando lápices, luego usando manos y finalmente con una regla, comparando los resultados.",
+            "visual": "Dibujar el plano del salón de clases ubicando su propio pupitre y la puerta.",
+            "produccion": "Crear una tabla con objetos que miden 'más de 10 cm' y 'menos de 10 cm'."
+          },
+          "para_pensar": [
+            "¿Por qué si tú mides el salón con tus pies te da un número diferente que si lo mido yo?",
+            "¿Para qué sirve una regla?"
+          ],
+          "pistas_del_exito": "El niño se ubica en el espacio y realiza mediciones con unidades estandarizadas y no estandarizadas.",
+          "un_refuerzo": "Poner huellas de colores en el suelo para marcar giros a la izquierda y derecha."
+        },
+        {
+          "nombre": "Aleatorio",
+          "la_estrategia": "Reporteros Gráficos",
+          "un_reto_sugerido": "Hacer un pictograma con dibujos de frutas para representar la merienda del día.",
+          "ruta_de_exploracion": {
+            "explorar": "Recoger datos sobre el clima de la semana (sol, nube, lluvia) usando adhesivos.",
+            "visual": "Construir una gráfica de barras usando cajas de fósforos o cubos apilables.",
+            "produccion": "Leer la gráfica y responder: ¿Cuántos días más hizo sol que lluvia?"
+          },
+          "para_pensar": [
+            "¿Qué dibujo representa mejor nuestra información?",
+            "¿Si miro el pictograma, puedo saber qué pasó el lunes?"
+          ],
+          "pistas_del_exito": "El estudiante interpreta y comunica resultados basados en pictogramas y tablas.",
+          "un_refuerzo": "Usar imágenes grandes y claras en los pictogramas para facilitar la asociación visual."
+        }
+      ]
     },
-    "4": {
-      "Numérico Variacional": "<b>Sugerencia Metodológica:</b> Resolución de problemas de la vida cotidiana que requieran dos pasos (suma y resta). <br><b>Tarea DCE:</b> Plantear un problema donde deban repartir dulces equitativamente (Noción de división). <br><b>Articulación:</b> Validación final de fluidez numérica para Grado 2°.",
-      "Espacial Métrico": "<b>Tarea DCE:</b> Medición de objetos del salón usando unidades no estandarizadas (pasos, cuartas, lápices) y comparación de resultados."
+    {
+      "periodo_id": 4,
+      "componentes": [
+        {
+          "nombre": "Numérico Variacional",
+          "la_estrategia": "La Ciudad de las Decenas",
+          "un_reto_sugerido": "Armar 'paquetes de 10' con palillos y ver cuántos paquetes y cuántos palillos sueltos forman el número 25.",
+          "ruta_de_exploracion": {
+            "explorar": "Jugar con billetes didácticos de $10 y monedas de $1 para entender el valor de posición.",
+            "visual": "Representar números usando el ábaco o dibujos de torres de 10 cubos (decenas) y cubos sueltos (unidades).",
+            "produccion": "Explicar por qué el número 13 tiene un '1' si solo vemos tres unidades (paso por el diez)."
+          },
+          "para_pensar": [
+            "¿Qué es más: tener 2 decenas o tener 15 unidades?",
+            "¿Qué pasa si tengo 19 y le sumo 1? ¿Cómo cambia mi ciudad de decenas?"
+          ],
+          "pistas_del_exito": "El niño descompone números de dos dígitos en decenas y unidades con fluidez.",
+          "un_refuerzo": "Usar tableros de valor posicional (bolsillos de tela) para meter tarjetas de decenas y unidades."
+        },
+        {
+          "nombre": "Espacial Métrico",
+          "la_estrategia": "Pequeños Arquitectos y Geómetras",
+          "un_reto_sugerido": "Dibujar el camino que debe seguir un robot para salir de un laberinto, marcando cuántos pasos avanza en cada dirección.",
+          "ruta_de_exploracion": {
+            "explorar": "Comparar distancias largas usando una cuerda y marcar nudos para medir.",
+            "visual": "Dibujar recorridos considerando la lateralidad y los ángulos de giro (un cuarto de vuelta).",
+            "produccion": "Escribir un mensaje de instrucciones para que alguien llegue desde el patio hasta el salón."
+          },
+          "para_pensar": [
+            "¿Cómo le explicas a alguien dónde queda el baño si no puedes señalar con el dedo?",
+            "¿Es más corto ir en línea recta o dando vueltas?"
+          ],
+          "pistas_del_exito": "El estudiante describe trayectorias complejas y toma decisiones basadas en mediciones.",
+          "un_refuerzo": "Usar juegos de 'Simón Dice' con instrucciones espaciales precisas (ej. 'Simón dice: da 3 pasos al frente y gira a la derecha')."
+        },
+        {
+          "nombre": "Aleatorio",
+          "la_estrategia": "Expertos en Conclusiones",
+          "un_reto_sugerido": "Analizar la asistencia del mes y descubrir cuál fue el día que 'más niños vinieron' y por qué creen que pasó eso.",
+          "ruta_de_exploracion": {
+            "explorar": "Revisar todos los pictogramas hechos en el año y compararlos.",
+            "visual": "Crear un mural final con los datos más curiosos aprendidos sobre el grupo.",
+            "produccion": "Responder preguntas como: ¿Cuál es el dato que más se repite (moda)? y ¿Cuántos somos en total?"
+          },
+          "para_pensar": [
+            "Si alguien lee nuestra tabla dentro de un año, ¿podría entendernos?",
+            "¿Para qué nos sirve saber cuál es el juego que más le gusta al salón?"
+          ],
+          "pistas_del_exito": "El estudiante comunica resultados estadísticos con confianza y halla totales y modas.",
+          "un_refuerzo": "Hacer un círculo de palabra donde cada niño comparta una conclusión diferente basada en la misma gráfica."
+        }
+      ]
     }
-  }
+  ]
 }
