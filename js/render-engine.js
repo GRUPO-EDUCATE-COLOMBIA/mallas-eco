@@ -1,9 +1,5 @@
-// js/render-engine.js
+// js/render-engine.js - v5.5 (Soporte DCE Estructurado)
 
-/**
- * MOTOR DE RENDERIZADO UNIFICADO v4.1
- * Gestiona acordeones con pulso, cruce de subcarpetas y botones institucionales.
- */
 window.RenderEngine = (function() {
 
   const containerMalla = document.getElementById('contenedor-malla');
@@ -19,7 +15,6 @@ window.RenderEngine = (function() {
   function renderizar(items, areaId, grado, periodo) {
     contextoActual = { areaId, grado, periodo };
 
-    // Activar visibilidad de capas usando las nuevas clases del CSS v4.1
     resPrincipal.classList.add('mostrar-block');
     herramientas.classList.add('mostrar-flex');
     
@@ -43,7 +38,7 @@ window.RenderEngine = (function() {
   }
 
   /**
-   * PLANTILLA ACADÉMICA: Cruce con subcarpeta 'tareas_dce' y Proyecto ECO
+   * PLANTILLA ACADÉMICA: Conexión con nueva estructura JSON DCE
    */
   function plantillaAcademica(item, grado, periodo) {
     const tipo = window.APP_CONFIG.TIPO_MALLA;
@@ -52,20 +47,19 @@ window.RenderEngine = (function() {
     const socioData = window.MallasData?.["Proyecto Socioemocional"]?.[grado]?.[tipo]?.periodos?.[periodo];
     const infoSocio = socioData && socioData.length > 0 ? socioData[0] : null;
 
-    // 2. Cruce con Orientación Metodológica (Tareas en subcarpeta)
+    // 2. CRUCE CON NUEVA ESTRUCTURA DCE
     const nombreArea = window.APP_CONFIG.AREAS[contextoActual.areaId].nombre;
     const llaveT = `Tareas_DCE_${nombreArea}`;
-    const tareasPeriodo = window.MallasData?.[llaveT]?.[grado]?.[tipo]?.periodos?.[periodo];
     
-    let contenidoDCE = item.tareas_dce || null;
-
-    if (tareasPeriodo) {
-      // Normalización para asegurar el cruce exacto de nombres
-      const norm = (t) => String(t).toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      const compBuscado = norm(item.componente || '');
-      const llaveEncontrada = Object.keys(tareasPeriodo).find(k => norm(k) === compBuscado);
-      if (llaveEncontrada) contenidoDCE = tareasPeriodo[llaveEncontrada];
-    }
+    // Acceder al arreglo de periodos del nuevo JSON
+    const dceCompleto = window.MallasData?.[llaveT]?.[grado]?.[tipo];
+    const dcePeriodoActual = dceCompleto?.periodos?.find(p => String(p.periodo_id) === String(periodo));
+    
+    // Buscar el componente específico dentro del arreglo 'componentes'
+    const norm = (t) => String(t).toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const compBuscado = norm(item.componente || '');
+    
+    const infoDCE = dcePeriodoActual?.componentes?.find(c => norm(c.nombre) === compBuscado);
 
     return `
       <div class="item-malla">
@@ -76,15 +70,36 @@ window.RenderEngine = (function() {
           <div class="campo"><strong>Evidencias:</strong><div>${Array.isArray(item.evidencias) ? item.evidencias.join('<br><br>') : (item.evidencias || '')}</div></div>
           <div class="campo"><strong>Saberes:</strong><div>${Array.isArray(item.saberes) ? item.saberes.join(' • ') : (item.saberes || '')}</div></div>
 
-          <!-- ACORDEÓN DCE (METODOLOGÍA) -->
-          ${contenidoDCE ? `
+          <!-- ACORDEÓN DCE (ESTRUCTURA NUEVA) -->
+          ${infoDCE ? `
             <div class="contenedor-acordeon">
               <div class="acordeon-header">
                 <div class="acordeon-icono-btn dce-color">💡</div>
-                <div class="acordeon-titulo dce-texto">Caja de Orientaciones Metodológicas</div>
+                <div class="acordeon-titulo dce-texto">Orientaciones Metodológicas: ${infoDCE.la_estrategia || ''}</div>
               </div>
               <div class="acordeon-panel">
-                <div class="contenido-interno">${contenidoDCE}</div>
+                <div class="contenido-interno">
+                  <div class="campo"><strong class="dce-texto">Reto Sugerido:</strong> <div>${infoDCE.un_reto_sugerido || ''}</div></div>
+                  
+                  <div class="campo"><strong class="dce-texto">Ruta de Exploración:</strong>
+                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem; list-style: circle;">
+                      <li><strong>Explorar:</strong> ${infoDCE.ruta_de_exploracion?.explorar || ''}</li>
+                      <li><strong>Visualizar:</strong> ${infoDCE.ruta_de_exploracion?.visual || ''}</li>
+                      <li><strong>Producir:</strong> ${infoDCE.ruta_de_exploracion?.produccion || ''}</li>
+                    </ul>
+                  </div>
+
+                  <div class="campo"><strong class="dce-texto">Para Pensar:</strong>
+                    <div style="font-style: italic; color: #555;">
+                      ${infoDCE.para_pensar ? infoDCE.para_pensar.map(p => `• ${p}`).join('<br>') : ''}
+                    </div>
+                  </div>
+
+                  <div style="display: flex; gap: 1rem; margin-top: 1rem; border-top: 1px dashed #ccc; padding-top: 1rem;">
+                    <div style="flex: 1;"><strong>Pistas del Éxito:</strong><br><small>${infoDCE.pistas_del_exito || ''}</small></div>
+                    <div style="flex: 1;"><strong>Refuerzo:</strong><br><small>${infoDCE.un_refuerzo || ''}</small></div>
+                  </div>
+                </div>
               </div>
             </div>
           ` : ''}
@@ -107,7 +122,6 @@ window.RenderEngine = (function() {
             </div>
           ` : ''}
 
-          <!-- BOTÓN DICCIONARIO (TEAL) -->
           <div class="dic-link-container">
             <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
           </div>
@@ -134,7 +148,6 @@ window.RenderEngine = (function() {
       header.onclick = function() {
         const panel = this.nextElementSibling;
         const estaAbierto = panel.classList.contains('abierto');
-        // Limpieza: cerramos otros acordeones del mismo bloque
         const padre = this.closest('.item-malla-contenido');
         padre.querySelectorAll('.acordeon-panel').forEach(p => p.classList.remove('abierto'));
         if (!estaAbierto) panel.classList.add('abierto');
