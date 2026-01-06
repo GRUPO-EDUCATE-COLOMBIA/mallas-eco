@@ -1,18 +1,19 @@
 // js/render-progresion.js
 
+/**
+ * MOTOR DE PROGRESIÓN v4.0
+ * Gestiona la alineación vertical de aprendizajes (3 grados simultáneos).
+ */
 window.ProgresionMotor = (function() {
   
-  let estado = {
-    area: '',
-    gradoCentral: 0,
-    componente: '',
-    tipoMalla: '4_periodos'
-  };
+  let estado = { area: '', gradoCentral: 0, componente: '', tipo: '4_periodos' };
 
+  // Referencias DOM
   const overlay = document.getElementById('overlay-progresion');
   const btnCerrar = document.getElementById('btn-cerrar-progresion');
   const btnPrev = document.getElementById('prog-prev');
   const btnNext = document.getElementById('prog-next');
+  
   const txtArea = document.getElementById('prog-area-txt');
   const txtComp = document.getElementById('prog-comp-txt');
   
@@ -20,33 +21,42 @@ window.ProgresionMotor = (function() {
   const contActual = document.getElementById('cont-grado-actual');
   const contNext = document.getElementById('cont-grado-next');
   
-  const colPrev = document.getElementById('col-grado-prev');
-  const colActual = document.getElementById('col-grado-actual');
-  const colNext = document.getElementById('col-grado-next');
+  const colNext = contNext.closest('.col-prog'); // Columna Siguiente
 
-  const labelPrev = document.querySelector('#col-grado-prev .col-header');
-  const labelActual = document.querySelector('#col-grado-actual .col-header');
-  const labelNext = document.querySelector('#col-grado-next .col-header');
+  const labelPrev = contPrev.previousElementSibling;
+  const labelActual = contActual.previousElementSibling;
+  const labelNext = contNext.previousElementSibling;
 
+  /**
+   * Abre la vista de progresión
+   */
   function abrir(area, grado, componente) {
     estado.area = area;
     estado.gradoCentral = parseInt(grado);
     estado.componente = componente;
-    overlay.classList.remove('ocultar');
+    
+    // Asegurar limpieza de clases previas
+    overlay.classList.remove('ocultar'); 
+    overlay.classList.add('mostrar'); // Activa display: flex !important
+    
     renderizar();
   }
 
   function cerrar() {
-    overlay.classList.add('ocultar');
+    overlay.classList.remove('mostrar');
   }
 
+  /**
+   * Procesa y dibuja la comparativa
+   */
   function renderizar() {
     const g = estado.gradoCentral;
     txtArea.textContent = estado.area;
-    txtComp.textContent = estado.componente;
+    txtComp.textContent = `COMPONENTE: ${estado.componente}`;
 
-    // --- LÓGICA DE EXCEPCIÓN PARA PREESCOLAR ---
+    // --- LÓGICA DE PUENTE PEDAGÓGICO (Preescolar vs Primaria) ---
     if (g <= 0) {
+      // Modo Preescolar Integral: 2 Columnas
       colNext.style.display = 'none'; 
       
       if (g === -1) { // JARDÍN
@@ -59,103 +69,97 @@ window.ProgresionMotor = (function() {
       }
       
       btnPrev.disabled = (g === -1);
-      btnNext.disabled = true; 
-      
-      const msg = g === 0 
-        ? "Para avanzar a 2°, seleccione un componente en Grado 1°."
-        : "Secuencia de Preescolar Integral.";
-      document.querySelector('.info-ciclo').textContent = msg;
+      btnNext.disabled = true; // Bloqueo para forzar selección en 1°
+      document.querySelector('.info-ciclo').textContent = "Secuencia de Preescolar Integral";
 
     } else {
+      // Modo Primaria/Bachillerato: 3 Columnas Normales
       colNext.style.display = 'flex';
       
-      const gPrev = calcularGradoRelativo(g, -1);
+      const gPrev = (g - 1 < -1) ? null : String(g - 1);
       const gActual = String(g);
-      const gNext = calcularGradoRelativo(g, 1);
+      const gNext = (g + 1 > 11) ? null : String(g + 1);
 
       dibujarColumna(contPrev, labelPrev, gPrev);
       dibujarColumna(contActual, labelActual, gActual);
       dibujarColumna(contNext, labelNext, gNext);
 
-      btnPrev.disabled = false;
+      btnPrev.disabled = (g <= -1);
       btnNext.disabled = (g >= 11);
       document.querySelector('.info-ciclo').textContent = "Visualizando secuencia de 3 grados";
     }
   }
 
+  /**
+   * Dibuja los estándares o DBA en cada columna
+   */
   function dibujarColumna(contenedor, etiqueta, gradoStr) {
     contenedor.innerHTML = '';
     if (gradoStr === null) {
       etiqueta.textContent = "---";
+      contenedor.innerHTML = '<p class="texto-vacio">Fin de la secuencia curricular.</p>';
       return;
     }
 
-    etiqueta.textContent = formatearNombreGrado(gradoStr);
+    etiqueta.textContent = formatearNombre(gradoStr);
 
     const esPreescolar = (gradoStr === "0" || gradoStr === "-1");
-    const datosAnuales = obtenerDatosAnuales(gradoStr, esPreescolar);
+    const datos = obtenerDatosAnuales(gradoStr, esPreescolar);
 
-    if (datosAnuales.length === 0) {
-      contenedor.innerHTML = `<p class="texto-vacio">No hay datos de ${estado.area} para el grado ${gradoStr}.</p>`;
+    if (datos.length === 0) {
+      contenedor.innerHTML = `<p class="texto-vacio">No hay datos registrados.</p>`;
     } else {
-      datosAnuales.forEach(texto => {
-        const item = document.createElement('div');
-        item.className = 'prog-estandar-item';
-        item.innerHTML = esPreescolar ? `<strong>DBA:</strong> ${texto}` : texto;
-        contenedor.appendChild(item);
+      datos.forEach(texto => {
+        const div = document.createElement('div');
+        div.className = 'prog-estandar-item';
+        div.innerHTML = esPreescolar ? `<strong>DBA:</strong> ${texto}` : texto;
+        contenedor.appendChild(div);
       });
     }
   }
 
+  /**
+   * Cruce de datos anual (Barrer 4 períodos)
+   */
   function obtenerDatosAnuales(gradoStr, esPreescolar) {
-    const malla = window.MallasData?.[estado.area]?.[gradoStr]?.[estado.tipoMalla];
-    
-    // Si la malla no existe en memoria, retornamos vacío (Archivo no cargado)
+    const malla = window.MallasData?.[estado.area]?.[gradoStr]?.[estado.tipo];
     if (!malla || !malla.periodos) return [];
 
     let acumulado = [];
-    
-    Object.keys(malla.periodos).forEach(pNum => {
-      const itemsPeriodo = malla.periodos[pNum];
-      itemsPeriodo.forEach(it => {
+    Object.keys(malla.periodos).forEach(p => {
+      malla.periodos[p].forEach(it => {
         if (esPreescolar) {
-          // Preescolar toma todos los DBA (Integral)
+          // Preescolar: DBA Integrales
           if (it.dba) {
             if (Array.isArray(it.dba)) acumulado.push(...it.dba);
             else acumulado.push(it.dba);
           }
         } else {
-          // Si el grado central es Transición (0) y estamos dibujando la columna de Grado 1,
-          // ignoramos el filtro de componente para mostrar todo el panorama.
+          // Primaria: Estándares por componente
+          // PUENTE: Si venimos de Transición hacia 1°, traemos todo.
           if (estado.gradoCentral === 0 && gradoStr === "1") {
             if (it.estandar) acumulado.push(it.estandar);
           } 
-          // Consulta normal: Misma área, mismo componente
-          else if (it.componente && it.componente.toLowerCase() === estado.componente.toLowerCase() && it.estandar) {
+          else if (it.componente === estado.componente && it.estandar) {
             acumulado.push(it.estandar);
           }
         }
       });
     });
-
     return [...new Set(acumulado)];
   }
 
-  function calcularGradoRelativo(gradoActual, desplazamiento) {
-    const nuevo = gradoActual + desplazamiento;
-    if (nuevo < -1 || nuevo > 11) return null;
-    return String(nuevo);
-  }
-
-  function formatearNombreGrado(g) {
+  function formatearNombre(g) {
     if (g === "0") return "Transición (0)";
     if (g === "-1") return "Jardín (-1)";
     return `Grado ${g}°`;
   }
 
-  btnCerrar.addEventListener('click', cerrar);
-  btnPrev.addEventListener('click', () => { estado.gradoCentral--; renderizar(); });
-  btnNext.addEventListener('click', () => { estado.gradoCentral++; renderizar(); });
+  // LISTENERS
+  btnCerrar.onclick = cerrar;
+  btnPrev.onclick = () => { estado.gradoCentral--; renderizar(); };
+  btnNext.onclick = () => { estado.gradoCentral++; renderizar(); };
 
-  return { abrir: abrir };
+  return { abrir };
+
 })();
