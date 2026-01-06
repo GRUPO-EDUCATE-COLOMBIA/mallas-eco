@@ -1,78 +1,70 @@
 // js/data-loader.js
 
 /**
- * MOTOR DE CARGA UNIVERSAL
- * Utiliza la configuración de APP_CONFIG para poblar la base de datos en memoria.
+ * MOTOR DE CARGA MODULAR Y ESPEJO
+ * Carga las mallas base y los archivos de tareas DCE independientes.
  */
 
-// Objeto global de almacenamiento
 window.MallasData = {};
 
 /**
- * Crea la estructura jerárquica para evitar errores de referencia
+ * Asegura la estructura de objetos en memoria
  */
-function ensureAreaGradeTipo(area, grado, tipo) {
+function prepararMemoria(area, grado, tipo) {
   if (!window.MallasData[area]) window.MallasData[area] = {};
   if (!window.MallasData[area][grado]) window.MallasData[area][grado] = {};
   if (!window.MallasData[area][grado][tipo]) window.MallasData[area][grado][tipo] = null;
 }
 
 /**
- * Función Maestra de Carga
- * Recorre todas las áreas y grados definidos en config.js
+ * Función Maestra de Carga asíncrona
  */
-async function cargarTodaLaBaseDeDatos() {
-  console.log("⏳ Iniciando carga modular de mallas curriculares...");
+async function cargarAplicativo() {
+  console.log("⏳ Cargando ecosistema modular...");
   
-  const areas = Object.values(window.APP_CONFIG.AREAS);
-  const grados = window.APP_CONFIG.GRADOS;
-  const tipoMalla = window.APP_CONFIG.TIPO_MALLA;
-  
-  const todasLasPromesas = [];
+  const config = window.APP_CONFIG;
+  const areas = Object.values(config.AREAS);
+  const promesas = [];
 
-  // Recorremos cada Área definida en la configuración
   areas.forEach(area => {
-    
-    // Para cada área, recorremos todos los grados (desde -1 hasta 11)
-    grados.forEach(gradoStr => {
+    config.GRADOS.forEach(grado => {
       
-      // Construcción dinámica de la ruta basada en config.js
-      // data/[carpeta]/[prefijo]_[grado]_4_periodos.json
-      const fileName = `data/${area.carpeta}/${area.prefijo}_${gradoStr}_${tipoMalla}.json`;
+      // 1. RUTA ARCHIVO BASE (Estándares, DBA)
+      const rutaBase = `data/${area.carpeta}/${area.prefijo}_${grado}_${config.TIPO_MALLA}.json`;
+      
+      // 2. RUTA ARCHIVO TAREAS (Metodología DCE Externa)
+      const rutaTareas = `data/${area.carpeta}/t_${area.prefijo}_${grado}_${config.TIPO_MALLA}.json`;
 
-      const promesa = fetch(fileName)
-        .then(response => {
-          if (!response.ok) throw new Error(`No hallado`);
-          return response.json();
-        })
+      // --- PETICIÓN ARCHIVO BASE ---
+      const pBase = fetch(rutaBase)
+        .then(r => r.ok ? r.json() : null)
         .then(json => {
-          // Guardamos en memoria usando el nombre oficial del Área
-          ensureAreaGradeTipo(area.nombre, gradoStr, tipoMalla);
-          window.MallasData[area.nombre][gradoStr][tipoMalla] = json;
-          
-          // Log de depuración silencioso
-          // console.log(`✅ ${area.nombre} ${gradoStr}° ok`);
-        })
-        .catch(() => {
-          // Fallo silencioso: Si el archivo no existe en el servidor, simplemente no se carga
-          // Esto evita que la aplicación se detenga por archivos faltantes
-        });
+          if (json) {
+            prepararMemoria(area.nombre, grado, config.TIPO_MALLA);
+            window.MallasData[area.nombre][grado][config.TIPO_MALLA] = json;
+          }
+        }).catch(() => {});
 
-      todasLasPromesas.push(promesa);
+      // --- PETICIÓN ARCHIVO TAREAS DCE (ESPEJO) ---
+      const pTareas = fetch(rutaTareas)
+        .then(r => r.ok ? r.json() : null)
+        .then(json => {
+          if (json) {
+            // Guardamos las tareas en un "cajón" especial para no mezclar con la malla base
+            const llaveTareas = `Tareas_DCE_${area.nombre}`;
+            prepararMemoria(llaveTareas, grado, config.TIPO_MALLA);
+            window.MallasData[llaveTareas][grado][config.TIPO_MALLA] = json;
+            // console.log(`📋 Tareas DCE halladas para ${area.nombre} ${grado}°`);
+          }
+        }).catch(() => {});
+
+      promesas.push(pBase, pTareas);
     });
   });
 
-  // Esperamos a que todas las peticiones (fetch) terminen
-  try {
-    await Promise.all(todasLasPromesas);
-    
-    // Resumen de carga para el programador
-    const totalAreas = Object.keys(window.MallasData).length;
-    console.log(`🚀 CARGA MODULAR FINALIZADA: ${totalAreas} áreas vinculadas.`);
-  } catch (err) {
-    console.error("❌ Error crítico en el motor de carga:", err);
-  }
+  await Promise.all(promesas);
+  console.log("🚀 ECOSISTEMA CARGADO: Mallas y Orientaciones Metodológicas vinculadas.");
 }
 
-// Iniciar proceso de carga al cargar el script
-cargarTodaLaBaseDeDatos();
+// Iniciar proceso
+cargarAplicativo();
