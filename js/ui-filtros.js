@@ -1,8 +1,9 @@
 // js/ui-filtros.js
 
 /**
- * CONTROLADOR DE INTERFAZ (UI) v4.1
- * Gestiona la visibilidad blindada de resultados, modales y overlays.
+ * CONTROLADOR DE INTERFAZ (UI) v4.1.1
+ * Gestiona la visibilidad de resultados, validación de filtros y 
+ * activación del motor de Progresión de Aprendizajes.
  */
 document.addEventListener('DOMContentLoaded', () => {
   // Elementos de Entrada
@@ -15,13 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnBuscar = document.querySelector('.btn-buscar');
   const btnProgresion = document.getElementById('btn-progresion');
   
-  // Capas de UI (IDs sincronizados con index.html v4.0)
+  // Capas de UI
   const resPrincipal = document.getElementById('resultados-principal');
   const herramientas = document.getElementById('herramientas-resultados');
   const modalError = document.getElementById('modal-error');
   const btnModalCancelar = document.getElementById('btn-modal-cancelar');
 
-  // INICIALIZACIÓN: Asegurar limpieza absoluta al cargar
+  // INICIALIZACIÓN: Limpieza absoluta al cargar
   if (modalError) modalError.classList.remove('mostrar-flex');
   if (resPrincipal) {
     resPrincipal.classList.remove('mostrar-block');
@@ -30,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- EVENTOS DE USUARIO ---
 
-  // 1. Cambio de Área: Población dinámica y limpieza
+  // 1. Cambio de Área: Población dinámica de grados
   areaSel.addEventListener('change', () => {
     const areaId = areaSel.value;
     const config = window.APP_CONFIG.AREAS[areaId];
@@ -44,12 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Poblar Grados según memoria
+    // Poblar Grados según los datos reales cargados en memoria
     const areaData = window.MallasData[config.nombre];
     const gradosDisponibles = Object.keys(areaData);
     
     gradoSel.innerHTML = '<option value="">Seleccionar</option>';
-    gradosDisponibles.sort((a, b) => a - b).forEach(g => {
+    // Ordenamiento numérico inteligente (maneja -1 y 0)
+    gradosDisponibles.sort((a, b) => parseInt(a) - parseInt(b)).forEach(g => {
       const opt = document.createElement('option');
       opt.value = g;
       if (g === "0") opt.textContent = "Transición (0)";
@@ -63,22 +65,22 @@ document.addEventListener('DOMContentLoaded', () => {
     validarBotones();
   });
 
-  // 2. Cambio de Grado
+  // 2. Cambio de Grado: Actualiza períodos
   gradoSel.addEventListener('change', () => {
     updatePeriodosUI();
     validarBotones();
   });
 
-  // 3. Cambio de Período
+  // 3. Cambio de Período: Actualiza componentes/competencias
   periodoSel.addEventListener('change', () => {
     updateComponentesUI();
     validarBotones();
   });
 
-  // 4. Cambio de Componente
+  // 4. Cambio de Componente: Valida si se puede ver progresión
   compSel.addEventListener('change', validarBotones);
 
-  // 5. Botón Consultar: Acción con Spinner
+  // 5. Botón Consultar: Ejecuta el Render Engine
   btnBuscar.addEventListener('click', () => {
     const areaId = areaSel.value;
     const config = window.APP_CONFIG.AREAS[areaId];
@@ -89,12 +91,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const malla = window.MallasData?.[config?.nombre]?.[grado]?.[tipo];
 
     if (!malla || !periodo) {
-      // Activar modal de error con clase blindada
       if (modalError) modalError.classList.add('mostrar-flex');
       return;
     }
 
-    // Activar flujo de carga visual
+    // Activar spinner visual
     window.RenderEngine.setCargando(true);
 
     setTimeout(() => {
@@ -103,24 +104,27 @@ document.addEventListener('DOMContentLoaded', () => {
         ? todosLosItems 
         : todosLosItems.filter(it => (it.componente === compSel.value || it.competencia === compSel.value));
 
-      // Llamada al motor unificado
+      // Inyectar datos en el motor visual
       window.RenderEngine.renderizar(itemsFiltrados, areaId, grado, periodo);
       window.RenderEngine.setCargando(false);
       
-      // Aplicar color dinámico y mostrar bloque
+      // Aplicar identidad visual del área
       resPrincipal.className = `resultados mostrar-block ${config.clase}`;
     }, 400); 
   });
 
-  // 6. Botón Progresión: Alineación Vertical
+  // 6. Botón Progresión Aprendizajes (Alineación Vertical)
   if (btnProgresion) {
     btnProgresion.addEventListener('click', () => {
-      const config = window.APP_CONFIG.AREAS[areaSel.value];
+      const areaId = areaSel.value;
+      const config = window.APP_CONFIG.AREAS[areaId];
+      
+      // Enviamos el nombre formal (ej: "Matemáticas") para el match en memoria
       window.ProgresionMotor.abrir(config.nombre, gradoSel.value, compSel.value);
     });
   }
 
-  // --- LÓGICA DE ACTUALIZACIÓN ---
+  // --- FUNCIONES DE SOPORTE ---
 
   function updatePeriodosUI() {
     const areaId = areaSel.value;
@@ -153,16 +157,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const items = malla?.periodos?.[periodoSel.value] || [];
     compSel.innerHTML = '<option value="todos">Todos</option>';
     
+    // Obtener lista única de componentes o competencias
     const nombres = [...new Set(items.map(it => it.componente || it.competencia))];
     nombres.sort().forEach(n => {
-      const opt = document.createElement('option');
-      opt.value = n; opt.textContent = n;
-      compSel.appendChild(opt);
+      if(n) {
+        const opt = document.createElement('option');
+        opt.value = n; opt.textContent = n;
+        compSel.appendChild(opt);
+      }
     });
     compSel.disabled = false;
   }
-
-  // --- UTILIDADES ---
 
   function obtenerTipoMalla() {
     const radio = document.querySelector('input[name="periodos"]:checked');
@@ -171,7 +176,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function validarBotones() {
     if (btnProgresion) {
-      btnProgresion.disabled = !(areaSel.value && gradoSel.value && compSel.value && compSel.value !== 'todos');
+      // Regla: Solo habilitar si hay área, grado y un componente específico (no "todos")
+      const listo = areaSel.value && gradoSel.value && compSel.value && compSel.value !== 'todos';
+      btnProgresion.disabled = !listo;
     }
   }
 
@@ -190,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Cerrar Modal
+  // Control del Modal de Error
   if (btnModalCancelar) {
     btnModalCancelar.addEventListener('click', () => {
       modalError.classList.remove('mostrar-flex');
