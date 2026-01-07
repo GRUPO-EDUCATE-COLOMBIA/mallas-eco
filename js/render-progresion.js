@@ -1,14 +1,12 @@
-// FILE: js/render-progresion.js | VERSION: v6.4 Stable
+// FILE: js/render-progresion.js | VERSION: v6.6 Stable
 
 window.ProgresionMotor = (function() {
-  
   let estado = { areaId: '', areaNombre: '', gradoCentral: 0, componente: '', tipo: '4_periodos' };
 
   const overlay = document.getElementById('overlay-progresion');
   const btnCerrar = document.getElementById('btn-cerrar-progresion');
   const btnPrev = document.getElementById('prog-prev');
   const btnNext = document.getElementById('prog-next');
-  
   const txtArea = document.getElementById('prog-area-txt');
   const contPrev = document.getElementById('cont-grado-prev');
   const contActual = document.getElementById('cont-grado-actual');
@@ -21,15 +19,19 @@ window.ProgresionMotor = (function() {
     estado.gradoCentral = parseInt(grado);
     estado.componente = componente;
     estado.tipo = window.APP_CONFIG.TIPO_MALLA;
-    overlay.style.display = 'flex';
+
+    // FIX: Aplicar clase para mostrar como flex
+    overlay.classList.add('mostrar-flex');
     renderizar();
   }
 
-  function cerrar() { overlay.style.display = 'none'; }
+  function cerrar() { 
+    overlay.classList.remove('mostrar-flex');
+  }
 
   function renderizar() {
     const g = estado.gradoCentral;
-    txtArea.textContent = `${estado.areaNombre.toUpperCase()} - COMPONENTE: ${estado.componente}`;
+    txtArea.textContent = `${estado.areaNombre.toUpperCase()} - ${estado.componente}`;
 
     const gPrev = (g - 1 < -1) ? null : String(g - 1);
     const gActual = String(g);
@@ -39,7 +41,6 @@ window.ProgresionMotor = (function() {
     dibujarColumna(contActual, gActual);
     dibujarColumna(contNext, gNext);
     
-    // DOBLE VERIFICACIÓN: Evitar error si los botones son null
     if (btnPrev) btnPrev.disabled = (g <= -1);
     if (btnNext) btnNext.disabled = (g >= 11);
   }
@@ -51,7 +52,7 @@ window.ProgresionMotor = (function() {
     
     if (gradoStr === null) {
       if (header) header.textContent = "---";
-      contenedor.innerHTML = '<p style="text-align:center; color:#999; padding-top:20px;">Fin de secuencia.</p>';
+      contenedor.innerHTML = '<p style="text-align:center; padding-top:20px; color:#999;">Fin de ciclo.</p>';
       return;
     }
 
@@ -60,7 +61,7 @@ window.ProgresionMotor = (function() {
     const datos = obtenerAprendizajesAnuales(gradoStr, esPreescolar);
     
     if (datos.length === 0) {
-      contenedor.innerHTML = `<p style="text-align:center; color:#888; padding:20px;"><em>Sin datos para este componente.</em></p>`;
+      contenedor.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">No hay datos para este componente.</p>';
     } else {
       datos.forEach(texto => {
         const div = document.createElement('div');
@@ -95,29 +96,24 @@ window.ProgresionMotor = (function() {
     return `Grado ${g}°`;
   }
 
-  // DOBLE VERIFICACIÓN: Solo asignar si los elementos existen
-  if (btnPrev) {
-      btnPrev.onclick = async () => {
-        estado.gradoCentral--;
-        window.RenderEngine.setCargando(true);
-        await asegurarDatosGrado(estado.areaId, String(estado.gradoCentral - 1));
-        renderizar();
-        window.RenderEngine.setCargando(false);
-      };
-  }
+  if (btnPrev) btnPrev.onclick = async () => {
+    estado.gradoCentral--;
+    window.RenderEngine.setCargando(true);
+    await asegurarDatosGrado(estado.areaId, String(estado.gradoCentral - 1));
+    renderizar();
+    window.RenderEngine.setCargando(false);
+  };
 
-  if (btnNext) {
-      btnNext.onclick = async () => {
-        estado.gradoCentral++;
-        window.RenderEngine.setCargando(true);
-        await asegurarDatosGrado(estado.areaId, String(estado.gradoCentral + 1));
-        renderizar();
-        window.RenderEngine.setCargando(false);
-      };
-  }
+  if (btnNext) btnNext.onclick = async () => {
+    estado.gradoCentral++;
+    window.RenderEngine.setCargando(true);
+    await asegurarDatosGrado(estado.areaId, String(estado.gradoCentral + 1));
+    renderizar();
+    window.RenderEngine.setCargando(false);
+  };
 
   if (btnCerrar) btnCerrar.onclick = cerrar;
 
   return { abrir };
 })();
-// END OF FILE: js/render-progresion.js | VERSION: v6.4 Stable
+// END OF FILE: js/render-progresion.js | VERSION: v6.6 Stable
