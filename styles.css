@@ -1,108 +1,107 @@
-/* FILE: styles.css | VERSION: v6.6 Stable */
+/* FILE: styles.css | VERSION: v6.7 Stable */
 
 :root {
   --eco-purple: #9B7BB6; --eco-teal: #00A19B; --eco-dark: #17334B; --eco-green: #54BBAB;
+  --bg-cards: #ffffff;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Barlow Condensed', sans-serif; background: #f4f7f9; font-size: 1.2rem; }
+body { font-family: 'Barlow Condensed', sans-serif; background: #f0f4f7; font-size: 1.2rem; }
 
-/* FIX: El modal NO debe verse como texto al final. Forzamos ocultación */
+/* FIX MODAL E IMPRESIÓN */
 .overlay-progresion { 
-    display: none !important; 
-    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(13, 61, 102, 0.95); backdrop-filter: blur(8px);
-    z-index: 9000; justify-content: center; align-items: center; padding: 20px;
+    display: none !important; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(13, 61, 102, 0.95); backdrop-filter: blur(8px); z-index: 9000;
+    justify-content: center; align-items: center; padding: 20px;
 }
 .overlay-progresion.mostrar-flex { display: flex !important; }
-
-/* FIX: Ocultar el encabezado de impresión en la web */
 .print-only-header { display: none !important; }
 
 .ocultar-inicial { display: none !important; }
-.resultados { display: none; margin-top: 20px; }
+.resultados { display: none; margin-top: 1rem; }
 .mostrar-block { display: block !important; }
 
+/* HEADER */
 header {
   text-align: center; padding: 1rem;
   background: linear-gradient(180deg, #1a5b96 0%, #082b4a 100%);
-  color: white; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  color: white; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+header h1 { font-size: 1.6rem; text-transform: uppercase; }
 
-main { max-width: 1300px; margin: 0 auto; padding: 1rem; }
+main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
 
+/* FILTROS */
 .filtros {
-  background: white; padding: 1.2rem; border-radius: 12px;
-  display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;
-  margin-bottom: 1.5rem; border-bottom: 4px solid var(--eco-green);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  background: white; padding: 1.5rem; border-radius: 15px;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;
+  margin-bottom: 2rem; border-bottom: 5px solid var(--eco-green);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+.filtro-grupo { display: flex; flex-direction: column; min-width: 170px; }
+.filtros label { font-weight: 700; font-size: 0.9rem; text-transform: uppercase; color: #444; margin-bottom: 5px; }
+.filtros select { padding: 0.7rem; border: 2px solid #e1e5e9; border-radius: 10px; font-family: 'Barlow Condensed'; font-size: 1.1rem; }
+
+/* BOTONES */
+.botones-container { display: flex; align-items: flex-end; gap: 15px; }
+.btn-buscar { background: #11678B; color: white; height: 48px; padding: 0 1.8rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; transition: 0.3s; }
+.btn-buscar:hover { background: #0d4e69; }
+
+/* Botón Progresión Inhabilitado Estético */
+.btn-progresion { background: var(--eco-purple); color: white; height: 48px; padding: 0 1.8rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
+.btn-progresion:disabled { background: #d1d1d1 !important; color: #888 !important; cursor: not-allowed; opacity: 1; }
+
+/* Botón Impresión Premium (Derecha) */
+.contenedor-herramientas-reporte { display: flex; justify-content: flex-end; margin-bottom: 1.5rem; }
+.btn-secundario { 
+    background: var(--eco-teal); color: white; padding: 12px 25px; border: none; 
+    border-radius: 10px; font-weight: 700; cursor: pointer; box-shadow: 0 4px 10px rgba(0,161,155,0.3);
 }
 
-.filtro-grupo { display: flex; flex-direction: column; min-width: 150px; }
-.filtros label { font-weight: 700; font-size: 0.85rem; text-transform: uppercase; color: #555; }
-.filtros select { padding: 0.6rem; border: 2px solid #e1e5e9; border-radius: 8px; font-family: 'Barlow Condensed'; font-size: 1.1rem; }
+/* CARDS DE RESULTADOS */
+.item-malla { background: white; border-radius: 20px; overflow: hidden; margin-bottom: 4rem; border: 1px solid #e0e6ed; box-shadow: 0 15px 40px rgba(0,0,0,0.06); }
+.franja-titulo-principal { padding: 1.5rem; text-align: center; color: white; text-transform: uppercase; font-size: 2rem; font-weight: 700; letter-spacing: 1px; }
 
-.botones-container { display: flex; align-items: flex-end; gap: 10px; }
-.btn-buscar { background: #11678B; color: white; height: 45px; padding: 0 1.5rem; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; }
-.btn-progresion { background: var(--eco-purple); color: white; height: 45px; padding: 0 1.5rem; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; }
-.btn-progresion:disabled { background: #e0e0e0 !important; color: #aaa !important; cursor: not-allowed; }
+.item-malla-contenido { padding: 2.5rem 4rem; }
+.campo { margin-bottom: 2rem; }
+.campo strong { display: block; font-size: 1rem; color: #555; text-transform: uppercase; margin-bottom: 0.6rem; border-left: 5px solid var(--eco-green); padding-left: 12px; }
 
-/* RESULTADOS Y FRANJAS */
-.item-malla { background: white; border-radius: 15px; overflow: hidden; margin-bottom: 3rem; border: 1px solid #ddd; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
-.franja-titulo-principal { padding: 1.2rem; text-align: center; color: white; text-transform: uppercase; font-size: 1.8rem; font-weight: 700; }
-.item-malla-contenido { padding: 2rem 3rem; }
-.campo { margin-bottom: 1.5rem; }
-.campo strong { display: block; font-size: 0.95rem; color: #666; text-transform: uppercase; margin-bottom: 0.5rem; border-left: 4px solid var(--eco-green); padding-left: 10px; }
+/* FRANJAS DE INTEGRACIÓN (DCE y ECO) */
+.franja-integracion { 
+    display: flex; align-items: center; padding: 15px 30px; color: white; font-weight: 700; 
+    text-transform: uppercase; font-size: 1.3rem; margin: 30px -4rem 0 -4rem;
+}
+.contenedor-integracion { 
+    margin: 0 -4rem; padding: 2.5rem 4rem; background: #fcfdfe; border-bottom: 2px solid #f0f0f0; 
+}
+.integracion-dce { background-color: var(--eco-green); }
+.integracion-eco { background-color: var(--eco-purple); }
 
-.franja-integracion { display: flex; align-items: center; padding: 12px 20px; color: white; font-weight: 700; text-transform: uppercase; margin: 20px -3rem 0 -3rem; }
-.contenedor-integracion { margin: 0 -3rem; padding: 2rem 3rem; background: #f9fbfc; border-bottom: 1px solid #eee; }
+/* BOTÓN DICCIONARIO */
+.btn-eco-dic { 
+    display: inline-block; background: var(--eco-teal); color: white; padding: 15px 30px; 
+    text-decoration: none; border-radius: 10px; font-weight: 700; margin-top: 1rem;
+}
 
-/* PROGRESIÓN MODAL */
-.progresion-container { background: #f4f7f9; width: 95%; height: 85vh; border-radius: 20px; display: flex; flex-direction: column; overflow: hidden; }
-.progresion-header { background: var(--eco-dark); color: white; padding: 1.2rem; display: flex; justify-content: space-between; align-items: center; }
-.progresion-navegacion { background: white; padding: 10px; display: flex; justify-content: center; gap: 20px; border-bottom: 1px solid #ddd; }
-.btn-nav { background: var(--eco-dark); color: white; border: none; width: 35px; height: 35px; border-radius: 50%; cursor: pointer; }
-.progresion-columnas { display: flex; flex: 1; overflow-x: auto; padding: 15px; gap: 15px; }
-.col-prog { flex: 1; min-width: 320px; background: white; border-radius: 10px; display: flex; flex-direction: column; border: 1px solid #dee2e6; }
-.col-header { padding: 15px; text-align: center; font-weight: 700; border-bottom: 2px solid #eee; background: #fcfcfc; }
-.col-content { padding: 15px; overflow-y: auto; flex: 1; font-size: 1rem; }
-.prog-estandar-item { background: #f8f9fa; border-left: 4px solid var(--eco-teal); padding: 10px; margin-bottom: 10px; border-radius: 4px; }
+/* MODAL PROGRESIÓN */
+.progresion-container { background: white; width: 95%; height: 90vh; border-radius: 25px; display: flex; flex-direction: column; overflow: hidden; }
+.progresion-header { background: var(--eco-dark); color: white; padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+.progresion-navegacion { background: #f8f9fa; padding: 12px; display: flex; justify-content: center; gap: 25px; border-bottom: 1px solid #eee; }
+.btn-nav { background: var(--eco-dark); color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; }
 
-/* MODAL NOTIFICACIÓN */
-.modal-notificacion { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 10000; justify-content: center; align-items: center; }
-.modal-notificacion-contenido { background: white; padding: 2rem; border-radius: 15px; text-align: center; max-width: 400px; }
+.col-prog { flex: 1; min-width: 330px; background: white; border-radius: 15px; border: 1px solid #eee; margin: 10px; }
+.col-header { padding: 18px; text-align: center; font-weight: 700; background: #fdfdfd; border-bottom: 3px solid #eee; font-size: 1.4rem; color: var(--eco-dark); }
+.prog-estandar-item { background: #f9f9f9; border-left: 6px solid var(--eco-teal); padding: 15px; margin-bottom: 15px; border-radius: 8px; font-size: 1.1rem; }
 
-.btn-flotante-top { display: none; position: fixed; bottom: 25px; right: 25px; width: 50px; height: 50px; background: var(--eco-green); color: white; border: none; border-radius: 50%; font-size: 1.5rem; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 3000; }
-
-/* --- FIX IMPRESIÓN: ELIMINAR HOJA EN BLANCO --- */
+/* IMPRESIÓN */
 @media print {
-  /* Forzamos a que el navegador ignore el espacio de lo que no debe imprimirse */
   header, .filtros, .btn-flotante-top, .contenedor-herramientas-reporte, .modal-notificacion, .overlay-progresion, .btn-eco-dic {
-    display: none !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    display: none !important; height: 0 !important; margin: 0 !important; padding: 0 !important;
   }
-  
   html, body { background: white !important; margin: 0 !important; padding: 0 !important; }
-  
-  main { margin: 0 !important; padding: 0 !important; width: 100% !important; }
-  
-  .print-only-header { 
-    display: block !important; 
-    text-align: center; 
-    margin: 0 0 20px 0 !important;
-    padding-top: 10px !important; 
-  }
-
-  .item-malla { 
-    break-inside: avoid; 
-    border: 2px solid #000 !important; 
-    box-shadow: none !important;
-    margin-bottom: 20px !important;
-  }
-  
+  .print-only-header { display: block !important; text-align: center; margin: 0 0 30px 0 !important; padding-top: 20px !important; }
+  .item-malla { break-inside: avoid; border: 2px solid #000 !important; box-shadow: none !important; margin-bottom: 30px !important; }
   .franja-integracion { color: black !important; border: 1px solid #000; background: #eee !important; margin-left: 0; margin-right: 0; }
   .contenedor-integracion { margin-left: 0; margin-right: 0; border: 1px solid #eee; background: white !important; }
 }
-/* END OF FILE: styles.css | VERSION: v6.6 Stable */
+/* END OF FILE: styles.css | VERSION: v6.7 Stable */
