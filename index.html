@@ -1,4 +1,4 @@
-<!-- FILE: index.html | VERSION: v6.2 Stable -->
+<!-- FILE: index.html | VERSION: v6.3 Stable -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,8 +16,9 @@
   </header>
 
   <main>
-    <div class="print-only-header">
-      <h1 id="print-titulo-area">REPORTE CURRICULAR NACIONAL</h1>
+    <!-- Encabezado para Impresión (Oculto en Web) -->
+    <div class="print-only-header" id="print-header">
+      <h1>REPORTE CURRICULAR NACIONAL</h1>
       <p>Generado por: Plataforma ECO - Grupo Edúcate Colombia</p>
       <p id="print-fecha-txt"></p>
     </div>
@@ -81,27 +82,38 @@
     <!-- CONTENEDOR DE RESULTADOS -->
     <section id="resultados-principal" class="resultados ocultar-inicial">
       <div class="contenedor-herramientas-reporte">
-        <button id="btn-imprimir" class="btn-secundario">🖨️ Imprimir Ficha de Consulta</button>
+        <button id="btn-imprimir" class="btn-secundario">🖨️ Imprimir Ficha</button>
       </div>
       <div id="contenedor-malla" class="tabla-body"></div>
     </section>
   </main>
 
+  <!-- MODAL DE PROGRESIÓN -->
   <div id="overlay-progresion" class="overlay-progresion">
     <div class="progresion-container">
       <div class="progresion-header">
-        <h2 id="prog-area-txt">PROGRESIÓN DE APRENDIZAJES</h2>
+        <h2 id="prog-area-txt">PROGRESIÓN</h2>
         <button id="btn-cerrar-progresion" class="btn-cerrar-overlay">Cerrar</button>
       </div>
       <div class="progresion-columnas">
-        <div class="col-prog" id="col-grado-prev"><div class="col-header">Grado Anterior</div><div id="cont-grado-prev" class="col-content"></div></div>
-        <div class="col-prog actual" id="col-grado-actual"><div class="col-header">Grado Actual</div><div id="cont-grado-actual" class="col-content"></div></div>
-        <div class="col-prog" id="col-grado-next"><div class="col-header">Grado Siguiente</div><div id="cont-grado-next" class="col-content"></div></div>
+        <div class="col-prog" id="col-grado-prev"><div class="col-header">Anterior</div><div id="cont-grado-prev" class="col-content"></div></div>
+        <div class="col-prog actual" id="col-grado-actual"><div class="col-header">Actual</div><div id="cont-grado-actual" class="col-content"></div></div>
+        <div class="col-prog" id="col-grado-next"><div class="col-header">Siguiente</div><div id="cont-grado-next" class="col-content"></div></div>
       </div>
     </div>
   </div>
 
-  <button id="btn-top" class="btn-flotante-top" title="Volver arriba">↑</button>
+  <!-- MODAL DE NOTIFICACIONES / ERRORES -->
+  <div id="modal-notificacion" class="modal-notificacion">
+    <div class="modal-notificacion-contenido">
+      <span class="modal-icono">⚠️</span>
+      <h2 id="modal-titulo">Atención</h2>
+      <p id="modal-mensaje">Mensaje de error.</p>
+      <button id="btn-cerrar-modal" class="btn-buscar">Entendido</button>
+    </div>
+  </div>
+
+  <button id="btn-top" class="btn-flotante-top">↑</button>
 
   <script src="js/config.js"></script>
   <script src="js/data-loader.js"></script>
@@ -112,4 +124,4 @@
 
 </body>
 </html>
-<!-- END OF FILE: index.html | VERSION: v6.2 Stable -->
+<!-- END OF FILE: index.html | VERSION: v6.3 Stable -->
