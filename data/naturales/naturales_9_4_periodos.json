@@ -1,0 +1,239 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "9",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "N/A",
+        "dba": [
+          "DBA-NAT-9-4 Comprende la forma en que los principios genéticos mendelianos y post-mendelianos explican la herencia y el mejoramiento de las especies existentes."
+        ],
+        "evidencias": [
+          "NAT-9-D4-E1 Predice mediante la aplicación de diferentes mecanismos (probabilidades o punnet) las proporciones de las características heredadas por algunos organismos.",
+          "NAT-9-D4-E2 Explica la forma como se transmite la información de padres a hijos, identificando las causas de la variabilidad entre organismos de una misma familia."
+        ],
+        "saberes": [
+          "Herencia y variabilidad",
+          "Cuadros de Punnet"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico/Entorno Químico",
+        "estandar": "N/A",
+        "dba": [
+          "DBA-NAT-9-1 Comprende que el movimiento de un cuerpo, en un marco de referencia inercial dado, se puede describir con gráficos y predecir por medio de expresiones matemáticas."
+        ],
+        "evidencias": [
+          "NAT-9-D1-E1 Describe el movimiento de un cuerpo (rectilíneo uniforme y uniformemente acelerado, en dos dimensiones – circular uniforme y parabólico) en gráficos que relacionan el desplazamiento, la velocidad y la aceleración en función del tiempo.",
+          "NAT-9-D1-E2 Predice el movimiento de un cuerpo a partir de las expresiones matemáticas con las que se relaciona, según el caso, la distancia recorrida, la velocidad y la aceleración en función del tiempo.",
+          "NAT-9-D1-E3 Identifica las modificaciones necesarias en la descripción del movimiento de un cuerpo, representada en gráficos, cuando se cambia de marco de referencia."
+        ],
+        "saberes": [
+          "Cinemática",
+          "Movimiento rectilíneo uniforme acelerado",
+          "Movimiento parabólico",
+          "Movimiento circular uniforme"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Describo factores culturales y tecnológicos que inciden en la sexualidad y reproducción humana.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Sexualidad y reproducción humana"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "N/A",
+        "dba": [
+          "DBA-NAT-9-4 Comprende la forma en que los principios genéticos mendelianos y post-mendelianos explican la herencia y el mejoramiento de las especies existentes."
+        ],
+        "evidencias": [
+          "NAT-9-D4-E3 Diseña experiencias que puedan demostrar cada una de las leyes de Mendel y los resultados numéricos obtenidos.",
+          "NAT-9-D4-E4 Demuestra la relación que existe entre el proceso de la meiosis y las segunda y tercera Leyes de la Herencia de Mendel."
+        ],
+        "saberes": [
+          "Gregor Mendel y las leyes de herencia: Los fundamentos de la genética"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico/Entorno Químico",
+        "estandar": "Comparo los modelos que sustentan la definición ácido-base.",
+        "dba": [
+          "DBA-NAT-9-2 Comprende que la acidez y la basicidad son propiedades químicas de algunas sustancias y las relaciona con su importancia biológica y su uso cotidiano e industrial."
+        ],
+        "evidencias": [
+          "NAT-9-D2-E1 Compara algunas teorías (Arrhenius, Brönsted – Lowry y Lewis) que explican el comportamiento químico de los ácidos y las bases para interpretar las propiedades ácidas o básicas de algunos compuestos.",
+          "NAT-9-D2-E2 Determina la acidez y la basicidad de compuestos dados, de manera cualitativa (colorimetría) y cuantitativa (escala de pH - pOH).",
+          "NAT-9-D2-E3 Explica la función de los ácidos y las bases en procesos propios de los seres vivos (respiración y digestión en el estómago) y de procesos industriales (uso fertilizantes en la agricultura) y limpieza (jabón)."
+        ],
+        "saberes": [
+          "Ácidos y bases",
+          "Escala de pH-pOH"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico y explico medidas de prevención del embarazo y de las enfermedades de transmisión sexual.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Enfermedades de transmisión sexual (ETS)"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Reconozco la importancia del modelo de la doble hélice para la explicación del almacenamiento y transmisión del material hereditario. Establezco relaciones entre los genes, las proteínas y las funciones celulares.",
+        "dba": [
+          "DBA-NAT-9-5 Explica la forma como se expresa la información genética contenida en el –ADN–, relacionando su expresión con los fenotipos de los organismos y reconoce su capacidad de modificación a lo largo del tiempo (por mutaciones y otros cambios), como un factor determinante en la generación de diversidad del planeta y en la evolución de las especies."
+        ],
+        "evidencias": [
+          "NAT-9-D5-E1 Interpreta a partir de modelos la estructura del ADN y la forma como se expresa en los organismos, representando los pasos del proceso de traducción (es decir, de la síntesis de proteínas).",
+          "NAT-9-D5-E2 Relaciona la producción de proteínas en el organismo con algunas características fenotípicas para explicar la relación entre genotipo y fenotipo.",
+          "NAT-9-D5-E3 Explica los principales mecanismos de cambio en el ADN (mutación y otros) identificando variaciones en la estructura de las proteínas que dan lugar a cambios en el fenotipo de los organismos y la diversidad en las poblaciones."
+        ],
+        "saberes": [
+          "El ADN y la síntesis de proteínas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico/Entorno Químico",
+        "estandar": "Establezco relaciones cuantitativas entre los componentes de una solución.",
+        "dba": [
+          "DBA-NAT-9-3 Analiza las relaciones cuantitativas entre solutos y solventes, así como los factores que afectan la formación de soluciones."
+        ],
+        "evidencias": [
+          "NAT-9-D3-E1 Explica qué factores afectan la formación de soluciones a partir de resultados obtenidos en procedimientos de preparación de soluciones de distinto tipo (insaturadas, saturadas y sobresaturadas) en los que modifica variables (temperatura, presión, cantidad de soluto y disolvente)",
+          "NAT-9-D3-E2 Predice qué ocurrirá con una solución si se modifica una variable como la temperatura, la presión o las cantidades de soluto y solvente."
+        ],
+        "saberes": [
+          "Preparación de disoluciones",
+          "Soluciones químicas: conceptos y ejemplos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Reconozco los efectos nocivos del exceso en el consumo de cafeína, tabaco, drogas y licores.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Efectos nocivos de sustancias psicoactivas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Formulo hipótesis acerca del origen y evolución de un grupo de organismos. Comparo diferentes teorías sobre el origen de las especies. Establezco relaciones entre el clima en las diferentes eras geológicas y las adaptaciones de los seres vivos.",
+        "dba": [
+          "DBA-NAT-9-6 Analiza teorías científicas sobre el origen de las especies (selección natural y ancestro común) como modelos científicos que sustentan sus explicaciones desde diferentes evidencias y argumentaciones."
+        ],
+        "evidencias": [
+          "NAT-9-D6-E1 Explica las evidencias que dan sustento a la teoría del ancestro común y a la de selección natural (evidencias de distribución geográfica de las especies, restos fósiles, homologías, comparación entre secuencias de ADN).",
+          "NAT-9-D6-E2 Explica cómo actúa la selección natural en una población que vive en un determinado ambiente, cuando existe algún factor de presión de selección (cambios en las condiciones climáticas) y su efecto en la variabilidad de fenotipos.",
+          "NAT-9-D6-E3 Argumenta con evidencias científicas la influencia de las mutaciones en la selección natural de las especies.",
+          "NAT-9-D6-E4 Identifica los procesos de transformación de los seres vivos ocurridos en cada una de las eras geológicas."
+        ],
+        "saberes": [
+          "Teoría de la Evolución y Selección Natural"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico/Entorno Químico",
+        "estandar": "Establezco relaciones cuantitativas entre los componentes de una solución.",
+        "dba": [
+          "DBA-NAT-9-3 Analiza las relaciones cuantitativas entre solutos y solventes, así como los factores que afectan la formación de soluciones."
+        ],
+        "evidencias": [
+          "NAT-9-D3-E3 Identifica los componentes de una solución y representa cuantitativamente el grado de concentración utilizando algunas expresiones matemáticas: % en volumen, % en masa, molaridad (M), molalidad (m).",
+          "NAT-9-D3-E4 Explica a partir de las fuerzas intermoleculares (Puentes de Hidrogeno, fuerzas de Van der Waals) las propiedades físicas (solubilidad, la densidad, el punto de ebullición y fusión y la tensión superficial) de sustancias liquidas."
+        ],
+        "saberes": [
+          "Unidades de concentración en las soluciones"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Establezco relaciones entre el deporte y la salud física y mental.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Importancia del deporte para nuestro cuerpo y mente"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

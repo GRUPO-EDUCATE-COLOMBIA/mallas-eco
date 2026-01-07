@@ -1,0 +1,226 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "2",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Identifico y describo la flora, la fauna, el agua y el suelo de mi entorno. Explico adaptaciones de los seres vivos al ambiente. Identifico patrones comunes a los seres vivos.",
+        "dba": [
+          "DBA-NAT-2-3 Comprende la relación entre las características físicas de plantas y animales con los ambientes en donde viven, teniendo en cuenta sus necesidades básicas (luz, agua, aire, suelo, nutrientes, desplazamiento y protección)."
+        ],
+        "evidencias": [
+          "NAT-2-D3-E1 Describe y clasifica plantas y animales de su entorno, según su tipo de desplazamiento, dieta y protección.",
+          "NAT-2-D3-E2 Explica cómo las características físicas de un animal o planta le ayudan a vivir en un cierto ambiente."
+        ],
+        "saberes": [
+          "Clasificación de las plantas por su: • Tamaño • Reproducción",
+          "Clasificación de los animales por su: • Tipo de alimentación • Columna vertebral: vertebrados e invertebrados"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Identifico tipos de movimiento en seres vivos y objetos, y las fuerzas que los producen.",
+        "dba": [
+          "DBA-NAT-2-1 Comprende que una acción mecánica (fuerza) puede producir distintas deformaciones en un objeto, y que este resiste a las fuerzas de diferente modo, de acuerdo con el material del que está hecho."
+        ],
+        "evidencias": [
+          "NAT-2-D1-E1 Compara los cambios de forma que se generan sobre objetos constituidos por distintos materiales (madera, hierro, plástico, plastilina, resortes, papel, entre otros), cuando se someten a diferentes acciones relacionadas con la aplicación de fuerzas (estirar, comprimir, torcer, aplastar, abrir, partir, doblar, arrugar)."
+        ],
+        "saberes": [
+          "Cambios de forma en los materiales."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico objetos que emitan luz o sonido.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Tipos de fuentes de luz: • Naturales • Artificiales",
+          "Tipos de sonidos: • Sonidos de los animales • Sonidos de la naturaleza • Sonidos de los seres humanos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Identifico y describo la flora, la fauna, el agua y el suelo de mi entorno. Explico adaptaciones de los seres vivos al ambiente. Identifico patrones comunes a los seres vivos.",
+        "dba": [
+          "DBA-NAT-2-3 Comprende la relación entre las características físicas de plantas y animales con los ambientes en donde viven, teniendo en cuenta sus necesidades básicas (luz, agua, aire, suelo, nutrientes, desplazamiento y protección)."
+        ],
+        "evidencias": [
+          "NAT-2-D3-E3 Predice posibles problemas que podrían ocurrir cuando no se satisfacen algunas de las necesidades básicas en el desarrollo de plantas y animales, a partir de los resultados obtenidos en experimentaciones sencillas.",
+          "NAT-2-D3-E4 Establece relaciones entre las características de los seres vivos y el ambiente donde habitan."
+        ],
+        "saberes": [
+          "Desarrollo de plantas y animales."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Identifico tipos de movimiento en seres vivos y objetos, y las fuerzas que los producen.",
+        "dba": [
+          "DBA-NAT-2-1 Comprende que una acción mecánica (fuerza) puede producir distintas deformaciones en un objeto, y que este resiste a las fuerzas de diferente modo, de acuerdo con el material del que está hecho."
+        ],
+        "evidencias": [
+          "NAT-2-D1-E2 Clasifica los materiales según su resistencia a ser deformados cuando se les aplica una fuerza.",
+          "NAT-2-D1-E3 Predice el tipo de acción requerida para producir una deformación determinada en un cierto material y las comunica haciendo uso de diferentes formatos (oral, escrito)."
+        ],
+        "saberes": [
+          "Clasificación de materiales según su resistencia."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico circuitos eléctricos en mi entorno.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Circuitos eléctricos: • Partes de un circuito. • Tipos de circuitos."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Observo y describo cambios en mi desarrollo y en el de otros seres vivos. Describo y verifico ciclos de vida de seres vivos.",
+        "dba": [
+          "DBA-NAT-2-4 Explica los procesos de cambios físicos que ocurren en el ciclo de vida de plantas y animales de su entorno, en un período de tiempo determinado."
+        ],
+        "evidencias": [
+          "NAT-2-D4-E1 Representa con dibujos u otros formatos los cambios en el desarrollo de plantas y animales en un período de tiempo, identificando procesos como la germinación, la floración y la aparición de frutos."
+        ],
+        "saberes": [
+          "Ciclo de vida de las plantas."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Identifico diferentes estados físicos de la materia (el agua, por ejemplo) y verifico causas para cambios de estado.",
+        "dba": [
+          "DBA-NAT-2-2 Comprende que las sustancias pueden encontrarse en distintos estados (sólido, líquido y gaseoso)."
+        ],
+        "evidencias": [
+          "NAT-2-D2-E1 Clasifica materiales de su entorno según su estado (sólidos, líquidos o gases) a partir de sus propiedades básicas (si tienen forma propia o adoptan la del recipiente que los contiene, si fluyen, entre otros)."
+        ],
+        "saberes": [
+          "La materia. • Propiedades básicas de la materia."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Analizo la utilidad de algunos aparatos eléctricos a mi alrededor.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Aparatos eléctricos • Funciones de los aparatos eléctricos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Observo y describo cambios en mi desarrollo y en el de otros seres vivos. Describo y verifico ciclos de vida de seres vivos.",
+        "dba": [
+          "DBA-NAT-2-4 Explica los procesos de cambios físicos que ocurren en el ciclo de vida de plantas y animales de su entorno, en un período de tiempo determinado."
+        ],
+        "evidencias": [
+          "NAT-2-D4-E2 Representa con dibujos u otros formatos los cambios en el desarrollo de los animales en un período de tiempo, identificando procesos como el crecimiento y la reproducción."
+        ],
+        "saberes": [
+          "Crecimiento, desarrollo y reproducción de los animales."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Describo y clasifico objetos según características que percibo con los cinco sentidos. Propongo y verifico diversas formas de medir sólidos y líquidos",
+        "dba": [
+          "DBA-NAT-2-2 Comprende que las sustancias pueden encontrarse en distintos estados (sólido, líquido y gaseoso)."
+        ],
+        "evidencias": [
+          "NAT-2-D2-E2 Compara las características físicas observables (fluidez, viscosidad, transparencia) de un conjunto de líquidos (agua, aceite, miel).",
+          "NAT-2-D2-E3 Reconoce el aire como un material a partir de evidencias de su presencia aunque no se pueda ver, en el marco de distintas experiencias (abanicar, soplar, entre otros)."
+        ],
+        "saberes": [
+          "Los estados de la materia y los sentidos."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Analizo la utilidad de algunos aparatos eléctricos a mi alrededor.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Uso responsable de la energía eléctrica."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

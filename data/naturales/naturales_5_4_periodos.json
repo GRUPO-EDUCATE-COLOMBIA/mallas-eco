@@ -1,0 +1,228 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "5",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico la importancia de la célula como unidad básica de los seres vivos. Identifico los niveles de organización celular de los seres vivos. Identifico en mi entorno objetos que cumplen funciones similares a las de mis órganos y sustento la comparación.",
+        "dba": [
+          "DBA-NAT-5-3 Comprende que los sistemas del cuerpo humano están formados por órganos, tejidos y células y que la estructura de cada tipo de célula está relacionada con la función del tejido que forman."
+        ],
+        "evidencias": [
+          "NAT-5-D3-E1 Explica la estructura (órganos, tejidos y células) y las funciones de los sistemas de su cuerpo."
+        ],
+        "saberes": [
+          "Niveles de organización del cuerpo humano. Células, tejidos, órganos y sistemas."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Investigo y describo diversos tipos de neuronas, las comparo entre sí y con circuitos eléctricos. Construyo circuitos eléctricos simples con pilas. Identifico las funciones de los componentes de un circuito eléctrico.",
+        "dba": [
+          "DBA-NAT-5-1 Comprende que un circuito eléctrico básico está formado por un generador o fuente (pila), conductores (cables) y uno o más dispositivos (bombillos, motores, timbres), que deben estar conectados apropiadamente (por sus dos polos) para que funcionen y produzcan diferentes efectos."
+        ],
+        "evidencias": [
+          "NAT-5-D1-E1 Realiza circuitos eléctricos simples que funcionan con fuentes (pilas), cables y dispositivos (bombillo, motores, timbres) y los representa utilizando los símbolos apropiados."
+        ],
+        "saberes": [
+          "Fundamentos y simbología de los circuitos eléctricos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico y establezco las aplicaciones de los circuitos eléctricos en el desarrollo tecnológico.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Circuitos eléctricos: efectos de las corrientes eléctricas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico la importancia de la célula como unidad básica de los seres vivos. Identifico los niveles de organización celular de los seres vivos. Identifico en mi entorno objetos que cumplen funciones similares a las de mis órganos y sustento la comparación.",
+        "dba": [
+          "DBA-NAT-5-3 Comprende que los sistemas del cuerpo humano están formados por órganos, tejidos y células y que la estructura de cada tipo de célula está relacionada con la función del tejido que forman."
+        ],
+        "evidencias": [
+          "NAT-5-D3-E2 Relaciona el funcionamiento de los tejidos de un ser vivo con los tipos de células que posee.",
+          "Relaciona el funcionamiento saludable y cuidado de los sistemas del cuerpo con la práctica de hábitos como alimentación balanceada, ejercicio físico e higiene corporal."
+        ],
+        "saberes": [
+          "Tejidos: diversidad y funciones en animales y plantas",
+          "Cuidado de nuestros sistemas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Propongo experiencias para comprobar la propagación de la luz y del sonido.",
+        "dba": [
+          "DBA-NAT-5-1 Comprende que un circuito eléctrico básico está formado por un generador o fuente (pila), conductores (cables) y uno o más dispositivos (bombillos, motores, timbres), que deben estar conectados apropiadamente (por sus dos polos) para que funcionen y produzcan diferentes efectos."
+        ],
+        "evidencias": [
+          "NAT-5-D1-E2 Identifica y soluciona dificultades cuando construye un circuito que no funciona.",
+          "NAT-5-D1-E3 Identifica los diferentes efectos que se producen en los componentes de un circuito como luz y calor en un bombillo, movimiento en un motor y sonido en un timbre."
+        ],
+        "saberes": [
+          "Circuitos eléctricos: introducción, tipos y funcionamiento"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Establezco relaciones entre microorganismos y salud.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "El impacto de los microorganismos en la salud."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico las funciones de los seres vivos a partir de las relaciones entre diferentes sistemas de órganos. Represento los diversos sistemas de órganos del ser humano y explico su función.",
+        "dba": [
+          "DBA-NAT-5-4 Comprende que en los seres humanos (y en muchos otros animales) la nutrición involucra el funcionamiento integrado de un conjunto de sistemas de órganos: digestivo, respiratorio y circulatorio."
+        ],
+        "evidencias": [
+          "NAT-5-D4-E1 Explica el camino que siguen los alimentos en el organismo y los cambios que sufren durante el proceso de digestión desde que son ingeridos hasta que los nutrientes llegan a las células.",
+          "NAT-5-D4-E2 Relaciona las características de los órganos del sistema digestivo (tipos de dientes, características de intestinos y estómagos) de diferentes organismos con los tipos de alimento que consumen."
+        ],
+        "saberes": [
+          "La relación de la nutrición con los sistemas del cuerpo humano.",
+          "La diversidad de la nutrición: autótrofos y heterótrofos."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Verifico la conducción de electricidad o calor en materiales.",
+        "dba": [
+          "DBA-NAT-5-2 Comprende que algunos materiales son buenos conductores de la corriente eléctrica y otros no (denominados aislantes) y que el paso de la corriente siempre genera calor."
+        ],
+        "evidencias": [
+          "NAT-5-D2-E1 Construye experimentalmente circuitos sencillos para establecer qué materiales son buenos conductores de la corriente eléctrica y cuáles no.",
+          "NAT-5-D2-E2 Identifica, en un conjunto de materiales dados, cuáles son buenos conductores de corriente y cuáles son aislantes de acuerdo a su comportamiento dentro de un circuito eléctrico básico."
+        ],
+        "saberes": [
+          "Materiales conductores y aislantes de la corriente eléctrica."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Reconozco los efectos nocivos del exceso en el consumo de cafeína, tabaco, drogas y licores.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Efectos nocivos: consecuencias del consumo de cafeína, tabaco, drogas y alcohol."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico las funciones de los seres vivos a partir de las relaciones entre diferentes sistemas de órganos. Represento los diversos sistemas de órganos del ser humano y explico su función.",
+        "dba": [
+          "DBA-NAT-5-4 Comprende que en los seres humanos (y en muchos otros animales) la nutrición involucra el funcionamiento integrado de un conjunto de sistemas de órganos: digestivo, respiratorio y circulatorio."
+        ],
+        "evidencias": [
+          "NAT-5-D4-E3 Explica por qué cuando se hace ejercicio físico aumentan tanto la frecuencia cardíaca como la respiratoria y vincula la explicación con los procesos de obtención de energía de las células.",
+          "NAT-5-D4-E4 Explica el intercambio gaseoso que ocurre en los alvéolos pulmonares, entre la sangre y el aire, y lo relaciona con los procesos de obtención de energía de las células."
+        ],
+        "saberes": [
+          "Relación entre los procesos del sistema respiratorio y circulatorio."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Verifico la conducción de electricidad o calor en materiales.",
+        "dba": [
+          "DBA-NAT-5-2 Comprende que algunos materiales son buenos conductores de la corriente eléctrica y otros no (denominados aislantes) y que el paso de la corriente siempre genera calor."
+        ],
+        "evidencias": [
+          "NAT-5-D2-E3 Explica por qué algunos objetos se fabrican con ciertos materiales (por ejemplo, por qué los cables están recubiertos por plástico y formados por metal) en función de su capacidad para conducir electricidad.",
+          "NAT-5-D2-E4 Verifica, con el tacto, que los compontes de un circuito (cables, pilas, bombillos, motores) se calientan cuando están funcionando, y lo atribuye al paso de la corriente eléctrica."
+        ],
+        "saberes": [
+          "Usos y aplicaciones de los materiales conductores y aislantes."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Establezco relaciones entre deporte y salud física y mental.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "El deporte como herramienta para la salud física y mental del ser humano."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

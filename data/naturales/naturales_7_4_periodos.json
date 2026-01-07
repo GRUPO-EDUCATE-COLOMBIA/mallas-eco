@@ -1,0 +1,233 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "7",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico la dinámica de un ecosistema teniendo en cuenta las necesidades de energía y nutrientes de los seres vivos (cadena alimentaria). Explico las relaciones entre materia y energía en las cadenas alimentarias.",
+        "dba": [
+          "DBA-NAT-7-3 Comprende que en las cadenas y redes tróficas existen flujos de materia y energía, y los relaciona con procesos de nutrición, fotosíntesis y respiración celular."
+        ],
+        "evidencias": [
+          "NAT-7-D3-E1 Explica tipos de nutrición (autótrofa y heterótrofa) en las cadenas y redes tróficas dentro de los ecosistemas."
+        ],
+        "saberes": [
+          "Cadenas y redes tróficas."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Identifico y comparo fuentes de luz, calor y sonido y su efecto sobre diferentes seres vivos. Verifico relaciones entre distancia recorrida, velocidad y fuerza involucrada en diversos tipos de movimiento.",
+        "dba": [
+          "DBA-NAT-7-1 Comprende las formas y las transformaciones de energía en un sistema mecánico y la manera como, en los casos reales, la energía se disipa en el medio (calor, sonido)."
+        ],
+        "evidencias": [
+          "NAT-7-D1-E1 Relaciona las variables velocidad y posición para describir las formas de energía mecánica (cinética y potencial gravitacional) que tiene un cuerpo en movimiento."
+        ],
+        "saberes": [
+          "Velocidad y posición."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Analizo el potencial de los recursos naturales de mi entorno para la obtención de energía e indico sus posibles usos",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Recursos naturales"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Argumento la importancia de la fotosíntesis como un proceso de conversión de energía necesaria para organismos aerobios.",
+        "dba": [
+          "DBA-NAT-7-3 Comprende que en las cadenas y redes tróficas existen flujos de materia y energía, y los relaciona con procesos de nutrición, fotosíntesis y respiración celular."
+        ],
+        "evidencias": [
+          "NAT-7-D3-E2 Explica la fotosíntesis como un proceso de construcción de materia orgánica a partir del aprovechamiento de la energía solar y su combinación con el dióxido de carbono del aire y el agua, y predice qué efectos sobre la composición de la atmósfera terrestre podría tener su disminución a nivel global (por ejemplo, a partir de la tala masiva de bosques).",
+          "NAT-7-D3-E3 Compara el proceso de fotosíntesis con el de respiración celular, considerando sus reactivos y productos y su función en los organismos."
+        ],
+        "saberes": [
+          "Fotosíntesis y respiración celular"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Identifico y comparo fuentes de luz, calor y sonido y su efecto sobre diferentes seres vivos. Verifico relaciones entre distancia recorrida, velocidad y fuerza involucrada en diversos tipos de movimiento.",
+        "dba": [
+          "DBA-NAT-7-1 Comprende las formas y las transformaciones de energía en un sistema mecánico y la manera como, en los casos reales, la energía se disipa en el medio (calor, sonido)."
+        ],
+        "evidencias": [
+          "NAT-7-D1-E2 Identifica las formas de energía mecánica (cinética y potencial) que tienen lugar en diferentes puntos del movimiento en un sistema mecánico (caída libre, montaña rusa, péndulo).",
+          "NAT-7-D1-E3 Representa gráficamente las energías cinética y potencial gravitacional en función del tiempo."
+        ],
+        "saberes": [
+          "Energía mecánica."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico factores de contaminación en mi entorno y sus implicaciones para la salud",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Contaminación ambiental: Amenaza para la salud humana y los ecosistemas."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Justifico la importancia del agua en el sostenimiento de la vida. Describo y relaciono los ciclos del agua, de algunos elementos y de la energía en los ecosistemas.",
+        "dba": [
+          "DBA-NAT-7-4 Comprende la relación entre los ciclos del carbono, el nitrógeno y del agua, explicando su importancia en el mantenimiento de los ecosistemas."
+        ],
+        "evidencias": [
+          "NAT-7-D4-E1 Establece relaciones entre los ciclos del Carbono y Nitrógeno con el mantenimiento de los suelos en un ecosistema.",
+          "NAT-7-D4-E2 Explica a partir de casos los efectos de la intervención humana (erosión, contaminación, deforestación) en los ciclos biogeoquímicos del suelo (Carbono, Nitrógeno) y del agua y sus consecuencias ambientales y propone posibles acciones para mitigarlas o remediarlas."
+        ],
+        "saberes": [
+          "Ciclo del carbono.",
+          "Ciclo del nitrógeno."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Explico y utilizo la tabla periódica como herramienta para predecir procesos químicos. Describo el desarrollo de modelos que explican la estructura de la materia. Explico la formación de moléculas y los estados de la materia a partir de fuerzas electrostáticas.",
+        "dba": [
+          "DBA-NAT-7-2 Explica cómo las sustancias se forman a partir de la interacción de los elementos y que estos se encuentran agrupados en un sistema periódico."
+        ],
+        "evidencias": [
+          "NAT-7-D2-E1 Ubica a los elementos en la Tabla Periódica con relación a los números atómicos (Z) y másicos (A).",
+          "NAT-7-D2-E2 Usa modelos y representaciones (Bohr, Lewis) que le permiten reconocer la estructura del átomo y su relación con su ubicación en la Tabla Periódica."
+        ],
+        "saberes": [
+          "El átomo: Estructura atómica",
+          "la Tabla Periódica",
+          "Modelos atómicos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Analizo las implicaciones y responsabilidades de la sexualidad y la reproducción para el individuo y para su comunidad.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Sexualidad"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico la función del suelo como depósito de nutrientes.",
+        "dba": [
+          "DBA-NAT-7-4 Comprende la relación entre los ciclos del carbono, el nitrógeno y del agua, explicando su importancia en el mantenimiento de los ecosistemas."
+        ],
+        "evidencias": [
+          "NAT-7-D4-E3 Reconoce las principales funciones de los microorganismos, para identificar casos en los que se relacionen con los ciclos biogeoquímicos y su utilidad en la vida diaria.",
+          "NAT-7-D4-E4 Propone acciones de uso responsable del agua en su hogar, en la escuela y en sus contextos cercanos."
+        ],
+        "saberes": [
+          "Microorganismos en los ciclos biogeoquímicos.",
+          "Ciclo del agua."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Clasifico y verifico las propiedades de la materia. Comparo masa, peso, cantidad de sustancia y densidad de diferentes materiales.",
+        "dba": [
+          "DBA-NAT-7-2 Explica cómo las sustancias se forman a partir de la interacción de los elementos y que estos se encuentran agrupados en un sistema periódico."
+        ],
+        "evidencias": [
+          "NAT-7-D2-E3 Explica la variación de algunas de las propiedades (densidad, temperatura de ebullición y fusión) de sustancias simples (metales, no metales, metaloides y gases nobles) en la tabla periódica."
+        ],
+        "saberes": [
+          "Propiedades de los elementos de la Tabla Periódica.",
+          "Metales.",
+          "No metales.",
+          "Metaloides.",
+          "Gases nobles."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Establezco relaciones entre transmisión de enfermedades y medidas de prevención y control.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Enfermedades de transmisión sexual (ETS)"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

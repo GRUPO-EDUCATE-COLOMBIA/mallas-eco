@@ -1,0 +1,251 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "4",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico la dinámica de un ecosistema teniendo en cuenta las necesidades de energía y nutrientes de los seres vivos (cadena alimentaria).",
+        "dba": [
+          "DBA-NAT-4-6 Comprende que los organismos cumplen distintas funciones en cada uno de los niveles tróficos y que las relaciones entre ellos pueden representarse en cadenas y redes alimenticias."
+        ],
+        "evidencias": [
+          "NAT-4-D6-E1 Identifica los niveles tróficos en cadenas y redes alimenticias y establece la función de cada uno en un ecosistema.",
+          "NAT-4-D6-E1 Identifica los niveles tróficos en cadenas y redes alimenticias y establece la función de cada uno en un ecosistema."
+        ],
+        "saberes": [
+          "Cadenas y redes alimenticias",
+          "Niveles tróficos: productores, consumidores y descomponedores"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Relaciono el estado de reposo o movimiento de un objeto con las fuerzas aplicadas sobre éste.",
+        "dba": [
+          "DBA-NAT-4-1 Comprende que la magnitud y la dirección en que se aplica una fuerza puede producir cambios en la forma como se mueve un objeto (dirección y rapidez)."
+        ],
+        "evidencias": [
+          "NAT-4-D1-E1 Describe las características de las fuerzas (magnitud y dirección) que se deben aplicar para producir un efecto dado (detener, acelerar, cambiar de dirección).",
+          "NAT-4-D1-E2 Indica, a partir de pequeñas experiencias, cuando una fuerza aplicada sobre un cuerpo no produce cambios en su estado de reposo, de movimiento o en su dirección.",
+          "NAT-4-D1-E3 Comunica resultados sobre los efectos de la fuerza de fricción en el movimiento de los objetos al comparar superficies con distintos niveles de rozamiento.",
+          "NAT-4-D1-E4 Predice y explica en una situación de objetos desplazándose por diferentes superficies (lisas, rugosas) en cuál de ellas el cuerpo puede mantenerse por más tiempo en movimiento."
+        ],
+        "saberes": [
+          "Relación fundamental entre movimiento y fuerza",
+          "Fuerza de fricción o rozamiento"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico máquinas simples en objetos cotidianos y describo su utilidad.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Máquinas simples en objetos cotidianos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico la dinámica de un ecosistema teniendo en cuenta las necesidades de energía y nutrientes de los seres vivos (cadena alimentaria).",
+        "dba": [
+          "DBA-NAT-4-6 Comprende que los organismos cumplen distintas funciones en cada uno de los niveles tróficos y que las relaciones entre ellos pueden representarse en cadenas y redes alimenticias."
+        ],
+        "evidencias": [
+          "NAT-4-D6-E2 Indica qué puede ocurrir con las distintas poblaciones que forman parte de una red alimenticia cuando se altera cualquiera de sus niveles.",
+          "NAT-4-D6-E3 Representa cadenas, pirámides o redes tróficas para establecer relaciones entre los niveles tróficos.",
+          "Reconoce la disposición de los residuos sólidos en las cadenas y redes tróficas considerando su culminación en el ecosistema marino."
+        ],
+        "saberes": [
+          "Los seres humanos y las redes alimenticias",
+          "Pirámides tróficas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Describo fuerzas en máquinas simples.",
+        "dba": [
+          "DBA-NAT-4-2 Comprende los efectos y las ventajas de utilizar máquinas simples en diferentes tareas que requieren la aplicación de una fuerza."
+        ],
+        "evidencias": [
+          "NAT-4-D2-E1 Explora cómo los cambios en el tamaño de una palanca (longitud) o la posición del punto de apoyo afectan las fuerzas y los movimientos implicados.",
+          "NAT-4-D2-E2 Describe la función que cumplen fuerzas en una máquina simple para generar movimiento.",
+          "NAT-4-D2-E3 Identifica y observa máquinas simples en objetos cotidianos para explicar su utilidad (aplicar una fuerza pequeña para generar una fuerza grande, generar un pequeño movimiento para crear un gran movimiento).",
+          "NAT-4-D2-E4 Identifica y describe palancas presentes en su cuerpo, conformadas por sus sistemas óseo y muscular."
+        ],
+        "saberes": [
+          "Las palancas y máquinas simples",
+          "El sistema locomotor: músculos y huesos en acción"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Verificó que la cocción de alimentos genera cambios físicos y químicos.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Cambios físicos y químicos en la cocina"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Identifico adaptaciones de los seres vivos teniendo en cuenta las características de los ecosistemas en que viven. Explico la dinámica de un ecosistema teniendo en cuenta las necesidades de energía y nutrientes de los seres vivos (cadena alimentaria).",
+        "dba": [
+          "DBA-NAT-4-7 Comprende que existen distintos tipos de ecosistemas (terrestres y acuáticos) y que sus características físicas (temperatura, humedad, tipos de suelo, altitud) permiten que habiten en ellos diferentes seres vivos."
+        ],
+        "evidencias": [
+          "NAT-4-D7-E1 Diferencia tipos de ecosistemas (terrestres y acuáticos) correspondientes a distintas ubicaciones geográficas, para establecer sus principales características.",
+          "NAT-4-D7-E2 Explica cómo repercuten las características físicas (temperatura, humedad, tipo de suelo, altitud) de ecosistemas (acuáticos y terrestres) en la supervivencia de los organismos que allí habitan."
+        ],
+        "saberes": [
+          "Tipos de ecosistemas",
+          "Ecosistemas terrestres",
+          "Ecosistemas acuáticos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Registro el movimiento del Sol, la Luna y las estrellas en el cielo, en un periodo de tiempo. Describo los principales elementos del sistema solar y establezco relaciones de tamaño, movimiento y posición. Comparo el peso y la masa de un objeto en diferentes puntos del sistema solar.",
+        "dba": [
+          "DBA-NAT-4-3 Comprende que el fenómeno del día y la noche se debe a que la Tierra rota sobre su eje y en consecuencia el sol sólo ilumina la mitad de su superficie.",
+          "DBA-NAT-4-4 Comprende que las fases de la Luna se deben a la posición relativa del Sol, la Luna y la Tierra a lo largo del mes."
+        ],
+        "evidencias": [
+          "NAT-4-D3-E1 Registra y realiza dibujos de las sombras que proyecta un objeto que recibe la luz del Sol en diferentes momentos del día, relacionándolas con el movimiento aparente del Sol en el cielo.",
+          "NAT-4-D3-E2 Explica cómo se producen el día y la noche por medio de una maqueta o modelo de la Tierra y del Sol.",
+          "NAT-4-D3-E3 Observa y registra algunos patrones de regularidad (ciclo del día y la noche), elabora tablas y comunica los resultados.",
+          "NAT-4-D4-E1 Realiza observaciones de la forma de la Luna y las registra mediante dibujos, explicando cómo varían a lo largo del mes.",
+          "NAT-4-D4-E2 Predice cuál sería la fase de la Luna que un observador vería desde la Tierra, dada una cierta posición relativa entre la Tierra, el Sol y la Luna."
+        ],
+        "saberes": [
+          "El movimiento aparente del Sol",
+          "La rotación de la Tierra: cómo se crea el día y la noche",
+          "Eclipses solares y lunares",
+          "Fases lunares: cambios en la apariencia de la Luna desde la Tierra"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico y describo aparatos que generan energía luminosa, térmica y mecánica.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Aparatos que generan luz, calor y movimiento"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Analizo el ecosistema que me rodea y lo comparo con otros.",
+        "dba": [
+          "DBA-NAT-4-7 Comprende que existen distintos tipos de ecosistemas (terrestres y acuáticos) y que sus características físicas (temperatura, humedad, tipos de suelo, altitud) permiten que habiten en ellos diferentes seres vivos."
+        ],
+        "evidencias": [
+          "NAT-4-D7-E3 Propone representaciones de los ecosistemas representativos de su región, resaltando sus particularidades (especies endémicas, potencialidades ecoturísticas, entre otros.) y plantea estrategias para su conservación."
+        ],
+        "saberes": [
+          "Ecosistemas en Colombia",
+          "Especies endémicas",
+          "Ecoturismo sostenible"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Propongo y verifico diferentes métodos de separación de mezclas. Verifico diferentes métodos de separación de mezclas.",
+        "dba": [
+          "DBA-NAT-4-5 Comprende que existen distintos tipos de mezclas (homogéneas y heterogéneas) que de acuerdo con los materiales que las componen pueden separarse mediante diferentes técnicas (filtración, tamizado, decantación, evaporación)."
+        ],
+        "evidencias": [
+          "NAT-4-D5-E1 Clasifica como homogénea o heterogénea una mezcla dada, a partir del número de fases observadas.",
+          "NAT-4-D5-E2 Selecciona las técnicas para separar una mezcla dada, de acuerdo con las propiedades de sus componentes.",
+          "NAT-4-D5-E3 Predice el tipo de mezcla que se producirá a partir de la combinación de materiales, considerando ejemplos de materiales cotidianos en diferentes estados de agregación (agua-aceite, arena-gravilla, agua-piedras).",
+          "NAT-4-D5-E4 Compara las ventajas y desventajas de distintas técnicas de separación (filtración, tamizado, decantación, evaporación) de mezclas homogéneas y heterogéneas, considerando ejemplos de mezclas concretas.",
+          "Reconoce la importancia de los métodos de separación de mezclas en los procesos de potabilización y purificación del agua."
+        ],
+        "saberes": [
+          "Mezclas: homogéneas y heterogéneas",
+          "Técnicas de separación de las mezclas: filtración, tamizado, decantación y evaporación"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Establezco relaciones entre el efecto invernadero, la lluvia ácida y el debilitamiento de la capa de ozono con la contaminación atmosférica.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Impacto ambiental de las actividades humanas: efecto invernadero y lluvia ácida"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

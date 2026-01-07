@@ -1,0 +1,244 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "8",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico la importancia de las hormonas en la regulación de las funciones en el ser humano",
+        "dba": [
+          "DBA-NAT-8-4 Analiza relaciones entre sistemas de órganos (excretor, inmune, nervioso, endocrino, óseo y muscular) con los procesos de regulación de las funciones en los seres vivos."
+        ],
+        "evidencias": [
+          "NAT-8-D4-E1 Relaciona los fenómenos homeostáticos de los organismos con el funcionamiento de órganos y sistemas.",
+          "NAT-8-D4-E2 Interpreta modelos de equilibrio existente entre algunos de los sistemas (excretor, inmune, nervioso, endocrino, óseo y muscular)."
+        ],
+        "saberes": [
+          "Sistemas de órganos en los seres vivos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Establezco relaciones entre las variables de estado en un sistema termodinámico para predecir cambios físicos y químicos y las expreso matemáticamente. Establezco relaciones entre energía interna de un sistema termodinámico, trabajo y transferencia de energía térmica; las expreso matemáticamente",
+        "dba": [
+          "DBA-NAT-8-1 Comprende el funcionamiento de máquinas térmicas (motores de combustión, refrigeración) por medio de las leyes de la termodinámica (primera y segunda ley)."
+        ],
+        "evidencias": [
+          "NAT-8-D1-E1 Describe el cambio en la energía interna de un sistema a partir del trabajo mecánico realizado y del calor transferido.",
+          "NAT-8-D1-E2 Explica la primera ley de la termodinámica a partir de la energía interna de un sistema, el calor y el trabajo, con relación a la conservación de la energía.",
+          "NAT-8-D1-E3 Describe la eficiencia mecánica de una máquina a partir de las relaciones entre el calor y trabajo mecánico mediante la segunda ley de la termodinámica.",
+          "NAT-8-D1-E4 Explica, haciendo uso de las leyes termodinámicas, el funcionamiento térmico de diferentes máquinas (motor de combustión, refrigerador)."
+        ],
+        "saberes": [
+          "Primera ley de la Termodinámica",
+          "Segunda ley de la Termodinámica"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Argumento las ventajas y desventajas de la manipulación genética",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Manipulación genética"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Explico la importancia de las hormonas en la regulación de las funciones en el ser humano",
+        "dba": [
+          "DBA-NAT-8-4 Analiza relaciones entre sistemas de órganos (excretor, inmune, nervioso, endocrino, óseo y muscular) con los procesos de regulación de las funciones en los seres vivos."
+        ],
+        "evidencias": [
+          "NAT-8-D4-E3 \"\"Relaciona el papel biológico de las hormonas y las neuronas en la regulación y coordinación del funcionamiento de los sistemas del organismo y el mantenimiento de la homeostasis, dando ejemplos para funciones como la reproducción sexual, la digestión de los alimentos, la regulación de la presión sanguínea y la respuesta de \"\"\"\"lucha o huida\"\"\"\".",
+          "NAT-8-D4-E4 Explica, a través de ejemplos, los efectos de hábitos no saludables en el funcionamiento adecuado de los sistemas excretor, nervioso, inmune, endocrino, óseo y muscular."
+        ],
+        "saberes": [
+          "Estabilidad en las condiciones internas: homeostasis"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Comparo masa, peso, cantidad de sustancia y densidad de diferentes materiales. Comparo sólidos, líquidos y gases teniendo en cuenta el movimiento de sus moléculas y las fuerzas electroestáticas. Verifico las diferencias entre cambios químicos y mezclas.",
+        "dba": [
+          "DBA-NAT-8-2 Comprende que en una reacción química se recombinan los átomos de las moléculas de los reactivos para generar productos nuevos, y que dichos productos se forman a partir de fuerzas intramoleculares (enlaces iónicos y covalentes)."
+        ],
+        "evidencias": [
+          "NAT-8-D2-E1 Explica con esquemas, dada una reacción química, cómo se recombinan los átomos de cada molécula para generar moléculas nuevas.",
+          "NAT-8-D2-E3 Justifica si un cambio en un material es físico o químico a partir de características observables que indiquen, para el caso de los cambios químicos, la formación de nuevas sustancias (cambio de color, desprendimiento de gas, entre otros)."
+        ],
+        "saberes": [
+          "Reacciones químicas",
+          "Ecuaciones químicas",
+          "Tipos de enlaces"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Establezco la importancia de mantener la biodiversidad para estimular el desarrollo del país.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Importancia de la biodiversidad en Colombia"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Comparo diferentes sistemas de reproducción. Justifico la importancia de la reproducción sexual en el mantenimiento de la variabilidad.",
+        "dba": [
+          "DBA-NAT-8-5 Analiza la reproducción (asexual, sexual) de distintos grupos de seres vivos y su importancia para la preservación de la vida en el planeta."
+        ],
+        "evidencias": [
+          "NAT-8-D5-E1 Diferencia los tipos de reproducción en plantas y propone su aplicación de acuerdo con las condiciones del medio donde se realiza.",
+          "NAT-8-D5-E2 Explica los sistemas de reproducción sexual y asexual en animales y reconoce sus efectos en la variabilidad y preservación de especies."
+        ],
+        "saberes": [
+          "Reproducción sexual",
+          "Reproducción asexual"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Comparo masa, peso, cantidad de sustancia y densidad de diferentes materiales. Comparo sólidos, líquidos y gases teniendo en cuenta el movimiento de sus moléculas y las fuerzas electroestáticas. Verifico las diferencias entre cambios químicos y mezclas.",
+        "dba": [
+          "DBA-NAT-8-2 Comprende que en una reacción química se recombinan los átomos de las moléculas de los reactivos para generar productos nuevos, y que dichos productos se forman a partir de fuerzas intramoleculares (enlaces iónicos y covalentes)."
+        ],
+        "evidencias": [
+          "NAT-8-D2-E2 Representa los tipos de enlaces (iónico y covalente) para explicar la formación de compuestos dados, a partir de criterios como la electronegatividad y las relaciones entre los electrones de valencia.",
+          "NAT-8-D2-E4 Predice algunas de las propiedades (estado de agregación, solubilidad, temperatura de ebullición y de fusión) de los compuestos químicos a partir del tipo de enlace de sus átomos dentro de sus moléculas."
+        ],
+        "saberes": [
+          "Enlaces químicos",
+          "Enlace iónico",
+          "Enlace covalente"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Indago sobre aplicaciones de la microbiología en la industria.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Microorganismos en la industria"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Comparo diferentes sistemas de reproducción. Justifico la importancia de la reproducción sexual en el mantenimiento de la variabilidad.",
+        "dba": [
+          "DBA-NAT-8-5 Analiza la reproducción (asexual, sexual) de distintos grupos de seres vivos y su importancia para la preservación de la vida en el planeta."
+        ],
+        "evidencias": [
+          "NAT-8-D5-E3 Identifica riesgos y consecuencias físicas y psicológicas de un embarazo en la adolescencia.",
+          "NAT-8-D5-E4 Explica la importancia de la aplicación de medidas preventivas de patologías relacionadas con el sistema reproductor."
+        ],
+        "saberes": [
+          "Preservación de la vida en el planeta",
+          "Sistema reproductor masculino",
+          "Sistema reproductor femenino"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Comparo los modelos que explican el comportamiento de gases ideales y reales.",
+        "dba": [
+          "DBA-NAT-8-3 Comprende que el comportamiento de un gas ideal está determinado por las relaciones entre Temperatura (T), Presión (P), Volumen (V) y Cantidad de sustancia (n)."
+        ],
+        "evidencias": [
+          "NAT-8-D3-E1 Interpreta los resultados de experimentos en los cuales analiza el comportamiento de un gas ideal al variar su temperatura, volumen, presión y cantidad de gas, explicando cómo influyen estas variables en el comportamiento observado.",
+          "NAT-8-D3-E2 Explica el comportamiento (difusión, compresión, dilatación, fluidez) de los gases a partir de la teoría cinético molecular.",
+          "NAT-8-D3-E3 Explica eventos cotidianos, (funcionamiento de un globo aerostático, pipetas de gas, inflar/explotar una bomba), a partir de relaciones matemáticas entre variables como la presión, la temperatura, la cantidad de gas y el volumen, identificando cómo las leyes de los gases (Boyle-Mariotte, Charles, Gay-Lussac, Ley combinada, ecuación de estado) permiten establecer dichas relaciones."
+        ],
+        "saberes": [
+          "Leyes generales de los gases",
+          "La ley de Boyle",
+          "La ley de Gay-Lussac",
+          "La ley de Charles",
+          "La ley de los gases ideales"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico productos que pueden tener diferentes niveles de pH y explico algunos de sus usos en actividades cotidianas.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "pH en las sustancias cotidianas",
+          "Escala de pH"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

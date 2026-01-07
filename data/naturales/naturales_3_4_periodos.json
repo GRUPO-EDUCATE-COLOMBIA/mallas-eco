@@ -1,0 +1,237 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "3",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Analizo el ecosistema que me rodea y lo comparo con otros",
+        "dba": [
+          "DBA-NAT-3-5 Explica la influencia de los factores abióticos (luz, temperatura, suelo y aire) en el desarrollo de los factores bióticos (fauna y flora) de un ecosistema."
+        ],
+        "evidencias": [
+          "NAT-3-D5-E1 Diferencia los factores bióticos (plantas y animales) de los abióticos (luz, agua, temperatura, suelo y aire) de un ecosistema propio de su región."
+        ],
+        "saberes": [
+          "La influencia de los factores abióticos en el desarrollo de la vida en el ecosistema."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Identifico y comparo fuentes de luz, calor y sonido y su efecto sobre diferentes seres vivos. Clasifico luces según color, intensidad y fuente.",
+        "dba": [
+          "DBA-NAT-3-1 Comprende la forma en que se propaga la luz a través de diferentes materiales (opacos, transparentes como el aire, translúcidos como el papel y reflectivos como el espejo)."
+        ],
+        "evidencias": [
+          "NAT-3-D1-E1 Compara, en un experimento, distintos materiales de acuerdo con la cantidad de luz que dejan pasar (opacos, transparentes, translúcidos y reflectivos) y selecciona el tipo de material que elegiría para un cierto fin (por ejemplo, un frasco que no permita ver su contenido).",
+          "NAT-3-D1-E2 Selecciona la fuente apropiada para iluminar completamente una determinada superficie teniendo en cuenta que la luz se propaga en todas las direcciones y viaja en línea recta.",
+          "NAT-3-D1-E3 Describe las precauciones que debe tener presentes frente a la exposición de los ojos a rayos de luz directa (rayos láser, luz del sol) que pueden causarle daño."
+        ],
+        "saberes": [
+          "Propagación de la luz",
+          "Fuentes de luz: • Cuerpos luminosos naturales • Cuerpos luminosos artificiales",
+          "Cuerpos iluminados"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Asocio el clima con la forma de vida de diferentes comunidades.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Los climas de los ecosistemas colombianos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Analizo el ecosistema que me rodea y lo comparo con otros",
+        "dba": [
+          "DBA-NAT-3-5 Explica la influencia de los factores abióticos (luz, temperatura, suelo y aire) en el desarrollo de los factores bióticos (fauna y flora) de un ecosistema."
+        ],
+        "evidencias": [
+          "NAT-3-D5-E2 Interpreta el ecosistema de su región describiendo relaciones entre factores bióticos (plantas y animales) y abióticos (luz, agua, temperatura, suelo y aire).",
+          "NAT-3-D5-E3 Predice los efectos que ocurren en los organismos al alterarse un factor abiótico en un ecosistema"
+        ],
+        "saberes": [
+          "La interacción entre factores abióticos y bióticos en el desarrollo de los ecosistemas.",
+          "Tipos de ecosistemas."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Propongo experiencias para comprobar la propagación de la luz y del sonido.",
+        "dba": [
+          "DBA-NAT-3-2 Comprende la forma en que se produce la sombra y la relación de su tamaño con las distancias entre la fuente de luz, el objeto interpuesto y el lugar donde se produce la sombra."
+        ],
+        "evidencias": [
+          "NAT-3-D2-E1 Predice dónde se producirá la sombra de acuerdo con la posición de la fuente de luz y del objeto.",
+          "NAT-3-D2-E2 Desplaza la fuente de luz y el objeto para aumentar o reducir el tamaño de la sombra que se produce según las necesidades.",
+          "NAT-3-D2-E3 Explica los datos obtenidos mediante observaciones y mediciones, que registra en tablas y otros formatos, de lo que sucede con el tamaño de la sombra de un objeto variando la distancia a la fuente de luz."
+        ],
+        "saberes": [
+          "La luz y la sombra: un juego de distancias"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico necesidades de cuidado de mi cuerpo y el de otras personas.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Mi cuidado personal"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Identifico fenómenos de camuflaje en el entorno y los relaciono con las necesidades de los seres vivos. Explico adaptaciones de los seres vivos al ambiente. Identifico adaptaciones de los seres vivos teniendo en cuenta las características de los ecosistemas en que viven. Establezco las adaptaciones de algunos seres vivos en ecosistemas de Colombia.",
+        "dba": [
+          "DBA-NAT-3-6 Comprende las relaciones de los seres vivos con otros organismos de su entorno (intra e interespecíficas) y las explica como esenciales para su supervivencia en un ambiente determinado."
+        ],
+        "evidencias": [
+          "NAT-3-D6-E1 Interpreta las relaciones de competencia, territorialidad, gregarismo, depredación, parasitismo, comensalismo, amensalismo y mutualismo, como esenciales para la supervivencia de los organismos en un ecosistema, dando ejemplos.",
+          "Describe estrategias y mecanismos de adaptación de los seres vivos a su entorno que les permiten posibilidades de supervivencia."
+        ],
+        "saberes": [
+          "Relaciones biológicas: • Relaciones intraespecíficas • Relaciones interespecíficas",
+          "Mecanismos de adaptación y supervivencia: • Adaptaciones morfológicas • Adaptaciones fisiológicas • Adaptaciones de comportamiento"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Clasifico sonidos según tono, volumen y fuente. Identifico y comparo fuentes de luz, calor y sonido y su efecto sobre diferentes seres vivos.",
+        "dba": [
+          "DBA-NAT-3-3 Comprende la naturaleza (fenómeno de la vibración) y las características del sonido (altura, timbre, intensidad) y que este se propaga en distintos medios (sólidos, líquidos, gaseosos)."
+        ],
+        "evidencias": [
+          "NAT-3-D3-E1 Demuestra que el sonido es una vibración mediante el uso de fuentes para producirlo: cuerdas (guitarra), parches (tambor) y tubos de aire (flauta), identificando en cada una el elemento que vibra.",
+          "NAT-3-D3-E2 Describe y compara sonidos según su altura (grave o agudo) y su intensidad (fuerte o débil).",
+          "NAT-3-D3-E3 Compara y describe cómo se atenúa (reduce su intensidad) el sonido al pasar por diferentes medios (agua, aire, sólidos) y cómo influye la distancia en este proceso.",
+          "NAT-3-D3-E4 Clasifica materiales de acuerdo con la manera como atenúan un sonido."
+        ],
+        "saberes": [
+          "Características del sonido y vibraciones: • Propiedades del sonido • Transmisión del sonido"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico aparatos que utilizamos hoy y que no se utilizaban en épocas pasadas.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Herramientas actuales vs Herramientas pasadas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Entorno Vivo",
+        "estandar": "Identifico fenómenos de camuflaje en el entorno y los relaciono con las necesidades de los seres vivos. Explico adaptaciones de los seres vivos al ambiente. Identifico adaptaciones de los seres vivos teniendo en cuenta las características de los ecosistemas en que viven. Establezco las adaptaciones de algunos seres vivos en ecosistemas de Colombia.",
+        "dba": [
+          "DBA-NAT-3-6 Comprende las relaciones de los seres vivos con otros organismos de su entorno (intra e interespecíficas) y las explica como esenciales para su supervivencia en un ambiente determinado."
+        ],
+        "evidencias": [
+          "Predice qué ocurrirá en las poblaciones de organismos de un ecosistema de su región, dada una variación en las condiciones físicas de su entorno.",
+          "NAT-3-D6-E4 Describe y registra las relaciones intra e interespecíficas que le permiten sobrevivir como ser humano en un ecosistema."
+        ],
+        "saberes": [
+          "Relaciones intra e interespecíficas en los seres humanos.",
+          "Importancia de las condiciones físicas en la adaptación y supervivencia en los seres vivos en los ecosistemas."
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Entorno Físico",
+        "estandar": "Identifico diferentes estados físicos de la materia (el agua, por ejemplo) y verifico causas para cambios de estado.",
+        "dba": [
+          "DBA-NAT-3-4 Comprende la influencia de la variación de la temperatura en los cambios de estado de la materia, considerando como ejemplo el caso del agua."
+        ],
+        "evidencias": [
+          "NAT-3-D4-E1 Interpreta los resultados de experimentos en los que se analizan los cambios de estado del agua al predecir lo qué ocurrirá con el estado de una sustancia dada una variación de la temperatura.",
+          "NAT-3-D4-E2 Explica fenómenos cotidianos en los que se pone de manifiesto el cambio de estado del agua a partir de las variaciones de temperatura (la evaporación del agua en el paso de líquido a gas y los vidrios empañados en el paso de gas a líquido, entre otros).",
+          "NAT-3-D4-E3 Utiliza instrumentos convencionales (balanza, probeta, termómetro) para hacer mediciones de masa, volumen y temperatura del agua que le permitan diseñar e interpretar experiencias sobre los cambios de estado del agua en función de las variaciones de temperatura."
+        ],
+        "saberes": [
+          "Cambios de estado y el efecto de la temperatura: • Estado sólido • Estado líquido • Estado gaseoso"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ciencia, Tecnología y Sociedad",
+        "estandar": "Identifico aparatos que utilizamos hoy y que no se utilizaban en épocas pasadas.",
+        "dba": [
+          "N/A"
+        ],
+        "evidencias": [
+          "N/A"
+        ],
+        "saberes": [
+          "Herramientas actuales vs herramientas pasadas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}
