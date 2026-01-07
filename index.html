@@ -1,4 +1,4 @@
-<!-- FILE: index.html | VERSION: v6.9 Stable -->
+<!-- FILE: index.html | VERSION: v7.0 Stable -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,15 +8,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="body-eco">
   
   <header id="header-principal" class="no-print">
     <h1>Mallas Curriculares Nacionales</h1>
     <p>Grupo Edúcate Colombia - Dirección de Pedagogía</p>
   </header>
 
-  <main>
-    <!-- Encabezado exclusivo para Impresión (Forzado al inicio del papel) -->
+  <main id="main-eco">
+    <!-- Encabezado exclusivo para Impresión -->
     <div id="print-header" class="print-only-header">
       <h1 style="font-size: 2rem; border-bottom: 2px solid #000; padding-bottom: 5px;">REPORTE CURRICULAR NACIONAL</h1>
       <p style="margin-top: 5px;">Plataforma ECO - Grupo Edúcate Colombia</p>
@@ -67,10 +67,10 @@
       </div>
     </section>
 
-    <!-- SPINNER DE CARGA (FIX: POSICIÓN FIJA) -->
-    <div id="loading-overlay" class="loading-overlay ocultar-inicial no-print">
+    <!-- SPINNER -->
+    <div id="loading-overlay" class="loading-overlay no-print">
       <div class="spinner"></div>
-      <p>Procesando información curricular...</p>
+      <p>Procesando información...</p>
     </div>
 
     <!-- CONTENEDOR DE RESULTADOS -->
@@ -122,4 +122,4 @@
   <script src="js/print-engine.js"></script>
 </body>
 </html>
-<!-- END OF FILE: index.html | VERSION: v6.9 Stable -->
+<!-- END OF FILE: index.html | VERSION: v7.0 Stable -->
