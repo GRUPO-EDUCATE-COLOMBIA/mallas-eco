@@ -1,4 +1,4 @@
-// FILE: js/ui-filtros.js | VERSION: v6.8 Stable
+// FILE: js/ui-filtros.js | VERSION: v7.3 Stable
 document.addEventListener('DOMContentLoaded', () => {
   const areaSel = document.getElementById('area');
   const gradoSel = document.getElementById('grado');
@@ -12,21 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalMsg = document.getElementById('modal-mensaje');
   const btnCerrarModal = document.getElementById('btn-cerrar-modal');
 
-  // Inicialización
   btnProg.disabled = true;
 
   function mostrarError(mensaje) {
     modalMsg.textContent = mensaje;
-    modal.classList.add('mostrar-flex'); // Corregido: USA CLASE CSS
+    modal.classList.add('mostrar-flex');
   }
 
   btnCerrarModal.onclick = () => modal.classList.remove('mostrar-flex');
-
-  window.onscroll = () => {
-    btnTop.style.display = (window.scrollY > 300) ? "block" : "none";
-  };
-
-  btnTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
   areaSel.addEventListener('change', () => {
     gradoSel.innerHTML = '<option value="">Seleccionar</option>';
@@ -38,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       gradoSel.disabled = false;
     }
-    btnProg.disabled = !(areaSel.value && gradoSel.value);
   });
 
   gradoSel.addEventListener('change', () => {
@@ -51,39 +43,51 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       periodoSel.disabled = false;
     }
-    btnProg.disabled = !(areaSel.value && gradoSel.value);
   });
 
+  // CORRECCIÓN CRÍTICA: Uso de llaves normalizadas
   periodoSel.addEventListener('change', async () => {
     if (!periodoSel.value) return;
     window.RenderEngine.setCargando(true);
+    
     const exito = await asegurarDatosGrado(areaSel.value, gradoSel.value);
+    
     if (exito) {
-      const areaNom = window.APP_CONFIG.AREAS[areaSel.value].nombre;
+      const configArea = window.APP_CONFIG.AREAS[areaSel.value];
+      const llaveNormal = normalizarTexto(configArea.nombre);
       const tipo = window.APP_CONFIG.TIPO_MALLA;
-      const items = window.MallasData[areaNom][gradoSel.value][tipo].periodos[periodoSel.value] || [];
-      compSel.innerHTML = '<option value="todos">Todos</option>';
-      [...new Set(items.map(it => it.componente || it.competencia))].forEach(n => {
-        const opt = document.createElement('option'); opt.value = n; opt.textContent = n; compSel.appendChild(opt);
-      });
-      compSel.disabled = false;
+      
+      const dataGrado = window.MallasData[llaveNormal]?.[gradoSel.value]?.[tipo];
+      
+      if (dataGrado && dataGrado.periodos && dataGrado.periodos[periodoSel.value]) {
+        const items = dataGrado.periodos[periodoSel.value];
+        compSel.innerHTML = '<option value="todos">Todos</option>';
+        [...new Set(items.map(it => it.componente || it.competencia))].forEach(n => {
+          if (n) {
+            const opt = document.createElement('option'); opt.value = n; opt.textContent = n; compSel.appendChild(opt);
+          }
+        });
+        compSel.disabled = false;
+        btnProg.disabled = false;
+      }
     } else {
-      mostrarError("Error: El archivo de este grado no se encuentra en el servidor.");
+      mostrarError("No se encontró el archivo principal de este grado.");
     }
     window.RenderEngine.setCargando(false);
   });
 
   btnBuscar.addEventListener('click', () => {
     if (!areaSel.value || !gradoSel.value || !periodoSel.value) {
-      mostrarError("Criterios incompletos: Seleccione Área, Grado y Periodo.");
+      mostrarError("Seleccione Área, Grado y Periodo.");
       return;
     }
     const config = window.APP_CONFIG.AREAS[areaSel.value];
+    const llaveNormal = normalizarTexto(config.nombre);
     const tipo = window.APP_CONFIG.TIPO_MALLA;
-    const malla = window.MallasData[config.nombre]?.[gradoSel.value]?.[tipo];
+    const malla = window.MallasData[llaveNormal]?.[gradoSel.value]?.[tipo];
 
     if (!malla) {
-      mostrarError("Los datos no están disponibles. Verifique los archivos JSON.");
+      mostrarError("Datos no disponibles en memoria.");
       return;
     }
 
@@ -92,7 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     window.RenderEngine.renderizar(filtrados, areaSel.value, gradoSel.value, periodoSel.value);
     document.getElementById('resultados-principal').classList.add('mostrar-block');
-    window.scrollBy({ top: 200, behavior: 'smooth' });
   });
 
   btnProg.addEventListener('click', async () => {
@@ -107,9 +110,12 @@ document.addEventListener('DOMContentLoaded', () => {
       await Promise.all(grados.map(gr => asegurarDatosGrado(areaSel.value, gr)));
       window.ProgresionMotor.abrir(window.APP_CONFIG.AREAS[areaSel.value].nombre, gradoSel.value, compSel.value);
     } catch {
-      mostrarError("Error al cargar la secuencia de grados para la progresión.");
+      mostrarError("Error al cargar secuencia de grados.");
     }
     window.RenderEngine.setCargando(false);
   });
+
+  window.onscroll = () => { btnTop.style.display = (window.scrollY > 300) ? "block" : "none"; };
+  btnTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-// END OF FILE: js/ui-filtros.js | VERSION: v6.8 Stable
+// END OF FILE: js/ui-filtros.js | VERSION: v7.3 Stable
