@@ -1,4 +1,4 @@
-// FILE: js/render-progresion.js | VERSION: v6.8 Stable
+// FILE: js/render-progresion.js | VERSION: v7.0 Stable
 
 window.ProgresionMotor = (function() {
   let estado = { areaId: '', areaNombre: '', gradoCentral: 0, componente: '', tipo: '4_periodos' };
@@ -8,7 +8,6 @@ window.ProgresionMotor = (function() {
   const btnPrev = document.getElementById('prog-prev');
   const btnNext = document.getElementById('prog-next');
   const txtArea = document.getElementById('prog-area-txt');
-  
   const contPrev = document.getElementById('cont-grado-prev');
   const contActual = document.getElementById('cont-grado-actual');
   const contNext = document.getElementById('cont-grado-next');
@@ -25,13 +24,11 @@ window.ProgresionMotor = (function() {
     renderizar();
   }
 
-  function cerrar() { 
-    overlay.classList.remove('mostrar-flex');
-  }
+  function cerrar() { overlay.classList.remove('mostrar-flex'); }
 
   function renderizar() {
     const g = estado.gradoCentral;
-    txtArea.textContent = `${estado.areaNombre.toUpperCase()} - COMPONENTE: ${estado.componente}`;
+    txtArea.textContent = `${estado.areaNombre.toUpperCase()} - ${estado.componente}`;
 
     const gPrev = (g - 1 < -1) ? null : String(g - 1);
     const gActual = String(g);
@@ -58,12 +55,12 @@ window.ProgresionMotor = (function() {
 
     if (header) header.textContent = formatearNombre(gradoStr);
     
-    // REGLA PEDAGÓGICA CRÍTICA: Preescolar usa DBA, el resto usa Estándares.
+    // REGLA: Preescolar (-1, 0) usa DBA. Primaria/Bachillerato (1-11) usa Estándares.
     const esPreescolar = (gradoStr === "0" || gradoStr === "-1");
     const datos = obtenerAprendizajesAnuales(gradoStr, esPreescolar);
     
     if (datos.length === 0) {
-      contenedor.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">No hay datos disponibles.</p>';
+      contenedor.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Sin datos disponibles.</p>';
     } else {
       datos.forEach(texto => {
         const div = document.createElement('div');
@@ -81,7 +78,6 @@ window.ProgresionMotor = (function() {
     let acumulado = [];
     Object.keys(malla.periodos).forEach(p => {
       malla.periodos[p].forEach(it => {
-        // En el puente de Transición (0) a Primero (1), mostramos todo el grado 1 para comparar.
         const coincideComponente = (it.componente === estado.componente || it.competencia === estado.componente);
         const esPuenteTransicion = (estado.gradoCentral === 0 && gradoStr === "1");
 
@@ -123,4 +119,4 @@ window.ProgresionMotor = (function() {
 
   return { abrir };
 })();
-// END OF FILE: js/render-progresion.js | VERSION: v6.8 Stable
+// END OF FILE: js/render-progresion.js | VERSION: v7.0 Stable
