@@ -1,10 +1,8 @@
-// FILE: js/data-loader.js | VERSION: v7.2 Stable
-
+// FILE: js/data-loader.js | VERSION: v7.3 Stable
 window.MallasData = {};
 
 /**
- * Función de Normalización: Elimina tildes y carácteres especiales
- * para asegurar que las llaves de búsqueda siempre coincidan.
+ * Normalización Global: Asegura que "Matemáticas" y "matematicas" sean la misma llave.
  */
 window.normalizarTexto = function(texto) {
     if (!texto) return "";
@@ -14,9 +12,6 @@ window.normalizarTexto = function(texto) {
                 .trim();
 };
 
-/**
- * Asegura la carga de la tríada de archivos (Académico + DCE + ECO).
- */
 async function asegurarDatosGrado(areaKey, grado) {
   const config = window.APP_CONFIG;
   const area = config.AREAS[areaKey];
@@ -25,20 +20,14 @@ async function asegurarDatosGrado(areaKey, grado) {
 
   if (!area) return false;
 
-  // Llaves normalizadas para almacenamiento interno
   const llaveArea = normalizarTexto(area.nombre);
   const llaveEco = normalizarTexto(config.AREAS["proyecto-socioemocional"].nombre);
 
-  // Verificar si ya existe en memoria para optimizar
-  if (window.MallasData[llaveArea]?.[gradoStr] && window.MallasData[llaveEco]?.[gradoStr]) {
-    return true; 
-  }
+  if (window.MallasData[llaveArea]?.[gradoStr]) return true;
 
-  // Definición de rutas según Hito 2
   const rutaBase = `data/${area.carpeta}/${area.prefijo}_${gradoStr}_${tipo}.json`;
   const rutaTareas = `data/${area.carpeta}/tareas_dce/t_${area.prefijo}_${gradoStr}_${tipo}.json`;
-  const areaEco = config.AREAS["proyecto-socioemocional"];
-  const rutaEco = `data/${areaEco.carpeta}/${areaEco.prefijo}_${gradoStr}_${tipo}.json`;
+  const rutaEco = `data/${config.AREAS["proyecto-socioemocional"].carpeta}/${config.AREAS["proyecto-socioemocional"].prefijo}_${gradoStr}_${tipo}.json`;
 
   try {
     const [resBase, resTareas, resEco] = await Promise.all([
@@ -47,27 +36,29 @@ async function asegurarDatosGrado(areaKey, grado) {
       fetch(rutaEco).then(r => r.ok ? r.json() : null).catch(() => null)
     ]);
 
-    // Almacenamiento con llaves normalizadas
-    if (resBase) {
-      if (!window.MallasData[llaveArea]) window.MallasData[llaveArea] = {};
-      window.MallasData[llaveArea][gradoStr] = { [tipo]: resBase };
-    }
+    // Validación: Si no hay malla base, el grado no existe
+    if (!resBase) return false;
 
+    // Guardar Malla Académica
+    if (!window.MallasData[llaveArea]) window.MallasData[llaveArea] = {};
+    window.MallasData[llaveArea][gradoStr] = { [tipo]: resBase };
+
+    // Guardar Tareas DCE (Opcional, no bloquea)
+    const llaveDCE = `tareas_dce_${llaveArea}`;
     if (resTareas) {
-      const llaveDCE = `tareas_dce_${llaveArea}`;
       if (!window.MallasData[llaveDCE]) window.MallasData[llaveDCE] = {};
       window.MallasData[llaveDCE][gradoStr] = { [tipo]: resTareas };
     }
 
+    // Guardar ECO (Opcional, no bloquea)
     if (resEco) {
       if (!window.MallasData[llaveEco]) window.MallasData[llaveEco] = {};
       window.MallasData[llaveEco][gradoStr] = { [tipo]: resEco };
     }
 
     return true;
-  } catch (error) {
-    console.error(`Error en carga asíncrona: ${area.nombre} G:${gradoStr}`, error);
+  } catch (e) {
     return false;
   }
 }
-// END OF FILE: js/data-loader.js | VERSION: v7.2 Stable
+// END OF FILE: js/data-loader.js | VERSION: v7.3 Stable
