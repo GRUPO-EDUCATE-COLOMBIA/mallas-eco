@@ -1,4 +1,4 @@
-/* FILE: styles.css | VERSION: v6.8 Stable */
+/* FILE: styles.css | VERSION: v6.9 Stable */
 
 :root {
   --eco-purple: #9B7BB6; --eco-teal: #00A19B; --eco-dark: #17334B; --eco-green: #54BBAB;
@@ -7,29 +7,27 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Barlow Condensed', sans-serif; background: #f0f4f7; font-size: 1.2rem; }
 
-/* FIX: MODAL DE NOTIFICACIÓN (EVITAR FUGA DE TEXTO) */
-.modal-notificacion {
-  display: none !important; 
-  position: fixed !important; 
+/* FIX SPINNER: Forzar que sea un Overlay y no se vea al cargar */
+.loading-overlay {
+  display: none !important;
+  position: fixed !important;
   top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(0,0,0,0.8); z-index: 10000 !important;
-  justify-content: center; align-items: center; padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 10000;
+  flex-direction: column; align-items: center; justify-content: center;
 }
-.modal-notificacion.mostrar-flex { display: flex !important; }
+.loading-overlay.mostrar-flex { display: flex !important; }
 
-.modal-notificacion-contenido {
-  background: white; padding: 2.5rem; border-radius: 20px; text-align: center;
-  max-width: 450px; box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+.spinner {
+  width: 60px; height: 60px; border: 6px solid #f3f3f3;
+  border-top: 6px solid var(--eco-green); border-radius: 50%;
+  animation: spin 1s linear infinite; margin-bottom: 20px;
 }
-.modal-icono { font-size: 3.5rem; display: block; margin-bottom: 15px; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-/* FIX: MODAL PROGRESIÓN */
-.overlay-progresion { 
-    display: none !important; position: fixed !important; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(13, 61, 102, 0.95); backdrop-filter: blur(8px); z-index: 9000 !important;
-    justify-content: center; align-items: center; padding: 20px;
-}
-.overlay-progresion.mostrar-flex { display: flex !important; }
+/* ELEMENTOS OCULTOS */
+.ocultar-inicial, .print-only-header, .resultados { display: none !important; }
+.mostrar-block { display: block !important; }
 
 /* HEADER */
 header {
@@ -37,7 +35,7 @@ header {
   background: linear-gradient(180deg, #1a5b96 0%, #082b4a 100%);
   color: white; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
-header h1 { font-size: 1.6rem; text-transform: uppercase; }
+header h1 { font-size: 1.6rem; }
 
 main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
 
@@ -48,52 +46,97 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
   margin-bottom: 2rem; border-bottom: 5px solid var(--eco-green);
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
 }
-.filtro-grupo { display: flex; flex-direction: column; min-width: 170px; }
+.filtro-grupo { display: flex; flex-direction: column; min-width: 160px; }
 .filtros label { font-weight: 700; font-size: 0.9rem; text-transform: uppercase; color: #444; margin-bottom: 5px; }
-.filtros select { padding: 0.7rem; border: 2px solid #e1e5e9; border-radius: 10px; font-family: 'Barlow Condensed'; font-size: 1.1rem; }
+.filtros select { padding: 0.6rem; border: 2px solid #e1e5e9; border-radius: 10px; font-family: 'Barlow Condensed'; font-size: 1.1rem; }
 
-/* BOTONES */
 .botones-container { display: flex; align-items: flex-end; gap: 15px; }
-.btn-buscar { background: #11678B; color: white; height: 48px; padding: 0 1.8rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; transition: 0.3s; }
+.btn-buscar { background: #11678B; color: white; height: 48px; padding: 0 1.5rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
+
+/* BOTÓN PROGRESIÓN */
 .btn-progresion { background: var(--eco-purple); color: white; height: 48px; padding: 0 1.8rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
 .btn-progresion:disabled { background: #d1d1d1 !important; color: #888 !important; cursor: not-allowed; opacity: 1; }
 
-/* RESULTADOS */
-.resultados { display: none; margin-top: 1rem; }
-.mostrar-block { display: block !important; }
+/* BOTÓN IMPRESIÓN (A LA DERECHA) */
 .contenedor-herramientas-reporte { display: flex; justify-content: flex-end; margin-bottom: 1.5rem; }
 .btn-secundario { background: var(--eco-teal); color: white; padding: 12px 25px; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
 
-/* CARDS */
-.item-malla { background: white; border-radius: 20px; overflow: hidden; margin-bottom: 4rem; border: 1px solid #e0e6ed; box-shadow: 0 15px 40px rgba(0,0,0,0.06); }
+/* CARDS DE RESULTADOS */
+.item-malla { background: white; border-radius: 20px; overflow: hidden; margin-bottom: 4rem; border: 1px solid #e0e6ed; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
 .franja-titulo-principal { padding: 1.5rem; text-align: center; color: white; text-transform: uppercase; font-size: 1.8rem; font-weight: 700; }
 .item-malla-contenido { padding: 2.5rem 4rem; }
 .campo { margin-bottom: 2rem; }
 .campo strong { display: block; font-size: 1rem; color: #555; text-transform: uppercase; margin-bottom: 0.6rem; border-left: 5px solid var(--eco-green); padding-left: 12px; }
 
-/* INTEGRACIONES */
-.franja-integracion { display: flex; align-items: center; padding: 15px 30px; color: white; font-weight: 700; text-transform: uppercase; margin: 30px -4rem 0 -4rem; }
+/* FRANJAS INTEGRACIÓN */
+.franja-integracion { display: flex; align-items: center; padding: 15px 30px; color: white; font-weight: 700; text-transform: uppercase; font-size: 1.3rem; margin: 30px -4rem 0 -4rem; }
 .contenedor-integracion { margin: 0 -4rem; padding: 2.5rem 4rem; background: #fcfdfe; border-bottom: 2px solid #f0f0f0; }
 .integracion-dce { background-color: var(--eco-green); }
 .integracion-eco { background-color: var(--eco-purple); }
 
-/* PROGRESIÓN CONTENEDOR */
+/* FIX: BOTÓN DICCIONARIO (RESTAURADO ESTILO BOTÓN) */
+.btn-eco-dic { 
+  display: inline-block !important; 
+  background: var(--eco-teal) !important; 
+  color: white !important; 
+  padding: 12px 25px !important; 
+  text-decoration: none !important; 
+  border-radius: 10px !important; 
+  font-weight: 700 !important; 
+  margin-top: 1rem !important;
+  box-shadow: 0 4px 10px rgba(0,161,155,0.2);
+  transition: transform 0.2s;
+}
+.btn-eco-dic:hover { transform: scale(1.05); }
+
+/* MODAL PROGRESIÓN */
+.overlay-progresion { 
+    display: none !important; position: fixed !important; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(13, 61, 102, 0.95); backdrop-filter: blur(8px); z-index: 9000 !important;
+    justify-content: center; align-items: center; padding: 20px;
+}
+.overlay-progresion.mostrar-flex { display: flex !important; }
 .progresion-container { background: white; width: 95%; height: 90vh; border-radius: 25px; display: flex; flex-direction: column; overflow: hidden; }
 .progresion-header { background: var(--eco-dark); color: white; padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; }
 .progresion-navegacion { background: #f8f9fa; padding: 12px; display: flex; justify-content: center; gap: 25px; border-bottom: 1px solid #eee; }
 .btn-nav { background: var(--eco-dark); color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; }
 
-.progresion-columnas { display: flex; flex: 1; overflow-x: auto; padding: 20px; gap: 20px; }
-.col-prog { flex: 1; min-width: 330px; background: white; border-radius: 15px; border: 1px solid #eee; display: flex; flex-direction: column; }
+.col-prog { flex: 1; min-width: 320px; background: white; border-radius: 15px; border: 1px solid #eee; margin: 10px; display: flex; flex-direction: column; }
 .col-header { padding: 15px; text-align: center; font-weight: 700; background: #fdfdfd; border-bottom: 3px solid #eee; }
-.col-content { padding: 20px; overflow-y: auto; flex: 1; }
-.prog-estandar-item { background: #f9f9f9; border-left: 6px solid var(--eco-teal); padding: 15px; margin-bottom: 15px; border-radius: 8px; font-size: 1.1rem; }
+.col-content { padding: 15px; overflow-y: auto; flex: 1; }
+.prog-estandar-item { background: #f9f9f9; border-left: 6px solid var(--eco-teal); padding: 12px; margin-bottom: 12px; border-radius: 6px; }
 
-/* IMPRESIÓN */
+/* MODAL NOTIFICACIÓN */
+.modal-notificacion { display: none !important; position: fixed !important; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 11000 !important; justify-content: center; align-items: center; }
+.modal-notificacion.mostrar-flex { display: flex !important; }
+.modal-notificacion-contenido { background: white; padding: 2.5rem; border-radius: 20px; text-align: center; max-width: 450px; }
+
+.btn-flotante-top { display: none; position: fixed; bottom: 25px; right: 25px; width: 50px; height: 50px; background: var(--eco-green); color: white; border: none; border-radius: 50%; font-size: 1.5rem; cursor: pointer; z-index: 3000; }
+
+/* --- REGLAS DE IMPRESIÓN (ELIMINAR PÁGINA EN BLANCO) --- */
 @media print {
-  header, .filtros, .btn-flotante-top, .contenedor-herramientas-reporte, .modal-notificacion, .overlay-progresion, .btn-eco-dic { display: none !important; }
-  .print-only-header { display: block !important; text-align: center; margin-bottom: 20px; }
-  .item-malla { break-inside: avoid; border: 2px solid #000 !important; }
+  /* Ocultar todo lo que no se debe imprimir */
+  .no-print, header, .filtros, .btn-flotante-top, .contenedor-herramientas-reporte, .modal-notificacion, .overlay-progresion, .loading-overlay { 
+    display: none !important; visibility: hidden !important; height: 0 !important; margin: 0 !important; padding: 0 !important;
+  }
+  
+  /* Resetear el body para que el contenido empiece arriba */
+  html, body { background: white !important; margin: 0 !important; padding: 0 !important; height: auto !important; width: 100% !important; overflow: visible !important; }
+  
+  /* Forzar que el main no tenga márgenes */
+  main { margin: 0 !important; padding: 0 !important; width: 100% !important; position: absolute !important; top: 0 !important; left: 0 !important; }
+
+  /* Mostrar el encabezado de impresión al tope */
+  .print-only-header { 
+    display: block !important; 
+    text-align: center; 
+    margin: 0 !important; 
+    padding: 20px 0 !important;
+    border-bottom: 2px solid #000;
+  }
+
+  .item-malla { break-inside: avoid; border: 2px solid #000 !important; box-shadow: none !important; margin: 20px 0 !important; }
+  .franja-integracion { color: black !important; border: 1px solid #000; background: #eee !important; margin-left: 0; margin-right: 0; }
+  .contenedor-integracion { margin-left: 0; margin-right: 0; border: 1px solid #eee; background: white !important; }
 }
-.print-only-header { display: none; }
-/* END OF FILE: styles.css | VERSION: v6.8 Stable */
+/* END OF FILE: styles.css | VERSION: v6.9 Stable */
