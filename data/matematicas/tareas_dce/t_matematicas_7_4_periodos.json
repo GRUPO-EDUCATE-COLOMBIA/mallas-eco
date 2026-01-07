@@ -1,0 +1,279 @@
+{
+  "area": "Matemáticas",
+  "grado": "7",
+  "nombre_archivo": "t_matematicas_7_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "El Termómetro de los Racionales y el Grifo de la Variación",
+            "un_reto_sugerido": "Modelar el cambio de temperatura en una ciudad que pasa de grados bajo cero a positivos, usando fracciones para representar variaciones parciales.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar experimentos de vaciado de tanques con diferentes diámetros de salida para observar físicamente la covariación inversa.",
+              "visual": "Representar en el plano cartesiano la relación entre tiempo y temperatura, identificando si la línea es creciente o decreciente.",
+              "produccion": "Escribir una regla general (patrón) que describa cómo cambia una variable respecto a la otra en un contexto de ahorro mensual."
+            },
+            "para_pensar": [
+              "¿Por qué -1/2 es mayor que -3/4 si 3/4 parece un número 'más grande'?",
+              "¿Qué sucede con la gráfica si una variable aumenta y la otra disminuye en la misma proporción?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante resuelve problemas de comparación y transformación con racionales positivos y negativos.",
+              "Propone patrones numéricos y los representa correctamente en gráficas cartesianas."
+            ],
+            "un_refuerzo": "Utilizar termómetros físicos o simuladores digitales donde los estudiantes puedan ver el movimiento del número racional en la escala vertical."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Ingeniería de Empaques y Despliegues",
+            "un_reto_sugerido": "Diseñar el desarrollo plano de una caja para un perfume que tenga forma de prisma triangular, respetando medidas exactas para que el cierre sea perfecto.",
+            "ruta_de_exploracion": {
+              "explorar": "Desarmar empaques complejos (tetraedros, prismas hexagonales) para identificar los polígonos que conforman sus caras.",
+              "visual": "Dibujar las plantillas en papel cuadriculado antes de la construcción, identificando aristas comunes.",
+              "produccion": "Construir el sólido usando instrumentos de precisión (compás y escuadra) y describir sus elementos (vértices, caras, ángulos)."
+            },
+            "para_pensar": [
+              "¿Cuántas plantillas diferentes pueden formar un mismo cubo?",
+              "¿Qué diferencia técnica hay entre la altura de una cara lateral de una pirámide y la altura de la pirámide misma?"
+            ],
+            "pistas_del_exito": [
+              "Diferencia y clasifica polígonos y cuerpos geométricos según sus propiedades métricas.",
+              "Construye plantillas funcionales a partir de medidas dadas con un margen de error mínimo."
+            ],
+            "un_refuerzo": "Usar software como GeoGebra (herramienta 3D) para visualizar cómo una plantilla se 'dobla' virtualmente antes de pasar al papel."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Auditores de Medios de Comunicación",
+            "un_reto_sugerido": "Seleccionar una noticia económica o social que incluya un gráfico circular y recalcular los datos para verificar si los sectores corresponden realmente a los porcentajes mencionados.",
+            "ruta_de_exploracion": {
+              "explorar": "Extraer información estadística de periódicos o portales oficiales (como el DANE) para identificar la población y la muestra.",
+              "visual": "Representar los mismos datos extraídos en un formato gráfico diferente (ej. pasar de barras a sectores) para comparar el impacto visual.",
+              "produccion": "Redactar una conclusión crítica sobre cómo el tipo de gráfica puede influir en la percepción del lector."
+            },
+            "para_pensar": [
+              "¿Qué preguntas le harías a un periodista si ves que su gráfica no suma el 100%?",
+              "¿Cuándo es más útil un gráfico de líneas que uno de barras para comunicar una tendencia?"
+            ],
+            "pistas_del_exito": [
+              "Lee e interpreta información estadística compleja de fuentes externas.",
+              "Organiza datos recolectados en tablas de frecuencia y elige la gráfica más adecuada para representarlos."
+            ],
+            "un_refuerzo": "Utilizar hojas de cálculo para introducir datos y generar gráficos instantáneos, permitiendo al estudiante enfocarse en el análisis crítico y no solo en el dibujo."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "El Convertidor Universal: Fracción, Decimal y Porcentaje",
+            "un_reto_sugerido": "Diseñar un catálogo de rebajas donde los precios se presenten como fracción (1/4 de descuento), como decimal (0,25 de rebaja) y como porcentaje (25%), justificando su equivalencia.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar compras simuladas donde se apliquen descuentos sucesivos usando diferentes representaciones de los racionales.",
+              "visual": "Ubicar en una recta numérica gigante del salón diversos números en sus tres formatos para visualizar el orden.",
+              "produccion": "Resolver situaciones de variación proporcional (ej. velocidad vs. tiempo) usando incógnitas simples."
+            },
+            "para_pensar": [
+              "¿Por qué 1/3 tiene un decimal infinito pero 1/4 es exacto?",
+              "¿Si un producto sube el 10% y luego baja el 10%, vuelve a su precio original? Justifica con racionales."
+            ],
+            "pistas_del_exito": [
+              "Representa con precisión racionales en la recta numérica independientemente de su formato.",
+              "Resuelve problemas de variación lineal organizando la información en tablas e interpretando la constante de proporcionalidad."
+            ],
+            "un_refuerzo": "Usar la calculadora para descubrir patrones en divisiones de fracciones y entender la naturaleza de los decimales periódicos."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Maestros de la Semejanza y el Volumen",
+            "un_reto_sugerido": "Construir una versión a escala (semejanza) de un objeto del salón, calculando cuánto cambia su área superficial y su volumen.",
+            "ruta_de_exploracion": {
+              "explorar": "Llenar recipientes de formas similares pero diferentes tamaños con arena para estimar cuántas veces cabe uno en otro.",
+              "visual": "Comparar figuras congruentes y semejantes en fotografías, identificando la razón de proporcionalidad entre sus lados.",
+              "produccion": "Diseñar un desarrollo plano de un cuerpo geométrico compuesto (ej. un cilindro con un cono encima) calculando sus medidas reales."
+            },
+            "para_pensar": [
+              "¿Si duplico el lado de un cuadrado, se duplica su área? ¿Qué pasa con el volumen de un cubo?",
+              "¿Cómo identificamos si dos triángulos son semejantes sin medir todos sus ángulos?"
+            ],
+            "pistas_del_exito": [
+              "Describe y justifica la congruencia y semejanza entre figuras bidimensionales.",
+              "Estima y calcula volúmenes de prismas y pirámides a partir de sus dimensiones principales."
+            ],
+            "un_refuerzo": "Utilizar bloques de construcción para armar volúmenes y notar físicamente cómo al duplicar dimensiones se requiere mucha más 'masa' para completar el sólido."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Reporteros de la Tendencia Central",
+            "un_reto_sugerido": "Hacer un estudio sobre el tiempo que pasan los compañeros en redes sociales y decidir qué medida (media o mediana) describe mejor al grupo si hay 'influencers' que pasan 10 horas diarias.",
+            "ruta_de_exploracion": {
+              "explorar": "Diseñar y aplicar una encuesta breve con variables cuantitativas.",
+              "visual": "Construir histogramas o gráficos de barras y marcar físicamente la posición de la media, mediana y moda.",
+              "produccion": "Escribir un informe comparando los resultados de dos grados (ej. 7° vs 8°) usando el rango como medida de dispersión."
+            },
+            "para_pensar": [
+              "¿Qué medida de tendencia central es más sensible a los valores extremos (outliers)?",
+              "¿Si el promedio de una evaluación fue 3.5, significa que la mayoría sacó 3.5?"
+            ],
+            "pistas_del_exito": [
+              "Calcula media, mediana y moda con precisión a partir de datos agrupados y no agrupados.",
+              "Produce informes estadísticos comparativos que contrastan datos de medios con datos propios."
+            ],
+            "un_refuerzo": "Usar balanzas virtuales de datos para entender el concepto de la media como 'punto de equilibrio' de un conjunto numérico."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "La Lógica de la Divisibilidad y la Operación Inversa",
+            "un_reto_sugerido": "Crear un sistema de engranajes o de repartos donde se deba usar el mcm y el MCD para que los ciclos coincidan perfectamente.",
+            "ruta_de_exploracion": {
+              "explorar": "Usar regletas o material concreto para visualizar múltiplos y divisores, encontrando propiedades de paridad y divisibilidad.",
+              "visual": "Organizar información de variación en tablas para identificar la operación inversa que 'deshace' el cambio.",
+              "produccion": "Argumentar por escrito por qué una propiedad (ej. asociativa) facilita el cálculo en situaciones de facturación compleja."
+            },
+            "para_pensar": [
+              "¿Cómo nos ayuda la divisibilidad a simplificar fracciones de forma rápida?",
+              "¿Si una operación es multiplicar por 3/4, cuál es su inversa exacta?"
+            ],
+            "pistas_del_exito": [
+              "Aplica propiedades de los racionales y criterios de divisibilidad para simplificar procedimientos.",
+              "Modela situaciones de cambio usando lenguaje simbólico y tablas de patrones."
+            ],
+            "un_refuerzo": "Jugar al 'Bingo de Divisibilidad' o retos de 'Criptografía' básica donde se deban usar factores primos para descifrar mensajes."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Cortes Médicos y Arquitectónicos",
+            "un_reto_sugerido": "Modelar un edificio en plastilina y predecir qué figura plana se obtiene si se hace un 'corte de planta' (transversal) o un 'corte de fachada' (vertical).",
+            "ruta_de_exploracion": {
+              "explorar": "Cortar sólidos de frutas o plastilina para observar las secciones cónicas y prismáticas resultantes.",
+              "visual": "Ubicar en el plano cartesiano las coordenadas de los vértices de la figura resultante del corte.",
+              "produccion": "Estimar el volumen total de un objeto irregular mediante el principio de descomposición en cuerpos conocidos."
+            },
+            "para_pensar": [
+              "¿Puede un corte en un cubo generar un hexágono? Justifica tu respuesta.",
+              "¿Cómo ayuda la estimación a prevenir errores graves en una construcción real?"
+            ],
+            "pistas_del_exito": [
+              "Describe con precisión figuras generadas por cortes rectos en objetos 3D.",
+              "Analiza causas de error en procesos de medición y estimación, proponiendo ajustes."
+            ],
+            "un_refuerzo": "Utilizar simuladores de secciones de sólidos (como los de NCTM o GeoGebra) para visualizar cortes en 360 grados."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "El Observatorio de Poblaciones",
+            "un_reto_sugerido": "Comparar la distribución de edades de una población joven (un colegio) frente a una población mayor (un hogar de ancianos) usando medidas de dispersión.",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar la diferencia entre muestra y población en encuestas de intención de voto o mercadeo.",
+              "visual": "Construir diagramas de barras comparativos donde se visualice el rango y la desviación de los datos.",
+              "produccion": "Escribir conclusiones sobre qué población es más 'homogénea' basándose en el rango estadístico."
+            },
+            "para_pensar": [
+              "¿Por qué es arriesgado sacar conclusiones de toda una ciudad preguntando solo a 10 personas?",
+              "¿Qué significa que una población tenga un rango muy amplio en sus ingresos?"
+            ],
+            "pistas_del_exito": [
+              "Distingue correctamente entre muestra y población según el contexto del estudio.",
+              "Compara dos grupos usando simultáneamente la media y el rango para describir su comportamiento."
+            ],
+            "un_refuerzo": "Utilizar kits de probabilidad o recortes de noticias donde se especifique el margen de error y el tamaño de la muestra para analizar su validez."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "El Maestro de las Ecuaciones y Desigualdades",
+            "un_reto_sugerido": "Resolver una situación de presupuesto límite: 'Tengo $100.000 para una fiesta, cada invitado cuesta $12.500. ¿Cuál es la desigualdad que representa cuántos invitados puedo llevar como máximo?'",
+            "ruta_de_exploracion": {
+              "explorar": "Modelar ecuaciones de la forma ax + b = c usando situaciones de equilibrio en una balanza.",
+              "visual": "Representar en la recta numérica la solución de una desigualdad (intervalos abiertos y cerrados).",
+              "produccion": "Escribir y resolver una ecuación lineal para hallar un dato desconocido en una situación de reparto equitativo."
+            },
+            "para_pensar": [
+              "¿Cuál es la diferencia entre resolver una igualdad (=) y una desigualdad (<, >) en la vida real?",
+              "¿Por qué al multiplicar una desigualdad por un número negativo cambia el sentido del signo?"
+            ],
+            "pistas_del_exito": [
+              "Resuelve ecuaciones lineales justificando cada paso del despeje.",
+              "Establece relaciones de orden y equivalencia entre racionales en contextos de variación."
+            ],
+            "un_refuerzo": "Utilizar aplicaciones móviles de álgebra visual (como DragonBox) para ludificar el proceso de despeje de incógnitas."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectos de la Circunferencia y el Plano",
+            "un_reto_sugerido": "Diseñar una pista de atletismo que incluya tramos rectos y curvos (semicírculos), calculando el perímetro total y el área que ocupa en el plano cartesiano.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar rotaciones y ampliaciones de figuras en el plano cartesiano para entender la semejanza.",
+              "visual": "Dibujar círculos y circunferencias identificando la relación constante entre el diámetro y la longitud (Pi).",
+              "produccion": "Calcular áreas y volúmenes de cuerpos complejos presentes en el entorno escolar mediante fórmulas estándar."
+            },
+            "para_pensar": [
+              "¿Por qué el área de un círculo se relaciona con la del rectángulo si lo dividimos en muchos sectores?",
+              "¿Qué propiedades de una figura cambian cuando la rotamos en el plano cartesiano?"
+            ],
+            "pistas_del_exito": [
+              "Identifica e interpreta la semejanza mediante transformaciones en el plano.",
+              "Calcula áreas y volúmenes combinando fórmulas y estrategias de descomposición."
+            ],
+            "un_refuerzo": "Usar un hilo y un compás para construir círculos y luego 'estirar' el hilo sobre una regla para comprobar la fórmula de la circunferencia."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "El Laboratorio de la Probabilidad Frecuencial",
+            "un_reto_sugerido": "Lanzar dos dados 100 veces, registrar la suma y comparar la frecuencia relativa obtenida con la probabilidad teórica (¿por qué sale más el 7 que el 12?).",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar experimentos aleatorios simples (monedas, dados, urnas) y registrar resultados en tablas.",
+              "visual": "Construir diagramas de árbol para enumerar el espacio muestral de eventos compuestos.",
+              "produccion": "Explicar la probabilidad de un evento usando la fracción: casos favorables / casos totales."
+            },
+            "para_pensar": [
+              "¿Si la probabilidad de lluvia es del 90%, es seguro que lloverá? ¿Qué significa ese número?",
+              "¿Cómo cambia la probabilidad si realizamos el experimento 1.000 veces en lugar de 10?"
+            ],
+            "pistas_del_exito": [
+              "Enumera el espacio muestral de experimentos aleatorios sin omitir resultados.",
+              "Determina y explica probabilidades basándose en frecuencias relativas observadas."
+            ],
+            "un_refuerzo": "Utilizar simuladores de azar en línea para realizar miles de repeticiones instantáneas y observar la Ley de los Grandes Números."
+          }
+        }
+      ]
+    }
+  ]
+}

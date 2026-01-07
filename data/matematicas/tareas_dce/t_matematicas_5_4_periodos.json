@@ -1,0 +1,279 @@
+{
+  "area": "Matemáticas",
+  "grado": "5",
+  "nombre_archivo": "t_matematicas_5_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "El Chef de las Porciones Exactas",
+            "un_reto_sugerido": "Ajustar una receta para 4 personas a una para 10, usando fracciones y decimales para calcular los ingredientes exactos.",
+            "ruta_de_exploracion": {
+              "explorar": "Usar tazas medidoras y balanzas para representar fracciones de un kilo o un litro. Experimentar con repartos que no son exactos.",
+              "visual": "Crear gráficas de barras que muestren cómo cambia la cantidad de un ingrediente si aumenta el número de invitados (covariación).",
+              "produccion": "Escribir un procedimiento matemático para convertir una fracción común en una expresión decimal en el contexto de precios de mercado."
+            },
+            "para_pensar": [
+              "¿Por qué 1/4 de kilo es lo mismo que 0,250 kg?",
+              "¿Si el precio de un producto sube de forma constante, qué patrón sigue la gráfica?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante resuelve problemas de suma y multiplicación con fracciones aplicados a la vida diaria.",
+              "Identifica y explica el patrón de comportamiento en una secuencia numérica o gráfica."
+            ],
+            "un_refuerzo": "Utilizar la recta numérica segmentada en décimos para visualizar la equivalencia entre la fracción y el decimal de forma posicional."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectos de Maquetas",
+            "un_reto_sugerido": "Diseñar el plano de su habitación a escala y calcular cuántos metros cuadrados de baldosa se necesitan.",
+            "ruta_de_exploracion": {
+              "explorar": "Medir el salón con cintas métricas y convertir esas medidas a centímetros para dibujarlas en una hoja cuadriculada (escala).",
+              "visual": "Comparar la vista superior de un objeto sólido con su vista lateral para identificar relaciones intra-figurales.",
+              "produccion": "Calcular el área de figuras irregulares del colegio mediante la técnica de descomposición en rectángulos y triángulos."
+            },
+            "para_pensar": [
+              "¿Cómo sabemos cuánto mide una pared real si en el plano solo mide 5 cm?",
+              "¿Qué estrategia es más rápida para medir el área de un patio grande?"
+            ],
+            "pistas_del_exito": [
+              "Determina medidas reales a partir de registros gráficos o planos usando escalas sencillas.",
+              "Describe propiedades de cuerpos 3D basándose en sus caras 2D."
+            ],
+            "un_refuerzo": "Usar papel de puntos (isométrico) para facilitar el dibujo de figuras 3D y su posterior análisis de medidas."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Analistas de Opinión Pública",
+            "un_reto_sugerido": "Comparar los hábitos de alimentación entre los niños de 1° y los de 5° grado mediante una encuesta y dos tipos de gráficas.",
+            "ruta_de_exploracion": {
+              "explorar": "Recolectar datos de dos grupos diferentes y organizarlos en tablas de frecuencia comparativas.",
+              "visual": "Elaborar un diagrama circular para un grupo y uno de barras para el otro, analizando cuál representa mejor la información.",
+              "produccion": "Escribir un informe breve que compare las conclusiones de ambos grupos de datos."
+            },
+            "para_pensar": [
+              "¿Por qué elegimos un gráfico circular para mostrar porcentajes y uno de líneas para mostrar cambios en el tiempo?",
+              "¿Qué significa que un grupo de datos esté más disperso que el otro?"
+            ],
+            "pistas_del_exito": [
+              "Selecciona el tipo de gráfico (barras, líneas, circular) más adecuado según los datos.",
+              "Produce conclusiones válidas al comparar dos conjuntos de datos de una misma población."
+            ],
+            "un_refuerzo": "Proporcionar plantillas de Excel o herramientas digitales simples para que el estudiante se concentre en la interpretación y no solo en el dibujo."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "Detectives de Incógnitas",
+            "un_reto_sugerido": "Resolver acertijos numéricos donde una parte del problema es desconocida (ej. 'Un número multiplicado por 4 y sumado con 10 da 50, ¿cuál es?').",
+            "ruta_de_exploracion": {
+              "explorar": "Usar balanzas digitales o manuales para encontrar el peso de un objeto oculto manteniendo el equilibrio (ecuaciones visuales).",
+              "visual": "Representar secuencias de crecimiento (ej. torres de bloques) y encontrar la fórmula para saber cuántos bloques tendrá la torre 10.",
+              "produccion": "Explicar el procedimiento para hallar un valor desconocido usando la operación inversa."
+            },
+            "para_pensar": [
+              "¿Si una cantidad aumenta siempre al doble, cómo lo representarías con una operación?",
+              "¿Qué papel cumple el número desconocido en un problema de reparto?"
+            ],
+            "pistas_del_exito": [
+              "Halla valores desconocidos en situaciones de equilibrio y variación.",
+              "Reconoce y aplica patrones de medida asociados a números naturales y racionales."
+            ],
+            "un_refuerzo": "Utilizar lenguaje simbólico sencillo (como usar una nube o una 'x') para empezar a familiarizarse con la notación algebraica."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Diseñadores de Empaques Inteligentes",
+            "un_reto_sugerido": "Construir una caja que deba contener exactamente 12 cubos de un centímetro de lado, optimizando el material.",
+            "ruta_de_exploracion": {
+              "explorar": "Armar y desarmar cajas (poliedros) para identificar cómo las dimensiones (largo, ancho, alto) afectan el volumen.",
+              "visual": "Dibujar el desarrollo plano de un cilindro o un prisma y predecir su forma final.",
+              "produccion": "Realizar estimaciones de volumen de objetos irregulares mediante el método de inmersión en agua."
+            },
+            "para_pensar": [
+              "¿Dos cajas diferentes pueden tener el mismo volumen?",
+              "¿Cómo cambia el área total de la caja si la hacemos más alta pero más delgada?"
+            ],
+            "pistas_del_exito": [
+              "Construye y descompone sólidos a partir de medidas dadas.",
+              "Realiza estimaciones de área y volumen usando unidades de medida pertinentes (cm³, m²)."
+            ],
+            "un_refuerzo": "Usar cubos conectables (tipo policubos) para que el estudiante construya físicamente el volumen antes de calcularlo matemáticamente."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "El Juez del Promedio",
+            "un_reto_sugerido": "Analizar las notas de un grupo y decidir si el promedio (media) o el dato central (mediana) representan mejor el esfuerzo de los estudiantes.",
+            "ruta_de_exploracion": {
+              "explorar": "Organizar a los estudiantes por estatura y hallar físicamente quién está en la mitad (mediana).",
+              "visual": "Representar los datos en una línea de puntos y marcar dónde cae la media aritmética.",
+              "produccion": "Redactar una explicación sobre por qué un valor muy alto o muy bajo afecta a la media pero no a la mediana."
+            },
+            "para_pensar": [
+              "¿Si todos sacan la misma nota, qué pasa con la media y la mediana?",
+              "¿En qué situaciones es más justo usar la mediana que el promedio?"
+            ],
+            "pistas_del_exito": [
+              "Calcula e interpreta la media y la mediana en un conjunto de datos reales.",
+              "Explica qué información brinda cada medida de tendencia central sobre el comportamiento del grupo."
+            ],
+            "un_refuerzo": "Usar barras de plastilina de diferentes alturas para nivelarlas todas a una misma altura y visualizar físicamente el concepto de promedio."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "Criptógrafos de Potencias y Primos",
+            "un_reto_sugerido": "Descomponer números grandes en sus 'ladrillos básicos' (factores primos) para crear códigos secretos.",
+            "ruta_de_exploracion": {
+              "explorar": "Usar el método de la criba de Eratóstenes para encontrar números primos y jugar a multiplicar potencias de 2.",
+              "visual": "Crear diagramas de árbol para la descomposición de factores primos.",
+              "produccion": "Resolver situaciones que involucren potencias (ej. crecimiento de bacterias o propagación de mensajes)."
+            },
+            "para_pensar": [
+              "¿Por qué los números primos son tan importantes en la matemática?",
+              "¿Qué diferencia hay entre multiplicar por 2 y elevar a la potencia 2?"
+            ],
+            "pistas_del_exito": [
+              "Descompone números naturales en sus factores primos de forma acertada.",
+              "Identifica y aplica propiedades de la potenciación para simplificar cálculos."
+            ],
+            "un_refuerzo": "Utilizar calculadoras para explorar el crecimiento exponencial y notar qué tan rápido aumentan los números en comparación con la multiplicación."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Navegantes en el Plano",
+            "un_reto_sugerido": "Esconder un 'tesoro' en el patio y dar sus coordenadas exactas en un plano cartesiano para que otros lo encuentren.",
+            "ruta_de_exploracion": {
+              "explorar": "Dibujar un plano cartesiano gigante en el suelo y caminar hacia puntos específicos (x, y).",
+              "visual": "Graficar polígonos uniendo puntos de coordenadas y observar cómo cambian si sumamos un valor a sus ejes (traslación).",
+              "produccion": "Calcular la medida de los lados de un cuadrado dibujado en el plano a partir de su área o sus coordenadas."
+            },
+            "para_pensar": [
+              "¿Qué pasa si cambiamos el orden de los números en una pareja ordenada (x, y)?",
+              "¿Cómo ayuda el plano cartesiano a los GPS y a los barcos?"
+            ],
+            "pistas_del_exito": [
+              "Grafica posiciones de objetos considerando ejes, cuadrantes y coordenadas.",
+              "Dibuja figuras planas a partir de las medidas de sus lados o posiciones dadas."
+            ],
+            "un_refuerzo": "Jugar 'Batalla Naval' avanzado o usar el software GeoGebra para visualizar la ubicación de puntos de forma dinámica."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Expertos en Resúmenes de Datos",
+            "un_reto_sugerido": "Analizar los resultados de una competencia deportiva y elegir qué medida estadística describe mejor el rendimiento del equipo ganador.",
+            "ruta_de_exploracion": {
+              "explorar": "Comparar dos conjuntos de datos con la misma media pero diferente distribución.",
+              "visual": "Utilizar gráficos de caja o de puntos para observar la dispersión de los datos alrededor de la mediana.",
+              "produccion": "Argumentar por qué se seleccionó la media o la mediana como medida representativa en un informe escolar."
+            },
+            "para_pensar": [
+              "¿Si un dato cambia mucho, cuál medida se afecta más: la media o la mediana?",
+              "¿Puede la media ser un número que ni siquiera está en el conjunto de datos?"
+            ],
+            "pistas_del_exito": [
+              "Selecciona la medida de tendencia central más representativa según el contexto.",
+              "Argumenta con propiedad las diferencias entre lo que indica la media y la mediana."
+            ],
+            "un_refuerzo": "Realizar ejercicios de 'quitar' o 'poner' datos extremos en un conjunto para observar en tiempo real cómo se mueve la media."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "El Desafío de la Proporcionalidad",
+            "un_reto_sugerido": "Determinar si la relación entre la velocidad de un carro y el tiempo que tarda en llegar es directa o inversa, usando tablas y gráficas.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar experimentos físicos (ej. cuántos obreros tardan en armar un puzzle) para notar la proporcionalidad inversa.",
+              "visual": "Ubicar fracciones y decimales en una misma recta numérica para compararlos y ordenarlos.",
+              "produccion": "Resolver ecuaciones numéricas que incluyan operaciones no convencionales definidas por el docente (operadores lógicos)."
+            },
+            "para_pensar": [
+              "¿Si una cantidad aumenta y la otra disminuye, siempre es proporcionalidad inversa?",
+              "¿Cómo saber si 3/4 es mayor que 0,7?"
+            ],
+            "pistas_del_exito": [
+              "Ordena y compara números racionales en sus diferentes representaciones.",
+              "Diferencia y resuelve situaciones de proporcionalidad directa e inversa."
+            ],
+            "un_refuerzo": "Utilizar la 'regla de tres' de forma razonada, explicando primero la relación lógica antes del cálculo mecánico."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Exploradores de Perímetros y Áreas",
+            "un_reto_sugerido": "Demostrar, usando cuerdas y cuadrículas, que se pueden tener muchas figuras con el mismo perímetro pero con áreas totalmente diferentes.",
+            "ruta_de_exploracion": {
+              "explorar": "Usar un hilo de 20 cm para formar diferentes rectángulos y medir cuántos cuadritos de área tiene cada uno.",
+              "visual": "Graficar en el plano cartesiano trayectorias complejas de un objeto en movimiento.",
+              "produccion": "Proponer estrategias de recubrimiento y bordeado para medir superficies de objetos curvos o irregulares."
+            },
+            "para_pensar": [
+              "¿Si el perímetro de un patio aumenta, su área siempre aumenta también?",
+              "¿Qué figura de perímetro 12 cm tiene el área más grande?"
+            ],
+            "pistas_del_exito": [
+              "Explica con ejemplos que variaciones en el perímetro no implican variaciones en el área.",
+              "Emplea el plano cartesiano para resolver situaciones de localización y trayectoria."
+            ],
+            "un_refuerzo": "Utilizar el geoplano para construir figuras y contar físicamente los 'clavitos' del borde (perímetro) y los cuadros de adentro (área)."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Maestros del Azar y la Probabilidad",
+            "un_reto_sugerido": "Calcular la probabilidad de ganar en un juego de dados diseñado por ellos mismos, listando todos los resultados posibles.",
+            "ruta_de_exploracion": {
+              "explorar": "Lanzar dos dados y anotar la suma de los puntos. Identificar qué sumas son más frecuentes (espacio muestral).",
+              "visual": "Representar los resultados favorables vs. resultados posibles mediante fracciones.",
+              "produccion": "Anticipar la ocurrencia de un evento basándose en la frecuencia observada en experimentos previos."
+            },
+            "para_pensar": [
+              "¿Por qué es más difícil que salga un 12 que un 7 al lanzar dos dados?",
+              "¿Qué significa que un evento tenga una probabilidad de 0 o de 1?"
+            ],
+            "pistas_del_exito": [
+              "Enumera el espacio muestral y los resultados favorables de un evento simple.",
+              "Predice la posibilidad de ocurrencia de un evento usando la relación numérica entre casos favorables y totales."
+            ],
+            "un_refuerzo": "Usar diagramas de árbol para no olvidar ningún resultado posible cuando se combinan dos eventos (ej. lanzar moneda y dado)."
+          }
+        }
+      ]
+    }
+  ]
+}

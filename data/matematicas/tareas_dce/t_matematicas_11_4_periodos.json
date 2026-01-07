@@ -1,0 +1,279 @@
+{
+  "area": "Matemáticas",
+  "grado": "11",
+  "nombre_archivo": "t_matematicas_11_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "El Lenguaje del Cambio Infinitesimal",
+            "un_reto_sugerido": "Modelar el llenado de un recipiente de forma irregular y determinar en qué puntos el nivel del agua sube más rápido, relacionándolo con la tasa de cambio.",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar el concepto de densidad numérica: encontrar un número real entre dos números irracionales extremadamente cercanos (ej. entre √2 y √2.00001).",
+              "visual": "Representar en un software de geometría dinámica (ej. GeoGebra) la aproximación de una curva mediante segmentos de recta (secantes) para introducir visualmente la derivada.",
+              "produccion": "Construir una tabla y una gráfica que modelen el comportamiento de una inversión bancaria frente a la inflación, usando expresiones algebraicas complejas."
+            },
+            "para_pensar": [
+              "¿Por qué decimos que los números reales 'llenan' la recta numérica de forma continua?",
+              "¿Cómo influye la forma de una gráfica en nuestra interpretación de un fenómeno de cambio acelerado?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante utiliza representaciones múltiples (fracciones, decimales, radicales) para resolver problemas de modelación.",
+              "Propone y analiza patrones funcionales justificando la elección del modelo (lineal, cuadrático, exponencial)."
+            ],
+            "un_refuerzo": "Utilizar la visualización de sucesiones que convergen a un número irracional para comprender la estructura del conjunto de los Reales."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectura de Precisión y Diseño Industrial",
+            "un_reto_sugerido": "Diseñar una estructura arquitectónica moderna (ej. una cúpula o un pabellón) que requiera la unión de diversos sólidos geométricos, calculando ángulos y aristas de conexión.",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar la relación de Euler en poliedros complejos y poliedros de Arquímedes mediante el ensamblaje de modelos físicos.",
+              "visual": "Interpretar planos técnicos de objetos 3D complejos, identificando cortes transversales y proyecciones isométricas.",
+              "produccion": "Diseñar la plantilla (desarrollo plano) de un cuerpo truncado, asegurando que las medidas permitan un ensamblaje exacto sin solapamientos."
+            },
+            "para_pensar": [
+              "¿Cómo cambian las propiedades de un sólido cuando se somete a un truncamiento de sus vértices?",
+              "¿Por qué es fundamental el dibujo técnico en la comunicación de ideas de ingeniería?"
+            ],
+            "pistas_del_exito": [
+              "Clasifica cuerpos geométricos basándose en relaciones métricas y angulares profundas.",
+              "Construye prototipos físicos a partir de desarrollos planos diseñados con instrumentos de precisión."
+            ],
+            "un_refuerzo": "Practicar con programas de diseño asistido por computadora (CAD) para observar la rotación de cuerpos y la generación de vistas automáticas."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Detectives de la Desinformación Estadística",
+            "un_reto_sugerido": "Evaluar críticamente un informe estadístico sobre salud o economía publicado en un medio masivo, identificando sesgos en la selección de la muestra o en la escala de las gráficas.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar una auditoría de datos: recolectar información de bases de datos abiertas (DANE, Banco Mundial) y compararla con las afirmaciones de una noticia actual.",
+              "visual": "Organizar datos complejos en histogramas y polígonos de frecuencia acumulada (ojivas) para analizar la distribución de la población.",
+              "produccion": "Formular una pregunta de investigación académica y diseñar el protocolo de recolección de datos que garantice la representatividad de la muestra."
+            },
+            "para_pensar": [
+              "¿Qué criterios técnicos diferencian una información estadística confiable de una manipulada?",
+              "¿Por qué el tamaño de la muestra es determinante para la validez de una conclusión nacional?"
+            ],
+            "pistas_del_exito": [
+              "Evalúa la pertinencia de la información estadística presentada en diversos formatos mediáticos.",
+              "Organiza y representa datos recolectados usando gráficas que faciliten la comparación crítica."
+            ],
+            "un_refuerzo": "Realizar ejercicios de 'mentiras con estadísticas' donde los estudiantes deban modificar una gráfica para que diga lo contrario sin cambiar los números."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "Simuladores de la Realidad y el Cambio",
+            "un_reto_sugerido": "Modelar la trayectoria de un proyectil o el enfriamiento de un líquido, utilizando funciones cuadráticas y exponenciales para predecir estados futuros.",
+            "ruta_de_exploracion": {
+              "explorar": "Calcular tasas de cambio en intervalos cada vez más pequeños para aproximarse al concepto de velocidad instantánea.",
+              "visual": "Construir gráficas de funciones no lineales (logarítmicas y trigonométricas básicas) identificando sus asíntotas y periodicidad.",
+              "produccion": "Justificar procedimientos de cálculo algebraico al resolver problemas de variación conjunta (donde intervienen más de dos variables)."
+            },
+            "para_pensar": [
+              "¿Qué información nos da la pendiente de la recta tangente a una curva en un punto específico?",
+              "¿Cómo se representan las tasas de cambio en situaciones de crecimiento poblacional?"
+            ],
+            "pistas_del_exito": [
+              "Modela situaciones de covariación mediante funciones algebraicas y analiza su razonabilidad.",
+              "Interpreta y justifica procedimientos que involucran radicales, logaritmos y potencias en contextos reales."
+            ],
+            "un_refuerzo": "Utilizar calculadoras gráficas o apps de simulación para observar el impacto de cambiar un coeficiente en la forma de la función."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Maestros del Escalado y la Geometría Analítica",
+            "un_reto_sugerido": "Determinar la cantidad de material y el costo total para fabricar una serie de recipientes esféricos de diferentes radios, aplicando razones de semejanza.",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar la semejanza de figuras en el espacio y cómo influye la escala en la resistencia de los materiales (relación área/volumen).",
+              "visual": "Calcular volúmenes de cuerpos de revolución (ej. esferas, conos) mediante el análisis de sus dimensiones generatrices.",
+              "produccion": "Construir maquetas físicas y validar el cálculo de su volumen mediante el desplazamiento de agua (método de inmersión)."
+            },
+            "para_pensar": [
+              "¿Por qué el volumen aumenta mucho más rápido que el área superficial cuando escalamos un objeto?",
+              "¿Cómo influye la precisión de los instrumentos de medida en la construcción de cuerpos geométricos a escala?"
+            ],
+            "pistas_del_exito": [
+              "Calcula y estima volúmenes y áreas de cuerpos geométricos complejos con justificación técnica.",
+              "Dibuja y diseña desarrollos planos que corresponden a sólidos específicos con medidas dadas."
+            ],
+            "un_refuerzo": "Utilizar software de modelado paramétrico para visualizar cómo la variación de una dimensión afecta el volumen total de forma no lineal."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Científicos de Datos y Reportes Estadísticos",
+            "un_reto_sugerido": "Realizar un estudio sobre el consumo de energía en el colegio y redactar un informe que incluya medidas de tendencia central y dispersión para proponer un plan de ahorro.",
+            "ruta_de_exploracion": {
+              "explorar": "Diseñar instrumentos de recolección de datos (encuestas/sensores) y validar la limpieza de la información recolectada.",
+              "visual": "Representar los resultados en histogramas y diagramas de caja (box-plots) para identificar valores atípicos (outliers).",
+              "produccion": "Escribir un informe técnico donde se contraste la información escolar con promedios nacionales de consumo energético."
+            },
+            "para_pensar": [
+              "¿Cuándo es más representativa la mediana que la media en un conjunto de datos sobre salarios o consumo?",
+              "¿Cómo ayuda el software estadístico a la toma de decisiones en una organización?"
+            ],
+            "pistas_del_exito": [
+              "Calcula medidas de tendencia central y dispersión usando software de análisis de datos.",
+              "Produce informes escritos que contrastan información mediática con hallazgos de investigaciones propias."
+            ],
+            "un_refuerzo": "Utilizar hojas de cálculo avanzado para realizar tablas dinámicas y gráficos interactivos que permitan 'jugar' con los datos."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "Leyes de la Estructura Numérica y Operacional",
+            "un_reto_sugerido": "Identificar las propiedades de campo de los números reales aplicadas en algoritmos de computación o en la resolución de identidades algebraicas complejas.",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar la aplicación de la propiedad distributiva y asociativa en la simplificación de fórmulas físicas de cinemática.",
+              "visual": "Modelar secuencias numéricas (progresiones) y representar su suma acumulada mediante gráficas de puntos.",
+              "produccion": "Justificar mediante argumentos lógicos la necesidad de las operaciones inversas (logaritmación/potenciación) en modelos de crecimiento orgánico."
+            },
+            "para_pensar": [
+              "¿Cómo garantizan las propiedades de los números reales que los resultados de una operación sean consistentes?",
+              "¿Qué importancia tiene la paridad y la divisibilidad en los sistemas de seguridad digital?"
+            ],
+            "pistas_del_exito": [
+              "Argumenta la validez de propiedades numéricas y relaciones de divisibilidad en problemas complejos.",
+              "Modela situaciones de variación usando funciones y analiza la pertinencia del modelo según el contexto."
+            ],
+            "un_refuerzo": "Utilizar rompecabezas de igualdades algebraicas donde los estudiantes deban identificar la propiedad aplicada en cada paso de la resolución."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Secciones, Trayectorias y Geometría Analítica",
+            "un_reto_sugerido": "Predecir la forma de las secciones transversales de un cuerpo sólido (ej. un cono o una pirámide) y representarlas en el plano cartesiano.",
+            "ruta_de_exploracion": {
+              "explorar": "Ubicar coordenadas en sistemas de referencia 3D o polares para describir la posición de un objeto en movimiento (ej. un dron).",
+              "visual": "Graficar trayectorias complejas en el plano cartesiano, calculando distancias entre puntos y pendientes de las trayectorias.",
+              "produccion": "Calcular áreas de figuras irregulares mediante el método de descomposición y estimación de errores de aproximación."
+            },
+            "para_pensar": [
+              "¿Qué figura se genera al realizar un corte oblicuo en un cilindro?",
+              "¿Cómo se traduce una instrucción de movimiento en el espacio a un cambio de coordenadas matemáticas?"
+            ],
+            "pistas_del_exito": [
+              "Localiza y representa trayectorias de objetos en el plano cartesiano usando sistemas de referencia.",
+              "Analiza causas de error en procesos de medición compleja y propone estrategias de mejora."
+            ],
+            "un_refuerzo": "Utilizar simuladores de cortes de sólidos (Cónicas dinámicas) para visualizar la elipse, parábola e hipérbola como resultado de cortes rectos."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Análisis de Tendencias Sociales y Comparación",
+            "un_reto_sugerido": "Comparar la distribución de ingresos o de tiempo de uso de tecnología de dos grupos generacionales distintos, usando medidas de dispersión para hallar diferencias significativas.",
+            "ruta_de_exploracion": {
+              "explorar": "Distinguir entre población y muestra representativa en estudios sociológicos reales (ej. censos de población).",
+              "visual": "Seleccionar y producir representaciones gráficas comparativas (diagramas de barras apiladas o pirámides poblacionales).",
+              "produccion": "Describir el comportamiento de una población a partir de la media y la desviación estándar, explicando qué tan 'típico' es el promedio."
+            },
+            "para_pensar": [
+              "¿Por qué es arriesgado sacar conclusiones de una población si la muestra es muy pequeña o poco diversa?",
+              "¿Qué nos dice el rango intercuartílico sobre la concentración de los datos en un estudio?"
+            ],
+            "pistas_del_exito": [
+              "Compara dos o más grupos de datos usando conjuntamente medidas de tendencia central y de dispersión.",
+              "Interpreta gráficos estadísticos de alta complejidad para comunicar hallazgos sobre una población."
+            ],
+            "un_refuerzo": "Analizar casos de 'paradoja de Simpson' donde una tendencia en diferentes grupos se invierte al combinar los datos."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "Optimización, Límites y Decisión",
+            "un_reto_sugerido": "Resolver un problema de optimización (ej. hallar las dimensiones para que una caja tenga el volumen máximo con una cantidad fija de cartón) mediante inecuaciones y análisis funcional.",
+            "ruta_de_exploracion": {
+              "explorar": "Establecer relaciones de orden entre números reales complejos (raíces, potencias, logaritmos) para argumentar decisiones financieras.",
+              "visual": "Representar regiones de solución de sistemas de inecuaciones en el plano cartesiano (programación lineal básica).",
+              "produccion": "Resolver ecuaciones y desigualdades de primer y segundo grado justificando cada paso mediante propiedades de campo."
+            },
+            "para_pensar": [
+              "¿Cómo cambia el conjunto solución de una desigualdad cuando multiplicamos por un número negativo?",
+              "¿Qué significa 'maximizar' o 'minimizar' una función en un contexto de recursos limitados?"
+            ],
+            "pistas_del_exito": [
+              "Establece relaciones de orden y equivalencia entre números reales en múltiples representaciones.",
+              "Resuelve ecuaciones y sistemas justificando procedimientos analíticos y gráficos."
+            ],
+            "un_refuerzo": "Utilizar aplicaciones de 'Solvers' algebraicos para analizar los pasos de resolución de inecuaciones complejas y discutir la lógica del proceso."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Transformaciones en el Espacio de Aplicación",
+            "un_reto_sugerido": "Diseñar un patrón geométrico para un diseño textil o arquitectónico que use rotaciones, traslaciones y homotecias (ampliaciones), calculando el área total cubierta.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar transformaciones de figuras en el plano cartesiano y verificar qué propiedades (ángulos, áreas) se conservan.",
+              "visual": "Modelar la circunferencia y el círculo en contextos de ingeniería (ej. diseño de engranajes), calculando longitudes y áreas de sectores circulares.",
+              "produccion": "Calcular volúmenes de cuerpos complejos presentes en el entorno, analizando la razonabilidad de los resultados frente a la capacidad real."
+            },
+            "para_pensar": [
+              "¿En qué se diferencia una transformación de semejanza de una de congruencia en términos de sus coordenadas?",
+              "¿Cómo ayuda la geometría analítica a predecir el comportamiento de figuras en movimiento?"
+            ],
+            "pistas_del_exito": [
+              "Identifica e interpreta semejanzas y transformaciones en el plano cartesiano con precisión analítica.",
+              "Calcula perímetros, áreas y volúmenes en contextos aplicados, validando la precisión de los resultados."
+            ],
+            "un_refuerzo": "Utilizar el juego de 'Tetris' o 'Minecraft' avanzado para comprender el empaque de volúmenes y el uso eficiente del espacio tridimensional."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Pronósticos de Incertidumbre y Probabilidad",
+            "un_reto_sugerido": "Calcular la probabilidad de un evento compuesto complejo (ej. probabilidad de que un estudiante sea aceptado en dos universidades diferentes) y compararlo con modelos de frecuencia relativa.",
+            "ruta_de_exploracion": {
+              "explorar": "Enumerar espacios muestrales de experimentos aleatorios compuestos usando diagramas de árbol y tablas de contingencia.",
+              "visual": "Registrar resultados de simulaciones aleatorias en gráficos de frecuencia para observar la tendencia hacia la probabilidad teórica (Ley de los grandes números).",
+              "produccion": "Escribir un análisis comparativo entre predicciones teóricas y resultados experimentales, explicando técnicamente las diferencias."
+            },
+            "para_pensar": [
+              "¿Por qué la probabilidad frecuencial es una buena aproximación de la teórica en muestras grandes?",
+              "¿Qué diferencia un evento independiente de uno dependiente en el cálculo de probabilidades compuestas?"
+            ],
+            "pistas_del_exito": [
+              "Enumera resultados de experimentos compuestos y predice su probabilidad usando modelos teóricos.",
+              "Compara resultados experimentales con predicciones teóricas analizando la razonabilidad de las diferencias."
+            ],
+            "un_refuerzo": "Utilizar simuladores de probabilidad (tipo Montecarlo) para realizar miles de repeticiones en segundos y observar la estabilización de los resultados."
+          }
+        }
+      ]
+    }
+  ]
+}

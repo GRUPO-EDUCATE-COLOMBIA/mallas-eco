@@ -1,0 +1,279 @@
+{
+  "area": "Matemáticas",
+  "grado": "2",
+  "nombre_archivo": "t_matematicas_2_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "La Fábrica de Paquetes y Despachos",
+            "un_reto_sugerido": "Organizar 24 dulces en bolsas de 4 y luego explicar cuántas bolsas se necesitan si ahora los paquetes deben ser de 6.",
+            "ruta_de_exploracion": {
+              "explorar": "Usar botones o semillas para crear grupos iguales. Practicar 'sumar el mismo número' varias veces para notar que es más rápido que contar de uno en uno.",
+              "visual": "Dibujar arreglos rectangulares (filas y columnas) para representar los dulces y descubrir que 3 filas de 4 es lo mismo que 4 filas de 3.",
+              "produccion": "Escribir una situación donde se use una resta para deshacer una suma (reversibilidad), por ejemplo: 'Tenía 10, gané 5 y luego perdí 5'."
+            },
+            "para_pensar": [
+              "¿Es lo mismo decir 2+2+2 que decir 3 veces 2?",
+              "Si una suma me da 15, ¿qué número debo restar para volver a tener el valor inicial?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica que la multiplicación es una suma repetida de grupos iguales.",
+              "Resuelve problemas donde debe encontrar un número faltante en una suma (a + ? = c)."
+            ],
+            "un_refuerzo": "Utilizar cajas de 10 (ten-frames) para visualizar cómo se completan cantidades y cómo se 'desarman' al restar."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Detectives de Caras y Aristas",
+            "un_reto_sugerido": "Clasificar objetos del salón según el número de lados de sus caras y separarlos en 'familias' de triángulos, cuadriláteros y otros.",
+            "ruta_de_exploracion": {
+              "explorar": "Manipular sólidos geométricos (cubos, pirámides) y contar físicamente cuántas 'esquinas' y cuántas 'caras' tienen.",
+              "visual": "Calcar las caras de un objeto tridimensional para obtener figuras bidimensionales y compararlas.",
+              "produccion": "Describir por escrito o dictado las diferencias entre un cuadrado (figura plana) y un cubo (cuerpo con volumen)."
+            },
+            "para_pensar": [
+              "¿Un cuadrado puede ser la cara de un cuerpo redondo?",
+              "¿Qué herramienta es mejor para medir el largo de un lápiz: una regla o una cinta métrica de costura?"
+            ],
+            "pistas_del_exito": [
+              "Reconoce y nombra figuras por su número de lados (triángulo, cuadrado, pentágono).",
+              "Selecciona el instrumento adecuado para medir longitud o peso según el objeto."
+            ],
+            "un_refuerzo": "Usar palillos y plastilina para construir esqueletos de figuras y cuerpos, facilitando el conteo de aristas y vértices."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "El Gran Salto de los Stickers",
+            "un_reto_sugerido": "Crear un pictograma donde cada dibujo de una manzana represente a 5 niños que la prefieren (escala uno a muchos).",
+            "ruta_de_exploracion": {
+              "explorar": "Hacer grupos de 2 o 5 compañeros y asignarles una sola ficha que represente a todo el grupo.",
+              "visual": "Dibujar una tabla de conteo donde cada marca represente 2 elementos en lugar de 1.",
+              "produccion": "Responder: Si cada estrella vale 3 puntos, ¿cuántos puntos tienen 4 estrellas?"
+            },
+            "para_pensar": [
+              "¿Por qué es útil que un dibujo valga por varios objetos a la vez?",
+              "¿Cómo cambia nuestra gráfica si la escala es de 2 en 2 en lugar de 1 en 1?"
+            ],
+            "pistas_del_exito": [
+              "Organiza datos en pictogramas respetando la escala asignada.",
+              "Identifica la equivalencia entre el símbolo gráfico y el valor numérico que representa."
+            ],
+            "un_refuerzo": "Usar billetes de $10 para representar que un solo objeto (el billete) tiene un valor acumulado de 10 unidades."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "El Misterio del Espacio Vacío",
+            "un_reto_sugerido": "Encontrar el valor de la caja en: 45 + [ ] = 100, usando el dinero (billetes) como apoyo.",
+            "ruta_de_exploracion": {
+              "explorar": "Jugar al 'Comprador Despistado': el docente da el total y un producto, el niño debe hallar cuánto costó el segundo producto.",
+              "visual": "Representar las relaciones aditivas mediante diagramas de barras (parte-parte-todo).",
+              "produccion": "Crear un diagrama de flujo que muestre cómo llegar a un resultado multiplicativo (ej. 5 grupos de 3)."
+            },
+            "para_pensar": [
+              "¿Si conozco el total y una parte, qué operación me ayuda a encontrar la otra parte?",
+              "¿Cómo puedo representar 3 veces 4 usando solo flechas en una línea?"
+            ],
+            "pistas_del_exito": [
+              "Propone estrategias para hallar valores desconocidos en expresiones aritméticas.",
+              "Interpreta diagramas que muestran relaciones de multiplicación simple."
+            ],
+            "un_refuerzo": "Utilizar balanzas de platos donde se coloca un peso conocido en un lado y se debe equilibrar el otro con un peso oculto."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectos de Calles y Cruces",
+            "un_reto_sugerido": "Dibujar un mapa del salón donde se identifiquen dos filas de pupitres que nunca se tocan (paralelas) y una que cruza (perpendicular).",
+            "ruta_de_exploracion": {
+              "explorar": "Usar cintas de colores en el piso para caminar sobre líneas paralelas y perpendiculares.",
+              "visual": "Identificar en fotos de la ciudad o del colegio dónde hay líneas horizontales y verticales (ej. el borde de la puerta).",
+              "produccion": "Construir con palitos de paleta diferentes tipos de líneas y pegarlas en una hoja clasificándolas."
+            },
+            "para_pensar": [
+              "¿Las líneas de un cuaderno son paralelas o perpendiculares?",
+              "¿Qué pasa si dos líneas perpendiculares se siguen extendiendo?"
+            ],
+            "pistas_del_exito": [
+              "Diferencia líneas paralelas de perpendiculares en objetos reales.",
+              "Describe desplazamientos usando conceptos de horizontalidad y verticalidad."
+            ],
+            "un_refuerzo": "Utilizar geoplanos con bandas elásticas para formar ángulos rectos y líneas que no se cruzan."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Analistas del Tablero",
+            "un_reto_sugerido": "Observar una gráfica de puntos sobre la asistencia y determinar qué día faltaron más niños y por qué.",
+            "ruta_de_exploracion": {
+              "explorar": "Recolectar datos sobre la estatura de los compañeros y marcarlos con puntos en una línea numerada.",
+              "visual": "Comparar un pictograma con una gráfica de puntos para ver cuál es más fácil de leer.",
+              "produccion": "Redactar una conclusión breve: 'El juguete que menos trajeron fue el carro porque solo tiene 2 puntos'."
+            },
+            "para_pensar": [
+              "¿Cuál es el dato que más se repite en nuestra gráfica de puntos?",
+              "¿Cuántos niños participaron en total si contamos todos los puntos de la gráfica?"
+            ],
+            "pistas_del_exito": [
+              "Lee e interpreta información en gráficos de puntos y pictogramas con escala.",
+              "Identifica la moda (dato que más se repite) en un conjunto de datos escolares."
+            ],
+            "un_refuerzo": "Proporcionar gráficas con pocos datos y preguntas de opción múltiple para guiar la interpretación inicial."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "El Mago de los Algoritmos",
+            "un_reto_sugerido": "Inventar una forma propia de sumar 28 + 35 sin usar el método tradicional y luego explicarla a los compañeros.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar repartos equitativos de dulces (división inicial) y notar si sobra algo (residuo).",
+              "visual": "Usar dibujos de 'nubes' para agrupar elementos y representar multiplicaciones y repartos.",
+              "produccion": "Escribir igualdades usando propiedades (ej. 5+3 es lo mismo que 3+5) para encontrar números ocultos."
+            },
+            "para_pensar": [
+              "¿Puedo repartir 10 canicas entre 3 amigos de forma exacta?",
+              "¿Cómo me ayuda saber que 2x5=10 para resolver 5x2?"
+            ],
+            "pistas_del_exito": [
+              "Usa algoritmos no convencionales (como descomposición) para sumar y restar.",
+              "Aplica propiedades de las operaciones para completar secuencias e igualdades."
+            ],
+            "un_refuerzo": "Utilizar el ábaco abierto para realizar 'canjes' de unidades a decenas al sumar."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Medidores del Tiempo y el Espacio",
+            "un_reto_sugerido": "Medir el área de su pupitre usando cuadrados de papel y compararlo con el pupitre del profesor.",
+            "ruta_de_exploracion": {
+              "explorar": "Usar 'cuartas' (manos) y 'pasos' para medir el salón, y luego usar un metro para ver la diferencia.",
+              "visual": "Comparar la duración de dos canciones usando un cronómetro o reloj de arena.",
+              "produccion": "Dibujar tres objetos y escribir su peso estimado en una unidad no convencional (ej. este libro pesa 10 borradores)."
+            },
+            "para_pensar": [
+              "¿Por qué es mejor usar un metro que usar mis pasos para comprar una alfombra?",
+              "¿Qué dura más: lavarse los dientes o ver una película?"
+            ],
+            "pistas_del_exito": [
+              "Realiza mediciones con unidades no convencionales (pasos, cuadrados) y convencionales (metros).",
+              "Describe objetos según atributos como superficie, peso y duración."
+            ],
+            "un_refuerzo": "Crear un 'reloj de actividades' donde se asocien horas del día con acciones cotidianas para entender la duración."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "El Oráculo de las Posibilidades",
+            "un_reto_sugerido": "Predecir qué color de ficha saldrá de una bolsa que tiene 10 rojas y 1 azul, y explicar por qué.",
+            "ruta_de_exploracion": {
+              "explorar": "Lanzar una moneda y registrar los resultados (Cara o Sello). Discutir si siempre podemos saber qué saldrá.",
+              "visual": "Clasificar situaciones en carteles de 'Seguro', 'Posible' e 'Imposible'.",
+              "produccion": "Escribir una lista de eventos imposibles (ej. 'Que mañana llueva chocolate')."
+            },
+            "para_pensar": [
+              "¿Es seguro que mañana saldrá el sol?",
+              "¿Si saco una balota de una caja con solo balotas verdes, es posible que salga una roja?"
+            ],
+            "pistas_del_exito": [
+              "Diferencia entre eventos seguros, posibles e imposibles.",
+              "Explica por qué un resultado es incierto en situaciones de juego cotidiano."
+            ],
+            "un_refuerzo": "Usar una ruleta de colores con sectores de distintos tamaños para visualizar qué color tiene 'más oportunidad' de ganar."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Numérico Variacional",
+          "guia_didactica": {
+            "la_estrategia": "Maestros del Sistema Decimal",
+            "un_reto_sugerido": "Escribir el número 345 de tres formas diferentes (ej. 300+40+5, 34 decenas y 5 unidades, etc.).",
+            "ruta_de_exploracion": {
+              "explorar": "Usar bloques multibase (unidades, decenas, centenas) para construir números grandes y compararlos.",
+              "visual": "Utilizar la recta numérica para ubicar números de tres cifras y ver cuál está 'más cerca' de la siguiente centena.",
+              "produccion": "Completar desafíos de 'ensayo y error' para encontrar una operación oculta que mantenga una igualdad."
+            },
+            "para_pensar": [
+              "¿Qué número es mayor: uno que tiene 5 centenas o uno que tiene 50 decenas?",
+              "¿Cómo puedo cambiar un número 230 en 200 usando solo una resta?"
+            ],
+            "pistas_del_exito": [
+              "Compara y ordena números de hasta tres cifras usando relaciones de 'mayor que' y 'menor que'.",
+              "Reconoce equivalencias entre centenas, decenas y unidades."
+            ],
+            "un_refuerzo": "Jugar al 'Banquero': cambiar 10 monedas de $10 por un billete de $100 para entender el valor posicional."
+          }
+        },
+        {
+          "componente": "Espacial Métrico",
+          "guia_didactica": {
+            "la_estrategia": "Guardianes del Tiempo y las Líneas",
+            "un_reto_sugerido": "Programar las actividades del día en un reloj de manecillas, calculando cuánto tiempo pasan en el recreo vs. en clase.",
+            "ruta_de_exploracion": {
+              "explorar": "Observar la sombra de un poste en diferentes horas del día para ver cómo cambia la posición y longitud.",
+              "visual": "Dibujar trayectorias de un mapa escolar usando argumentos sobre la posición de las líneas (ej. 'camina por la línea paralela a la pared').",
+              "produccion": "Construir un horario semanal personal usando el reloj convencional."
+            },
+            "para_pensar": [
+              "¿Si la manecilla larga está en el 6, cuántos minutos han pasado?",
+              "¿Por qué las líneas del cruce peatonal son paralelas?"
+            ],
+            "pistas_del_exito": [
+              "Compara eventos de la vida diaria usando el reloj de manecillas.",
+              "Argumenta con propiedad la relación entre diferentes líneas en un plano."
+            ],
+            "un_refuerzo": "Usar relojes de cartón con manecillas móviles para practicar la lectura de la hora en punto y media hora."
+          }
+        },
+        {
+          "componente": "Aleatorio",
+          "guia_didactica": {
+            "la_estrategia": "Pequeños Pronosticadores",
+            "un_reto_sugerido": "Basado en la observación del cielo de toda la semana, predecir si el sábado será un buen día para un picnic y justificarlo con datos.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar experimentos simples (lanzar un dado 20 veces) y ver si sus predicciones iniciales se cumplieron.",
+              "visual": "Crear una 'Línea de la Suerte' donde ubiquen eventos desde 'Muy poco probable' hasta 'Muy probable'.",
+              "produccion": "Escribir un reporte sobre un juego de azar del salón explicando quién tiene más ventaja de ganar."
+            },
+            "para_pensar": [
+              "¿Si he ganado 3 veces seguidas, es seguro que ganaré la cuarta vez?",
+              "¿En qué se basa un experto para decir que va a llover?"
+            ],
+            "pistas_del_exito": [
+              "Predice la ocurrencia de eventos basándose en datos recolectados previamente.",
+              "Utiliza el análisis de posibilidades para tomar decisiones en juegos sencillos."
+            ],
+            "un_refuerzo": "Utilizar juegos de mesa con dados y fichas para que el niño experimente la frecuencia de los resultados de forma lúdica."
+          }
+        }
+      ]
+    }
+  ]
+}
