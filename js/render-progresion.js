@@ -1,122 +1,58 @@
-// FILE: js/render-progresion.js | VERSION: v7.0 Stable
-
+// FILE: js/render-progresion.js | VERSION: v7.5 Stable
 window.ProgresionMotor = (function() {
-  let estado = { areaId: '', areaNombre: '', gradoCentral: 0, componente: '', tipo: '4_periodos' };
+  let est = { areaId: '', areaNombre: '', gradoCentral: 0, componente: '', tipo: '4_periodos' };
+  const ov = document.getElementById('overlay-progresion');
+  const txt = document.getElementById('prog-area-txt');
+  const cPr = document.getElementById('cont-grado-prev');
+  const cAc = document.getElementById('cont-grado-actual');
+  const cNx = document.getElementById('cont-grado-next');
 
-  const overlay = document.getElementById('overlay-progresion');
-  const btnCerrar = document.getElementById('btn-cerrar-progresion');
-  const btnPrev = document.getElementById('prog-prev');
-  const btnNext = document.getElementById('prog-next');
-  const txtArea = document.getElementById('prog-area-txt');
-  const contPrev = document.getElementById('cont-grado-prev');
-  const contActual = document.getElementById('cont-grado-actual');
-  const contNext = document.getElementById('cont-grado-next');
-
-  async function abrir(areaNombre, grado, componente) {
-    const areaId = Object.keys(window.APP_CONFIG.AREAS).find(k => window.APP_CONFIG.AREAS[k].nombre === areaNombre);
-    estado.areaId = areaId;
-    estado.areaNombre = areaNombre;
-    estado.gradoCentral = parseInt(grado);
-    estado.componente = componente;
-    estado.tipo = window.APP_CONFIG.TIPO_MALLA;
-
-    overlay.classList.add('mostrar-flex');
+  async function abrir(nom, gr, comp) {
+    est.areaId = Object.keys(window.APP_CONFIG.AREAS).find(k => window.APP_CONFIG.AREAS[k].nombre === nom);
+    est.areaNombre = nom; est.gradoCentral = parseInt(gr); est.componente = comp; est.tipo = window.APP_CONFIG.TIPO_MALLA;
+    ov.classList.add('mostrar-flex');
     renderizar();
   }
 
-  function cerrar() { overlay.classList.remove('mostrar-flex'); }
-
   function renderizar() {
-    const g = estado.gradoCentral;
-    txtArea.textContent = `${estado.areaNombre.toUpperCase()} - ${estado.componente}`;
-
-    const gPrev = (g - 1 < -1) ? null : String(g - 1);
-    const gActual = String(g);
-    const gNext = (g + 1 > 11) ? null : String(g + 1);
-    
-    dibujarColumna(contPrev, gPrev);
-    dibujarColumna(contActual, gActual);
-    dibujarColumna(contNext, gNext);
-    
-    if (btnPrev) btnPrev.disabled = (g <= -1);
-    if (btnNext) btnNext.disabled = (g >= 11);
+    const g = est.gradoCentral;
+    txt.textContent = `${est.areaNombre.toUpperCase()} - ${est.componente}`;
+    dibujar(cPr, (g - 1 < -1) ? null : String(g - 1));
+    dibujar(cAc, String(g));
+    dibujar(cNx, (g + 1 > 11) ? null : String(g + 1));
   }
 
-  function dibujarColumna(contenedor, gradoStr) {
-    if (!contenedor) return;
-    const header = contenedor.previousElementSibling;
-    contenedor.innerHTML = '';
-    
-    if (gradoStr === null) {
-      if (header) header.textContent = "---";
-      contenedor.innerHTML = '<p style="text-align:center; padding-top:20px; color:#999;">Fin de secuencia.</p>';
-      return;
-    }
-
-    if (header) header.textContent = formatearNombre(gradoStr);
-    
-    // REGLA: Preescolar (-1, 0) usa DBA. Primaria/Bachillerato (1-11) usa Estándares.
-    const esPreescolar = (gradoStr === "0" || gradoStr === "-1");
-    const datos = obtenerAprendizajesAnuales(gradoStr, esPreescolar);
-    
-    if (datos.length === 0) {
-      contenedor.innerHTML = '<p style="text-align:center; padding:20px; color:#888;">Sin datos disponibles.</p>';
-    } else {
-      datos.forEach(texto => {
-        const div = document.createElement('div');
-        div.className = 'prog-estandar-item';
-        div.innerHTML = esPreescolar ? `<strong>DBA:</strong> ${texto}` : texto;
-        contenedor.appendChild(div);
-      });
-    }
+  function dibujar(cont, grStr) {
+    if (!cont) return;
+    const h = cont.previousElementSibling;
+    cont.innerHTML = '';
+    if (grStr === null) { if (h) h.textContent = "---"; cont.innerHTML = '<p style="text-align:center;color:#999;padding-top:20px;">Fin.</p>'; return; }
+    if (h) h.textContent = (grStr === "0" ? "Transición (0)" : (grStr === "-1" ? "Jardín (-1)" : `Grado ${grStr}°`));
+    const esPre = (grStr === "0" || grStr === "-1");
+    const datos = obtener(grStr, esPre);
+    if (datos.length === 0) { cont.innerHTML = '<p style="text-align:center;padding:20px;color:#888;">Sin datos.</p>'; } 
+    else { datos.forEach(t => { const d = document.createElement('div'); d.className = 'prog-estandar-item'; d.innerHTML = esPre ? `<strong>DBA:</strong> ${t}` : t; cont.appendChild(d); }); }
   }
 
-  function obtenerAprendizajesAnuales(gradoStr, esPreescolar) {
-    const malla = window.MallasData?.[estado.areaNombre]?.[gradoStr]?.[estado.tipo];
-    if (!malla || !malla.periodos) return [];
-    
-    let acumulado = [];
-    Object.keys(malla.periodos).forEach(p => {
-      malla.periodos[p].forEach(it => {
-        const coincideComponente = (it.componente === estado.componente || it.competencia === estado.componente);
-        const esPuenteTransicion = (estado.gradoCentral === 0 && gradoStr === "1");
-
-        if (coincideComponente || esPuenteTransicion) {
-          const campo = esPreescolar ? it.dba : it.estandar;
-          if (campo) {
-            if (Array.isArray(campo)) acumulado.push(...campo);
-            else acumulado.push(campo);
-          }
+  function obtener(grStr, esPre) {
+    const m = window.MallasData[normalizarTexto(est.areaNombre)]?.[grStr]?.[est.tipo];
+    if (!m || !m.periodos) return [];
+    let ac = [];
+    Object.keys(m.periodos).forEach(p => {
+      m.periodos[p].forEach(it => {
+        if (normalizarTexto(it.componente || it.competencia) === normalizarTexto(est.componente) || (est.gradoCentral === 0 && grStr === "1")) {
+          const c = esPre ? it.dba : it.estandar;
+          if (c) { if (Array.isArray(c)) ac.push(...c); else ac.push(c); }
         }
       });
     });
-    return [...new Set(acumulado)].filter(t => t && String(t).trim() !== "");
+    return [...new Set(ac)].filter(t => t && String(t).trim() !== "");
   }
 
-  function formatearNombre(g) {
-    if (g === "0") return "Transición (0)";
-    if (g === "-1") return "Jardín (-1)";
-    return `Grado ${g}°`;
-  }
-
-  if (btnPrev) btnPrev.onclick = async () => {
-    estado.gradoCentral--;
-    window.RenderEngine.setCargando(true);
-    await asegurarDatosGrado(estado.areaId, String(estado.gradoCentral - 1));
-    renderizar();
-    window.RenderEngine.setCargando(false);
-  };
-
-  if (btnNext) btnNext.onclick = async () => {
-    estado.gradoCentral++;
-    window.RenderEngine.setCargando(true);
-    await asegurarDatosGrado(estado.areaId, String(estado.gradoCentral + 1));
-    renderizar();
-    window.RenderEngine.setCargando(false);
-  };
-
-  if (btnCerrar) btnCerrar.onclick = cerrar;
+  document.getElementById('btn-cerrar-progresion').onclick = () => ov.classList.remove('mostrar-flex');
+  document.getElementById('prog-prev').onclick = async () => { est.gradoCentral--; window.RenderEngine.setCargando(true); await asegurarDatosGrado(est.areaId, est.gradoCentral - 1); renderizar(); window.RenderEngine.setCargando(false); };
+  document.getElementById('prog-next').onclick = async () => { est.gradoCentral++; window.RenderEngine.setCargando(true); await asegurarDatosGrado(est.areaId, est.gradoCentral + 1); renderizar(); window.RenderEngine.setCargando(false); };
 
   return { abrir };
 })();
-// END OF FILE: js/render-progresion.js | VERSION: v7.0 Stable
+// END OF FILE: js/render-progresion.js | VERSION: v7.5 Stable
