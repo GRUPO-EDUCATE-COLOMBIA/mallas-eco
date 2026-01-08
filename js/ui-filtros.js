@@ -1,4 +1,4 @@
-// FILE: js/ui-filtros.js | VERSION: v7.4 Stable
+// FILE: js/ui-filtros.js | VERSION: v7.5 Stable
 document.addEventListener('DOMContentLoaded', () => {
   const areaSel = document.getElementById('area');
   const gradoSel = document.getElementById('grado');
@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnBuscar = document.getElementById('btn-buscar');
   const btnProg = document.getElementById('btn-progresion');
   const btnTop = document.getElementById('btn-top');
-  
   const modal = document.getElementById('modal-notificacion');
   const modalMsg = document.getElementById('modal-mensaje');
   const btnCerrarModal = document.getElementById('btn-cerrar-modal');
@@ -15,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function mostrarError(mensaje) {
     modalMsg.textContent = mensaje;
     modal.classList.add('mostrar-flex');
+    window.RenderEngine.setCargando(false);
   }
 
   btnCerrarModal.onclick = () => modal.classList.remove('mostrar-flex');
@@ -45,40 +45,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
   periodoSel.addEventListener('change', async () => {
     if (!periodoSel.value) return;
-    
     window.RenderEngine.setCargando(true);
     
-    try {
-      const exito = await asegurarDatosGrado(areaSel.value, gradoSel.value);
+    const exito = await asegurarDatosGrado(areaSel.value, gradoSel.value);
+    
+    if (exito) {
+      const configArea = window.APP_CONFIG.AREAS[areaSel.value];
+      const llaveNormal = normalizarTexto(configArea.nombre);
+      const tipo = window.APP_CONFIG.TIPO_MALLA;
       
-      if (exito) {
-        const configArea = window.APP_CONFIG.AREAS[areaSel.value];
-        const llaveNormal = normalizarTexto(configArea.nombre);
-        const tipo = window.APP_CONFIG.TIPO_MALLA;
+      // PRUEBA DE ESCRITORIO: Acceso seguro a los datos normalizados
+      const dataGrado = window.MallasData[llaveNormal]?.[gradoSel.value]?.[tipo];
+      
+      if (dataGrado && dataGrado.periodos && dataGrado.periodos[periodoSel.value]) {
+        const items = dataGrado.periodos[periodoSel.value];
+        compSel.innerHTML = '<option value="todos">Todos</option>';
         
-        // PRUEBA DE ESCRITORIO: Recuperamos con la misma llave normalizada
-        const dataGrado = window.MallasData[llaveNormal]?.[gradoSel.value]?.[tipo];
+        const componentesUnicos = [...new Set(items.map(it => it.componente || it.competencia))];
+        componentesUnicos.forEach(n => {
+          if (n) {
+            const opt = document.createElement('option'); opt.value = n; opt.textContent = n;
+            compSel.appendChild(opt);
+          }
+        });
         
-        if (dataGrado && dataGrado.periodos && dataGrado.periodos[periodoSel.value]) {
-          const items = dataGrado.periodos[periodoSel.value];
-          compSel.innerHTML = '<option value="todos">Todos</option>';
-          [...new Set(items.map(it => it.componente || it.competencia))].forEach(n => {
-            if (n) {
-              const opt = document.createElement('option'); opt.value = n; opt.textContent = n; compSel.appendChild(opt);
-            }
-          });
-          compSel.disabled = false;
-          btnProg.disabled = false;
-        }
+        compSel.disabled = false;
+        btnProg.disabled = false;
       } else {
-        mostrarError("No se encontró el archivo principal de este grado.");
+        mostrarError("El periodo seleccionado no tiene datos en el archivo.");
       }
-    } catch (e) {
-      console.error("Error en flujo de filtros:", e);
-    } finally {
-      // PRUEBA DE ESCRITORIO: Pase lo que pase, el spinner se apaga aquí
-      window.RenderEngine.setCargando(false);
+    } else {
+      mostrarError("No se pudo cargar el archivo de este grado. Verifique su existencia.");
     }
+    window.RenderEngine.setCargando(false);
   });
 
   btnBuscar.addEventListener('click', () => {
@@ -92,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const malla = window.MallasData[llaveNormal]?.[gradoSel.value]?.[tipo];
 
     if (!malla) {
-      mostrarError("Los datos no están en memoria.");
+      mostrarError("Datos no disponibles.");
       return;
     }
 
@@ -105,23 +104,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   btnProg.addEventListener('click', async () => {
     window.RenderEngine.setCargando(true);
+    const g = parseInt(gradoSel.value);
+    const grados = [String(g)];
+    if (g > 1) grados.push(String(g - 1));
+    if (g < 11) grados.push(String(g + 1));
+    if (g <= 0) grados.push("-1", "0", "1");
     try {
-      const g = parseInt(gradoSel.value);
-      const grados = [String(g)];
-      if (g > 1) grados.push(String(g - 1));
-      if (g < 11) grados.push(String(g + 1));
-      if (g <= 0) grados.push("-1", "0", "1");
-
       await Promise.all(grados.map(gr => asegurarDatosGrado(areaSel.value, gr)));
       window.ProgresionMotor.abrir(window.APP_CONFIG.AREAS[areaSel.value].nombre, gradoSel.value, compSel.value);
-    } catch (e) {
+    } catch {
       mostrarError("Error al cargar la progresión.");
-    } finally {
-      window.RenderEngine.setCargando(false);
     }
+    window.RenderEngine.setCargando(false);
   });
 
   window.onscroll = () => { btnTop.style.display = (window.scrollY > 300) ? "block" : "none"; };
   btnTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-// END OF FILE: js/ui-filtros.js | VERSION: v7.4 Stable
+// END OF FILE: js/ui-filtros.js | VERSION: v7.5 Stable
