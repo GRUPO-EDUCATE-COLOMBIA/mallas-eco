@@ -1,121 +1,58 @@
-// FILE: js/ui-filtros.js | VERSION: v7.3 Stable
-document.addEventListener('DOMContentLoaded', () => {
-  const areaSel = document.getElementById('area');
-  const gradoSel = document.getElementById('grado');
-  const periodoSel = document.getElementById('periodo');
-  const compSel = document.getElementById('componente');
-  const btnBuscar = document.getElementById('btn-buscar');
-  const btnProg = document.getElementById('btn-progresion');
-  const btnTop = document.getElementById('btn-top');
-  
-  const modal = document.getElementById('modal-notificacion');
-  const modalMsg = document.getElementById('modal-mensaje');
-  const btnCerrarModal = document.getElementById('btn-cerrar-modal');
+// FILE: js/data-loader.js | VERSION: v7.5 Stable
+window.MallasData = {};
 
-  btnProg.disabled = true;
+/**
+ * PRUEBA DE ESCRITORIO - Función Única de Normalización
+ * "Matemáticas " -> "matematicas"
+ */
+window.normalizarTexto = function(texto) {
+    if (!texto) return "";
+    return texto.normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .toLowerCase()
+                .trim();
+};
 
-  function mostrarError(mensaje) {
-    modalMsg.textContent = mensaje;
-    modal.classList.add('mostrar-flex');
-  }
+async function asegurarDatosGrado(areaKey, grado) {
+  const config = window.APP_CONFIG;
+  const area = config.AREAS[areaKey];
+  const gradoStr = String(grado).trim();
+  const tipo = config.TIPO_MALLA;
 
-  btnCerrarModal.onclick = () => modal.classList.remove('mostrar-flex');
+  if (!area) return false;
 
-  areaSel.addEventListener('change', () => {
-    gradoSel.innerHTML = '<option value="">Seleccionar</option>';
-    if (areaSel.value) {
-      window.APP_CONFIG.GRADOS.forEach(g => {
-        const opt = document.createElement('option'); opt.value = g;
-        opt.textContent = g === "0" ? "Transición (0)" : (g === "-1" ? "Jardín (-1)" : g + "°");
-        gradoSel.appendChild(opt);
-      });
-      gradoSel.disabled = false;
-    }
-  });
+  const llaveArea = normalizarTexto(area.nombre);
+  const llaveEco = normalizarTexto(config.AREAS["proyecto-socioemocional"].nombre);
 
-  gradoSel.addEventListener('change', () => {
-    periodoSel.innerHTML = '<option value="">Seleccionar</option>';
-    if (gradoSel.value) {
-      const max = window.APP_CONFIG.TIPO_MALLA === "3_periodos" ? 3 : 4;
-      for (let i = 1; i <= max; i++) {
-        const opt = document.createElement('option'); opt.value = i; opt.textContent = `${i}° periodo`;
-        periodoSel.appendChild(opt);
-      }
-      periodoSel.disabled = false;
-    }
-  });
+  if (window.MallasData[llaveArea]?.[gradoStr]) return true;
 
-  // CORRECCIÓN CRÍTICA: Uso de llaves normalizadas
-  periodoSel.addEventListener('change', async () => {
-    if (!periodoSel.value) return;
-    window.RenderEngine.setCargando(true);
-    
-    const exito = await asegurarDatosGrado(areaSel.value, gradoSel.value);
-    
-    if (exito) {
-      const configArea = window.APP_CONFIG.AREAS[areaSel.value];
-      const llaveNormal = normalizarTexto(configArea.nombre);
-      const tipo = window.APP_CONFIG.TIPO_MALLA;
-      
-      const dataGrado = window.MallasData[llaveNormal]?.[gradoSel.value]?.[tipo];
-      
-      if (dataGrado && dataGrado.periodos && dataGrado.periodos[periodoSel.value]) {
-        const items = dataGrado.periodos[periodoSel.value];
-        compSel.innerHTML = '<option value="todos">Todos</option>';
-        [...new Set(items.map(it => it.componente || it.competencia))].forEach(n => {
-          if (n) {
-            const opt = document.createElement('option'); opt.value = n; opt.textContent = n; compSel.appendChild(opt);
-          }
-        });
-        compSel.disabled = false;
-        btnProg.disabled = false;
-      }
-    } else {
-      mostrarError("No se encontró el archivo principal de este grado.");
-    }
-    window.RenderEngine.setCargando(false);
-  });
+  const rutaBase = `data/${area.carpeta}/${area.prefijo}_${gradoStr}_${tipo}.json`;
+  const rutaTareas = `data/${area.carpeta}/tareas_dce/t_${area.prefijo}_${gradoStr}_${tipo}.json`;
+  const rutaEco = `data/${config.AREAS["proyecto-socioemocional"].carpeta}/${config.AREAS["proyecto-socioemocional"].prefijo}_${gradoStr}_${tipo}.json`;
 
-  btnBuscar.addEventListener('click', () => {
-    if (!areaSel.value || !gradoSel.value || !periodoSel.value) {
-      mostrarError("Seleccione Área, Grado y Periodo.");
-      return;
-    }
-    const config = window.APP_CONFIG.AREAS[areaSel.value];
-    const llaveNormal = normalizarTexto(config.nombre);
-    const tipo = window.APP_CONFIG.TIPO_MALLA;
-    const malla = window.MallasData[llaveNormal]?.[gradoSel.value]?.[tipo];
+  try {
+    const [resBase, resTareas, resEco] = await Promise.all([
+      fetch(rutaBase).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(rutaTareas).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(rutaEco).then(r => r.ok ? r.json() : null).catch(() => null)
+    ]);
 
-    if (!malla) {
-      mostrarError("Datos no disponibles en memoria.");
-      return;
+    if (!resBase) return false;
+
+    if (!window.MallasData[llaveArea]) window.MallasData[llaveArea] = {};
+    window.MallasData[llaveArea][gradoStr] = { [tipo]: resBase };
+
+    if (resTareas) {
+      const llaveDCE = `tareas_dce_${llaveArea}`;
+      if (!window.MallasData[llaveDCE]) window.MallasData[llaveDCE] = {};
+      window.MallasData[llaveDCE][gradoStr] = { [tipo]: resTareas };
     }
 
-    const items = malla.periodos[periodoSel.value] || [];
-    const filtrados = compSel.value === "todos" ? items : items.filter(it => (it.componente || it.competencia) === compSel.value);
-    
-    window.RenderEngine.renderizar(filtrados, areaSel.value, gradoSel.value, periodoSel.value);
-    document.getElementById('resultados-principal').classList.add('mostrar-block');
-  });
-
-  btnProg.addEventListener('click', async () => {
-    window.RenderEngine.setCargando(true);
-    const g = parseInt(gradoSel.value);
-    const grados = [String(g)];
-    if (g > 1) grados.push(String(g - 1));
-    if (g < 11) grados.push(String(g + 1));
-    if (g <= 0) grados.push("-1", "0", "1");
-
-    try {
-      await Promise.all(grados.map(gr => asegurarDatosGrado(areaSel.value, gr)));
-      window.ProgresionMotor.abrir(window.APP_CONFIG.AREAS[areaSel.value].nombre, gradoSel.value, compSel.value);
-    } catch {
-      mostrarError("Error al cargar secuencia de grados.");
+    if (resEco) {
+      if (!window.MallasData[llaveEco]) window.MallasData[llaveEco] = {};
+      window.MallasData[llaveEco][gradoStr] = { [tipo]: resEco };
     }
-    window.RenderEngine.setCargando(false);
-  });
-
-  window.onscroll = () => { btnTop.style.display = (window.scrollY > 300) ? "block" : "none"; };
-  btnTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-// END OF FILE: js/ui-filtros.js | VERSION: v7.3 Stable
+    return true;
+  } catch (e) { return false; }
+}
+// END OF FILE: js/data-loader.js | VERSION: v7.5 Stable
