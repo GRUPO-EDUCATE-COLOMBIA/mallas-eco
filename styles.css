@@ -46,13 +46,20 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
 .contenedor-herramientas-reporte { display: flex; justify-content: flex-end; margin-bottom: 1.5rem; }
 .btn-secundario { background: var(--eco-teal); color: white; padding: 12px 25px; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
 
-/* CARDS DE RESULTADOS */
-.item-malla { background: white; border-radius: 20px; overflow: hidden; margin-bottom: 4rem; border: 1px solid #e0e6ed; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
-.franja-titulo-principal { padding: 1.2rem; text-align: center; color: white; text-transform: uppercase; font-size: 1.8rem; font-weight: 700; }
-.item-malla-contenido { padding: 2rem 3.5rem; }
-.campo { margin-bottom: 1.5rem; }
-.campo strong { display: block; font-size: 1rem; color: #666; text-transform: uppercase; margin-bottom: 0.5rem; border-left: 4px solid #ddd; padding-left: 10px; }
+/* --- ANIMACIONES DE TRANSICIÓN (UX MEJORADA) --- */
+@keyframes fadeSlideIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
+.animar-entrada {
+  animation: fadeSlideIn 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+/* Ajuste sutil para que el scroll no quede pegado al borde superior */
+#resultados-principal {
+  scroll-margin-top: 20px;
+}
 /* FICHAS DOBLES */
 .contenedor-fichas-cierre { display: flex; flex-direction: column; gap: 20px; margin-top: 30px; border-top: 2px dashed #eee; padding-top: 30px; }
 .ficha-cierre { border-radius: 15px; overflow: hidden; border: 1px solid rgba(0,0,0,0.05); }
