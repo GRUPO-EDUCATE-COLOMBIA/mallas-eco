@@ -1,0 +1,111 @@
+{
+  "area": "Naturales",
+  "grado": "-1",
+  "nombre_archivo": "t_naturales_-1_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Exploración del medio",
+          "guia_didactica": {
+            "la_estrategia": "El Pequeño Explorador Sensorial",
+            "un_reto_sugerido": "Identificar tres objetos diferentes de la 'Caja de Sorpresas' usando solo el sentido del tacto y el olfato.",
+            "ruta_de_exploracion": {
+              "explorar": "Sesiones de masajes con diferentes texturas (suave, rugoso) y juegos frente al espejo para nombrar las partes de la cara.",
+              "visual": "Uso de lupas para observar los detalles de su propia piel y la de sus compañeros.",
+              "produccion": "Creación de un 'Mural de los Sentidos' utilizando materiales con olores y texturas diversas."
+            },
+            "para_pensar": [
+              "¿Para qué nos sirven los ojos cuando el salón está oscuro?",
+              "¿Por qué mi lengua sabe si algo es dulce o salado?"
+            ],
+            "pistas_del_exito": [
+              "Nombra correctamente al menos 4 partes principales de su cuerpo.",
+              "Distingue mediante el tacto entre un objeto liso y uno áspero."
+            ],
+            "un_refuerzo": "Actividades de reconocimiento corporal para preparar la lateralidad y los sentidos de Grado 0°."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Exploración del medio",
+          "guia_didactica": {
+            "la_estrategia": "Guardianes del Jardín Mágico",
+            "un_reto_sugerido": "Adoptar una planta del salón y descubrir qué necesita 'beber' y 'comer' para no enfermarse.",
+            "ruta_de_exploracion": {
+              "explorar": "Caminata por el colegio para buscar 'bichitos' y observar cómo se mueven las hojas de los árboles con el viento.",
+              "visual": "Clasificación de animales de juguete en dos cestas: 'los que viven conmigo' (domésticos) y 'los que viven lejos' (salvajes).",
+              "produccion": "Siembra de una semilla de fríjol y decoración de su propia maceta reciclada."
+            },
+            "para_pensar": [
+              "¿Las plantas duermen como nosotros?",
+              "¿Qué pasaría si los animales no tuvieran agua para beber?"
+            ],
+            "pistas_del_exito": [
+              "Identifica el agua y la luz como necesidades básicas de las plantas.",
+              "Imita el sonido y movimiento de al menos 3 animales diferentes."
+            ],
+            "un_refuerzo": "Experiencias de observación de la naturaleza como base para la clasificación de seres vivos de Transición."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Exploración del medio",
+          "guia_didactica": {
+            "la_estrategia": "Científicos del Agua y los Objetos",
+            "un_reto_sugerido": "Predecir qué objetos de una colección van a flotar en la tina y cuáles se irán al fondo como un ancla.",
+            "ruta_de_exploracion": {
+              "explorar": "Juegos con agua y hielo para sentir el cambio de temperatura y la forma del líquido.",
+              "visual": "Comparación de objetos pesados (una piedra) y livianos (una pluma) lanzándolos al aire para ver cómo caen.",
+              "produccion": "Construcción de barcos de papel o corcho para realizar una carrera en una bandeja con agua."
+            },
+            "para_pensar": [
+              "¿A dónde se fue el hielo cuando se puso caliente?",
+              "¿Por qué el barco no se hunde si es más grande que una moneda?"
+            ],
+            "pistas_del_exito": [
+              "Predice correctamente si un objeto es 'pesado' o 'liviano' antes de cargarlo.",
+              "Reconoce el estado sólido (hielo) y líquido del agua por el tacto."
+            ],
+            "un_refuerzo": "Introducción a la experimentación de causa-consecuencia para los retos científicos de Grado 0°."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Exploración del medio",
+          "guia_didactica": {
+            "la_estrategia": "Amigos de la Tierra y el Cielo",
+            "un_reto_sugerido": "Separar los residuos de la merienda en 'papel' y 'no papel' y explicar qué sale en el cielo cuando dormimos.",
+            "ruta_de_exploracion": {
+              "explorar": "Observación del cielo en diferentes momentos del día para identificar el Sol, las nubes y la Luna.",
+              "visual": "Uso de pictogramas para registrar si el día está soleado, lluvioso o ventoso.",
+              "produccion": "Jornada de limpieza del aula y creación de juguetes usando cajas de cartón reutilizadas."
+            },
+            "para_pensar": [
+              "¿A dónde se va el Sol cuando nosotros nos vamos a dormir?",
+              "¿Por qué es importante no botar basura en el patio de juegos?"
+            ],
+            "pistas_del_exito": [
+              "Diferencia visualmente las actividades que se hacen de día y las de noche.",
+              "Identifica los recipientes de basura correctos para los desechos comunes del salón."
+            ],
+            "un_refuerzo": "Fomento de hábitos ecológicos y nociones temporales como cierre del proceso de Jardín."
+          }
+        }
+      ]
+    }
+  ]
+}
