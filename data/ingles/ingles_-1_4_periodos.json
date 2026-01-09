@@ -6,7 +6,7 @@
   "periodos": {
     "1": [
       {
-        "Componente": "Escucha",
+        "componente": "Escucha",
         "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra.",
         "dba": [
           "DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Stand up, Sit down)."
@@ -27,7 +27,7 @@
         "fuente": null
       },
       {
-        "Componente": "Monólogo",
+        "componente": "Monólogo",
         "estandar": "Imito sonidos y palabras cortas con ayuda del docente. Intento repetir estribillos de canciones muy sencillas.",
         "dba": [
           "DBA 3: Reproduce por imitación palabras muy familiares (colores básicos y miembros de la familia)."
@@ -49,7 +49,7 @@
         "fuente": null
       },
       {
-        "Componente": "Conversación",
+        "componente": "Conversación",
         "estandar": "Respondo con gestos a saludos y preguntas de sí/no. Participo en rondas y juegos grupales respetando el turno.",
         "dba": [
           "DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
@@ -72,7 +72,7 @@
     ],
     "2": [
       {
-        "Componente": "Escucha",
+        "componente": "Escucha",
         "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra.",
         "dba": [
           "DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Up, Down)."
@@ -95,7 +95,7 @@
         "fuente": null
       },
       {
-        "Componente": "Monólogo",
+        "componente": "Monólogo",
         "estandar": "Imito sonidos y palabras cortas con ayuda del docente. Intento repetir estribillos de canciones muy sencillas.",
         "dba": [
           "DBA 3: Reproduce por imitación palabras muy familiares (emociones básicas y colores)."
@@ -118,7 +118,7 @@
         "fuente": null
       },
       {
-        "Componente": "Conversación",
+        "componente": "Conversación",
         "estandar": "Respondo con gestos a saludos y preguntas de sí/no. Participo en rondas y juegos grupales respetando el turno.",
         "dba": [
           "DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
@@ -143,7 +143,7 @@
     ],
     "3": [
       {
-        "Componente": "Escucha",
+        "componente": "Escucha",
         "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra.",
         "dba": [
           "DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Pick up, Clean)."
@@ -169,7 +169,7 @@
         "fuente": null
       },
       {
-        "Componente": "Monólogo",
+        "componente": "Monólogo",
         "estandar": "Imito sonidos y palabras cortas con ayuda del docente. Intento repetir estribillos de canciones muy sencillas.",
         "dba": [
           "DBA 3: Reproduce por imitación palabras muy familiares (animales comunes y elementos del paisaje)."
@@ -195,7 +195,7 @@
         "fuente": null
       },
       {
-        "Componente": "Conversación",
+        "componente": "Conversación",
         "estandar": "Respondo con gestos a saludos y preguntas de sí/no. Participo en rondas y juegos grupales respetando el turno.",
         "dba": [
           "DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
@@ -223,7 +223,7 @@
     ],
     "4": [
       {
-        "Componente": "Escucha",
+        "componente": "Escucha",
         "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra.",
         "dba": [
           "DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Stop, Go, Listen)."
@@ -248,7 +248,7 @@
         "fuente": null
       },
       {
-        "Componente": "Monólogo",
+        "componente": "Monólogo",
         "estandar": "Imito sonidos y palabras cortas con ayuda del docente. Intento repetir estribillos de canciones muy sencillas.",
         "dba": [
           "DBA 3: Reproduce por imitación palabras muy familiares (miembros de la familia y profesiones básicas)."
@@ -273,7 +273,7 @@
         "fuente": null
       },
       {
-        "Componente": "Conversación",
+        "componente": "Conversación",
         "estandar": "Respondo con gestos a saludos y preguntas de sí/no. Participo en rondas y juegos grupales respetando el turno.",
         "dba": [
           "DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
