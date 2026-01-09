@@ -6,10 +6,10 @@
   "periodos": {
     "1": [
       {
-        "componente": "exploración del medio",
+        "componente": "Exploración del medio",
         "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-13: Usa diferentes herramientas y objetos con variadas posibilidades."
+          "(exploración del medio) DBA-0-Prop.3-13: Usa diferentes herramientas y objetos con variadas posibilidades."
         ],
         "evidencias": [
           "DBA-0-Prop.3-13-EV-3: Identifica características de las cosas que encuentra a su alrededor y se pregunta sobre cómo funcionan."
@@ -19,16 +19,15 @@
         ],
         "socioemocional": null,
         "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Exploración del Medio: Taller de texturas y olores (caja de misterio). Juegos de clasificación por textura. (D-2247). Articulación con Grado 1°: Prepara la Caracterización de Objetos por Sentidos (DBA 1 de M-1° Naturales). Criterios de Evaluación Formativa: ¿El vocabulario descriptivo incluye al menos 3 adjetivos sensoriales? ¿La exploración es activa?",
         "fuente": null
       }
     ],
     "2": [
       {
-        "componente": "exploración del medio",
+        "componente": "Exploración del medio",
         "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-15: Compara, ordena, clasifica objetos e identifica patrones de acuerdo con diferentes criterios."
+          "(exploración del medio) DBA-0-Prop.3-15: Compara, ordena, clasifica objetos e identifica patrones de acuerdo con diferentes criterios."
         ],
         "evidencias": [
           "DBA-0-Prop.3-15-EV-3: Clasifica colecciones de objetos de acuerdo a sus atributos (por la funcionalidad, por el sabor, por la tonalidad, por el peso, entre otras)."
@@ -39,16 +38,15 @@
         ],
         "socioemocional": null,
         "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Exploración del Medio y Juego: Retos de clasificación con materiales de la naturaleza (piedras, hojas). Comparación lúdica de materiales. Articulación con Grado 1°: Prepara la Clasificación Formal de Seres Vivos/Inertes (DBA 3 de M-1° Naturales). Criterios de Evaluación Formativa: ¿El niño aplica los criterios de vida (crece, come) para clasificar? ¿Distingue más de 3 tipos de materiales?",
         "fuente": null
       }
     ],
     "3": [
       {
-        "componente": "exploración del medio",
+        "componente": "Exploración del medio",
         "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-12: Establece relaciones entre las causas y consecuencias de los acontecimientos que le suceden a él o a su alrededor."
+          "(exploración del medio) DBA-0-Prop.3-12: Establece relaciones entre las causas y consecuencias de los acontecimientos que le suceden a él o a su alrededor."
         ],
         "evidencias": [
           "DBA-0-Prop.3-12-EV-2: Realiza preguntas de temas que son de su interés.",
@@ -60,16 +58,15 @@
         ],
         "socioemocional": null,
         "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Exploración del Medio: Proyecto de siembra (experimento). Registro de observaciones de crecimiento. Articulación con Grado 1°: Prepara las Habilidades de Indagación (Planteamiento de preguntas) y el Registro de Observaciones necesarias para los laboratorios de 1°. (M-1° Naturales). Criterios de Evaluación Formativa: ¿El niño formula una pregunta verificable? ¿El dibujo de registro muestra los cambios observados?",
         "fuente": null
       }
     ],
     "4": [
       {
-        "componente": "exploración del medio",
+        "componente": "Exploración del medio",
         "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-13: Usa diferentes herramientas y objetos con variadas posibilidades."
+          "(exploración del medio) DBA-0-Prop.3-13: Usa diferentes herramientas y objetos con variadas posibilidades."
         ],
         "evidencias": [
           "DBA-0-Prop.3-13-EV-1: Arma, desarma y transforma objetos de su entorno para descubrir, comprender su funcionamiento y darle otros usos según sus intereses o necesidades."
@@ -80,7 +77,6 @@
         ],
         "socioemocional": null,
         "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Prepara la Selección de Materiales (DBA 2 de M-1° Naturales), un contenido clave para el 4° Periodo de 1°. (M-1° Naturales). Articulación con Grado 1°: Se evalúa si el niño justifica la elección de un material basándose en su propiedad. Criterios de Evaluación Formativa: ¿El niño formula una pregunta verificable? ¿El dibujo de registro muestra los cambios observados? (IDiC)",
         "fuente": null
       }
     ]
