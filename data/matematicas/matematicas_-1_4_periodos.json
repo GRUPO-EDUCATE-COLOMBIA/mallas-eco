@@ -1,34 +1,23 @@
 {
-  "area": "matematicas",
-  "grado": "-1",
+  "area": "Matemáticas",
+  "grado": "0",
   "tipo_malla": "4_periodos",
   "numero_periodos": 4,
   "periodos": {
     "1": [
       {
-        "habilidad": "Cardinalidad y Conteo\nInicial",
-        "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender;\nexploran y se relacionan con el mundo para\ncomprenderlo y construirlo. [P3]",
+        "componente": "Lógico - matemáticas",
+        "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-16: Determina la cantidad",
-          "de objetos que conforman una colección,",
-          "al establecer relaciones de",
-          "correspondencia y acciones de juntar y",
-          "separar."
+          "(Lógico - matemáticas) DBA-0-Prop.3-16: Determina la cantidad de objetos que conforman una colección, al establecer relaciones de correspondencia y acciones de juntar y separar."
         ],
         "evidencias": [
-          "DBA-0-Prop.3-16-EV-1: Determina cuántos objetos",
-          "conforman una colección a partir de: la percepción",
-          "global, la enumeración y la correspondencia uno a",
-          "uno."
+          "DBA-0-Prop.3-16-EV-1: Determina cuántos objetos conforman una colección a partir de: la percepción global, la enumeración y la correspondencia uno a uno."
         ],
         "saberes": [
-          "Conteo Memorístico (1-10).",
-          "Correspondencia 1:1. Reconocimiento",
-          "de pocos/muchos."
+          "Números: Reconocimiento de la grafía y cantidad (1-10).",
+          "Clasificación: Un atributo."
         ],
-        "sugerencias_metodologicas": "Juego y Rutinas (D-2247): 1. Conteo Funcional: Contar\nlos niños en la fila, los pasos, los dedos (1-5, con apoyo).\n2. Material Concreto: Juegos para establecer\ncorrespondencia 1:1 entre objetos (un plato para cada\namigo).\n3. Rondas: Canciones de conteo (Base para el ritmo\nnumérico).",
-        "articulacion_grado_0": "Habilidad Fundacional: Base\ndel Conteo Funcional y\nla Correspondencia 1:1. (Prerrequisito\npara lograr el DBA-0-Prop.3-16\nconsolidado en Transición).",
-        "criterios_evaluacion_formativa": null,
         "socioemocional": null,
         "diccionario": null,
         "fuente": null
@@ -36,29 +25,19 @@
     ],
     "2": [
       {
-        "habilidad": "Clasificación y Seriación\nBásica",
-        "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender;\nexploran y se relacionan con el mundo para\ncomprenderlo y construirlo. [P3]",
+        "componente": "Lógico - matemáticas",
+        "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-15: Compara, ordena,",
-          "clasifica objetos e identifica patrones de",
-          "acuerdo con diferentes criterios."
+          "(Lógico - matemáticas) DBA-0-Prop.3-15: Compara, ordena, clasifica objetos e identifica patrones de acuerdo con diferentes criterios."
         ],
         "evidencias": [
-          "DBA-0-Prop.3-15-EV-3: Clasifica colecciones de",
-          "objetos de acuerdo a sus atributos (por la",
-          "funcionalidad, por el color, la forma). DBA-0-Prop.3-",
-          "15-EV-1: Identifica el patrón que conforma una",
-          "secuencia y puede continuarla."
+          "DBA-0-Prop.3-15-EV-3: Clasifica colecciones de objetos de acuerdo a sus atributos (por la funcionalidad, por el sabor, por la tonalidad, por el peso, entre otras).",
+          "DBA-0-Prop.3-15-EV-1: Identifica el patrón que conforma una secuencia (pollo-gato-pollo) y puede continuarla (pollo-gato-pollo-gato)."
         ],
         "saberes": [
-          "Clasificación Unidimensional (un solo",
-          "criterio). Patrones ABAB (dos",
-          "elementos). Seriación por",
-          "longitud/altura (simple)."
+          "Lógica: Clasificación por Doble Atributo. Patrones de repetición.",
+          "Espacial: Figuras geométricas 2D. Relación grafía-cantidad hasta 15."
         ],
-        "sugerencias_metodologicas": "Exploración del Medio y Arte (D-2247): 1. Rincones\nClasificadores: Agrupar materiales (botones, hojas,\nbloques) por un solo atributo elegido por el niño. 2.\nMural de Patrones: Crear murales o collares con\npatrones sencillos (Ej. color-color-forma-forma). 3. Juego\nde Clasificación: Usar cestas rotuladas para separar\njuguetes por tipo o color.",
-        "articulacion_grado_0": "Habilidad Fundacional: Establecer la\nbase para la Clasificación por Múltiples\nAtributos y la Seriación Compleja (DBA-\n0-Prop.3-15 en Transición).",
-        "criterios_evaluacion_formativa": null,
         "socioemocional": null,
         "diccionario": null,
         "fuente": null
@@ -66,29 +45,19 @@
     ],
     "3": [
       {
-        "habilidad": "Resolución de Problemas\n(Acciones)",
-        "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender;\nexploran y se relacionan con el mundo para\ncomprenderlo y construirlo. [P3]",
+        "componente": "Lógico - matemáticas",
+        "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-16: Determina la cantidad",
-          "de objetos que conforman una colección,",
-          "al establecer relaciones de",
-          "correspondencia y acciones de juntar y",
-          "separar."
+          "(Lógico - matemáticas) DBA-0-Prop.3-16: Determina la cantidad de objetos que conforman una colección, al establecer relaciones de correspondencia y acciones de juntar y separar."
         ],
         "evidencias": [
-          "DBA-0-Prop.3-16-EV-3: Comprende situaciones que",
-          "implican agregar y quitar, y propone procedimientos",
-          "basados en la manipulación de objetos concretos o",
-          "representaciones gráficas."
+          "DBA-0-Prop.3-16-EV-3: Comprende situaciones que implican agregar y quitar, y propone procedimientos basados en la manipulación de objetos concretos o representaciones gráficas.",
+          "DBA-0-Prop.3-14-EV-1: Mide objetos utilizando patrones de medida no convencionales (número de pasos que hay entre un lugar y otro, la palma de la mano, lanas, cordones, recipientes, entre otros)."
         ],
         "saberes": [
-          "Lenguaje pre-aditivo (poner, quitar,",
-          "dar). Noción de cambio de cantidad",
-          "(aumentar/disminuir)."
+          "Operaciones: Conceptos de 'juntar', 'quitar' (Pre-Álgebra).",
+          "Medición: Unidades no estandarizadas y comparación de magnitudes (longitud, peso)."
         ],
-        "sugerencias_metodologicas": "Juego Dramático y Construcción (D-2247): 1. Retos de la\nTienda/Cocina: Resolver problemas sencillos usando el\nlenguaje natural y la manipulación de 1 a 3 objetos. 2.\nJuego de Construcción: Retos donde se \"agreguen\" o\n\"quiten\" bloques para lograr un equilibrio o una\nestructura específica. 3. Literatura: Cuentos o rimas\nsobre cambios de cantidad.",
-        "articulacion_grado_0": "Habilidad Fundacional: Introducción\ndel Lenguaje Lógico y la Manipulación\nConcreta. (Prerrequisito para la\nformalización de Problemas Aditivos\nPrecursores en Transición).",
-        "criterios_evaluacion_formativa": null,
         "socioemocional": null,
         "diccionario": null,
         "fuente": null
@@ -96,29 +65,19 @@
     ],
     "4": [
       {
-        "habilidad": "Pensamiento Espacial y\nTemporal Básico",
-        "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender;\nexploran y se relacionan con el mundo para\ncomprenderlo y construirlo. [P3]",
+        "componente": "Lógico - matemáticas",
+        "estandar": "Prop. 3: Las niñas y los niños disfrutan aprender; exploran y se relacionan con el mundo para comprenderlo y construirlo.",
         "dba": [
-          "DBA-0-Prop.3-14: Construye nociones de",
-          "espacio, tiempo y medida a través de",
-          "experiencias cotidianas."
+          "(Lógico - matemáticas) DBA-0-Prop.3-16: Determina la cantidad de objetos que conforman una colección, al establecer relaciones de correspondencia y acciones de juntar y separar."
         ],
         "evidencias": [
-          "DBA-0-Prop.3-14-EV-4: Reconoce y establece",
-          "relaciones espaciales a partir de su cuerpo (arriba-",
-          "abajo, dentro-fuera, delante-detrás). DBA-0-Prop.3-",
-          "14-EV-2: Reconoce el antes, el ahora y el después de",
-          "un evento."
+          "DBA-0-Prop.3-16-EV-2: Compara colecciones de objetos y determina: ¿cuántos hay?, ¿en dónde hay más?, ¿en dónde hay menos?, ¿cuántos hacen falta para tener la misma cantidad?, ¿cuántos le sobran?, entre otras."
         ],
         "saberes": [
-          "Ubicación Espacial Básica (Referencia",
-          "al propio cuerpo). Secuencia",
-          "Temporal (rutinas de clase,",
-          "día/noche)."
+          "Síntesis: Conteo avanzado (hasta 30).",
+          "Estadística: Tablas de frecuencia simple (Aleatorio).",
+          "Prueba de Madurez."
         ],
-        "sugerencias_metodologicas": "Exploración y Juego Corporal (D-2247): 1. Juegos de\nUbicación: Rondas que exijan movimiento según\nreferentes corporales (saltar arriba de la línea,\ngatear debajo de la mesa). 2. Horario Visual: Uso de\npictogramas para secuenciar las rutinas del día,\nafianzando el concepto de \"antes/después\". 3.\nLiteratura: Cuentos que sigan una secuencia temporal\nclara.",
-        "articulacion_grado_0": "Habilidad Fundacional: Base de\nla Ubicación Espacial y la Noción\nTemporal Simple. (Prerrequisito",
-        "criterios_evaluacion_formativa": null,
         "socioemocional": null,
         "diccionario": null,
         "fuente": null
