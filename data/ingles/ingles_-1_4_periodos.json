@@ -1,0 +1,68 @@
+{
+  "area": "ingles",
+  "grado": "-1",
+  "tipo_malla": "4_periodos",
+  "numero_periodos": 4,
+  "periodos": {
+    "": [
+      {
+        "habilidad": "",
+        "estandar": "",
+        "dba": [],
+        "evidencias": [],
+        "saberes": [],
+        "sugerencias_metodologicas": "",
+        "articulacion_grado_0": "",
+        "criterios_evaluacion_formativa": "",
+        "socioemocional": null,
+        "diccionario": null,
+        "fuente": null
+      }
+    ],
+    "113313413": [
+      {
+        "habilidad": "",
+        "estandar": "",
+        "dba": [],
+        "evidencias": [],
+        "saberes": [],
+        "sugerencias_metodologicas": "",
+        "articulacion_grado_0": "",
+        "criterios_evaluacion_formativa": "",
+        "socioemocional": null,
+        "diccionario": null,
+        "fuente": null
+      }
+    ],
+    "0": [
+      {
+        "habilidad": "",
+        "estandar": "",
+        "dba": [],
+        "evidencias": [],
+        "saberes": [],
+        "sugerencias_metodologicas": "",
+        "articulacion_grado_0": "",
+        "criterios_evaluacion_formativa": "",
+        "socioemocional": null,
+        "diccionario": null,
+        "fuente": null
+      }
+    ],
+    "5": [
+      {
+        "habilidad": "",
+        "estandar": "",
+        "dba": [],
+        "evidencias": [],
+        "saberes": [],
+        "sugerencias_metodologicas": "",
+        "articulacion_grado_0": "",
+        "criterios_evaluacion_formativa": "",
+        "socioemocional": null,
+        "diccionario": null,
+        "fuente": null
+      }
+    ]
+  }
+}
