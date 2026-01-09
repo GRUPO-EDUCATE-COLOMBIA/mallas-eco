@@ -1,0 +1,85 @@
+{
+  "area": "matematicas",
+  "grado": "-1",
+  "nombre_archivo": "t_matematicas_-1_3_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Lógico - matemáticas",
+          "guia_didactica": {
+            "la_estrategia": "El Festival del Conteo y los Pasos",
+            "un_reto_sugerido": "Repartir materiales de forma que a cada compañero le toque exactamente uno y contar rítmicamente hasta el 5 en la fila.",
+            "ruta_de_exploracion": {
+              "explorar": "Conteo funcional en la rutina diaria: contar los dedos, los pasos hacia el patio y los amigos presentes (con apoyo docente).",
+              "visual": "Uso de material concreto para establecer correspondencia 1:1, como poner un plato para cada juguete en un picnic simbólico.",
+              "produccion": "Canto de rondas y canciones de conteo que refuercen la memoria numérica y el ritmo del 1 al 10."
+            },
+            "para_pensar": [
+              "¿Cómo sabemos si tenemos suficientes galletas para todos los amigos de la mesa?",
+              "¿Qué número sigue después del tres cuando estamos saltando?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante logra asignar un número a cada objeto sin repetir ni saltarse elementos en grupos pequeños.",
+              "Identifica visualmente dónde hay 'pocos' y dónde hay 'muchos' objetos."
+            ],
+            "un_refuerzo": "Practicar el conteo funcional para asegurar la base de correspondencia requerida en Grado 0°."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Lógico - matemáticas",
+          "guia_didactica": {
+            "la_estrategia": "Exploradores de Formas y Collares Mágicos",
+            "un_reto_sugerido": "Clasificar los bloques del salón por un solo color y crear un patrón rítmico de dos elementos (ABAB).",
+            "ruta_de_exploracion": {
+              "explorar": "Rincones clasificadores: agrupar materiales de la naturaleza o del aula siguiendo un solo atributo (color o forma).",
+              "visual": "Creación de murales o collares con patrones sencillos de dos elementos usando sellos o cuentas de colores.",
+              "produccion": "Uso de cestas rotuladas para organizar el aula, separando juguetes por tipo para fortalecer la seriación simple."
+            },
+            "para_pensar": [
+              "¿Por qué este bloque no pertenece al grupo de los rojos?",
+              "¿Qué color debemos poner ahora para que el collar siga igual?"
+            ],
+            "pistas_del_exito": [
+              "Agrupa objetos de forma consistente bajo un solo criterio elegido.",
+              "Logra continuar una secuencia lógica de dos elementos de forma independiente."
+            ],
+            "un_refuerzo": "Fortalecer la base de clasificación unidimensional para preparar la clasificación por múltiples atributos de Transición."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Lógico - matemáticas",
+          "guia_didactica": {
+            "la_estrategia": "Pequeños Solucionadores en el Tiempo y el Espacio",
+            "un_reto_sugerido": "Resolver retos de 'poner y quitar' bloques en una torre y seguir un circuito de obstáculos usando el cuerpo.",
+            "ruta_de_exploracion": {
+              "explorar": "Juegos de ubicación corporal: saltar arriba/abajo de líneas y gatear dentro/fuera de túneles.",
+              "visual": "Uso de un horario visual con pictogramas para identificar qué pasó 'antes' y qué pasará 'después' en la jornada.",
+              "produccion": "Retos en el rincón de construcción o tienda para resolver problemas de agregar o quitar de 1 a 3 objetos."
+            },
+            "para_pensar": [
+              "¿Si quitamos dos bloques, la torre se vuelve más alta o más bajita?",
+              "¿Qué hicimos hoy después de desayunar y antes de salir al recreo?"
+            ],
+            "pistas_del_exito": [
+              "Establece relaciones espaciales tomando su propio cuerpo como punto de referencia.",
+              "Utiliza lenguaje pre-aditivo (poner, dar, quitar) para explicar cambios en una colección."
+            ],
+            "un_refuerzo": "Validar la noción temporal y la manipulación concreta de cantidades como cierre del proceso hacia el Grado 0°."
+          }
+        }
+      ]
+    }
+  ]
+}
