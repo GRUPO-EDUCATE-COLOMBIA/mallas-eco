@@ -6,110 +6,50 @@
   "periodos": {
     "1": [
       {
-        "componente": "Escucha",
-        "estandar": "Reconozco cuando me hablan en inglés y reacciono de manera no verbal. Entiendo cuando me saludan y se despiden de mí. Comprendo rondas infantiles y lo demuestro con gestos y movimientos.",
+        "componente": "Comunicativo Integrado",
+        "estandar": "Reconozco cuando me hablan en inglés y reacciono de manera no verbal. Entiendo cuando me saludan y se despiden de mí. Comprendo rondas infantiles y lo demuestro con gestos y movimientos. Recito y canto rondas infantiles que comprendo. Participo activamente en juegos de palabras.",
         "dba": [
-          "DBA 1: Reconoce instrucciones sencillas relacionadas con su entorno inmediato y responde a ellas de manera no verbal.",
-          "DBA 2: Asocia imágenes con sonidos de palabras relacionadas con su casa y salón de clase."
+          "(Escucha) DBA 1: Reconoce instrucciones sencillas relacionadas con su entorno inmediato y responde a ellas de manera no verbal.",
+          "(Escucha) DBA 2: Asocia imágenes con sonidos de palabras relacionadas con su casa y salón de clase.",
+          "(Monólogo) DBA 3: Identifica y reproduce palabras familiares sobre su entorno inmediato (casa y salón de clase).",
+          "(Conversación) DBA 4: Responde a preguntas muy sencillas sobre sus datos personales tales como su nombre, edad y su familia."
         ],
         "evidencias": [
           "Identifica y señala partes del cuerpo y la cara al escucharlas en canciones.",
           "Reacciona ante comandos de movimiento (jump, run, sit down).",
-          "Relaciona el sonido de colores y formas con objetos reales."
-        ],
-        "saberes": [
-          "Vocabulario: Face (eyes, mouth, nose), Body (head, shoulders, knees, toes), Toys (ball, doll, car), Colors (yellow, blue, red), Shapes (circle, triangle, square), Numbers 1-5. Actions (push, pull, jump, run). Gramática: Hello, My name is... I am a boy/girl. Where is...?"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Exploración del medio: Carrera de obstáculos siguiendo instrucciones auditivas. Juego: \"Simon Says\" (Simón dice) para identificar partes del cuerpo y acciones físicas. Articulación con Grado 1°: Prepara la identificación de instrucciones de clase y comandos básicos del entorno escolar (DBA 1 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante reacciona físicamente ante el comando escuchado? ¿Señala correctamente la imagen de la parte del cuerpo mencionada?",
-        "fuente": null
-      },
-      {
-        "componente": "Monólogo",
-        "estandar": "Recito y canto rondas infantiles que comprendo, con ritmo y entonación adecuados. Nombro sentimientos y estados de ánimo a partir de imágenes.",
-        "dba": [
-          "DBA 3: Identifica y reproduce palabras familiares sobre su entorno inmediato (casa y salón de clase)."
-        ],
-        "evidencias": [
+          "Relaciona el sonido de colores y formas con objetos reales.",
           "Pronuncia los nombres de las partes del cuerpo y la cara.",
           "Nombra sus juguetes favoritos y colores básicos.",
-          "Se presenta a sí mismo diciendo su nombre y género de forma oral."
-        ],
-        "saberes": [
-          "Vocabulario: Face (eyes, mouth, nose), Body (head, shoulders, knees, toes), Toys (ball, doll, car), Colors (yellow, blue, red), Shapes (circle, triangle, square), Numbers 1-5. Actions (push, pull, jump, run). Gramática: Hello, My name is... I am a boy/girl. My favorite toy is..."
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Arte: Proyecto \"The Castañeda alien family\" (Poster gigante) donde el niño describe oralmente las partes del cuerpo de su alien. Literatura: Canto de rimas y canciones como \"Head, shoulders, knees and toes\". Articulación con Grado 1°: Prepara la Descripción oral de características personales y objetos de su entorno (DBA 3 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante reproduce sonidos del inglés con entonación adecuada? ¿Usa el vocabulario aprendido para describir su poster o juguete?",
-        "fuente": null
-      },
-      {
-        "componente": "Conversación",
-        "estandar": "Participo activamente en juegos de palabras y rondas. Respondo a saludos y despedidas. Utilizo el lenguaje no verbal cuando no puedo responder verbalmente... asintiendo o negando.",
-        "dba": [
-          "DBA 4: Responde a preguntas muy sencillas sobre sus datos personales tales como su nombre, edad y su familia."
-        ],
-        "evidencias": [
+          "Se presenta a sí mismo diciendo su nombre y género de forma oral.",
           "Responde a saludos iniciales (Good Morning, Hello) y despedidas (Bye).",
           "Participa en diálogos cortos intercambiando juguetes con sus pares.",
           "Responde con gestos o palabras cortas a preguntas sobre sus gustos."
         ],
         "saberes": [
-          "Vocabulario: Face (eyes, mouth, nose), Body (head, shoulders, knees, toes), Toys (ball, doll, car), Colors (yellow, blue, red), Shapes (circle, triangle, square), Numbers 1-5. Actions (push, pull, jump, run). Gramática: Hello/Bye. My favorite game is... Where is...? It is a (circle)."
+          "Vocabulario: Face (eyes, mouth, nose), Body (head, shoulders, knees, toes), Toys (ball, doll, car), Colors (yellow, blue, red), Shapes (circle, triangle, square), Numbers 1-5. Actions (push, pull, jump, run). Gramática: Hello, My name is... I am a boy/girl. Where is...? My favorite toy is... Hello/Bye. My favorite game is... It is a (circle)."
         ],
         "socioemocional": null,
         "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Juego: \"Hot Potato\" (Tingo Tango) para responder preguntas rápidas al quedar con el juguete. Interacción: Juego de roles por parejas para saludarse y preguntarse por el juguete del compañero. Articulación con Grado 1°: Prepara la Interacción básica y respuesta a preguntas personales en contextos de comunicación real (DBA 2 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante interactúa con sus compañeros usando saludos básicos? ¿Mantiene el interés en juegos colectivos siguiendo las normas?",
         "fuente": null
       }
     ],
     "2": [
       {
-        "componente": "Escucha",
-        "estandar": "Reconozco cuando me hablan en inglés y reacciono de manera no verbal. Reconozco que hay otras personas como yo que se comunican en inglés. Entiendo cuando me saludan y se despiden de mí. Comprendo rondas infantiles y lo demuestro con gestos y movimientos.",
+        "componente": "Comunicativo Integrado",
+        "estandar": "Reconozco cuando me hablan en inglés y reacciono de manera no verbal. Entiendo cuando me saludan y se despiden de mí. Nombro sentimientos y estados de ánimo a partir de imágenes. Participo activamente en juegos de palabras y rondas.",
         "dba": [
-          "DBA 1: Reconoce instrucciones sencillas relacionadas con su entorno inmediato y responde de manera no verbal. DBA 2: Asocia imágenes con sonidos de palabras relacionadas con su casa y salón de clases de manera no verbal."
+          "(Escucha) DBA 1: Reconoce instrucciones sencillas relacionadas con su entorno inmediato y responde de manera no verbal.",
+          "(Escucha) DBA 2: Asocia imágenes con sonidos de palabras relacionadas con su casa y salón de clases de manera no verbal.",
+          "(Monólogo) DBA 3: Identifica y reproduce palabras familiares sobre su entorno inmediato (casa y salón de clase).",
+          "(Conversación) DBA 4: Responde a preguntas muy sencillas sobre sus datos personales tales como su nombre, edad y su familia."
         ],
         "evidencias": [
           "Identifica estados de ánimo al escuchar rimas y cuentos.",
           "Reacciona físicamente ante comandos de posición (Up, Down).",
-          "Asocia el sonido de nuevos colores (green, orange, purple) con imágenes."
-        ],
-        "saberes": [
-          "Adjetivos: Happy, excited, surprised, sad, scared, tired. Colores: Yellow, blue, red, green, orange, purple. Posiciones: Up, down. Números: 1-20. Gramática: Are you...? Yes, I am, No, I'm not. How are you?, How do you feel?, I feel..."
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Literatura: Lectura del cuento \"The Color Monster\" con apoyo visual. Juego: Bingo y Lotería de emociones para asociar sonido e imagen. Exploración: Seguimiento de secuencias de eventos en historias sencillas. Articulación con Grado 1°: Prepara la identificación de descripciones físicas y estados emocionales básicos en textos orales (DBA 1 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante identifica la emoción correcta al escuchar el vocabulario? ¿Sigue instrucciones de posición y movimiento durante las rondas?",
-        "fuente": null
-      },
-      {
-        "componente": "Monólogo",
-        "estandar": "Recito y canto rondas infantiles que comprendo, con ritmo y entonación adecuados. Nombro sentimientos y estados de ánimo a partir de imágenes.",
-        "dba": [
-          "DBA 3: Identifica y reproduce palabras familiares sobre su entorno inmediato (casa y salón de clase)."
-        ],
-        "evidencias": [
+          "Asocia el sonido de nuevos colores (green, orange, purple) con imágenes.",
           "Nombra estados de ánimo usando tarjetas o dibujos.",
           "Pronuncia oraciones cortas sobre cómo se siente (I am happy).",
-          "Describe materiales (playdough, clay, paper) usados en clase."
-        ],
-        "saberes": [
-          "Adjetivos: Happy, excited, surprised, sad, scared, tired. Colores: Yellow, blue, red, green, orange, purple. Posiciones: Up, down. Números: 1-20. Gramática: Are you...? Yes, I am, No, I'm not. How are you?, How do you feel?, I feel..."
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Arte: Creación de \"Mi álbum de emociones\" con recortes y dibujos. Literatura: Canto de la canción \"If you're happy and you know it\". Expresión: Presentación oral del proyecto final sobre el álbum de emociones. Articulación con Grado 1°: Prepara la producción de monólogos breves sobre características físicas y personales (DBA 3 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante pronuncia correctamente los adjetivos de emoción? ¿Es capaz de describir su álbum de emociones usando frases sencillas?",
-        "fuente": null
-      },
-      {
-        "componente": "Conversación",
-        "estandar": "Participo activamente en juegos de palabras y rondas. Respondo a saludos y despedidas. Utilizo el lenguaje no verbal cuando no puedo responder verbalmente... asintiendo o negando.",
-        "dba": [
-          "DBA 4: Responde a preguntas muy sencillas sobre sus datos personales tales como su nombre, edad y su familia."
-        ],
-        "evidencias": [
+          "Describe materiales (playdough, clay, paper) usados en clase.",
           "Responde a preguntas sobre su estado de ánimo (How do you feel?).",
           "Participa en diálogos cortos preguntando a sus pares (Are you sad?).",
           "Describe diferencias físicas propias y de sus compañeros con respeto."
@@ -119,57 +59,27 @@
         ],
         "socioemocional": null,
         "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Juego: \"Hot Potato\" (Tingo Tango) para responder preguntas sobre emociones e interacción: Creación de un mural grupal sobre situaciones de convivencia y respeto. Juego de Roles: Diálogos breves sobre sentimientos y convivencia en el aula. Articulación con Grado 1°: Prepara la interacción en diálogos cortos sobre temas familiares y personales (DBA 2 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante responde coherente a preguntas sobre sus sentimientos? ¿Muestra respeto y empatía al interactuar con las emociones de sus pares?",
         "fuente": null
       }
     ],
     "3": [
       {
-        "componente": "Escucha",
-        "estandar": "Reconozco cuando me hablan en inglés y reacciono de manera no verbal. Reconozco que hay otras personas como yo que se comunican en inglés. Entiendo cuando me saludan y se despiden de mí. Comprendo rondas infantiles y lo demuestro con gestos y movimientos.",
+        "componente": "Comunicativo Integrado",
+        "estandar": "Comprendo rondas infantiles y lo demuestro con gestos y movimientos. Nombro sentimientos y estados de ánimo a partir de imágenes. Respondo a saludos y despedidas. Participo activamente en juegos de palabras.",
         "dba": [
-          "DBA 1: Reconoce instrucciones sencillas relacionadas con su entorno inmediato y responde de manera no verbal. DBA 2: Asocia imágenes con sonidos de palabras relacionadas con su casa y salón de clases de manera no verbal."
+          "(Escucha) DBA 1: Reconoce instrucciones sencillas relacionadas con su entorno inmediato y responde de manera no verbal.",
+          "(Escucha) DBA 2: Asocia imágenes con sonidos de palabras relacionadas con su casa y salón de clases de manera no verbal.",
+          "(Monólogo) DBA 3: Identifica y reproduce palabras familiares sobre su entorno inmediato (casa y salón de clase).",
+          "(Conversación) DBA 4: Responde a preguntas muy sencillas sobre sus datos personales tales como su nombre, edad y su familia."
         ],
         "evidencias": [
           "Identifica animales domésticos y salvajes al escuchar su nombre o sonido.",
           "Sigue instrucciones imperativas sobre el cuidado del medio ambiente (Pick up the trash).",
-          "Asocia palabras de la naturaleza (tree, flower, sea) con imágenes."
-        ],
-        "saberes": [
-          "Animales: Dog, cat, rabbit, fish, turtle, cow, bull, goat, donkey, jaguar, snake, pink dolphin, monkey, parrot, bird. Partes: Tail, nose, eyes, mouth. Paisaje: Tree, stem, leaf, flower, fruits, sea. Acciones: Jump, fly, crawl, eat, swim, grow, stomp. Cuidado: Pick up the trash, Put away. Gramática: Can, Can't, I like, I don't like, I see..., What's that?"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Literatura: Canciones rítmicas como \"Old MacDonald Had A Farm\" y \"Walking in the Jungle\". Juego: \"Lotería de animales y plantas\" para asociar sonido e imagen. Exploración: Seguimiento de una historia visual sobre el cuidado del planeta. Articulación con Grado 1°: Prepara la comprensión de textos orales sencillos sobre el cuidado de la naturaleza y descripción de seres vivos (DBA 1 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante reacciona al sonido de los animales señalando la imagen correcta? ¿Sigue instrucciones de limpieza y orden en el salón?",
-        "fuente": null
-      },
-      {
-        "componente": "Monólogo",
-        "estandar": "Recito y canto rondas infantiles que comprendo, con ritmo y entonación adecuados. Nombro sentimientos y estados de ánimo a partir de imágenes.",
-        "dba": [
-          "DBA 3: Identifica y reproduce palabras familiares sobre su entorno inmediato (casa y salón de clase)."
-        ],
-        "evidencias": [
+          "Asocia palabras de la naturaleza (tree, flower, sea) con imágenes.",
           "Nombra animales y describe lo que pueden o no pueden hacer (The bird can fly).",
           "Expresa gustos sencillos sobre la naturaleza (I like the pink dolphin).",
-          "Describe partes de la casa y lugares de la escuela relacionados con el orden."
-        ],
-        "saberes": [
-          "Animales: Dog, cat, rabbit, fish, turtle, cow, bull, goat, donkey, jaguar, snake, pink dolphin, monkey, parrot, bird. Partes: Tail, nose, eyes, mouth. Paisaje: Tree, stem, leaf, flower, fruits, sea. Acciones: Jump, fly, crawl, eat, swim, grow, stomp. Cuidado: Pick up the trash, Put away. Gramática: Can, Can't, I like, I don't like, I see..., What's that?"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Arte: Proyecto de clase \"My beautiful farm\" donde diseñan y describen su propia finca. Expresión: Uso de flashcards para practicar la pronunciación de nombres de animales y sus partes. Juego: \"Qué animal tengo\" (adivinar el animal en la espalda mediante mímica). Articulación con Grado 1°: Prepara la descripción de actividades cotidianas y habilidades de los seres vivos en oraciones cortas (DBA 3 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante utiliza \"Can\" y \"Can't\" para describir habilidades de animales? ¿Logra nombrar al menos 5 animales salvajes y 5 domésticos?",
-        "fuente": null
-      },
-      {
-        "componente": "Conversación",
-        "estandar": "Participo activamente en juegos de palabras y rondas. Respondo a saludos y despedidas. Utilizo el lenguaje no verbal cuando no puedo responder verbalmente... asintiendo o negando con la cabeza.",
-        "dba": [
-          "DBA 4: Responde a preguntas muy sencillas sobre sus datos personales tales como su nombre, edad y su familia."
-        ],
-        "evidencias": [
-          "Responde a la pregunta \"What's that?\" identificando elementos del paisaje o animales.",
+          "Describe partes de la casa y lugares de la escuela relacionados con el orden.",
+          "Responde a la pregunta 'What's that?' identificando elementos del paisaje o animales.",
           "Participa en diálogos sobre acciones correctas o equivocadas para el medio ambiente.",
           "Interactúa con pares para clasificar animales en Wild o Domestic."
         ],
@@ -178,57 +88,27 @@
         ],
         "socioemocional": null,
         "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Juego de Roles: Simulación de situaciones de cuidado ambiental (recoger basura, cuidar plantas). Interacción: Presentación grupal del proyecto final \"My beautiful farm\" intercambiando opiniones. Juego: Competencia por parejas para agrupar animales según su hábitat. Articulación con Grado 1°: Prepara la participación en conversaciones breves sobre el entorno natural y social (DBA 2 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante responde coherentemente a preguntas de elección sobre entorno natural y animales? ¿Expresa acuerdo o desacuerdo ante acciones de cuidado ambiental?",
         "fuente": null
       }
     ],
     "4": [
       {
-        "componente": "Escucha",
-        "estandar": "Reconozco cuando me hablan en inglés y reacciono de manera no verbal. Reconozco que hay otras personas como yo que se comunican en inglés. Entiendo cuando me saludan y se despiden de mí. Comprendo rondas infantiles y lo demuestro con gestos y movimientos.",
+        "componente": "Comunicativo Integrado",
+        "estandar": "Reconozco que hay otras personas como yo que se comunican en inglés. Nombro sentimientos y estados de ánimo a partir de imágenes. Respondo a saludos y despedidas. Participo activamente en juegos de palabras.",
         "dba": [
-          "DBA 1: Reconoce instrucciones sencillas relacionadas con su entorno inmediato y responde de manera no verbal. DBA 2: Asocia imágenes con sonidos de palabras relacionadas con su casa y salón de clases de manera no verbal."
+          "(Escucha) DBA 1: Reconoce instrucciones sencillas relacionadas con su entorno inmediato y responde de manera no verbal.",
+          "(Escucha) DBA 2: Asocia imágenes con sonidos de palabras relacionadas con su casa y salón de clases de manera no verbal.",
+          "(Monólogo) DBA 3: Identifica y reproduce palabras familiares sobre su entorno inmediato (casa y salón de clase).",
+          "(Conversación) DBA 4: Responde a preguntas muy sencillas sobre sus datos personales tales como su nombre, edad y su familia."
         ],
         "evidencias": [
           "Identifica profesiones y miembros de la familia al escuchar descripciones orales.",
           "Reconoce los meses del año y números del 10 al 20 en contextos de celebración.",
-          "Sigue instrucciones de clase (imperativos) durante las actividades grupales."
-        ],
-        "saberes": [
-          "Trabajos: Teacher, farmer, manager, driver, salesman, housewife, maid, secretary, doctor, security guard, police officer, student. Familia: Grandfather, grandmother, dad, mom, children, sister, brother. Cultura: Music, Holidays (Christmas, Easter), Trip, Dinner, Birthday. Meses: January to December. Números: 10-20. Gramática: I want to be a..., I am a student, Like/doesn't like, How old are you?, I am ___ years old."
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Literatura: Escucha de historias sobre diferentes tipos de familias y profesiones en la comunidad. Juego: \"Guess Who!\" (Adivina quién) usando imágenes de profesiones y familiares. Exploración: Identificación de fechas especiales en un calendario grupal. Articulación con Grado 1°: Prepara la comprensión de información personal básica y roles en la comunidad (DBA 1 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante señala la profesión correcta al escuchar su nombre? ¿Identifica auditivamente el mes de su cumpleaños y los números del 10 al 20?",
-        "fuente": null
-      },
-      {
-        "componente": "Monólogo",
-        "estandar": "Recito y canto rondas infantiles que comprendo, con ritmo y entonación adecuados. Nombro sentimientos y estados de ánimo a partir de imágenes (adaptado a roles y cultura).",
-        "dba": [
-          "DBA 3: Identifica y reproduce palabras familiares sobre su entorno inmediato (casa y salón de clase)."
-        ],
-        "evidencias": [
+          "Sigue instrucciones de clase (imperativos) durante las actividades grupales.",
           "Pronuncia los nombres de los miembros de su familia y sus profesiones.",
           "Expresa su edad y lo que desea ser en el futuro (I want to be a doctor).",
-          "Nombra celebraciones culturales y los meses del año."
-        ],
-        "saberes": [
-          "Trabajos: Teacher, farmer, manager, driver, salesman, housewife, maid, secretary, doctor, security guard, police officer, student. Familia: Grandfather, grandmother, dad, mom, children, sister, brother. Cultura: Music, Holidays (Christmas, Easter), Trip, Dinner, Birthday. Meses: January to December. Números: 10-20. Gramática: I want to be a..., I am a student, Like/doesn't like, How old are you?, I am ___ years old."
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Arte: Elaboración de títeres para el proyecto \"Mi representación teatral\". Expresión: Presentación oral del álbum de tipos de familias de la comunidad. Literatura: Canto de canciones sobre la familia (The finger family song) y los meses del año. Articulación con Grado 1°: Prepara la producción de oraciones breves para describirse a sí mismo y a su familia (DBA 3 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante puede decir su edad y su mes de nacimiento en inglés? ¿Nombra al menos 5 profesiones y 5 miembros de la familia con claridad?",
-        "fuente": null
-      },
-      {
-        "componente": "Conversación",
-        "estandar": "Participo activamente en juegos de palabras y rondas. Respondo a saludos y despedidas. Utilizo el lenguaje no verbal cuando no puedo responder verbalmente... asintiendo o negando con la cabeza.",
-        "dba": [
-          "DBA 4: Responde a preguntas muy sencillas sobre sus datos personales tales como su nombre, edad y su familia."
-        ],
-        "evidencias": [
-          "Responde a la pregunta \"How old are you?\" de manera verbal.",
+          "Nombra celebraciones culturales y los meses del año.",
+          "Responde a la pregunta 'How old are you?' de manera verbal.",
           "Participa en diálogos de títeres saludando e intercambiando información sobre roles sociales.",
           "Interactúa con pares en juegos de roles sobre celebraciones familiares."
         ],
@@ -237,7 +117,6 @@
         ],
         "socioemocional": null,
         "diccionario": null,
-        "tareas_dce": "Sugerencias metodológicas: Juego de Roles: Simulación de profesiones en la \"Aldea Global\" (médicos, profesores, conductores). Interacción: Presentación de la obra de teatro con títeres intercambiando saludos y preguntas sencillas. Juego: Entrevistas cortas entre compañeros sobre gustos musicales y celebraciones. Articulación con Grado 1°: Prepara la participación en intercambios comunicativos sobre la familia y la comunidad (DBA 2 de Grado 1°). Criterios de Evaluación Formativa: ¿El estudiante interactúa espontáneamente saludando y respondiendo sobre su identidad? ¿Muestra respeto por las representaciones culturales de sus compañeros?",
         "fuente": null
       }
     ]
