@@ -1,0 +1,111 @@
+{
+  "area": "Inglés",
+  "grado": "-1",
+  "nombre_archivo": "t_ingles_-1_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Competencia Comunicativa",
+          "guia_didactica": {
+            "la_estrategia": "The Magic Mirror and my Family (El Espejo Mágico y mi Familia)",
+            "un_reto_sugerido": "Identificar las partes de mi cara y saludar a los miembros de mi familia (títeres) usando 'Hello' y 'Bye'.",
+            "ruta_de_exploracion": {
+              "explorar": "Exploración de 'The Magic Bag': sacar objetos de colores (Red, Blue) y juguetes para escuchar y repetir su nombre en un entorno lúdico.",
+              "visual": "Uso de 'Finger Puppets' (títeres de dedo) de la familia y láminas coloridas para asociar sonidos con imágenes de Mom y Dad.",
+              "produccion": "Juego 'Freeze' (congelados) al ritmo de música en inglés y dinámica 'The Puppet Friend' para practicar saludos con movimientos corporales."
+            },
+            "para_pensar": [
+              "¿Cómo se siente mi cara cuando digo 'Hello'?",
+              "¿Puedo señalar mi 'nose' sin abrir los ojos?"
+            ],
+            "pistas_del_exito": [
+              "El niño identifica físicamente la parte del cuerpo que se le pide (ojos, nariz, boca).",
+              "Muestra interés y alegría al participar en rimas y canciones infantiles en inglés."
+            ],
+            "un_refuerzo": "Utilizar canciones infantiles con mímica exagerada para reforzar los comandos 'Sit down' y 'Stand up'."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Competencia Comunicativa",
+          "guia_didactica": {
+            "la_estrategia": "The Rainbow of Emotions (El Arcoíris de las Emociones)",
+            "un_reto_sugerido": "Expresar cómo me siento (Happy/Sad) y reaccionar correctamente a los comandos de posición 'Up' y 'Down'.",
+            "ruta_de_exploracion": {
+              "explorar": "Lectura gestual del cuento 'The Happy Monster', permitiendo que los niños imiten caras de alegría, tristeza o enojo.",
+              "visual": "Elaboración de 'Paletas de Emociones' (caritas en palos de helado) usando los colores Green y Orange.",
+              "produccion": "Juego 'Simon Says' con posiciones Up/Down y la canción 'If you are happy and you know it' para integrar cuerpo y emoción."
+            },
+            "para_pensar": [
+              "¿De qué color es mi emoción hoy?",
+              "¿Qué cosas me hacen sentir 'Happy' en el salón?"
+            ],
+            "pistas_del_exito": [
+              "El niño reacciona correctamente a los comandos de posición (Up/Down).",
+              "Señala o nombra la carita (Happy/Sad) según el estímulo auditivo o visual."
+            ],
+            "un_refuerzo": "Mirarse al espejo e imitar las expresiones que el docente nombre para fortalecer la autoconciencia."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Competencia Comunicativa",
+          "guia_didactica": {
+            "la_estrategia": "Old MacDonald’s Nature Trip (El Viaje de Old MacDonald)",
+            "un_reto_sugerido": "Imitar los sonidos de los animales de la granja y reconocer elementos de la naturaleza (Sun, Tree, Flower).",
+            "ruta_de_exploracion": {
+              "explorar": "Caminata sensorial al jardín para tocar árboles (Tree) y flores (Flower) reales, escuchando su nombre en inglés.",
+              "visual": "Creación de un 'Nature Collage' con materiales recolectados y uso de imágenes grandes de animales de la granja.",
+              "produccion": "Juego de roles 'Animal Sounds' y canto de 'Old MacDonald had a farm' enfatizando onomatopeyas y movimientos (Jump, Fly)."
+            },
+            "para_pensar": [
+              "¿Cómo hace el 'Duck' cuando quiere nadar?",
+              "¿De qué color es el 'Sun' que calienta nuestro patio?"
+            ],
+            "pistas_del_exito": [
+              "El niño asocia el sonido del animal con su nombre e imagen correspondiente.",
+              "Utiliza gestos de agrado o desagrado (I like...) al interactuar con conceptos de la naturaleza."
+            ],
+            "un_refuerzo": "Jornada de limpieza 'Happy Planet' usando el comando 'Clean up' para fomentar el cuidado del entorno."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Competencia Comunicativa",
+          "guia_didactica": {
+            "la_estrategia": "Our Community Heroes (Los Héroes de nuestra Comunidad)",
+            "un_reto_sugerido": "Reconocer a los miembros de la familia extendida y las profesiones básicas, celebrando mi identidad (I am 4 years old).",
+            "ruta_de_exploracion": {
+              "explorar": "Juego de roles 'The Community Helpers': usar herramientas simbólicas (silbato para Police, estetoscopio para Doctor).",
+              "visual": "Construcción de un 'Family Tree' con fotografías y uso de máscaras de diferentes profesiones.",
+              "produccion": "Simulación de una 'Birthday Party' para practicar la frase 'I am 4 years old' y cantar el cumpleaños en inglés."
+            },
+            "para_pensar": [
+              "¿Quién nos ayuda cuando estamos enfermos?",
+              "¿Cuántos años cumplen mis dedos hoy?"
+            ],
+            "pistas_del_exito": [
+              "El niño identifica las imágenes de abuelos (Grandparents) y profesiones clave.",
+              "Intenta imitar frases cortas de identidad como 'I am a student' o su edad."
+            ],
+            "un_refuerzo": "Dinámica de 'The Global Village' con estaciones de trabajo para fortalecer el sentido de pertenencia y socialización."
+          }
+        }
+      ]
+    }
+  ]
+}
