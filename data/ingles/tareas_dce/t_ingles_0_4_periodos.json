@@ -1,0 +1,111 @@
+{
+  "area": "Inglés",
+  "grado": "0",
+  "nombre_archivo": "t_ingles_0_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Comunicativo Integrado",
+          "guia_didactica": {
+            "la_estrategia": "The Magic of My Body and Toys",
+            "un_reto_sugerido": "Presentarse a sí mismo y superar una carrera de obstáculos identificando partes del cuerpo y juguetes en inglés.",
+            "ruta_de_exploracion": {
+              "explorar": "Carrera de obstáculos siguiendo instrucciones auditivas y juego de 'Simon Says' para identificar partes del cuerpo y acciones físicas (jump, run).",
+              "visual": "Proyecto artístico 'The Alien Family' donde los niños crean un poster gigante y asocian imágenes con sonidos de partes del cuerpo y colores.",
+              "produccion": "Juego 'Hot Potato' (Tingo Tango) y diálogos cortos con títeres para saludarse e intercambiar nombres de juguetes favoritos."
+            },
+            "para_pensar": [
+              "¿Cómo se siente mi cuerpo cuando salto (jump) o corro (run)?",
+              "¿Por qué es divertido saludar a mis amigos con un 'Hello'?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante reacciona físicamente ante los comandos de movimiento escuchados.",
+              "Identifica y nombra al menos 3 partes de la cara y 3 juguetes de forma espontánea."
+            ],
+            "un_refuerzo": "Utilizar la canción 'Head, shoulders, knees and toes' para consolidar la discriminación auditiva de partes del cuerpo."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Comunicativo Integrado",
+          "guia_didactica": {
+            "la_estrategia": "The Color Monster's Emotions",
+            "un_reto_sugerido": "Crear un álbum de emociones y expresar verbalmente el estado de ánimo asociado a diferentes colores y situaciones.",
+            "ruta_de_exploracion": {
+              "explorar": "Bingo y lotería de emociones para asociar sonidos con expresiones faciales (happy, sad, angry).",
+              "visual": "Lectura del cuento 'The Color Monster' con apoyo visual y creación de un mural grupal sobre situaciones de convivencia.",
+              "produccion": "Presentación oral del 'Álbum de Emociones' y práctica de la canción 'If you're happy and you know it'."
+            },
+            "para_pensar": [
+              "¿De qué color te sientes hoy (I feel happy/sad)?",
+              "¿Cómo podemos ayudar a un amigo que se siente 'scared'?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica correctamente la emoción al escuchar el vocabulario en inglés.",
+              "Sigue instrucciones de posición (Up, Down) de manera precisa durante las actividades."
+            ],
+            "un_refuerzo": "Realizar juegos de roles cortos preguntando a los pares 'How do you feel?' para fortalecer la interacción."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Comunicativo Integrado",
+          "guia_didactica": {
+            "la_estrategia": "Nature Guardians at the Farm",
+            "un_reto_sugerido": "Diseñar una finca (My Beautiful Farm) y describir las habilidades de los animales (Can/Can't) mientras se practican hábitos de cuidado ambiental.",
+            "ruta_de_exploracion": {
+              "explorar": "Canto de canciones rítmicas como 'Old MacDonald Had A Farm' y 'Walking in the Jungle' para identificar sonidos animales.",
+              "visual": "Lotería de animales y plantas para asociar sonidos con hábitats (wild/domestic) y elementos de la naturaleza (tree, flower).",
+              "produccion": "Proyecto 'My Beautiful Farm' usando flashcards para describir lo que los animales pueden hacer (The bird can fly) y recoger basura (Pick up the trash)."
+            },
+            "para_pensar": [
+              "¿Qué animales podemos ver en una granja (farm) y cuáles en la selva (jungle)?",
+              "¿Por qué es importante decir 'Pick up the trash' en nuestro colegio?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante utiliza correctamente 'Can' y 'Can't' para describir habilidades animales sencillas.",
+              "Identifica al menos 5 animales salvajes y 5 domésticos por su nombre en inglés."
+            ],
+            "un_refuerzo": "Simulación de situaciones de cuidado ambiental para integrar los comandos imperativos en la rutina diaria."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Comunicativo Integrado",
+          "guia_didactica": {
+            "la_estrategia": "Heroes of the Global Village",
+            "un_reto_sugerido": "Participar en una representación teatral sobre profesiones y familia, expresando su edad y sueños para el futuro.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego 'Guess Who!' para identificar miembros de la familia y profesiones a partir de descripciones orales y herramientas de trabajo.",
+              "visual": "Identificación de fechas especiales en un calendario grupal (meses del año) y creación de títeres de miembros de la familia.",
+              "produccion": "Simulación de profesiones en la 'Aldea Global' y representación teatral con títeres saludando e intercambiando información personal."
+            },
+            "para_pensar": [
+              "¿Qué quieres ser cuando seas grande (I want to be a...)?",
+              "¿Cuántos años tienes (How old are you)?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante señala la profesión correcta al escuchar su nombre o descripción.",
+              "Participa espontáneamente en intercambios saludando y respondiendo sobre su identidad y edad."
+            ],
+            "un_refuerzo": "Cantar 'The Finger Family Song' y la canción de los meses del año para consolidar el vocabulario final."
+          }
+        }
+      ]
+    }
+  ]
+}
