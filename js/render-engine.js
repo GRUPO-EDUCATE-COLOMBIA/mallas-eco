@@ -1,4 +1,4 @@
-// FILE: js/render-engine.js | VERSION: v7.9 Stable (Estructura B)
+// FILE: js/render-engine.js | VERSION: v7.9 Stable (Estructura B + UX)
 window.RenderEngine = (function() {
   const containerMalla = document.getElementById('contenedor-malla');
 
@@ -11,7 +11,17 @@ window.RenderEngine = (function() {
 
   function renderizar(items, areaId, grado, periodo) {
     const resSec = document.getElementById('resultados-principal');
-    if (resSec) resSec.classList.add('mostrar-block');
+    
+    if (resSec) {
+      // 1. Reiniciar animación: quitamos la clase, forzamos un reflujo y la ponemos de nuevo
+      resSec.classList.remove('animar-entrada');
+      void resSec.offsetWidth; // Truco técnico para reiniciar animaciones CSS
+      resSec.classList.add('mostrar-block', 'animar-entrada');
+      
+      // 2. Auto-Scroll: Desplazamos la vista suavemente al inicio de los resultados
+      resSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
     if (!containerMalla) return;
 
     containerMalla.innerHTML = items.map(item => {
@@ -25,18 +35,16 @@ window.RenderEngine = (function() {
     const config = window.APP_CONFIG.AREAS[areaId];
     const llaveNormal = normalizarTexto(config.nombre);
     
-    // 1. CRUCE DCE (Actualizado a Estructura B)
     const llaveDCE = `tareas_dce_${llaveNormal}`;
     const dceData = window.MallasData[llaveDCE]?.[grado]?.[tipo];
-    
-    // Se busca en guias_por_componente usando la nueva ruta
     const dcePer = dceData?.periodos?.find(p => String(p.periodo_id) === String(periodo));
-    const rawDCE = dcePer?.guias_por_componente?.find(c => normalizarTexto(c.componente) === normalizarTexto(item.componente || item.competencia));
     
-    // Referencia directa al objeto de datos para no repetir la ruta
+    const rawDCE = dcePer?.guias_por_componente?.find(c => 
+      normalizarTexto(c.componente) === normalizarTexto(item.componente || item.competencia)
+    );
+    
     const infoDCE = rawDCE?.guia_didactica;
 
-    // 2. CRUCE ECO (Sin cambios, se mantiene lo que funciona)
     const llaveEco = normalizarTexto(window.APP_CONFIG.AREAS["proyecto-socioemocional"].nombre);
     const ecoPer = window.MallasData[llaveEco]?.[grado]?.[tipo]?.periodos?.[periodo];
     const infoECO = (ecoPer && Array.isArray(ecoPer) && ecoPer.length > 0) ? ecoPer[0] : null;
@@ -54,8 +62,6 @@ window.RenderEngine = (function() {
           <div class="campo"><strong>Saberes / Contenidos:</strong><div>${validarDato(item.saberes)}</div></div>
 
           <div class="contenedor-fichas-cierre">
-            
-            <!-- FICHA 1: GUÍA DIDÁCTICA (DCE) - ACTUALIZADA A NUEVA RUTA -->
             <div class="ficha-cierre ficha-dce">
               <div class="ficha-header ficha-header-dce">
                 <span>💡</span> GUÍA DIDÁCTICA: ${infoDCE ? infoDCE.la_estrategia : 'En proceso'}
@@ -75,7 +81,6 @@ window.RenderEngine = (function() {
               </div>
             </div>
 
-            <!-- FICHA 2: RESPONSABILIDAD ECO (ECO) - SE MANTIENE IGUAL -->
             <div class="ficha-cierre ficha-eco">
               <div class="ficha-header ficha-header-eco">
                 <span>🧠</span> RESPONSABILIDAD SOCIOEMOCIONAL ECO
@@ -86,7 +91,6 @@ window.RenderEngine = (function() {
                 <div class="campo"><strong>Evidencias de Desempeño:</strong><div>${validarDato(infoECO?.evidencias_de_desempeno)}</div></div>
               </div>
             </div>
-
           </div>
 
           <div style="text-align:center; margin-top:2rem;">
