@@ -1,118 +1,111 @@
 {
   "area": "Inglés",
   "grado": "-1",
-  "tipo_malla": "4_periodos",
-  "numero_periodos": 4,
-  "periodos": {
-    "1": [
-      {
-        "componente": "Comunicativo Integrado",
-        "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra. Imito sonidos y palabras cortas con ayuda del docente. Respondo con gestos a saludos y preguntas de sí/no.",
-        "dba": [
-          "(Escucha) DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Stand up, Sit down).",
-          "(Monólogo) DBA 3: Reproduce por imitación palabras muy familiares (colores básicos y miembros de la familia).",
-          "(Conversación) DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
-        ],
-        "evidencias": [
-          "Señala sus ojos, nariz o boca cuando el docente los nombra.",
-          "Realiza movimientos corporales al escuchar canciones infantiles en inglés.",
-          "Repite palabras sencillas de su entorno inmediato.",
-          "Dice su nombre cuando el docente le pregunta de forma lúdica.",
-          "Produce onomatopeyas de animales en inglés.",
-          "Saluda con la mano al escuchar 'Hello'.",
-          "Elige entre dos opciones de objetos cuando se le pregunta en inglés (Red or Blue?)."
-        ],
-        "saberes": [
-          "Vocabulario: Face (eyes, nose, mouth), Body (hands, feet), My Family (Mom, Dad), Colors (Red, Blue), Numbers 1-3. Gramática: Hello, Bye, Sit down, Stand up, Look!"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "fuente": null
-      }
-    ],
-    "2": [
-      {
-        "componente": "Comunicativo Integrado",
-        "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra. Imito sonidos y palabras cortas con ayuda del docente. Respondo con gestos a saludos y preguntas de sí/no.",
-        "dba": [
-          "(Escucha) DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Up, Down).",
-          "(Monólogo) DBA 3: Reproduce por imitación palabras muy familiares (emociones básicas y colores).",
-          "(Conversación) DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
-        ],
-        "evidencias": [
-          "Identifica las emociones básicas (Happy, Sad) al escuchar cuentos cortos.",
-          "Reacciona físicamente a los comandos de posición Up y Down.",
-          "Reconoce los nuevos colores Green y Orange en su entorno.",
-          "Repite el nombre de su emoción actual con ayuda del docente.",
-          "Pronuncia los números del 1 al 5 en orden.",
-          "Nombra los colores Green y Orange al ver objetos reales.",
-          "Usa las palabras mágicas 'Please' y 'Thank you' durante el juego grupal.",
-          "Saluda a sus compañeros según su estado de ánimo (Happy hello).",
-          "Responde con lenguaje no verbal a la pregunta ¿How are you?."
-        ],
-        "saberes": [
-          "Vocabulario: Emotions (Happy, Sad, Angry), Colors (Green, Orange), Numbers (1-5), Positions (Up, Down). Valores: Please, Thank you. Gramática: I am... (happy)."
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "fuente": null
-      }
-    ],
-    "3": [
-      {
-        "componente": "Comunicativo Integrado",
-        "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra. Imito sonidos y palabras cortas con ayuda del docente. Respondo con gestos a saludos y preguntas de sí/no.",
-        "dba": [
-          "(Escucha) DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Pick up, Clean).",
-          "(Monólogo) DBA 3: Reproduce por imitación palabras muy familiares (animales comunes y elementos del paisaje).",
-          "(Conversación) DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
-        ],
-        "evidencias": [
-          "Identifica animales de la granja y mascotas por su sonido en inglés.",
-          "Reacciona al comando 'Pick up the trash' durante la rutina de orden.",
-          "Asocia palabras de la naturaleza (Sun, Tree, Flower) con imágenes grandes.",
-          "Nombra al menos tres animales de la granja en inglés.",
-          "Intenta decir el color de los elementos naturales (The tree is green).",
-          "Repite frases de afecto hacia la naturaleza (I like the sun).",
-          "Responde con 'Yes/No' o señas a la pregunta ¿Do you like the duck?.",
-          "Interactúa con compañeros en la rutina de limpieza usando 'Clean up'.",
-          "Participa en juegos colectivos imitando los movimientos de los animales en grupo."
-        ],
-        "saberes": [
-          "Animales: Dog, Cat, Bird, Cow, Duck, Pig. Naturaleza: Sun, Tree, Flower. Acciones: Jump, Fly, Sleep. Colores: Green, Yellow, Brown. Números: 1-4. Gramática: I like... (the dog). Look at the...!"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "fuente": null
-      }
-    ],
-    "4": [
-      {
-        "componente": "Comunicativo Integrado",
-        "estandar": "Reconozco sonidos del inglés en mi entorno cotidiano. Reacciono físicamente a saludos y despedidas. Sigo instrucciones muy sencillas de una sola palabra. Imito sonidos y palabras cortas con ayuda del docente. Respondo con gestos a saludos y preguntas de sí/no.",
-        "dba": [
-          "(Escucha) DBA 1: Responde de manera no verbal a instrucciones muy sencillas de su docente (Ej: Stop, Go, Listen).",
-          "(Monólogo) DBA 3: Reproduce por imitación palabras muy familiares (miembros de la familia y profesiones básicas).",
-          "(Conversación) DBA 4: Reconoce su nombre cuando se le llama en inglés y responde con gestos o palabras."
-        ],
-        "evidencias": [
-          "Identifica a los miembros de la familia extendida (Grandparents) por su nombre en inglés.",
-          "Reconoce el sonido de profesiones clave (Teacher, Doctor, Police).",
-          "Reacciona rítmicamente a diferentes tipos de música (Vallenato, Salsa).",
-          "Intenta decir qué quiere ser de grande (I want to be a doctor).",
-          "Nombra a los miembros de su familia al ver fotografías.",
-          "Canta fragmentos de la canción de cumpleaños en inglés.",
-          "Responde a la pregunta 'How old are you?' mostrando los dedos o diciendo el número.",
-          "Participa en diálogos sencillos con títeres saludando y diciendo 'I am a student'.",
-          "Interactúa en juegos de roles imitando a un conductor o un profesor."
-        ],
-        "saberes": [
-          "Familia: Grandfather, Grandmother, Sister, Brother. Profesiones: Teacher, Doctor, Police, Driver. Cultura: Music, Birthday, Party. Números: 1-5 (Consolidación). Gramática: I am a student. Happy Birthday! I am 4 years old."
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "fuente": null
-      }
-    ]
-  }
+  "nombre_archivo": "t_ingles_-1_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Comunicativo Integrado",
+          "guia_didactica": {
+            "la_estrategia": "The Magic Mirror and my Family (El Espejo Mágico y mi Familia)",
+            "un_reto_sugerido": "Identificar las partes de mi cara en un espejo y saludar a los miembros de mi familia (títeres) usando 'Hello' y 'Bye'.",
+            "ruta_de_exploracion": {
+              "explorar": "Exploración sensorial con 'The Magic Bag': sacar objetos de colores (Red, Blue) o juguetes sorpresa y escuchar su nombre en inglés.",
+              "visual": "Uso de 'Finger Puppets' (títeres de dedo) de Mom y Dad para asociar el sonido con la imagen familiar.",
+              "produccion": "Pintura dactilar usando solo colores Red o Blue y juego 'Freeze' (congelados) al ritmo de canciones infantiles."
+            },
+            "para_pensar": [
+              "¿Cómo se siente mi cara cuando sonrío frente al espejo?",
+              "¿Por qué es importante saludar a Mom y Dad cuando llegamos?"
+            ],
+            "pistas_del_exito": [
+              "El niño identifica físicamente la parte del cuerpo que se le pide (ojos, nariz, boca).",
+              "Intenta imitar sonidos básicos y nombra al menos un color de forma espontánea."
+            ],
+            "un_refuerzo": "Utilizar canciones rítmicas para reforzar los comandos físicos básicos (Stand up, Sit down)."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Comunicativo Integrado",
+          "guia_didactica": {
+            "la_estrategia": "The Emotion Monster (El Monstruo de las Emociones)",
+            "un_reto_sugerido": "Expresar cómo me siento (Happy/Sad) y reaccionar físicamente a los comandos de posición 'Up' y 'Down'.",
+            "ruta_de_exploracion": {
+              "explorar": "Lectura gestual del cuento 'The Happy Monster' e identificación de colores Green y Orange en el entorno.",
+              "visual": "Elaboración de 'Paletas de Emociones' (caritas en palos de helado) para asociar el sentimiento con la palabra.",
+              "produccion": "Juego 'Simon Says' con posiciones Up/Down y práctica de la canción 'If you are happy and you know it'."
+            },
+            "para_pensar": [
+              "¿Qué cosas me hacen sentir 'Happy' en el jardín?",
+              "¿Cómo podemos ayudar a un amigo que está 'Sad'?"
+            ],
+            "pistas_del_exito": [
+              "Reacciona correctamente ante los comandos de posición Up y Down.",
+              "Utiliza las expresiones 'Please' y 'Thank you' de forma guiada durante los juegos."
+            ],
+            "un_refuerzo": "Dinámica 'The Magic Ball' para practicar decir el nombre y el estado de ánimo en grupo."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Comunicativo Integrado",
+          "guia_didactica": {
+            "la_estrategia": "Old MacDonald’s Nature Trip (El Viaje de Old MacDonald)",
+            "un_reto_sugerido": "Imitar sonidos de animales de la granja y participar en una jornada de limpieza del entorno usando 'Clean up'.",
+            "ruta_de_exploracion": {
+              "explorar": "Salida al jardín para identificar árboles (Tree) y flores (Flower) reales mediante el tacto y el olfato.",
+              "visual": "Juego 'Animal Sounds': el niño corre hacia la imagen del animal (Cow, Duck, Pig) cuyo sonido escucha.",
+              "produccion": "Creación de un 'Nature Collage' con hojas secas y flores, y canto de la canción 'Old MacDonald had a farm'."
+            },
+            "para_pensar": [
+              "¿Cómo ayudan los animales a la naturaleza?",
+              "¿Por qué es importante recoger los papeles (Clean up) del patio?"
+            ],
+            "pistas_del_exito": [
+              "Identifica visualmente al menos tres animales de la granja al escuchar su nombre.",
+              "Imita movimientos básicos de la naturaleza (Jump como rana, Fly como ave)."
+            ],
+            "un_refuerzo": "Simular situaciones de cuidado ambiental (Happy Planet) para practicar comandos de orden."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Comunicativo Integrado",
+          "guia_didactica": {
+            "la_estrategia": "Community Heroes & Birthday Party (Héroes de la Comunidad)",
+            "un_reto_sugerido": "Reconocer a los miembros de la familia extendida (Grandparents) y representar un oficio en el juego de roles.",
+            "ruta_de_exploracion": {
+              "explorar": "Identificación de sonidos de profesiones (silbato de Police, estetoscopio de Doctor) y escucha de música regional.",
+              "visual": "Creación de un 'Family Tree' con fotos de abuelos y hermanos para presentar ante el grupo.",
+              "produccion": "Simulación de una 'Birthday Party' para decir la edad (I am 4 years old) y juego de roles 'The Global Village'."
+            },
+            "para_pensar": [
+              "¿Qué quieres ser cuando seas grande (Doctor, Teacher)?",
+              "¿Cuántos años cumplen tus dedos hoy (numbers 1-5)?"
+            ],
+            "pistas_del_exito": [
+              "Identifica correctamente la imagen de abuelos o profesiones al escuchar el nombre.",
+              "Participa con alegría en celebraciones grupales saludando en inglés."
+            ],
+            "un_refuerzo": "Uso de máscaras de profesiones para repetir frases sencillas de identidad (I am a student)."
+          }
+        }
+      ]
+    }
+  ]
 }
