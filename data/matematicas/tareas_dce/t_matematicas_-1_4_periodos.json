@@ -1,0 +1,111 @@
+{
+  "area": "Matemáticas",
+  "grado": "-1",
+  "nombre_archivo": "t_matematicas_-1_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Lógico - matemáticas",
+          "guia_didactica": {
+            "la_estrategia": "El Mundo de los Pequeños Contadores",
+            "un_reto_sugerido": "Establecer la correspondencia uno a uno para repartir un plato a cada amigo y contar hasta 5 pasos rítmicamente.",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar conteos funcionales durante las rutinas: contar los dedos de la mano, los compañeros en la fila y los pasos al caminar.",
+              "visual": "Uso de material concreto para establecer correspondencia 1:1 (un objeto para cada espacio o persona).",
+              "produccion": "Participar en rondas y canciones de conteo que refuercen el ritmo numérico y la secuencia memorística del 1 al 10."
+            },
+            "para_pensar": [
+              "¿Cuántos platos necesitamos si llega un amigo más a la mesa?",
+              "¿Qué cosas en nuestro cuerpo tenemos que sean 'muchas' y cuáles son 'pocas'?"
+            ],
+            "pistas_del_exito": [
+              "El niño logra asignar un número a cada objeto de una colección pequeña (1-5) sin saltarse ninguno.",
+              "Distingue visualmente grupos donde hay 'pocos' elementos de grupos donde hay 'muchos'."
+            ],
+            "un_refuerzo": "Actividades de conteo funcional para asegurar la base del cardinal que se consolidará en Grado 0°."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Lógico - matemáticas",
+          "guia_didactica": {
+            "la_estrategia": "Exploradores de Patrones y Colores",
+            "un_reto_sugerido": "Clasificar los materiales del salón por un solo atributo y crear un collar con un patrón de repetición ABAB.",
+            "ruta_de_exploracion": {
+              "explorar": "Rincones clasificadores: agrupar materiales naturales (hojas, piedras) o bloques por color o forma según su elección.",
+              "visual": "Creación de murales de patrones sencillos utilizando sellos de papas o figuras geométricas (ej. círculo-cuadrado-círculo).",
+              "produccion": "Uso de cestas rotuladas para que los niños separen sus juguetes por tipo o color al finalizar la jornada."
+            },
+            "para_pensar": [
+              "¿Por qué decidiste poner todos estos objetos en la misma cesta?",
+              "¿Qué color sigue en nuestro collar para que el patrón se mantenga igual?"
+            ],
+            "pistas_del_exito": [
+              "Agrupa objetos siguiendo un único criterio (color, forma o funcionalidad) de manera consistente.",
+              "Continúa una secuencia de dos elementos de forma lógica y rítmica."
+            ],
+            "un_refuerzo": "Desarrollar la base de la clasificación unidimensional necesaria para el pensamiento lógico de Transición."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Lógico - matemáticas",
+          "guia_didactica": {
+            "la_estrategia": "Pequeños Solucionadores de Problemas",
+            "un_reto_sugerido": "Resolver retos en la 'Tienda Mágica' agregando o quitando de 1 a 3 objetos según la necesidad de los clientes.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego dramático en la cocina o tienda, utilizando lenguaje natural como 'pon', 'quitar' o 'dame'.",
+              "visual": "Uso de cuentos y rimas ilustradas que narren cambios en la cantidad de personajes u objetos.",
+              "produccion": "Retos de construcción con bloques donde se deba agregar piezas para dar altura o quitar para equilibrar la estructura."
+            },
+            "para_pensar": [
+              "¿Si le doy un juguete a mi amigo, ahora tengo más o tengo menos?",
+              "¿Cuántos bloques debemos quitar para que nuestra torre no se caiga?"
+            ],
+            "pistas_del_exito": [
+              "Comprende y utiliza correctamente los conceptos de aumentar y disminuir en situaciones de juego.",
+              "Propone soluciones manuales (agregar/quitar) ante un cambio en la cantidad de una colección."
+            ],
+            "un_refuerzo": "Introducción al lenguaje lógico y manipulación concreta como prerrequisito para los problemas aditivos de Grado 0°."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Lógico - matemáticas",
+          "guia_didactica": {
+            "la_estrategia": "Viajeros del Tiempo y Mapas Corporales",
+            "un_reto_sugerido": "Seguir un circuito de obstáculos usando nociones espaciales y organizar las rutinas del día con dibujos.",
+            "ruta_de_exploracion": {
+              "explorar": "Juegos y rondas corporales: saltar 'arriba' de la línea, gatear 'debajo' de la mesa o pararse 'detrás' de un amigo.",
+              "visual": "Uso de un horario visual con pictogramas para secuenciar qué pasó 'antes' y qué pasará 'después' en la clase.",
+              "produccion": "Lectura de cuentos con secuencias temporales claras y actividades de ubicación referenciadas al propio cuerpo."
+            },
+            "para_pensar": [
+              "¿Qué hicimos hoy antes de salir a jugar al patio?",
+              "¿Podemos poner nuestras manos arriba de nuestra cabeza y luego detrás de la espalda?"
+            ],
+            "pistas_del_exito": [
+              "Establece relaciones espaciales (dentro/fuera, arriba/abajo) tomando su propio cuerpo como referencia.",
+              "Identifica el orden de los eventos cotidianos usando los conceptos de antes, ahora y después."
+            ],
+            "un_refuerzo": "Asegurar la ubicación espacial y la noción temporal simple para facilitar el tránsito a la educación formal."
+          }
+        }
+      ]
+    }
+  ]
+}
