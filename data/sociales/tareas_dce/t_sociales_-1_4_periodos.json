@@ -1,0 +1,111 @@
+{
+  "area": "Ciencias Sociales",
+  "grado": "-1",
+  "nombre_archivo": "t_sociales_-1_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Identidad y relaciones sociales",
+          "guia_didactica": {
+            "la_estrategia": "El Espejo de mis Sentimientos",
+            "un_reto_sugerido": "Identificar en el espejo tres expresiones faciales de emociones básicas y realizar un autorretrato que muestre su gusto favorito.",
+            "ruta_de_exploracion": {
+              "explorar": "Dinámica 'El Espejo Mágico' para explorar gestos faciales y corporalidad frente a los compañeros.",
+              "visual": "Lectura y dramatización de cuentos de emociones donde los niños identifiquen visualmente qué siente el personaje.",
+              "produccion": "Dibujo de identidad: creación de autorretratos y representación del cuerpo utilizando diversos materiales artísticos."
+            },
+            "para_pensar": [
+              "¿Cómo se pone mi cara cuando estoy muy feliz y qué cosas me hacen sentir así?",
+              "¿En qué parte de mi cuerpo siento cuando tengo rabia?"
+            ],
+            "pistas_del_exito": [
+              "El niño identifica y nombra al menos tres emociones básicas (alegría, tristeza, rabia).",
+              "Representa gráficamente su esquema corporal reconociendo sus características físicas."
+            ],
+            "un_refuerzo": "Actividades de autoconocimiento para preparar la regulación emocional y el dibujo detallado de Grado 0°."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Identidad y relaciones sociales",
+          "guia_didactica": {
+            "la_estrategia": "Mi Pequeña Comunidad y su Gente",
+            "un_reto_sugerido": "Simular un oficio de la comunidad y describir una característica especial del lugar donde vive.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego de roles para simular oficios simples (bombero, cocinero) y roles familiares (mamá, papá).",
+              "visual": "Galería de fotos: compartir dibujos o fotografías de su casa y barrio para identificar elementos comunes.",
+              "produccion": "Creación de un mural colectivo de 'Nuestra Comunidad' integrando las casas y personas del entorno cercano."
+            },
+            "para_pensar": [
+              "¿Quién nos ayuda en el barrio cuando necesitamos comida o medicina?",
+              "¿Qué cosas interesantes hay cerca de mi casa que mis amigos no conocen?"
+            ],
+            "pistas_del_exito": [
+              "Describe correctamente el rol que cumple algún miembro de su familia o comunidad.",
+              "Reconoce su pertenencia al grupo del Jardín identificando sus espacios y compañeros."
+            ],
+            "un_refuerzo": "Fomentar la noción de rol social como base para el análisis de organizaciones sociales de Transición."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Identidad y relaciones sociales",
+          "guia_didactica": {
+            "la_estrategia": "Amigos de los Turnos y el Juego",
+            "un_reto_sugerido": "Participar en un juego cooperativo siguiendo dos normas básicas del aula sin necesidad de intervención constante.",
+            "ruta_de_exploracion": {
+              "explorar": "Juegos cooperativos y rondas que exijan esperar el turno y colaborar con el compañero.",
+              "visual": "Construcción participativa de acuerdos visuales mediante pictogramas (normas básicas del aula).",
+              "produccion": "Rincón de materiales: práctica de la alternancia y el respeto por el espacio de juego del otro (juego paralelo)."
+            },
+            "para_pensar": [
+              "¿Por qué es importante esperar nuestro turno para usar el juguete favorito?",
+              "¿Cómo nos sentimos cuando todos ayudamos a recoger el salón?"
+            ],
+            "pistas_del_exito": [
+              "Muestra actitudes colaborativas y comparte materiales de forma espontánea.",
+              "Sigue las normas básicas de convivencia representadas en los pictogramas del salón."
+            ],
+            "un_refuerzo": "Ejercicios de negociación simple y respeto por el espacio ajeno para preparar la construcción colectiva de acuerdos."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Identidad y relaciones sociales",
+          "guia_didactica": {
+            "la_estrategia": "El Rincón de mis Decisiones",
+            "un_reto_sugerido": "Elegir autónomamente una actividad de rincón y permanecer en ella hasta finalizar una tarea sencilla.",
+            "ruta_de_exploracion": {
+              "explorar": "Tiempo de rincones: elección libre de centros de interés para fomentar la iniciativa y la autonomía.",
+              "visual": "Presentación de opciones de materiales o vestimenta para que el niño justifique su elección.",
+              "produccion": "Retos de constancia: completar actividades que requieran atención sostenida, como un rompecabezas de 4 piezas."
+            },
+            "para_pensar": [
+              "¿Por qué elegí jugar con los bloques hoy en lugar de pintar?",
+              "¿Qué pasa si dejo mi trabajo sin terminar?"
+            ],
+            "pistas_del_exito": [
+              "Demuestra constancia al iniciar y terminar una actividad propuesta por él mismo.",
+              "Anticipa consecuencias simples de sus decisiones (ej: si no guardo, se puede perder)."
+            ],
+            "un_refuerzo": "Validación de la iniciativa y la autonomía como prerrequisito para la toma de decisiones compleja de Grado 0°."
+          }
+        }
+      ]
+    }
+  ]
+}
