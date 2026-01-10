@@ -1,133 +1,140 @@
-/* FILE: styles.css | VERSION: v7.9.2 Stable */
+// FILE: js/render-engine.js | VERSION: v7.9.4 Stable
+window.RenderEngine = (function() {
+  const containerMalla = document.getElementById('contenedor-malla');
 
-:root {
-  --eco-purple: #9B7BB6;
-  --eco-purple-pastel: #f9f6fc;
-  --eco-teal: #00A19B;
-  --eco-dark: #17334B;
-  --eco-green: #54BBAB;
-  --eco-green-pastel: #f1fcf9;
-}
+  // Transforma arreglos en listas HTML o devuelve el texto limpio
+  function validarDato(dato) {
+    const msg = '<em style="color:#999;font-weight:400;">Información en proceso de revisión...</em>';
+    if (!dato || dato === "") return msg;
+    
+    if (Array.isArray(dato)) {
+      if (dato.length === 0) return msg;
+      return `<ul>${dato.map(linea => `<li>${linea}</li>`).join('')}</ul>`;
+    }
+    return dato;
+  }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Barlow Condensed', sans-serif; background: #f0f4f7; font-size: 1.2rem; }
+  // Detecta códigos (DBA-XX o DBA X) y los separa en Badges
+  function formatearDBA(dato) {
+    if (!dato) return validarDato(dato);
+    const lineas = Array.isArray(dato) ? dato : [dato];
+    
+    return lineas.map(linea => {
+      const parts = linea.split(':');
+      if (parts.length > 1 && parts[0].toLowerCase().includes('dba')) {
+        return `<div class="dba-item-container"><span class="dba-badge">${parts[0].trim()}</span><div>${parts.slice(1).join(':').trim()}</div></div>`;
+      }
+      return `<div>${linea}</div>`;
+    }).join('');
+  }
 
-/* --- SPINNER DE CARGA --- */
-.loading-overlay {
-  display: none !important; position: fixed !important; top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(255, 255, 255, 0.9); z-index: 10000 !important;
-  flex-direction: column; align-items: center; justify-content: center;
-}
-.loading-overlay.mostrar-flex { display: flex !important; }
-.spinner { width: 60px; height: 60px; border: 6px solid #f3f3f3; border-top: 6px solid var(--eco-green); border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 20px; }
-@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+  function renderizar(items, areaId, grado, periodo) {
+    const resSec = document.getElementById('resultados-principal');
+    const indicador = document.getElementById('indicador-periodo');
+    const configArea = window.APP_CONFIG.AREAS[areaId];
 
-.ocultar-inicial, .print-only-header, .resultados { display: none; }
-.mostrar-block { display: block !important; }
+    if (resSec) resSec.classList.add('mostrar-block');
 
-/* HEADER */
-header { text-align: center; padding: 1rem; background: linear-gradient(180deg, #1a5b96 0%, #082b4a 100%); color: white; }
-header h1 { font-size: 1.6rem; text-transform: uppercase; }
+    if (indicador && configArea) {
+      indicador.style.display = 'block';
+      indicador.style.backgroundColor = configArea.color || '#9B7BB6';
+      indicador.innerHTML = `Periodo Consultado: ${periodo}°`;
+      indicador.classList.remove('animar-zoom');
+      void indicador.offsetWidth;
+      indicador.classList.add('animar-zoom');
+    }
 
-main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
+    if (!containerMalla) return;
 
-/* FILTROS */
-.filtros { background: white; padding: 1.5rem; border-radius: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; border-bottom: 5px solid var(--eco-green); box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
-.filtro-grupo { display: flex; flex-direction: column; min-width: 160px; }
-.filtros label { font-weight: 700; font-size: 0.9rem; text-transform: uppercase; color: #444; margin-bottom: 5px; }
-.filtros select { padding: 0.6rem; border: 2px solid #e1e5e9; border-radius: 10px; font-family: 'Barlow Condensed'; font-size: 1.1rem; }
+    containerMalla.innerHTML = items.map(item => {
+      if (areaId === "proyecto-socioemocional") return plantillaSocioemocional(item, grado);
+      return plantillaAcademica(item, areaId, grado, periodo);
+    }).join('');
+  }
 
-/* BOTONES */
-.botones-container { display: flex; align-items: flex-end; gap: 15px; }
-.btn-buscar { background: #11678B; color: white; height: 48px; padding: 0 1.5rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
-.btn-progresion { background: var(--eco-purple); color: white; height: 48px; padding: 0 1.8rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
-.btn-progresion:disabled { background: #d1d1d1 !important; color: #888 !important; cursor: not-allowed; }
+  function plantillaAcademica(item, areaId, grado, periodo) {
+    const tipo = window.APP_CONFIG.TIPO_MALLA;
+    const config = window.APP_CONFIG.AREAS[areaId];
+    const llaveNormal = normalizarTexto(config.nombre);
+    const llaveDCE = `tareas_dce_${llaveNormal}`;
+    const dceData = window.MallasData[llaveDCE]?.[grado]?.[tipo];
+    const dcePer = dceData?.periodos?.find(p => String(p.periodo_id) === String(periodo));
+    const rawDCE = dcePer?.guias_por_componente?.find(c => normalizarTexto(c.componente) === normalizarTexto(item.componente || item.competencia));
+    const infoDCE = rawDCE?.guia_didactica;
 
-/* HERRAMIENTAS Y INDICADOR DE PERIODO (v7.9.1) */
-.contenedor-herramientas-reporte { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
-.btn-secundario { background: var(--eco-teal); color: white; padding: 12px 25px; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
+    const llaveEco = normalizarTexto(window.APP_CONFIG.AREAS["proyecto-socioemocional"].nombre);
+    const ecoPer = window.MallasData[llaveEco]?.[grado]?.[tipo]?.periodos?.[periodo];
+    const infoECO = (ecoPer && Array.isArray(ecoPer) && ecoPer.length > 0) ? ecoPer[0] : null;
 
-.indicador-periodo {
-  padding: 12px 25px;
-  border-radius: 10px;
-  color: white;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1.1rem;
-  display: none;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
+    return `
+      <div class="item-malla">
+        <div class="franja-titulo-principal" style="background-color: ${config.color};">
+            ${item.componente || item.competencia || 'General'}
+        </div>
+        <div class="item-malla-contenido">
+          <div class="campo"><strong>Estándar Curricular:</strong><div>${validarDato(item.estandar)}</div></div>
+          <div class="campo"><strong>DBA:</strong><div>${formatearDBA(item.dba)}</div></div>
+          <div class="campo"><strong>Evidencias de Aprendizaje:</strong><div>${validarDato(item.evidencias)}</div></div>
+          <div class="campo"><strong>Saberes / Contenidos:</strong><div>${validarDato(item.saberes)}</div></div>
 
-@keyframes zoomInPulse {
-  0% { opacity: 0; transform: scale(0.8); }
-  100% { opacity: 1; transform: scale(1); }
-}
-.animar-zoom { animation: zoomInPulse 0.4s ease-out forwards; }
+          <div class="contenedor-fichas-cierre">
+            <div class="ficha-cierre ficha-dce">
+              <div class="ficha-header ficha-header-dce">
+                <span>💡</span> GUÍA DIDÁCTICA: ${infoDCE ? infoDCE.la_estrategia : 'En proceso'}
+              </div>
+              <div class="ficha-body">
+                <div class="campo"><strong>Reto Sugerido:</strong><div>${validarDato(infoDCE?.un_reto_sugerido)}</div></div>
+                <div class="campo"><strong>Ruta de Exploración:</strong>
+                  <ul>
+                    <li><strong>Explorar:</strong> ${validarDato(infoDCE?.ruta_de_exploracion?.explorar)}</li>
+                    <li><strong>Visual:</strong> ${validarDato(infoDCE?.ruta_de_exploracion?.visual)}</li>
+                    <li><strong>Producción:</strong> ${validarDato(infoDCE?.ruta_de_exploracion?.produccion)}</li>
+                  </ul>
+                </div>
+                <div class="campo"><strong>Para Pensar:</strong><div>${validarDato(infoDCE?.para_pensar)}</div></div>
+                <div class="campo"><strong>Pistas del Éxito:</strong><div>${validarDato(infoDCE?.pistas_del_exito)}</div></div>
+                <div class="campo"><strong>Un Refuerzo:</strong><div>${validarDato(infoDCE?.un_refuerzo)}</div></div>
+              </div>
+            </div>
 
-/* CARDS DE RESULTADOS */
-.item-malla { background: white; border-radius: 20px; overflow: hidden; margin-bottom: 4rem; border: 1px solid #e0e6ed; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
-.franja-titulo-principal { padding: 1.2rem; text-align: center; color: white; text-transform: uppercase; font-size: 1.8rem; font-weight: 700; }
-.item-malla-contenido { padding: 2rem 3.5rem; }
-.campo { margin-bottom: 1.5rem; }
-.campo strong { display: block; font-size: 1rem; color: #666; text-transform: uppercase; margin-bottom: 0.5rem; border-left: 4px solid #ddd; padding-left: 10px; }
+            <div class="ficha-cierre ficha-eco">
+              <div class="ficha-header ficha-header-eco">
+                <span>🧠</span> RESPONSABILIDAD SOCIOEMOCIONAL ECO
+              </div>
+              <div class="ficha-body">
+                <div class="campo"><strong>Eje Central:</strong><div>${validarDato(infoECO?.eje_central)}</div></div>
+                <div class="campo"><strong>Habilidades:</strong><div>${validarDato(infoECO?.Habilidades)}</div></div>
+                <div class="campo"><strong>Evidencias de Desempeño:</strong><div>${validarDato(infoECO?.evidencias_de_desempeno)}</div></div>
+              </div>
+            </div>
+          </div>
+          <div style="text-align:center; margin-top:2rem;"><a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a></div>
+        </div>
+      </div>
+    `;
+  }
 
-/* FICHAS DOBLES */
-.contenedor-fichas-cierre { display: flex; flex-direction: column; gap: 20px; margin-top: 30px; border-top: 2px dashed #eee; padding-top: 30px; }
-.ficha-cierre { border-radius: 15px; overflow: hidden; border: 1px solid rgba(0,0,0,0.05); }
-.ficha-header { padding: 12px 20px; color: white; font-weight: 700; text-transform: uppercase; font-size: 1.1rem; display: flex; align-items: center; gap: 10px; }
-.ficha-body { padding: 20px 25px; }
-.ficha-dce { background-color: var(--eco-green-pastel); border-left: 10px solid var(--eco-green); }
-.ficha-header-dce { background-color: var(--eco-green); }
-.ficha-eco { background-color: var(--eco-purple-pastel); border-left: 10px solid var(--eco-purple); }
-.ficha-header-eco { background-color: var(--eco-purple); }
+  function plantillaSocioemocional(item, grado) {
+    return `
+      <div class="item-malla">
+        <div class="franja-titulo-principal" style="background-color: var(--eco-purple);">
+            ${item.competencia || 'Competencia Socioemocional'}
+        </div>
+        <div class="item-malla-contenido">
+          <div class="campo"><strong>Estandar de Formación:</strong> <div>${validarDato(item.estandar)}</div></div>
+          <div class="campo"><strong>Eje Central del Proceso:</strong> <div>${validarDato(item.eje_central)}</div></div>
+          <div class="campo"><strong>Habilidades a Fortalecer:</strong> <div style="background:white; padding:20px; border-radius:10px; border:1px solid #eee; border-left:5px solid var(--eco-purple);">${validarDato(item.Habilidades)}</div></div>
+          <div class="campo"><strong>Evidencias ECO:</strong> <div>${validarDato(item.evidencias_de_desempeno)}</div></div>
+          <div style="text-align:center; margin-top:2rem;"><a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a></div>
+        </div>
+      </div>
+    `;
+  }
 
-.btn-eco-dic { display: inline-block !important; background: var(--eco-teal) !important; color: white !important; padding: 12px 25px !important; text-decoration: none !important; border-radius: 10px !important; font-weight: 700 !important; margin-top: 1rem !important; }
+  function setCargando(estado) { 
+    const loader = document.getElementById('loading-overlay');
+    if (loader) loader.classList.toggle('mostrar-flex', estado);
+  }
 
-/* MODALES */
-.modal-notificacion { display: none !important; position: fixed !important; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.7); z-index: 20000 !important; justify-content: center; align-items: center; }
-.modal-notificacion.mostrar-flex { display: flex !important; }
-.modal-notificacion-contenido { background: white; width: 90%; max-width: 380px; padding: 2rem; border-radius: 20px; text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.5); animation: modalIn 0.3s ease-out; }
-@keyframes modalIn { from { transform: scale(0.8); opacity: 0; } to { transform: scale(1); opacity: 1; } }
-
-/* --- VENTANA DE PROGRESIÓN (RESTAURADA v7.9.2) --- */
-.overlay-progresion { display: none !important; position: fixed !important; top: 0; left: 0; width: 100%; height: 100%; background: rgba(13, 61, 102, 0.95); backdrop-filter: blur(8px); z-index: 9000 !important; justify-content: center; align-items: center; padding: 20px; }
-.overlay-progresion.mostrar-flex { display: flex !important; }
-.progresion-container { background: white; width: 95%; height: 90vh; border-radius: 25px; display: flex; flex-direction: column; overflow: hidden; }
-.progresion-header { background: var(--eco-dark); color: white; padding: 1.2rem 2rem; display: flex; justify-content: space-between; align-items: center; }
-
-.progresion-navegacion { background: #f8f9fa; padding: 15px; display: flex; justify-content: center; align-items: center; gap: 30px; border-bottom: 1px solid #ddd; }
-.info-ciclo { font-weight: 700; color: var(--eco-dark); text-transform: uppercase; font-size: 1.1rem; }
-
-/* Botones Circulares Restaurados */
-.btn-nav { 
-  background: var(--eco-dark); 
-  color: white; 
-  border: none; 
-  width: 45px; 
-  height: 45px; 
-  border-radius: 50%; 
-  cursor: pointer; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  font-weight: bold; 
-  font-size: 1.4rem;
-  transition: transform 0.2s, background 0.2s;
-}
-.btn-nav:hover { background: var(--eco-teal); transform: scale(1.1); }
-.btn-nav:disabled { background: #ccc; cursor: not-allowed; transform: scale(1); }
-
-.progresion-columnas { display: grid; grid-template-columns: 1fr 1fr 1fr; flex: 1; overflow-y: hidden; padding: 20px; gap: 20px; background: #e9ecef; }
-.col-prog { background: white; border-radius: 15px; border: 1px solid #eee; display: flex; flex-direction: column; height: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
-.col-header { padding: 15px; text-align: center; font-weight: 700; background: #fdfdfd; border-bottom: 3px solid #eee; font-size: 1.4rem; color: var(--eco-dark); }
-.col-content { padding: 15px; overflow-y: auto; flex: 1; }
-.prog-estandar-item { background: #f9f9f9; border-left: 6px solid var(--eco-teal); padding: 12px; margin-bottom: 12px; border-radius: 6px; font-size: 1.1rem; line-height: 1.3; }
-
-.btn-cerrar-overlay { background: #ff4d4d; color: white; border: none; padding: 8px 18px; border-radius: 8px; font-weight: 700; text-transform: uppercase; cursor: pointer; }
-.btn-top { display: none; position: fixed; bottom: 25px; right: 25px; width: 50px; height: 50px; background: var(--eco-green); color: white; border: none; border-radius: 50%; font-size: 1.5rem; cursor: pointer; z-index: 3000; }
-
-@media print {
-  .no-print, header, .filtros, .btn-top, .contenedor-herramientas-reporte, .modal-notificacion, .overlay-progresion, .loading-overlay { display: none !important; }
-  main { position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; margin: 0 !important; padding: 0 !important; }
-  .item-malla { break-inside: avoid; border: 2px solid #000 !important; box-shadow: none !important; margin: 20px 0 !important; }
-}
+  return { renderizar, setCargando };
+})();
