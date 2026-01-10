@@ -1,0 +1,363 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "10",
+  "nombre_archivo": "t_ciencias_10_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "El Código de la Resiliencia Biológica",
+            "un_reto_sugerido": "¿Cómo determina el ADN la capacidad de una especie para sobrevivir a cambios drásticos en su entorno?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar imágenes de especies que habitan en ecosistemas extremos (páramos, desiertos) y listar características físicas que parecen heredadas para la supervivencia.",
+              "visual": "Realizar la extracción casera de ADN de una fruta (banano o fresa) utilizando alcohol, sal y jabón líquido para visualizar las fibras genéticas.",
+              "produccion": "Construir una infografía que explique la relación entre la secuencia de bases nitrogenadas y la síntesis de proteínas que permiten la adaptación ambiental."
+            },
+            "para_pensar": [
+              "¿Puede el ambiente modificar nuestro ADN o solo selecciona a los que tienen el ADN adecuado?",
+              "¿Qué implicaciones éticas tiene el uso de la biotecnología para modificar cultivos locales?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica la estructura del ADN y su rol en la diversidad biológica.",
+              "Identifica relaciones dinámicas en un ecosistema a partir de la adaptación genética."
+            ],
+            "un_refuerzo": "Investigar el caso de los osos polares y cómo su ADN ha mutado para procesar dietas altas en grasa."
+          }
+        },
+        {
+          "componente": "Entorno Químico",
+          "guia_didactica": {
+            "la_estrategia": "El Mapa Maestro de la Materia",
+            "un_reto_sugerido": "¿Cómo predice la tabla periódica el comportamiento 'social' (enlaces) de los átomos?",
+            "ruta_de_exploracion": {
+              "explorar": "Comparar muestras de metales (cobre, aluminio) y no metales (carbón, azufre) para identificar brillo, maleabilidad y conducción eléctrica.",
+              "visual": "Realizar una prueba de coloración a la llama usando sales comunes (cloruro de sodio, potasio) para observar los espectros de emisión que evidencian los niveles de energía atómica.",
+              "produccion": "Elaborar un cuadro comparativo de los modelos atómicos desde Dalton hasta la mecánica cuántica, justificando por qué la configuración electrónica determina los enlaces químicos."
+            },
+            "para_pensar": [
+              "¿Por qué el oro no se oxida pero el hierro sí, si ambos están en la misma tabla periódica?",
+              "¿Cómo influye la posición de un elemento en la tabla con su toxicidad o utilidad industrial?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante predice el tipo de enlace (iónico/covalente) basándose en la electronegatividad.",
+              "Usa la tabla periódica para clasificar elementos según sus propiedades físico-químicas."
+            ],
+            "un_refuerzo": "Utilizar un simulador interactivo de construcción de átomos para entender la relación entre protones y electrones de valencia."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "El Juego de las Fuerzas en Equilibrio",
+            "un_reto_sugerido": "¿Qué condiciones se deben cumplir para que un objeto no cambie su estado de movimiento?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar el movimiento de una moneda sobre un papel cuando este se retira rápidamente (inercia) y registrar lo ocurrido.",
+              "visual": "Diseñar un experimento con un plano inclinado y un carrito (o canica), variando las superficies para medir cómo la fuerza de rozamiento afecta la aceleración.",
+              "produccion": "Resolver diagramas de cuerpo libre para situaciones cotidianas, aplicando las leyes de Newton para calcular la fuerza resultante y la aceleración."
+            },
+            "para_pensar": [
+              "¿Si un objeto está en reposo, podemos afirmar que no hay fuerzas actuando sobre él?",
+              "¿Cómo ayudan los cinturones de seguridad a mitigar las fuerzas en un choque según la primera ley de Newton?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante establece relaciones entre masa, fuerza y aceleración.",
+              "Explica situaciones de reposo o movimiento rectilíneo uniforme mediante la anulación de fuerzas."
+            ],
+            "un_refuerzo": "Video-análisis de un atleta en movimiento para identificar las fuerzas de acción y reacción en el arranque de una carrera."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Ciencia en la Cocina y el Deporte",
+            "un_reto_sugerido": "¿Cómo se aplican los principios de la química y la física para optimizar el rendimiento humano y la gastronomía?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar en la cocina tres procesos que impliquen un cambio químico irreversible (ej. freír un huevo, fermentar masa).",
+              "visual": "Medir el tiempo de recuperación de la frecuencia cardíaca tras realizar 2 minutos de ejercicio intenso, relacionándolo con la salud física.",
+              "produccion": "Escribir un ensayo breve sobre cómo la tecnología de fluidos (hidráulica) se aplica en máquinas de gimnasio o sistemas de riego agrícola."
+            },
+            "para_pensar": [
+              "¿Es cocinar una forma de hacer química experimental? ¿Por qué?",
+              "¿Cómo afectan las decisiones culturales nuestras prácticas de salud reproductiva?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante describe factores tecnológicos que inciden en la salud.",
+              "Explica aplicaciones de la mecánica de fluidos en la vida diaria."
+            ],
+            "un_refuerzo": "Investigar el funcionamiento de una olla a presión desde las leyes de los gases y la física térmica."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectos de Ecosistemas",
+            "un_reto_sugerido": "¿Cómo se conectan los niveles biológicos desde un solo individuo hasta un bioma global?",
+            "ruta_de_exploracion": {
+              "explorar": "Mapear los seres vivos de un jardín escolar y clasificarlos en poblaciones y comunidades.",
+              "visual": "Construir un modelo de red trófica local utilizando recortes y flechas, indicando la dirección del flujo de energía.",
+              "produccion": "Describir mediante un diagrama cómo la energía se disipa en forma de calor al pasar de un nivel trófico a otro (termodinámica)."
+            },
+            "para_pensar": [
+              "¿Por qué en un ecosistema siempre hay más productores que consumidores?",
+              "¿Cómo afecta la extinción de una sola especie a toda la red trófica?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante diferencia individuo, población, comunidad y ecosistema.",
+              "Explica la pérdida de energía entre eslabones de la cadena alimentaria."
+            ],
+            "un_refuerzo": "Analizar el impacto de una especie invasora (como el caracol africano) en un ecosistema colombiano."
+          }
+        },
+        {
+          "componente": "Entorno Químico",
+          "guia_didactica": {
+            "la_estrategia": "Reacciones que Transforman el Mundo",
+            "un_reto_sugerido": "¿Cómo predecir la cantidad de producto obtenido en una reacción química inorgánica?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar la oxidación de una manzana y de un clavo de hierro, identificando señales de cambio químico (color, olor).",
+              "visual": "Realizar la reacción de neutralización entre vinagre y bicarbonato de sodio en una botella con un globo para medir la producción de gas CO2.",
+              "produccion": "Resolver problemas estequiométricos de mol-mol y masa-masa para reacciones de precipitación y óxido-reducción."
+            },
+            "para_pensar": [
+              "¿Por qué es importante balancear una ecuación química antes de realizar cálculos en la industria?",
+              "¿Cómo impactan los residuos de reacciones químicas industriales a las fuentes de agua?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante realiza cálculos cuantitativos aplicando la ley de conservación de la masa.",
+              "Identifica grupos funcionales inorgánicos (óxidos, ácidos, bases, sales)."
+            ],
+            "un_refuerzo": "Realizar una infografía sobre los beneficios y peligros de la energía nuclear (fisión y fusión)."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "La Gravedad y la Conservación de la Energía",
+            "un_reto_sugerido": "¿Por qué una montaña rusa puede completar su recorrido sin necesidad de un motor constante?",
+            "ruta_de_exploracion": {
+              "explorar": "Soltar dos objetos de diferente masa desde la misma altura y observar si tocan el suelo al mismo tiempo.",
+              "visual": "Construir una pista de carreras para una canica (con tubos de cartón) y demostrar cómo la energía potencial se transforma en cinética y térmica.",
+              "produccion": "Calcular la energía mecánica total en diferentes puntos de una trayectoria pendular, demostrando su conservación."
+            },
+            "para_pensar": [
+              "¿Qué pasaría con la órbita de la Luna si la masa de la Tierra disminuyera a la mitad?",
+              "¿A dónde se va la energía de una pelota que deja de rebotar?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante relaciona masa, distancia y fuerza gravitacional.",
+              "Cuantifica la energía potencial y cinética en sistemas masa-resorte o caída libre."
+            ],
+            "un_refuerzo": "Simular el movimiento de un satélite usando software de física para ver el efecto de la gravedad."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Salud Pública y Energías Limpias",
+            "un_reto_sugerido": "¿Cómo las decisiones individuales sobre antibióticos y anticonceptivos impactan la salud colectiva?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar noticias sobre la resistencia bacteriana y el descubrimiento de nuevos antibióticos.",
+              "visual": "Diseñar un cartel informativo sobre los métodos de prevención de ITS y su efectividad tecnológica.",
+              "produccion": "Evaluar el potencial de energía solar o eólica en su región colombiana basándose en datos climáticos locales."
+            },
+            "para_pensar": [
+              "¿Por qué no debemos suspender un tratamiento de antibióticos aunque ya nos sintamos bien?",
+              "¿Es posible que Colombia dependa 100% de energías renovables en el futuro?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante argumenta la importancia del uso correcto de antibióticos.",
+              "Analiza el potencial de recursos naturales para la obtención de energía."
+            ],
+            "un_refuerzo": "Investigar el proceso de producción de biogás a partir de residuos orgánicos domésticos."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "El Reloj de la Selección Natural",
+            "un_reto_sugerido": "¿Cómo 'decide' la naturaleza qué organismos sobreviven y cuáles se extinguen?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar fotografías de fósiles y compararlas con especies actuales para encontrar similitudes estructurales.",
+              "visual": "Simular la selección natural usando legumbres de colores sobre diferentes fondos para observar el efecto del camuflaje frente a un 'depredador'.",
+              "produccion": "Explicar mediante un ensayo la relación entre mutaciones genéticas aleatorias y la adaptación poblacional a largo plazo."
+            },
+            "para_pensar": [
+              "¿Si el ambiente cambia muy rápido, pueden las especies evolucionar a tiempo?",
+              "¿Cómo afecta el uso de pesticidas a la evolución de las plagas en los cultivos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante relaciona mutación, selección natural y herencia.",
+              "Compara casos reales de evolución (ej. polilla de los abedules)."
+            ],
+            "un_refuerzo": "Ver un documental corto sobre los pinzones de Darwin y completar una matriz de comparación de picos."
+          }
+        },
+        {
+          "componente": "Entorno Químico",
+          "guia_didactica": {
+            "la_estrategia": "Química de la Vida y del Cuerpo Humano",
+            "un_reto_sugerido": "¿Qué transformaciones químicas ocurren en nuestro cuerpo para mantenernos vivos?",
+            "ruta_de_exploracion": {
+              "explorar": "Detectar la presencia de almidón en diferentes alimentos usando tintura de yodo.",
+              "visual": "Medir el cambio de pH en la saliva antes y después de ingerir un alimento ácido (limón).",
+              "produccion": "Esquematizar el proceso químico de la respiración celular y su relación con la obtención de energía (ATP)."
+            },
+            "para_pensar": [
+              "¿Por qué algunas personas son intolerantes a la lactosa desde una perspectiva química?",
+              "¿Cómo influyen los grupos funcionales orgánicos en la efectividad de los medicamentos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica cambios químicos esenciales en el ser humano.",
+              "Realiza cálculos de rendimiento en reacciones químicas biológicas simples."
+            ],
+            "un_refuerzo": "Investigar qué ocurre químicamente durante la diabetes y el rol de la insulina."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Impactos y Flujos: La Física del Movimiento",
+            "un_reto_sugerido": "¿Cómo predecir el resultado de una colisión entre dos cuerpos?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar el comportamiento de burbujas en un fluido viscoso (aceite) versus agua.",
+              "visual": "Realizar un experimento de choque entre canicas de diferentes masas, midiendo las distancias recorridas tras el impacto.",
+              "produccion": "Modelar matemáticamente el impulso y la cantidad de movimiento en un choque elástico sencillo."
+            },
+            "para_pensar": [
+              "¿Por qué los boxeadores usan guantes grandes para reducir la fuerza del impacto?",
+              "¿Cómo ayuda la física de fluidos a entender la circulación de la sangre en las venas?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante aplica el principio de conservación del momento lineal.",
+              "Explica el comportamiento de fluidos en movimiento mediante modelos físicos."
+            ],
+            "un_refuerzo": "Usar jeringas y mangueras para construir un brazo hidráulico simple que demuestre el principio de Pascal."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Innovación y Prevención: El ADN Colombiano",
+            "un_reto_sugerido": "¿Qué impacto tiene el desarrollo científico colombiano en nuestra calidad de vida?",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar sobre científicos colombianos (ej. Manuel Elkin Patarroyo o Nubia Muñoz) y sus aportes a la salud mundial.",
+              "visual": "Crear un mapa mental sobre los efectos nocivos del consumo de alcohol y tabaco en los sistemas del cuerpo.",
+              "produccion": "Diseñar una propuesta tecnológica para purificar agua en una zona rural usando materiales locales."
+            },
+            "para_pensar": [
+              "¿Por qué es importante que un país invierta en su propio desarrollo tecnológico?",
+              "¿Cómo influye la publicidad en el consumo de sustancias psicoactivas en jóvenes?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica tecnologías desarrolladas en Colombia.",
+              "Argumenta la importancia de la prevención en salud individual y colectiva."
+            ],
+            "un_refuerzo": "Entrevistar a un profesional de salud local sobre los retos de prevención en la comunidad."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "El Ciclo de la Materia y la Energía",
+            "un_reto_sugerido": "¿Cómo se reciclan los átomos en la Tierra para que la vida nunca se detenga?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar el proceso de descomposición de restos orgánicos en una compostera casera.",
+              "visual": "Realizar un experimento para demostrar la producción de oxígeno en elodea (u otra planta acuática) bajo la luz solar.",
+              "produccion": "Construir un diagrama del ciclo del carbono, integrando la fotosíntesis, la respiración y la combustión industrial."
+            },
+            "para_pensar": [
+              "¿Qué ocurriría con los ciclos biogeoquímicos si desaparecieran todos los hongos y bacterias de la Tierra?",
+              "¿Cómo afecta el exceso de CO2 atmosférico al equilibrio térmico de los océanos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante argumenta la importancia de la fotosíntesis para los organismos aerobios.",
+              "Relaciona los ciclos del agua y nitrógeno con la energía del ecosistema."
+            ],
+            "un_refuerzo": "Crear un 'terrario eterno' en un frasco sellado y explicar cómo se mantienen los ciclos en su interior."
+          }
+        },
+        {
+          "componente": "Entorno Químico",
+          "guia_didactica": {
+            "la_estrategia": "Controlando la Velocidad Química",
+            "un_reto_sugerido": "¿Cómo podemos acelerar o frenar una reacción química según nuestra necesidad?",
+            "ruta_de_exploracion": {
+              "explorar": "Comparar la disolución de una pastilla efervescente entera versus una pulverizada.",
+              "visual": "Observar cómo el agua oxigenada se descompone más rápido al añadir un trozo de papa (catalizador biológico).",
+              "produccion": "Explicar el concepto de equilibrio químico y cómo el principio de Le Châtelier se aplica en la industria de fertilizantes."
+            },
+            "para_pensar": [
+              "¿Por qué usamos refrigeradores para conservar los alimentos desde el punto de vista de la cinética química?",
+              "¿Cómo actúan los conservantes químicos en los alimentos ultraprocesados?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica condiciones para controlar la velocidad de cambios químicos.",
+              "Caracteriza cambios químicos en condiciones de equilibrio."
+            ],
+            "un_refuerzo": "Resolver ejercicios sobre el efecto de la temperatura y presión en el equilibrio gaseoso."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Estabilidad y Conexiones Eléctricas",
+            "un_reto_sugerido": "¿Por qué un edificio permanece en pie y cómo viaja la energía por nuestra casa?",
+            "ruta_de_exploracion": {
+              "explorar": "Intentar equilibrar una regla sobre un dedo y encontrar su centro de masa experimentalmente.",
+              "visual": "Construir un circuito eléctrico simple en serie y en paralelo usando una pila y bombillos de linterna para medir diferencias en la luminosidad.",
+              "produccion": "Aplicar la ley de Ohm para calcular voltaje y corriente en un circuito de múltiples resistencias."
+            },
+            "para_pensar": [
+              "¿Por qué los equilibristas usan una vara larga para caminar sobre una cuerda?",
+              "¿Qué ventajas tiene que la instalación eléctrica de una casa sea en paralelo y no en serie?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante establece relaciones entre estabilidad y centro de masa.",
+              "Relaciona voltaje y corriente en circuitos eléctricos complejos."
+            ],
+            "un_refuerzo": "Dibujar el plano eléctrico de una habitación, identificando nodos y elementos resistivos."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Microorganismos y Circuitos del Futuro",
+            "un_reto_sugerido": "¿Son los microorganismos nuestros aliados o enemigos en el desarrollo tecnológico?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar productos industriales que usan microorganismos (yogur, levadura, bioplásticos).",
+              "visual": "Observar el crecimiento de moho en un pan bajo diferentes condiciones de humedad y temperatura.",
+              "produccion": "Realizar una línea de tiempo sobre la evolución de los componentes electrónicos (del tubo de vacío al microchip) y su impacto ambiental."
+            },
+            "para_pensar": [
+              "¿Podríamos usar bacterias para limpiar derrames de petróleo en Colombia?",
+              "¿Qué hacemos con la 'basura electrónica' de nuestros circuitos viejos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante verifica la utilidad de microorganismos en procesos industriales.",
+              "Analiza el impacto de los circuitos eléctricos en la vida diaria."
+            ],
+            "un_refuerzo": "Diseñar un folleto sobre la importancia de la vacunación como tecnología biológica de defensa."
+          }
+        }
+      ]
+    }
+  ]
+}
