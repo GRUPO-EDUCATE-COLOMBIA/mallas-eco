@@ -1,11 +1,31 @@
+// FILE: js/render-engine.js | VERSION: v7.9.4 Stable
 window.RenderEngine = (function() {
   const containerMalla = document.getElementById('contenedor-malla');
 
+  // Transforma arreglos en listas HTML o devuelve el texto limpio
   function validarDato(dato) {
     const msg = '<em style="color:#999;font-weight:400;">Información en proceso de revisión...</em>';
     if (!dato || dato === "") return msg;
-    if (Array.isArray(dato)) return dato.length > 0 ? dato.join('<br><br>') : msg;
+    
+    if (Array.isArray(dato)) {
+      if (dato.length === 0) return msg;
+      return `<ul>${dato.map(linea => `<li>${linea}</li>`).join('')}</ul>`;
+    }
     return dato;
+  }
+
+  // Detecta códigos (DBA-XX o DBA X) y los separa en Badges
+  function formatearDBA(dato) {
+    if (!dato) return validarDato(dato);
+    const lineas = Array.isArray(dato) ? dato : [dato];
+    
+    return lineas.map(linea => {
+      const parts = linea.split(':');
+      if (parts.length > 1 && parts[0].toLowerCase().includes('dba')) {
+        return `<div class="dba-item-container"><span class="dba-badge">${parts[0].trim()}</span><div>${parts.slice(1).join(':').trim()}</div></div>`;
+      }
+      return `<div>${linea}</div>`;
+    }).join('');
   }
 
   function renderizar(items, areaId, grado, periodo) {
@@ -15,14 +35,12 @@ window.RenderEngine = (function() {
 
     if (resSec) resSec.classList.add('mostrar-block');
 
-    // LÓGICA DEL INDICADOR DE PERIODO (Zoom-In)
     if (indicador && configArea) {
       indicador.style.display = 'block';
       indicador.style.backgroundColor = configArea.color || '#9B7BB6';
       indicador.innerHTML = `Periodo Consultado: ${periodo}°`;
-      
       indicador.classList.remove('animar-zoom');
-      void indicador.offsetWidth; // Force reflow
+      void indicador.offsetWidth;
       indicador.classList.add('animar-zoom');
     }
 
@@ -38,15 +56,10 @@ window.RenderEngine = (function() {
     const tipo = window.APP_CONFIG.TIPO_MALLA;
     const config = window.APP_CONFIG.AREAS[areaId];
     const llaveNormal = normalizarTexto(config.nombre);
-    
     const llaveDCE = `tareas_dce_${llaveNormal}`;
     const dceData = window.MallasData[llaveDCE]?.[grado]?.[tipo];
     const dcePer = dceData?.periodos?.find(p => String(p.periodo_id) === String(periodo));
-    
-    const rawDCE = dcePer?.guias_por_componente?.find(c => 
-      normalizarTexto(c.componente) === normalizarTexto(item.componente || item.competencia)
-    );
-    
+    const rawDCE = dcePer?.guias_por_componente?.find(c => normalizarTexto(c.componente) === normalizarTexto(item.componente || item.competencia));
     const infoDCE = rawDCE?.guia_didactica;
 
     const llaveEco = normalizarTexto(window.APP_CONFIG.AREAS["proyecto-socioemocional"].nombre);
@@ -58,10 +71,9 @@ window.RenderEngine = (function() {
         <div class="franja-titulo-principal" style="background-color: ${config.color};">
             ${item.componente || item.competencia || 'General'}
         </div>
-        
         <div class="item-malla-contenido">
           <div class="campo"><strong>Estándar Curricular:</strong><div>${validarDato(item.estandar)}</div></div>
-          <div class="campo"><strong>DBA:</strong><div>${validarDato(item.dba)}</div></div>
+          <div class="campo"><strong>DBA:</strong><div>${formatearDBA(item.dba)}</div></div>
           <div class="campo"><strong>Evidencias de Aprendizaje:</strong><div>${validarDato(item.evidencias)}</div></div>
           <div class="campo"><strong>Saberes / Contenidos:</strong><div>${validarDato(item.saberes)}</div></div>
 
@@ -73,7 +85,7 @@ window.RenderEngine = (function() {
               <div class="ficha-body">
                 <div class="campo"><strong>Reto Sugerido:</strong><div>${validarDato(infoDCE?.un_reto_sugerido)}</div></div>
                 <div class="campo"><strong>Ruta de Exploración:</strong>
-                  <ul style="margin-left:20px; list-style:circle;">
+                  <ul>
                     <li><strong>Explorar:</strong> ${validarDato(infoDCE?.ruta_de_exploracion?.explorar)}</li>
                     <li><strong>Visual:</strong> ${validarDato(infoDCE?.ruta_de_exploracion?.visual)}</li>
                     <li><strong>Producción:</strong> ${validarDato(infoDCE?.ruta_de_exploracion?.produccion)}</li>
@@ -96,10 +108,7 @@ window.RenderEngine = (function() {
               </div>
             </div>
           </div>
-
-          <div style="text-align:center; margin-top:2rem;">
-            <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
-          </div>
+          <div style="text-align:center; margin-top:2rem;"><a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a></div>
         </div>
       </div>
     `;
@@ -116,9 +125,7 @@ window.RenderEngine = (function() {
           <div class="campo"><strong>Eje Central del Proceso:</strong> <div>${validarDato(item.eje_central)}</div></div>
           <div class="campo"><strong>Habilidades a Fortalecer:</strong> <div style="background:white; padding:20px; border-radius:10px; border:1px solid #eee; border-left:5px solid var(--eco-purple);">${validarDato(item.Habilidades)}</div></div>
           <div class="campo"><strong>Evidencias ECO:</strong> <div>${validarDato(item.evidencias_de_desempeno)}</div></div>
-          <div style="text-align:center; margin-top:2rem;">
-            <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
-          </div>
+          <div style="text-align:center; margin-top:2rem;"><a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a></div>
         </div>
       </div>
     `;
