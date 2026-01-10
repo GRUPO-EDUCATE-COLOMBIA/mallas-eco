@@ -1,0 +1,279 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "4",
+  "nombre_archivo": "t_ciencias_4_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "La Cadena de la Vida",
+            "un_reto_sugerido": "¿Qué lugar ocupamos los seres vivos en la gran pirámide de la alimentación?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar un hormiguero o un jardín y registrar qué comen los diferentes insectos y qué pasa con los restos de hojas o animales muertos.",
+              "visual": "Construir una 'pirámide trófica' usando vasos desechables o cajas, apilándolos desde los productores (base) hasta los descomponedores (punta).",
+              "produccion": "Representar una red alimenticia de un ecosistema cercano, identificando la función (productor, consumidor, descomponedor) de cada organismo."
+            },
+            "para_pensar": [
+              "¿Por qué sin las plantas (productores) no podría existir ningún animal en la Tierra?",
+              "¿Qué pasaría si en un bosque desaparecieran todos los hongos y bacterias descomponedores?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica correctamente los niveles tróficos en una cadena (NAT-4-D6-E1).",
+              "Diferencia la función de los organismos en una red alimenticia."
+            ],
+            "un_refuerzo": "Dibujar una cadena alimenticia que incluya al ser humano y clasificarlo según su nivel de consumo."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Fuerzas en Acción",
+            "un_reto_sugerido": "¿Cómo influye la superficie en la que nos movemos en la rapidez de los objetos?",
+            "ruta_de_exploracion": {
+              "explorar": "Empujar un carro de juguete sobre tres superficies diferentes: el piso liso, una alfombra y arena, observando cuál llega más lejos.",
+              "visual": "Medir con una regla la distancia recorrida por un objeto al ser impulsado con la misma fuerza sobre superficies rugosas y lisas.",
+              "produccion": "Explicar el concepto de fricción o rozamiento a partir de los resultados obtenidos, prediciendo en qué superficie el movimiento dura más tiempo."
+            },
+            "para_pensar": [
+              "¿Por qué es más difícil caminar sobre hielo que sobre cemento?",
+              "¿Qué características debe tener una fuerza para detener un objeto que viene muy rápido?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante describe cómo la dirección y magnitud de la fuerza afectan el movimiento (NAT-4-D1-E1).",
+              "Comunica resultados sobre los efectos de la fricción en diferentes superficies (NAT-4-D1-E3)."
+            ],
+            "un_refuerzo": "Observar las suelas de diferentes zapatos (deportivos, sandalias) y explicar cómo su diseño ayuda a aumentar o disminuir la fricción."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Máquinas que nos Ayudan",
+            "un_reto_sugerido": "¿Qué objetos de nuestra casa nos permiten hacer menos esfuerzo físico?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar en la cocina o el taller herramientas como tijeras, abrelatas, martillos o rampas.",
+              "visual": "Clasificar las herramientas encontradas según el tipo de máquina simple (palanca, polea, plano inclinado).",
+              "produccion": "Explicar mediante un dibujo cómo una máquina simple (como un rodadero o unas pinzas) facilita una tarea cotidiana."
+            },
+            "para_pensar": [
+              "¿Cómo hacían las personas para mover piedras gigantes antes de que existieran las máquinas?",
+              "¿Es nuestro cuerpo una máquina? ¿Qué partes de él se parecen a una palanca?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica máquinas simples en objetos cotidianos.",
+              "Describe la utilidad de las máquinas para reducir el esfuerzo humano."
+            ],
+            "un_refuerzo": "Investigar cómo funciona una polea y tratar de levantar un objeto pequeño usando un hilo y un carrete."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Redes en Peligro",
+            "un_reto_sugerido": "¿Qué sucede cuando se rompe un eslabón de la red alimenticia por la contaminación?",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar sobre la contaminación por plásticos en los océanos y cómo estos terminan en el estómago de peces y aves marinas.",
+              "visual": "Simular una red alimenticia con lana: si un estudiante (especie) se suelta, observar cómo se debilita toda la red interconectada.",
+              "produccion": "Representar una pirámide trófica y proponer acciones para evitar que los residuos sólidos afecten a las especies marinas de nuestra región."
+            },
+            "para_pensar": [
+              "¿Si desaparece una especie de insecto, cómo afectaría a los pájaros que se alimentan de ellos?",
+              "¿Por qué los humanos somos responsables de mantener el equilibrio de las redes alimenticias?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante indica qué ocurre al alterar niveles de una red alimenticia (NAT-4-D6-E2).",
+              "Reconoce la importancia de la disposición de residuos para proteger ecosistemas marinos."
+            ],
+            "un_refuerzo": "Hacer una lista de 5 acciones diarias para reducir el plástico que llega a las fuentes de agua."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Mi Cuerpo, una Gran Máquina",
+            "un_reto_sugerido": "¿Cómo trabajan mis huesos y músculos para levantar objetos pesados?",
+            "ruta_de_exploracion": {
+              "explorar": "Tocar el brazo mientras se levanta un bolso pesado, identificando dónde se siente la tensión y qué parte actúa como apoyo.",
+              "visual": "Construir una palanca simple con una regla y un borrador (punto de apoyo) para observar cómo cambia el esfuerzo al mover el borrador.",
+              "produccion": "Identificar en un dibujo del cuerpo humano las palancas formadas por el codo, el tobillo y la rodilla, explicando la función de los músculos."
+            },
+            "para_pensar": [
+              "¿Por qué es más fácil levantar a alguien si lo agarramos cerca de nuestro cuerpo?",
+              "¿Qué pasaría si nuestras articulaciones no pudieran actuar como puntos de apoyo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explora cómo la posición del punto de apoyo afecta la fuerza (NAT-4-D2-E1).",
+              "Describe palancas presentes en su propio sistema óseo y muscular (NAT-4-D2-E4)."
+            ],
+            "un_refuerzo": "Practicar diferentes movimientos y clasificar si son de fuerza grande con pequeño movimiento o viceversa."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Química en el Fogón",
+            "un_reto_sugerido": "¿Cómo cambia la materia cuando cocinamos nuestros alimentos?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar con ayuda de un adulto los cambios en un huevo antes y después de ser cocinado, o en una fruta al ser picada.",
+              "visual": "Comparar un cambio físico (picar una zanahoria) con un cambio químico (quemar un papel o cocinar carne), registrando color y olor.",
+              "produccion": "Elaborar una tabla de 'Ciencia en la cocina' identificando transformaciones físicas y químicas durante la preparación de un desayuno."
+            },
+            "para_pensar": [
+              "¿Por qué un huevo cocinado no puede volver a ser líquido?",
+              "¿Qué papel juega el calor en los cambios químicos de la comida?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante verifica que la cocción genera cambios físicos y químicos.",
+              "Diferencia entre un cambio reversible y uno irreversible en la cocina."
+            ],
+            "un_refuerzo": "Hacer una ensalada de frutas y explicar por qué solo ocurrieron cambios físicos."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Mundos de Agua y Tierra",
+            "un_reto_sugerido": "¿Por qué un oso polar no podría vivir en el desierto y un cactus no podría vivir en el mar?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar imágenes de diferentes ecosistemas (páramo, selva, arrecife) y anotar sus características de temperatura y humedad.",
+              "visual": "Construir un terrario pequeño en un frasco para observar cómo las plantas se adaptan a la humedad contenida.",
+              "produccion": "Diferenciar ecosistemas terrestres de acuáticos, explicando cómo el tipo de suelo y el clima determinan qué seres vivos habitan allí."
+            },
+            "para_pensar": [
+              "¿Cómo afecta la falta de agua a las plantas de un ecosistema terrestre comparado con uno acuático?",
+              "¿Qué pasaría con los peces si la temperatura de los océanos subiera demasiado?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante diferencia tipos de ecosistemas terrestres y acuáticos (NAT-4-D7-E1).",
+              "Explica cómo la temperatura y humedad afectan la supervivencia de los organismos (NAT-4-D7-E2)."
+            ],
+            "un_refuerzo": "Investigar un animal camuflado y explicar cómo esa adaptación le ayuda en su ecosistema específico."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Sombras y Luces del Cielo",
+            "un_reto_sugerido": "¿Por qué las sombras cambian de tamaño durante el día y por qué la Luna cambia de forma?",
+            "ruta_de_exploracion": {
+              "explorar": "Colocar un palo en el patio y dibujar su sombra a las 8:00 am, 12:00 m y 4:00 pm para ver cómo cambia de posición.",
+              "visual": "Usar una linterna y un globo para modelar la rotación de la Tierra y explicar por qué mientras en un lado es de día, en el otro es de noche.",
+              "produccion": "Registrar en un calendario lunar los cambios de forma de la Luna durante un mes, dibujando sus fases principales."
+            },
+            "para_pensar": [
+              "¿Si la Tierra no rotara, qué pasaría con el día y la noche?",
+              "¿Por qué la Luna brilla si no tiene luz propia?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica el día y la noche mediante modelos de rotación (NAT-4-D3-E2).",
+              "Observa y registra las fases de la Luna y su variación mensual (NAT-4-D4-E1)."
+            ],
+            "un_refuerzo": "Construir un reloj de sol sencillo con un plato de cartón y un pitillo."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Aparatos con Energía",
+            "un_reto_sugerido": "¿Qué transformaciones de energía ocurren en los aparatos que usamos a diario?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar aparatos que generen calor (plancha), luz (bombillo) o movimiento (licuadora).",
+              "visual": "Seguir el cable de un aparato y discutir de dónde viene la energía que lo hace funcionar.",
+              "produccion": "Clasificar los electrodomésticos del hogar según el tipo de energía que entregan al usuario final."
+            },
+            "para_pensar": [
+              "¿Podría funcionar un televisor sin energía eléctrica? ¿Por qué?",
+              "¿Qué aparatos antiguos se usaban antes de que existiera la energía eléctrica para dar luz?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica aparatos que generan energía luminosa, térmica y mecánica.",
+              "Reconoce la importancia de la energía en la tecnología doméstica."
+            ],
+            "un_refuerzo": "Hacer un dibujo de una linterna y señalar qué partes producen luz y qué partes almacenan energía."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Colombia: Tesoro de Vida",
+            "un_reto_sugerido": "¿Qué especies de mi región son únicas en el mundo y cómo puedo protegerlas?",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar cuáles son las especies endémicas (propias) de su departamento o región de Colombia.",
+              "visual": "Crear un mapa regional donde se ubiquen los ecosistemas más importantes y las especies que están en peligro de extinción.",
+              "produccion": "Diseñar un cartel de 'Ecoturismo Responsable' que invite a las personas a visitar y cuidar un ecosistema local."
+            },
+            "para_pensar": [
+              "¿Por qué es importante proteger el hábitat de un animal endémico?",
+              "¿Cómo puede el turismo ayudar a conservar la naturaleza en lugar de destruirla?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante propone representaciones de ecosistemas de su región (NAT-4-D7-E3).",
+              "Plantea estrategias de conservación para especies locales."
+            ],
+            "un_refuerzo": "Escribir una carta a la comunidad explicando por qué no se deben tener animales silvestres como mascotas."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Expertos en Separar Mezclas",
+            "un_reto_sugerido": "¿Cómo podemos limpiar el agua sucia usando diferentes técnicas de separación?",
+            "ruta_de_exploracion": {
+              "explorar": "Mezclar agua con arena, y agua con sal, para observar cuál es heterogénea y cuál es homogénea.",
+              "visual": "Realizar experimentos de filtración (usando algodón), tamizado (usando un colador para arena y piedras) y evaporación (para recuperar sal).",
+              "produccion": "Explicar la importancia de estos métodos en el proceso de potabilización del agua que llega a nuestras casas."
+            },
+            "para_pensar": [
+              "¿Por qué no podemos separar el agua de la sal simplemente usando un colador?",
+              "¿Qué técnica de separación usarías para limpiar un derrame de aceite en el agua?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica mezclas en homogéneas y heterogéneas (NAT-4-D5-E1).",
+              "Selecciona técnicas de separación adecuadas según las propiedades de los materiales (NAT-4-D5-E2)."
+            ],
+            "un_refuerzo": "Investigar cómo funciona un filtro de agua casero y construir uno con arena y piedras."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Cuidando nuestro Aire",
+            "un_reto_sugerido": "¿Cómo nuestras acciones diarias influyen en la temperatura de la Tierra?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar fuentes de humo o gases en su comunidad (fábricas, carros, quemas de basura).",
+              "visual": "Modelar el efecto invernadero usando dos vasos con agua: uno cubierto con plástico y otro al aire, dejándolos al sol para medir cuál se calienta más.",
+              "produccion": "Proponer tres acciones concretas para disminuir la contaminación atmosférica en la escuela y el hogar."
+            },
+            "para_pensar": [
+              "¿Por qué se calienta tanto el planeta si la atmósfera está llena de gases contaminantes?",
+              "¿Qué relación hay entre el transporte que usamos y la calidad del aire que respiramos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante establece relaciones entre contaminación atmosférica y efectos climáticos.",
+              "Propone estrategias para mitigar el impacto ambiental humano."
+            ],
+            "un_refuerzo": "Hacer una infografía sobre qué es la lluvia ácida y cómo afecta a las plantas y edificios."
+          }
+        }
+      ]
+    }
+  ]
+}
