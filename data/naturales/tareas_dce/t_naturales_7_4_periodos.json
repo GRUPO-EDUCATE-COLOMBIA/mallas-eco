@@ -1,0 +1,279 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "7",
+  "nombre_archivo": "t_ciencias_7_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "El Banquete de la Naturaleza",
+            "un_reto_sugerido": "¿Cómo fluye la energía desde el sol hasta nosotros a través de lo que comemos?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar los organismos presentes en el patio del colegio o un parque cercano y clasificarlos según lo que comen (plantas, insectos, restos).",
+              "visual": "Diseñar una 'pirámide trófica' usando vasos plásticos apilables donde cada nivel represente productores, consumidores y descomponedores, rotulando su tipo de nutrición.",
+              "produccion": "Explicar mediante un esquema la diferencia entre nutrición autótrofa y heterótrofa, identificando el papel de cada una en el flujo de materia del ecosistema local."
+            },
+            "para_pensar": [
+              "¿Qué sucedería con la red trófica si desaparecieran todos los organismos productores (plantas)?",
+              "¿Cómo afecta la basura orgánica el ciclo de nutrientes en tu comunidad?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante diferencia correctamente entre nutrición autótrofa y heterótrofa (NAT-7-D3-E1).",
+              "Representa gráficamente una red trófica de su entorno."
+            ],
+            "un_refuerzo": "Investigar qué son los organismos descomponedores y observar un trozo de pan húmedo durante una semana para ver su acción."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Energía en Movimiento",
+            "un_reto_sugerido": "¿Cómo cambia la energía de un objeto cuando cambia su posición y su velocidad?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar el movimiento de una pelota al ser lanzada hacia arriba, notando los puntos donde parece detenerse y donde se mueve más rápido.",
+              "visual": "Realizar una medición de velocidad lanzando una canica por un plano inclinado a diferentes alturas y calculando el tiempo con un cronómetro.",
+              "produccion": "Relacionar los conceptos de energía cinética (movimiento) y potencial gravitacional (altura) mediante una gráfica que muestre cómo una se transforma en la otra."
+            },
+            "para_pensar": [
+              "¿Por qué un objeto tiene más energía si se suelta desde una mayor altura?",
+              "¿Hacia dónde se va la energía de un carro cuando frena bruscamente?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante relaciona las variables de velocidad y posición con las formas de energía mecánica (NAT-7-D1-E1).",
+              "Explica situaciones donde la energía se disipa en forma de calor o sonido."
+            ],
+            "un_refuerzo": "Utilizar un simulador de patinaje (tipo PHET) para observar visualmente cómo suben y bajan las barras de energía cinética y potencial."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Fuentes de Poder en mi Entorno",
+            "un_reto_sugerido": "¿Qué recursos de mi región tienen el potencial de generar energía limpia?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar en el municipio fuentes naturales como ríos, vientos fuertes o alta radiación solar.",
+              "visual": "Construir un prototipo sencillo de un molino de viento (usando cartulina y un alfiler) o una pequeña cocina solar con papel aluminio y una caja.",
+              "produccion": "Elaborar un informe sobre los usos posibles de los recursos naturales de su entorno para obtener energía y su impacto en la economía local."
+            },
+            "para_pensar": [
+              "¿Por qué es mejor usar energía solar que quemar madera o carbón para el medio ambiente?",
+              "¿Qué fuente de energía crees que será la más importante en Colombia en 20 años?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante analiza el potencial energético de su entorno regional.",
+              "Propone usos creativos y sostenibles para los recursos naturales locales."
+            ],
+            "un_refuerzo": "Hacer una lista de ahorro de energía para aplicar en casa y medir el cambio en el recibo de luz."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Fábricas de Oxígeno",
+            "un_reto_sugerido": "¿Cómo transforman las plantas el aire y el sol en alimento y qué pasaría si no lo hicieran?",
+            "ruta_de_exploracion": {
+              "explorar": "Colocar una planta pequeña bajo un frasco de vidrio transparente y observar la formación de gotas de agua y el estado de la planta tras un día al sol.",
+              "visual": "Realizar el experimento de la elodea (u otra planta acuática) en agua para observar la producción de burbujas (oxígeno) bajo la luz.",
+              "produccion": "Comparar mediante un cuadro comparativo los reactivos y productos de la fotosíntesis frente a los de la respiración celular."
+            },
+            "para_pensar": [
+              "¿Cómo afecta la tala de bosques la cantidad de oxígeno que respiramos?",
+              "¿Por qué las plantas son llamadas el 'pulmón' del planeta si ellas también respiran?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica la fotosíntesis como proceso de construcción de materia orgánica (NAT-7-D3-E2).",
+              "Diferencia los procesos de fotosíntesis y respiración celular (NAT-7-D3-E3)."
+            ],
+            "un_refuerzo": "Investigar qué ocurre con las plantas durante la noche y si el proceso de fotosíntesis continúa."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Montañas Rusas y Péndulos",
+            "un_reto_sugerido": "¿En qué puntos del movimiento un objeto tiene su máxima energía potencial?",
+            "ruta_de_exploracion": {
+              "explorar": "Construir un péndulo simple con una cuerda y una piedra, observando su movimiento oscilatorio.",
+              "visual": "Diseñar una pista de montaña rusa con mangueras de niveles y una canica, identificando los puntos de máxima altura y máxima velocidad.",
+              "produccion": "Dibujar gráficas sencillas que representen cómo varía la energía cinética y potencial en función del tiempo durante el recorrido de la canica."
+            },
+            "para_pensar": [
+              "¿Por qué el péndulo termina deteniéndose? ¿A dónde se fue la energía?",
+              "¿Cómo ayuda la energía mecánica a que funcionen las máquinas en un parque de diversiones?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica las formas de energía mecánica en diferentes puntos de un sistema (NAT-7-D1-E2).",
+              "Representa gráficamente las transformaciones de energía (NAT-7-D1-E3)."
+            ],
+            "un_refuerzo": "Analizar el movimiento de un columpio y explicar en qué punto un niño tiene más velocidad."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Aire y Agua: Salud en Riesgo",
+            "un_reto_sugerido": "¿Cómo la contaminación de mi entorno afecta directamente mi salud y la de mi familia?",
+            "ruta_de_exploracion": {
+              "explorar": "Recorrer el barrio identificando focos de contaminación (basuras, humos, vertederos de agua sucia).",
+              "visual": "Realizar una encuesta a vecinos sobre enfermedades respiratorias o de la piel comunes en la zona y relacionarlas con los focos identificados.",
+              "produccion": "Crear un mapa de riesgos ambientales de la comunidad con recomendaciones para mitigar sus efectos en la salud."
+            },
+            "para_pensar": [
+              "¿Es la contaminación un problema de las empresas o de todos los ciudadanos?",
+              "¿Cómo puede la tecnología ayudarnos a purificar el aire en espacios cerrados?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica factores de contaminación y sus implicaciones para la salud.",
+              "Propone acciones de prevención frente a riesgos ambientales locales."
+            ],
+            "un_refuerzo": "Investigar cómo hacer un filtro de agua casero con arena, piedras y carbón."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "El Ciclo de los Elementos",
+            "un_reto_sugerido": "¿Cómo viajan el carbono y el nitrógeno desde el suelo hasta los seres vivos?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar los nódulos en las raíces de plantas leguminosas (frijol) para entender la fijación de nitrógeno.",
+              "visual": "Realizar un experimento de erosión usando tres bandejas con tierra: una con plantas, otra con hojas secas y otra solo tierra, vertiendo agua para ver cuál protege mejor el ciclo del suelo.",
+              "produccion": "Argumentar mediante un diagrama cómo la intervención humana (deforestación) rompe los ciclos biogeoquímicos y proponer una acción de remediación."
+            },
+            "para_pensar": [
+              "¿Por qué se dice que somos 'polvo de estrellas' basándonos en los ciclos de los elementos?",
+              "¿Qué relación hay entre el ciclo del carbono y el calentamiento global?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante establece relaciones entre los ciclos del C y N con el mantenimiento del suelo (NAT-7-D4-E1).",
+              "Explica las consecuencias de la intervención humana en los ciclos biogeoquímicos (NAT-7-D4-E2)."
+            ],
+            "un_refuerzo": "Investigar qué abonos orgánicos aportan nitrógeno al suelo de forma natural."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "El Átomo: Ladrillo de la Materia",
+            "un_reto_sugerido": "¿Cómo está organizado un átomo y por qué esto define las propiedades de todo lo que vemos?",
+            "ruta_de_exploracion": {
+              "explorar": "Experimentar con electricidad estática (frotar un globo en el cabello) para entender la presencia de cargas eléctricas en la materia.",
+              "visual": "Construir modelos atómicos de Bohr usando materiales circulares (platos, tapas) y granos para representar protones, neutrones y electrones.",
+              "produccion": "Ubicar elementos en la Tabla Periódica basándose en su número atómico (Z) y masa (A), relacionándolo con su estructura de Lewis."
+            },
+            "para_pensar": [
+              "¿Si los átomos son mayormente espacio vacío, por qué las cosas se sienten sólidas?",
+              "¿Cómo ayuda la tabla periódica a un científico a predecir cómo se comportará un material nuevo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante ubica elementos en la Tabla Periódica según Z y A (NAT-7-D2-E1).",
+              "Usa modelos (Bohr, Lewis) para reconocer la estructura del átomo (NAT-7-D2-E2)."
+            ],
+            "un_refuerzo": "Jugar a 'adivina el elemento' dando pistas sobre su número de electrones y su grupo en la tabla."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Sexualidad con Sentido",
+            "un_reto_sugerido": "¿Cómo vivir una sexualidad responsable que respete mi proyecto de vida?",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar un buzón de preguntas anónimas sobre cambios físicos y emocionales en la pubertad.",
+              "visual": "Analizar en grupos casos de estudio sobre las responsabilidades que conlleva la maternidad y paternidad a temprana edad.",
+              "produccion": "Elaborar un decálogo de responsabilidades y derechos sexuales para adolescentes, enfocado en el respeto propio y ajeno."
+            },
+            "para_pensar": [
+              "¿Qué relación hay entre la toma de decisiones y el respeto por el propio cuerpo?",
+              "¿Cómo influyen los medios de comunicación en nuestra percepción de la sexualidad?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante analiza implicaciones y responsabilidades de la sexualidad.",
+              "Identifica cambios biológicos y su relación con la madurez emocional."
+            ],
+            "un_refuerzo": "Investigar qué instituciones de salud locales ofrecen orientación para jóvenes en temas de sexualidad."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Micro-Héroes del Agua y el Suelo",
+            "un_reto_sugerido": "¿Qué papel invisible juegan los microorganismos en la limpieza de nuestro planeta?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar una muestra de agua de charco o florero bajo una lupa potente para buscar señales de vida microscópica.",
+              "visual": "Simular un proceso de compostaje en una botella transparente, observando cómo los microorganismos transforman los residuos en abono.",
+              "produccion": "Diseñar un plan de uso responsable del agua en el hogar, sustentando su importancia para los ciclos biogeoquímicos del ecosistema."
+            },
+            "para_pensar": [
+              "¿Podríamos vivir en un mundo sin bacterias? ¿Por qué?",
+              "¿Cuánta agua crees que se desperdicia en tu escuela en un solo día y cómo lo solucionarías?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante reconoce funciones de microorganismos en los ciclos biogeoquímicos (NAT-7-D4-E3).",
+              "Propone acciones concretas de uso responsable del agua (NAT-7-D4-E4)."
+            ],
+            "un_refuerzo": "Investigar qué es el tratamiento de aguas residuales y si existe una planta de tratamiento en su ciudad."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Familias de Elementos",
+            "un_reto_sugerido": "¿Qué diferencia a un metal de un gas noble y cómo los usamos en la tecnología diaria?",
+            "ruta_de_exploracion": {
+              "explorar": "Clasificar objetos comunes (tornillos, cables, minas de lápiz, papel aluminio) según su brillo, dureza y capacidad de conducir calor.",
+              "visual": "Realizar una tabla comparativa de densidades usando agua, aceite y objetos de metales y no metales para observar quién flota y quién se hunde.",
+              "produccion": "Explicar las variaciones de propiedades como la temperatura de ebullición y fusión en los diferentes grupos de la tabla periódica."
+            },
+            "para_pensar": [
+              "¿Por qué los cables eléctricos son de cobre y no de plástico o madera?",
+              "¿Por qué se llaman 'Gases Nobles' y dónde los podemos encontrar en la vida real?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica la variación de propiedades físicas en la Tabla Periódica (NAT-7-D2-E3).",
+              "Clasifica elementos en metales, no metales y gases nobles basándose en sus propiedades."
+            ],
+            "un_refuerzo": "Investigar qué metales se utilizan en la fabricación de teléfonos celulares y de dónde se extraen."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Prevención: Mi Mejor Escudo",
+            "un_reto_sugerido": "¿Cómo la ciencia y el autocuidado nos protegen de las enfermedades de transmisión sexual?",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar qué son las ETS y cuáles son las más comunes en la población joven de Colombia.",
+              "visual": "Elaborar una campaña de prevención (póster o video) que explique la importancia del uso de métodos de barrera y la consulta médica.",
+              "produccion": "Escribir una reflexión sobre cómo la información científica veraz ayuda a romper prejuicios sobre las enfermedades de transmisión sexual."
+            },
+            "para_pensar": [
+              "¿Por qué el miedo no es la mejor forma de educar en salud? ¿Qué es mejor?",
+              "¿Qué papel juega la vacunación en la prevención de algunas enfermedades virales de transmisión sexual?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante establece relaciones entre transmisión de enfermedades y medidas de prevención.",
+              "Identifica fuentes de información confiables sobre salud sexual."
+            ],
+            "un_refuerzo": "Realizar un glosario de términos médicos relacionados con la salud sexual para entender mejor los folletos de salud."
+          }
+        }
+      ]
+    }
+  ]
+}
