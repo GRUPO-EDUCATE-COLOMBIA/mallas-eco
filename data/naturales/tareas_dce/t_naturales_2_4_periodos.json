@@ -1,0 +1,279 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "2",
+  "nombre_archivo": "t_ciencias_2_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "El Desfile de la Naturaleza",
+            "un_reto_sugerido": "¿Cómo ayudan las partes del cuerpo de un animal a que pueda vivir en su hogar?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar animales del entorno (hormigas, pájaros, perros) y dibujar cómo se mueven y qué están comiendo.",
+              "visual": "Organizar una galería de fotos o dibujos clasificando a los animales por su 'traje' (pelos, plumas, escamas) y su dieta (herbívoros, carnívoros).",
+              "produccion": "Explicar mediante una cartelera por qué un pez necesita aletas y un ave necesita alas para sobrevivir en sus respectivos ambientes."
+            },
+            "para_pensar": [
+              "¿Qué pasaría si un león intentara comer solo hierba como una vaca?",
+              "¿Por qué los animales que viven en lugares muy fríos suelen tener mucho pelo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica animales según su desplazamiento y dieta (NAT-2-D3-E1).",
+              "Relaciona las características físicas del animal con su capacidad para protegerse y alimentarse."
+            ],
+            "un_refuerzo": "Jugar a 'adivina el animal' dando pistas sobre sus características físicas y su hábitat."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Fuerzas que Cambian Formas",
+            "un_reto_sugerido": "¿Qué materiales pueden volver a su forma original después de apretarlos?",
+            "ruta_de_exploracion": {
+              "explorar": "Manipular objetos como una piedra, una bola de papel, un resorte y plastilina, aplicando fuerza con las manos.",
+              "visual": "Realizar una tabla de experimentos donde se registre qué pasa al 'estirar, torcer o aplastar' diferentes materiales del salón.",
+              "produccion": "Clasificar los materiales en 'los que cambian para siempre' y 'los que vuelven a ser iguales' después de aplicarles una fuerza."
+            },
+            "para_pensar": [
+              "¿Por qué usamos resortes en los colchones y no bloques de madera?",
+              "¿Qué fuerza debes hacer para romper un palito de helado frente a una regla de plástico?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante compara cambios de forma en distintos materiales al aplicar fuerza (NAT-2-D1-E1).",
+              "Identifica acciones mecánicas como estirar, torcer o arrugar."
+            ],
+            "un_refuerzo": "Hacer figuras de plastilina y observar cómo la fuerza de los dedos cambia la forma del material fácilmente."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Luces y Ruidos de mi Mundo",
+            "un_reto_sugerido": "¿De dónde viene la luz y el sonido que percibimos todos los días?",
+            "ruta_de_exploracion": {
+              "explorar": "Cerrar los ojos por un minuto y listar todos los sonidos que se escuchan (pájaros, carros, voces).",
+              "visual": "Clasificar fuentes de luz en un dibujo: poner en un lado las naturales (Sol, estrellas) y en otro las artificiales (bombillo, linterna).",
+              "produccion": "Identificar qué objetos de la casa emiten luz o sonido y explicar para qué nos sirven (ej. el timbre para avisar que alguien llegó)."
+            },
+            "para_pensar": [
+              "¿Cómo sería nuestra vida si solo tuviéramos luz natural del Sol?",
+              "¿Qué sonidos de la naturaleza te ayudan a sentirte tranquilo y cuáles te alertan de un peligro?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante diferencia fuentes de luz naturales de las artificiales.",
+              "Identifica sonidos producidos por seres vivos y por objetos tecnológicos."
+            ],
+            "un_refuerzo": "Hacer un 'teléfono' con vasos de cartón y piola para observar cómo viaja el sonido de la voz."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Cuidando a mi Amigo Verde",
+            "un_reto_sugerido": "¿Qué le sucede a un ser vivo si le falta alguno de sus cuidados básicos?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar una planta que ha crecido bajo el sol y compararla con una que ha estado encerrada en un lugar oscuro.",
+              "visual": "Realizar un experimento con semillas de fríjol: unas con agua y luz, otras sin agua, y registrar qué pasa en una semana.",
+              "produccion": "Explicar mediante dibujos las necesidades básicas (agua, luz, aire, suelo) que toda planta y animal necesita para desarrollarse sano."
+            },
+            "para_pensar": [
+              "¿Por qué los perros necesitan salir a caminar y jugar además de comer?",
+              "¿Qué problemas tendría una planta si la sembramos en un lugar donde nunca llega la luz?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante predice problemas cuando no se satisfacen las necesidades básicas (NAT-2-D3-E3).",
+              "Establece relaciones entre el ambiente y el desarrollo del ser vivo."
+            ],
+            "un_refuerzo": "Crear un 'compromiso de cuidado' para una planta del salón, turnándose para darle agua y luz."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "El Club de los Materiales Resistentes",
+            "un_reto_sugerido": "¿Qué material elegirías para construir un juguete que no se rompa al caer?",
+            "ruta_de_exploracion": {
+              "explorar": "Tocar y tratar de doblar suavemente objetos de madera, metal, tela y vidrio (con cuidado).",
+              "visual": "Hacer una carrera de deformación: aplicar la misma fuerza a un clip de metal y a un pitillo de plástico para ver cuál resiste más.",
+              "produccion": "Clasificar los materiales del entorno según su resistencia a ser deformados, usando los términos 'duro', 'blando' o 'elástico'."
+            },
+            "para_pensar": [
+              "¿Por qué las llaves de las casas son de metal y no de cartón?",
+              "¿Qué pasaría si las ventanas fueran de un material que no resiste los golpes del viento?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica materiales según su resistencia a la fuerza (NAT-2-D1-E2).",
+              "Comunica de forma oral o escrita qué acción requiere un material para deformarse (NAT-2-D1-E3)."
+            ],
+            "un_refuerzo": "Investigar qué materiales usan los constructores para hacer las paredes de las casas y por qué."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "El Camino de la Electricidad",
+            "un_reto_sugerido": "¿Qué partes necesita un juguete para que su bombillo se encienda?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar en una linterna dónde va la pila, dónde están los cables y dónde está el bombillo.",
+              "visual": "Dibujar el esquema de un circuito simple, uniendo con líneas (cables) una pila y un foco de luz.",
+              "produccion": "Reconocer circuitos eléctricos sencillos en el entorno escolar (timbres, linternas) y nombrar sus partes principales."
+            },
+            "para_pensar": [
+              "¿Por qué si se quita la pila el juguete deja de funcionar inmediatamente?",
+              "¿Para qué sirve el interruptor (botón) en un circuito eléctrico?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica partes de un circuito eléctrico en su entorno.",
+              "Reconoce que la electricidad necesita un camino cerrado para fluir."
+            ],
+            "un_refuerzo": "Jugar a 'ser un circuito': los estudiantes se toman de las manos para dejar pasar la energía y se sueltan para apagarla."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "El Viaje de la Semilla",
+            "un_reto_sugerido": "¿Qué cambios ocurren en una planta desde que es una semilla hasta que da frutos?",
+            "ruta_de_exploracion": {
+              "explorar": "Recolectar diferentes tipos de semillas (naranja, manzana, fríjol) y observar sus formas.",
+              "visual": "Realizar la germinación de una semilla en un frasco con algodón, dibujando cada dos días los cambios (raíz, tallo, hojas).",
+              "produccion": "Representar mediante una secuencia de dibujos el ciclo de vida de una planta, identificando la germinación y la floración."
+            },
+            "para_pensar": [
+              "¿Todas las plantas necesitan flores para producir nuevas semillas?",
+              "¿Por qué es importante que las plantas tengan frutos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante representa con dibujos los cambios en el desarrollo de las plantas (NAT-2-D4-E1).",
+              "Identifica procesos como germinación y aparición de frutos."
+            ],
+            "un_refuerzo": "Visitar un jardín y buscar plantas que estén en diferentes etapas (unas con flores, otras con frutos)."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Formas que Fluyen y Formas que Duran",
+            "un_reto_sugerido": "¿En qué se diferencia el agua que bebemos del hielo que usamos para enfriarla?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar un cubo de hielo, un vaso de agua y el vapor que sale de una sopa caliente.",
+              "visual": "Trasvasar agua a diferentes recipientes (taza, botella, plato) para ver cómo adopta la forma de cada uno, comparándolo con una piedra que no cambia de forma.",
+              "produccion": "Clasificar objetos del salón y la cocina en tres grupos: Sólidos, Líquidos y Gases, explicando sus diferencias básicas."
+            },
+            "para_pensar": [
+              "¿Por qué no podemos agarrar el aire con las manos como si fuera un juguete sólido?",
+              "¿Qué le pasa al agua líquida si la metemos al congelador por mucho tiempo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica materiales según su estado sólido, líquido o gas (NAT-2-D2-E1).",
+              "Identifica propiedades como tener forma propia o fluir."
+            ],
+            "un_refuerzo": "Hacer burbujas de jabón para observar cómo el aire (gas) queda atrapado dentro de una capa de líquido."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Mis Ayudantes Eléctricos",
+            "un_reto_sugerido": "¿Cómo nos facilitan la vida los aparatos eléctricos que tenemos en casa?",
+            "ruta_de_exploracion": {
+              "explorar": "Hacer una lista de 5 aparatos eléctricos de la casa y preguntar a los padres qué tarea ayudan a realizar.",
+              "visual": "Dibujar los aparatos eléctricos y clasificarlos por su función: unos que dan calor (plancha), otros que dan frío (nevera) y otros que dan diversión (TV).",
+              "produccion": "Explicar por qué es importante usar estos aparatos con cuidado y bajo la supervisión de un adulto."
+            },
+            "para_pensar": [
+              "¿Qué haríamos en la casa si no existiera la nevera para guardar la comida?",
+              "¿Por qué no debemos conectar muchos aparatos en un solo enchufe?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante analiza la utilidad de los aparatos eléctricos a su alrededor.",
+              "Reconoce funciones específicas de la tecnología en el hogar."
+            ],
+            "un_refuerzo": "Identificar los símbolos de seguridad eléctrica (como el rayo) en las etiquetas de los aparatos."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Crecer, Jugar y Vivir",
+            "un_reto_sugerido": "¿Cómo cambian los animales desde que nacen hasta que se vuelven adultos?",
+            "ruta_de_exploracion": {
+              "explorar": "Traer fotos de sus mascotas cuando eran bebés y compararlas con fotos de ahora.",
+              "visual": "Ordenar tarjetas con el ciclo de vida de una mariposa (huevo, oruga, crisálida, mariposa) o de un pollito.",
+              "produccion": "Dibujar las etapas de crecimiento de un animal elegido, señalando cómo cambia su tamaño y su forma de alimentarse."
+            },
+            "para_pensar": [
+              "¿Por qué los bebés animales necesitan a sus padres para sobrevivir al principio?",
+              "¿Qué cambios has notado en tu propio cuerpo desde que estabas en grado primero?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante representa los cambios en el desarrollo de los animales (NAT-2-D4-E2).",
+              "Identifica procesos como crecimiento y reproducción."
+            ],
+            "un_refuerzo": "Ver un video corto sobre la metamorfosis de la rana y dibujarla en el cuaderno."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Líquidos Curiosos y el Aire Invisible",
+            "un_reto_sugerido": "¿Son todos los líquidos iguales o se mueven diferente?",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar una 'carrera de gotas' sobre un plato inclinado usando agua, aceite y miel, observando cuál llega primero.",
+              "visual": "Usar abanicos de papel para sentir el aire en la cara y observar cómo mueve trozos de papel livianos.",
+              "produccion": "Describir las características de los líquidos (viscosidad, transparencia) y dar evidencias de que el aire existe aunque no se vea."
+            },
+            "para_pensar": [
+              "¿Por qué la miel se demora más en caer de la cuchara que el agua?",
+              "¿Cómo sabemos que hay aire dentro de un globo si no podemos verlo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante compara características físicas de líquidos como fluidez y viscosidad (NAT-2-D2-E2).",
+              "Reconoce el aire como material a partir de evidencias sensoriales (NAT-2-D2-E3)."
+            ],
+            "un_refuerzo": "Soplar a través de un pitillo en un vaso con agua para ver las burbujas de aire saliendo."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Guardianes de la Energía",
+            "un_reto_sugerido": "¿Cómo podemos ayudar al planeta ahorrando energía eléctrica en casa?",
+            "ruta_de_exploracion": {
+              "explorar": "Hacer un recorrido por el colegio identificando luces encendidas en lugares donde no hay nadie.",
+              "visual": "Crear calcomanías o dibujos de 'Apaga la luz' para pegar cerca de los interruptores.",
+              "produccion": "Diseñar un 'Plan de Ahorro' para la familia, con acciones sencillas como desconectar cargadores o usar luz natural."
+            },
+            "para_pensar": [
+              "¿Qué pasa en la naturaleza cuando gastamos demasiada energía eléctrica?",
+              "¿Por qué es importante apagar el televisor si nadie lo está viendo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante propone acciones para el uso responsable de la energía eléctrica.",
+              "Identifica el impacto del ahorro de energía en el medio ambiente."
+            ],
+            "un_refuerzo": "Contar cuántos bombillos hay en casa y verificar con los padres cuáles son ahorradores."
+          }
+        }
+      ]
+    }
+  ]
+}
