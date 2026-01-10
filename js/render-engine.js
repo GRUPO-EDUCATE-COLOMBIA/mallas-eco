@@ -1,4 +1,4 @@
-// FILE: js/render-engine.js | VERSION: v7.9.7 Stable
+// FILE: js/render-engine.js | VERSION: v10.0 Stable
 window.RenderEngine = (function() {
   const containerMalla = document.getElementById('contenedor-malla');
 
@@ -12,23 +12,13 @@ window.RenderEngine = (function() {
     return dato;
   }
 
-  /**
-   * FORMATEADOR DE BADGES (DBAs y Evidencias)
-   * Detecta códigos tipo DBA-X o MAT-X-EX y los separa visualmente
-   */
   function formatearConBadges(dato) {
     if (!dato) return validarDato(dato);
     const lineas = Array.isArray(dato) ? dato : [dato];
-    
     return lineas.map(linea => {
       const parts = linea.split(':');
-      // Si tiene ":" y la parte izquierda parece un código técnico
       if (parts.length > 1 && parts[0].trim().length < 25) {
-        return `
-          <div class="badge-container">
-            <span class="badge-id">${parts[0].trim()}</span>
-            <div class="badge-text">${parts.slice(1).join(':').trim()}</div>
-          </div>`;
+        return `<div class="badge-container"><span class="badge-id">${parts[0].trim()}</span><div class="badge-text">${parts.slice(1).join(':').trim()}</div></div>`;
       }
       return `<div style="margin-bottom:10px;">${linea}</div>`;
     }).join('');
@@ -40,7 +30,6 @@ window.RenderEngine = (function() {
     const configArea = window.APP_CONFIG.AREAS[areaId];
 
     if (resSec) resSec.classList.add('mostrar-block');
-
     if (indicador && configArea) {
       indicador.style.display = 'block';
       indicador.style.backgroundColor = configArea.color || '#9B7BB6';
@@ -51,7 +40,6 @@ window.RenderEngine = (function() {
     }
 
     if (!containerMalla) return;
-
     containerMalla.innerHTML = items.map(item => {
       if (areaId === "proyecto-socioemocional") return plantillaSocioemocional(item, grado);
       return plantillaAcademica(item, areaId, grado, periodo);
@@ -74,18 +62,11 @@ window.RenderEngine = (function() {
 
     return `
       <div class="item-malla">
-        <div class="franja-titulo-principal" style="background-color: ${config.color};">
-            ${item.componente || item.competencia || 'General'}
-        </div>
+        <div class="franja-titulo-principal" style="background-color: ${config.color};">${item.componente || item.competencia || 'General'}</div>
         <div class="item-malla-contenido">
           <div class="campo"><strong>Estándar Curricular:</strong><div>${validarDato(item.estandar)}</div></div>
-          
-          <!-- DBA CON BADGES -->
           <div class="campo"><strong>DBA:</strong><div>${formatearConBadges(item.dba)}</div></div>
-          
-          <!-- EVIDENCIAS CON BADGES -->
           <div class="campo"><strong>Evidencias de Aprendizaje:</strong><div>${formatearConBadges(item.evidencias)}</div></div>
-          
           <div class="campo"><strong>Saberes / Contenidos:</strong><div>${validarDato(item.saberes)}</div></div>
 
           <div class="contenedor-fichas-cierre">
@@ -114,7 +95,9 @@ window.RenderEngine = (function() {
               </div>
             </div>
           </div>
-          <div style="text-align:center; margin-top:2rem;"><a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a></div>
+          <div style="text-align:center; margin-top:2rem;">
+            <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
+          </div>
         </div>
       </div>
     `;
@@ -123,24 +106,19 @@ window.RenderEngine = (function() {
   function plantillaSocioemocional(item, grado) {
     return `
       <div class="item-malla">
-        <div class="franja-titulo-principal" style="background-color: var(--eco-purple);">
-            ${item.competencia || 'Competencia Socioemocional'}
-        </div>
+        <div class="franja-titulo-principal" style="background-color: var(--eco-purple);">${item.competencia || 'Competencia Socioemocional'}</div>
         <div class="item-malla-contenido">
           <div class="campo"><strong>Estandar de Formación:</strong> <div>${validarDato(item.estandar)}</div></div>
           <div class="campo"><strong>Eje Central del Proceso:</strong> <div>${validarDato(item.eje_central)}</div></div>
           <div class="campo"><strong>Habilidades a Fortalecer:</strong> <div style="background:white; padding:20px; border-radius:10px; border:1px solid #eee; border-left:5px solid var(--eco-purple);">${validarDato(item.Habilidades)}</div></div>
           <div class="campo"><strong>Evidencias ECO:</strong> <div>${validarDato(item.evidencias_de_desempeno)}</div></div>
-          <div style="text-align:center; margin-top:2rem;"><a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a></div>
+          <div style="text-align:center; margin-top:2rem;">
+            <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
+          </div>
         </div>
       </div>
     `;
   }
 
-  function setCargando(estado) { 
-    const loader = document.getElementById('loading-overlay');
-    if (loader) loader.classList.toggle('mostrar-flex', estado);
-  }
-
-  return { renderizar, setCargando };
+  return { renderizar, setCargando: (estado) => { const l = document.getElementById('loading-overlay'); if(l) l.classList.toggle('mostrar-flex', estado); } };
 })();
