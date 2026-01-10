@@ -1,352 +1,363 @@
 {
   "area": "Ciencias Naturales",
   "grado": "11",
-  "tipo_malla": "4_periodos",
-  "numero_periodos": 4,
-  "periodos": {
-    "1": [
-      {
-        "componente": "Entorno Vivo",
-        "guia_didactica": {
-          "la_estrategia": "Ecosistemas en Equilibrio Térmico",
-          "un_reto_sugerido": "¿Cómo fluye la energía y se mantiene la información genética en un ecosistema local ante el cambio climático?",
-          "ruta_de_exploracion": {
-            "observar": "Identificar una zona verde cercana (parque o jardín) y registrar las variaciones de temperatura y la diversidad de especies visibles en diferentes horas del día.",
-            "experimentar": "Construir un terrario cerrado (botella plástica) y observar cómo la condensación y el ciclo de nutrientes demuestran la conservación de la energía y materia (termodinámica).",
-            "conceptualizar": "Explicar cómo el ADN permite la adaptación de las especies al entorno y cómo las leyes de la termodinámica limitan el número de niveles tróficos."
-          },
-          "para_pensar": [
-            "¿Podría la vida existir si la segunda ley de la termodinámica no se aplicara a los sistemas biológicos?",
-            "¿Cómo afecta la pérdida de biodiversidad la estabilidad económica de una región agrícola?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante explica la relación entre flujo de energía y biodiversidad citando ejemplos locales.",
-            "Demuestra comprensión de la relación fenotipo-ambiente mediante el análisis del terrario."
-          ],
-          "un_refuerzo": "Investigar un caso real de una especie colombiana que haya cambiado su distribución debido al calentamiento global."
+  "nombre_archivo": "t_ciencias_11_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Ecosistemas en Equilibrio Térmico",
+            "un_reto_sugerido": "¿Cómo fluye la energía y se mantiene la información genética en un ecosistema local ante el cambio climático?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar una zona verde cercana (parque o jardín) y registrar las variaciones de temperatura y la diversidad de especies visibles en diferentes horas del día.",
+              "visual": "Construir un terrario cerrado (botella plástica) y observar cómo la condensación y el ciclo de nutrientes demuestran la conservación de la energía y materia (termodinámica).",
+              "produccion": "Explicar cómo el ADN permite la adaptación de las especies al entorno y cómo las leyes de la termodinámica limitan el número de niveles tróficos."
+            },
+            "para_pensar": [
+              "¿Podría la vida existir si la segunda ley de la termodinámica no se aplicara a los sistemas biológicos?",
+              "¿Cómo afecta la pérdida de biodiversidad la estabilidad económica de una región agrícola?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica la relación entre flujo de energía y biodiversidad citando ejemplos locales.",
+              "Demuestra comprensión de la relación fenotipo-ambiente mediante el análisis del terrario."
+            ],
+            "un_refuerzo": "Investigar un caso real de una especie colombiana que haya cambiado su distribución debido al calentamiento global."
+          }
+        },
+        {
+          "componente": "Entorno Químico",
+          "guia_didactica": {
+            "la_estrategia": "El Carbono: Arquitecto de la Vida",
+            "un_reto_sugerido": "¿Por qué la vida se basa en cadenas de carbono y no en otros elementos de la tabla periódica?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar productos cotidianos (aceite, azúcar, alcohol, plástico) e identificar qué tienen en común en su estructura química.",
+              "visual": "Realizar una prueba de combustión controlada de diferentes materiales (algodón, papel, plástico) para observar la presencia de carbono residual (hollín/carbón).",
+              "produccion": "Modelar la hibridación del carbono y la formación de enlaces sencillos, dobles y triples usando esferas de plastilina y palillos."
+            },
+            "para_pensar": [
+              "¿Qué propiedades del carbono permiten que existan millones de compuestos orgánicos frente a unos pocos miles de inorgánicos?",
+              "¿Cómo impacta la síntesis masiva de compuestos orgánicos (plásticos) la salud de los océanos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante dibuja y explica la geometría molecular del carbono en diferentes compuestos orgánicos.",
+              "Relaciona la electronegatividad y los enlaces covalentes con la estabilidad de las biomoléculas."
+            ],
+            "un_refuerzo": "Crear un cuadro comparativo entre las propiedades de un diamante y el grafito (alótropos del carbono)."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Fluidos y Cargas en Acción",
+            "un_reto_sugerido": "¿Cómo logran los grandes barcos flotar y cómo se comportan las fuerzas invisibles entre objetos cargados?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar el comportamiento de objetos de igual volumen pero diferente material al ser sumergidos en agua y al ser frotados con lana.",
+              "visual": "Construir un ludión (densímetro casero) con una botella y un gotero, y un electroscopio sencillo con un frasco de vidrio y papel aluminio.",
+              "produccion": "Definir los principios de Arquímedes y Pascal, y establecer analogías entre la fuerza gravitacional y la fuerza electrostática (Ley de Coulomb)."
+            },
+            "para_pensar": [
+              "¿Por qué es más fácil flotar en el mar que en una piscina de agua dulce?",
+              "¿De qué manera el desarrollo de pararrayos ha protegido las infraestructuras tecnológicas en Colombia?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante calcula la densidad de fluidos usando materiales caseros.",
+              "Explica mediante diagramas de fuerzas por qué un objeto flota o se hunde."
+            ],
+            "un_refuerzo": "Investigar sobre la 'Hidroeléctrica de Ituango' y cómo se aplican los principios de fluidos en la generación de energía."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Decisiones con Ciencia",
+            "un_reto_sugerido": "¿Cómo influyen los hábitos de consumo y la tecnología en nuestra salud física y reproductiva?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar etiquetas de bebidas energizantes y cigarrillos, identificando componentes químicos y advertencias de salud.",
+              "visual": "Diseñar una encuesta digital para la comunidad escolar sobre hábitos de actividad física y consumo de sustancias psicoactivas, tabaco o alcohol.",
+              "produccion": "Relacionar el efecto neurotóxico de ciertas sustancias con la alteración de la homeostasis corporal y la salud mental."
+            },
+            "para_pensar": [
+              "¿Es el consumo de vapeadores una alternativa segura al tabaco o un nuevo riesgo tecnológico?",
+              "¿Cómo afecta el entorno digital y las redes sociales la percepción de la sexualidad en los adolescentes?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante argumenta con base científica los efectos del alcohol y la nicotina en el sistema nervioso.",
+              "Propone una rutina de salud basada en la relación deporte-bienestar mental."
+            ],
+            "un_refuerzo": "Elaborar un podcast breve sobre mitos y realidades de los métodos anticonceptivos tecnológicos."
+          }
         }
-      },
-      {
-        "componente": "Entorno Químico",
-        "guia_didactica": {
-          "la_estrategia": "El Carbono: Arquitecto de la Vida",
-          "un_reto_sugerido": "¿Por qué la vida se basa en cadenas de carbono y no en otros elementos de la tabla periódica?",
-          "ruta_de_exploracion": {
-            "observar": "Analizar productos cotidianos (aceite, azúcar, alcohol, plástico) e identificar qué tienen en común en su estructura química.",
-            "experimentar": "Realizar una prueba de combustión controlada de diferentes materiales (algodón, papel, plástico) para observar la presencia de carbono residual (hollín/carbón).",
-            "conceptualizar": "Modelar la hibridación del carbono y la formación de enlaces sencillos, dobles y triples usando esferas de plastilina y palillos."
-          },
-          "para_pensar": [
-            "¿Qué propiedades del carbono permiten que existan millones de compuestos orgánicos frente a unos pocos miles de inorgánicos?",
-            "¿Cómo impacta la síntesis masiva de compuestos orgánicos (plásticos) la salud de los océanos?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante dibuja y explica la geometría molecular del carbono en diferentes compuestos orgánicos.",
-            "Relaciona la electronegatividad y los enlaces covalentes con la estabilidad de las biomoléculas."
-          ],
-          "un_refuerzo": "Crear un cuadro comparativo entre las propiedades de un diamante y el grafito (alótropos del carbono)."
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Mensajeros Biológicos y Biofísica",
+            "un_reto_sugerido": "¿Cómo se coordinan los impulsos eléctricos en nuestras neuronas y cómo fluyen los líquidos en nuestro sistema circulatorio?",
+            "ruta_de_exploracion": {
+              "explorar": "Medir el pulso radial antes y después de una actividad física intensa, registrando los cambios en la presión percibida.",
+              "visual": "Simular una red neuronal usando cables o hilos para entender la conectividad, y usar mangueras de distintos diámetros para modelar la presión sanguínea (Bernoulli).",
+              "produccion": "Explicar el potencial de acción como un fenómeno electroquímico y la circulación sanguínea mediante la mecánica de fluidos."
+            },
+            "para_pensar": [
+              "¿Qué sucedería con la transmisión nerviosa si hubiera un desbalance severo de electrolitos (sodio/potasio)?",
+              "¿Cómo ayuda el modelo de fluidos a entender enfermedades como la hipertensión?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica el funcionamiento de la bomba sodio-potasio como un modelo eléctrico.",
+              "Aplica la ecuación de continuidad para explicar el flujo de sangre en arterias y capilares."
+            ],
+            "un_refuerzo": "Investigar cómo funcionan los marcapasos cardíacos como dispositivos que integran biología y electricidad."
+          }
+        },
+        {
+          "componente": "Entorno Químico",
+          "guia_didactica": {
+            "la_estrategia": "Cocinando con Estequiometría",
+            "un_reto_sugerido": "¿Cómo predecir la cantidad de productos en una reacción química variando la presión y la temperatura?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar la reacción de una pastilla efervescente en agua a diferentes temperaturas (fría, ambiente, caliente).",
+              "visual": "Realizar la reacción de bicarbonato de sodio y vinagre dentro de un globo para observar cómo el gas inflado (presión/volumen) se relaciona con las cantidades de reactivos.",
+              "produccion": "Resolver ejercicios de estequiometría (mol-mol, gramo-gramo) aplicados a reacciones de combustión y neutralización."
+            },
+            "para_pensar": [
+              "¿Por qué en ciudades a gran altura (como Bogotá) los alimentos tardan más en cocinarse?",
+              "¿Cómo utiliza la industria alimentaria el control de temperatura para evitar la descomposición química?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante calcula el reactivo límite en una reacción casera.",
+              "Explica mediante la teoría cinética de los gases el efecto del calor en la velocidad de reacción."
+            ],
+            "un_refuerzo": "Realizar un experimento de 'hielo seco' casero analizando videos de cambios de fase bajo presión extrema."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Equilibrio y Circuitos Inteligentes",
+            "un_reto_sugerido": "¿Por qué no se caen los edificios altos y cómo se distribuye la energía en un circuito mixto?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar el centro de masa de objetos irregulares intentando equilibrarlos sobre un dedo.",
+              "visual": "Construir un circuito con una pila de 9V, cables y tres bombillos LED, probando configuraciones en serie, paralelo y mixtas.",
+              "produccion": "Aplicar las leyes de Kirchhoff y la ley de Ohm para calcular voltajes y corrientes en circuitos complejos."
+            },
+            "para_pensar": [
+              "¿Cómo afecta el diseño del centro de masa a la seguridad de los buses de transporte público?",
+              "¿Qué sucede con el consumo de energía en un hogar si todos los electrodomésticos estuvieran conectados en serie?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante dibuja correctamente diagramas de cuerpo libre y esquemas de circuitos.",
+              "Predice el comportamiento de un circuito al retirar uno de sus componentes."
+            ],
+            "un_refuerzo": "Investigar cómo se calculan las tarifas de energía eléctrica en Colombia a partir del consumo en kilovatios-hora."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Ingenio Colombiano y Redes",
+            "un_reto_sugerido": "¿Qué tecnologías se han desarrollado en Colombia para resolver problemas de fluidos o energía?",
+            "ruta_de_exploracion": {
+              "explorar": "Buscar noticias sobre patentes colombianas recientes relacionadas con medicina, agricultura o energía.",
+              "visual": "Entrevistar a una persona que trabaje con instalaciones eléctricas o hidráulicas sobre los retos tecnológicos que enfrenta.",
+              "produccion": "Analizar el impacto socioeconómico de la electrificación rural y el manejo de aguas en el desarrollo de las regiones colombianas."
+            },
+            "para_pensar": [
+              "¿Por qué es importante para un país producir su propia tecnología en lugar de solo importarla?",
+              "¿Cómo ha cambiado nuestra vida diaria la miniaturización de los circuitos electrónicos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica al menos tres innovaciones tecnológicas hechas en Colombia.",
+              "Explica la importancia de los circuitos integrados en los dispositivos móviles actuales."
+            ],
+            "un_refuerzo": "Hacer una línea de tiempo sobre la historia de la llegada de la electricidad a su municipio o ciudad."
+          }
         }
-      },
-      {
-        "componente": "Entorno Físico",
-        "guia_didactica": {
-          "la_estrategia": "Fluidos y Cargas en Acción",
-          "un_reto_sugerido": "¿Cómo logran los grandes barcos flotar y cómo se comportan las fuerzas invisibles entre objetos cargados?",
-          "ruta_de_exploracion": {
-            "observar": "Observar el comportamiento de objetos de igual volumen pero diferente material al ser sumergidos en agua y al ser frotados con lana.",
-            "experimentar": "Construir un ludión (densímetro casero) con una botella y un gotero, y un electroscopio sencillo con un frasco de vidrio y papel aluminio.",
-            "conceptualizar": "Definir los principios de Arquímedes y Pascal, y establecer analogías entre la fuerza gravitacional y la fuerza electrostática (Ley de Coulomb)."
-          },
-          "para_pensar": [
-            "¿Por qué es más fácil flotar en el mar que en una piscina de agua dulce?",
-            "¿De qué manera el desarrollo de pararrayos ha protegido las infraestructuras tecnológicas en Colombia?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante calcula la densidad de fluidos usando materiales caseros.",
-            "Explica mediante diagramas de fuerzas por qué un objeto flota o se hunde."
-          ],
-          "un_refuerzo": "Investigar sobre la 'Hidroeléctrica de Ituango' y cómo se aplican los principios de fluidos en la generación de energía."
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Luz y Vida: El Motor del Planeta",
+            "un_reto_sugerido": "¿Cómo transforma una planta la luz solar en energía química y cómo fluye esa energía hasta nosotros?",
+            "ruta_de_exploracion": {
+              "explorar": "Comparar el crecimiento de dos plantas: una expuesta a la luz solar y otra en la oscuridad.",
+              "visual": "Realizar una cromatografía en papel para separar los pigmentos fotosintéticos (clorofila, carotenos) de hojas verdes.",
+              "produccion": "Esquematizar el ciclo de Calvin y la fase lumínica, explicando el papel del ATP y el NADPH."
+            },
+            "para_pensar": [
+              "¿Qué pasaría con la vida en la Tierra si un evento volcánico masivo bloqueara la luz solar por años?",
+              "¿Cómo se relaciona la eficiencia fotosintética con la seguridad alimentaria mundial?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica la fotosíntesis como un proceso de transformación de energía radiante en química.",
+              "Argumenta la importancia de las plantas como base de todas las cadenas tróficas."
+            ],
+            "un_refuerzo": "Investigar qué organismos extremófilos no dependen de la fotosíntesis (quimiosíntesis)."
+          }
+        },
+        {
+          "componente": "Entorno Químico",
+          "guia_didactica": {
+            "la_estrategia": "Grupos Funcionales y Energía Nuclear",
+            "un_reto_sugerido": "¿Qué hace que un alcohol sea diferente de un ácido carboxílico y qué energía se esconde en el núcleo atómico?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar el olor y la textura de sustancias como vinagre (ácido), esencia de vainilla (aldehído) y quitaesmalte (cetona).",
+              "visual": "Fabricar un indicador de pH con repollo morado para clasificar sustancias del hogar según sus grupos funcionales.",
+              "produccion": "Relacionar la nomenclatura IUPAC de compuestos orgánicos con sus funciones químicas y explicar la diferencia entre fisión y fusión nuclear."
+            },
+            "para_pensar": [
+              "¿Es la energía nuclear una solución viable para la crisis energética de Colombia?",
+              "¿Por qué los grupos funcionales determinan si una sustancia es tóxica o medicinal?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica grupos funcionales en fórmulas estructurales complejas.",
+              "Explica los beneficios y riesgos ambientales de la energía nuclear."
+            ],
+            "un_refuerzo": "Realizar una infografía sobre los isótopos radiactivos usados en la medicina (ej. Yodo-131)."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Choques, Impulsos y Calor",
+            "un_reto_sugerido": "¿Cómo se conserva el movimiento en un choque y por qué las máquinas siempre generan calor?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar el rebote de pelotas de diferentes materiales y notar si se calientan tras repetidos impactos.",
+              "visual": "Lanzar una canica contra una fila de canicas en reposo (Cuna de Newton casera) para demostrar la conservación del momento lineal.",
+              "produccion": "Diferenciar entre choques elásticos e inelásticos y modelar matemáticamente la transformación de energía mecánica en térmica por fricción."
+            },
+            "para_pensar": [
+              "¿Por qué los carros modernos se diseñan para deformarse durante un choque?",
+              "¿Cómo podemos reducir la pérdida de energía en forma de calor en los motores industriales?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante aplica la ley de conservación del momento para predecir velocidades tras una colisión.",
+              "Explica el aumento de temperatura en un sistema como una pérdida de eficiencia mecánica."
+            ],
+            "un_refuerzo": "Investigar cómo funcionan los sistemas de frenado regenerativo en los carros eléctricos."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "La Química en mi Cocina",
+            "un_reto_sugerido": "¿Cómo se transforman químicamente los alimentos al cocinarlos y qué recursos energéticos usamos?",
+            "ruta_de_exploracion": {
+              "explorar": "Registrar los cambios de color, textura y sabor al desnaturalizar la proteína del huevo mediante calor o limón.",
+              "visual": "Hacer pan o yogur casero para observar el proceso de fermentación y la producción de CO2.",
+              "produccion": "Explicar las reacciones de Maillard y la fermentación como procesos químicos industriales aplicados al hogar."
+            },
+            "para_pensar": [
+              "¿Qué impacto tiene el uso de leña frente al gas natural en la salud respiratoria?",
+              "¿Cómo puede la ciencia de alimentos ayudar a combatir la desnutrición en Colombia?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica reactivos y productos en una receta de cocina.",
+              "Propone formas de optimizar el uso de recursos naturales en la obtención de energía doméstica."
+            ],
+            "un_refuerzo": "Diseñar un menú 'científico' donde se explique la química detrás de cada plato."
+          }
         }
-      },
-      {
-        "componente": "Ciencia, Tecnología y Sociedad",
-        "guia_didactica": {
-          "la_estrategia": "Decisiones con Ciencia",
-          "un_reto_sugerido": "¿Cómo influyen los hábitos de consumo y la tecnología en nuestra salud física y reproductiva?",
-          "ruta_de_exploracion": {
-            "observar": "Analizar etiquetas de bebidas energizantes y cigarrillos, identificando componentes químicos y advertencias de salud.",
-            "experimentar": "Diseñar una encuesta digital para la comunidad escolar sobre hábitos de actividad física y consumo de sustancias psicoactivas, tabaco o alcohol.",
-            "conceptualizar": "Relacionar el efecto neurotóxico de ciertas sustancias con la alteración de la homeostasis corporal y la salud mental."
-          },
-          "para_pensar": [
-            "¿Es el consumo de vapeadores una alternativa segura al tabaco o un nuevo riesgo tecnológico?",
-            "¿Cómo afecta el entorno digital y las redes sociales la percepción de la sexualidad en los adolescentes?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante argumenta con base científica los efectos del alcohol y la nicotina en el sistema nervioso.",
-            "Propone una rutina de salud basada en la relación deporte-bienestar mental."
-          ],
-          "un_refuerzo": "Elaborar un podcast breve sobre mitos y realidades de los métodos anticonceptivos tecnológicos."
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "El Legado de la Selección Natural",
+            "un_reto_sugerido": "¿Cómo las mutaciones y el ambiente han moldeado la diversidad biológica que vemos hoy?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar variaciones físicas entre individuos de una misma especie (ej. diferentes tipos de perros).",
+              "visual": "Simular la selección natural usando 'picos' de diferentes formas para recoger distintos tipos de semillas.",
+              "produccion": "Explicar los mecanismos de evolución (deriva genética, flujo génico, mutación) y la jerarquía ecológica."
+            },
+            "para_pensar": [
+              "¿Es el ser humano el fin último de la evolución o una rama más?",
+              "¿Cómo la actividad humana está acelerando la selección natural en plagas urbanas?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante relaciona la supervivencia diferencial con la adaptación al medio.",
+              "Define con precisión los conceptos de especie y población biológica."
+            ],
+            "un_refuerzo": "Investigar la historia de los pinzones de Galápagos y su relación con el trabajo de Darwin."
+          }
+        },
+        {
+          "componente": "Entorno Químico",
+          "guia_didactica": {
+            "la_estrategia": "Cinética y Equilibrio de la Vida",
+            "un_reto_sugerido": "¿Cómo controlar la velocidad de una reacción química y qué sucede cuando alcanza el equilibrio?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar cómo se conservan los alimentos en la nevera versus a temperatura ambiente.",
+              "visual": "Realizar la descomposición del peróxido de hidrógeno usando un catalizador (papa o hígado) para observar el cambio de velocidad.",
+              "produccion": "Definir la constante de equilibrio (Ke) y el principio de Le Châtelier aplicado a procesos biológicos."
+            },
+            "para_pensar": [
+              "¿Por qué es vital que las reacciones en nuestro cuerpo estén en equilibrio dinámico?",
+              "¿Cómo utiliza la industria farmacéutica los catalizadores?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica cómo la concentración y la temperatura afectan la velocidad de reacción.",
+              "Describe el flujo de información genética desde el ADN hasta las proteínas."
+            ],
+            "un_refuerzo": "Escribir un ensayo breve sobre el descubrimiento de la estructura del ADN."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Campos, Ondas y Gravitación",
+            "un_reto_sugerido": "¿Qué mantiene a los planetas en órbita y cómo se comunican los celulares?",
+            "ruta_de_exploracion": {
+              "explorar": "Utilizar imanes para visualizar líneas de campo con limaduras de hierro y observar la caída de objetos.",
+              "visual": "Construir una brújula casera y un electroimán sencillo para demostrar la relación electricidad-magnetismo.",
+              "produccion": "Relacionar la Ley de Gravitación Universal con las leyes de Kepler y explicar la naturaleza de las ondas."
+            },
+            "para_pensar": [
+              "¿Qué pasaría si el campo magnético de la Tierra desapareciera?",
+              "¿Cómo influye la distancia en la fuerza de atracción entre dos cuerpos celestes?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante modela matemáticamente la fuerza gravitacional entre dos masas.",
+              "Diferencia claramente entre campos eléctricos, magnéticos y gravitacionales."
+            ],
+            "un_refuerzo": "Investigar qué son las ondas gravitacionales."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Bioética y Energía para el Futuro",
+            "un_reto_sugerido": "¿Cuáles son los límites éticos del uso de antibióticos y cómo podemos obtener energía limpia?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar en el entorno fuentes de energía renovable (paneles solares) y no renovables.",
+              "visual": "Diseñar un prototipo de celda solar orgánica simple o un biodigestor casero a pequeña escala.",
+              "produccion": "Debatir sobre la resistencia bacteriana causada por el mal uso de antibióticos y la transición energética."
+            },
+            "para_pensar": [
+              "¿Por qué automedicarse antibióticos es un peligro para toda la humanidad?",
+              "¿Está Colombia preparada para abandonar los combustibles fósiles?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante argumenta la importancia del uso responsable de medicamentos.",
+              "Evalúa el potencial energético de su región (solar, eólica, biomasa)."
+            ],
+            "un_refuerzo": "Crear una campaña de concientización sobre la prevención de ITS y el embarazo adolescente."
+          }
         }
-      }
-    ],
-    "2": [
-      {
-        "componente": "Entorno Vivo",
-        "guia_didactica": {
-          "la_estrategia": "Mensajeros Biológicos y Biofísica",
-          "un_reto_sugerido": "¿Cómo se coordinan los impulsos eléctricos en nuestras neuronas y cómo fluyen los líquidos en nuestro sistema circulatorio?",
-          "ruta_de_exploracion": {
-            "observar": "Medir el pulso radial antes y después de una actividad física intensa, registrando los cambios en la presión percibida.",
-            "experimentar": "Simular una red neuronal usando cables o hilos para entender la conectividad, y usar mangueras de distintos diámetros para modelar la presión sanguínea (Bernoulli).",
-            "conceptualizar": "Explicar el potencial de acción como un fenómeno electroquímico y la circulación sanguínea mediante la mecánica de fluidos."
-          },
-          "para_pensar": [
-            "¿Qué sucedería con la transmisión nerviosa si hubiera un desbalance severo de electrolitos (sodio/potasio)?",
-            "¿Cómo ayuda el modelo de fluidos a entender enfermedades como la hipertensión?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante explica el funcionamiento de la bomba sodio-potasio como un modelo eléctrico.",
-            "Aplica la ecuación de continuidad para explicar el flujo de sangre en arterias y capilares."
-          ],
-          "un_refuerzo": "Investigar cómo funcionan los marcapasos cardíacos como dispositivos que integran biología y electricidad."
-        }
-      },
-      {
-        "componente": "Entorno Químico",
-        "guia_didactica": {
-          "la_estrategia": "Cocinando con Estequiometría",
-          "un_reto_sugerido": "¿Cómo predecir la cantidad de productos en una reacción química variando la presión y la temperatura?",
-          "ruta_de_exploracion": {
-            "observar": "Observar la reacción de una pastilla efervescente en agua a diferentes temperaturas (fría, ambiente, caliente).",
-            "experimentar": "Realizar la reacción de bicarbonato de sodio y vinagre dentro de un globo para observar cómo el gas inflado (presión/volumen) se relaciona con las cantidades de reactivos.",
-            "conceptualizar": "Resolver ejercicios de estequiometría (mol-mol, gramo-gramo) aplicados a reacciones de combustión y neutralización."
-          },
-          "para_pensar": [
-            "¿Por qué en ciudades a gran altura (como Bogotá) los alimentos tardan más en cocinarse?",
-            "¿Cómo utiliza la industria alimentaria el control de temperatura para evitar la descomposición química?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante calcula el reactivo límite en una reacción casera.",
-            "Explica mediante la teoría cinética de los gases el efecto del calor en la velocidad de reacción."
-          ],
-          "un_refuerzo": "Realizar un experimento de 'hielo seco' casero (si es posible) o analizar videos de cambios de fase bajo presión extrema."
-        }
-      },
-      {
-        "componente": "Entorno Físico",
-        "guia_didactica": {
-          "la_estrategia": "Equilibrio y Circuitos Inteligentes",
-          "un_reto_sugerido": "¿Por qué no se caen los edificios altos y cómo se distribuye la energía en un circuito mixto?",
-          "ruta_de_exploracion": {
-            "observar": "Identificar el centro de masa de objetos irregulares (como una escoba o un martillo) intentando equilibrarlos sobre un dedo.",
-            "experimentar": "Construir un circuito con una pila de 9V, cables y tres bombillos LED, probando configuraciones en serie, paralelo y mixtas.",
-            "conceptualizar": "Aplicar las leyes de Kirchhoff y la ley de Ohm para calcular voltajes y corrientes en circuitos complejos."
-          },
-          "para_pensar": [
-            "¿Cómo afecta el diseño del centro de masa a la seguridad de los buses de transporte público?",
-            "¿Qué sucede con el consumo de energía en un hogar si todos los electrodomésticos estuvieran conectados en serie?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante dibuja correctamente diagramas de cuerpo libre y esquemas de circuitos.",
-            "Predice el comportamiento de un circuito al retirar uno de sus componentes."
-          ],
-          "un_refuerzo": "Investigar cómo se calculan las tarifas de energía eléctrica en Colombia a partir del consumo en kilovatios-hora."
-        }
-      },
-      {
-        "componente": "Ciencia, Tecnología y Sociedad",
-        "guia_didactica": {
-          "la_estrategia": "Ingenio Colombiano y Redes",
-          "un_reto_sugerido": "¿Qué tecnologías se han desarrollado en Colombia para resolver problemas de fluidos o energía?",
-          "ruta_de_exploracion": {
-            "observar": "Buscar noticias sobre patentes colombianas recientes relacionadas con medicina, agricultura o energía.",
-            "experimentar": "Entrevistar a una persona que trabaje con instalaciones eléctricas o hidráulicas sobre los retos tecnológicos que enfrenta en su labor diaria.",
-            "conceptualizar": "Analizar el impacto socioeconómico de la electrificación rural y el manejo de aguas en el desarrollo de las regiones colombianas."
-          },
-          "para_pensar": [
-            "¿Por qué es importante para un país producir su propia tecnología en lugar de solo importarla?",
-            "¿Cómo ha cambiado nuestra vida diaria la miniaturización de los circuitos electrónicos?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante identifica al menos tres innovaciones tecnológicas hechas en Colombia.",
-            "Explica la importancia de los circuitos integrados en los dispositivos móviles actuales."
-          ],
-          "un_refuerzo": "Hacer una línea de tiempo sobre la historia de la llegada de la electricidad a su municipio o ciudad."
-        }
-      }
-    ],
-    "3": [
-      {
-        "componente": "Entorno Vivo",
-        "guia_didactica": {
-          "la_estrategia": "Luz y Vida: El Motor del Planeta",
-          "un_reto_sugerido": "¿Cómo transforma una planta la luz solar en energía química y cómo fluye esa energía hasta nosotros?",
-          "ruta_de_exploracion": {
-            "observar": "Comparar el crecimiento de dos plantas: una expuesta a la luz solar y otra en la oscuridad, registrando cambios de color y altura.",
-            "experimentar": "Realizar una cromatografía en papel para separar los pigmentos fotosintéticos (clorofila, carotenos) de hojas verdes y rojas.",
-            "conceptualizar": "Esquematizar el ciclo de Calvin y la fase lumínica, explicando el papel del ATP y el NADPH."
-          },
-          "para_pensar": [
-            "¿Qué pasaría con la vida en la Tierra si un evento volcánico masivo bloqueara la luz solar por años?",
-            "¿Cómo se relaciona la eficiencia fotosintética con la seguridad alimentaria mundial?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante explica la fotosíntesis como un proceso de transformación de energía radiante en química.",
-            "Argumenta la importancia de las plantas como base de todas las cadenas tróficas."
-          ],
-          "un_refuerzo": "Investigar qué organismos extremófilos no dependen de la fotosíntesis (quimiosíntesis)."
-        }
-      },
-      {
-        "componente": "Entorno Químico",
-        "guia_didactica": {
-          "la_estrategia": "Grupos Funcionales y Energía Nuclear",
-          "un_reto_sugerido": "¿Qué hace que un alcohol sea diferente de un ácido carboxílico y qué energía se esconde en el núcleo atómico?",
-          "ruta_de_exploracion": {
-            "observar": "Identificar el olor y la textura de sustancias como vinagre (ácido), esencia de vainilla (aldehído) y quitaesmalte (cetona).",
-            "experimentar": "Fabricar un indicador de pH con repollo morado para clasificar sustancias del hogar según su acidez o basicidad relacionada con sus grupos funcionales.",
-            "conceptualizar": "Relacionar la nomenclatura IUPAC de compuestos orgánicos con sus funciones químicas y explicar la diferencia entre fisión y fusión nuclear."
-          },
-          "para_pensar": [
-            "¿Es la energía nuclear una solución viable para la crisis energética de Colombia a pesar de sus riesgos?",
-            "¿Por qué los grupos funcionales determinan si una sustancia es tóxica o medicinal para el ser humano?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante identifica grupos funcionales en fórmulas estructurales complejas.",
-            "Explica los beneficios y riesgos ambientales de la energía nuclear."
-          ],
-          "un_refuerzo": "Realizar una infografía sobre los isótopos radiactivos usados en la medicina (ej. Yodo-131)."
-        }
-      },
-      {
-        "componente": "Entorno Físico",
-        "guia_didactica": {
-          "la_estrategia": "Choques, Impulsos y Calor",
-          "un_reto_sugerido": "¿Cómo se conserva el movimiento en un choque y por qué las máquinas siempre generan calor?",
-          "ruta_de_exploracion": {
-            "observar": "Observar el rebote de pelotas de diferentes materiales (tenis, caucho, plastilina) y notar si se calientan tras repetidos impactos.",
-            "experimentar": "Lanzar una canica contra una fila de canicas en reposo (Cuna de Newton casera) para demostrar la conservación del momento lineal.",
-            "conceptualizar": "Diferenciar entre choques elásticos e inelásticos y modelar matemáticamente la transformación de energía mecánica en térmica por fricción."
-          },
-          "para_pensar": [
-            "¿Por qué los carros modernos se diseñan para deformarse (destruirse) durante un choque?",
-            "¿Cómo podemos reducir la pérdida de energía en forma de calor en los motores industriales?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante aplica la ley de conservación del momento para predecir velocidades tras una colisión.",
-            "Explica el aumento de temperatura en un sistema como una pérdida de eficiencia mecánica."
-          ],
-          "un_refuerzo": "Investigar cómo funcionan los sistemas de frenado regenerativo en los carros eléctricos."
-        }
-      },
-      {
-        "componente": "Ciencia, Tecnología y Sociedad",
-        "guia_didactica": {
-          "la_estrategia": "La Química en mi Cocina",
-          "un_reto_sugerido": "¿Cómo se transforman químicamente los alimentos al cocinarlos y qué recursos energéticos usamos para ello?",
-          "ruta_de_exploracion": {
-            "observar": "Registrar los cambios de color, textura y sabor al desnaturalizar la proteína del huevo mediante calor o limón.",
-            "experimentar": "Hacer pan o yogur casero para observar el proceso de fermentación y la producción de CO2 o ácido láctico.",
-            "conceptualizar": "Explicar las reacciones de Maillard y la fermentación como procesos químicos industriales aplicados al hogar."
-          },
-          "para_pensar": [
-            "¿Qué impacto tiene el uso de leña frente al gas natural en la salud respiratoria de las comunidades rurales?",
-            "¿Cómo puede la ciencia de alimentos ayudar a combatir la desnutrición en Colombia?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante identifica reactivos y productos en una receta de cocina.",
-            "Propone formas de optimizar el uso de recursos naturales en la obtención de energía doméstica."
-          ],
-          "un_refuerzo": "Diseñar un menú 'científico' donde se explique la química detrás de cada plato."
-        }
-      }
-    ],
-    "4": [
-      {
-        "componente": "Entorno Vivo",
-        "guia_didactica": {
-          "la_estrategia": "El Legado de la Selección Natural",
-          "un_reto_sugerido": "¿Cómo las mutaciones y el ambiente han moldeado la diversidad biológica que vemos hoy?",
-          "ruta_de_exploracion": {
-            "observar": "Identificar variaciones físicas entre individuos de una misma especie (ej. diferentes tipos de perros, o variaciones en hojas de un mismo árbol).",
-            "experimentar": "Simular la selección natural usando 'picos' de diferentes formas (pinzas, cucharas, pitillos) para recoger distintos tipos de semillas.",
-            "conceptualizar": "Explicar los mecanismos de evolución (deriva genética, flujo génico, mutación) y la jerarquía ecológica (población hasta ecosistema)."
-          },
-          "para_pensar": [
-            "¿Es el ser humano el fin último de la evolución o simplemente una rama más en el árbol de la vida?",
-            "¿Cómo la actividad humana está acelerando la selección natural en especies de plagas urbanas?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante relaciona la supervivencia diferencial con la adaptación al medio.",
-            "Define con precisión los conceptos de especie y población biológica."
-          ],
-          "un_refuerzo": "Investigar la historia de los pinzones de Galápagos y su relación con el trabajo de Darwin."
-        }
-      },
-      {
-        "componente": "Entorno Químico",
-        "guia_didactica": {
-          "la_estrategia": "Cinética y Equilibrio de la Vida",
-          "un_reto_sugerido": "¿Cómo controlar la velocidad de una reacción química y qué sucede cuando alcanza el equilibrio?",
-          "ruta_de_exploracion": {
-            "observar": "Analizar cómo se conservan los alimentos en la nevera versus a temperatura ambiente (cinética química).",
-            "experimentar": "Realizar la descomposición del peróxido de hidrógeno (agua oxigenada) usando un catalizador (trozo de papa o hígado) para observar el cambio de velocidad.",
-            "conceptualizar": "Definir la constante de equilibrio (Ke) y el principio de Le Châtelier, aplicándolos a procesos biológicos como el transporte de oxígeno en la sangre."
-          },
-          "para_pensar": [
-            "¿Por qué es vital que las reacciones en nuestro cuerpo estén en equilibrio dinámico y no estático?",
-            "¿Cómo utiliza la industria farmacéutica los catalizadores para reducir costos y contaminación?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante explica cómo la concentración y la temperatura afectan la velocidad de reacción.",
-            "Describe el flujo de información genética desde el ADN hasta las proteínas."
-          ],
-          "un_refuerzo": "Escribir un ensayo breve sobre el descubrimiento de la estructura del ADN y su importancia en la química moderna."
-        }
-      },
-      {
-        "componente": "Entorno Físico",
-        "guia_didactica": {
-          "la_estrategia": "Campos, Ondas y Gravitación",
-          "un_reto_sugerido": "¿Qué mantiene a los planetas en órbita y cómo se comunican los celulares mediante campos invisibles?",
-          "ruta_de_exploracion": {
-            "observar": "Utilizar imanes para visualizar líneas de campo con limaduras de hierro (o clips) y observar la caída de objetos de distinta masa.",
-            "experimentar": "Construir una brújula casera y un electroimán sencillo (pila, cable de cobre y clavo) para demostrar la relación electricidad-magnetismo.",
-            "conceptualizar": "Relacionar la Ley de Gravitación Universal con las leyes de Kepler y explicar la naturaleza dual de la luz y el sonido como ondas."
-          },
-          "para_pensar": [
-            "¿Qué pasaría con nuestra tecnología si el campo magnético de la Tierra desapareciera?",
-            "¿Cómo influye la distancia en la fuerza de atracción entre dos cuerpos celestes o dos cargas eléctricas?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante modela matemáticamente la fuerza gravitacional entre dos masas.",
-            "Diferencia claramente entre campos eléctricos, magnéticos y gravitacionales."
-          ],
-          "un_refuerzo": "Investigar qué son las ondas gravitacionales y por qué su detección ganó un premio Nobel recientemente."
-        }
-      },
-      {
-        "componente": "Ciencia, Tecnología y Sociedad",
-        "guia_didactica": {
-          "la_estrategia": "Bioética y Energía para el Futuro",
-          "un_reto_sugerido": "¿Cuáles son los límites éticos del uso de antibióticos y cómo podemos obtener energía limpia?",
-          "ruta_de_exploracion": {
-            "observar": "Identificar en el entorno fuentes de energía renovable (paneles solares) y no renovable.",
-            "experimentar": "Diseñar un prototipo de celda solar orgánica simple o un biodigestor casero a pequeña escala para entender la obtención de biogás.",
-            "conceptualizar": "Debatir sobre la resistencia bacteriana causada por el mal uso de antibióticos y el impacto de la transición energética en Colombia."
-          },
-          "para_pensar": [
-            "¿Por qué automedicarse antibióticos es un peligro para toda la humanidad y no solo para quien lo hace?",
-            "¿Está Colombia preparada para abandonar los combustibles fósiles?"
-          ],
-          "pistas_del_exito": [
-            "El estudiante argumenta la importancia del uso responsable de medicamentos.",
-            "Evalúa el potencial energético de su región (solar, eólica, biomasa)."
-          ],
-          "un_refuerzo": "Crear una campaña de concientización sobre la prevención de ITS y el embarazo adolescente enfocada en la autonomía corporal."
-        }
-      }
-    ]
-  }
+      ]
+    }
+  ]
 }
