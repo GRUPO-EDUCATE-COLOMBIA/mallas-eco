@@ -1,0 +1,279 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "1",
+  "nombre_archivo": "t_ciencias_1_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Exploradores de la Vida",
+            "un_reto_sugerido": "¿Cómo podemos saber si algo tiene vida o es un objeto inerte?",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar una caminata por el patio y recolectar una piedra, una hoja seca, una hormiga (observarla) y un juguete.",
+              "visual": "Intentar 'alimentar' a la piedra y a una planta pequeña, observando y registrando durante una semana cuál de las dos presenta cambios.",
+              "produccion": "Clasificar los objetos recolectados en dos cajas: 'Seres Vivos' y 'Objetos Inertes', explicando que los seres vivos necesitan agua y alimento."
+            },
+            "para_pensar": [
+              "¿Por qué un peluche parece vivo pero no necesita comer como tú?",
+              "¿Qué pasaría si dejamos de darle agua a las plantas del salón?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica seres vivos y objetos inertes según criterios básicos (NAT-1-D3-E1).",
+              "Utiliza la observación directa para diferenciar plantas de animales."
+            ],
+            "un_refuerzo": "Utilizar una lupa para observar los detalles de un insecto y de una roca, dibujando las diferencias."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Súper Sentidos en Acción",
+            "un_reto_sugerido": "¿Podrías adivinar qué es un objeto sin usar tus ojos?",
+            "ruta_de_exploracion": {
+              "explorar": "Cerrar los ojos y tratar de identificar sonidos del entorno (pájaros, carros, voces) y olores (fruta, jabón).",
+              "visual": "Jugar a la 'Bolsa Misteriosa': tocar objetos con diferentes texturas y temperaturas (una cuchara fría, una lija, algodón) y describir lo que se siente.",
+              "produccion": "Relacionar cada órgano de los sentidos (ojos, nariz, lengua, oídos, piel) con la característica que permite percibir."
+            },
+            "para_pensar": [
+              "¿Cuál de tus sentidos te avisa si una sopa está muy caliente para no quemarte?",
+              "¿Cómo ayudan los sentidos a los animales para encontrar comida en la selva?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante caracteriza sonidos, sabores y texturas usando el sentido apropiado (NAT-1-D1-E1).",
+              "Compara temperaturas (frío/caliente) utilizando el tacto (NAT-1-D1-E2)."
+            ],
+            "un_refuerzo": "Realizar una merienda sensorial donde se prueben sabores dulces, salados y ácidos."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Detectives de la Naturaleza",
+            "un_reto_sugerido": "¿Qué cosas de nuestro salón existían en la naturaleza y cuáles fueron creadas por personas?",
+            "ruta_de_exploracion": {
+              "explorar": "Hacer una lista de objetos que vemos en el salón (pupitre, lápiz, manzana, planta, ventana).",
+              "visual": "Tocar una hoja de papel y una hoja de un árbol real, comparando cómo se sienten y de dónde vienen.",
+              "produccion": "Agrupar imágenes en un mural de 'Cosas Naturales' y 'Cosas Hechas por el Hombre', explicando que los humanos transforman la naturaleza."
+            },
+            "para_pensar": [
+              "¿De qué material natural crees que están hechos los lápices de madera?",
+              "¿Por qué el ser humano necesita crear objetos como las sillas o los zapatos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante diferencia objetos naturales de objetos creados por el ser humano.",
+              "Asocia materiales naturales con los objetos transformados (madera-papel)."
+            ],
+            "un_refuerzo": "Construir un juguete sencillo usando solo materiales naturales (piedras, palitos, hojas)."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectos de la Naturaleza",
+            "un_reto_sugerido": "¿Qué partes tienen las plantas y qué necesitan los animales para estar felices?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar una planta de jardín y señalar dónde están sus raíces, su tallo y sus hojas.",
+              "visual": "Modelar con plastilina su animal favorito, asegurándose de ponerle patas, alas o aletas según cómo se mueva.",
+              "produccion": "Proponer tres acciones para cuidar a una mascota o a una planta de la casa (ej. darle comida, ponerla al sol)."
+            },
+            "para_pensar": [
+              "¿Para qué le sirve la raíz a la planta si está escondida bajo la tierra?",
+              "¿Por qué los perros tienen pelo y los peces tienen escamas?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante describe las partes de las plantas y características de animales (NAT-1-D3-E3).",
+              "Propone acciones de cuidado para seres vivos de su entorno (NAT-1-D3-E4)."
+            ],
+            "un_refuerzo": "Clasificar recortes de animales según lo que comen: los que comen carne y los que comen plantas."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Cazadores de Luces",
+            "un_reto_sugerido": "¿Cómo cambia el mundo cuando lo vemos a través de una lupa?",
+            "ruta_ de_exploracion": {
+              "explorar": "Observar diferentes fuentes de luz: el sol (sin mirarlo directo), un bombillo y una linterna de colores.",
+              "visual": "Usar una lupa para observar objetos muy pequeños como una fibra de ropa, un grano de sal o una hormiga, y dibujarlos en grande.",
+              "produccion": "Clasificar luces según su color e intensidad, representando mediante dibujos lo que observó con la lupa."
+            },
+            "para_pensar": [
+              "¿Por qué las cosas se ven más grandes con la lupa? ¿Para qué nos sirve eso?",
+              "¿Qué tipo de luz es más fuerte: la de una vela o la de una linterna?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante caracteriza diferentes tipos de luz por color e intensidad (NAT-1-D1-E3).",
+              "Utiliza la lupa para realizar observaciones detalladas y dibujos (NAT-1-D1-E4)."
+            ],
+            "un_refuerzo": "Jugar a los 'mensajes secretos' usando una linterna para hacer señales de luz largas y cortas."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "El Taller de los Humanos",
+            "un_reto_sugerido": "¿Podemos crear algo útil usando solo materiales de la naturaleza?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar un nido de pájaro y una canasta tejida por una persona para ver en qué se parecen.",
+              "visual": "Recolectar piedras lisas y pintarlas para convertirlas en 'pisapapeles' o elementos decorativos.",
+              "produccion": "Diferenciar entre un objeto natural sin cambios y uno que ha sido transformado por nosotros para un uso diario."
+            },
+            "para_pensar": [
+              "¿Qué objetos creados por el hombre nos ayudan a protegernos de la lluvia?",
+              "¿Por qué es importante no desperdiciar los objetos que compramos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante diferencia objetos naturales de creados por humanos.",
+              "Reconoce que los seres humanos crean objetos para solucionar necesidades."
+            ],
+            "un_refuerzo": "Hacer una lista de 3 objetos del salón que sean de plástico y 3 que sean de madera."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Mi Yo del Pasado y el Futuro",
+            "un_reto_sugerido": "¿Cómo ha cambiado mi cuerpo desde que era un bebé?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar una foto de cuando eran bebés y compararla con su reflejo en un espejo hoy.",
+              "visual": "Medir la longitud de su pie y su mano usando una lana, y compararla con la de un compañero o un adulto.",
+              "produccion": "Registrar en un dibujo su estatura actual y predecir qué cambios tendrán cuando sean adultos (barba, ser más altos, etc.)."
+            },
+            "para_pensar": [
+              "¿Por qué tus zapatos de bebé ya no te quedan bien?",
+              "¿Qué cosas de tu cuerpo no han cambiado (como el color de tus ojos)?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante registra cambios físicos como peso y talla (NAT-1-D4-E1).",
+              "Predice cambios futuros comparándose con un adulto (NAT-1-D4-E2)."
+            ],
+            "un_refuerzo": "Traer una prenda de vestir de cuando eran más pequeños para ver cuánto han crecido."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "El Club de los Materiales Curiosos",
+            "un_reto_sugerido": "¿De qué material debería ser una sombrilla para que no me moje?",
+            "ruta_de_exploracion": {
+              "explorar": "Tocar objetos de madera, plástico, metal y tela, describiendo si son suaves, duros o ásperos.",
+              "visual": "Poner gotas de agua sobre un trozo de tela, un plástico y un cartón para ver en cuál el agua 'resbala' y en cuál se 'absorbe'.",
+              "produccion": "Clasificar los materiales según su dureza o permeabilidad, sugiriendo un uso para cada uno (ej. el metal para cucharas)."
+            },
+            "para_pensar": [
+              "¿Por qué las ventanas no son de madera sino de vidrio transparente?",
+              "¿Qué pasaría si hiciéramos zapatos de papel en un día de lluvia?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica materiales cotidianos según sus propiedades sensoriales (NAT-1-D2-E1).",
+              "Predice los posibles usos de un material de acuerdo con sus características (NAT-1-D2-E2)."
+            ],
+            "un_refuerzo": "Jugar a 'clasificar basura' separando plástico, papel y metal en diferentes contenedores."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "De qué está hecho mi mundo",
+            "un_reto_sugerido": "¿Por qué usamos diferentes materiales para diferentes objetos?",
+            "ruta_de_exploracion": {
+              "explorar": "Mirar sus útiles escolares (borrador, regla, lápiz) y decir de qué material están hechos.",
+              "visual": "Intentar doblar una regla de plástico y una de madera para ver cuál es más flexible.",
+              "produccion": "Hacer una lista de objetos de uso diario y el material principal que los compone, explicando por qué ese material es útil."
+            },
+            "para_pensar": [
+              "¿Por qué las ollas de la cocina son de metal y no de plástico?",
+              "¿Qué material es mejor para un juguete que se pueda caer sin romperse?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica materiales de uso diario por su utilidad.",
+              "Compara objetos según el material del que están fabricados."
+            ],
+            "un_refuerzo": "Buscar en casa un objeto que esté hecho de dos materiales diferentes (ej. un martillo de madera y metal)."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Espejito, Espejito: ¿A quién me parezco?",
+            "un_reto_sugerido": "¿En qué nos parecemos y en qué somos diferentes a nuestros amigos y padres?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar a sus compañeros de fila y notar quién tiene el cabello liso, crespo, o quién es más alto.",
+              "visual": "Hacer un dibujo de su familia señalando qué rasgos heredaron de su mamá o su papá (ej. la sonrisa, los ojos).",
+              "produccion": "Escribir o dibujar una lista de cosas que todos los niños del salón tienen igual (corazón, pulmones, piel) y cosas que los hacen únicos."
+            },
+            "para_pensar": [
+              "¿Si todos fuéramos exactamente iguales, cómo nos reconocerían nuestros padres?",
+              "¿Qué rasgos físicos compartes con tus hermanos o primos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante registra similitudes y diferencias entre niños y niñas (NAT-1-D4-E3).",
+              "Establece relaciones hereditarias basadas en rasgos físicos (NAT-1-D4-E4)."
+            ],
+            "un_refuerzo": "Realizar un autorretrato resaltando las características que más le gustan de su rostro."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Ingenieros de Emergencia",
+            "un_reto_sugerido": "¿Con qué material construirías una casa para un pollito que lo proteja del frío y el agua?",
+            "ruta_de_exploracion": {
+              "explorar": "Usar sus manos y palos para medir el ancho de su mesa, comparando los resultados con sus compañeros.",
+              "visual": "Construir un pequeño refugio usando materiales como pitillos, tela, plástico y palitos de helado.",
+              "produccion": "Elegir el mejor material para fabricar un paraguas o un techo, justificando por qué evita que pase el agua."
+            },
+            "para_pensar": [
+              "¿Por qué tu mano mide diferente a la mano del profesor si usamos la misma mesa?",
+              "¿Por qué el plástico es mejor que el papel para protegernos de la lluvia?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante selecciona materiales adecuados para fabricar objetos según una necesidad (NAT-1-D2-E3).",
+              "Utiliza instrumentos no convencionales para medir y clasificar materiales (NAT-1-D2-E4)."
+            ],
+            "un_refuerzo": "Medir el largo del salón usando sus propios pasos y anotar el número."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Clasificando mi Día",
+            "un_reto_sugerido": "¿Cómo organizamos los objetos según su utilidad en nuestra vida diaria?",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar objetos que sirven para comer, para estudiar, para jugar y para asearse.",
+              "visual": "Jugar a 'Tienda de Materiales': agrupar objetos de cartón, de metal y de plástico en diferentes estantes.",
+              "produccion": "Explicar por qué es importante separar los materiales cuando ya no los usamos (reciclaje) para cuidar el planeta."
+            },
+            "para_pensar": [
+              "¿Qué pasaría si usáramos una cuchara de papel para tomar una sopa caliente?",
+              "¿Cómo ayuda el reciclaje a que no se acaben los materiales de la naturaleza?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica y compara objetos según sus usos y materiales.",
+              "Reconoce el impacto del uso de diferentes materiales en la vida diaria."
+            ],
+            "un_refuerzo": "Hacer un dibujo de cómo separar la basura en casa usando los colores de las canecas."
+          }
+        }
+      ]
+    }
+  ]
+}
