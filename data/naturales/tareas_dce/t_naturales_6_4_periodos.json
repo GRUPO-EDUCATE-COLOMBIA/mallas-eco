@@ -1,0 +1,279 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "6",
+  "nombre_archivo": "t_ciencias_6_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "La Célula: Una Ciudad en Movimiento",
+            "un_reto_sugerido": "¿Cómo entran y salen sustancias de la célula para mantenerla viva sin que explote o se seque?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar qué sucede con una uva pasa cuando se deja en agua toda la noche y compararla con una uva fresca dejada en agua con mucha sal.",
+              "visual": "Realizar el experimento del 'huevo saltarín' (huevo en vinagre) para observar cómo la membrana permite el paso de líquidos (ósmosis) y cómo se desintegra la cáscara.",
+              "produccion": "Explicar el rol de la membrana plasmática en el mantenimiento del equilibrio y modelar el proceso de respiración celular localizando la función de la mitocondria."
+            },
+            "para_pensar": [
+              "¿Por qué se nos arrugan los dedos después de estar mucho tiempo en la piscina o el mar?",
+              "¿Qué pasaría con la energía de nuestro cuerpo si las mitocondrias dejaran de funcionar?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante describe la interacción del agua en procesos de ósmosis y difusión (NAT-6-D4-E1).",
+              "Identifica a la mitocondria como el centro de obtención de energía (NAT-6-D4-E2)."
+            ],
+            "un_refuerzo": "Investigar qué son las bebidas isotónicas y cómo ayudan a las células de los deportistas a recuperar agua."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Magos de la Electricidad Estática",
+            "un_reto_sugerido": "¿Cómo pueden los objetos atraerse o repelerse sin siquiera tocarse?",
+            "ruta_de_exploracion": {
+              "explorar": "Frotar un globo en el cabello y acercarlo a pedacitos de papel, a un chorro delgado de agua o al cabello de un compañero.",
+              "visual": "Experimentar con barras de plástico (reglas) y diferentes telas (lana, seda) para cargar objetos y observar cuáles se atraen y cuáles se repelen.",
+              "produccion": "Clasificar los materiales probados según su capacidad de ganar carga e identificar si las cargas son iguales o contrarias basándose en los efectos observados."
+            },
+            "para_pensar": [
+              "¿Por qué a veces sentimos un 'corrientazo' al tocar la manija de una puerta o a otra persona?",
+              "¿Cómo protegen los pararrayos a los edificios de las cargas eléctricas de las nubes?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante utiliza procedimientos efectivos para cargar eléctricamente un cuerpo (NAT-6-D1-E1).",
+              "Diferencia entre atracción y repulsión eléctrica (NAT-6-D1-E2)."
+            ],
+            "un_refuerzo": "Construir un electroscopio casero sencillo con un frasco de vidrio y papel aluminio para detectar cargas eléctricas."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Micro-Trabajadores Extremos",
+            "un_reto_sugerido": "¿Cómo pueden vivir los microorganismos en lugares donde nada más sobrevive y para qué nos sirven?",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar sobre las 'arqueas' o bacterias que viven en volcanes, salinas o fondos marinos sin luz.",
+              "visual": "Realizar una cartelera sobre el uso de bacterias extremófilas en la industria (ej. fabricación de detergentes que funcionan en agua fría o limpieza de derrames químicos).",
+              "produccion": "Argumentar por qué el estudio de estos microorganismos es fundamental para el desarrollo de nuevas tecnologías industriales y ambientales."
+            },
+            "para_pensar": [
+              "¿Podría existir vida en otros planetas con condiciones extremas si en la Tierra ya existen estos microorganismos?",
+              "¿Qué beneficios trae para la industria que una bacteria pueda degradar plásticos o petróleo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante indaga acerca del uso industrial de microorganismos de ambientes extremos.",
+              "Reconoce la importancia de la biodiversidad microscópica para la tecnología."
+            ],
+            "un_refuerzo": "Investigar sobre las bacterias 'come-petróleo' y su uso en desastres ambientales."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Células en Crecimiento",
+            "un_reto_sugerido": "¿Cómo hace nuestro cuerpo para sanar una herida en la piel o para que crezcamos de tamaño?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar la cicatrización de una pequeña raspadura (o el crecimiento de una raíz de cebolla en agua) y registrar los cambios diarios.",
+              "visual": "Modelar las fases de la mitosis usando lana de colores o plastilina para representar cómo se reparte el material genético entre dos células hijas.",
+              "produccion": "Interpretar el proceso de división celular como el mecanismo que permite la regeneración de tejidos y predecir qué pasaría si este proceso se descontrolara."
+            },
+            "para_pensar": [
+              "¿Por qué las células de nuestra piel se dividen más rápido que las de nuestros huesos?",
+              "¿Qué sucedería si una célula pierde sus mitocondrias o sus ribosomas debido a una toxina?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante interpreta modelos de mitosis como mecanismo de crecimiento y regeneración (NAT-6-D4-E3).",
+              "Predice fallos celulares ante el daño de organelas (NAT-6-D4-E4)."
+            ],
+            "un_refuerzo": "Hacer un dibujo comparativo entre una célula normal y una que no puede dividirse correctamente."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Presión, Calor y Cambios",
+            "un_reto_sugerido": "¿Por qué el agua hierve más rápido en una montaña que a nivel del mar?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar cómo cambia la viscosidad del aceite (o miel) cuando se calienta y cuando se enfría en la nevera.",
+              "visual": "Experimentar con una jeringa (sin aguja) llena de aire y luego con agua, tapando el orificio y presionando para observar la compresibilidad de los gases frente a los líquidos.",
+              "produccion": "Representar en tablas y gráficos cómo la variación de temperatura y presión influye en el punto de ebullición y la densidad de las sustancias."
+            },
+            "para_pensar": [
+              "¿Por qué los globos de helio se revientan cuando suben a mucha altura en la atmósfera?",
+              "¿Por qué la miel se pone 'dura' (cristalizada) cuando hace frío y vuelve a ser líquida al calentarla?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante interpreta resultados sobre la influencia de T y P en cambios de estado (NAT-6-D2-E1).",
+              "Explica la relación entre temperatura, densidad y solubilidad (NAT-6-D2-E2)."
+            ],
+            "un_refuerzo": "Investigar el funcionamiento de una olla a presión y por qué cocina los alimentos en menos tiempo."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Tecnología para la Salud",
+            "un_reto_sugerido": "¿Cómo ha cambiado la medicina gracias al desarrollo de nuevos instrumentos tecnológicos?",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar la historia de un avance médico: desde el primer microscopio hasta las vacunas modernas o las radiografías.",
+              "visual": "Crear una presentación o póster sobre un invento tecnológico médico (ej. el termómetro digital, el marcapasos o la ecografía).",
+              "produccion": "Explicar cómo el conocimiento de las ciencias naturales (biología, física) permitió el desarrollo de dicha tecnología para salvar vidas."
+            },
+            "para_pensar": [
+              "¿Cómo era la medicina antes de que se inventaran los antibióticos o los microscopios?",
+              "¿Qué importancia tiene la ciencia para prevenir pandemias globales?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica el uso de las ciencias naturales en el desarrollo de avances médicos.",
+              "Reconoce el impacto social de la tecnología en la calidad de vida."
+            ],
+            "un_refuerzo": "Entrevistar a un adulto mayor sobre qué aparatos médicos no existían cuando ellos eran niños."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Detectives de la Biodiversidad",
+            "un_reto_sugerido": "¿Cómo podemos clasificar la inmensa variedad de plantas y animales que nos rodean de forma organizada?",
+            "ruta_de_exploracion": {
+              "explorar": "Recolectar hojas de diferentes plantas del entorno escolar y agruparlas por su forma, borde y color.",
+              "visual": "Utilizar una clave taxonómica sencilla (de 'sí' o 'no') para identificar si un organismo es un insecto, un arácnido o un molusco.",
+              "produccion": "Clasificar organismos del entorno en tablas siguiendo criterios científicos y explicar por qué es importante darles nombres universales."
+            },
+            "para_pensar": [
+              "¿Por qué un perro y un lobo se parecen tanto pero no son la misma especie?",
+              "¿Cómo ayuda la taxonomía a los científicos de diferentes países a entenderse sobre un mismo animal?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica organismos de su entorno y los clasifica usando claves (NAT-6-D5-E1).",
+              "Utiliza representaciones gráficas para organizar la biodiversidad local."
+            ],
+            "un_refuerzo": "Crear una clave taxonómica propia para clasificar los zapatos o los útiles escolares de los compañeros."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "El Arte de Separar",
+            "un_reto_sugerido": "¿Cómo recuperar la sal si se nos cae en la arena o cómo limpiar agua sucia?",
+            "ruta_de_exploracion": {
+              "explorar": "Preparar diferentes mezclas: agua con arena, agua con aceite, y agua con sal, describiendo si se ven uno o varios componentes.",
+              "visual": "Realizar experiencias de separación: usar un imán para sacar clips de la arena, un filtro de papel para separar tierra de agua, y evaporación para recuperar sal.",
+              "produccion": "Justificar qué técnica de separación es mejor según las propiedades (densidad, magnetismo, punto de ebullición) de las sustancias involucradas."
+            },
+            "para_pensar": [
+              "¿Cómo se separan los componentes de la sangre en un laboratorio médico?",
+              "¿Por qué el reciclaje es, en el fondo, un proceso masivo de separación de mezclas?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante diseña y realiza experiencias de separación de mezclas (NAT-6-D2-E3).",
+              "Identifica mezclas homogéneas y heterogéneas en el laboratorio."
+            ],
+            "un_refuerzo": "Investigar cómo funciona el proceso de destilación para obtener perfumes o licores."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Cuerpo Sano, Mente Fuerte",
+            "un_reto_sugerido": "¿Qué le sucede químicamente a nuestro cuerpo cuando practicamos deporte regularmente?",
+            "ruta_de_exploracion": {
+              "explorar": "Registrar el estado de ánimo (estrés, felicidad) antes y después de una jornada de juegos físicos.",
+              "visual": "Investigar sobre la liberación de 'hormonas de la felicidad' (endorfinas) y cómo el ejercicio mejora la oxigenación de las neuronas.",
+              "produccion": "Elaborar una rutina de salud semanal que equilibre el deporte, el estudio y el descanso, justificando sus beneficios físicos y mentales."
+            },
+            "para_pensar": [
+              "¿Por qué nos sentimos más concentrados para estudiar después de haber hecho algo de ejercicio?",
+              "¿Cómo ayuda el deporte a prevenir enfermedades como la obesidad y la depresión?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante establece relaciones claras entre deporte y salud integral.",
+              "Reconoce la importancia biológica de la actividad física."
+            ],
+            "un_refuerzo": "Hacer un seguimiento de su frecuencia cardíaca en reposo durante una semana y notar si mejora con el ejercicio."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Los Grandes Dominios de la Vida",
+            "un_reto_sugerido": "¿En qué se diferencia la célula de una bacteria de la célula de una planta o de un ser humano?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar (en imágenes o microscopio) la diferencia entre células sin núcleo (bacterias) y células con núcleo definido.",
+              "visual": "Construir un cuadro comparativo gigante en el tablero sobre los tres dominios (Archaea, Bacteria y Eukarya) y los reinos de la naturaleza.",
+              "produccion": "Explicar cómo la clasificación taxonómica permite reconocer el parentesco entre organismos y la biodiversidad global."
+            },
+            "para_pensar": [
+              "¿Si tenemos células tan parecidas a las de una lechuga, por qué somos tan diferentes?",
+              "¿Por qué se dice que las bacterias son los organismos más antiguos de la Tierra?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante clasifica organismos en dominios según su tipo de célula (NAT-6-D5-E2).",
+              "Explica la taxonomía como mecanismo para reconocer el parentesco biológico (NAT-6-D5-E3)."
+            ],
+            "un_refuerzo": "Investigar sobre un organismo que pertenezca al dominio Eukarya y otro al dominio Bacteria, dibujando sus células."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Sustancias, Mezclas y Coloides",
+            "un_reto_sugerido": "¿Cómo diferenciar una sustancia pura de una mezcla en los productos que compramos?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar las etiquetas de productos (sal, agua mineral, leche, pintura) e identificar si son elementos, compuestos o mezclas.",
+              "visual": "Fabricar una 'gelatina' o observar la espuma del jabón para entender qué es un coloide y por qué parece una mezcla pero se comporta diferente.",
+              "produccion": "Asociar sustancias cotidianas (sal, agua, cobre) con sus símbolos y fórmulas químicas, explicando por qué el agua es el solvente universal."
+            },
+            "para_pensar": [
+              "¿Por qué el agua de mar es una mezcla y el agua destilada es una sustancia pura?",
+              "¿Qué pasaría con los peces en un río si el agua no fuera capaz de disolver el oxígeno?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante diferencia sustancias puras de mezclas en el uso cotidiano (NAT-6-D3-E1).",
+              "Identifica símbolos químicos de sustancias comunes (NAT-6-D3-E2)."
+            ],
+            "un_refuerzo": "Hacer una lista de 5 coloides que se encuentren en la cocina y explicar por qué son mezclas heterogéneas especiales."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Industrias que Separan",
+            "un_reto_sugerido": "¿Cómo se aplica la separación de mezclas para producir gasolina, sal refinada o perfumes?",
+            "ruta_de_exploracion": {
+              "explorar": "Investigar cómo funciona una refinería de petróleo o una planta de tratamiento de agua potable.",
+              "visual": "Realizar una maqueta o diagrama de flujo que explique el proceso de destilación industrial o la filtración a gran escala.",
+              "produccion": "Identificar aplicaciones de diversos métodos de separación en las industrias de su región colombiana (minería, agricultura, alimentos)."
+            },
+            "para_pensar": [
+              "¿Qué impacto ambiental tendría si las industrias no separaran sus residuos antes de verterlos a los ríos?",
+              "¿Cómo ayuda la tecnología a que la sal que comemos sea pura y segura?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica aplicaciones industriales de los métodos de separación de mezclas.",
+              "Relaciona la ciencia de la separación con la producción de bienes de consumo."
+            ],
+            "un_refuerzo": "Visitar virtualmente una salina (como la de Zipaquirá o Manaure) para ver cómo se obtiene la sal del agua."
+          }
+        }
+      ]
+    }
+  ]
+}
