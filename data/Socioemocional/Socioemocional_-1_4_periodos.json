@@ -11,9 +11,9 @@
         "competencia": "Autonomía emocional",
         "eje_central": "Reconozco lo que siento",
         "Habilidades": [
-          "1. Identificación Emocional: Incluye Percepción. Nombra emociones básicas asociadas a sensaciones corporales",
-          "2. Expresión Emocional Básica: Comunica estados emocionales básicos de manera observable",
-          "3. Vínculo y Confianza: Establece interacciones seguras y de confianza con adultos y pares"
+          " Identificación Emocional: Incluye Percepción. Nombra emociones básicas asociadas a sensaciones corporales",
+          " Expresión Emocional Básica: Comunica estados emocionales básicos de manera observable",
+          " Vínculo y Confianza: Establece interacciones seguras y de confianza con adultos y pares"
         ],
         "evidencias_de_desempeno": [
           "Nombra alegría, tristeza o miedo ante actividades nuevas en clase",
@@ -29,9 +29,9 @@
         "competencia": "Regulación",
         "eje_central": "Me calmo y aprendo",
         "Habilidades": [
-          "1. Conciencia de la Necesidad: Identifica el momento en que requiere una pausa para calmarse",
-          "2. Aplicación de Estrategias: Aplica estrategias básicas (respiración, conteo) para autorregularse",
-          "3. Búsqueda de Apoyo: Solicita apoyo de un adulto ante la frustración o el malestar"
+          " Conciencia de la Necesidad: Identifica el momento en que requiere una pausa para calmarse",
+          " Aplicación de Estrategias: Aplica estrategias básicas (respiración, conteo) para autorregularse",
+          " Búsqueda de Apoyo: Solicita apoyo de un adulto ante la frustración o el malestar"
         ],
         "evidencias_de_desempeno": [
           "Respira profundo o cuenta hasta 5 ante enojo por tareas difíciles",
@@ -47,9 +47,9 @@
         "competencia": "Habilidades sociales",
         "eje_central": "Me relaciono con los demás",
         "Habilidades": [
-          "1. Colaboración y Reciprocidad: Comparte materiales y espacios durante actividades grupales",
-          "2. Regulación Social: Respeta los turnos de participación y espera de manera activa",
-          "3. Comunicación Respetuosa: Utiliza lenguaje y gestos respetuosos para solicitar objetos o ayuda"
+          " Colaboración y Reciprocidad: Comparte materiales y espacios durante actividades grupales",
+          " Regulación Social: Respeta los turnos de participación y espera de manera activa",
+          " Comunicación Respetuosa: Utiliza lenguaje y gestos respetuosos para solicitar objetos o ayuda"
         ],
         "evidencias_de_desempeno": [
           "Dice 'me siento enojado porque...' sin gritar ni empujar",
@@ -65,9 +65,9 @@
         "competencia": "Conciencia emocional",
         "eje_central": "Resuelvo pequeños problemas",
         "Habilidades": [
-          "1. Aproximación al Conflicto: Utiliza la comunicación verbal para expresar su desacuerdo o problema",
-          "2. Estrategias de Negociación: Propone soluciones sencillas como turnarse o compartir para resolver conflictos",
-          "3. Búsqueda de Mediación: Solicita la intervención de un adulto cuando el conflicto lo supera"
+          " Aproximación al Conflicto: Utiliza la comunicación verbal para expresar su desacuerdo o problema",
+          " Estrategias de Negociación: Propone soluciones sencillas como turnarse o compartir para resolver conflictos",
+          " Búsqueda de Mediación: Solicita la intervención de un adulto cuando el conflicto lo supera"
         ],
         "evidencias_de_desempeno": [
           "Nombra y regula miedo o enojo para participar en grupo",
@@ -78,3 +78,4 @@
     ]
   }
 }
+
