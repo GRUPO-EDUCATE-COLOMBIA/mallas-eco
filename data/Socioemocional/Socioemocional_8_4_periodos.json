@@ -11,9 +11,9 @@
         "competencia": "Habilidades para la vida",
         "eje_central": "Planteo mis metas",
         "Habilidades": [
-          "1. Definición de Metas: Establece metas personales y académicas a corto y mediano plazo",
-          "2. Planificación Estratégica: Diseña planes de acción con pasos concretos para alcanzar sus metas",
-          "3. Compromiso y Esfuerzo: Demuestra esfuerzo sostenido para lograr los propósitos definidos"
+          " Definición de Metas: Establece metas personales y académicas a corto y mediano plazo",
+          " Planificación Estratégica: Diseña planes de acción con pasos concretos para alcanzar sus metas",
+          " Compromiso y Esfuerzo: Demuestra esfuerzo sostenido para lograr los propósitos definidos"
         ],
         "evidencias_de_desempeno": [
           "Nombra una meta concreta para mejorar en clase o proyecto grupal",
@@ -29,9 +29,9 @@
         "competencia": "Autonomía emocional",
         "eje_central": "Me levanto cuando caigo",
         "Habilidades": [
-          "1. Persistencia ante el Fracaso: Mantiene el intento y la perseverancia a pesar de los errores",
-          "2. Aprendizaje y Reflexión: Analiza los errores y busca soluciones para mejorar el desempeño",
-          "3. Confianza en la Superación: Expresa la creencia en su capacidad para superar las dificultades"
+          " Persistencia ante el Fracaso: Mantiene el intento y la perseverancia a pesar de los errores",
+          " Aprendizaje y Reflexión: Analiza los errores y busca soluciones para mejorar el desempeño",
+          " Confianza en la Superación: Expresa la creencia en su capacidad para superar las dificultades"
         ],
         "evidencias_de_desempeno": [
           "Divide su meta en pasos pequeños con plazos definidos",
@@ -47,9 +47,9 @@
         "competencia": "Autonomía emocional",
         "eje_central": "Rompo el silencio",
         "Habilidades": [
-          "1. Identificación de Conductas de Riesgo: Reconoce situaciones de acoso o maltrato entre compañeros",
-          "2. Intervención Prosocial y Denuncia: Busca ayuda o denuncia activamente situaciones de acoso escolar",
-          "3. Defensa del Respeto y la Integridad: Defiende el respeto y la integridad de los compañeros vulnerables"
+          " Identificación de Conductas de Riesgo: Reconoce situaciones de acoso o maltrato entre compañeros",
+          " Intervención Prosocial y Denuncia: Busca ayuda o denuncia activamente situaciones de acoso escolar",
+          " Defensa del Respeto y la Integridad: Defiende el respeto y la integridad de los compañeros vulnerables"
         ],
         "evidencias_de_desempeno": [
           "Mantiene enfoque ante frustraciones durante tareas planificadas",
@@ -65,9 +65,9 @@
         "competencia": "Habilidades para la vida y el desarrollo integral",
         "eje_central": "Equilibrio en el mundo digital",
         "Habilidades": [
-          "1. Autorregulación del Tiempo Digital: Regula el tiempo dedicado a redes sociales y dispositivos digitales",
-          "2. Uso Responsable de la Tecnología: Demuestra responsabilidad al usar tecnología para fines académicos",
-          "3. Equilibrio entre Actividades: Prioriza actividades fuera de pantalla para un bienestar integral"
+          " Autorregulación del Tiempo Digital: Regula el tiempo dedicado a redes sociales y dispositivos digitales",
+          " Uso Responsable de la Tecnología: Demuestra responsabilidad al usar tecnología para fines académicos",
+          " Equilibrio entre Actividades: Prioriza actividades fuera de pantalla para un bienestar integral"
         ],
         "evidencias_de_desempeno": [
           "Evalúa avances de sus metas y propone mejoras autónomas",
@@ -78,3 +78,4 @@
     ]
   }
 }
+
