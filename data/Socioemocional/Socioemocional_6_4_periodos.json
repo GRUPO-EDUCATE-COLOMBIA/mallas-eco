@@ -11,9 +11,9 @@
         "competencia": "Conciencia emocional",
         "eje_central": "Descubro quien soy",
         "Habilidades": [
-          "1. Reconocimiento de Intereses y Preferencias: Identifica y nombra sus gustos, valores y preferencias personales",
-          "2. Identificación de Fortalezas Personales: Reconoce sus cualidades y fortalezas para construir su autoconcepto",
-          "3. Afirmación de la Identidad Única: Describe positivamente lo que lo hace único y diferente de los demás"
+          " Reconocimiento de Intereses y Preferencias: Identifica y nombra sus gustos, valores y preferencias personales",
+          " Identificación de Fortalezas Personales: Reconoce sus cualidades y fortalezas para construir su autoconcepto",
+          " Afirmación de la Identidad Única: Describe positivamente lo que lo hace único y diferente de los demás"
         ],
         "evidencias_de_desempeno": [
           "Reconoce cuando un compañero está triste por lenguaje corporal o tono",
@@ -29,9 +29,9 @@
         "competencia": "Cultura del autocuidado",
         "eje_central": "Convivo en la diversidad",
         "Habilidades": [
-          "1. Valoración de la Diversidad: Valora positivamente las diferencias de pensamiento y cultura",
-          "2. Escucha Activa y Tolerancia: Escucha atentamente y respeta las ideas distintas de sus pares",
-          "3. Conducta Respetuosa e Inclusiva: Interacta con respeto e inclusión, sin importar las características"
+          " Valoración de la Diversidad: Valora positivamente las diferencias de pensamiento y cultura",
+          " Escucha Activa y Tolerancia: Escucha atentamente y respeta las ideas distintas de sus pares",
+          " Conducta Respetuosa e Inclusiva: Interacta con respeto e inclusión, sin importar las características"
         ],
         "evidencias_de_desempeno": [
           "Dice 'veo que estás triste, ¿qué pasó?' a un compañero",
@@ -47,9 +47,9 @@
         "competencia": "Regulación emocional",
         "eje_central": "Me cuido en el mundo digital",
         "Habilidades": [
-          "1. Gestión de la Privacidad Digital: Protege su información personal en el uso de plataformas virtuales",
-          "2. Conducta Responsable en Redes: Reflexiona antes de publicar y evita el ciberacoso hacia otros",
-          "3. Búsqueda de Ayuda ante Riesgos: Identifica a quién acudir si experimenta acoso o molestias en línea"
+          " Gestión de la Privacidad Digital: Protege su información personal en el uso de plataformas virtuales",
+          " Conducta Responsable en Redes: Reflexiona antes de publicar y evita el ciberacoso hacia otros",
+          " Búsqueda de Ayuda ante Riesgos: Identifica a quién acudir si experimenta acoso o molestias en línea"
         ],
         "evidencias_de_desempeno": [
           "Escucha activamente sin interrumpir emociones compartidas",
@@ -65,9 +65,9 @@
         "competencia": "Habilidades sociales",
         "eje_central": "Elijo con valentía",
         "Habilidades": [
-          "1. Resistencia a la Presión de Grupo: Se niega a participar en conductas negativas por presión social",
-          "2. Autonomía en la Toma de Decisiones: Mantiene sus decisiones, aunque difieran de la opinión del grupo",
-          "3. Reflexión Ética de las Acciones: Evalúa las consecuencias antes de actuar bajo influencia externa"
+          " Resistencia a la Presión de Grupo: Se niega a participar en conductas negativas por presión social",
+          " Autonomía en la Toma de Decisiones: Mantiene sus decisiones, aunque difieran de la opinión del grupo",
+          " Reflexión Ética de las Acciones: Evalúa las consecuencias antes de actuar bajo influencia externa"
         ],
         "evidencias_de_desempeno": [
           "Ajusta su respuesta empática según el contexto escolar",
@@ -78,3 +78,4 @@
     ]
   }
 }
+
