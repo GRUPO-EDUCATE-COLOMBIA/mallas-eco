@@ -1,0 +1,279 @@
+{
+  "area": "Ciencias Naturales",
+  "grado": "5",
+  "nombre_archivo": "t_ciencias_5_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "La Ciudad de las Células",
+            "un_reto_sugerido": "¿Cómo se organizan los 'ladrillos' vivos de nuestro cuerpo para formar sistemas complejos?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar la estructura de una casa (ladrillos, paredes, habitaciones) y compararla mediante una analogía con la organización de los seres vivos (células, tejidos, órganos).",
+              "visual": "Modelar una célula y un tejido utilizando plastilina o materiales reciclados, destacando cómo muchas células iguales forman una capa de tejido con una función específica.",
+              "produccion": "Elaborar un diagrama jerárquico que explique los niveles de organización, desde la célula hasta el sistema, usando como ejemplo el sistema óseo o muscular."
+            },
+            "para_pensar": [
+              "¿Podría un órgano funcionar si sus células no estuvieran organizadas en tejidos?",
+              "¿Qué pasaría en una ciudad si todos los ciudadanos hicieran el mismo trabajo al mismo tiempo? ¿Cómo se relaciona esto con la especialización celular?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica la estructura jerárquica de células, tejidos y órganos (NAT-5-D3-E1).",
+              "Relaciona la forma de la célula con la función del tejido que conforma."
+            ],
+            "un_refuerzo": "Investigar qué tipos de células componen la sangre y por qué tienen formas tan diferentes (glóbulos rojos vs. glóbulos blancos)."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "El Camino de los Electrones",
+            "un_reto_sugerido": "¿Qué elementos se necesitan para que un bombillo encienda y cómo podemos representarlo?",
+            "ruta_de_exploracion": {
+              "explorar": "Desarmar con cuidado una linterna vieja para identificar la pila, el bombillo, los cables o láminas metálicas y el interruptor.",
+              "visual": "Construir un circuito simple usando una pila de 1.5V, un bombillo pequeño (led o de linterna) y dos trozos de cable de cobre, asegurando la conexión en ambos polos de la pila.",
+              "produccion": "Dibujar el esquema del circuito construido utilizando la simbología técnica estándar (círculo para el bombillo, líneas para cables, signos +/- para la pila)."
+            },
+            "para_pensar": [
+              "¿Por qué el bombillo no enciende si solo conectamos un polo de la pila?",
+              "¿Cómo fluye la energía por los cables para llegar al bombillo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante realiza circuitos eléctricos simples que funcionan con fuentes y dispositivos (NAT-5-D1-E1).",
+              "Representa correctamente los componentes del circuito mediante símbolos."
+            ],
+            "un_refuerzo": "Intentar encender dos bombillos con una sola pila y observar si la luz es igual de brillante."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Electricidad en cada Rincón",
+            "un_reto_sugerido": "¿Cómo ha cambiado la vida de las personas gracias al invento de los circuitos eléctricos?",
+            "ruta_de_exploracion": {
+              "explorar": "Hacer una lista de 10 aparatos en el hogar o la escuela que funcionen gracias a circuitos eléctricos y clasificarlos por su función (dar luz, calor, sonido o movimiento).",
+              "visual": "Realizar una entrevista a una persona mayor sobre cómo se realizaban las tareas domésticas (lavar, cocinar, iluminar) antes de que llegara la electricidad masivamente.",
+              "produccion": "Crear un cartel informativo sobre el uso seguro de la electricidad y las aplicaciones más importantes de los circuitos en el desarrollo tecnológico de la medicina."
+            },
+            "para_pensar": [
+              "¿Qué actividades de tu día a día serían imposibles de realizar sin electricidad?",
+              "¿Cómo ayuda la electricidad a que los hospitales puedan salvar más vidas?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica aplicaciones de los circuitos en la vida diaria.",
+              "Explica los efectos de la corriente eléctrica (calor, luz, movimiento) en dispositivos tecnológicos."
+            ],
+            "un_refuerzo": "Investigar qué es un cortocircuito y por qué es peligroso para la seguridad del hogar."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Defensores de la Salud",
+            "un_reto_sugerido": "¿Cómo podemos ayudar a nuestros sistemas corporales a funcionar de manera óptima?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar la etiqueta de su merienda escolar e identificar qué nutrientes aporta a los diferentes tejidos (músculos, huesos, cerebro).",
+              "visual": "Observar a través de una lupa o microscopio sencillo las diferencias entre una hoja de planta (tejido vegetal) y una muestra de tejido animal (como una delgada capa de carne).",
+              "produccion": "Elaborar un plan de hábitos saludables que incluya una rutina de ejercicio, higiene y alimentación, justificando cómo beneficia a cada sistema del cuerpo."
+            },
+            "para_pensar": [
+              "¿Por qué la falta de higiene puede afectar el funcionamiento de nuestro sistema inmune y nuestros órganos internos?",
+              "¿Cómo se relaciona lo que comes con la fuerza de tus músculos?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante relaciona el funcionamiento de los tejidos con las células que los poseen (NAT-5-D3-E2).",
+              "Propone hábitos de vida saludable basados en el cuidado de los sistemas del cuerpo."
+            ],
+            "un_refuerzo": "Crear un menú 'super-saludable' para un día completo, explicando qué órganos se benefician con cada ingrediente."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "El Detective de Circuitos",
+            "un_reto_sugerido": "¿Por qué un circuito puede dejar de funcionar y cómo podemos arreglarlo?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar circuitos que producen diferentes efectos (un ventilador pequeño para movimiento, una linterna para luz, un timbre para sonido).",
+              "visual": "Realizar un taller de 'falla y error': el docente entrega un circuito con una falla oculta (cable suelto, pila agotada, contacto sucio) y el estudiante debe identificarla y solucionarla.",
+              "produccion": "Escribir un 'Manual de soluciones rápidas' para circuitos, describiendo qué revisar cuando un bombillo no prende o un motor no gira."
+            },
+            "para_pensar": [
+              "¿Qué sucede con el calor de un bombillo si lo dejamos encendido por mucho tiempo?",
+              "¿Por qué es importante que las conexiones estén limpias y bien apretadas?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante identifica y soluciona dificultades en circuitos que no funcionan (NAT-5-D1-E2).",
+              "Describe los efectos de luz, calor, movimiento y sonido en los componentes (NAT-5-D1-E3)."
+            ],
+            "un_refuerzo": "Construir un interruptor casero usando un clip y dos chinches para controlar el paso de la luz."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Microbios: ¿Héroes o Villanos?",
+            "un_reto_sugerido": "¿Cómo interactúan los microorganismos con nuestro cuerpo y con la tecnología médica?",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar el experimento del 'lavado de manos con escarcha' (glitter) para observar cómo se propagan los gérmenes por contacto.",
+              "visual": "Investigar cómo se fabrican las vacunas o los antibióticos y cómo estos ayudan al sistema inmune a combatir microorganismos dañinos.",
+              "produccion": "Diseñar una infografía que explique el uso de microorganismos 'buenos' en la industria (yogur, pan) y cómo prevenir los 'malos' mediante la higiene."
+            },
+            "para_pensar": [
+              "¿Sería posible la vida si elimináramos a todos los microorganismos de la faz de la tierra?",
+              "¿Por qué es importante terminar los tratamientos médicos de antibióticos por completo?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante establece relaciones entre microorganismos y salud humana.",
+              "Identifica prácticas preventivas para evitar enfermedades infecciosas."
+            ],
+            "un_refuerzo": "Hacer un cultivo de bacterias casero usando gelatina sin sabor y caldo de carne para observar el crecimiento microbiano en diferentes superficies (celular, manos, monedas)."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "La Estación de Energía del Cuerpo",
+            "un_reto_sugerido": "¿Qué camino sigue una manzana desde que la muerdes hasta que se convierte en energía para tus células?",
+            "ruta_de_exploracion": {
+              "explorar": "Masticar un trozo de pan blanco durante un minuto sin tragarlo y notar cómo cambia su sabor y textura (acción de la saliva).",
+              "visual": "Simular el proceso del estómago usando una bolsa plástica con agua, galletas trituradas y un poco de jugo de limón para observar la descomposición mecánica y química.",
+              "produccion": "Representar el sistema digestivo mediante un modelo, explicando el papel de los dientes y los intestinos en la absorción de nutrientes."
+            },
+            "para_pensar": [
+              "¿Por qué los dientes de un león (carnívoro) son tan diferentes a los de una vaca (herbívoro)?",
+              "¿Cómo llegan los nutrientes desde el intestino hasta los dedos de mis pies?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica el camino de los alimentos y su transformación en nutrientes (NAT-5-D4-E1).",
+              "Relaciona los tipos de dentadura con el tipo de alimento que consumen los organismos (NAT-5-D4-E2)."
+            ],
+            "un_refuerzo": "Investigar cómo obtienen su alimento las plantas (seres autótrofos) y en qué se diferencia de los animales."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Puentes y Barreras Eléctricas",
+            "un_reto_sugerido": "¿Por qué los cables eléctricos están recubiertos de plástico y no de metal por fuera?",
+            "ruta_de_exploracion": {
+              "explorar": "Observar diferentes materiales en el salón (madera, metal, vidrio, plástico) y predecir cuáles dejarán pasar la electricidad.",
+              "visual": "Usar el circuito del Periodo 1 para probar diversos materiales entre los cables (una cuchara, un borrador, un clip, un lápiz) y observar si el bombillo enciende.",
+              "produccion": "Clasificar los materiales probados en un cuadro de 'Conductores' y 'Aislantes', explicando su utilidad en la fabricación de herramientas eléctricas."
+            },
+            "para_pensar": [
+              "¿Por qué los electricistas usan botas de caucho y herramientas con mango de plástico?",
+              "¿Qué pasaría si usáramos cables de lana en lugar de cobre para conectar un televisor?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante construye circuitos para establecer qué materiales son conductores (NAT-5-D2-E1).",
+              "Identifica aislantes y conductores en un conjunto de materiales dados (NAT-5-D2-E2)."
+            ],
+            "un_refuerzo": "Probar si el agua (sola y con sal) es conductora de la electricidad utilizando un circuito seguro de baja potencia."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Guardianes de mi Cuerpo",
+            "un_reto_sugerido": "¿Cómo afectan las sustancias nocivas el funcionamiento de los sistemas que acabamos de estudiar?",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar anuncios publicitarios sobre cigarrillos o alcohol e identificar las advertencias de salud que aparecen en letra pequeña.",
+              "visual": "Realizar el experimento de la 'botella fumadora' (usando una botella, un algodón y un cigarrillo bajo supervisión) para ver cómo queda el algodón (pulmones) tras el humo.",
+              "produccion": "Elaborar una lista de consecuencias del consumo de tabaco y alcohol sobre el sistema digestivo y circulatorio, proponiendo mensajes de prevención."
+            },
+            "para_pensar": [
+              "¿Por qué es difícil dejar de consumir estas sustancias una vez que se empieza? ¿Qué le pasa al sistema nervioso?",
+              "¿Cómo afecta el humo del tabaco a las personas que no fuman pero están cerca?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante reconoce efectos nocivos del tabaco y alcohol en el organismo.",
+              "Argumenta la importancia de mantenerse libre de adicciones para la salud de los órganos."
+            ],
+            "un_refuerzo": "Investigar qué es la cafeína y cómo afecta el ritmo del corazón y el sueño si se consume en exceso."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Entorno Vivo",
+          "guia_didactica": {
+            "la_estrategia": "Ritmo y Oxígeno",
+            "un_reto_sugerido": "¿Por qué nuestro corazón late más rápido cuando corremos y qué tiene que ver con nuestra respiración?",
+            "ruta_de_exploracion": {
+              "explorar": "Medir el pulso y la frecuencia respiratoria en reposo y luego después de hacer 30 sentadillas, registrando los datos en una tabla.",
+              "visual": "Construir un modelo de pulmón con una botella plástica, pitillos y globos para observar cómo entra y sale el aire (movimiento del diafragma).",
+              "produccion": "Explicar mediante un esquema cómo el oxígeno pasa de los pulmones a la sangre y por qué el corazón debe bombear más rápido cuando los músculos necesitan energía."
+            },
+            "para_pensar": [
+              "¿A dónde va el oxígeno una vez que entra en nuestra sangre?",
+              "¿Podría el sistema circulatorio funcionar sin el sistema respiratorio? ¿Por qué?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica el aumento de frecuencia cardíaca y respiratoria durante el ejercicio (NAT-5-D4-E3).",
+              "Relaciona el intercambio gaseoso pulmonar con la obtención de energía celular (NAT-5-D4-E4)."
+            ],
+            "un_refuerzo": "Investigar qué es el asma y cómo afecta el proceso de intercambio gaseoso en los alvéolos."
+          }
+        },
+        {
+          "componente": "Entorno Físico",
+          "guia_didactica": {
+            "la_estrategia": "Calor y Seguridad Eléctrica",
+            "un_reto_sugerido": "¿Por qué los aparatos eléctricos se calientan y cómo podemos usar esto a nuestro favor?",
+            "ruta_de_exploracion": {
+              "explorar": "Tocar el cargador de un celular o un juguete a pilas después de que haya funcionado por 15 minutos (bajo supervisión) para notar el cambio de temperatura.",
+              "visual": "Analizar la estructura de un cable de extensión: retirar con cuidado un trozo de aislante (plástico) para ver los hilos de cobre y discutir por qué se usan ambos materiales.",
+              "produccion": "Explicar por qué los materiales conductores suelen calentarse al paso de la corriente y dar ejemplos de aparatos donde este calor sea útil (plancha, sandwichera)."
+            },
+            "para_pensar": [
+              "¿Qué pasaría si los cables de las calles no tuvieran recubrimiento o estuvieran muy cerca de los árboles?",
+              "¿Por qué no debemos tocar los enchufes con las manos mojadas (recordando lo aprendido sobre el agua)?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante explica la elección de materiales para fabricar objetos eléctricos según su conductividad (NAT-5-D2-E3).",
+              "Verifica y atribuye el calentamiento de componentes al paso de la corriente eléctrica (NAT-5-D2-E4)."
+            ],
+            "un_refuerzo": "Investigar qué es un fusible y cómo protege a los electrodomésticos de calentamientos peligrosos."
+          }
+        },
+        {
+          "componente": "Ciencia, Tecnología y Sociedad",
+          "guia_didactica": {
+            "la_estrategia": "Mente Sana en Cuerpo Sano",
+            "un_reto_sugerido": "¿Cómo el deporte transforma no solo nuestros músculos, sino también nuestras emociones?",
+            "ruta_de_exploracion": {
+              "explorar": "Realizar una encuesta en el salón sobre cuál es el deporte favorito y cómo se sienten los estudiantes después de practicarlo.",
+              "visual": "Investigar sobre las endorfinas y cómo la actividad física ayuda a reducir el estrés y mejorar la memoria para el estudio.",
+              "produccion": "Diseñar una 'Semana del Bienestar' escolar que incluya juegos, hidratación y descanso, promoviendo la salud física y mental."
+            },
+            "para_pensar": [
+              "¿Es el deporte solo para competir o tiene otros beneficios para la convivencia social?",
+              "¿Cómo ayuda el ejercicio a que nuestro cerebro aprenda mejor las matemáticas o las ciencias?"
+            ],
+            "pistas_del_exito": [
+              "El estudiante establece relaciones entre el deporte y la salud física y mental.",
+              "Propone actividades físicas integradoras para su comunidad escolar."
+            ],
+            "un_refuerzo": "Crear un video corto o un mural animando a los compañeros a dejar el sedentarismo y los videojuegos por una hora de juego al aire libre."
+          }
+        }
+      ]
+    }
+  ]
+}
