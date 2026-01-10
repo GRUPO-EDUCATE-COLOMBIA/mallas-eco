@@ -11,7 +11,7 @@
           "guia_didactica": {
             "la_estrategia": "El Laboratorio de las Mezclas y Precios",
             "un_reto_sugerido": "Descubrir la relación entre el peso de un producto y su precio: si 1/2 kilo de queso cuesta $5000, ¿cuánto cuestan 2 kilos?",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Usar jarras medidoras y vasos para repartir líquidos en partes iguales (1/2, 1/4) y notar cuánto falta para completar la unidad.",
               "visual": "Crear tablas de doble entrada donde se registre la cantidad de vasos vs. la cantidad de jugo total para observar cómo aumentan juntas.",
               "produccion": "Representar mediante una gráfica de puntos la relación entre dos variables (ej. tiempo de llenado vs. altura del agua)."
@@ -32,7 +32,7 @@
           "guia_didactica": {
             "la_estrategia": "Ingenieros de la Construcción Sólida",
             "un_reto_sugerido": "Construir un sólido (prisma o pirámide) usando palillos y plastilina, y luego predecir cuántos vasos de arena se necesitan para llenarlo.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Desarmar cajas de diferentes productos para analizar su 'plantilla' o desarrollo plano.",
               "visual": "Dibujar las vistas (frente, arriba, lado) de una construcción hecha con cubos.",
               "produccion": "Clasificar objetos del salón según si su atributo principal a medir es el peso, la capacidad o el volumen."
@@ -53,7 +53,7 @@
           "guia_didactica": {
             "la_estrategia": "Censores Escolares",
             "un_reto_sugerido": "Diseñar una encuesta para saber qué deporte prefieren los niños y las niñas por separado, y organizar los datos en una tabla de doble entrada.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Recolectar datos reales del salón (ej. color de ojos vs. género).",
               "visual": "Construir gráficos de barras agrupadas donde se comparen dos categorías simultáneamente.",
               "produccion": "Escribir un breve informe sobre cuál es la tendencia más marcada en el grupo analizado."
@@ -79,7 +79,7 @@
           "guia_didactica": {
             "la_estrategia": "El Mercado de las Equivalencias",
             "un_reto_sugerido": "Demostrar que recibir 5/10 de una pizza es exactamente lo mismo que recibir 0,5 o 1/2 de la misma pizza.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Usar tiras de fracciones de colores para superponerlas y encontrar cuáles ocupan el mismo espacio (equivalencia).",
               "visual": "Representar en la recta numérica la posición de fracciones con denominador 10 y 100 y su salto a decimales.",
               "produccion": "Resolver problemas de suma de decimales (ej. precios con centavos) justificando el porqué de la alineación de la coma."
@@ -100,7 +100,7 @@
           "guia_didactica": {
             "la_estrategia": "Pilotos de Navegación Geométrica",
             "un_reto_sugerido": "Dibujar el plano de un parque y mostrar cómo un columpio se 'traslada' o cómo un espejo 'refleja' una figura.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Caminar siguiendo trayectorias: '3 pasos norte, giro 90 grados a la derecha'.",
               "visual": "Usar papel cebolla para calcar una figura y moverla sobre un eje (simetría) o un punto (giro).",
               "produccion": "Estimar el área del salón de clases usando metros cuadrados y luego verificar con una cinta métrica."
@@ -121,7 +121,7 @@
           "guia_didactica": {
             "la_estrategia": "Analistas de Tendencias",
             "un_reto_sugerido": "Observar un pictograma con escala y explicar cuántos elementos representa un dibujo si la escala es 1:20.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Contar objetos en grandes cantidades y decidir qué símbolo usar para que un solo dibujo represente 10 o 50 objetos.",
               "visual": "Comparar un gráfico de barras con un gráfico de puntos sobre la misma información.",
               "produccion": "Responder preguntas de análisis: '¿Cuál es la diferencia entre el dato que más se repite y el que menos?'."
@@ -147,7 +147,7 @@
           "guia_didactica": {
             "la_estrategia": "El Gran Calculador de Repartos",
             "un_reto_sugerido": "Repartir 7 chocolates entre 3 niños de modo que todos reciban lo mismo, expresando el resultado como fracción y como decimal aproximado.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Modelar divisiones de números naturales donde el residuo debe seguirse repartiendo (introducción al decimal).",
               "visual": "Dibujar 'pasteles' fraccionarios para representar multiplicaciones de una fracción por un entero (ej. 3 veces 1/4).",
               "produccion": "Justificar el uso de propiedades (conmutativa, asociativa) para facilitar el cálculo mental con fracciones."
@@ -168,7 +168,7 @@
           "guia_didactica": {
             "la_estrategia": "Detectives de Aristas y Ángulos",
             "un_reto_sugerido": "Encontrar en el salón objetos que tengan líneas perpendiculares y medir los ángulos que forman.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Usar escuadras y transportadores para identificar ángulos rectos, agudos y obtusos en objetos reales.",
               "visual": "Identificar en un mapa vial calles paralelas y perpendiculares.",
               "produccion": "Medir el área de figuras irregulares descomponiéndolas en rectángulos y triángulos más pequeños."
@@ -189,7 +189,7 @@
           "guia_didactica": {
             "la_estrategia": "El Club de la Probabilidad",
             "un_reto_sugerido": "Decidir si es 'Más posible' o 'Igualmente posible' sacar una media roja de un cajón con 5 rojas y 5 azules.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Realizar experimentos con dados y monedas, registrando los resultados en tablas.",
               "visual": "Clasificar eventos cotidianos en una línea de probabilidad: Imposible -> Seguro.",
               "produccion": "Explicar por qué un resultado es incierto aunque se repita muchas veces."
@@ -215,7 +215,7 @@
           "guia_didactica": {
             "la_estrategia": "Maestros del Orden y la Proporción",
             "un_reto_sugerido": "Ordenar una lista de precios de menor a mayor donde hay números como $1.50, $1.05 y $1.55.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Comparar colecciones de objetos y usar fracciones para decir 'en este grupo 3 de cada 5 son rojos'.",
               "visual": "Construir gráficas de barras para representar situaciones de variación proporcional (ej. a más camisas, más botones).",
               "produccion": "Simplificar cálculos complejos usando fracciones equivalentes (ej. sumar 2/4 es igual a sumar 1/2)."
@@ -236,7 +236,7 @@
           "guia_didactica": {
             "la_estrategia": "Arquitectos de Empaque y Diseño",
             "un_reto_sugerido": "Calcular cuántas cajas de jugo de 200ml caben en una nevera de 10 litros.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Llenar una caja grande con cubos pequeños para entender el concepto de volumen por conteo.",
               "visual": "Dibujar figuras simétricas completando la mitad que falta en un plano cuadriculado.",
               "produccion": "Realizar una estimación de cuánta agua gasta una persona al bañarse y proponer unidades para medirlo."
@@ -257,7 +257,7 @@
           "guia_didactica": {
             "la_estrategia": "El Pronosticador Matemático",
             "un_reto_sugerido": "Predecir cuántas veces saldrá el número 6 si lanzamos un dado 60 veces, basándose en la probabilidad.",
-            "ruta_de_exploration": {
+            "ruta_de_exploracion": {
               "explorar": "Realizar sorteos en el salón y comparar el resultado esperado con el obtenido.",
               "visual": "Usar escalas cualitativas para calificar la probabilidad de eventos climáticos o sociales.",
               "produccion": "Argumentar por qué un juego de azar es o no es 'justo' basándose en las posibilidades de ganar."
@@ -276,4 +276,5 @@
       ]
     }
   ]
+
 }
