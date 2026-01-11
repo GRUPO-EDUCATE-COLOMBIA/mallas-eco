@@ -1,0 +1,225 @@
+{
+  "area": "Lenguaje",
+  "grado": "1",
+  "nombre_archivo": "t_lenguaje_1_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "El Museo de las Palabras Vivas",
+            "un_reto_sugerido": "Presentar oralmente un objeto especial frente a tus compañeros, usando su nombre (sustantivo) y mencionando con qué letra del abecedario comienza.",
+            "ruta_de_exploracion": {
+              "explorar": "Jugar a 'Veo-Veo' en el salón para identificar objetos y decir sus nombres en voz alta, enfatizando el sonido inicial.",
+              "visual": "Crear una ficha del objeto con un dibujo grande y escribir su nombre usando el artículo correcto (El/La).",
+              "produccion": "Realizar una exposición corta ('Show and Tell') donde el estudiante describa su objeto de forma coherente y organizada."
+            },
+            "para_pensar": [
+              "¿Por qué es importante que todos usemos el mismo nombre para las cosas?",
+              "¿Qué pasaría si habláramos sin usar nombres o sustantivos?"
+            ],
+            "pistas_del_exito": [
+              "El niño identifica la letra inicial de los objetos.",
+              "El niño usa artículos (el, la, los, las) correctamente al hablar.",
+              "El niño organiza sus ideas con un inicio, desarrollo y cierre al hablar."
+            ],
+            "un_refuerzo": "Utilizar tarjetas de abecedario físico para armar nombres de objetos del salón en parejas."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Detectives de Portadas",
+            "un_reto_sugerido": "Predecir la historia de un libro misterioso analizando únicamente su título y sus ilustraciones antes de leerlo.",
+            "ruta_de_exploracion": {
+              "explorar": "Observar diferentes portadas de cuentos y jugar a adivinar de qué tratan basándose en los colores y personajes.",
+              "visual": "Dibujar en el cuaderno lo que creen que pasará en el nudo de la historia a partir de una imagen del libro.",
+              "produccion": "Comparar sus predicciones iniciales con el contenido real del texto después de la lectura en voz alta por parte del docente."
+            },
+            "para_pensar": [
+              "¿Para qué sirven los dibujos en los libros que aún no sabemos leer por completo?",
+              "¿Cómo cambia el significado de una palabra si le cambiamos una sola letra (ej: Pato por Gato)?"
+            ],
+            "pistas_del_exito": [
+              "El niño relaciona el título con el contenido de la imagen.",
+              "El niño identifica palabras nuevas y pregunta su significado.",
+              "El niño nota cambios de significado al cambiar vocales o consonantes."
+            ],
+            "un_refuerzo": "Juego de 'Cambia la letra': Usar letras móviles para transformar palabras sencillas (Masa -> Mesa)."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "El Semáforo de los Gestos",
+            "un_reto_sugerido": "Comunicar un mensaje a los compañeros sin usar palabras, solo mediante gestos y movimientos corporales.",
+            "ruta_de_exploracion": {
+              "explorar": "Ver fragmentos de una película muda o dibujos animados sin sonido para identificar qué sienten los personajes por sus rostros.",
+              "visual": "Recortar de revistas o periódicos imágenes de anuncios publicitarios y clasificarlos por colores o intención.",
+              "produccion": "Jugar a las 'Mímicas' donde deben representar acciones cotidianas para que otros las adivinen."
+            },
+            "para_pensar": [
+              "¿Podemos entendernos sin hablar? ¿Cómo?",
+              "¿Qué señales o dibujos en la calle nos dicen qué hacer sin usar letras?"
+            ],
+            "pistas_del_exito": [
+              "El niño diferencia entre un mensaje gestual de alegría, tristeza o enojo.",
+              "El niño reconoce elementos visuales en un afiche o valla publicitaria.",
+              "El niño explica qué quiere decir un gesto de un compañero."
+            ],
+            "un_refuerzo": "Crear un mural de 'Emoticones Gigantes' dibujados por los niños para expresar sus emociones diarias."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "El Espejo de las Palabras",
+            "un_reto_sugerido": "Escribir un autorretrato corto describiendo rasgos físicos y cualidades usando diminutivos y aumentativos cariñosos.",
+            "ruta_de_exploracion": {
+              "explorar": "Mirarse en un espejo y decir una característica propia; luego buscar un sinónimo (ej: grande - enorme).",
+              "visual": "Dibujar su propio rostro en el centro de una hoja y rodearlo con palabras que los describan (adjetivos).",
+              "produccion": "Escribir un párrafo corto de presentación: 'Yo soy... y tengo unos ojitos...'"
+            },
+            "para_pensar": [
+              "¿Por qué usamos diminutivos cuando queremos expresar cariño?",
+              "¿En qué parte de la biblioteca buscarías información sobre cómo cuidar tu cuerpo?"
+            ],
+            "pistas_del_exito": [
+              "El niño utiliza sinónimos sencillos en sus descripciones.",
+              "El niño emplea correctamente diminutivos (ito/ita) y aumentativos (ote/ota).",
+              "El niño identifica la función del diccionario para buscar palabras desconocidas."
+            ],
+            "un_refuerzo": "Visita guiada a la biblioteca escolar para identificar dónde están los libros de cuentos y los diccionarios."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "El Teatro de los Sueños",
+            "un_reto_sugerido": "Representar una escena corta de un cuento conocido cambiando el final de la historia.",
+            "ruta_de_exploracion": {
+              "explorar": "Escuchar poemas y coplas, identificando el ritmo y las rimas mediante aplausos.",
+              "visual": "Hacer máscaras de papel de los personajes principales de la obra de teatro o cuento.",
+              "produccion": "Realizar una dramatización grupal donde expresen las emociones de los personajes."
+            },
+            "para_pensar": [
+              "¿Qué personaje de los que leímos se parece más a alguien que conoces en tu vida real?",
+              "¿Cómo te sentirías tú si fueras el protagonista de esta historia?"
+            ],
+            "pistas_del_exito": [
+              "El niño relaciona las acciones de los personajes con sus propias experiencias.",
+              "El niño distingue entre un poema (ritmo) y un cuento (narración).",
+              "El niño infiere estados de ánimo a partir de las ilustraciones de la obra."
+            ],
+            "un_refuerzo": "Escuchar audiolibros o canciones infantiles narrativas para fortalecer la comprensión auditiva."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "Inspectores de Objetos Perdidos",
+            "un_reto_sugerido": "Escribir una ficha descriptiva detallada de un objeto 'perdido' en el salón para que otros puedan encontrarlo.",
+            "ruta_de_exploracion": {
+              "explorar": "Tocar objetos dentro de una caja oscura y describir su textura, forma y tamaño sin verlos.",
+              "visual": "Organizar una secuencia de 3 dibujos (antes, durante y después) sobre cómo se usa ese objeto.",
+              "produccion": "Redactar el texto descriptivo siguiendo un plan: ¿Qué es?, ¿Cómo es?, ¿Para qué sirve?"
+            },
+            "para_pensar": [
+              "¿Qué pasaría si en una descripción olvidamos decir de qué color es el objeto?",
+              "¿Por qué es importante seguir un orden al contar cómo sucedió algo?"
+            ],
+            "pistas_del_exito": [
+              "El niño mantiene una secuencia lógica en su relato.",
+              "El niño utiliza un vocabulario variado para describir características físicas.",
+              "El niño sigue un plan textual previo antes de escribir la versión final."
+            ],
+            "un_refuerzo": "Juego de 'Adivina qué es': Un niño describe y los demás dibujan lo que escuchan."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "El Correo de la Amistad",
+            "un_reto_sugerido": "Leer y responder una tarjeta de invitación o una carta breve recibida de un compañero.",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar diferentes tipos de textos reales: un recibo, una carta, un volante y un periódico escolar.",
+              "visual": "Señalar en un afiche dónde está la fecha, el lugar y la imagen principal.",
+              "produccion": "Crear una tarjeta de felicitación para un familiar usando palabras sencillas y dibujos coherentes."
+            },
+            "para_pensar": [
+              "¿Para qué sirve un manual de instrucciones en un juego nuevo?",
+              "¿Qué información es la más importante en una tarjeta de cumpleaños?"
+            ],
+            "pistas_del_exito": [
+              "El niño identifica la función de textos cotidianos (invitar, informar, pedir).",
+              "El niño relaciona la imagen del afiche con el mensaje escrito.",
+              "El niño reconoce palabras sencillas de uso frecuente en los textos leídos."
+            ],
+            "un_refuerzo": "Crear un buzón en el aula para intercambiar mensajes cortos y dibujos entre los estudiantes."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "Pequeños Autores de Recetas",
+            "un_reto_sugerido": "Escribir un texto instructivo sencillo (paso a paso) para armar un juguete de papel o preparar un refrigerio.",
+            "ruta_de_exploracion": {
+              "explorar": "Seguir instrucciones orales divertidas (como 'Simón dice') para entender la importancia del orden.",
+              "visual": "Hacer un esquema de 'pasos' usando números (1, 2, 3) y dibujos de cada acción.",
+              "produccion": "Escribir la versión final de su instructivo y probar si un compañero puede seguirlo."
+            },
+            "para_pensar": [
+              "¿Qué sucede si nos saltamos el paso 1 de una instrucción?",
+              "¿Cómo ayudan los dibujos a entender mejor una receta de cocina?"
+            ],
+            "pistas_del_exito": [
+              "El niño redacta instrucciones breves y claras.",
+              "El niño utiliza conectores de orden (primero, luego, finalmente).",
+              "El niño revisa su escrito para corregir letras o palabras mal escritas."
+            ],
+            "un_refuerzo": "Armar un rompecabezas siguiendo instrucciones gráficas paso a paso."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "El Festival de los Cuentacuentos",
+            "un_reto_sugerido": "Participar en un recital grupal donde elijas entre declamar un poema, contar una fábula o cantar una canción.",
+            "ruta_de_exploracion": {
+              "explorar": "Escuchar diferentes géneros literarios (mitos, leyendas, poemas) y elegir el que más les guste.",
+              "visual": "Crear un pequeño libro acordeón donde se diferencie gráficamente un poema de un cuento.",
+              "produccion": "Presentación final frente al grupo usando entonación y gestos adecuados al tipo de texto."
+            },
+            "para_pensar": [
+              "¿En qué se diferencia la forma de escribir un poema a la de un cuento?",
+              "¿Qué aprendiste de la moraleja de la fábula que escuchamos hoy?"
+            ],
+            "pistas_del_exito": [
+              "El niño identifica diferencias visuales entre un poema y una narración.",
+              "El niño participa con entusiasmo en actividades lúdicas de lenguaje (canto, declamación).",
+              "El niño reconoce la intención creativa de los textos literarios."
+            ],
+            "un_refuerzo": "Invitar a un abuelo o padre de familia para que cuente una leyenda local al grupo."
+          }
+        }
+      ]
+    }
+  ]
+}
