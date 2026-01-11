@@ -1,0 +1,269 @@
+{
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
+  "grado": "2",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Identifico y describo las características de un paisaje natural y de un paisaje cultural."],
+        "dba": ["Reconoce los puntos cardinales y los usa para orientarse en el desplazamiento de un lugar a otro."],
+        "evidencias": [
+          "Establece relaciones entre el espacio físico del salón de clases y otros espacios que hacen parte de la Institución Educativa a través de dibujos, gráficos o planos, utilizando los puntos cardinales.",
+          "Traza las rutas seguidas por algunos de sus compañeros de clase para llegar a la escuela y las representa en un dibujo.",
+          "Mide distancias reales entre varios lugares, con pasos y otras medidas que pueden inventarse en el grupo, identificando la distancia -cerca o lejos- entre dichos lugares.",
+          "Da orientaciones espaciales verbalmente o de otras formas para llegar a un lugar específico, utilizando expresiones de lateralidad (izquierda, derecha, adelante, atrás) y los puntos cardinales."
+        ],
+        "saberes": ["Paisaje natural", "Paisaje cultural", "Puntos cardinales", "Ruta a la escuela", "Los croquis", "Medición de distancias", "Orientaciones espaciales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Identifico y describo algunos elementos que permiten reconocerme como miembro de un grupo regional y de una nación (territorio, lenguas, costumbres, símbolos patrios…)."],
+        "dba": ["Comprende la importancia de las fuentes históricas para la construcción de la memoria individual, familiar y colectiva."],
+        "evidencias": [
+          "Describe las características de la conformación de su familia antes de su nacimiento.",
+          "Reconoce las procedencias y los recorridos de los integrantes de su núcleo familiar antes de llegar al municipio donde viven actualmente, a través de relatos."
+        ],
+        "saberes": ["Mi familia", "Mi origen", "Identidad personal", "Procedencia familiar"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Comparo las formas de organización propias de los grupos pequeños (familia, salón de clase, colegio…) con las de los grupos más grandes (resguardo, territorios afrocolombianos, municipio…)."],
+        "dba": ["Analiza las actividades económicas de su entorno y el impacto de estas en la comunidad"],
+        "evidencias": [
+          "Identifica los trabajos u oficios que las personas de su comunidad realizan para obtener su sustento y el de la familia.",
+          "Describe las actividades económicas que realizan los adultos en su hogar y los beneficios que éstas traen para todos los integrantes de la familia."
+        ],
+        "saberes": ["Formas de organización social", "Actividades económicas de la comunidad", "Economía familiar"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Participación y responsabilidad democrática"],
+        "dba": [
+          "Manifiesto desagrado cuando a mí o a alguien del salón no nos escuchan o no nos toman en cuenta y lo expreso... sin agredir. (4)",
+          "Comprendo qué es una norma y qué es un acuerdo. (5)"
+        ],
+        "evidencias": [
+          "Expresa sus inconformidades de manera asertiva y sin recurrir a la violencia.",
+          "Reconoce el valor de la escucha activa para la convivencia en el aula.",
+          "Diferencia entre una norma establecida y un acuerdo grupal participativo."
+        ],
+        "saberes": ["Valor de escuchar y expresar", "Normas", "Acuerdos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Establezco relaciones entre los accidentes geográficos y su representación gráfica."],
+        "dba": ["Comprende que el paisaje que vemos es resultado de las acciones humanas que se realizan en un espacio geográfico y que, por esta razón, dicho paisaje cambia."],
+        "evidencias": [
+          "Traza las formas básicas del paisaje de su municipio a través de dibujos y la elaboración de maquetas con materiales reutilizables.",
+          "Explica los cambios que se han realizado en el paisaje del municipio debido a cultivos, construcciones, carreteras y parques.",
+          "Identifica las formas del relieve terrestre (montaña, valle, llanura, meseta e islas) en su localidad.",
+          "Expresa apreciaciones sobre paisajes observados en diferentes medios impresos y digitales."
+        ],
+        "saberes": ["Accidentes geográficos", "Representación gráfica", "Maquetas", "Relieve colombiano", "Cambios en el paisaje", "Lugares turísticos", "Taller de fotografía"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Reconozco en mi entorno cercano las huellas que dejaron las comunidades que lo ocuparon en el pasado (monumentos, museos, sitios de conservación histórica…)."],
+        "dba": ["Comprende la importancia de las fuentes históricas para la construcción de la memoria individual, familiar y colectiva."],
+        "evidencias": [
+          "Establece secuencias de datos históricos personales y familiares mediante el registro civil.",
+          "Elabora un árbol genealógico identificando orígenes de sus antepasados.",
+          "Indaga por las razones de los desplazamientos de la población en su comunidad."
+        ],
+        "saberes": ["Memoria histórica", "Fuentes de información", "Secuencia de datos", "Árbol genealógico"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Reconozco en mi entorno cercano las huellas que dejaron las comunidades que lo ocuparon en el pasado (monumentos, museos, sitios de conservación histórica…)."],
+        "dba": ["Analiza las actividades económicas de su entorno y el impacto de estas en la comunidad."],
+        "evidencias": [
+          "Compara los oficios que los abuelos realizaban anteriormente con la forma en que se realizan hoy.",
+          "Diferencia los trabajos característicos de las zonas urbanas y rurales.",
+          "Reconoce y rechaza situaciones de explotación laboral infantil."
+        ],
+        "saberes": ["Huellas del pasado", "Trabajos antiguos y actuales", "Diferencia urbano-rural", "Rechazo a la explotación infantil"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Reconozco que las acciones se relacionan con las emociones y que puedo aprender a manejar mis emociones para no hacer daño a otras personas. (4)",
+          "Comprendo que mis acciones pueden afectar a la gente cercana y que las acciones de la gente cercana pueden afectarme a mí. (5)",
+          "Comprendo que nada justifica el maltrato de niñas y niños y que todo maltrato se puede evitar. (6)"
+        ],
+        "evidencias": [
+          "Identifica la relación entre sus emociones y su comportamiento con los demás.",
+          "Describe las consecuencias de sus actos en las personas que le rodean.",
+          "Argumenta por qué el maltrato infantil es inaceptable y cómo prevenirlo."
+        ],
+        "saberes": ["Manejo de emociones", "Responsabilidades y afectaciones humanas", "Prevención del maltrato infantil"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Establezco relaciones entre paisajes naturales y paisajes culturales."],
+        "dba": ["Compara las características de las viviendas de su municipio, vereda o lugar donde vive con las de otros lugares."],
+        "evidencias": [
+          "Reconoce características de las viviendas rurales y urbanas a partir de sus materiales de construcción.",
+          "Describe y diferencia características de las viviendas de los grupos étnicos mediante imágenes.",
+          "Identifica cambios temporales en las estructuras de las viviendas.",
+          "Analiza ventajas y desventajas de vivir en zonas urbanas o rurales."
+        ],
+        "saberes": ["Paisajes naturales", "Paisajes culturales", "Vivienda rural", "Vivienda urbana", "Vivienda en el tiempo"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Reconozco situaciones de discriminación y abuso por irrespeto a los rasgos individuales de las personas y propongo formas de cambiarlas."],
+        "dba": ["Reconoce y rechaza situaciones de exclusión o discriminación en su familia, entre sus amigos y en los compañeros del salón de clase."],
+        "evidencias": [
+          "Describe diversas características de los grupos humanos (etnia, edad, religión, género) en su entorno escolar.",
+          "Propone acciones para mejorar la convivencia y el respeto a la diferencia en el grupo.",
+          "Establece semejanzas y diferencias en las preferencias culturales (alimentos, juegos) de sus compañeros."
+        ],
+        "saberes": ["Características de grupos humanos", "Exclusión", "Discriminación", "Inmigrantes y tradiciones"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico y describo algunos elementos que permiten reconocerme como miembro de un grupo regional y de una nación."],
+        "dba": ["Reconoce la organización territorial en su municipio, desde: comunas, corregimientos, veredas, localidades y territorios indígenas."],
+        "evidencias": [
+          "Identifica el croquis de su municipio y lo diferencia de otros en el departamento.",
+          "Ubica en el mapa su comuna, corregimiento o localidad utilizando los puntos cardinales."
+        ],
+        "saberes": ["Identidad regional", "Miembro de una comunidad", "Organización territorial municipal", "Ubicación espacial"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Pluralidad, identidad y valoración de las diferencias"],
+        "dba": [
+          "Valoro las semejanzas y diferencias de gente cercana. (¿Qué tal si me detengo a escuchar sus historias de vida?) (3)",
+          "Identifico las ocasiones en que mis amigos/as o yo hemos hecho sentir mal a alguien excluyéndolo o burlándonos. (4)"
+        ],
+        "evidencias": [
+          "Muestra respeto e interés por las historias de vida de las personas de su entorno.",
+          "Identifica comportamientos excluyentes en su grupo de amigos y propone cambios.",
+          "Participa en actividades de sensibilización contra la discriminación."
+        ],
+        "saberes": ["Semejanzas y diferencias", "Campaña contra la discriminación"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Identifico formas de medir el tiempo (horas, días, años...) y las relaciono con las actividades de las personas."],
+        "dba": ["Explica cambios y continuidades en los medios empleados por las personas para transportarse en su municipio, vereda o lugar donde vive."],
+        "evidencias": [
+          "Diferencia los cambios vividos en los medios de transporte a partir de relatos familiares.",
+          "Clasifica medios de transporte según su uso y medio (terrestre, acuático, aéreo).",
+          "Describe el transporte que más utiliza exponiendo sus ventajas y desventajas.",
+          "Representa gráficamente la movilidad en su comunidad."
+        ],
+        "saberes": ["Medición del tiempo", "Medios de transporte (pasado y presente)", "Movilidad urbana y rural"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Reconozco situaciones de discriminación y abuso por irrespeto a los rasgos individuales y propongo formas de cambiarlas."],
+        "dba": ["Reconoce y rechaza situaciones de exclusión o discriminación en su familia, entre sus amigos y en los compañeros del salón de clase."],
+        "evidencias": [
+          "Expresa sentimientos al sentirse incluido o excluido en actividades escolares.",
+          "Identifica acciones discriminatorias en su entorno y sabe a quién acudir por ayuda."
+        ],
+        "saberes": ["Proyecto de aula contra la discriminación", "Prevención de la exclusión", "Rutas de apoyo y protección"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Reconoce y valora aspectos de las organizaciones sociales y políticas de mi entorno que promueven el desarrollo individual y comunitario."],
+        "dba": ["Reconoce la organización territorial en su municipio, desde: comunas, corregimientos, veredas, localidades y territorios indígenas."],
+        "evidencias": [
+          "Nombra y ubica topónimos geográficos en su municipio.",
+          "Diferencia la organización de grupos pequeños (familia, aula) frente a grupos grandes (municipio, resguardo)."
+        ],
+        "saberes": ["Topónimos", "Diferencia entre grupos sociales", "Organización política y administrativa"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Identifico las situaciones de maltrato que se dan en mi entorno y sé a quiénes acudir. (7)",
+          "Puedo diferenciar las expresiones verdaderas de cariño de aquellas que pueden maltratarme. (8)",
+          "Hago cosas que ayuden a aliviar el malestar de personas cercanas. (9)"
+        ],
+        "evidencias": [
+          "Señala rutas de ayuda ante situaciones de maltrato personal o de terceros.",
+          "Establece límites claros respecto a su integridad física y afectiva.",
+          "Demuestra empatía mediante acciones concretas para ayudar a otros."
+        ],
+        "saberes": ["Maltrato y protección", "Manifestaciones de afecto vs maltrato", "Preocupación por los demás"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

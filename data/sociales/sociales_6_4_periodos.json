@@ -1,0 +1,296 @@
+{
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
+  "grado": "6",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": [
+          "Establezco relaciones entre la ubicación geoespacial y las características climáticas del entorno de diferentes culturas.",
+          "Reconozco características de la Tierra que la hacen un planeta vivo."
+        ],
+        "dba": ["Comprende que existen diversas explicaciones y teorías sobre el origen del universo en nuestra búsqueda por entender que hacemos parte de un mundo más amplio. (1)"],
+        "evidencias": [
+          "Interpreta diferentes teorías científicas sobre el origen del universo (Big Bang, inflacionaria, universos paralelos/multiversos), que le permiten reconocer cómo surgimos, cuándo y por qué.",
+          "Explica los elementos que componen nuestro sistema solar: planetas, estrellas, asteroides, cometas y su relación con la vida en la Tierra.",
+          "Compara teorías científicas, religiosas y mitos de culturas ancestrales sobre el origen del universo.",
+          "Expresa la importancia de explorar el universo como una posibilidad para entender el origen y el cambio de las formas de vida en la Tierra."
+        ],
+        "saberes": ["Teorías sobre el origen del universo", "Del mito a la cosmología", "Ubicación geoespacial", "Características climáticas", "Sistema solar", "El universo", "Formas de vida en la Tierra"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Reconozco que la división entre un período histórico y otro es un intento por caracterizar los hechos históricos a partir de marcadas transformaciones sociales."],
+        "dba": ["Analiza los aspectos centrales del proceso de hominización y del desarrollo tecnológico dados durante la prehistoria, para explicar las transformaciones del entorno. (3)"],
+        "evidencias": [
+          "Diferencia las características fisiológicas y anatómicas presentes en los australopithecus, homo habilis, homo erectus, homo neanderthalensis y homo sapiens sapiens, reconociendo los factores que incidieron en estos cambios.",
+          "Identifica los cambios tecnológicos que tuvieron los homínidos (piedras talladas, huesos, conchas) así como las repercusiones en su vida y en el entorno."
+        ],
+        "saberes": ["La prehistoria y la historia", "Etapas de la historia", "Cronología", "Proceso de hominización", "Teoría de Darwin"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico las ideas que legitimaban el sistema político y el sistema jurídico en algunas de las culturas estudiadas."],
+        "dba": ["Analiza las distintas formas de gobierno ejercidas en la antigüedad y las compara con el ejercicio del poder político en el mundo contemporáneo. (6)"],
+        "evidencias": [
+          "Reconoce algunas formas de gobierno que se desarrollaron en las sociedades antiguas (tiranía, aristocracia, monarquía, teocracia, democracia ateniense) e identifica aquellas que permanecen en la actualidad.",
+          "Compara las características de la democracia ateniense, del poder feudal, del absolutismo y de la democracia parlamentaria."
+        ],
+        "saberes": ["Sistema político", "Sistema jurídico", "Formas de gobierno en la antigüedad", "Poder político hoy"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Participación y responsabilidad democrática"],
+        "dba": [
+          "Conozco la Declaración Universal de los Derechos Humanos y su relación con los derechos fundamentales enunciados en la Constitución. (1)",
+          "Conozco los mecanismos constitucionales que protegen los derechos fundamentales (como la tutela) y comprendo cómo se aplican. (2)",
+          "Analizo el manual de convivencia y las normas de mi institución. (3)",
+          "Exijo el cumplimiento de las normas y los acuerdos por parte de las autoridades, de mis compañeros y de mí mismo. (4)",
+          "Manifiesto indignación cuando se vulneran las libertades de las personas. (5)",
+          "Analizo cómo mis pensamientos y emociones influyen en mi participación en las decisiones colectivas. (6)"
+        ],
+        "evidencias": [
+          "Relaciona los artículos de la Declaración Universal de DDHH con la Constitución Política de Colombia.",
+          "Identifica situaciones escolares donde es posible aplicar una acción de tutela para defender un derecho.",
+          "Propone modificaciones democráticas al manual de convivencia de su institución.",
+          "Cuestiona de manera respetuosa el incumplimiento de pactos por parte de los líderes estudiantiles.",
+          "Argumenta por qué el pensamiento crítico fortalece la toma de decisiones grupal."
+        ],
+        "saberes": ["Declaración Universal de los Derechos Humanos", "Derechos constitucionales", "Mecanismos de protección de derechos humanos", "Manual de convivencia", "Deberes del estudiante", "Pensamientos y emociones en decisiones colectivas"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": [
+          "Reconozco y utilizo los husos horarios.",
+          "Localizo diversas culturas en el espacio geográfico y reconozco las principales características físicas de su entorno.",
+          "Utilizo coordenadas, convenciones y escalas para trabajar con mapas."
+        ],
+        "dba": ["Comprende que la Tierra es un planeta en constante transformación cuyos cambios influyen en las formas del relieve terrestre y en la vida de las comunidades que la habitan. (2)"],
+        "evidencias": [
+          "Describe las interacciones que se dan entre el relieve, el clima, las zonas bioclimáticas (cambios en la temperatura, mareas, vientos, corrientes marinas, nubes, radiación solar) y las acciones humanas.",
+          "Explica la teoría de la deriva continental y la dinámica interna de la Tierra reconociendo los efectos que esta genera: sismos, tsunamis, erupciones volcánicas y cambios en el paisaje."
+        ],
+        "saberes": ["Husos horarios", "Relieve terrestre", "Zonas bioclimáticas", "Relación relieve-clima", "Población y formas de vida", "Deriva continental", "Dinámica interna de la Tierra"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Comparo diferentes culturas con la sociedad colombiana actual y propongo explicaciones para las semejanzas y diferencias que encuentro."],
+        "dba": ["Analiza los aspectos centrales del proceso de hominización y del desarrollo tecnológico dados durante la prehistoria, para explicar las transformaciones del entorno. (3)"],
+        "evidencias": [
+          "Explica el papel del trabajo de los homínidos (caza, pesca, recolección) y la importancia de estas actividades en la organización social y en el proceso de humanización.",
+          "Discute teorías sobre las posibles formas de poblamiento en los diferentes continentes."
+        ],
+        "saberes": ["Cultura de los pueblos", "Características de la sociedad colombiana", "Papel del trabajo en los homínidos", "Poblamiento de los continentes", "Nomadismo y sedentarismo"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico normas en algunas de las culturas y épocas estudiadas y las comparo con algunas normas vigentes en Colombia."],
+        "dba": ["Analiza las distintas formas de gobierno ejercidas en la antigüedad y las compara con el ejercicio del poder político en el mundo contemporáneo. (6)"],
+        "evidencias": [
+          "Explica cómo en la antigüedad se accedía al poder, cómo se justificaba (origen divino), cómo se mantenía (uso de la fuerza y creación de ejércitos) y cuál era el protagonismo de las personas en la elección de sus gobernantes.",
+          "Describe semejanzas y diferencias que se observan entre la democracia ateniense y las democracias actuales, en especial la colombiana, para señalar fortalezas, debilidades y alternativas que conduzcan a una mayor democratización."
+        ],
+        "saberes": ["Normas en diferentes culturas", "Código Hammurabi", "Acceso al poder en la antigüedad", "Tiranía", "Teocracia", "Democratización hoy"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Conozco procesos y técnicas de mediación de conflictos. (1)",
+          "Sirvo de mediador en conflictos entre compañeros y compañeras, cuando me autorizan. (2)",
+          "Apelo a la mediación escolar, si considero que necesito ayuda para resolver conflictos. (3)",
+          "Reconozco el conflicto como una oportunidad para aprender y fortalecer nuestras relaciones. (4)"
+        ],
+        "evidencias": [
+          "Propone pasos lógicos para mediar en una discusión entre pares sin tomar partido.",
+          "Identifica los momentos adecuados para solicitar la intervención de un docente o mediador institucional.",
+          "Describe cómo un conflicto resuelto correctamente mejoró la convivencia en su grupo.",
+          "Fomenta el diálogo y el entendimiento como herramientas principales de la mediación."
+        ],
+        "saberes": ["Mediación escolar", "Técnicas de mediación", "Rol del mediador", "Resolución de conflictos como aprendizaje"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Identifico sistemas de producción en diferentes culturas y períodos históricos y establezco relaciones entre ellos."],
+        "dba": ["Comprende que la Tierra es un planeta en constante transformación cuyos cambios influyen en las formas del relieve terrestre y en la vida de las comunidades que la habitan. (2)"],
+        "evidencias": [
+          "Diferencia las repercusiones de algunos fenómenos climáticos (huracanes, tornados, fenómeno del niño y de la niña, lluvias tropicales) en la vida de las personas.",
+          "Argumenta a partir de evidencias los efectos de un sismo en la población (tomando como ejemplo uno sucedido en Colombia) y conoce las recomendaciones a seguir en caso de un sismo."
+        ],
+        "saberes": ["Sistemas de producción", "Campañas de prevención", "Desastres naturales", "Fenómeno del Niño y la Niña", "Prevención de sismos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Describo características de la organización social, política o económica en algunas culturas y épocas (democracia griega, sistemas de producción inca, feudalismo, Renacimiento...)."],
+        "dba": ["Analiza cómo en las sociedades antiguas surgieron las primeras ciudades y el papel de la agricultura y el comercio para la expansión de estas. (4)"],
+        "evidencias": [
+          "Relaciona el origen de la agricultura con el desarrollo de las sociedades antiguas y la aparición de elementos que permanecen en la actualidad (canales de riego, la escritura, el ladrillo).",
+          "Explica el papel de los ríos Nilo, Tigris, Éufrates, Indo, Ganges, Huang He y Yangtsé Kiang, en la construcción de las primeras ciudades y el origen de las civilizaciones antiguas.",
+          "Establece las implicaciones del proceso de sedentarización, la domesticación de animales y el empleo de mano de obra esclavizada en la revolución agrícola.",
+          "Expresa opiniones sobre la influencia de la agricultura y las primeras obras de ingeniería en el desarrollo de las sociedades actuales."
+        ],
+        "saberes": ["Organización social antigua", "Civilizaciones antiguas", "Ciudades fluviales", "Revolución agrícola", "Ingeniería en la antigüedad", "Domesticación de animales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Reconozco y describo diferentes formas que ha asumido la democracia a través de la historia."],
+        "dba": ["Analiza cómo en el escenario político democrático entran en juego intereses desde diferentes sectores sociales, políticos y económicos, los cuales deben ser dirimidos por los ciudadanos. (7)"],
+        "evidencias": [
+          "Describe el origen de la ciudadanía, los cambios que ha tenido en el tiempo y su significado actual.",
+          "Argumenta la importancia de participar activamente en la toma de decisiones para el bienestar colectivo.",
+          "Explica las consecuencias de la no participación activa en las decisiones de una comunidad.",
+          "Plantea razones para respetar las opiniones ajenas y aportar constructivamente a las discusiones del grupo."
+        ],
+        "saberes": ["Historia de la democracia", "Origen de la ciudadanía", "Participación ciudadana", "Toma de decisiones", "Discusión constructiva"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Pluralidad, identidad y valoración de las diferencias"],
+        "dba": [
+          "Comprendo que las personas tenemos derecho a no ser discriminadas. (1)",
+          "Reconozco que los derechos se basan en la igualdad de los seres humanos, aunque cada uno sea diferente. (2)",
+          "Reconozco que pertenezco a diversos grupos (familia, colegio, barrio) y eso hace parte de mi identidad. (3)",
+          "Respeto y defiendo las libertades de las personas (expresión, conciencia, culto). (4)",
+          "Comprendo que existen diversas formas de expresar las identidades y las respeto. (5)"
+        ],
+        "evidencias": [
+          "Identifica el impacto negativo de la discriminación en la autoestima de sus compañeros.",
+          "Participa en acciones que defienden el derecho a la igualdad dentro del aula.",
+          "Describe los diferentes grupos sociales a los que pertenece y cómo influyen en su identidad.",
+          "Promueve el respeto por las manifestaciones artísticas o verbales que expresan identidades diversas."
+        ],
+        "saberes": ["Derecho a no ser discriminado", "Igualdad humana", "Identidad y pertenencia", "Libertades fundamentales", "Expresión de identidades"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": [
+          "Comparo las organizaciones económicas de diferentes culturas con las de la actualidad en Colombia.",
+          "Describo las características que permiten dividir a Colombia en regiones naturales."
+        ],
+        "dba": ["Comprende la organización territorial existente en Colombia y las particularidades geográficas de las regiones. (1)"],
+        "evidencias": [
+          "Reconoce la organización económica de diferentes grupos étnicos en Colombia.",
+          "Describe las características de la organización económica de Colombia actual.",
+          "Compara la organización económica de diferentes países y culturas.",
+          "Describe detalladamente las características de las diferentes regiones naturales de Colombia."
+        ],
+        "saberes": ["Economía de grupos étnicos", "Organización económica de Colombia", "Regiones naturales de Colombia", "Sectores económicos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": [
+          "Establezco relaciones entre culturas y sus épocas.",
+          "Comparo legados culturales (científicos, tecnológicos, artísticos, religiosos) de diferentes grupos culturales y reconozco su impacto en la actualidad."
+        ],
+        "dba": ["Analiza los legados que las sociedades Americanas prehispánicas dejaron en diversos campos. (5)"],
+        "evidencias": [
+          "Representa y sitúa en un mapa los espacios geográficos donde se desarrollaron sociedades prehispánicas (Mayas, Aztecas, Incas, Chibchas).",
+          "Describe los aportes tecnológicos y culturales de sociedades prehispánicas (calendario maya, arquitectura, astronomía, técnicas de cultivo).",
+          "Compara la estructura social, política y económica de las sociedades prehispánicas con las sociedades actuales del continente.",
+          "Explica la importancia de alimentos domesticados en América (maíz, tomate, papa) en la gastronomía contemporánea."
+        ],
+        "saberes": ["Sociedades prehispánicas", "Mayas, Aztecas e Incas", "Legado histórico prehispánico", "Aportes tecnológicos ancestrales", "Gastronomía antigua y moderna"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Asumo una posición crítica frente a situaciones de discriminación y propongo formas de cambiarlas. (3)"],
+        "dba": ["Comprende que en una sociedad democrática no es aceptable ninguna forma de discriminación por origen étnico, creencias religiosas, género, discapacidad y/o apariencia física. (8)"],
+        "evidencias": [
+          "Reconoce que las personas tenemos derecho a no ser discriminadas según la Declaración Universal de DDHH y la Constitución Nacional.",
+          "Argumenta cómo los derechos de las personas se basan en el principio de igualdad ante la ley.",
+          "Explica cómo la pertenencia a una sociedad multicultural contribuye a la construcción de su propia identidad.",
+          "Reconoce a partir de situaciones cotidianas que el respeto hacia el otro es inherente a la condición humana."
+        ],
+        "saberes": ["La discriminación", "El racismo", "Colombia país multicultural", "Interculturalidad", "Derechos e igualdad ante la ley"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Identifico las necesidades y los puntos de vista de personas o grupos en una situación de conflicto en la que no estoy involucrado. (5)",
+          "Comprendo que las intenciones de la gente, muchas veces, son mejores de lo que yo pensaba. (6)",
+          "Comprendo que el engaño afecta la confianza entre las personas y reconozco la importancia de recuperarla. (7)"
+        ],
+        "evidencias": [
+          "Escucha activamente a ambas partes en un conflicto para entender sus razones sin juzgar.",
+          "Identifica situaciones donde el daño causado por un tercero fue accidental y no malintencionado.",
+          "Propone acciones para restaurar la confianza después de una mentira o un engaño en el grupo.",
+          "Analiza cómo las percepciones erróneas pueden generar conflictos innecesarios."
+        ],
+        "saberes": ["Perspectivas en el conflicto", "Intenciones y empatía", "La confianza y el engaño", "Restauración de relaciones"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

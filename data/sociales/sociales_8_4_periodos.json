@@ -1,0 +1,286 @@
+{
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
+  "grado": "8",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": [
+          "Describo las principales características físicas de los diversos ecosistemas. (1)",
+          "Explico la manera como el medio ambiente influye en el tipo de organización social y económica que se da en las regiones de Colombia. (2)"
+        ],
+        "dba": ["Evalúa el impacto producido por los avances tecnológicos en el desarrollo social y económico de Colombia en el siglo XIX. (6)"],
+        "evidencias": [
+          "Describe el papel del telégrafo, el correo, el ferrocarril, el barco de vapor, la industria textil y la electricidad en el desarrollo económico de Colombia.",
+          "Relaciona los procesos de industrialización dados en el país con los cambios sociales como el crecimiento de las ciudades y la diversificación de la economía."
+        ],
+        "saberes": ["Impacto de los avances tecnológicos", "Desarrollo social y económico de Colombia en el siglo XIX", "Inventos del Siglo XIX", "Telégrafo", "Ferrocarril", "Industria textil", "Electricidad"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Explico las principales características de algunas revoluciones de los siglos XVIII y XIX (Revolución Francesa, Revolución Industrial...). (1)"],
+        "dba": ["Analiza los procesos de expansión territorial desarrollados por Europa durante el siglo XIX y las nuevas manifestaciones imperialistas observadas en las sociedades contemporáneas. (4)"],
+        "evidencias": [
+          "Describe la expansión y distribución territorial de los imperios europeos en Asia y África durante el siglo XIX e interpreta mapas temáticos.",
+          "Relaciona el crecimiento económico europeo con la explotación de Asia y África durante el siglo XIX.",
+          "Compara la influencia de los países colonialistas en el siglo XIX en ámbitos como el comercio y la industria manufacturera con la de las actuales potencias mundiales.",
+          "Explica la influencia actual de países como Estados Unidos en la dinámica económica, social y política de Colombia (Tratado del Libre Comercio, lucha contra las drogas, éxodo de colombianos)."
+        ],
+        "saberes": ["Procesos de expansión territorial europea", "Siglo XIX", "Colonización", "Explotación de Asia y África", "Influencia de Estados Unidos en Colombia", "Dinámica económica y política actual"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Respeto diferentes posturas frente a los fenómenos sociales y asumo una posición crítica frente a situaciones de discriminación y abuso por irrespeto a las posiciones ideológicas."],
+        "dba": ["Evalúa la influencia de los procesos de cooperación económica y política entre los Estados Nacionales en la actualidad. (1)"],
+        "evidencias": [
+          "Reconoce la constitución de la Unión Europea como un ejemplo de cooperación entre países, sus objetivos, integrantes y su influencia en el orden mundial.",
+          "Describe diversas alianzas de cooperación dadas entre países: MERCOSUR, OTAN, NEPAD y APEC.",
+          "Formula preguntas sobre cómo lograr el bienestar colectivo desde la cooperación y las alianzas internacionales.",
+          "Explica las relaciones económicas y políticas que Colombia sostiene hoy con otros países de la región y el resto del mundo."
+        ],
+        "saberes": ["La cooperación internacional", "La Unión Europea", "MERCOSUR", "OTAN", "NEPAD", "APEC", "Bienestar colectivo", "Relaciones exteriores de Colombia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Participación y responsabilidad democrática"],
+        "dba": [
+          "Comprendo las características del Estado de Derecho y del Estado Social de Derecho y su importancia para garantizar los derechos ciudadanos. 1",
+          "Identifico y analizo las situaciones en las que se vulneran los derechos civiles y políticos. 2",
+          "Conozco, analizo y uso los mecanismos de participación ciudadana. 3",
+          "Identifico los sentimientos, necesidades y puntos de vista de aquellos a los que se les han violado derechos civiles y políticos y propongo acciones no violentas. 4",
+          "Analizo críticamente mi participación en situaciones en las que se vulneran o respetan los derechos. 5"
+        ],
+        "evidencias": [
+          "Describe los principios fundamentales del Estado Social de Derecho en Colombia.",
+          "Identifica y denuncia situaciones de vulneración de derechos civiles.",
+          "Propone el uso de mecanismos de participación para resolver problemas del entorno.",
+          "Diseña campañas de sensibilización basadas en la empatía y la no violencia."
+        ],
+        "saberes": ["Colombia estado de derecho", "Derechos civiles y políticos", "Mecanismos de participación ciudadana", "Campaña escolar colocar se en los zapatos del otro"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Comparo las causas de algunas olas de migración y desplazamiento humano en nuestro territorio a lo largo del siglo XIX y la primera mitad del siglo XX. (4)"],
+        "dba": ["Comprende el fenómeno de las migraciones en distintas partes del mundo y cómo afectan a las dinámicas de los países receptores y a países de origen. (2)"],
+        "evidencias": [
+          "Describe el fenómeno de las migraciones humanas que tienen lugar en la actualidad hacia Europa y América del Norte.",
+          "Reconoce los niveles en el Índice de Desarrollo Humano obtenidos por los diferentes países que reciben migrantes.",
+          "Explica las principales diferencias entre los países que atraen emigrantes y aquellos de donde salen.",
+          "Argumenta los aportes que han realizado los migrantes a los países que los reciben y a la humanidad en general."
+        ],
+        "saberes": ["Fenómenos demográficos en el mundo", "Migraciones", "Desplazamientos en el mundo", "Índice de Desarrollo Humano", "Aportes de los migrantes"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Explico algunos procesos sociales, políticos y económicos posteriores en Colombia y América Latina. (2)"],
+        "dba": ["Comprende cómo se produjeron los procesos de independencia de las colonias americanas durante los siglos XVIII y XIX y sus implicaciones para las sociedades contemporáneas. (5)"],
+        "evidencias": [
+          "Describe la influencia política y económica de las revoluciones francesa e Industrial en los procesos de independencia de las colonias americanas.",
+          "Reconoce los aportes de la Revolución Francesa en el campo político (Derechos del Hombre, soberanía popular, Constitución, división de poderes)."
+        ],
+        "saberes": ["La revolución francesa", "Revolución Industrial", "Independencia de las colonias americanas", "Declaración de los derechos humanos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico y comparo algunos de los procesos políticos que tuvieron lugar en el mundo en el siglo XIX y primera mitad del siglo XX. (5)"],
+        "dba": ["Analiza los cambios sociales, económicos, políticos y culturales generados por el surgimiento y consolidación del capitalismo en Europa. (3)"],
+        "evidencias": [
+          "Describe las transformaciones que se produjeron en Europa a finales del siglo XVIII y durante el siglo XIX que dieron paso al surgimiento del capitalismo.",
+          "Explica las características del sistema económico capitalista (propiedad privada, libre competencia, capital, consumo).",
+          "Compara los sistemas económicos actuales (capitalista, socialista y de economía mixta) desde la propiedad y planificación del Estado.",
+          "Reconoce las diferencias en el nivel de desarrollo económico entre los países de América Latina y de Europa en la actualidad."
+        ],
+        "saberes": ["El capitalismo", "Cambios sociales generados por el capitalismo", "Propiedad privada", "Libre competencia", "Sistemas económicos comparados", "Desarrollo en América Latina y Europa"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Entiendo la importancia de mantener expresiones de afecto y cuidado mutuo con mis familiares, amigos y pareja. 1",
+          "Comprendo que los conflictos ocurren en las relaciones y que se pueden manejar de manera constructiva. 2",
+          "Identifico y supero emociones como el resentimiento y el odio para poder perdonar. 3"
+        ],
+        "evidencias": [
+          "Demuestra habilidades para el cuidado mutuo y el afecto en sus relaciones cercanas.",
+          "Aplica la escucha activa y la comprensión de puntos de vista en situaciones de conflicto.",
+          "Implementa procesos de perdón y superación del resentimiento en sus vínculos interpersonales."
+        ],
+        "saberes": ["Expresiones de afecto", "Manejo constructivo del conflicto", "La resiliencia", "Perdón y reconciliación"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Asumo una posición crítica frente al deterioro del medio ambiente y participo en su conservación."],
+        "dba": ["Evalúa el impacto producido por los avances tecnológicos en el desarrollo social y económico de Colombia en el siglo XIX. (6)"],
+        "evidencias": [
+          "Reconoce el papel de la Comisión Corográfica de Agustín Codazzi como un aporte a la planeación del territorio colombiano.",
+          "Explica algunos problemas ambientales provocados por procesos de industrialización en Colombia y realiza conjeturas sobre sus consecuencias."
+        ],
+        "saberes": ["Comisión Corográfica de Agustín Codazzi", "Representación cartográfica de Colombia", "Problemas ambientales por industrialización", "Gestión del territorio"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": [
+          "Identifico y comparo algunos de los procesos políticos que tuvieron lugar en el mundo en el siglo XIX. (5)",
+          "Analizo las condiciones que dieron origen a los procesos de independencia de los pueblos americanos. (3)"
+        ],
+        "dba": ["Comprende cómo se produjeron los procesos de independencia de las colonias americanas durante los siglos XVIII y XIX. (5)"],
+        "evidencias": [
+          "Compara la organización político-administrativa entre las colonias americanas bajo dominio europeo.",
+          "Argumenta acerca de las consecuencias que trae para los pueblos la intervención de Estados más desarrollados en países con economías en desarrollo."
+        ],
+        "saberes": ["Independencia de pueblos americanos", "Patria Boba", "Reconquista", "Intervencionismo extranjero", "Economías en desarrollo"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico y explico algunos de los principales procesos políticos del siglo XIX en Colombia. (3)"],
+        "dba": ["Comprende cómo se produjeron los procesos de independencia de las colonias americanas durante los siglos XVIII y XIX. (5)"],
+        "evidencias": [
+          "Analiza los modelos de federalismo y centralismo en la formación de la república colombiana.",
+          "Explica el impacto de las reformas del radicalismo liberal en la sociedad del siglo XIX."
+        ],
+        "saberes": ["Procesos políticos del siglo XIX", "Federalismo", "Centralismo", "Radicalismo liberal", "Regeneración", "Independencia de Colombia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Pluralidad, identidad y valoración de las diferencias"],
+        "dba": [
+          "Comprendo el significado y la importancia de vivir en una nación multiétnica y pluricultural. 1",
+          "Comprendo los conceptos de prejuicio y estereotipo y su relación con la exclusión. 2",
+          "Comprendo que la discriminación y la exclusión pueden tener consecuencias sociales negativas. 3",
+          "Respeto propuestas éticas y políticas de diferentes culturas y comprendo que es legítimo disentir. 4",
+          "Conozco y respeto los derechos de grupos históricamente vulnerados. 5"
+        ],
+        "evidencias": [
+          "Explica los valores de una nación pluricultural y multiétnica.",
+          "Identifica y cuestiona estereotipos presentes en los medios y la sociedad.",
+          "Analiza las causas y efectos de la pobreza y la violencia derivadas de la exclusión.",
+          "Manifiesta respeto por el disenso político y los derechos de las minorías."
+        ],
+        "saberes": ["Pluriculturalidad", "Prejuicios y estereotipos", "Discriminación y exclusión", "Consecuencias de la discriminación", "Respeto por las propuestas del otro", "Derechos de las minorías"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Comparo las maneras como distintas comunidades se han relacionado económicamente con el medio ambiente en Colombia (pesca, terrazas...). (3)"],
+        "dba": ["Asumo una posición crítica frente al deterioro del medio ambiente y participo en su conservación."],
+        "evidencias": [
+          "Identifica el papel que las comunidades, etnias y culturas han tenido con el territorio y el medio ambiente.",
+          "Reconoce las actividades económicas que generan el deterioro del medio ambiente y propone acciones de mejora."
+        ],
+        "saberes": ["Relación comunidad-territorio", "Relación etnia-medio ambiente", "Economía y medio ambiente", "Cuidado del medio ambiente", "Cultivo en terrazas", "Pesca de subienda"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Explico algunos de los grandes cambios sociales en Colombia entre el siglo XIX y XX (abolición de esclavitud, movimientos obreros...). (4)"],
+        "dba": ["Evalúa hechos trascendentales para la dignidad humana y describe las discriminaciones que aún se presentan. (7)"],
+        "evidencias": [
+          "Reconoce que la discriminación y la exclusión social son factores generadores de deterioro en las relaciones sociales.",
+          "Describe la situación actual de vulneración de los derechos fundamentales en Colombia.",
+          "Explica prejuicios relacionados con la exclusión histórica de mujeres, etnias y personas con discapacidad.",
+          "Propone acciones para mejorar el cumplimiento de los Derechos Humanos."
+        ],
+        "saberes": ["La dignidad humana", "Discriminación y exclusión social", "Abolición de la esclavitud", "Movimientos obreros", "Vulneración de derechos fundamentales", "Prejuicios históricos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": [
+          "Comparo mecanismos de participación ciudadana en las constituciones de 1886 y 1991. (1)",
+          "Identifico formas de participación de movimientos sociales y sindicatos en el siglo XIX y XX. (2)"
+        ],
+        "dba": ["Comprende la importancia de las asociaciones, gremios y organizaciones sindicales en la defensa de los derechos colectivos. (8)"],
+        "evidencias": [
+          "Describe el surgimiento de movimientos campesinos, estudiantiles y obreros en el siglo XX.",
+          "Explica herramientas de resolución de conflictos como diálogo, conciliación y arbitraje.",
+          "Interpreta evidencias sobre negociaciones de paz y huelgas como formas de resolución de conflictos.",
+          "Argumenta la importancia de un desarrollo social orientado al bienestar colectivo."
+        ],
+        "saberes": ["Movimientos sociales", "Sindicatos", "Derechos colectivos", "Constituciones de 1886 y 1991", "Procesos de paz", "Mecanismos de resolución de conflictos", "Bienestar colectivo"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Utilizo mecanismos constructivos para encauzar mi rabia y enfrentar mis conflictos. 4",
+          "Preveo las consecuencias a corto y largo plazo de mis acciones y evito causar sufrimiento. 5"
+        ],
+        "evidencias": [
+          "Aplica técnicas de manejo de emociones en situaciones de alta tensión.",
+          "Evalúa el impacto de sus actos en la integridad de las personas cercanas.",
+          "Propone soluciones no violentas que priorizan el bienestar común."
+        ],
+        "saberes": ["Taller sobre manejo de las emociones", "Consecuencias de las acciones", "No hacer sufrir a nadie", "No sufrir"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

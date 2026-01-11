@@ -1,0 +1,279 @@
+{
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
+  "grado": "10",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Explico y evalúo el impacto del desarrollo industrial y tecnológico sobre el medio ambiente y el ser humano. (4)"],
+        "dba": ["Analiza conflictos que se presentan en el territorio colombiano originados por la degradación ambiental, el escaso desarrollo económico y la inestabilidad política (1)"],
+        "evidencias": [
+          "Explica la disponibilidad y el uso del recurso hídrico en las diferentes regiones colombianas y los conflictos que se presentan en torno a este.",
+          "Diferencia los diversos tipos de contaminación que se presentan en el mundo y sugiere acciones orientadas hacia la sostenibilidad ambiental y la conciencia ecológica en la ciudadanía."
+        ],
+        "saberes": ["Recursos naturales", "Desarrollo sostenible", "Conciencia ecológica", "Escasez económica", "Políticas públicas sobre medio ambiente"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": [
+          "Explico el origen del régimen bipartidista en Colombia. (1)",
+          "Analizo el periodo conocido como “la Violencia” y establezco relaciones con las formas actuales de violencia. (2)",
+          "Identifico las causas, características y consecuencias del Frente Nacional. (3)"
+        ],
+        "dba": ["Evalúa las causas y consecuencias de la violencia en la segunda mitad del siglo XX en Colombia y su incidencia en los ámbitos social, político, económico y cultural. (2)"],
+        "evidencias": [
+          "Establece semejanzas y diferencia entre los conflictos asociados a la convivencia social, a escala regional y nacional.",
+          "Compara los diferentes tipos de violencia (directa, estructural y cultural) que generan los actores armados y sus repercusiones en la vida nacional."
+        ],
+        "saberes": ["Bipartidismo en Colombia", "La violencia en Colombia", "Bogotazo", "Dictadura de Rojas Pinilla", "Frente nacional", "Tipología de la violencia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": [
+          "Describo el impacto de hechos políticos de mediados del siglo XX (9 de abril, Frente Nacional…) en las organizaciones sociales, políticas y económicas del país.",
+          "Identifico y explico algunas consecuencias de la crisis del bipartidismo."
+        ],
+        "dba": ["Evalúa las causas y consecuencias de la violencia en la segunda mitad del siglo XX en Colombia y su incidencia en los ámbitos social, político, económico y cultural. (2)"],
+        "evidencias": [
+          "Establece semejanzas y diferencia entre los conflictos asociados a la convivencia social, a escala regional y nacional.",
+          "Compara los diferentes tipos de violencia (directa, estructural y cultural) que generan los actores armados y sus repercusiones en la vida nacional."
+        ],
+        "saberes": ["Crisis del bipartidismo", "Organizaciones sociales y políticas", "Impacto de hechos políticos del siglo XX"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Participación y responsabilidad democrática"],
+        "dba": [
+          "Comprendo que en un Estado de Derecho las personas podemos participar en la creación o transformación de las leyes y que éstas se aplican a todos y todas por igual. (1)",
+          "Conozco los principios básicos del Derecho Internacional Humanitario (por ejemplo, la protección a la sociedad civil en un conflicto armado). (2)",
+          "Analizo críticamente el sentido de las leyes y comprendo la importancia de cumplirlas, así no comparta alguna de ellas. (3)",
+          "Analizo críticamente y debato con argumentos y evidencias sobre hechos ocurridos a nivel local, nacional y mundial, y comprendo las consecuencias que éstos pueden tener sobre mi propia vida. (4)"
+        ],
+        "evidencias": [
+          "Analiza casos de aplicación de leyes bajo el marco del Estado de Derecho.",
+          "Argumenta la necesidad de proteger a la población civil en conflictos armados según el DIH.",
+          "Debate el impacto de eventos globales y nacionales en su desarrollo personal y comunitario."
+        ],
+        "saberes": ["Colombia Estado de derecho", "Derecho internacional humanitario", "Sentido de las leyes en sociedad", "Análisis de hechos locales", "Análisis de hechos nacionales", "Análisis de hechos internacionales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Analizo críticamente los factores que ponen en riesgo el derecho del ser humano a una alimentación sana y suficiente. (5)"],
+        "dba": ["Analiza conflictos que se presentan en el territorio colombiano originados por la degradación ambiental, el escaso desarrollo económico y la inestabilidad política (1)"],
+        "evidencias": [
+          "Describe el impacto ambiental, económico, social y político que ha tenido la minería legal e ilegal, a partir del estudio de casos provenientes de distintas fuentes de información."
+        ],
+        "saberes": ["Seguridad alimentaria", "Impacto ambiental de la minería", "Impacto económico de la minería", "Minería en Colombia", "Desertización", "Deforestación"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Explico el surgimiento de la guerrilla, el paramilitarismo y el narcotráfico en Colombia. (4)"],
+        "dba": ["Evalúa las causas y consecuencias de la violencia en la segunda mitad del siglo XX en Colombia y su incidencia en los ámbitos social, político, económico y cultural. (2)"],
+        "evidencias": [
+          "Explica las características de la violencia ejercida en el contexto del conflicto armado en Colombia y cómo afecta la vida social y cultura.",
+          "Propone estrategias para utilizar el diálogo como recurso mediador en la solución de conflictos."
+        ],
+        "saberes": ["Origen histórico de las guerrillas", "Paramilitarismo", "Narcotráfico", "La Unión Patriótica", "Procesos de mediación", "Resolución de conflictos", "Procesos de paz", "Belisario Betancourt", "Diálogos del Caguán", "Grupos disidentes", "Bacrim"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Reconozco y explico los cambios y continuidades en los movimientos guerrilleros en Colombia desde su surgimiento hasta la actualidad.(4)"],
+        "dba": ["Evalúa las causas y consecuencias de la violencia en la segunda mitad del siglo XX en Colombia y su incidencia en los ámbitos social, político, económico y cultural. (2)"],
+        "evidencias": [
+          "Explica las características de la violencia ejercida en el contexto del conflicto armado en Colombia y cómo afecta la vida social y cultura.",
+          "Propone estrategias para utilizar el diálogo como recurso mediador en la solución de conflictos."
+        ],
+        "saberes": ["Movimientos guerrilleros", "Transformaciones del conflicto armado", "Impacto social de la insurgencia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Contribuyo a que los conflictos entre personas y entre grupos se manejen de manera pacífica y constructiva mediante la aplicación de estrategias basadas en el diálogo y la negociación. (1)",
+          "Utilizo distintas formas de expresión para promover y defender los derechos humanos en mi contexto escolar y comunitario. (2)",
+          "Analizo críticamente las decisiones, acciones u omisiones que se toman en el ámbito nacional o internacional y que pueden generar conflictos o afectar los derechos humanos. (3)"
+        ],
+        "evidencias": [
+          "Aplica técnicas de negociación para mediar en disputas grupales.",
+          "Crea productos comunicativos (textos, arte, oratoria) para la defensa de los DDHH.",
+          "Evalúa el desempeño de instituciones nacionales en la garantía de derechos ciudadanos."
+        ],
+        "saberes": ["Manejo de los conflictos", "Promoción de derechos humanos", "Defensa de derechos humanos", "Veeduría de los derechos humanos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": [
+          "Identifico los principales postulados del liberalismo clásico, el socialismo, el marxismo-leninismo… y analizo la vigencia actual de algunos de ellos. (1)",
+          "Establezco algunas relaciones entre los diferentes modelos de desarrollo económico utilizados en Colombia y América Latina y las ideologías que los sustentan. (2)",
+          "Analizo el impacto de estos modelos en la región. (3)"
+        ],
+        "dba": ["Comprende modelos conceptuales, sus características y contextos de aplicación."],
+        "evidencias": [
+          "Identifica y usa conceptos sociales básicos (económicos, políticos, culturales y geográficos).",
+          "Diferencia conceptos como capitalismo, socialismo, neoliberalismo, liberalismo económico, marxismo, leninismo.",
+          "Identifica diferentes modelos de desarrollo económico utilizados en Colombia y algunos países del mundo.",
+          "Comprende el impacto de los modelos de desarrollo económico en la actualidad."
+        ],
+        "saberes": ["Economía", "Microeconomía", "Macroeconomía", "Liberalismo clásico", "Socialismo", "Capitalismo", "Globalización", "Integración económica", "Modelos de desarrollo económico", "Apertura económica en Colombia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Analizo desde el punto de vista político, económico, social y cultural algunos de los hechos históricos mundiales sobresalientes del siglo XX (guerras-mundiales, conflicto en el Medio Oriente, caída del muro de Berlín...). (5)"],
+        "dba": ["Analiza los conflictos bélicos presentes en las sociedades contemporáneas, sus causas y consecuencias, así como su incidencia en la vida cotidiana de los pueblos. (5)"],
+        "evidencias": [
+          "Reconoce los avances militares, tecnológicos y científicos que las potencias utilizaron durante las dos Guerras Mundiales y otros conflictos acaecidos en el siglo XX y asume una posición crítica frente a estos.",
+          "Describe el desarrollo histórico de las guerras mundiales y las consecuencias sociales que estos enfrentamientos provocaron para la humanidad."
+        ],
+        "saberes": ["Periodo entre guerras", "Primera Guerra Mundial", "Causas de la guerra", "Cronología de la guerra", "Transformaciones Geopolíticas"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico las organizaciones internacionales que surgieron a lo largo del siglo XX (ONU, OEA…) y evalúo el impacto de su gestión en el ámbito nacional e internacional."],
+        "dba": ["Interpreta el papel que cumplen los organismos internacionales como formas de alianza y organización entre los Estados y que responden a los intereses entre los países (4)"],
+        "evidencias": [
+          "Describe las características demográficas, económicas, sociales, políticas y culturales de las sociedades actuales, en el marco de una sociedad de la información y bajo el paradigma de la globalización.",
+          "Reconoce el papel de los organismos multilaterales en la formulación de políticas económicas, jurídicas, ambientales y educativas para los países que hacen parte de estas organizaciones.",
+          "Explica cómo los organismos multilaterales de los que hace parte Colombia inciden en sus políticas internas.",
+          "Argumenta el papel desempeñado por los organismos e instituciones nacionales e internacionales en el mantenimiento del bienestar y la paz."
+        ],
+        "saberes": ["Sociedad de la información", "Globalización", "Organismos multilaterales", "ONU", "OEA", "Cooperación internacional", "Derechos Humanos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Pluralidad, identidad y valoración de las diferencias"],
+        "dba": [
+          "Construyo una posición crítica frente a las situaciones de discriminación y exclusión social que resultan de las relaciones desiguales entre personas, culturas y naciones. (1)",
+          "Reconozco las situaciones de discriminación y exclusión más agudas que se presentan ahora, o se presentaron en el pasado, tanto en el orden nacional como en el internacional. (2)",
+          "Comprendo que el respeto por la diferencia no significa aceptar que otras personas o grupos vulneren derechos humanos o normas constitucionales. (3)"
+        ],
+        "evidencias": [
+          "Evalúa críticamente las raíces históricas de la exclusión social en Colombia.",
+          "Establece los límites del respeto cultural frente a los derechos humanos universales.",
+          "Propone acciones para mitigar la discriminación en su comunidad educativa."
+        ],
+        "saberes": ["Situaciones de discriminación", "Exclusión social", "Historia de la discriminación", "Respeto por la diferencia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Analizo críticamente los factores que ponen en riesgo el derecho del ser humano a una alimentación sana y suficiente. (5)"],
+        "dba": ["Analiza conflictos que se presentan en el territorio colombiano originados por la degradación ambiental, el escaso desarrollo económico y la inestabilidad política (1)"],
+        "evidencias": [
+          "Argumenta la pérdida de biodiversidad en el país a partir de la revisión de los informes del Ministerio del Medio Ambiente, las corporaciones autónomas regionales y/o las ONG dedicadas al tema."
+        ],
+        "saberes": ["Biodiversidad", "Entidades estatales de medio ambiente", "Productos transgénicos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Analizo desde el punto de vista político, económico, social y cultural algunos de los hechos históricos mundiales sobresalientes del siglo XX (guerras-mundiales, conflicto en el Medio Oriente, caída del muro de Berlín...). (5)"],
+        "dba": ["Analiza los conflictos bélicos presentes en las sociedades contemporáneas, sus causas y consecuencias, así como su incidencia en la vida cotidiana de los pueblos. (5)"],
+        "evidencias": [
+          "Explica y representa las transformaciones geopolíticas que se dieron en el mundo después de las guerras mundiales desde la interpretación de mapas temáticos.",
+          "Argumenta acerca de las causas directas e indirectas que determinaron el inicio de los conflictos bélicos mundiales."
+        ],
+        "saberes": ["Segunda Guerra Mundial", "Consecuencias de la II Guerra", "Cronología de la II Guerra", "Transformaciones Geopolíticas Mundiales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": [
+          "Analizo el paso de un sistema democrático representativo a un sistema democrático participativo en Colombia. (2)",
+          "Identifico causas y consecuencias de los procesos de desplazamiento forzado de poblaciones y reconozco los derechos que protegen a estas personas. (5)"
+        ],
+        "dba": ["Comprende que existen multitud de culturas y una sola humanidad en el mundo y que entre ellas se presenta la discriminación y exclusión de algunos grupos, lo cual dificulta el bienestar de todos.(3)"],
+        "evidencias": [
+          "Identifica formas de discriminación social, su origen y las consecuencias que generan en las sociedades actuales.",
+          "Explica la diversidad cultural y étnica como una característica de las sociedades actuales lo cual se constituye en una riqueza para la vida en comunidad.",
+          "Compara los mecanismos de protección de DDHH (conciliación, acción de tutela, acciones populares, acción de cumplimiento).",
+          "Argumenta por qué es necesario rechazar las formas de discriminación, exclusión social o violencia que se observan en el mundo hoy."
+        ],
+        "saberes": ["Democracia participativa", "Desplazamiento forzado", "Cultura", "Multiculturalismo", "Interculturalidad", "Diversidad cultural", "Protección de derechos humanos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Analizo críticamente la situación de los derechos humanos en Colombia y en el mundo y propongo alternativas para su promoción y defensa. (4)",
+          "Manifiesto indignación (rechazo, dolor, rabia) de manera pacífica ante el sufrimiento de grupos o naciones que están involucradas en confrontaciones violentas. (5)",
+          "Valoro positivamente las normas constitucionales que hacen posible la preservación de las diferencias culturales y políticas, y que regulan nuestra convivencia. (6)"
+        ],
+        "evidencias": [
+          "Diseña planes de acción para la promoción de los DDHH en el aula.",
+          "Expresa solidaridad y rechazo pacífico ante violaciones de derechos en conflictos globales.",
+          "Aplica normas constitucionales para mediar en situaciones de intolerancia cultural."
+        ],
+        "saberes": ["Derechos humanos en Colombia", "Derechos humanos en el mundo", "Grupos al margen de la ley", "Normas constitucionales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

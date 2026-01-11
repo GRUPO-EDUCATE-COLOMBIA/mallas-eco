@@ -1,0 +1,282 @@
+{
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
+  "grado": "9",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": [
+          "Explico la manera como el medio ambiente influye en el tipo de organización social y económica que se da en las regiones de Colombia. (2)",
+          "Comparo las maneras como distintas comunidades, etnias y culturas se han relacionado económicamente con el medio ambiente en Colombia a lo largo de la historia (pesca de subienda, cultivo en terrazas...). (3)"
+        ],
+        "dba": ["Analiza la situación ambiental de los geosistemas más biodiversos de Colombia (selvas, páramos, arrecifes coralinos) y las problemáticas que enfrentan actualmente debido a la explotación a que han sido sometidos. (1)"],
+        "evidencias": [
+          "Reconoce la importancia que tienen para la sociedad colombiana los geosistemas biodiversos existentes en el territorio colombiano y los ubica geográficamente.",
+          "Explica las consecuencias para la biodiversidad colombiana acciones como la ampliación de la frontera agrícola, el turismo desmedido y la explotación minera.",
+          "Describe los niveles de deforestación observados en las selvas colombianas y la disminución de las áreas de páramo en nuestro país, así como su incidencia en el deterioro de las fuentes hídricas en Colombia.",
+          "Argumenta acerca de las condiciones de otros geosistemas colombianos como los manglares, las sábanas, los ríos, las ciénagas, los humedales, los bosques secos, los embalses y los estuarios."
+        ],
+        "saberes": ["Geosistemas de Colombia", "Protección de la biodiversidad", "Contaminación ambiental", "Deforestación", "Áreas de páramo", "Fuentes hídricas", "Regiones naturales de Colombia", "Relación comunidad-medio ambiente"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": [
+          "Explico algunos de los grandes cambios sociales que se dieron en Colombia entre los siglos XIX y primera mitad del XX (abolición de la esclavitud, surgimiento de movimientos obreros...). (4)",
+          "Comparo estos procesos teniendo en cuenta sus orígenes y su impacto en situaciones políticas, económicas, sociales y culturales posteriores. (5)"
+        ],
+        "dba": ["Analiza los cambios sociales, políticos, económicos y culturales en Colombia en el siglo XX y su impacto en la vida de los habitantes del país. (4)"],
+        "evidencias": [
+          "Compara los hábitos de vida de las personas antes y después de la llegada al país del cine, la radio, la aviación comercial y los automóviles."
+        ],
+        "saberes": ["Abolición de la esclavitud", "Surgimiento de movimientos obreros", "La masacre de las bananeras", "Procesos de modernización en Colombia", "Cine y radio en Colombia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Comparo los mecanismos de participación ciudadana contemplados en las constituciones políticas de 1886 y 1991 y evalúo su aplicabilidad."],
+        "dba": ["Evalúa cómo las sociedades democráticas en un Estado social de Derecho tienen el deber de proteger y promover los derechos fundamentales de los ciudadanos (5)"],
+        "evidencias": [
+          "Identifica los derechos constitucionales fundamentales, los derechos sociales, económicos y culturales y los derechos colectivos y del ambiente.",
+          "Examina las implicaciones que tiene para la democracia y la ciudadanía la vulneración de los Derechos Humanos (DD. HH.) y sugiere para su protección mecanismos constitucionales.",
+          "Justifica el uso de los mecanismos de participación ciudadana: el voto, el plebiscito, el referendo, la consulta popular, el cabildo abierto, la iniciativa popular, la revocatoria del mandato.",
+          "Explica mediante estudios de caso el papel que cumplen las autoridades que protegen los DD.HH. en Colombia (Procuraduría General de la Nación, Defensoría del Pueblo y personerías)."
+        ],
+        "saberes": ["Estado social de derecho", "Constitución política de Colombia", "Derechos fundamentales", "Mecanismos de protección de derechos", "Mecanismos de participación ciudadana", "Voto popular", "Plebiscito", "Referendo", "Consulta popular", "Cabildo abierto", "Iniciativa popular", "Revocatoria del mandato", "Órganos de control público"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Participación y responsabilidad democrática"],
+        "dba": [
+          "Cuestiono y analizo los argumentos de quienes limitan las libertades de las personas. (6)",
+          "Analizo críticamente la información de los medios de comunicación. (7)",
+          "Hago seguimiento a las acciones que desarrollan los representantes escolares y protesto pacíficamente cuando no cumplen sus funciones o abusan de su poder. (8)",
+          "Comprendo que los mecanismos de participación permiten decisiones y, aunque no esté de acuerdo con ellas, sé que me rigen. (9)",
+          "Conozco y uso estrategias creativas para generar opciones frente a decisiones colectivas. (10)",
+          "Participó en la planeación y ejecución de acciones que contribuyen a aliviar la situación de personas en desventaja. (11)"
+        ],
+        "evidencias": [
+          "Evalúa críticamente los mensajes de los medios de comunicación y su veracidad.",
+          "Realiza seguimiento a las propuestas y acciones de sus representantes escolares.",
+          "Propone soluciones creativas para situaciones que afectan a personas en desventaja.",
+          "Identifica argumentos que atentan contra las libertades individuales en el debate público."
+        ],
+        "saberes": ["Libertad de las personas", "Medios masivos de comunicación", "Representantes escolares", "Derecho a la protesta pacífica", "Mecanismos de participación", "Estrategias creativas", "Acciones comunitarias"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Explico el impacto de las migraciones y desplazamientos humanos en la vida política, económica, social y cultural de nuestro país en el siglo XIX y la primera mitad del siglo XX y lo comparo con los de la actualidad. (5)"],
+        "dba": ["Comprende las consecuencias que han traído los procesos migratorios en la organización social y económica de Colombia en el siglo XX y en la actualidad. (2)"],
+        "evidencias": [
+          "Identifica en la historia de Colombia las causas de los movimientos migratorios y su influencia en las condiciones de vida de la población actual del país.",
+          "Diferencia procesos de emigración e inmigración dados en Colombia en la actualidad.",
+          "Relaciona los movimientos de la población (del campo a la ciudad, entre ciudades y al interior de la ciudad) con los cambios políticos, ambientales, laborales y sociales dados en el territorio colombiano en las últimas décadas.",
+          "Explica desde situaciones de la vida cotidiana, las consecuencias económicas y sociales que tiene para el país el desplazamiento de las personas del campo a los centros urbanos."
+        ],
+        "saberes": ["Demografía", "Procesos migratorios", "Migración siglo XIX", "Migración siglo XX", "Desplazamiento forzado en Colombia", "Consecuencias de los desplazamientos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Identifico algunas corrientes de pensamiento económico, político, cultural y filosófico del siglo XIX y explico su influencia en el pensamiento colombiano y el de América Latina."],
+        "dba": ["Analiza los cambios sociales, políticos, económicos y culturales en Colombia en el siglo XX y su impacto en la vida de los habitantes del país. (4)"],
+        "evidencias": [
+          "Establece posibles relaciones entre los hechos sociales y políticos de la segunda mitad del siglo XX en Colombia y los que tienen lugar en la actualidad (partidos políticos, violencia política, conflicto armado, desplazamiento, narcotráfico, reformas constitucionales, apertura económica, corrupción, entre otros)."
+        ],
+        "saberes": ["Cambios sociales siglo XIX al XX", "Segunda mitad del siglo XX", "Violencia política", "Conflicto armado", "Narcotráfico", "Apertura económica", "Corrientes de pensamiento económico", "Corrientes de pensamiento político", "Corrientes filosóficas siglo XIX"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Asumo una posición crítica frente a situaciones de discriminación y abuso por irrespeto a las posiciones ideológicas y propongo formas de cambiarlas."],
+        "dba": ["Evalúa cómo todo conflicto puede solucionarse mediante acuerdos en que las personas ponen de su parte para superar las diferencias (7)"],
+        "evidencias": [
+          "Establece posibles relaciones entre los hechos sociales y políticos de la segunda mitad del siglo XX en Colombia y los que tienen lugar en la actualidad.",
+          "Explica las consecuencias de aquellas acciones que pueden causar sufrimiento a otras personas.",
+          "Analiza los conflictos entre grupos con el fin de proponer alternativas de solución."
+        ],
+        "saberes": ["Discriminación", "Estereotipos", "Prejuicios", "Prácticas violatorias a los derechos humanos", "Análisis del conflicto", "Vida comunitaria", "Campañas de convivencia escolar"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Conozco y utilizo estrategias creativas para solucionar conflictos. (Por ejemplo, la lluvia de ideas.) 6",
+          "Analizo críticamente los conflictos entre grupos, en mi barrio, vereda, municipio o país. 7",
+          "Analizo, de manera crítica, los discursos que legitiman la violencia. 8"
+        ],
+        "evidencias": [
+          "Implementa técnicas de mediación para resolver conflictos en el entorno inmediato.",
+          "Evalúa críticamente los conflictos sociales actuales en el país.",
+          "Cuestiona y desmonta discursos que justifican el uso de la violencia."
+        ],
+        "saberes": ["La solución de conflictos", "Análisis crítico de los conflictos", "Discursos que legitiman la violencia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Explico las políticas que orientaron la economía colombiana a lo largo del siglo XIX y primera mitad del XX (proteccionismo, liberalismo económico...). (7)"],
+        "dba": ["Comprende el impacto social del crecimiento económico desigual que se da en las diferentes regiones del país. (8)"],
+        "evidencias": [
+          "Reconoce cómo las condiciones geográficas regionales pueden influir en la construcción o no de infraestructuras y por ende en el crecimiento económico.",
+          "Compara las características que tienen las zonas con mejores índices de crecimiento económico respecto a aquellas con menor desarrollo.",
+          "Relaciona la inversión social, la presencia de los gremios económicos y del Estado en aquellas regiones de menor índice de desarrollo humano en Colombia.",
+          "Explica posibles acciones a considerar en el mejoramiento del crecimiento de las regiones con menor índice de desarrollo humano."
+        ],
+        "saberes": ["Crecimiento económico", "Desigualdad social", "Desarrollo humano en Colombia", "Proteccionismo", "Liberalismo económico", "Neoliberalismo", "Apertura económica", "La inversión social", "Las políticas públicas"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Describo el impacto del proceso de modernización (desarrollo de los medios de comunicación, industrialización, urbanización...) en la organización social, política, económica y cultural de Colombia en el siglo XIX"],
+        "dba": ["Analiza los cambios sociales, políticos, económicos y culturales en Colombia en el siglo XX y su impacto en la vida de los habitantes del país. (4)"],
+        "evidencias": [
+          "Explica los cambios del proceso de modernización en Colombia en la primera mitad del siglo XX: construcción de vías de comunicación, urbanización y desarrollo industrial."
+        ],
+        "saberes": ["Modernización en Colombia", "Medios de comunicación", "Urbanización", "Desarrollo industrial", "Siglo XIX", "Primera mitad del siglo XX"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Comparo los mecanismos de participación ciudadana contemplados en las constituciones políticas de 1886 y 1991 y evalúo su aplicabilidad."],
+        "dba": ["Evalúa cómo todo conflicto puede solucionarse mediante acuerdos en que las personas ponen de su parte para superar las diferencias (7)"],
+        "evidencias": [
+          "Plantea argumentos sobre los discursos que legitiman la violencia con el fin de rechazarlos como alternativa a la solución de los conflictos.",
+          "Propone alternativas para la solución de conflictos que ocurren en las relaciones, incluyendo las de pareja, y que se pueden resolver a partir de la escucha y comprensión de los diferentes puntos de vista."
+        ],
+        "saberes": ["Resolución de conflictos", "Diálogo y mediación", "Compromisos reales", "Constitución política de 1991", "Mecanismos de participación ciudadana"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Pluralidad, identidad y valoración de las diferencias"],
+        "dba": [
+          "Comprendo que la orientación sexual hace parte del libre desarrollo de la personalidad y rechazo cualquier discriminación al respecto. 6",
+          "Analizo mis prácticas cotidianas e identifico cómo mis acciones u omisiones pueden contribuir a la discriminación. 7",
+          "Manifiesto indignación (rechazo, dolor, rabia) frente a cualquier discriminación o situación que vulnere los derechos; apoyo iniciativas para prevenir dichas situaciones. 8",
+          "Identifico dilemas relacionados con problemas de exclusión y analizo alternativas de solución, considerando los aspectos positivos y negativos de cada opción. (9)",
+          "Argumento y debato dilemas relacionados con exclusión y reconozco los mejores argumentos, así no coincidan con los míos. 10"
+        ],
+        "evidencias": [
+          "Promueve el respeto por el libre desarrollo de la personalidad y la orientación sexual.",
+          "Evalúa críticamente sus propias acciones para evitar conductas discriminatorias.",
+          "Participa en el debate de dilemas éticos sobre la exclusión social.",
+          "Lidera acciones preventivas ante situaciones de vulneración de derechos."
+        ],
+        "saberes": ["Mi orientación sexual", "Libre desarrollo de la personalidad", "Actitudes que promueven discriminación", "Llamados a cambiar", "Vulneración por discriminación", "Dilemas relacionados con exclusión", "Alternativas de solución"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Explico las políticas que orientaron la economía colombiana a lo largo del siglo XIX y primera mitad del XX (proteccionismo, liberalismo económico...). (7)"],
+        "dba": ["Analiza las crisis económicas dadas en la Colombia contemporánea y sus repercusiones en la vida cotidiana de las personas. (3)"],
+        "evidencias": [
+          "Caracteriza a través de estudios de caso algunas crisis económicas en Colombia (sustitución de importaciones, financiera e hipotecaria [UPAC], ruptura del pacto internacional del café, crisis internacional del petróleo).",
+          "Establece algunas causas que han generado crisis económicas en Colombia, América Latina y el mundo, y sus efectos en la economía del hogar.",
+          "Explica las consecuencias sociales de las crisis económicas en la vida diaria de las personas (desempleo, impuestos, canasta familiar, poder adquisitivo).",
+          "Plantea hipótesis de un futuro económico posible en que las personas vivan en mejores condiciones de vida."
+        ],
+        "saberes": ["Crisis económicas en Colombia", "Consecuencias sociales de la crisis", "Repercusiones en la vida cotidiana", "UPAC", "Sustitución de importaciones", "Crisis del petróleo", "Pacto del café", "Economía del hogar", "Economía y sostenibilidad"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Describo el impacto del proceso de modernización (desarrollo de los medios de comunicación, industrialización, urbanización...) en la organización social, política, económica y cultural de Colombia en la primera mitad del XX."],
+        "dba": ["Analiza los cambios sociales, políticos, económicos y culturales en Colombia en el siglo XX y su impacto en la vida de los habitantes del país. (4)"],
+        "evidencias": [
+          "Relaciona el proceso de industrialización del país con el surgimiento de los sindicatos en la primera mitad del siglo XX, para el alcance de derechos de la clase trabajadora."
+        ],
+        "saberes": ["Revolución industrial en Colombia", "Medios de comunicación", "Urbanización en el siglo XX", "Derechos de la clase trabajadora", "Sindicatos", "El código del trabajo"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Comparo algunos de los procesos políticos que tuvieron lugar en Colombia en los siglos XIX y XX (radicalismo liberal y Revolución en Marcha; Regeneración y Frente Nacional; constituciones políticas de 1886 y 1991...)."],
+        "dba": ["Comprende el papel de las mujeres en los cambios sociales, políticos, económicos y culturales en el mundo y la igualdad de derechos que han adquirido en los últimos años. (6)"],
+        "evidencias": [
+          "Identifica la participación de las mujeres en la historia de Colombia en el ámbito político, académico, cultural, industrial y financiero.",
+          "Caracteriza formas de violencia contra las mujeres en el país y en el mundo (psicológica, sexual, económica, doméstica, laboral, mediática y física) y propone alternativas para cambiarlas.",
+          "Explica las contribuciones de las mujeres en la construcción de una sociedad justa y creadora de una cultura de paz.",
+          "Propone acciones para que las diversas formas de identidad de género sean respetadas en el contexto del desarrollo de todas las potencialidades humanas."
+        ],
+        "saberes": ["Papel de las mujeres en la sociedad", "Igualdad de derechos", "Participación política de la mujer", "Violencia contra la mujer", "Contribución de las mujeres a la sociedad", "Identidad de género"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Identifico dilemas de la vida, en los que distintos derechos o distintos valores entran en conflicto y analizo posibles opciones de solución. (9)",
+          "Argumento y debato sobre dilemas de la vida cotidiana en los que distintos derechos o distintos valores entran en conflicto; reconozco los mejores argumentos. 10",
+          "Construyo, celebro, mantengo y reparo acuerdos entre grupos. 11"
+        ],
+        "evidencias": [
+          "Analiza dilemas éticos ponderando valores en conflicto.",
+          "Participa en debates reconociendo la validez de los argumentos ajenos.",
+          "Participa en la mediación y reparación de acuerdos grupales fracturados."
+        ],
+        "saberes": ["Los dilemas de la vida", "Cómo afrontar dilemas", "Argumentación ante dilemas", "La importancia de los acuerdos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

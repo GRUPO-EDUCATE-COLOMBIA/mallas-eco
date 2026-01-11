@@ -1,0 +1,276 @@
+{
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
+  "grado": "3",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Reconozco factores de tipo económico que generan bienestar o conflicto en la vida social."],
+        "dba": ["Comprende la importancia de los océanos y mares en la organización económica y social de los pueblos costeros en la actualidad."],
+        "evidencias": [
+          "Identifica los nombres de los continentes y de los océanos que conforman el planeta Tierra y reconoce las actividades que se realizan en las zonas costeras.",
+          "Diferencia los mares como porciones de los océanos y su importancia en la fijación de límites entre países."
+        ],
+        "saberes": ["El espacio geográfico y las actividades económicas", "¿Qué son los mares?", "Importancia de los mares"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Reconozco características básicas de la diversidad étnica y cultural en Colombia."],
+        "dba": ["Comprende el legado de los grupos humanos en la gastronomía, la música y el paisaje de la región, municipio, resguardo o lugar donde vive."],
+        "evidencias": [
+          "Identifica en su entorno algunos objetos, herramientas, aparatos, construcciones y documentos que brindan información acerca del pasado de su región.",
+          "Describe algunas costumbres y tradiciones que le permiten reconocerse como miembro de un grupo poblacional y de una nación a través de la historia oral con sus abuelos.",
+          "Compara las fiestas que se celebran en diferentes municipios de su departamento, en aspectos como: origen, propósito, duración y participantes.",
+          "Describe la diversidad en la gastronomía de diferentes regiones o provincias que conforman su departamento."
+        ],
+        "saberes": ["Diversidad étnica y cultural en Colombia", "La tradición oral", "Las fiestas de mi país", "Diversidad gastronómica de mi departamento"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico normas que rigen algunas comunidades a las que pertenezco y explico su utilidad."],
+        "dba": ["Comprende la importancia de participar en las decisiones de su comunidad cercana (institución educativa) mediante la elección del gobierno escolar."],
+        "evidencias": [
+          "Identifica los mecanismos de elección del gobierno escolar y la importancia de elegir y ser elegido.",
+          "Reconoce el papel que cumplen los representantes de los estudiantes y el consejo estudiantil en la vida de la institución educativa, mediante su participación en la elección de estos.",
+          "Compara las propuestas que presentan los diferentes candidatos a ocupar los cargos de personero estudiantil.",
+          "Explica la organización y el funcionamiento del consejo directivo de su institución educativa."
+        ],
+        "saberes": ["La participación democrática", "El consejo estudiantil y el gobierno escolar", "El personero estudiantil"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Participación y responsabilidad democrática"],
+        "dba": [
+          "Entiendo el sentido de las acciones reparadoras, es decir de las acciones que buscan enmendar el daño causado cuando incumplo normas o acuerdos. (6)",
+          "Colaboro activamente para el logro de metas comunes en mi salón y reconozco la importancia que tienen las normas para lograr esas metas. (7)",
+          "Participo en los procesos de elección de representantes estudiantiles, conociendo bien cada propuesta antes de elegir. (8)"
+        ],
+        "evidencias": [
+          "Identifica el sentido de las acciones reparadoras ante el incumplimiento de normas.",
+          "Colabora activamente con sus compañeros para lograr metas comunes en proyectos escolares.",
+          "Evalúa propuestas de representantes estudiantiles para participar en procesos de elección."
+        ],
+        "saberes": ["Las acciones reparadoras", "La cooperación y la importancia de las normas para lograr metas", "La participación democrática en la escuela"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": [
+          "Identifico los principales recursos naturales (renovables y no renovables).",
+          "Reconozco que los recursos naturales son finitos y exigen un uso responsable."
+        ],
+        "dba": ["Comprende la importancia de los océanos y mares en la organización económica y social de los pueblos costeros en la actualidad."],
+        "evidencias": [
+          "Plantea preguntas sobre las problemáticas ambientales que viven los océanos en la actualidad y explica el impacto en las poblaciones costeras.",
+          "Relaciona la ubicación geográfica de su departamento, municipio, resguardo o lugar donde vive, con la presencia o no de costas sobre los océanos, y reconoce las ventajas y desventajas de tenerlas."
+        ],
+        "saberes": ["Problemáticas ambientales que viven los océanos", "Ubicación geográfica", "Ventajas y desventajas de las zonas costeras"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Identifico los aportes culturales que mi comunidad y otras diferentes a la mía han hecho a lo que somos hoy."],
+        "dba": ["Comprende la importancia del tiempo en la organización de las actividades sociales, económicas y culturales en su comunidad."],
+        "evidencias": [
+          "Describe el tiempo dedicado en su familia a actividades como trabajar, estudiar, viajar, jugar, practicar deporte y leer.",
+          "Organiza las actividades personales y familiares con base en el uso del calendario.",
+          "Compara las actividades escolares, familiares y de uso del tiempo libre, llevadas a cabo el año pasado con las que realiza actualmente y expresa aquellas que quiere hacer el año próximo.",
+          "Elabora esquemas con la distribución del tiempo dedicado en procesos de producción y/o extracción de un producto típico en su región."
+        ],
+        "saberes": ["Importancia del tiempo", "Organización del tiempo", "Uso de la agenda infantil", "Actividades escolares", "Actividades familiares", "Uso del tiempo libre", "Distribución del tiempo en las actividades económicas"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico factores que generan cooperación y conflicto en las organizaciones sociales y políticas de mi entorno y explico por qué lo hacen."],
+        "dba": ["Comprende la estructura y el funcionamiento democrático a nivel del departamento como entidad política, administrativa y jurídica."],
+        "evidencias": [
+          "Diferencia los órganos y las funciones del poder público que tiene el departamento (gobernador, diputados y jueces) de los que tiene el municipio y los resguardos.",
+          "Explica la importancia del gobierno departamental en el mejoramiento de las condiciones de vida de los ciudadanos, en cuanto a educación, obras públicas, salud y recreación."
+        ],
+        "saberes": ["Estructura del Estado colombiano", "El departamento y la gobernación", "Políticas públicas de bienestar"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Comprendo que las normas ayudan a promover el buen trato y evitar el maltrato en el juego y en la vida escolar. (10)",
+          "Identifico cómo me siento yo o las personas cercanas cuando no recibimos buen trato y expreso empatía. (11)",
+          "Conozco y respeto las reglas básicas del diálogo, como el uso de la palabra y el respeto por la palabra de la otra persona. (12)"
+        ],
+        "evidencias": [
+          "Aplica normas de buen trato para evitar el maltrato en juegos y actividades escolares.",
+          "Expresa sentimientos de empatía hacia compañeros que no reciben buen trato.",
+          "Utiliza las reglas básicas del diálogo y la escucha activa en situaciones cotidianas."
+        ],
+        "saberes": ["Importancia de las normas", "El asertividad y la empatía", "Importancia de las reglas básicas"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Establezco relaciones entre el clima y las actividades económicas de las personas."],
+        "dba": ["Relaciona las características biogeográficas de su departamento, municipio, resguardo o lugar donde vive, con las actividades económicas que en ellos se realizan."],
+        "evidencias": [
+          "Identifica la oferta de recursos naturales presentes en su región respecto del suelo, clima, flora, fauna y agua.",
+          "Reconoce las actividades que se realizan en su región: agricultura, ganadería, pesca, industria, minería o servicios.",
+          "Describe las formas de organización social y económica utilizadas para la explotación de los recursos naturales (empresas, asociaciones, corporaciones autónomas regionales).",
+          "Expresa por qué en espacios con determinados climas no se cuenta con ciertos productos y destaca la importancia del trabajo que realizan quienes producen los alimentos."
+        ],
+        "saberes": ["Los recursos naturales", "La biogeografía", "Formas de organización social y económica para la explotación de los recursos naturales", "El clima y las actividades económicas de las personas"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Reconozco conflictos que se generan cuando no se respetan mis rasgos particulares o los de otras personas"],
+        "dba": ["Analiza las contribuciones de los grupos humanos que habitan en su departamento, municipio o lugar donde vive, a partir de sus características culturales."],
+        "evidencias": [
+          "Caracteriza aquellos grupos humanos que habitan en su región (afrodescendientes, raizales, blancos, indígenas, gitanos y/o mestizos).",
+          "Describe las expresiones culturales de cada uno de los grupos humanos identificados en su departamento, municipio, resguardo o lugar donde vive."
+        ],
+        "saberes": ["Grupos étnicos de mi región", "Expresiones culturales de mi región"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Reconozco algunas normas que han sido construidas socialmente y distingo aquellas en cuya construcción y modificación puedo participar (normas del hogar, manual de convivencia escolar, Código de Tránsito…)."],
+        "dba": ["Comprende la estructura y el funcionamiento democrático a nivel del departamento como entidad política, administrativa y jurídica."],
+        "evidencias": [
+          "Emite sus opiniones frente a las problemáticas observadas en los procesos de elección de cargos políticos en la región."
+        ],
+        "saberes": ["Las elecciones populares", "Problemáticas sociales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Pluralidad, identidad y valoración de las diferencias"],
+        "dba": [
+          "Manifiesto desagrado cuando me excluyen o excluyen a alguien por su género, etnia, condición social y características físicas, y lo digo respetuosamente. (5)",
+          "Comparo cómo me siento cuando me discriminan o me excluyen... y cómo, cuando me aceptan. (6)"
+        ],
+        "evidencias": [
+          "Manifiesta desagrado de forma respetuosa ante actos de exclusión por género o etnia.",
+          "Explica la importancia de aceptar a las personas comparando los sentimientos de discriminación y aceptación.",
+          "Participa en el diseño de campañas escolares contra la discriminación y la exclusión."
+        ],
+        "saberes": ["Campaña contra la exclusión", "No a la discriminación"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": [
+          "Comparo actividades económicas que se llevan a cabo en diferentes entornos.",
+          "Reconozco, describo y comparo las actividades económicas de algunas personas en mi entorno y el efecto de su trabajo en la comunidad."
+        ],
+        "dba": ["Explica las acciones humanas que han incidido en las transformaciones del territorio asociadas al número de habitantes e infraestructura, en su departamento, municipio, resguardo o lugar donde vive"],
+        "evidencias": [
+          "Reconoce los cambios y/o permanencias que se presentan en espacios como la escuela, la plaza principal y el mercado, entre otros.",
+          "Diferencia cambios dados en el territorio local por la construcción de obras públicas (carreteras, parques, alcantarillado, acueducto y hospitales, entre otros).",
+          "Indaga sobre el aumento o disminución de la población en el departamento, municipio, resguardo o lugar donde vive, a partir de diferentes fuentes documentales.",
+          "Identifica problemas sociales relevantes en la población, originados en el uso de los recursos naturales."
+        ],
+        "saberes": ["La acción humana sobre el medio ambiente", "Demografía", "Tasas de natalidad", "Mortalidad", "Densidad demográfica", "Los censos", "Problemas sociales debido al uso de los recursos naturales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": [
+          "Reconozco la diversidad étnica y cultural de mi comunidad, mi ciudad…",
+          "Participo en actividades que expresan valores culturales de mi comunidad y de otras diferentes a la mía."
+        ],
+        "dba": ["Analiza las contribuciones de los grupos humanos que habitan en su departamento, municipio o lugar donde vive, a partir de sus características culturales."],
+        "evidencias": [
+          "Reconoce la diversidad cultural como una característica del pueblo colombiano y explica los aportes de los diferentes grupos humanos.",
+          "Elabora conclusiones sobre la situación social y económica de los indígenas en su región haciendo uso de diferentes fuentes de información."
+        ],
+        "saberes": ["La diversidad cultural", "La situación social y económica de los indígenas en mi región"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico mis derechos y deberes y los de otras personas en las comunidades a las que pertenezco."],
+        "dba": ["Comprende la estructura y el funcionamiento democrático a nivel del departamento como entidad política, administrativa y jurídica."],
+        "evidencias": [
+          "Propone acciones que pueden desarrollar las instituciones departamentales para fortalecer la convivencia y la paz en las comunidades."
+        ],
+        "saberes": ["Mis derechos y deberes en comunidad", "Fortalecimiento de la convivencia y la paz en las comunidades"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Conozco y uso estrategias sencillas de resolución pacífica de conflictos. (13)",
+          "Conozco las señales y las normas básicas de tránsito para desplazarme con seguridad. (14)",
+          "Me preocupo porque los animales, las plantas y los recursos del medio ambiente reciban buen trato. (15)"
+        ],
+        "evidencias": [
+          "Aplica estrategias de resolución pacífica para manejar conflictos con sus pares.",
+          "Identifica las normas básicas de tránsito para su seguridad en la vía pública.",
+          "Promueve el buen trato hacia animales y plantas como parte del cuidado del medio ambiente."
+        ],
+        "saberes": ["La resolución de conflictos", "Las señales y normas de tránsito", "El medio ambiente", "Importancia de preocuparnos por los animales y las plantas"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}

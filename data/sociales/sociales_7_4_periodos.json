@@ -1,0 +1,277 @@
+{
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
+  "grado": "7",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Describo las características que permiten dividir a Colombia en regiones naturales. (1)"],
+        "dba": ["Comprende que las representaciones del mundo han cambiado a partir de las visiones de quienes las elaboran y de los avances de la tecnología. (1)"],
+        "evidencias": [
+          "Explica la importancia de los viajes de los exploradores del medioevo en la expansión del conocimiento del mundo.",
+          "Relaciona la concepción y representación del mundo que se tenía en la Edad Media influenciada por la Biblia con la cultura espacial europea y señala los cambios y las continuidades más relevantes."
+        ],
+        "saberes": ["Importancia de la cartografía", "Exploración en la edad media", "Expansión del conocimiento", "Representaciones de la tierra en la edad media", "Representaciones de la tierra en la modernidad", "Representaciones de la tierra en la época contemporánea", "Regiones naturales de Colombia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Identifico algunas características sociales, políticas y económicas de diferentes períodos históricos a partir de manifestaciones artísticas de cada época. (6)"],
+        "dba": ["Analiza la influencia del imperio romano en la cultura de occidente y los aportes en diversos campos como la literatura, las leyes, la ingeniería y la vida cotidiana. (3)"],
+        "evidencias": [
+          "Reconoce el imperio romano como un sistema político, militar y económico que ejerció control territorial sobre gran parte de Europa y que influyó en la cultura latinoamericana.",
+          "Describe el legado cultural del imperio romano en aspectos tales como el sistema político, el desarrollo de la infraestructura (vial, acueductos y puertos) y el comercio en diferentes lugares de Europa, norte de África y América Latina.",
+          "Argumenta las razones que llevaron a la crisis del imperio romano, para identificar los factores que pueden incidir en la decadencia de un Estado hoy en día.",
+          "Explica algunas actividades de la vida contemporánea que se inventaron en la antigua Roma (práctica de juegos públicos, el matrimonio, los gimnasios, uso de baños públicos) y cómo estas se han transformado con el paso de los siglos."
+        ],
+        "saberes": ["Imperio romano", "Decadencia del imperio romano", "Influencia romana en la actualidad", "Manifestaciones artísticas", "Manifestaciones culturales", "Caracterización por épocas"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico variaciones en el significado del concepto de ciudadanía en diversas culturas a través del tiempo."],
+        "dba": ["Comprende la responsabilidad que tiene una sociedad democrática para evitar la violación de los derechos fundamentales de sus ciudadanos. (7)"],
+        "evidencias": [
+          "Compara la Declaración Universal de los Derechos Humanos con los derechos fundamentales enunciados en la Constitución.",
+          "Plantea soluciones alternativas a las problemáticas de discriminación que se evidencian en Colombia.",
+          "Expresa una posición argumentada, a partir del estudio de casos y la norma constitucional frente a hechos o situaciones en los que se vulneran los derechos fundamentales.",
+          "Identifica en qué situaciones puede usar la tutela como mecanismo para la protección y defensa de los derechos."
+        ],
+        "saberes": ["Constitución política de Colombia", "Declaración de los derechos humanos", "Responsabilidad social", "Vulneración de derechos humanos", "Mecanismos de protección de los derechos humanos"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Participación y responsabilidad democrática"],
+        "dba": [
+          "Identifico decisiones colectivas en las que intereses de diferentes personas están en conflicto y propongo alternativas de solución que tengan en cuenta esos intereses. (7)",
+          "Preveo las consecuencias que pueden tener, sobre mí y sobre los demás, las diversas alternativas de acción propuestas frente a una decisión colectiva. (8)",
+          "Escucho y expreso, con mis palabras, las razones de mis compañeros/as durante discusiones grupales, incluso cuando no estoy de acuerdo. (9)",
+          "Uso mi libertad de expresión y respeto las opiniones ajenas. (10)",
+          "Comprendo que el disenso y la discusión constructiva contribuyen al progreso del grupo. (11)",
+          "Comprendo la importancia de participar en el gobierno escolar y de hacer seguimiento a sus representantes. (12)"
+        ],
+        "evidencias": [
+          "Analiza situaciones de conflicto en el aula proponiendo soluciones que balanceen los intereses de los compañeros.",
+          "Evalúa las posibles consecuencias de sus opiniones y acciones antes de participar en una decisión grupal.",
+          "Practica la escucha activa y el disenso constructivo durante los debates sobre el gobierno escolar."
+        ],
+        "saberes": ["Intereses de las personas", "Alternativas colectivas", "Decisiones colectivas", "Escuchar y expresar ideas", "Uso de la libertad", "Respeto de las opiniones ajenas", "Disenso", "Discusiones constructivas", "Participación del gobierno escolar"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "2": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Comparo características de la organización económica (tenencia de la tierra, uso de la mano de obra, tipos de explotación) de las colonias españolas, portuguesas e inglesas en América."],
+        "dba": ["Comprende que las representaciones del mundo han cambiado a partir de las visiones de quienes las elaboran y de los avances de la tecnología. (1)"],
+        "evidencias": [
+          "Compara las representaciones del mundo conocido en la Edad Media y el representado hoy desde los mapas e imágenes satelitales y, describe el uso de la cartografía en la vida cotidiana de las personas.",
+          "Argumenta que las representaciones del espacio son producto de las imágenes que se tienen del mundo y que se modifican con el tiempo (fotografías aéreas, imágenes de satélite)."
+        ],
+        "saberes": ["Organización económica de las colonias españolas", "Organización económica de las colonias portuguesas", "Organización económica de las colonias inglesas", "Representación del mundo en la edad media", "Uso de la cartografía en la vida cotidiana"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Identifico algunas situaciones que han generado conflictos en las organizaciones sociales (el uso de la mano de obra en el imperio egipcio, la expansión de los imperios, la tenencia de la tierra en el medioevo…). (7)"],
+        "dba": ["Analiza la Edad Media como un periodo histórico que dio origen a instituciones sociales, económicas y políticas en relación con el mismo período de las sociedades precolombinas. (4)"],
+        "evidencias": [
+          "Describe los principales eventos que identificaron las sociedades europeas en la Edad Media (lucha entre imperios, modelo económico feudal, poder económico y político de la iglesia, desigualdad social).",
+          "Reconoce la organización social de las culturas precolombinas en los períodos clásico y posclásico y señala similitudes y diferencias con las sociedades medievales de Europa."
+        ],
+        "saberes": ["La edad media", "Feudalismo", "Características sociales de la edad media", "Características culturales de la edad media", "Características económicas de la edad media"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico criterios que permiten establecer la división política de un territorio."],
+        "dba": ["Aplica procesos y técnicas de mediación de conflictos en pro del establecimiento de una cultura de la paz. (8)"],
+        "evidencias": [
+          "Identifica las consecuencias de los conflictos en la vida cotidiana de las personas y plantea acciones para resolverlos de manera negociada.",
+          "Reconoce los distintos puntos de vista de personas o grupos en una situación de conflicto, para plantear posibles alternativas de solución."
+        ],
+        "saberes": ["El conflicto y la negociación", "Alternativas pacíficas", "Solución de conflictos", "Conflicto como oportunidad de aprendizaje", "Relaciones interpersonales", "Relaciones sociales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Comprendo la importancia de brindar apoyo a la gente que está en una situación difícil. (8)",
+          "Comprendo que todas las familias tienen derecho al trabajo, la salud, la vivienda, la propiedad, la educación y la recreación. (9)",
+          "Reflexiono sobre el uso del poder y la autoridad en mi entorno y expreso pacíficamente mi desacuerdo cuando considero que hay injusticias. (10)"
+        ],
+        "evidencias": [
+          "Propone acciones solidarias para apoyar a miembros de la comunidad en situaciones de vulnerabilidad.",
+          "Reconoce y promueve el cumplimiento de los derechos fundamentales de las familias en su entorno.",
+          "Manifiesta desacuerdos ante el uso injusto del poder utilizando canales de comunicación pacíficos."
+        ],
+        "saberes": ["Apoyar a los demás", "Derecho de la familia al trabajo", "Derecho a la salud", "Derecho a la vivienda", "Derecho a la propiedad", "Derecho a la educación", "Uso del poder y la autoridad", "La injusticia"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "3": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Identifico factores económicos, sociales, políticos y geográficos que han generado procesos de movilidad poblacional en las diferentes culturas y períodos históricos."],
+        "dba": ["Interpreta las relaciones entre el crecimiento de la población, el desarrollo de los centros urbanos y las problemáticas sociales. (2)"],
+        "evidencias": [
+          "Reconoce y utiliza conceptos propios de la geografía urbana (desarrollo, crecimiento, conurbación, área metropolitana y planificación urbana) a partir de la observación directa de estos fenómenos en su contexto.",
+          "Localiza en zonas de la ciudad o del municipio la concentración de fenómenos sociales como la pobreza, la violencia, los asentamientos informales y explica las posibles causas y consecuencias de estos."
+        ],
+        "saberes": ["La geografía humana", "Fenómenos demográficos", "Fenómenos sociales en la zona urbana", "Industrialización", "Migración del campo a la ciudad en Colombia", "Problemáticas urbanas recurrentes"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Identifico y comparo las características de la organización social en las colonias españolas, portuguesas e inglesas en América. (8)"],
+        "dba": ["Evalúa las causas y consecuencias de los procesos de Conquista y colonización europea dados en América. (6)"],
+        "evidencias": [
+          "Describe los procesos de Conquista y colonización en América, llevados a cabo por españoles, portugueses, ingleses, franceses y holandeses.",
+          "Explica los cambios y continuidades de las organizaciones sociales, políticas y económicas instauradas durante la época colonial en América.",
+          "Interpreta las consecuencias demográficas, políticas y culturales que tuvo para los pueblos ancestrales la llegada de los europeos al continente americano.",
+          "Argumenta la importancia de la diversidad étnica y cultural del país como elemento constitutivo de la identidad de América Latina."
+        ],
+        "saberes": ["Conquista europea en América", "Colonización europea en América", "Organizaciones sociales coloniales", "Organizaciones políticas coloniales", "Organizaciones económicas coloniales", "Consecuencias demográficas para pueblos ancestrales", "Consecuencias políticas para pueblos ancestrales", "Consecuencias culturales para pueblos ancestrales", "Diversidad étnica y cultural", "Identidad de América Latina"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": ["Identifico y comparo las características de la organización política en las colonias españolas, portuguesas e inglesas en América."],
+        "dba": ["Analiza la Edad Media como un periodo histórico que dio origen a instituciones sociales, económicas y políticas en relación con el mismo período de las sociedades precolombinas. (4)"],
+        "evidencias": [
+          "Compara características sociales, culturales y económicas de ciudades del año 1000 en el mundo como: París (Europa), Teotihuacán y Tikal (Centroamérica), Damasco (Asia) y El Cairo (África).",
+          "Argumenta las continuidades del ordenamiento político y social instaurado durante la Edad Media y las discontinuidades en el desarrollo de las culturas precolombinas con la llegada de los europeos a América."
+        ],
+        "saberes": ["Características sociales, culturales y económicas de ciudades del año 1000", "Ordenamiento político y social de la edad media", "Desarrollo de las culturas precolombinas", "Llegada de los europeos a América"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Pluralidad, identidad y valoración de las diferencias"],
+        "dba": [
+          "Comprendo que cuando las personas son discriminadas, su autoestima y sus relaciones con los demás se ven afectadas. (6)",
+          "Identifico mis emociones ante personas o grupos que tienen intereses o gustos distintos a los míos y pienso cómo eso influye en mi trato hacia ellos. (7)",
+          "Analizo de manera crítica mis pensamientos y acciones cuando estoy en una situación de discriminación y establezco si estoy apoyando o impidiendo dicha situación con mis acciones u omisiones. (8)",
+          "Actúo con independencia frente a situaciones en las que favorecer a personas excluidas puede afectar mi imagen ante el grupo. (9)",
+          "Reconozco que los niños, las niñas, los ancianos y las personas discapacitadas merecen cuidado especial, tanto en espacios públicos como privados. (10)"
+        ],
+        "evidencias": [
+          "Describe el impacto psicológico y social de la discriminación en la identidad personal.",
+          "Evalúa sus propias reacciones ante la diversidad de gustos e intereses para fomentar un trato equitativo.",
+          "Diseña estrategias para proteger a personas en situación de vulnerabilidad o discapacidad en espacios públicos y privados."
+        ],
+        "saberes": ["La discriminación y sus consecuencias", "Mis emociones", "Intereses de los demás", "Mis pensamientos y mis acciones", "Ayuda a personas excluidas", "Cuidado especial a personas en situación de vulnerabilidad"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ],
+    "4": [
+      {
+        "componente": "Espacio y ambiente",
+        "estandar": ["Explico el impacto de las culturas involucradas en el encuentro Europa-América-África sobre los sistemas de producción tradicionales (tenencia de la tierra, uso de la mano de obra, tipos de explotación)."],
+        "dba": ["Interpreta las relaciones entre el crecimiento de la población, el desarrollo de los centros urbanos y las problemáticas sociales. (2)"],
+        "evidencias": [
+          "Relaciona la industrialización y la migración del campo a la ciudad con los procesos de organización de las ciudades en Colombia en las últimas décadas.",
+          "Compara las problemáticas urbanas más recurrentes de las ciudades actuales (contaminación, movilidad, sobrepoblación, falta de viviendas dignas, desempleo, inseguridad y migraciones internas) con algunas similares en otros períodos históricos."
+        ],
+        "saberes": ["Impacto de las culturas en el encuentro Europa-América-África", "Sistemas de producción", "Demografía", "Desarrollo de centros urbanos", "Problemáticas sociales de la industrialización", "Migraciones del campo a las ciudades"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Historia y cultura",
+        "estandar": ["Identifico y comparo el legado de cada una de las culturas involucradas en el encuentro Europa-América-África. (9)"],
+        "dba": ["Analiza el Renacimiento como una época que dio paso en Europa a una nueva configuración cultural en campos como las ciencias, la política, las artes y la literatura. (5)"],
+        "evidencias": [
+          "Describe algunos acontecimientos que dieron paso a la Modernidad e incidieron en un nuevo pensamiento político, social, económico e intelectual.",
+          "Interpreta mapas temáticos en los que reconoce ciudades estratégicas de Europa en el contexto del Renacimiento, por su importancia económica y cultural.",
+          "Explica las implicaciones políticas y económicas que tuvo la Reforma protestante para Europa y América.",
+          "Reconoce en las expresiones artísticas del Renacimiento (pintura, escultura y literatura) la vida cotidiana y la organización social de los pueblos."
+        ],
+        "saberes": ["La decadencia del feudalismo", "El renacimiento", "La edad moderna", "Reforma religiosa", "Reforma política", "Reforma económica", "Reforma social", "El arte del renacimiento"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Ético político",
+        "estandar": [
+          "Identifico y comparo el legado de cada una de las culturas involucradas en el encuentro Europa-América-África. (9)",
+          "Comparo entre sí algunos sistemas políticos estudiados y a su vez con el sistema político colombiano."
+        ],
+        "dba": ["Aplica procesos y técnicas de mediación de conflictos en pro del establecimiento de una cultura de la paz. (8)"],
+        "evidencias": [
+          "Compara diferentes estrategias para la solución de conflictos, como la negociación, el arbitraje, la conciliación, la mediación escolar y el diálogo, para la construcción de escenarios de paz y el fortalecimiento de la dignidad de las personas.",
+          "Explica situaciones donde el conflicto se ha convertido en una oportunidad para aprender y fortalecer las relaciones interpersonales y sociales."
+        ],
+        "saberes": ["Solución negociada de los conflictos", "Técnicas de mediación escolar", "La dignidad de las personas", "El conflicto como oportunidad", "Sistemas políticos (Comparación)"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      },
+      {
+        "componente": "Competencias Ciudadanas",
+        "estandar": ["Convivencia y paz"],
+        "dba": [
+          "Comprendo la importancia de los derechos sexuales y reproductivos y analizo sus implicaciones en mi vida. (11)",
+          "Promuevo el respeto a la vida, frente a riesgos como ignorar señales de tránsito, portar armas, conducir a alta velocidad o habiendo consumido alcohol; sé qué medidas tomar para actuar con responsabilidad frente a un accidente. (12)",
+          "Comprendo que el espacio público es patrimonio de todos y todas y por eso lo cuido y respeto. (13)",
+          "Reconozco que los seres vivos y el medio ambiente son un recurso único e irrepetible que merece mi respeto y consideración. (14)"
+        ],
+        "evidencias": [
+          "Explica la importancia de la autonomía y el autocuidado en relación con los derechos sexuales y reproductivos.",
+          "Implementa acciones preventivas frente a riesgos físicos y viales para proteger la vida propia y la de los demás.",
+          "Lidera iniciativas para el cuidado del espacio público y la preservación de los recursos naturales del entorno."
+        ],
+        "saberes": ["Los derechos sexuales y reproductivos", "Respeto a la vida", "Señales de tránsito", "Prevención de accidentes", "El espacio público", "Respeto al medio ambiente", "Recursos naturales"],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": null
+      }
+    ]
+  }
+}
