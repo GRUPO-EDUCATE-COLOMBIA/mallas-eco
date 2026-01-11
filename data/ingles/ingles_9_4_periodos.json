@@ -1,0 +1,492 @@
+{
+  "area": "Inglés",
+  "grado": "9",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Identifica el propósito, las partes y tipo de textos en una lectura o audio cortos y los comparte con sus compañeros. Para eso, se apoya en la estructura del texto, los títulos y subtítulos, marcadores de secuencia, conectores y el vocabulario que se repite."
+        ],
+        "evidencias": [
+          "Entiendo lo que me dicen el profesor y mis compañeros en interacciones cotidianas dentro del aula, sin necesidad de repetición.",
+          "Identifico ideas generales y específicas en textos orales, si tengo conocimiento del tema y del vocabulario utilizado.",
+          "Utilizo mi conocimiento general del mundo para comprender lo que escucho.",
+          "Infiero información específica a partir de un texto oral."
+        ],
+        "saberes": [
+          "Interacciones cotidianas del aula",
+          "Comprensión auditiva",
+          "Ideas generales y específicas en textos orales",
+          "Audios de conocimiento general",
+          "Inferencia de información"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Intercambia información sobre temas del entorno escolar y de interés general en una conversación. Para esto, se basa en los apuntes tomados después de leer o escuchar información sobre el tema tratado."
+        ],
+        "evidencias": [
+          "Participo en una conversación cuando mi interlocutor me da el tiempo para pensar mis respuestas.",
+          "Converso con mis compañeros y mi profesor sobre experiencias pasadas y planes futuros.",
+          "Me apoyo en mis conocimientos generales del mundo para participar en una conversación."
+        ],
+        "saberes": [
+          "Manejo de tiempos en conversación",
+          "Conversaciones con pares",
+          "Conversaciones del mundo"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Expresa su opinión sobre un tema discutido en clase y relacionado con su entorno académico. Para esto, cita lo que han dicho sus compañeros, otras personas o fuentes de información.",
+          "Realiza exposiciones cortas sobre un tema académico de su interés. Para esto, tiene en cuenta la secuencia de las acciones, la claridad de las ideas y se asesora con sus compañeros y su profesor."
+        ],
+        "evidencias": [
+          "Expreso mi opinión sobre asuntos de interés general para mí y mis compañeros.",
+          "Hago exposiciones ensayadas y breves sobre algún tema académico de mi interés.",
+          "Expreso mis opiniones, gustos y preferencias sobre temas que he trabajado en clase, utilizando estrategias para monitorear mi pronunciación."
+        ],
+        "saberes": [
+          "Opiniones sobre temas de interés general",
+          "Exposiciones académicas",
+          "Estrategias de monitoreo de pronunciación",
+          "Gustos y preferencias"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Reconoce relaciones de causa y efecto en lecturas cortas sobre temas académicos. Para esto, tiene en cuenta el vocabulario, los conectores y sus conocimientos previos."
+        ],
+        "evidencias": [
+          "Reconozco el propósito de una descripción en textos narrativos de mediana extensión.",
+          "Identifico puntos a favor y en contra en un texto argumentativo sobre temas con los que estoy familiarizado.",
+          "Comprendo relaciones de adición, contraste, orden temporal y espacial y causa-efecto entre enunciados sencillos.",
+          "Identifico relaciones de significado expresadas en textos sobre temas que me son familiares.",
+          "Valoro la lectura como una actividad importante para todas las áreas de mi vida.",
+          "Comprendo la información implícita en textos relacionados con temas de mi interés.",
+          "Diferencio la estructura organizativa de textos descriptivos, narrativos y argumentativos."
+        ],
+        "saberes": [
+          "Propósito de la descripción en textos",
+          "Puntos a favor y en contra",
+          "Texto argumentativo",
+          "Relaciones de adición y contraste",
+          "Relaciones de orden temporal y espacial",
+          "Relaciones de causa y efecto",
+          "Relaciones de significado",
+          "Hábito lector",
+          "Información implícita",
+          "Estructura descriptiva, narrativa y argumentativa"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Explica el porqué de planes y acciones relacionadas con su entorno personal, escolar y comunitario.",
+          "Estructura sus explicaciones de manera apropiada y tiene en cuenta la ortografía, la pronunciación y conectores para comunicar sus ideas.",
+          "Redacta textos de mediana longitud en los cuales realiza recomendaciones o sugerencias sobre situaciones de interés personal, escolar o social. Para ello, tiene en cuenta las relaciones de contraste, comparación, adición, entre otras."
+        ],
+        "evidencias": [
+          "Contesto, en forma escrita, preguntas relacionadas con textos que he leído.",
+          "Produzco textos sencillos con diferentes funciones (describir, narrar, argumentar) sobre temas personales.",
+          "Parafraseo información que leo como parte de mis actividades académicas.",
+          "Organizo párrafos coherentes cortos, teniendo en cuenta elementos formales del lenguaje.",
+          "Edito mis escritos en clase (ortografía, vocabulario, estructuras).",
+          "Explico y justifico brevemente mis planes y acciones."
+        ],
+        "saberes": [
+          "Preguntas y respuestas escritas",
+          "Producción de textos propios",
+          "Parafraseo de información",
+          "Organización de párrafos",
+          "Edición y corrección de textos",
+          "Justificación de planes y acciones"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "2": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Identifica el propósito, las partes y tipo de textos en una lectura o audio cortos y los comparte con sus compañeros."
+        ],
+        "evidencias": [
+          "Entiendo interacciones cotidianas dentro del aula.",
+          "Identifico ideas generales y específicas.",
+          "Infiero información específica."
+        ],
+        "saberes": [
+          "Interacciones de aula",
+          "Urban tribes",
+          "Audios de conocimiento general",
+          "Información específica"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Intercambia información sobre temas del entorno escolar y de interés general en una conversación."
+        ],
+        "evidencias": [
+          "Participo en conversaciones respetando tiempos de respuesta.",
+          "Converso sobre experiencias pasadas y planes futuros."
+        ],
+        "saberes": [
+          "Manejo de tiempos verbales",
+          "Conversaciones con pares",
+          "Conversaciones del mundo",
+          "Respecting differences"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Expresa su opinión sobre un tema discutido en clase.",
+          "Realiza exposiciones cortas sobre un tema académico de su interés."
+        ],
+        "evidencias": [
+          "Expreso mi opinión sobre asuntos de interés general.",
+          "Hago exposiciones ensayadas y breves.",
+          "Expreso opiniones, gustos y preferencias monitoreando pronunciación."
+        ],
+        "saberes": [
+          "Opiniones generales",
+          "Exposiciones académicas",
+          "Pronunciación",
+          "Celebrations and carnivals around the world"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Reconoce relaciones de causa y efecto en lecturas cortas sobre temas académicos."
+        ],
+        "evidencias": [
+          "Reconozco el propósito de descripción en textos narrativos.",
+          "Identifico puntos a favor y en contra.",
+          "Identifico relaciones de significado.",
+          "Valoro la lectura como actividad diaria."
+        ],
+        "saberes": [
+          "Propósito de descripción",
+          "Puntos a favor y en contra",
+          "Relaciones de significado",
+          "Stereotypes",
+          "Generalizations",
+          "Lectura diaria",
+          "Información implícita"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Explica el porqué de planes y acciones.",
+          "Estructura sus explicaciones de manera apropiada.",
+          "Redacta textos de mediana longitud."
+        ],
+        "evidencias": [
+          "Contesto en forma escrita preguntas sobre lecturas.",
+          "Produzco textos sencillos con diferentes funciones.",
+          "Organizo párrafos coherentes.",
+          "Edito mis escritos."
+        ],
+        "saberes": [
+          "Preguntas y respuestas escritas",
+          "Producción propia",
+          "Orden de párrafos",
+          "Corrección de textos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "3": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Identifica el propósito, las partes y tipo de textos en una lectura o audio cortos."
+        ],
+        "evidencias": [
+          "Sigo instrucciones dadas en clase.",
+          "Muestro actitud respetuosa y tolerante.",
+          "Utilizo conocimiento general para comprender."
+        ],
+        "saberes": [
+          "Instrucciones de clase",
+          "Actitud respetuosa",
+          "Audios de conocimiento general"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Intercambia información sobre temas del entorno escolar y de interés general."
+        ],
+        "evidencias": [
+          "Participo dando tiempo para pensar respuestas.",
+          "Monitoreo la toma de turnos en discusiones."
+        ],
+        "saberes": [
+          "Manejo de tiempos",
+          "Conversaciones del mundo",
+          "Toma de turnos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Expresa su opinión sobre un tema discutido en clase.",
+          "Intercambia información sobre temas del entorno escolar.",
+          "Realiza exposiciones cortas sobre un tema académico."
+        ],
+        "evidencias": [
+          "Expreso opinión sobre asuntos de interés general.",
+          "Hago descripciones sencillas.",
+          "Hago exposiciones ensayadas y breves."
+        ],
+        "saberes": [
+          "Opiniones generales",
+          "Airport announcements",
+          "Descripciones sencillas",
+          "Exposiciones académicas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Reconoce relaciones de causa y efecto en lecturas cortas."
+        ],
+        "evidencias": [
+          "Reconozco el propósito de descripción.",
+          "Identifico puntos a favor y en contra.",
+          "Comprendo relaciones de adición, contraste, orden y causa-efecto."
+        ],
+        "saberes": [
+          "Propósito descriptivo",
+          "Festivities for all tastes",
+          "Relaciones de adición y contraste",
+          "Relaciones de significado",
+          "Lectura diaria",
+          "Información implícita"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Resume la información que ha leído o escuchado.",
+          "Explica el porqué de planes y acciones.",
+          "Redacta textos de mediana longitud."
+        ],
+        "evidencias": [
+          "Represento en forma gráfica información de textos comparativos.",
+          "Contesto preguntas sobre lecturas.",
+          "Parafraseo información leída.",
+          "Uso planes representados en mapas o diagramas."
+        ],
+        "saberes": [
+          "Stereotypes and generalizations",
+          "Preguntas y respuestas escritas",
+          "Parafraseo",
+          "Párrafos",
+          "Mapas y diagramas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "4": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Identifica el propósito, las partes y tipo de textos en una lectura o audio cortos."
+        ],
+        "evidencias": [
+          "Sigo instrucciones dadas en clase.",
+          "Muestro actitud respetuosa.",
+          "Comprendo lo que escucho."
+        ],
+        "saberes": [
+          "Instrucciones de clase",
+          "Talented people",
+          "Audios de conocimiento general"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Intercambia información sobre temas del entorno escolar y de interés general."
+        ],
+        "evidencias": [
+          "Participo dando tiempo para pensar.",
+          "Me apoyo en conocimientos generales."
+        ],
+        "saberes": [
+          "Manejo de tiempos",
+          "Interests, feelings and reactions"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Expresa su opinión sobre un tema discutido en clase.",
+          "Intercambia información sobre temas del entorno escolar.",
+          "Realiza exposiciones cortas sobre un tema académico."
+        ],
+        "evidencias": [
+          "Expreso opinión sobre interés general.",
+          "Hago descripciones sencillas.",
+          "Hago exposiciones ensayadas."
+        ],
+        "saberes": [
+          "Opiniones generales",
+          "Descripciones sencillas",
+          "Exposiciones académicas",
+          "Biographies"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Reconoce relaciones de causa y efecto en lecturas cortas."
+        ],
+        "evidencias": [
+          "Reconozco el propósito de descripción.",
+          "Identifico puntos a favor y en contra.",
+          "Comprendo relaciones de adición, contraste, orden y causa-efecto."
+        ],
+        "saberes": [
+          "Propósito descriptivo",
+          "Anecdotes",
+          "Relaciones de adición y contraste",
+          "Relaciones de significado",
+          "Lectura diaria",
+          "Información implícita"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Resume la información que ha leído o escuchado.",
+          "Explica el porqué de planes y acciones.",
+          "Redacta textos de mediana longitud."
+        ],
+        "evidencias": [
+          "Reconozco propósito de diferentes tipos de textos.",
+          "Represento en forma gráfica información.",
+          "Parafraseo información.",
+          "Uso planes en mapas o diagramas."
+        ],
+        "saberes": [
+          "Propósitos textuales",
+          "Timelines",
+          "Preguntas y respuestas escritas",
+          "Parafraseo",
+          "Párrafos",
+          "Mapas y diagramas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ]
+  }
+}

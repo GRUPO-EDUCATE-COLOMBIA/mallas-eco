@@ -1,0 +1,367 @@
+{
+  "area": "Inglés",
+  "grado": "1",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Comprende y realiza declaraciones sencillas, usando expresiones ensayadas, sobre su entorno inmediato (casa y escuela)."
+        ],
+        "evidencias": [
+          "Entiendo cuando me saludan y se despiden de mí.",
+          "Escribo el nombre de lugares y elementos que reconozco en una ilustración.",
+          "Expreso e indico necesidades personales básicas relacionadas con el aula."
+        ],
+        "saberes": [
+          "Saludos",
+          "Despedidas",
+          "Nombres de lugares",
+          "Elementos en imágenes",
+          "Necesidades personales básicas en el aula"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Comprende y realiza declaraciones sencillas, usando expresiones ensayadas, sobre su entorno inmediato (casa y escuela).",
+          "Responde preguntas sencillas sobre información personal básica, como su nombre, edad, familia y compañeros de clase."
+        ],
+        "evidencias": [
+          "Respondo brevemente a las preguntas 'qué, quién, cuándo y dónde', si se refieren a mi familia, mis amigos o mi colegio.",
+          "Respondo a preguntas sobre personas, objetos y lugares de mi entorno."
+        ],
+        "saberes": [
+          "Preguntas de 'qué, quién, cuándo y dónde'",
+          "Preguntas sobre personas",
+          "Objetos y lugares de mi entorno"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Comprende y realiza declaraciones sencillas, usando expresiones ensayadas, sobre su entorno inmediato (casa y escuela)."
+        ],
+        "evidencias": [
+          "Uso expresiones cotidianas para expresar mis necesidades inmediatas en el aula."
+        ],
+        "saberes": [
+          "Expresiones cotidianas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Comprende y responde a instrucciones sobre tareas escolares básicas, de manera verbal y no verbal."
+        ],
+        "evidencias": [
+          "Comprendo secuencias relacionadas con hábitos y rutinas.",
+          "Identifico palabras relacionadas entre sí sobre temas que me son familiares.",
+          "Reconozco palabras y frases cortas en inglés en libros, objetos, juguetes, propagandas y lugares de mi escuela.",
+          "Relaciono ilustraciones con oraciones simples.",
+          "Reconozco y sigo instrucciones sencillas, si están ilustradas."
+        ],
+        "saberes": [
+          "Hábitos",
+          "Rutinas",
+          "Relación de vocabulario",
+          "Palabras y frases cortas en libros, objetos, juguetes, propagandas y lugares de mi escuela",
+          "Oraciones simples",
+          "Instrucciones sencillas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Organiza la secuencia de eventos principales en una historia corta y sencilla, sobre temas familiares, usando imágenes, después de haberla leído o escuchado."
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre cómo me siento.",
+          "Escribo información personal en formatos sencillos."
+        ],
+        "saberes": [
+          "Preguntas sobre cómo me siento",
+          "Información personal"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "2": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Comprende y realiza declaraciones sencillas, usando expresiones ensayadas, sobre su entorno inmediato (casa y escuela)."
+        ],
+        "evidencias": [
+          "Entiendo cuando me saludan y se despiden de mí."
+        ],
+        "saberes": [
+          "Nombres de lugares y elementos en imágenes",
+          "Sentimientos y estados de ánimo",
+          "Los gustos",
+          "Expresiones cotidianas",
+          "Necesidades personales básicas en el aula"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Responde preguntas sencillas sobre información personal básica, como su nombre, edad, familia y compañeros de clase."
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre personas, objetos y lugares de mi entorno."
+        ],
+        "saberes": [
+          "Preguntas sobre su entorno"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Comprende y responde a instrucciones sobre tareas escolares básicas, de manera verbal y no verbal."
+        ],
+        "evidencias": [
+          "Reconozco y sigo instrucciones sencillas, si están ilustradas."
+        ],
+        "saberes": [
+          "Relación de vocabulario",
+          "Palabras y frases cortas en libros, objetos, juguetes, propagandas y lugares de mi escuela",
+          "Oraciones simples",
+          "Instrucciones sencillas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Organiza la secuencia de eventos principales en una historia corta y sencilla, sobre temas familiares, usando imágenes, después de haberla leído o escuchado."
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre cómo me siento."
+        ],
+        "saberes": [
+          "Preguntas sobre cómo me siento"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "3": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Comprende y realiza declaraciones sencillas, usando expresiones ensayadas, sobre su entorno inmediato (casa y escuela)."
+        ],
+        "evidencias": [
+          "Entiendo cuando me saludan y se despiden de mí."
+        ],
+        "saberes": [
+          "Nombres de lugares y elementos en imágenes",
+          "Preguntas de 'qué, quién, cuándo y dónde'",
+          "Expresiones"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Responde preguntas sencillas sobre información personal básica, como su nombre, edad, familia y compañeros de clase."
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre personas, objetos y lugares de mi entorno."
+        ],
+        "saberes": [
+          "Preguntas sobre mí, mi familia y mi entorno",
+          "Descripciones de objetos y lugares",
+          "Preguntas sobre su entorno"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Comprende y responde a instrucciones sobre tareas escolares básicas, de manera verbal y no verbal."
+        ],
+        "evidencias": [
+          "Reconozco y sigo instrucciones sencillas, si están ilustradas."
+        ],
+        "saberes": [
+          "Relación de vocabulario",
+          "Palabras y frases cortas en libros, objetos, juguetes, propagandas y lugares de mi escuela",
+          "Oraciones simples",
+          "Instrucciones sencillas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Organiza la secuencia de eventos principales en una historia corta y sencilla, sobre temas familiares, usando imágenes, después de haberla leído o escuchado."
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre cómo me siento."
+        ],
+        "saberes": [
+          "Preguntas sobre cómo me siento"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "4": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Comprende y realiza declaraciones sencillas, usando expresiones ensayadas, sobre su entorno inmediato (casa y escuela)."
+        ],
+        "evidencias": [
+          "Escribo el nombre de lugares y elementos que reconozco en una ilustración."
+        ],
+        "saberes": [
+          "Nombres de lugares y elementos en imágenes"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Responde preguntas sencillas sobre información personal básica, como su nombre, edad, familia y compañeros de clase.",
+          "Comprende y realiza declaraciones sencillas, usando expresiones ensayadas, sobre su entorno inmediato (casa y escuela)."
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre personas, objetos y lugares de mi entorno.",
+          "Respondo brevemente a las preguntas 'qué, quién, cuándo y dónde', si se refieren a mi familia, mis amigos o mi colegio."
+        ],
+        "saberes": [
+          "Preguntas sobre mí, mi familia y mi entorno",
+          "Preguntas de 'qué, quién, cuándo y dónde'",
+          "Preguntas sobre su entorno"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Comprende y realiza declaraciones sencillas, usando expresiones ensayadas, sobre su entorno inmediato (casa y escuela)."
+        ],
+        "evidencias": [
+          "Uso expresiones cotidianas para expresar mis necesidades inmediatas en el aula."
+        ],
+        "saberes": [
+          "Expresiones cotidianas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Comprende y responde a instrucciones sobre tareas escolares básicas, de manera verbal y no verbal."
+        ],
+        "evidencias": [
+          "Identifico palabras relacionadas entre sí sobre temas que me son familiares.",
+          "Reconozco palabras y frases cortas en inglés en libros, objetos, juguetes, propagandas y lugares de mi escuela.",
+          "Relaciono ilustraciones con oraciones simples.",
+          "Reconozco y sigo instrucciones sencillas, si están ilustradas."
+        ],
+        "saberes": [
+          "Relación de vocabulario",
+          "Palabras y frases cortas en libros, objetos, juguetes, propagandas y lugares de mi escuela",
+          "Oraciones simples",
+          "Instrucciones sencillas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Organiza la secuencia de eventos principales en una historia corta y sencilla, sobre temas familiares, usando imágenes, después de haberla leído o escuchado."
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre cómo me siento."
+        ],
+        "saberes": [
+          "Preguntas sobre cómo me siento"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ]
+  }
+}

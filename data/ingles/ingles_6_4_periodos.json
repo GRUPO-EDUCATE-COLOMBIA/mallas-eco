@@ -1,0 +1,462 @@
+{
+  "area": "Inglés",
+  "grado": "6",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos."
+        ],
+        "evidencias": [
+          "Comprendo preguntas y expresiones orales que se refieren a mí, a mi familia, mis amigos y mi entorno."
+        ],
+        "saberes": [
+          "Preguntas y expresiones orales sobre entorno personal",
+          "Instrucciones escritas de cosas cotidianas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos.",
+          "Solicita y brinda aclaraciones sobre cómo se escriben nombres y palabras desconocidas en una conversación corta.",
+          "Participa en una conversación corta."
+        ],
+        "evidencias": [
+          "Comprendo relaciones establecidas por palabras como and (adición), but (contraste), first, second... orden temporal, en enunciados sencillos.",
+          "Solicito explicaciones sobre situaciones puntuales en mi escuela, mi familia y mi entorno cercano.",
+          "Participo en situaciones comunicativas cotidianas tales como pedir favores, disculparme y agradecer.",
+          "Inicio, mantengo y cierro una conversación sencilla sobre un tema conocido."
+        ],
+        "saberes": [
+          "Conectores de adición (and)",
+          "Conectores de contraste (but)",
+          "Orden temporal (first, second)",
+          "Preguntas explicativas puntuales",
+          "Pedir favores",
+          "Disculparse",
+          "Agradecer",
+          "Estructura de la conversación (inicio, nudo y cierre)"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos.",
+          "Describe las características básicas de personas, cosas y lugares."
+        ],
+        "evidencias": [
+          "Utilizo vocabulario adecuado para darle coherencia a mis escritos.",
+          "Describo con oraciones simples a una persona, lugar u objeto que me son familiares aunque, si lo requiero, me apoyo en apuntes o en mi profesor.",
+          "Doy instrucciones orales sencillas en situaciones escolares, familiares y de mi entorno cercano.",
+          "Describo con oraciones simples mi rutina diaria y la de otras personas."
+        ],
+        "saberes": [
+          "Vocabulario temático",
+          "Descripción de personas, lugares y objetos",
+          "Instrucciones orales",
+          "Rutinas diarias propias y de terceros"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos.",
+          "Responde a preguntas relacionadas con el 'qué, quién y cuándo' después de leer o escuchar un texto corto y sencillo, siempre y cuando el tema esté relacionado con eventos que le son familiares."
+        ],
+        "evidencias": [
+          "Comprendo textos literarios, académicos y de interés general, escritos con un lenguaje sencillo.",
+          "Identifico el significado adecuado de las palabras en el diccionario según el contexto.",
+          "Identifico en textos sencillos, elementos culturales como costumbres y celebraciones.",
+          "Respondo con frases cortas a preguntas sencillas sobre temas que me son familiares."
+        ],
+        "saberes": [
+          "Textos literarios y académicos sencillos",
+          "Uso del diccionario según contexto",
+          "Costumbres y celebraciones culturales",
+          "Respuestas cortas a preguntas de comprensión"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Comprende instrucciones y expresa de manera escrita y oral.",
+          "Escribe información personal básica en formatos preestablecidos que solicitan datos como nombre, edad, fecha de nacimiento, género, nacionalidad, dirección, teléfono, etc."
+        ],
+        "evidencias": [
+          "Comprendo mensajes cortos y simples relacionados con mi entorno y mis intereses personales y académicos.",
+          "Puedo extraer información general y específica de un texto corto y escrito en un lenguaje sencillo.",
+          "Describo con frases cortas personas, lugares, objetos o hechos relacionados con temas y situaciones que me son familiares.",
+          "Escribo un texto corto relativo a mí, a mi familia, mis amigos, mi entorno o sobre hechos que me son familiares.",
+          "Expreso de manera sencilla lo que me gusta y me disgusta respecto a algo.",
+          "Narro o describo de forma sencilla hechos y actividades que me son familiares."
+        ],
+        "saberes": [
+          "Mensajes cortos y simples",
+          "Extracción de información",
+          "Descripción de hechos familiares",
+          "Gustos y disgustos",
+          "Narración de hechos básicos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "2": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos."
+        ],
+        "evidencias": [
+          "Comprendo preguntas y expresiones orales que se refieren a mí, a mi familia, mis amigos y mi entorno."
+        ],
+        "saberes": [
+          "Instrucciones escritas de cosas cotidianas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos.",
+          "Solicita y brinda aclaraciones sobre cómo se escriben nombres y palabras desconocidas en una conversación corta.",
+          "Participa en una conversación corta."
+        ],
+        "evidencias": [
+          "Comprendo relaciones establecidas por palabras como and, but, first, second...",
+          "Solicito explicaciones sobre situaciones puntuales.",
+          "Participo en situaciones comunicativas cotidianas.",
+          "Inicio, mantengo y cierro una conversación sencilla."
+        ],
+        "saberes": [
+          "Relaciones con conectores",
+          "Conectores de comparación (as...as, than, as, as if, like)",
+          "Lecturas dirigidas",
+          "Preguntas explicativas",
+          "Conversaciones completas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos.",
+          "Describe las características básicas de personas, cosas y lugares."
+        ],
+        "evidencias": [
+          "Utilizo vocabulario adecuado.",
+          "Describo con oraciones simples a una persona, lugar u objeto.",
+          "Describo con oraciones simples mi rutina diaria."
+        ],
+        "saberes": [
+          "Present simple",
+          "Past simple"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos.",
+          "Responde a preguntas relacionadas con el 'qué, quién y cuándo' después de leer o escuchar un texto corto y sencillo."
+        ],
+        "evidencias": [
+          "Comprendo textos literarios, académicos y de interés general.",
+          "Identifico el significado adecuado de las palabras.",
+          "Identifico en textos sencillos, elementos culturales.",
+          "Respondo con frases cortas a preguntas sencillas."
+        ],
+        "saberes": [
+          "Textos informativos de interés general",
+          "Vocabulario desconocido",
+          "Eventos culturales de la ciudad y el país"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Comprende instrucciones y expresa de manera escrita y oral.",
+          "Escribe información personal básica en formatos preestablecidos."
+        ],
+        "evidencias": [
+          "Comprendo mensajes cortos y simples.",
+          "Extraigo información general y específica.",
+          "Describo con frases cortas personas, lugares, objetos o hechos.",
+          "Escribo un texto corto relativo a mí.",
+          "Escribo textos cortos expresando contraste, adición, causa y efecto.",
+          "Establezco comparaciones entre personajes, lugares y objetos."
+        ],
+        "saberes": [
+          "Mensajes cortos y simples",
+          "Extracción de información",
+          "Descripción de hechos",
+          "Textos del presente y pasado",
+          "Conectores vistos",
+          "Expresiones de causa y efecto",
+          "Comparaciones entre personajes",
+          "Opiniones (lo que me gusta y lo que no)"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "3": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos."
+        ],
+        "evidencias": [
+          "Comprendo preguntas y expresiones orales que se refieren a mí.",
+          "Comprendo relaciones establecidas por conectores temporales y de adición/contraste."
+        ],
+        "saberes": [
+          "Preguntas y expresiones orales personales",
+          "Conectores de explicación (because, because of, for, since)",
+          "Ejercicios de escucha (listening)"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Participa en una conversación corta para decir su nombre, edad y datos básicos a profesores, amigos y familiares."
+        ],
+        "evidencias": [
+          "Participo en situaciones comunicativas cotidianas (favores, disculpas, agradecimientos).",
+          "Inicio, mantengo y cierro una conversación sencilla."
+        ],
+        "saberes": [
+          "Pedir favores",
+          "Disculparse",
+          "Agradecer",
+          "Conversaciones completas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos."
+        ],
+        "evidencias": [
+          "Utilizo vocabulario adecuado para darle coherencia a mis escritos."
+        ],
+        "saberes": [
+          "Vocabulario en escritos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Comprende el tema e información general de un texto corto y sencillo, valiéndose de ayudas visuales.",
+          "Responde a preguntas relacionadas con el 'qué, quién y cuándo' en temas familiares."
+        ],
+        "evidencias": [
+          "Comprendo textos literarios, académicos y de interés general.",
+          "Identifico el significado adecuado de las palabras.",
+          "Identifico en textos sencillos elementos culturales.",
+          "Respondo con frases cortas a preguntas sencillas."
+        ],
+        "saberes": [
+          "Preguntas literales de complejidad media",
+          "Significado de palabras",
+          "Eventos culturales americanos",
+          "Respuestas cortas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Comprende instrucciones relacionadas con actividades escolares y las expresa de manera escrita.",
+          "Escribe información personal básica en formatos preestablecidos."
+        ],
+        "evidencias": [
+          "Comprendo mensajes cortos y simples relacionados con el entorno.",
+          "Extraigo información general y específica.",
+          "Escribo un texto corto relativo a mí, familia o amigos.",
+          "Escribo textos cortos expresando contraste, adición, causa y efecto.",
+          "Narro o describo hechos y actividades familiares."
+        ],
+        "saberes": [
+          "Mensajes cortos y simples",
+          "Cultura americana (eventos de interés)",
+          "Extracción de información",
+          "Texto relativo a cosas familiares",
+          "Textos de causa y efecto",
+          "Narración de hechos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "4": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos."
+        ],
+        "evidencias": [
+          "Comprendo preguntas y expresiones orales referidas a mi entorno."
+        ],
+        "saberes": [
+          "Preguntas y expresiones orales personales",
+          "Video sobre temas de interés",
+          "Ejercicios de listening"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos.",
+          "Describe las características básicas de personas, cosas y lugares de su escuela, ciudad y comunidad.",
+          "Participa en una conversación corta para decir datos personales básicos."
+        ],
+        "evidencias": [
+          "Utilizo vocabulario adecuado para dar coherencia.",
+          "Describo con oraciones simples a personas, lugares u objetos.",
+          "Participo en situaciones comunicativas cotidianas (pedir favores, disculpas).",
+          "Inicio, mantengo y cierro una conversación sencilla."
+        ],
+        "saberes": [
+          "Vocabulario en escritos",
+          "Descripción de hechos con retroalimentación",
+          "Pasado continuo (tiempo verbal)",
+          "Pedir favores",
+          "Disculparse",
+          "Conversaciones completas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Comprende el tema e información general de un texto corto y sencillo.",
+          "Responde a preguntas sobre eventos familiares."
+        ],
+        "evidencias": [
+          "Comprendo textos literarios y académicos de interés general.",
+          "Identifico significado de palabras en el diccionario.",
+          "Identifico elementos culturales en textos sencillos.",
+          "Respondo con frases cortas a preguntas sobre temas familiares."
+        ],
+        "saberes": [
+          "Textos literarios y académicos con lenguaje sencillo",
+          "Preguntas inferenciales de complejidad media",
+          "Cultura británica (eventos)",
+          "Respuestas cortas a preguntas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Comprende instrucciones sobre tareas de clase y comunidad y las expresa por escrito.",
+          "Escribe información personal básica en formatos preestablecidos."
+        ],
+        "evidencias": [
+          "Comprendo mensajes cortos y simples.",
+          "Extraigo información general y específica.",
+          "Describo personas, lugares u objetos con frases cortas.",
+          "Escribo un texto corto relativo a mí o mi entorno.",
+          "Establezco comparaciones entre personajes, lugares y objetos.",
+          "Narro o describo hechos y actividades familiares."
+        ],
+        "saberes": [
+          "Mensajes cortos y simples",
+          "Cultura británica (eventos y pasado continuo)",
+          "Descripción de objetos",
+          "Texto relativo a cosas familiares",
+          "Comparaciones entre personajes",
+          "Narración de hechos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ]
+  }
+}

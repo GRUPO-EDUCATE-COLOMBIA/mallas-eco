@@ -1,0 +1,417 @@
+{
+  "area": "Inglés",
+  "grado": "10",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Explica las ideas de un textooralo escrito acerca de temas de su interés o que le son familiares a partir de su conocimiento previo, inferencias e interpretaciones."
+        ],
+        "evidencias": [
+          "Identifico personas, situaciones, lugares y el tema en conversaciones sencillas.",
+          "Identifico el propósito de un texto oral.",
+          "Muestro una actitud respetuosa y tolerante cuando escucho a otros.",
+          "Utilizo estrategias adecuadas al propósito y al tipo de texto (activación de conocimientos previos, apoyo en el lenguaje corporal y gestual, uso de imágenes) para comprender lo que escucho.",
+          "Me apoyo en el lenguaje corporal y gestual del hablante para comprender mejor lo que dice."
+        ],
+        "saberes": [
+          "Personas, situaciones y lugares",
+          "Tema en conversaciones sencillas",
+          "Propósito de un texto oral",
+          "Actitud respetuosa en la escucha",
+          "Estrategias de comprensión auditiva",
+          "Lenguaje corporal y gestual"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Sostiene conversaciones espontáneas y sencillas acerca de temas que son de su conocimiento, interés personal o académico. Según su propósito y el conocimiento del interlocutor, es capaz de seleccionar expresiones apropiadas para iniciar, mantener y cerrar una conversación."
+        ],
+        "evidencias": [
+          "Participo espontáneamente en conversaciones sobre temas de mi interés utilizando un lenguaje claro y sencillo.",
+          "Utilizo estrategias que me permiten iniciar, mantener y cerrar una conversación sencilla sobre temas de mi interés, de una forma natural."
+        ],
+        "saberes": [
+          "Conversaciones de interés personal",
+          "Estrategias para iniciar conversaciones naturales",
+          "Estrategias para mantener conversaciones naturales",
+          "Estrategias para cerrar conversaciones naturales"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Explica las ideas de un texto oral o escrito acerca de temas de su interés o que le son familiares a partir de su conocimiento previo, inferencias e interpretaciones."
+        ],
+        "evidencias": [
+          "Utilizo elementos metalingüísticos como gestos y entonación para hacer más comprensible lo que digo."
+        ],
+        "saberes": [
+          "Elementos metalingüísticos al hablar",
+          "Gestos y entonación"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Distingue información general y específica en textos de opinión y discusiones orales y escritos sobre temas conocidos. Para esto, responde a las preguntas ¿de qué trata el texto? y ¿cuál es el enunciado más importante que el autor hace acerca del tema?"
+        ],
+        "evidencias": [
+          "Identifico palabras clave dentro del texto que me permiten comprender su sentido general.",
+          "Identifico el punto de vista del autor.",
+          "Analizo textos descriptivos, narrativos y argumentativos con el fin de comprender las ideas principales y específicas.",
+          "Hago inferencias a partir de la información en un texto.",
+          "Comprendo variedad de textos informativos provenientes de diferentes fuentes"
+        ],
+        "saberes": [
+          "Palabras clave en textos",
+          "Puntos de vista de los autores",
+          "Ideas principales y específicas",
+          "Inferencias de textos",
+          "Textos informativos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Produce mensajes escritos, tales como cartas y correos electrónicos, claros y bien estructurados teniendo en cuenta el contexto en el que tienen lugar. Para esto, utiliza el vocabulario y las estructuras de texto requeridas."
+        ],
+        "evidencias": [
+          "Escribo textos de diferentes tipos teniendo en cuenta a mi posible lector."
+        ],
+        "saberes": [
+          "Textos y sus posibles lectores",
+          "Adaptación al contexto"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "2": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Explica las ideas de un texto oral o escrito acerca de temas de su interés o que le son familiares."
+        ],
+        "evidencias": [
+          "Identifico conectores en una situación de habla para comprender su sentido.",
+          "Utilizo las imágenes e información del contexto de habla para comprender mejor lo que escucho."
+        ],
+        "saberes": [
+          "Conectores en conversaciones",
+          "Imágenes e información contextual",
+          "Mejora de la escucha"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Sostiene conversaciones espontáneas y sencillas.",
+          "Intercambia opiniones sobre situaciones de interés personal, escolar o social."
+        ],
+        "evidencias": [
+          "Respondo preguntas teniendo en cuenta a mi interlocutor y el contexto.",
+          "Utilizo una pronunciación inteligible para lograr una comunicación efectiva.",
+          "Uso lenguaje funcional para discutir alternativas y negociar acuerdos en debates."
+        ],
+        "saberes": [
+          "Talking about life",
+          "Pronunciación inteligible",
+          "Lenguaje funcional en debates"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Responde preguntas e inquietudes después de hacer una exposición oral.",
+          "Explica las ideas de un texto oral o escrito."
+        ],
+        "evidencias": [
+          "Puedo expresarme con la seguridad y confianza propias de mi personalidad.",
+          "Opino sobre los estilos de vida de la gente de otras culturas."
+        ],
+        "saberes": [
+          "Seguridad y confianza al expresarse",
+          "Present Perfect affirmative",
+          "Present Perfect negative",
+          "Present Perfect interrogative"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Distingue información general y específica en textos de opinión y discusiones."
+        ],
+        "evidencias": [
+          "Identifico los valores de otras culturas y eso me permite construir mi interpretación de su identidad."
+        ],
+        "saberes": [
+          "Valores de otras culturas",
+          "Identidades culturales",
+          "Reading about World heroes"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Produce mensajes escritos claros y bien estructurados."
+        ],
+        "evidencias": [
+          "Escribo diferentes tipos de textos de mediana longitud y con una estructura sencilla.",
+          "Escribo resúmenes e informes que demuestran mi conocimiento sobre temas de otras disciplinas."
+        ],
+        "saberes": [
+          "Construcción de textos medianos",
+          "Resúmenes e informes",
+          "Escritura como medio de expresión"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "3": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Explica las ideas de un texto oral o escrito."
+        ],
+        "evidencias": [
+          "Muestro una actitud respetuosa y tolerante cuando escucho a otros."
+        ],
+        "saberes": [
+          "The brain",
+          "Multiple intelligences",
+          "Actitud al escuchar a compañeros"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Sostiene conversaciones espontáneas y sencillas.",
+          "Intercambia opiniones sobre situaciones de interés."
+        ],
+        "evidencias": [
+          "Participo espontáneamente en conversaciones sobre temas de mi interés."
+        ],
+        "saberes": [
+          "Preguntas teniendo en cuenta el interlocutor",
+          "Conversaciones de interés"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Explica las ideas de un texto oral o escrito.",
+          "Responde preguntas e inquietudes después de una exposición oral."
+        ],
+        "evidencias": [
+          "Narro en forma detallada experiencias, hechos o historias de mi interés y del interés de mi audiencia."
+        ],
+        "saberes": [
+          "Narraciones detalladas de experiencias",
+          "Opiniones sobre estilos de vida",
+          "Present Perfect Continuous"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Distingue información general y específica."
+        ],
+        "evidencias": [
+          "Analizo textos descriptivos, narrativos y argumentativos con el fin de comprender las ideas principales."
+        ],
+        "saberes": [
+          "Teen entrepreneurs",
+          "Textos informativos",
+          "Ideas principales"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Produce mensajes escritos, tales como cartas y correos electrónicos."
+        ],
+        "evidencias": [
+          "Expreso valores de mi cultura a través de los textos que escribo."
+        ],
+        "saberes": [
+          "Valores de cultura en escritos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "4": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Explica las ideas de un texto oral o escrito."
+        ],
+        "evidencias": [
+          "Identifico personas, situaciones, lugares y el tema en conversaciones sencillas."
+        ],
+        "saberes": [
+          "Political and economic changes in the 20th century",
+          "Propósito de un texto oral",
+          "Estrategias de escucha"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Sostiene conversaciones espontáneas y sencillas.",
+          "Intercambia opiniones sobre situaciones de interés."
+        ],
+        "evidencias": [
+          "Utilizo estrategias que me permiten iniciar, mantener y cerrar una conversación sencilla de forma natural."
+        ],
+        "saberes": [
+          "Characteristics and actions of a business person",
+          "Pronunciación inteligible",
+          "Conversaciones con conocimientos previos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Explica las ideas de un texto oral o escrito.",
+          "Responde preguntas e inquietudes después de una exposición oral."
+        ],
+        "evidencias": [
+          "Narro en forma detallada experiencias, hechos o historias."
+        ],
+        "saberes": [
+          "Narraciones detalladas",
+          "Seguridad y confianza",
+          "Elementos metalingüísticos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Distingue información general y específica."
+        ],
+        "evidencias": [
+          "Valoro la lectura como un medio para adquirir información de diferentes disciplinas."
+        ],
+        "saberes": [
+          "Outstanding entrepreneurs: Walt Disney",
+          "Textos informativos de disciplinas",
+          "Ideas específicas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Produce mensajes escritos claros y bien estructurados."
+        ],
+        "evidencias": [
+          "Escribo textos de diferentes tipos teniendo en cuenta a mi posible lector."
+        ],
+        "saberes": [
+          "Construcción de textos medianos",
+          "Textos y sus posibles lectores"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ]
+  }
+}

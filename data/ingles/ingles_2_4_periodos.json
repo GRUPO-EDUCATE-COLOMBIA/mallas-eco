@@ -1,0 +1,329 @@
+{
+  "area": "Inglés",
+  "grado": "2",
+  "tipo_malla": "Malla Periódica",
+  "numero_periodos": 4,
+  "periodos": {
+    "1": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Expresa ideas sencillas sobre temas estudiados, usando palabras y frases."
+        ],
+        "evidencias": [
+          "Entiendo cuando me saludan y se despiden de mí."
+        ],
+        "saberes": [
+          "Saludos",
+          "Despedidas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Expresa ideas sencillas sobre temas estudiados, usando palabras y frases."
+        ],
+        "evidencias": [
+          "Uso expresiones cotidianas para expresar mis necesidades inmediatas en el aula."
+        ],
+        "saberes": [
+          "Expresiones cotidianas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Intercambia información personal como su nombre, edad y procedencia con compañeros y profesores, usando frases sencillas, siguiendo modelos provistos por el docente."
+        ],
+        "evidencias": [
+          "Identifico palabras relacionadas entre sí sobre temas que me son familiares.",
+          "Reconozco palabras y frases cortas en inglés en libros, objetos, juguetes, propagandas y lugares de mi escuela.",
+          "Expreso mis sentimientos y estados de ánimo.",
+          "Menciono lo que me gusta y lo que no me gusta.",
+          "Respondo a saludos y a despedidas.",
+          "Respondo a preguntas sobre cómo me siento."
+        ],
+        "saberes": [
+          "Relación de vocabulario",
+          "Palabras y frases cortas en libros, objetos, juguetes, propagandas y lugares de mi escuela",
+          "Sentimientos",
+          "Estados de ánimo",
+          "Los gustos",
+          "Saludos",
+          "Despedidas",
+          "Preguntas sobre cómo me siento"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Menciona aspectos culturales propios de su entorno, usando vocabulario y expresiones conocidas"
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre personas, objetos y lugares de mi entorno.",
+          "Demuestro conocimiento de las estructuras básicas del inglés."
+        ],
+        "saberes": [
+          "Preguntas sobre personas, objetos y lugares de mi entorno",
+          "Estructuras del inglés"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "2": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Escucha"],
+        "dba": [
+          "Expresa ideas sencillas sobre temas estudiados, usando palabras y frases."
+        ],
+        "evidencias": [
+          "Entiendo cuando me saludan y se despiden de mí."
+        ],
+        "saberes": [
+          "Saludos",
+          "Despedidas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Expresa ideas sencillas sobre temas estudiados, usando palabras y frases."
+        ],
+        "evidencias": [
+          "Describo algunas características de mí mismo, de otras personas, de animales, de lugares y del clima.",
+          "Uso expresiones cotidianas para expresar mis necesidades inmediatas en el aula."
+        ],
+        "saberes": [
+          "Descripción de características propias",
+          "Expresiones cotidianas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Intercambia información personal como su nombre, edad y procedencia con compañeros y profesores, usando frases sencillas, siguiendo modelos provistos por el docente."
+        ],
+        "evidencias": [
+          "Comprendo descripciones cortas y sencillas de objetos y lugares conocidos.",
+          "Identifico palabras relacionadas entre sí sobre temas que me son familiares.",
+          "Reconozco palabras y frases cortas en inglés en libros, objetos, juguetes, propagandas y lugares de mi escuela."
+        ],
+        "saberes": [
+          "Descripción de objetos y lugares",
+          "Relación de vocabulario",
+          "Palabras y frases cortas en libros, objetos, juguetes, propagandas y lugares de mi escuela"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Menciona aspectos culturales propios de su entorno, usando vocabulario y expresiones conocidas"
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre personas, objetos y lugares de mi entorno.",
+          "Demuestro comprensión de preguntas sencillas sobre mí, mi familia y mi entorno.",
+          "Escribo el nombre de lugares y elementos que reconozco en una ilustración.",
+          "Demuestro conocimiento de las estructuras básicas del inglés."
+        ],
+        "saberes": [
+          "Preguntas sobre su entorno",
+          "Preguntas sobre mí, mi familia y mi entorno",
+          "Nombres de lugares y elementos en imágenes",
+          "Estructuras del inglés"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "3": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Conversación"],
+        "dba": [
+          "Expresa ideas sencillas sobre temas estudiados, usando palabras y frases."
+        ],
+        "evidencias": [
+          "Expreso e indico necesidades personales básicas relacionadas con el aula."
+        ],
+        "saberes": [
+          "Necesidades personales básicas en el aula"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Expresa ideas sencillas sobre temas estudiados, usando palabras y frases."
+        ],
+        "evidencias": [
+          "Nombro algunas cosas que puedo hacer y que no puedo hacer.",
+          "Describo algunas características de mí mismo, de otras personas, de animales, de lugares y del clima.",
+          "Uso expresiones cotidianas para expresar mis necesidades inmediatas en el aula."
+        ],
+        "saberes": [
+          "Acciones que podemos hacer y que no",
+          "Descripción de características propias",
+          "Expresiones cotidianas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Intercambia información personal como su nombre, edad y procedencia con compañeros y profesores, usando frases sencillas, siguiendo modelos provistos por el docente."
+        ],
+        "evidencias": [
+          "Identifico palabras relacionadas entre sí sobre temas que me son familiares.",
+          "Reconozco palabras y frases cortas en inglés en libros, objetos, juguetes, propagandas y lugares de mi escuela."
+        ],
+        "saberes": [
+          "Relación de vocabulario",
+          "Palabras y frases cortas en libros, objetos, juguetes, propagandas y lugares de mi escuela"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Menciona aspectos culturales propios de su entorno, usando vocabulario y expresiones conocidas.",
+          "Comprende la secuencia de una historia corta y sencilla sobre temas familiares, y la cuenta nuevamente a partir de ilustraciones y palabras conocidas."
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre personas, objetos y lugares de mi entorno.",
+          "Demuestro comprensión de preguntas sencillas sobre mí, mi familia y mi entorno.",
+          "Escribo el nombre de lugares y elementos que reconozco en una ilustración.",
+          "Demuestro conocimiento de las estructuras básicas del inglés."
+        ],
+        "saberes": [
+          "Preguntas sobre su entorno",
+          "Preguntas sobre mí, mi familia y mi entorno",
+          "Nombres de lugares y elementos en imágenes",
+          "Estructuras del inglés"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ],
+    "4": [
+      {
+        "componente": "Lingüístico",
+        "estandar": ["Monólogo"],
+        "dba": [
+          "Expresa ideas sencillas sobre temas estudiados, usando palabras y frases."
+        ],
+        "evidencias": [
+          "Describo lo que estoy haciendo.",
+          "Uso expresiones cotidianas para expresar mis necesidades inmediatas en el aula."
+        ],
+        "saberes": [
+          "¿Qué estoy haciendo?",
+          "Expresiones cotidianas"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Sociolingüístico",
+        "estandar": ["Lectura"],
+        "dba": [
+          "Intercambia información personal como su nombre, edad y procedencia con compañeros y profesores, usando frases sencillas, siguiendo modelos provistos por el docente."
+        ],
+        "evidencias": [
+          "Identifico palabras relacionadas entre sí sobre temas que me son familiares.",
+          "Reconozco palabras y frases cortas en inglés en libros, objetos, juguetes, propagandas y lugares de mi escuela.",
+          "Expreso mis sentimientos y estados de ánimo.",
+          "Menciono lo que me gusta y lo que no me gusta."
+        ],
+        "saberes": [
+          "Relación de vocabulario",
+          "Palabras y frases cortas en libros, objetos, juguetes, propagandas y lugares de mi escuela",
+          "Sentimientos",
+          "Estados de ánimo",
+          "Los gustos"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      },
+      {
+        "componente": "Pragmático",
+        "estandar": ["Escritura"],
+        "dba": [
+          "Menciona aspectos culturales propios de su entorno, usando vocabulario y expresiones conocidas"
+        ],
+        "evidencias": [
+          "Respondo a preguntas sobre personas, objetos y lugares de mi entorno.",
+          "Demuestro comprensión de preguntas sencillas sobre mí, mi familia y mi entorno.",
+          "Escribo el nombre de lugares y elementos que reconozco en una ilustración.",
+          "Respondo brevemente a las preguntas 'qué, quién, cuándo y dónde', si se refieren a mi familia, mis amigos o mi colegio.",
+          "Demuestro conocimiento de las estructuras básicas del inglés."
+        ],
+        "saberes": [
+          "Preguntas sobre su entorno",
+          "Preguntas sobre mí, mi familia y mi entorno",
+          "Nombres de lugares y elementos en imágenes",
+          "Preguntas de 'qué, quién, cuándo y dónde'",
+          "Estructuras del inglés"
+        ],
+        "socioemocional": null,
+        "diccionario": null,
+        "tareas_dce": null,
+        "fuente": "Grupo Edúcate Colombia"
+      }
+    ]
+  }
+}
