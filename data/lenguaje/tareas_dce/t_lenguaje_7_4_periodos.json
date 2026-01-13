@@ -1,0 +1,447 @@
+{
+  "area": "Lenguaje",
+  "grado": "7",
+  "nombre_archivo": "t_lenguaje_7_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "Cazadores de Noticias Reales",
+            "un_reto_sugerido": "Crear un boletín informativo escolar que retome y clasifique noticias de medios masivos, aplicándolas al contexto del colegio.",
+            "ruta_de_exploracion": {
+              "explorar": "Socialización de la noticia más impactante que hayan visto en redes sociales o TV esta semana.",
+              "visual": "Crear un mapa radial donde el centro sea el tema principal y los rayos sean subtemas relacionados.",
+              "produccion": "Redacción de un texto corto donde se aplique el uso de conectores y signos de puntuación para dar coherencia."
+            },
+            "para_pensar": [
+              "¿Por qué es importante verificar la fuente de una noticia antes de usarla en nuestro propio texto?",
+              "¿Cómo ayudan los subtemas a que un lector no se pierda en un texto largo?"
+            ],
+            "pistas_del_exito": [
+              "Identifica y organiza subtemas derivados de una idea central.",
+              "Utiliza información de medios de comunicación para sustentar sus propios puntos de vista."
+            ],
+            "un_refuerzo": "Taller de 'conectores lógicos' para unir oraciones que parecen sueltas."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "El Escáner de Textos",
+            "un_reto_sugerido": "Diseñar una ficha técnica comparativa que muestre las diferencias formales entre un texto narrativo y uno expositivo.",
+            "ruta_de_exploracion": {
+              "explorar": "Lectura relámpago de dos fragmentos cortos (un cuento y una noticia) para adivinar cuál es cuál solo por el tono.",
+              "visual": "Cuadro comparativo de doble entrada: Tipo de texto vs. Léxico empleado.",
+              "produccion": "Exposición oral breve explicando la intención comunicativa de un autor basándose en las conexiones de sus ideas."
+            },
+            "para_pensar": [
+              "¿Qué palabras cambian cuando pasamos de leer un cuento a leer un informe científico?",
+              "¿De qué manera el estilo del autor nos revela qué es lo que quiere lograr con nosotros?"
+            ],
+            "pistas_del_exito": [
+              "Distingue las líneas temáticas en un discurso escuchado.",
+              "Señala el léxico especializado presente en textos informativos o científicos."
+            ],
+            "un_refuerzo": "Lectura en voz alta subrayando las palabras 'técnicas' que no se usan en la vida cotidiana."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "El Mensajero del Tiempo",
+            "un_reto_sugerido": "Escribir una carta a un personaje de una obra literaria analizando si su mensaje aún es importante para los jóvenes de hoy.",
+            "ruta_de_exploracion": {
+              "explorar": "Escuchar la lectura de un poema o fragmento dramático y dibujar quién creen que es el destinatario ideal.",
+              "visual": "Crear un collage de imágenes que representen la época y región donde se desarrolla la obra leída.",
+              "produccion": "Formulación de una hipótesis escrita sobre por qué el autor eligió ese género (lírico, narrativo o dramático) para su tema."
+            },
+            "para_pensar": [
+              "¿Cómo cambia nuestra forma de entender una historia si conocemos la región donde fue escrita?",
+              "¿Por qué crees que el autor eligió este destinatario y no otro?"
+            ],
+            "pistas_del_exito": [
+              "Caracteriza al destinatario del texto basándose en el tratamiento de la temática.",
+              "Diferencia las características de las obras narrativas, líricas y dramáticas."
+            ],
+            "un_refuerzo": "Ver un fragmento de una obra de teatro y compararlo con el texto escrito para notar cambios."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Detectives de Propósitos",
+            "un_reto_sugerido": "Realizar una grabación de campo (o simulacro) de una conversación y deducir los propósitos ocultos de los interlocutores.",
+            "ruta_de_exploracion": {
+              "explorar": "Dinámica de 'Mímica de Intenciones': Tratar de convencer a alguien de algo sin usar palabras, solo gestos.",
+              "visual": "Esquema de 'Burbujas de Diálogo' donde se anote lo que se dice vs. lo que se quiere lograr.",
+              "produccion": "Escrito reflexivo sobre cómo las variantes lingüísticas de los compañeros enriquecen la comunicación."
+            },
+            "para_pensar": [
+              "¿Es posible respetar a alguien como interlocutor válido aunque use palabras diferentes a las mías?",
+              "¿Por qué a veces lo que alguien dice no coincide con lo que realmente quiere?"
+            ],
+            "pistas_del_exito": [
+              "Deduce propósitos comunicativos a partir de discursos orales del entorno.",
+              "Muestra respeto por las variantes lingüísticas de sus compañeros."
+            ],
+            "un_refuerzo": "Escuchar audios de diferentes regiones de Colombia para identificar variantes lingüísticas amigables."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Museo de Significados Silenciosos",
+            "un_reto_sugerido": "Organizar un 'recorrido museográfico' por el salón con fotos de obras arquitectónicas o pictóricas, proponiendo una interpretación para cada una.",
+            "ruta_de_exploracion": {
+              "explorar": "Análisis de una pintura famosa: ¿Qué crees que estaba sintiendo el artista?.",
+              "visual": "Tabla comparativa entre un mensaje escrito (verbal) y una escultura (no verbal) sobre el mismo tema.",
+              "produccion": "Creación de un símbolo no verbal (dibujo o objeto) que represente una norma del salón."
+            },
+            "para_pensar": [
+              "¿Puede una pintura contarnos una historia tan compleja como la de un libro?",
+              "¿Qué elementos de un edificio nos indican para qué fue construido sin leer un cartel?"
+            ],
+            "pistas_del_exito": [
+              "Propone hipótesis de interpretación coherentes para obras pictóricas o arquitectónicas.",
+              "Reconoce semejanzas entre sistemas verbales y no verbales."
+            ],
+            "un_refuerzo": "Juego de 'Pictionary' para fortalecer la interpretación de símbolos visuales."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "El Mapa del Discurso",
+            "un_reto_sugerido": "Planear y ejecutar una descripción oral argumentativa para convencer a la clase de visitar un lugar histórico.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego de 'Adivina qué describo': Describir un objeto sin decir su nombre usando solo adjetivos.",
+              "visual": "Diseño de una estructura jerárquica (esqueleto) del discurso antes de hablar.",
+              "produccion": "Presentación oral de 2 minutos donde se anticipe la estructura que usará el interlocutor."
+            },
+            "para_pensar": [
+              "¿Por qué una buena descripción puede ser la mejor herramienta para convencer a alguien?",
+              "¿Cómo ayuda planear lo que vas a decir antes de abrir la boca?"
+            ],
+            "pistas_del_exito": [
+              "Utiliza estrategias descriptivas con fines argumentativos en discursos orales.",
+              "Anticipa la estructura lógica del discurso de un compañero."
+            ],
+            "un_refuerzo": "Uso de fichas bibliográficas con palabras clave para guiar la exposición."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Lupa de Estilos",
+            "un_reto_sugerido": "Analizar tres textos de diferentes autores sobre el mismo tema e identificar cuál tiene el estilo más formal.",
+            "ruta_de_exploracion": {
+              "explorar": "Comparar un mensaje de WhatsApp con un fragmento de una enciclopedia.",
+              "visual": "Crear un 'Glosario Especializado' con las palabras complejas encontradas en los textos leídos.",
+              "produccion": "Ficha de análisis donde se ubique el texto en una tipología (informativo, narrativo, etc.)."
+            },
+            "para_pensar": [
+              "¿Cómo cambia el léxico cuando un autor le escribe a un científico vs. cuando le escribe a un niño?",
+              "¿Qué elementos formales nos ayudan a saber que un texto es argumentativo?"
+            ],
+            "pistas_del_exito": [
+              "Identifica el léxico especializado empleado en los textos.",
+              "Ubica textos en tipologías particulares según su estructura interna."
+            ],
+            "un_refuerzo": "Ejercicios de apareamiento: Unir fragmentos de texto con su tipo (lírico, narrativo, informativo)."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "Espejos de la Historia",
+            "un_reto_sugerido": "Relacionar un conflicto social actual con un conflicto narrado en una obra literaria clásica o contemporánea.",
+            "ruta_de_exploracion": {
+              "explorar": "Lluvia de ideas sobre problemas que siempre han existido (guerra, amor, injusticia).",
+              "visual": "Línea de tiempo que conecte el año de escritura de la obra con los hechos históricos de esa época.",
+              "produccion": "Escritura de un comentario corto sobre cómo la literatura ayuda a entender la historia de un país."
+            },
+            "para_pensar": [
+              "¿Pueden los libros enseñarnos más sobre el pasado que un libro de historia?",
+              "¿Por qué los autores suelen escribir sobre los problemas de su sociedad?"
+            ],
+            "pistas_del_exito": [
+              "Establece conexiones entre elementos literarios y hechos históricos.",
+              "Analiza conflictos sociales presentes en historias de obras literarias."
+            ],
+            "un_refuerzo": "Visualización de un video corto sobre la época en que se escribió la obra para dar contexto."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "La Brújula del Diálogo",
+            "un_reto_sugerido": "Actuar como 'mediador' en un debate, identificando las líneas temáticas y las intenciones de cada participante.",
+            "ruta_de_exploracion": {
+              "explorar": "Dinámica de 'Eco': Repetir lo que el compañero dijo antes de dar la propia opinión.",
+              "visual": "Mapa de conexiones entre las ideas de dos personas que discuten un tema.",
+              "produccion": "Resumen oral de una discusión ajena identificando el propósito de cada interlocutor."
+            },
+            "para_pensar": [
+              "¿Cómo podemos saber qué quiere lograr alguien antes de que termine de hablar?",
+              "¿Qué conexiones existen entre los temas que propone un autor en su discurso?"
+            ],
+            "pistas_del_exito": [
+              "Distingue líneas temáticas en discursos orales escuchados.",
+              "Anticipa la estructura del discurso de su interlocutor."
+            ],
+            "un_refuerzo": "Role-playing de situaciones comunicativas con diferentes variantes regionales."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "El Cuerpo Habla",
+            "un_reto_sugerido": "Crear una breve coreografía o dramatización donde el uso del espacio y los gestos cuenten una noticia sin palabras.",
+            "ruta_de_exploracion": {
+              "explorar": "Observar un video en silencio y tratar de adivinar el mensaje solo por los movimientos corporales.",
+              "visual": "Dibujar 'maniquíes' que expresen emociones solo a través de la postura.",
+              "produccion": "Presentación de una escena no verbal interpretada por los compañeros."
+            },
+            "para_pensar": [
+              "¿Qué gestos son universales y cuáles dependen de nuestra cultura?",
+              "¿Cómo ayuda el movimiento del cuerpo a que un mensaje sea más creíble?"
+            ],
+            "pistas_del_exito": [
+              "Interpreta mensajes difundidos por sistemas no verbales del contexto.",
+              "Comprende cómo el uso del espacio contribuye a dar sentido a un mensaje."
+            ],
+            "un_refuerzo": "Juego de 'Charadas' enfocado en transmitir acciones complejas."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "El Almacén de Historias",
+            "un_reto_sugerido": "Construir una narración oral basada en información recopilada en periódicos o bibliotecas digitales, almacenándola en un podcast escolar.",
+            "ruta_de_exploracion": {
+              "explorar": "Búsqueda de una curiosidad o dato histórico en la biblioteca o internet.",
+              "visual": "Creación de un guion gráfico (storyboard) para organizar la narración oral.",
+              "produccion": "Grabación o presentación de la narración atendiendo al propósito comunicativo seleccionado."
+            },
+            "para_pensar": [
+              "¿Por qué es útil organizar la información recolectada antes de empezar a narrar?",
+              "¿Cómo cambia una historia cuando usamos datos reales para alimentarla?"
+            ],
+            "pistas_del_exito": [
+              "Define la estructura de una producción oral según la necesidad de narrar.",
+              "Emplea diversos tipos de texto atendiendo al propósito comunicativo."
+            ],
+            "un_refuerzo": "Ejercicios de entonación y ritmo para mejorar la narración oral."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Espectadores Críticos",
+            "un_reto_sugerido": "Identificar el destinatario de una campaña publicitaria y analizar si su visión de mundo coincide con la realidad de los estudiantes.",
+            "ruta_de_exploracion": {
+              "explorar": "Ver tres comerciales de diferentes épocas y compararlos.",
+              "visual": "Crear un perfil del 'destinatario ideal' (edad, gustos, ubicación) para un texto específico.",
+              "produccion": "Escritura de una crítica corta sobre la visión de mundo que propone un género literario específico."
+            },
+            "para_pensar": [
+              "¿Cómo influyen los medios en nuestra visión de lo que es 'normal' o 'bueno'?",
+              "¿Qué mensaje le envía este texto a alguien que vive en una cultura diferente a la nuestra?"
+            ],
+            "pistas_del_exito": [
+              "Reconoce en los géneros literarios las visiones de mundo de los seres humanos.",
+              "Caracteriza al destinatario a partir del tratamiento de la temática."
+            ],
+            "un_refuerzo": "Análisis de memes para entender cómo se imprime una visión de mundo en un formato pequeño."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "La Voz de los Ancestros",
+            "un_reto_sugerido": "Categorizar mitos y leyendas de la tradición oral regional, identificando a qué género y temática pertenecen.",
+            "ruta_de_exploracion": {
+              "explorar": "Entrevista a un familiar sobre una leyenda que conozca.",
+              "visual": "Mapa conceptual de categorías: Temática vs. Género (Narrativo, Lírico, Dramático).",
+              "produccion": "Recreación de un procedimiento narrativo de tradición oral mediante un dibujo o texto corto."
+            },
+            "para_pensar": [
+              "¿Por qué las historias contadas por nuestros abuelos suelen ser narrativas y no líricas?",
+              "¿Qué temáticas son las más comunes en la tradición oral de tu región?"
+            ],
+            "pistas_del_exito": [
+              "Categoriza temáticas de textos de tradición oral.",
+              "Establece el género literario al que pertenece un relato basándose en su estructura."
+            ],
+            "un_refuerzo": "Lectura comparativa entre un mito griego y una leyenda colombiana."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Puentes de Palabras",
+            "un_reto_sugerido": "Diseñar un 'Diccionario de Respeto' que traduzca variantes lingüísticas de diferentes regiones a un lenguaje común sin perder el sentido.",
+            "ruta_de_exploracion": {
+              "explorar": "Socialización de palabras que se dicen diferente en otras partes del país (ej. mecato, pasaboca).",
+              "visual": "Mural interactivo de variantes lingüísticas y culturales.",
+              "produccion": "Representación de una situación donde las variantes lingüísticas no impidan la comunicación efectiva."
+            },
+            "para_pensar": [
+              "¿Por qué hablar diferente no nos hace menos interlocutores válidos?",
+              "¿Cómo el lenguaje no verbal ayuda a entender a alguien que usa palabras que no conocemos?"
+            ],
+            "pistas_del_exito": [
+              "Respeta al otro como interlocutor válido a pesar de las variantes lingüísticas.",
+              "Comprende la intención comunicativa en segmentos verbales y no verbales."
+            ],
+            "un_refuerzo": "Video sobre la diversidad de lenguas en Colombia para fomentar la empatía cultural."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "El Semáforo de la Información",
+            "un_reto_sugerido": "Clasificar noticias según su validez (verde: real, amarillo: dudosa, rojo: falsa) para apoyar un discurso sobre la verdad en los medios.",
+            "ruta_de_exploracion": {
+              "explorar": "Caza de 'Fake News' en redes sociales con el celular o prensa.",
+              "visual": "Infografía sobre cómo verificar si una información de un medio masivo es válida.",
+              "produccion": "Uso de gestos y palabras para explicar a otros por qué una noticia es confiable o no."
+            },
+            "para_pensar": [
+              "¿Qué pistas nos dan los gestos de un presentador sobre la veracidad de lo que dice?",
+              "¿Por qué es peligroso usar información de los medios sin clasificarla primero?"
+            ],
+            "pistas_del_exito": [
+              "Selecciona y utiliza información principal de los medios para apoyar sus producciones.",
+              "Comprende que los gestos complementan los mensajes y ayudan a construir sentido."
+            ],
+            "un_refuerzo": "Taller práctico sobre búsqueda avanzada en Google para verificar fuentes."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectos de Ideas",
+            "un_reto_sugerido": "Crear un esquema jerárquico detallado antes de escribir un cuento corto que resuelva una problemática planteada por el docente.",
+            "ruta_de_exploracion": {
+              "explorar": "Debate sobre una problemática escolar (ej. el uso del celular en clase).",
+              "visual": "Elaboración de un 'árbol de problemas' que sirva como esquema previo a la escritura.",
+              "produccion": "Escritura de la narración final basada en el esquema, explicando la problemática a través de los personajes."
+            },
+            "para_pensar": [
+              "¿Cómo ayuda un esquema jerárquico a que las ideas no se amontonen en el texto?",
+              "¿Por qué es importante tener en cuenta la opinión del lector al explicar un problema en un cuento?"
+            ],
+            "pistas_del_exito": [
+              "Prepara esquemas previos a la escritura para estructurar jerárquicamente las ideas.",
+              "Analiza la estructura de la información de los medios para sus producciones."
+            ],
+            "un_refuerzo": "Actividad de 'reescritura': Tomar un texto viejo y organizarlo usando un nuevo esquema."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "El Clasificador de Textos",
+            "un_reto_sugerido": "Organizar una 'biblioteca de aula' clasificando textos según su estructura interna y tipología particular.",
+            "ruta_de_exploracion": {
+              "explorar": "Competencia de clasificación: ¿Quién separa más rápido un grupo de textos mezclados?.",
+              "visual": "Creación de etiquetas con las características formales de cada tipo de texto.",
+              "produccion": "Informe escrito sobre las semejanzas encontradas entre textos de diferentes tipologías."
+            },
+            "para_pensar": [
+              "¿Qué hace que un texto sea 'expositivo' y no 'argumentativo'?",
+              "¿Cómo ayuda la estructura interna a que el mensaje llegue más claro?"
+            ],
+            "pistas_del_exito": [
+              "Ubica textos en tipologías particulares según su estructura interna.",
+              "Identifica semejanzas y diferencias entre diversos tipos de texto."
+            ],
+            "un_refuerzo": "Mini-taller de reconocimiento de superestructuras textuales."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "Críticos del Tiempo",
+            "un_reto_sugerido": "Escribir una reseña crítica que relacione la época de una obra literaria con el género al que pertenece.",
+            "ruta_de_exploracion": {
+              "explorar": "Discusión: ¿Por qué en la antigüedad se escribía más poesía épica y hoy más novelas?.",
+              "visual": "Gráfico circular de géneros literarios leídos durante el año.",
+              "produccion": "Formulación de una hipótesis final de comprensión sobre su obra literaria favorita del año."
+            },
+            "para_pensar": [
+              "¿De qué manera el género literario nos da pistas sobre la época en que fue escrito el libro?",
+              "¿Puede un texto escrito hace siglos seguir siendo relevante hoy?"
+            ],
+            "pistas_del_exito": [
+              "Analiza características formales de textos para establecer género y época.",
+              "Formula hipótesis de comprensión teniendo en cuenta temática y región."
+            ],
+            "un_refuerzo": "Lectura dirigida de un texto contemporáneo que imite un estilo antiguo."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Analistas de la Escucha",
+            "un_reto_sugerido": "Realizar un mapa de 'hilos temáticos' de un podcast o programa de radio, evaluando la claridad del mensaje.",
+            "ruta_de_exploracion": {
+              "explorar": "Escuchar un fragmento de una conferencia o discurso escolar.",
+              "visual": "Diagrama de conexiones temáticas planteadas por el autor del discurso.",
+              "produccion": "Ensayo corto sobre el respeto al interlocutor en las variantes culturales de Colombia."
+            },
+            "para_pensar": [
+              "¿Cómo se conectan las diferentes ideas de un autor para formar una intención clara?",
+              "¿Qué variantes culturales hacen que un discurso sea más o menos respetuoso?"
+            ],
+            "pistas_del_exito": [
+              "Distingue líneas temáticas y conexiones en los discursos que escucha.",
+              "Reconoce que las variantes lingüísticas no impiden el respeto mutuo."
+            ],
+            "un_refuerzo": "Ejercicio de parafraseo para asegurar la comprensión de hilos temáticos complejos."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Curadores de Arte y Símbolos",
+            "un_reto_sugerido": "Diseñar una 'base de datos' o catálogo (alfabético o temático) de obras artísticas no verbales consultadas durante el año.",
+            "ruta_de_exploracion": {
+              "explorar": "Búsqueda de la obra de arte más extraña que puedan encontrar en internet.",
+              "visual": "Organización de fichas de obras según autor, medio de difusión o temática.",
+              "produccion": "Presentación del catálogo explicando cómo la organización ayuda a la consulta rápida."
+            },
+            "para_pensar": [
+              "¿Por qué es importante guardar y organizar la información que recopilamos?",
+              "¿Cómo contribuyen los sistemas no verbales a dar sentido total a una exposición artística?"
+            ],
+            "pistas_del_exito": [
+              "Organiza la información recopilada para su consulta eficiente.",
+              "Reconoce cómo los sistemas verbales y no verbales contribuyen al sentido del mensaje."
+            ],
+            "un_refuerzo": "Crear un índice alfabético de los artistas y obras vistas en clase."
+          }
+        }
+      ]
+    }
+  ]
+}
