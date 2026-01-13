@@ -1,0 +1,447 @@
+{
+  "area": "Lenguaje",
+  "grado": "8",
+  "nombre_archivo": "t_lenguaje_8_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "El Pódium de los Argumentos",
+            "un_reto_sugerido": "Participar en un 'Duelo de Perspectivas' defendiendo o contradiciendo una opinión sobre un tema del contexto escolar.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego 'Verdad o Reto Argumentativo': Los estudiantes deben dar una razón válida para una afirmación cotidiana.",
+              "visual": "Diseñar una 'Pirámide de Argumentación' donde se ubique la tesis en la punta y los apoyos en la base.",
+              "produccion": "Grabación de un audio breve (tipo nota de voz) exponiendo un punto de vista con cohesión y coherencia."
+            },
+            "para_pensar": [
+              "¿Por qué es importante escuchar el argumento del otro antes de responder?",
+              "¿Cómo cambia el impacto de una idea cuando usamos un léxico especializado?"
+            ],
+            "pistas_del_exito": [
+              "Expresa opiniones con claridad apoyando o contradiciendo a sus pares.",
+              "Evalúa si el léxico usado en su texto es adecuado para el público que lo escucha."
+            ],
+            "un_refuerzo": "Utilizar un conector lógico (ej: Sin embargo, Por lo tanto) en cada intervención oral."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Detectives de Sentidos",
+            "un_reto_sugerido": "Resolver un 'Caso de Significado' identificando la información que no está escrita (implícita) en una noticia local.",
+            "ruta_de_exploracion": {
+              "explorar": "Lectura de titulares 'misteriosos' para adivinar de qué trata la noticia completa.",
+              "visual": "Crear un 'Mapa de Hipótesis' donde se conecten datos reales con lo que el estudiante supone que pasó.",
+              "produccion": "Redacción de un párrafo que explique el sentido global del texto analizado."
+            },
+            "para_pensar": [
+              "¿Qué pistas nos da un autor para entender algo que no dice directamente?",
+              "¿Por qué el contexto donde ocurre una noticia cambia nuestra forma de entenderla?"
+            ],
+            "pistas_del_exito": [
+              "Elabora hipótesis coherentes sobre lo que el texto quiere decir.",
+              "Diferencia entre lo que el texto dice literalmente y lo que sugiere."
+            ],
+            "un_refuerzo": "Subrayar con dos colores: azul para hechos reales y rojo para suposiciones del lector."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "El Baúl de la Identidad Latina",
+            "un_reto_sugerido": "Crear una 'Cápsula de Identidad' basada en un cuento latinoamericano, incluyendo objetos que representen la cultura narrada.",
+            "ruta_de_exploracion": {
+              "explorar": "Escuchar un relato de tradición oral y dibujar el personaje principal según sus rasgos culturales.",
+              "visual": "Diseñar un 'Mural de Estrategias' donde se ilustre cómo el autor describe el paisaje de la región.",
+              "produccion": "Escritura de un microrrelato que use elementos de la tradición oral escuchada en clase."
+            },
+            "para_pensar": [
+              "¿Cómo se refleja la forma de hablar de una comunidad en sus cuentos y fábulas?",
+              "¿Por qué la literatura ayuda a conservar la memoria de un pueblo?"
+            ],
+            "pistas_del_exito": [
+              "Identifica rasgos culturales específicos en producciones literarias regionales.",
+              "Valora las expresiones artísticas de comunidades diversas en sus comentarios."
+            ],
+            "un_refuerzo": "Lectura de un glosario de términos regionales (colombianismos o regionalismos) presentes en el texto."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Radar de Posturas",
+            "un_reto_sugerido": "Realizar una 'Crónica de Diálogo' registrando las diferentes posturas de sus compañeros sobre un tema de interés juvenil.",
+            "ruta_de_exploracion": {
+              "explorar": "Dinámica de 'Cuchicheo': En parejas, contarse una noticia y predecir qué dirá el otro.",
+              "visual": "Diagrama de 'Círculos de Escucha' donde se anoten las palabras clave dichas por los interlocutores.",
+              "produccion": "Intervención en un foro escolar aplicando la escucha activa para resumir lo dicho por otros."
+            },
+            "para_pensar": [
+              "¿Qué gestos indican que alguien nos está escuchando de verdad?",
+              "¿Cómo podemos predecir lo que alguien dirá basándonos en su tono de voz?"
+            ],
+            "pistas_del_exito": [
+              "Escucha atentamente y predice contenidos en diálogos informales.",
+              "Participa en espacios escolares conociendo y respetando las posturas ajenas."
+            ],
+            "un_refuerzo": "Uso de la técnica del 'Eco': Repetir la última idea del compañero antes de dar la propia."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Museo de los Lenguajes Vivos",
+            "un_reto_sugerido": "Curar una 'Exposición de Lenguajes No Verbales' (música, arquitectura, tatuajes) que representen a su generación.",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar la simbología de los tatuajes o grafitis famosos en la ciudad: ¿Qué comunican?.",
+              "visual": "Infografía sobre la función social de un medio masivo (ej. Instagram o un noticiero local).",
+              "produccion": "Creación de una pieza artística (dibujo o collage) que incorpore símbolos de su cultura juvenil."
+            },
+            "para_pensar": [
+              "¿De qué manera nuestra ropa o la música que oímos construye nuestra identidad?",
+              "¿Qué mensaje político puede haber detrás de una escultura en un parque?"
+            ],
+            "pistas_del_exito": [
+              "Identifica la función social de los medios en la construcción de su identidad.",
+              "Incorpora elementos no verbales en sus propias elaboraciones creativas."
+            ],
+            "un_refuerzo": "Entrevistar a una persona de otra generación sobre qué significaba para ellos un símbolo patrio."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "Ingenieros del Texto Explicativo",
+            "un_reto_sugerido": "Redactar un manual explicativo para un 'invento imaginario' respetando reglas sintácticas y pragmáticas.",
+            "ruta_de_exploracion": {
+              "explorar": "Desarmar una instrucción de un juego y tratar de armarla sin usar verbos.",
+              "visual": "Diagrama de flujo que muestre el orden lógico de una explicación técnica.",
+              "produccion": "Escritura de un texto explicativo con autoevaluación de ortografía y propósito comunicativo."
+            },
+            "para_pensar": [
+              "¿Qué pasa si en un manual explicativo las ideas no tienen un orden lógico?",
+              "¿Cómo influyen las reglas de ortografía en la claridad de un mensaje científico?"
+            ],
+            "pistas_del_exito": [
+              "Elige la forma narrativa o explicativa según la necesidad del texto.",
+              "Evalúa y corrige sus propios textos basándose en el propósito inicial."
+            ],
+            "un_refuerzo": "Taller de 'Parejas Pedagógicas' para corregir errores de puntuación en el borrador."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "La Comunidad de la Lectura",
+            "un_reto_sugerido": "Participar en un 'Círculo de Lectores' donde se discuta el sentido de un cuento basado en las opiniones del grupo.",
+            "ruta_de_exploracion": {
+              "explorar": "Lanzar preguntas al aire sobre una portada de un libro: ¿Quién es el villano? ¿Dónde ocurre?.",
+              "visual": "Mapa de 'Voces de la Lectura': Unir frases del libro con las opiniones que generaron en el salón.",
+              "produccion": "Ficha de lectura colectiva donde se defina la identidad cultural del relato leído."
+            },
+            "para_pensar": [
+              "¿Puede una misma historia tener sentidos diferentes para cada lector?",
+              "¿Cómo ayudan los comentarios de mis compañeros a entender mejor un libro?"
+            ],
+            "pistas_del_exito": [
+              "Construye el sentido del texto mediante la interacción con otros lectores.",
+              "Plantea hipótesis de lectura válidas antes y durante el proceso de lectura."
+            ],
+            "un_refuerzo": "Hacer un 'stop' en la lectura para predecir qué pasará en el siguiente capítulo."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "El Juego de los Narradores",
+            "un_reto_sugerido": "Reescribir una escena de una novela latinoamericana cambiando el tipo de narrador (de testigo a protagonista).",
+            "ruta_de_exploracion": {
+              "explorar": "Contar un chisme desde tres puntos de vista diferentes: el que lo hizo, el que lo vio y el que se enteró tarde.",
+              "visual": "Cuadro comparativo de las estructuras formales de la fábula, el cuento y la novela.",
+              "produccion": "Versión creativa de un suceso regional narrado desde dos voces distintas."
+            },
+            "para_pensar": [
+              "¿Cómo cambia nuestra percepción de un hecho si nos lo cuenta el protagonista o un observador?",
+              "¿Por qué los autores latinoamericanos usan tantos tipos de narradores en sus libros?"
+            ],
+            "pistas_del_exito": [
+              "Distingue las funciones de los diferentes narradores en una historia.",
+              "Reconoce la estructura formal del género literario que está leyendo."
+            ],
+            "un_refuerzo": "Uso de máscaras o carnets para identificar qué narrador está hablando en el texto."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Auditores de la Ortografía",
+            "un_reto_sugerido": "Crear un 'Muro de la Excelencia' con fragmentos de textos propios y ajenos corregidos gramaticalmente.",
+            "ruta_de_exploracion": {
+              "explorar": "Caza de errores en redes sociales: Traer capturas de pantalla con faltas ortográficas y corregirlas en clase.",
+              "visual": "Infografía de las reglas ortográficas más difíciles de recordar para el grupo.",
+              "produccion": "Informe de revisión de un texto de un compañero, usando un lenguaje constructivo y ético."
+            },
+            "para_pensar": [
+              "¿Por qué corregir a otro debe hacerse con respeto y ética?",
+              "¿Cómo afecta una mala ortografía a la imagen pública de una persona?"
+            ],
+            "pistas_del_exito": [
+              "Evalúa el uso adecuado de gramática y ortografía en textos propios y ajenos.",
+              "Aplica reglas semánticas para dar sentido global a sus mensajes."
+            ],
+            "un_refuerzo": "Utilizar el diccionario de la RAE en línea para resolver dudas en tiempo real."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Símbolos de mi Barrio",
+            "un_reto_sugerido": "Diseñar un 'Mapa Simbólico' del barrio o la vereda, explicando qué manifestaciones artísticas representan a la comunidad.",
+            "ruta_de_exploracion": {
+              "explorar": "Recorrido virtual o real identificando monumentos, grafitis o arquitectura local.",
+              "visual": "Collage que una la música popular de la región con las imágenes artísticas encontradas.",
+              "produccion": "Video corto o presentación explicando cómo el arte local construye la identidad de su pueblo."
+            },
+            "para_pensar": [
+              "¿Por qué una estatua o un mural pueden ser tan importantes para una comunidad?",
+              "¿Qué pasaría si los medios masivos ignoraran las expresiones artísticas populares?"
+            ],
+            "pistas_del_exito": [
+              "Identifica la función social de las expresiones artísticas locales.",
+              "Relaciona manifestaciones artísticas no verbales con la cultura de su entorno."
+            ],
+            "un_refuerzo": "Invitar a un artista local (o ver una entrevista) para hablar sobre el origen de sus obras."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectos de la Exposición",
+            "un_reto_sugerido": "Presentar una exposición oral sobre un tema científico o social, integrando aportes de expertos y definiendo conceptos claros.",
+            "ruta_de_exploracion": {
+              "explorar": "Dinámica '¿Qué significa esto?': Definir términos complejos con palabras sencillas.",
+              "visual": "Crear un 'Plan Expositivo' visual con los momentos clave de la charla (Introducción, Desarrollo, Cierre).",
+              "produccion": "Discurso oral estructurado usando un lenguaje adecuado al ámbito (científico o cotidiano)."
+            },
+            "para_pensar": [
+              "¿Cómo ayuda definir los términos clave a que la audiencia no se pierda?",
+              "¿Por qué es importante citar a otros (terceros) al hablar de un tema serio?"
+            ],
+            "pistas_del_exito": [
+              "Precisa el significado de los conceptos tratados en su discurso.",
+              "Estructura textos orales eligiendo la forma adecuada (explicación o argumentación)."
+            ],
+            "un_refuerzo": "Hacer un glosario de términos en una cartelera antes de empezar la exposición."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Cazadores de Intenciones",
+            "un_reto_sugerido": "Analizar tres tipos de textos diferentes (anuncio, cuento, noticia) para descubrir qué quiere lograr cada autor.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego de '¿Para qué me escribieron?': Clasificar mensajes de WhatsApp según su intención.",
+              "visual": "Tabla de 'Intenciones Comunicativas' vinculando el tipo de texto con su propósito.",
+              "produccion": "Reseña comparativa destacando cómo cambia el lenguaje según la intención del texto."
+            },
+            "para_pensar": [
+              "¿Puede un texto parecer una noticia pero tener la intención de vender un producto?",
+              "¿Cómo influye la intención del autor en las palabras que elige?"
+            ],
+            "pistas_del_exito": [
+              "Identifica correctamente la intención comunicativa en diversos tipos de texto.",
+              "Construye el sentido del texto basándose en el análisis del autor."
+            ],
+            "un_refuerzo": "Lectura dirigida comparando una receta (instruir) con un poema (expresar)."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "Linaje Literario",
+            "un_reto_sugerido": "Crear un árbol genealógico de autores latinoamericanos, asociando cada uno con una época y una identidad cultural.",
+            "ruta_de_exploracion": {
+              "explorar": "Relacionar música de diferentes décadas con fragmentos de libros de esas mismas épocas.",
+              "visual": "Línea de tiempo ilustrada con los 'Momentos de la Literatura Latinoamericana'.",
+              "produccion": "Podcast breve narrando la biografía y la identidad cultural de un autor seleccionado."
+            },
+            "para_pensar": [
+              "¿Por qué los autores de una misma época suelen tratar los mismos problemas?",
+              "¿Cómo se nota la identidad de un país en los poemas de sus autores?"
+            ],
+            "pistas_del_exito": [
+              "Determina la identidad cultural presente en los textos literarios leídos.",
+              "Relaciona correctamente autores con sus respectivos momentos históricos."
+            ],
+            "un_refuerzo": "Mapa de Latinoamérica donde se ubiquen los países de origen de los autores estudiados."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "La Ciencia de Conversar",
+            "un_reto_sugerido": "Grabar y analizar una conversación grupal para evaluar cómo fluye la dinámica de comunicación y respeto.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego del 'Teléfono Roto' para ver cómo se deforma un mensaje por falta de precisión.",
+              "visual": "Mapa conceptual sobre la 'Dinámica del Proceso de Comunicación' (emisor, receptor, ruido, código).",
+              "produccion": "Reflexión escrita sobre los errores más comunes cometidos al hablar en grupo."
+            },
+            "para_pensar": [
+              "¿Qué elementos pueden interrumpir una buena comunicación en el salón?",
+              "¿Por qué es ético pedir la palabra y no interrumpir al otro?"
+            ],
+            "pistas_del_exito": [
+              "Explica con precisión los conceptos tratados en sus intercambios orales.",
+              "Reconoce y mejora la dinámica de comunicación en sus grupos de trabajo."
+            ],
+            "un_refuerzo": "Utilizar un 'objeto de la palabra' (pelota o lápiz) para controlar los turnos en el aula."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Nuevos Significados del Arte",
+            "un_reto_sugerido": "Resignificar una expresión artística popular (ej. una canción de moda) dándole un uso o significado diferente en un contexto escolar.",
+            "ruta_de_exploracion": {
+              "explorar": "Escuchar canciones populares y debatir sobre sus letras: ¿Qué valores promueven?.",
+              "visual": "Panel de 'Resignificación': Tomar una imagen famosa y cambiar su mensaje con un nuevo eslogan.",
+              "produccion": "Presentación de una propuesta artística que use el léxico popular de forma creativa y no convencional."
+            },
+            "para_pensar": [
+              "¿Cómo puede una canción del barrio convertirse en una herramienta de aprendizaje?",
+              "¿Qué significa 'resignificar' algo y por qué es importante para la cultura?"
+            ],
+            "pistas_del_exito": [
+              "Explora usos no convencionales del léxico en expresiones artísticas populares.",
+              "Caracteriza los discursos de los medios atendiendo a su intención y contexto."
+            ],
+            "un_refuerzo": "Taller de escritura de coplas o rimas usando palabras del habla cotidiana pero con sentido crítico."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "El Editor Maestro",
+            "un_reto_sugerido": "Producir un discurso oral final que sintetice los aprendizajes del año, incorporando correcciones sugeridas por sus pares.",
+            "ruta_de_exploracion": {
+              "explorar": "Actividad 'Tijeras Literarias': Recortar y reorganizar un texto propio para mejorarlo.",
+              "visual": "Tabla de 'Aportes de Terceros' donde se anoten los consejos recibidos y cómo se aplicaron.",
+              "produccion": "Presentación del discurso final ante el grupo con evaluación de propósito y léxico."
+            },
+            "para_pensar": [
+              "¿Por qué los mejores escritores siempre tienen editores que revisan su trabajo?",
+              "¿Cómo ayuda la síntesis a que un mensaje sea más potente?"
+            ],
+            "pistas_del_exito": [
+              "Sintetiza de forma clara los conceptos tratados en sus intervenciones.",
+              "Evalúa y mejora sus producciones basándose en la crítica constructiva."
+            ],
+            "un_refuerzo": "Grabar un borrador del discurso y escucharlo para detectar errores de fluidez."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "La Anatomía del Libro",
+            "un_reto_sugerido": "Realizar un 'Escaneo Textual' identificando los aspectos conceptuales y formales que hacen que un texto sea único.",
+            "ruta_de_exploracion": {
+              "explorar": "Desarmar un libro físico para ver sus partes (índice, capítulos, prólogo) y su función.",
+              "visual": "Diagrama de 'Aspectos del Texto': Trama, Narrador, Espacio y Tiempo.",
+              "produccion": "Ficha técnica de análisis profundo de una obra literaria leída en el periodo."
+            },
+            "para_pensar": [
+              "¿Qué diferencia la forma de una novela de la de un cuento corto?",
+              "¿Cómo influyen los aspectos formales (ej. capítulos largos o cortos) en el lector?"
+            ],
+            "pistas_del_exito": [
+              "Distingue claramente las estructuras formales de los textos literarios.",
+              "Relaciona los aspectos conceptuales con el sentido global de la obra."
+            ],
+            "un_refuerzo": "Uso de un organizador gráfico de 'Elementos de la Narración'."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "Retórica en Acción",
+            "un_reto_sugerido": "Identificar figuras retóricas en textos latinoamericanos y crear sus propias notas de clase sobre su impacto en el lector.",
+            "ruta_de_exploracion": {
+              "explorar": "Caza de metáforas en la publicidad actual comparándolas con poemas clásicos.",
+              "visual": "Mapa de 'Tipologías Textuales' señalando las características retóricas de cada una.",
+              "produccion": "Escritura de un comentario literario usando términos técnicos de retórica estudiados."
+            },
+            "para_pensar": [
+              "¿Por qué un autor usa una metáfora en lugar de decir las cosas directamente?",
+              "¿Qué efecto tienen las figuras retóricas en nuestras emociones al leer?"
+            ],
+            "pistas_del_exito": [
+              "Identifica características retóricas en los textos con los que trabaja.",
+              "Infiere múltiples sentidos en los textos relacionándolos con conceptos macro."
+            ],
+            "un_refuerzo": "Crear un 'Diccionario Creativo' de figuras retóricas con ejemplos de canciones."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Guardianes de la Norma",
+            "un_reto_sugerido": "Organizar un 'Taller de Corrección Colectiva' para pulir los elementos gramaticales de los trabajos finales del curso.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego de 'S.O.S Ortográfico': Corregir frases en el tablero en el menor tiempo posible.",
+              "visual": "Cheklist de 'Calidad Gramatical' para revisar textos antes de entregarlos.",
+              "produccion": "Entrega final de un portafolio de escritos sin errores ortográficos ni gramaticales."
+            },
+            "para_pensar": [
+              "¿Cómo demuestra el cuidado de la gramática el respeto por el conocimiento?",
+              "¿Por qué es importante ser autocrítico con nuestras propias producciones escritas?"
+            ],
+            "pistas_del_exito": [
+              "Evalúa rigurosamente el uso de elementos gramaticales en sus producciones.",
+              "Compone textos atendiendo a las características del ámbito de uso (público o privado)."
+            ],
+            "un_refuerzo": "Uso de guías de 'Normas APA' o similares simplificadas para el grado 8."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Curadores de la Red",
+            "un_reto_sugerido": "Diseñar una 'Estrategia de Organización de Información' para filtrar y clasificar las noticias que circulan en redes sociales.",
+            "ruta_de_exploracion": {
+              "explorar": "Analizar un 'Trend' o noticia viral: ¿De dónde salió? ¿Es verdad? ¿Quién la publicó?.",
+              "visual": "Infografía sobre cómo organizar la información de los medios masivos (fuentes, veracidad, impacto).",
+              "produccion": "Guía de 'Consumo Crítico de Medios' para compartir con otros grados de la escuela."
+            },
+            "para_pensar": [
+              "¿Por qué no podemos creer todo lo que vemos en los medios masivos?",
+              "¿Qué herramientas tenemos para organizar tanta información que recibimos a diario?"
+            ],
+            "pistas_del_exito": [
+              "Selecciona y aplica estrategias para organizar la información de los medios masivos.",
+              "Determina el contenido y la intención ideológica en manifestaciones artísticas contemporáneas."
+            ],
+            "un_refuerzo": "Hacer una tabla comparativa entre una noticia de un medio oficial y una publicación de un 'influencer'."
+          }
+        }
+      ]
+    }
+  ]
+}
