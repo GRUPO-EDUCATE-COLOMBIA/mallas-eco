@@ -1,0 +1,447 @@
+{
+  "area": "Lenguaje",
+  "grado": "10",
+  "nombre_archivo": "t_lenguaje_10_4_periodos.json",
+  "periodos": [
+    {
+      "periodo_id": 1,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "La Voz del Experto Joven",
+            "un_reto_sugerido": "Divulgar un hallazgo científico o tema de interés mediante una ponencia oral grabada o en vivo que use analogías claras.",
+            "ruta_de_exploracion": {
+              "explorar": "Juego de 'Explicación Extrema': Intentar explicar cómo funciona un celular usando solo comparaciones con objetos de la cocina.",
+              "visual": "Crear un cuadro comparativo donde se clasifiquen ejemplos de estrategias descriptivas, explicativas y analógicas extraídos de un artículo científico.",
+              "produccion": "Realizar una relatoría o entrevista breve sobre un tema de interés, aplicando corrección lingüística y progresión temática."
+            },
+            "para_pensar": [
+              "¿Por qué una analogía puede hacer que un tema difícil se entienda en segundos?",
+              "¿Qué importancia tiene el tono de voz al presentar una información científica?"
+            ],
+            "pistas_del_exito": [
+              "Explica conceptos clave usando términos técnicos y analogías precisas.",
+              "Mantiene la coherencia y el respeto durante las discusiones en clase."
+            ],
+            "un_refuerzo": "Utilizar un guion de pasos para asegurar que el texto tenga inicio, desarrollo y conclusión."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Galería de Letras y Pinceles",
+            "un_reto_sugerido": "Curar una exposición virtual donde se relacione un poema de una época con una pintura o escultura del mismo contexto social.",
+            "ruta_de_exploracion": {
+              "explorar": "Observar una obra de arte (ej. El Guernica) y escribir qué palabras o sentimientos evoca sin conocer su contexto.",
+              "visual": "Mapa mental que conecte elementos visuales de una pintura con versos de un autor de la misma corriente literaria.",
+              "produccion": "Ficha técnica de análisis que explique cómo el contexto político de la época influyó tanto en el texto como en el arte visual."
+            },
+            "para_pensar": [
+              "¿Puede una pintura decir lo mismo que un poema sin usar una sola palabra?",
+              "¿Cómo influyen las guerras o cambios sociales en las formas de crear arte?"
+            ],
+            "pistas_del_exito": [
+              "Identifica puntos de encuentro entre la literatura y las artes visuales.",
+              "Explica la relación entre el contexto político y el significado de la obra."
+            ],
+            "un_refuerzo": "Ver un video corto sobre las características principales de la corriente literaria estudiada."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "Crononautas de los Géneros",
+            "un_reto_sugerido": "Caracterizar un movimiento literario histórico a través de la creación de una 'cápsula del tiempo' con sus textos y recursos estilísticos más icónicos.",
+            "ruta_de_exploracion": {
+              "explorar": "Escuchar música de una época específica y tratar de adivinar qué temas preocupaban a las personas de ese tiempo.",
+              "visual": "Línea de tiempo ilustrada que muestre la evolución de un género (ej. la novela) a través de diferentes hitos históricos.",
+              "produccion": "Escritura de un breve texto narrativo o lírico que imite los recursos estilísticos de un autor clásico estudiado."
+            },
+            "para_pensar": [
+              "¿Por qué los géneros literarios cambian de estructura con el paso de los siglos?",
+              "¿Qué temas de la literatura antigua siguen siendo importantes para nosotros hoy?"
+            ],
+            "pistas_del_exito": [
+              "Reconoce los rasgos distintivos de un movimiento literario en textos diversos.",
+              "Explica cómo la historia influye en la configuración de los géneros."
+            ],
+            "un_refuerzo": "Cuadro de resumen con los 3 autores y 3 temáticas más importantes del periodo analizado."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Observatorio de la Palabra",
+            "un_reto_sugerido": "Evaluar la calidad comunicativa de un debate público real (en video) analizando el vocabulario y el respeto por las ideas ajenas.",
+            "ruta_de_exploracion": {
+              "explorar": "Simulacro de debate relámpago: Los estudiantes deben defender una idea impopular usando un tono respetuoso.",
+              "visual": "Diagrama de 'Termómetro de Estilo' para calificar el manejo de la voz y el tono en diferentes intervenciones orales.",
+              "produccion": "Informe de evaluación grupal sobre el desempeño comunicativo de sus compañeros durante un foro de clase."
+            },
+            "para_pensar": [
+              "¿Qué impacto tiene el manejo de la voz en la credibilidad de lo que decimos?",
+              "¿Por qué es ético buscar información en diversas fuentes antes de opinar?"
+            ],
+            "pistas_del_exito": [
+              "Evalúa la progresión temática y el vocabulario en sus propias intervenciones.",
+              "Busca y cita información de diversas fuentes para profundizar en un tema."
+            ],
+            "un_refuerzo": "Lista de chequeo para autoevaluar el volumen y claridad al hablar frente al público."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "El Arte de la Ciudad",
+            "un_reto_sugerido": "Diseñar un caligrama o un boceto de grafiti que comunique un mensaje social usando solo símbolos y lenguaje no verbal.",
+            "ruta_de_exploracion": {
+              "explorar": "Safari de símbolos: Identificar en el colegio o en el barrio grafitis, publicidad y símbolos patrios, analizando qué quieren decir.",
+              "visual": "Collage que combine letras de canciones, imágenes publicitarias y caligramas para representar la identidad del curso.",
+              "produccion": "Creación de una pieza visual (digital o física) que explique una problemática social mediante el lenguaje simbólico."
+            },
+            "para_pensar": [
+              "¿Por qué un grafiti puede ser considerado un medio de comunicación?",
+              "¿Cómo logran las canciones transmitir mensajes políticos a través de la metáfora?"
+            ],
+            "pistas_del_exito": [
+              "Diferencia claramente entre obras literarias y artes plásticas en sus formas.",
+              "Utiliza códigos no verbales de manera intencionada en sus creaciones."
+            ],
+            "un_refuerzo": "Ficha de lectura de imágenes para aprender a interpretar colores y formas en la publicidad."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 2,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "Arquitectos de Conceptos",
+            "un_reto_sugerido": "Escribir y presentar una relatoría académica sobre una problemática actual, asegurando el uso correcto de conceptos clave.",
+            "ruta_de_exploracion": {
+              "explorar": "Adivina el concepto: Un estudiante describe un término técnico sin decir su nombre y el resto lo identifica.",
+              "visual": "Mapa semántico que conecte una problemática central con sus causas, consecuencias y conceptos fundamentales.",
+              "produccion": "Redacción de un texto explicativo con procedimientos de corrección lingüística para su publicación en el mural escolar."
+            },
+            "para_pensar": [
+              "¿Cómo cambia nuestra opinión cuando entendemos realmente el significado de los términos técnicos?",
+              "¿Por qué es necesario revisar un texto varias veces antes de entregarlo?"
+            ],
+            "pistas_del_exito": [
+              "Demuestra dominio del tema al definir conceptos clave con sus propias palabras.",
+              "Aplica mecanismos de sentido global (coherencia) en su producción escrita."
+            ],
+            "un_refuerzo": "Uso de un diccionario técnico para precisar el lenguaje del texto."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Auditores de Textos",
+            "un_reto_sugerido": "Realizar una 'auditoría' a un texto propio anterior, evaluando su plan de contenido y estrategias discursivas.",
+            "ruta_de_exploracion": {
+              "explorar": "Intercambio de borradores: Leer el texto de un compañero y tratar de resumirlo en una sola frase.",
+              "visual": "Esquema de 'Plan de Contenido' (Tesis, Argumentos, Conclusiones) aplicado al texto que se está evaluando.",
+              "produccion": "Versión final del texto corregida, incluyendo una nota al pie sobre los cambios realizados."
+            },
+            "para_pensar": [
+              "¿Qué es más difícil: escribir un texto desde cero o corregir uno ya escrito?",
+              "¿Cómo ayudan las relaciones de sentido a que un lector no se pierda?"
+            ],
+            "pistas_del_exito": [
+              "Mantiene una actitud crítica frente a sus propios errores de escritura.",
+              "Identifica si el texto cumple con el plan de contenido propuesto inicialmente."
+            ],
+            "un_refuerzo": "Guía de preguntas guía: ¿Tengo una idea principal? ¿Mis argumentos apoyan esa idea?"
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "El Tribunal de las Voces",
+            "un_reto_sugerido": "Analizar un texto literario universal para debatir las posturas éticas y filosóficas de sus personajes.",
+            "ruta_de_exploracion": {
+              "explorar": "Círculo de lectura: Leer fragmentos en voz alta y votar por el personaje que tomó la decisión más difícil.",
+              "visual": "Tabla comparativa de dimensiones: Ética (lo que debe ser), Estética (la belleza del lenguaje) y Filosófica (el sentido de la vida).",
+              "produccion": "Ensayo corto argumentando su posición frente a la ideología de una obra literaria específica."
+            },
+            "para_pensar": [
+              "¿Puede un libro cambiar nuestra forma de ver lo que es correcto o incorrecto?",
+              "¿Qué hace que un texto sea considerado 'bello' a pesar de tratar temas tristes?"
+            ],
+            "pistas_del_exito": [
+              "Deduce referentes ideológicos ocultos tras las voces de los personajes.",
+              "Argumenta con claridad su postura frente a los dilemas planteados en el texto."
+            ],
+            "un_refuerzo": "Lectura dirigida de fragmentos clave subrayando términos que denoten valores o creencias."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Cartografía de Ideologías",
+            "un_reto_sugerido": "Comparar discursos de diferentes grupos humanos contemporáneos para identificar sus visiones de mundo e ideologías.",
+            "ruta_de_exploracion": {
+              "explorar": "Análisis de clips: Ver dos noticias sobre el mismo tema desde dos canales de países diferentes.",
+              "visual": "Infografía que resuma las características culturales y políticas de un grupo humano específico analizado.",
+              "produccion": "Participación en un conversatorio donde se evalúe el estilo y tono de diferentes discursos sociales."
+            },
+            "para_pensar": [
+              "¿Por qué personas de diferentes culturas pueden ver un mismo hecho de formas tan distintas?",
+              "¿Cómo influye la ideología en el vocabulario que elegimos para hablar?"
+            ],
+            "pistas_del_exito": [
+              "Profundiza en el contexto cultural de las temáticas mediante fuentes confiables.",
+              "Respeta la diversidad de opiniones durante los espacios de discusión grupal."
+            ],
+            "un_refuerzo": "Glosario de términos sobre ideología y cultura para facilitar el análisis."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Cineastas del Mañana",
+            "un_reto_sugerido": "Escribir el guion de un cortometraje audiovisual que represente la identidad de una cultura específica.",
+            "ruta_de_exploracion": {
+              "explorar": "Análisis de escenas: Ver un corto sin sonido e identificar qué elementos visuales nos hablan de la cultura de los personajes.",
+              "visual": "Storyboard (guion gráfico) que articule elementos verbales (diálogos) y no verbales (encuadres, gestos).",
+              "produccion": "Guion técnico completo que incluya descripción de vestuario, lenguaje y contexto social de la historia."
+            },
+            "para_pensar": [
+              "¿Cómo ayuda el cine a que entendamos culturas que están al otro lado del mundo?",
+              "¿Qué elementos no verbales son más poderosos para transmitir una emoción en pantalla?"
+            ],
+            "pistas_del_exito": [
+              "Asume una posición crítica frente a los discursos que presentan los medios masivos.",
+              "Caracteriza etnias y grupos sociales respetando su realidad lingüística y cultural."
+            ],
+            "un_refuerzo": "Plantilla estándar de guion audiovisual para organizar las ideas."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 3,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "El Pódium de la Oratoria",
+            "un_reto_sugerido": "Realizar una intervención oral (comentario o ponencia) controlando conscientemente la entonación y la postura corporal.",
+            "ruta_de_exploracion": {
+              "explorar": "Reto del locutor: Leer un mismo texto como si fuera una noticia trágica, un chisme emocionante o un informe aburrido.",
+              "visual": "Ficha de autoevaluación con iconos para marcar el volumen, tono, impostación y contacto visual.",
+              "produccion": "Presentación oral ante el grupo utilizando estrategias organizativas aprendidas (inicio, conectores, cierre)."
+            },
+            "para_pensar": [
+              "¿Puede un buen discurso perder fuerza si el orador no mira a su público?",
+              "¿Cómo ayuda la impostación de la voz a no cansarse al hablar en público?"
+            ],
+            "pistas_del_exito": [
+              "Emplea aspectos no verbales (volumen, tono) para reforzar su mensaje oral.",
+              "Identifica y aplica estrategias organizativas en su discurso."
+            ],
+            "un_refuerzo": "Ejercicios de respiración diafragmática antes de pasar al frente."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Esquemas de la Ciencia",
+            "un_reto_sugerido": "Transformar un artículo de divulgación científica en un esquema de interpretación (mapa conceptual o infografía) para explicarlo a compañeros menores.",
+            "ruta_de_exploracion": {
+              "explorar": "Lectura rápida: Identificar en 2 minutos las 5 palabras más importantes de un texto científico.",
+              "visual": "Diseño de un 'Esquema de Interpretación' que jerarquice las ideas del texto desde la más general a la más específica.",
+              "produccion": "Exposición del esquema creado, motivando a los otros a interesarse por el tema científico tratado."
+            },
+            "para_pensar": [
+              "¿Por qué es importante que la ciencia se explique de forma sencilla para todos?",
+              "¿Cómo ayuda un esquema visual a recordar mejor la información compleja?"
+            ],
+            "pistas_del_exito": [
+              "Divulga información científica de manera motivadora y clara.",
+              "Estructura el contenido siguiendo un orden lógico y sistemático."
+            ],
+            "un_refuerzo": "Uso de conectores lógicos visuales (flechas, colores) para mostrar relaciones de causa y efecto."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "Catálogo de Movimientos",
+            "un_reto_sugerido": "Crear un perfil de 'influencer literario' de un movimiento específico, publicando sus temáticas y autores icónicos.",
+            "ruta_de_exploracion": {
+              "explorar": "Relacionar poemas clásicos con canciones actuales que tengan el mismo estilo (ej. Romanticismo y baladas).",
+              "visual": "Mosaico de autores y obras donde se destaquen los recursos estilísticos (metáforas, rimas, estructuras).",
+              "produccion": "Reseña comparativa de dos obras de literatura universal pertenecientes al mismo movimiento."
+            },
+            "para_pensar": [
+              "¿Qué hace que un autor se convierta en el 'exponente' de toda una época?",
+              "¿Cómo podemos reconocer un estilo literario con solo leer las primeras páginas?"
+            ],
+            "pistas_del_exito": [
+              "Caracteriza correctamente los perfiles estilísticos de las obras de una época.",
+              "Reconoce temáticas recurrentes en la literatura universal."
+            ],
+            "un_refuerzo": "Lectura de antologías breves para comparar diferentes estilos de escritura."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Puentes Interculturales",
+            "un_reto_sugerido": "Diseñar un producto comunicativo que promueva el respeto y la valoración de las comunidades indígenas y afrocolombianas.",
+            "ruta_de_exploracion": {
+              "explorar": "Escuchar mitos y leyendas de tradición oral de grupos étnicos colombianos.",
+              "visual": "Mapa de la diversidad: Ubicar geográficamente las comunidades y sus principales aportes culturales al país.",
+              "produccion": "Redacción de un texto que evalúe la importancia de la relación intercultural en la Colombia actual."
+            },
+            "para_pensar": [
+              "¿Qué podemos aprender de la forma en que se comunican las comunidades indígenas?",
+              "¿Por qué el respeto por la diversidad cultural es clave para la paz?"
+            ],
+            "pistas_del_exito": [
+              "Expresa posicionamientos respetuosos frente a la diversidad cultural.",
+              "Identifica el sentido global de problemáticas sociales complejas."
+            ],
+            "un_refuerzo": "Ver fragmentos de entrevistas a líderes comunitarios para entender su visión de mundo."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Detrás de la Pantalla e Imagen",
+            "un_reto_sugerido": "Analizar los códigos verbales y no verbales en una película o videoclip, identificando los mecanismos ideológicos presentes.",
+            "ruta_de_exploracion": {
+              "explorar": "Análisis de posters de cine: ¿Qué nos dice la posición de los personajes y los colores sobre la trama?",
+              "visual": "Creación de un caligrama basado en la letra de una canción con alto contenido social.",
+              "produccion": "Ensayo crítico sobre cómo los medios masivos influyen en la percepción de la belleza o el éxito."
+            },
+            "para_pensar": [
+              "¿Cómo nos convencen las canciones de adoptar ciertas posturas ideológicas?",
+              "¿Qué diferencia hay entre ver una historia en un libro y verla en una película?"
+            ],
+            "pistas_del_exito": [
+              "Valora la diversidad de posiciones ideológicas en los medios masivos.",
+              "Reconoce diferencias formales entre sistemas simbólicos verbales y no verbales."
+            ],
+            "un_refuerzo": "Ficha de análisis cinematográfico (planos, música, iluminación)."
+          }
+        }
+      ]
+    },
+    {
+      "periodo_id": 4,
+      "guias_por_componente": [
+        {
+          "componente": "Producción Textual",
+          "guia_didactica": {
+            "la_estrategia": "El Taller del Ensayista",
+            "un_reto_sugerido": "Escribir un ensayo argumentativo con ideas originales sobre un género literario de su elección.",
+            "ruta_de_exploracion": {
+              "explorar": "Lluvia de tesis: Proponer afirmaciones polémicas sobre libros o películas y defenderlas en 30 segundos.",
+              "visual": "Esquema de 'Pescado de Ishikawa' para organizar la tesis y los argumentos de apoyo del ensayo.",
+              "produccion": "Entrega del ensayo final tras un proceso de autoevaluación y corrección de pares."
+            },
+            "para_pensar": [
+              "¿Qué hace que una idea sea realmente propia y no una repetición de lo que otros dicen?",
+              "¿Cómo se logra que un ensayo tenga un sentido global y no parezca una lista de ideas sueltas?"
+            ],
+            "pistas_del_exito": [
+              "Evalúa la calidad de sus propios textos mediante procesos sistemáticos de corrección.",
+              "Sustenta sus ideas con argumentos coherentes y bien estructurados."
+            ],
+            "un_refuerzo": "Rúbrica detallada con los criterios de evaluación del ensayo (cohesión, coherencia, ortografía)."
+          }
+        },
+        {
+          "componente": "Comprensión e interpretación textual",
+          "guia_didactica": {
+            "la_estrategia": "Críticos de la Información",
+            "un_reto_sugerido": "Analizar y comparar dos textos de divulgación científica, evaluando sus estrategias discursivas y su efectividad.",
+            "ruta_de_exploracion": {
+              "explorar": "Comparar una noticia sensacionalista con un artículo científico sobre el mismo tema (ej. el clima).",
+              "visual": "Matriz de evaluación de textos: Plan de contenido, relación de sentido y claridad del lenguaje.",
+              "produccion": "Presentación de una reseña crítica donde se recomiende uno de los textos analizados motivando a otros a leerlo."
+            },
+            "para_pensar": [
+              "¿Por qué algunos textos científicos resultan más interesantes que otros para el público general?",
+              "¿Qué importancia tiene el plan de contenido en la efectividad de un mensaje?"
+            ],
+            "pistas_del_exito": [
+              "Asume una actitud crítica frente a lo que lee, argumentando sus puntos de vista.",
+              "Evalúa textos escritos teniendo en cuenta estrategias discursivas."
+            ],
+            "un_refuerzo": "Lectura de 'Manual de escritura para no científicos' para identificar buenas prácticas."
+          }
+        },
+        {
+          "componente": "Literatura",
+          "guia_didactica": {
+            "la_estrategia": "Teóricos del Relato",
+            "un_reto_sugerido": "Aplicar conceptos de teoría literaria para realizar un análisis profundo de una obra de la literatura universal.",
+            "ruta_de_exploracion": {
+              "explorar": "Identificar en fragmentos de películas elementos de la teoría literaria (ej. narrador omnisciente, flashback).",
+              "visual": "Mapa conceptual de la estructura interna de la obra (tiempo narrativo, voces, ideologías de los personajes).",
+              "produccion": "Video-ensayo o blog literario donde se exponga el análisis teórico de la obra seleccionada."
+            },
+            "para_pensar": [
+              "¿Cómo ayuda la teoría literaria a descubrir secretos ocultos en los libros?",
+              "¿Qué nos dicen las voces de un texto sobre la cultura de su autor?"
+            ],
+            "pistas_del_exito": [
+              "Deduce referentes sociales e ideológicos presentes en las voces del texto.",
+              "Utiliza terminología de la teoría literaria de forma pertinente."
+            ],
+            "un_refuerzo": "Pequeño diccionario de términos de teoría literaria para consulta rápida."
+          }
+        },
+        {
+          "componente": "Ética de la Comunicación",
+          "guia_didactica": {
+            "la_estrategia": "Diálogos de Futuro",
+            "un_reto_sugerido": "Participar en un panel de discusión sobre los retos de la interculturalidad en Colombia, manteniendo una postura respetuosa.",
+            "ruta_de_exploracion": {
+              "explorar": "Dinámica de 'En sus zapatos': Responder a una situación conflictiva desde la perspectiva de un líder indígena o afro.",
+              "visual": "Póster con los '10 mandamientos de la comunicación respetuosa' creados por el grupo.",
+              "produccion": "Escrito reflexivo final sobre cómo su visión de la diversidad ha cambiado a lo largo del año."
+            },
+            "para_pensar": [
+              "¿Es posible estar en total desacuerdo con alguien y aun así tener una comunicación exitosa?",
+              "¿Por qué el respeto es la base de cualquier discusión científica o política?"
+            ],
+            "pistas_del_exito": [
+              "Expresa de manera coherente sus posicionamientos en espacios de discusión.",
+              "Evalúa la calidad de las intervenciones propias y ajenas con objetividad."
+            ],
+            "un_refuerzo": "Ejercicios de parafraseo para asegurar que se entendió la idea del otro antes de responder."
+          }
+        },
+        {
+          "componente": "Medios de Comunicación y otros sistemas simbólicos",
+          "guia_didactica": {
+            "la_estrategia": "Analistas de la Persuasión",
+            "un_reto_sugerido": "Crear una pieza comunicativa propia (artículo, caricatura o video) que denuncie un elemento ideológico en los medios.",
+            "ruta_de_exploracion": {
+              "explorar": "Comparar un discurso político real con una caricatura que lo parodie para identificar qué mensaje es más potente.",
+              "visual": "Tabla comparativa de estructuras: Discurso político vs. Artículo de opinión vs. Caricatura.",
+              "produccion": "Producción de un texto multimodal (verbal y no verbal) con una intención crítica y propositiva frente a la sociedad."
+            },
+            "para_pensar": [
+              "¿Por qué una caricatura puede decir a veces más verdades que un discurso de una hora?",
+              "¿Qué responsabilidad tenemos al compartir contenidos en redes sociales?"
+            ],
+            "pistas_del_exito": [
+              "Encuentra claves comunicativas diferenciando estructuras de diversos tipos de textos mediáticos.",
+              "Demuestra conocimiento local y global al construir significados en sus piezas comunicativas."
+            ],
+            "un_refuerzo": "Taller de dibujo básico para caricaturas o herramientas de diseño digital sencillo."
+          }
+        }
+      ]
+    }
+  ]
+}
