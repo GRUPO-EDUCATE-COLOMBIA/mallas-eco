@@ -1,503 +1,506 @@
+ahora json de grado 5
+
 {
-  "area": "Inglés",
-  "grado": "5",
-  "tipo_malla": "Malla Periódica",
-  "numero_periodos": 4,
-  "periodos": {
-    "1": [
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Escucha"],
-        "dba": [
-          "Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
-        ],
-        "evidencias": [
-          "Comprendo información personal proporcionada por mis compañeros y mi profesor."
-        ],
-        "saberes": [
-          "Información personal"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Conversación"],
-        "dba": [
-          "Compara características básicas de personas, objetos y lugares de su escuela y comunidad, a través de oraciones simples.",
-          "Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
-        ],
-        "evidencias": [
-          "Respondo a preguntas personales como nombre, edad, nacionalidad y dirección, con apoyo de repeticiones cuando sea necesario.",
-          "Puedo saludar de acuerdo con la hora del día, de forma natural y apropiada.",
-          "Saludo cortésmente de acuerdo con la edad y rango del interlocutor.",
-          "Mantengo una conversación simple en inglés con un compañero cuando desarrollo una actividad de aula.",
-          "Respondo preguntas sobre mis gustos y preferencias."
-        ],
-        "saberes": [
-          "Preguntas personales",
-          "Saludos según la hora del día",
-          "Saludos corteses",
-          "Conversaciones simples con compañeros",
-          "Gustos",
-          "Preferencias"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Monólogo"],
-        "dba": [
-          "Explica causas y consecuencias de una situación a través de oraciones simples de manera oral y escrita siguiendo un modelo establecido."
-        ],
-        "evidencias": [
-          "Deletreo palabras que me son conocidas.",
-          "Expreso en una palabra o frase corta, cómo me siento.",
-          "Hablo de las actividades que realizo habitualmente.",
-          "Puedo hablar de cantidades y contar objetos hasta mil."
-        ],
-        "saberes": [
-          "Deletreo de palabras",
-          "Respuestas de estados de ánimo",
-          "Actividades habituales",
-          "Números hasta el mil"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Sociolingüístico",
-        "estandar": ["Lectura"],
-        "dba": [
-          "Comprende información general y específica en un texto narrativo corto sobre temas conocidos y de interés."
-        ],
-        "evidencias": [
-          "Identifico la secuencia de las acciones y las asocio con los momentos del día, cuando alguien describe su rutina diaria.",
-          "Asocio un dibujo con su descripción escrita.",
-          "Comprendo descripciones cortas sobre personas, lugares y acciones conocidas.",
-          "Ubico en un texto corto los lugares y momentos en que suceden las acciones.",
-          "Identifico las acciones en una secuencia corta de eventos.",
-          "Leo y entiendo textos auténticos y sencillos sobre acontecimientos concretos asociados a tradiciones culturales que conozco (cumpleaños, navidad, etc.).",
-          "Reconozco, en un texto narrativo corto, aspectos como qué, quién, cuándo y dónde."
-        ],
-        "saberes": [
-          "Rutina diaria",
-          "Acciones de la rutina",
-          "Descripciones escritas",
-          "Descripciones de personas",
-          "Descripciones de lugares",
-          "Descripciones de acciones",
-          "Lugares y tiempo de las acciones",
-          "Secuencias de eventos",
-          "Tradiciones culturales",
-          "Estructura narrativa (qué, quién, cuándo, dónde)"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Pragmático",
-        "estandar": ["Escritura"],
-        "dba": [
-          "Produce un texto narrativo oral y/o escrito, corto y sencillo, que responde al '¿qué?, ¿quién?, ¿cuándo? y ¿dónde?' de un evento o anécdota."
-        ],
-        "evidencias": [
-          "Escribo descripciones y narraciones cortas basadas en una secuencia de ilustraciones.",
-          "Enlazo frases y oraciones usando conectores que expresan secuencia y adición.",
-          "Escribo textos cortos que describen mi estado de ánimo y mis preferencias.",
-          "Uso adecuadamente estructuras y patrones gramaticales de uso frecuente.",
-          "Verifico la ortografía de las palabras que escribo con frecuencia"
-        ],
-        "saberes": [
-          "Narraciones basadas en ilustraciones",
-          "Conectores de secuencia",
-          "Conectores de adición",
-          "Estados de ánimo",
-          "Preferencias personales",
-          "Estructuras gramaticales",
-          "Patrones gramaticales",
-          "Ortografía propia"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      }
-    ],
-    "2": [
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Escucha"],
-        "dba": [
-          "Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
-        ],
-        "evidencias": [
-          "Comprendo información personal proporcionada por mis compañeros y mi profesor."
-        ],
-        "saberes": [
-          "Información personal"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Conversación"],
-        "dba": [
-          "Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
-        ],
-        "evidencias": [
-          "Respondo a preguntas personales como nombre, edad, nacionalidad y dirección, con apoyo de repeticiones cuando sea necesario.",
-          "Puedo saludar de acuerdo con la hora del día, de forma natural y apropiada.",
-          "Saludo cortésmente de acuerdo con la edad y rango del interlocutor.",
-          "Pido y acepto disculpas de forma simple y cortés.",
-          "Mantengo una conversación simple en inglés con un compañero cuando desarrollo una actividad de aula.",
-          "Pregunto y respondo sobre las características físicas de objetos familiares.",
-          "Respondo preguntas sobre mis gustos y preferencias."
-        ],
-        "saberes": [
-          "Preguntas personales",
-          "Saludos",
-          "Disculpas simples",
-          "Conversaciones simples",
-          "Características de objetos",
-          "Gustos",
-          "Preferencias"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Monólogo"],
-        "dba": [
-          "Explica causas y consecuencias de una situación a través de oraciones simples de manera oral y escrita siguiendo un modelo establecido."
-        ],
-        "evidencias": [
-          "Me describo a mí o a otra persona conocida, con frases simples y cortas, teniendo en cuenta su edad y sus características físicas.",
-          "Deletreo palabras que me son conocidas.",
-          "Expreso en una palabra o frase corta, cómo me siento.",
-          "Puedo hablar de cantidades y contar objetos hasta mil."
-        ],
-        "saberes": [
-          "Descripción de personas según edad y características físicas",
-          "Deletreo de palabras",
-          "Respuestas de estados de ánimo",
-          "Números hasta el mil"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Sociolingüístico",
-        "estandar": ["Lectura"],
-        "dba": [
-          "Comprende información general y específica en un texto narrativo corto sobre temas conocidos y de interés."
-        ],
-        "evidencias": [
-          "Asocio un dibujo con su descripción escrita.",
-          "Comprendo descripciones cortas sobre personas, lugares y acciones conocidas.",
-          "Ubico en un texto corto los lugares y momentos en que suceden las acciones.",
-          "Leo y entiendo textos auténticos y sencillos sobre acontecimientos concretos asociados a tradiciones culturales que conozco (cumpleaños, navidad, etc.).",
-          "Reconozco, en un texto narrativo corto, aspectos como qué, quién, cuándo y dónde."
-        ],
-        "saberes": [
-          "Descripciones escritas",
-          "Descripciones de personas y lugares",
-          "Lugares y tiempo de las acciones",
-          "Tradiciones culturales",
-          "Estructura narrativa"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Pragmático",
-        "estandar": ["Escritura"],
-        "dba": [
-          "Produce un texto narrativo oral y/o escrito, corto y sencillo, que responde al '¿qué?, ¿quién?, ¿cuándo? y ¿dónde?' de un evento o anécdota."
-        ],
-        "evidencias": [
-          "Escribo descripciones y narraciones cortas basadas en una secuencia de ilustraciones.",
-          "Describo los rasgos personales de gente de mi entorno.",
-          "Escribo textos cortos que describen mi estado de ánimo y mis preferencias.",
-          "Uso adecuadamente estructuras y patrones gramaticales de uso frecuente.",
-          "Verifico la ortografía de las palabras que escribo con frecuencia."
-        ],
-        "saberes": [
-          "Narraciones basadas en ilustraciones",
-          "Descripción de rasgos",
-          "Estados de ánimo",
-          "Preferencias personales",
-          "Estructuras gramaticales",
-          "Ortografía propia"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      }
-    ],
-    "3": [
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Escucha"],
-        "dba": [
-          "Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
-        ],
-        "evidencias": [
-          "Comprendo información personal proporcionada por mis compañeros y mi profesor.",
-          "Identifico la secuencia de las acciones y las asocio con los momentos del día, cuando alguien describe su rutina diaria."
-        ],
-        "saberes": [
-          "Descripciones personales de compañeros de aula",
-          "Rutina diaria",
-          "Acciones de la rutina"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Conversación"],
-        "dba": [
-          "Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
-        ],
-        "evidencias": [
-          "Respondo a preguntas personales como nombre, edad, nacionalidad y dirección, con apoyo de repeticiones cuando sea necesario.",
-          "Puedo saludar de acuerdo con la hora del día, de forma natural y apropiada.",
-          "Saludo cortésmente de acuerdo con la edad y rango del interlocutor.",
-          "Mantengo una conversación simple en inglés con un compañero cuando desarrollo una actividad de aula."
-        ],
-        "saberes": [
-          "Preguntas personales",
-          "Saludos",
-          "Conversaciones simples con compañeros"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Monólogo"],
-        "dba": [
-          "Explica causas y consecuencias de una situación a través de oraciones simples de manera oral y escrita siguiendo un modelo establecido."
-        ],
-        "evidencias": [
-          "Me describo a mí o a otra persona conocida, con frases simples y cortas, teniendo en cuenta su edad y sus características físicas.",
-          "Deletreo palabras que me son conocidas.",
-          "Hablo de las actividades que realizo habitualmente.",
-          "Puedo hablar de cantidades y contar objetos hasta mil."
-        ],
-        "saberes": [
-          "Descripción propia o de otra persona",
-          "Deletreo de palabras",
-          "Actividades habituales",
-          "Números hasta el mil"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Sociolingüístico",
-        "estandar": ["Lectura"],
-        "dba": [
-          "Comprende información general y específica en un texto narrativo corto sobre temas conocidos y de interés."
-        ],
-        "evidencias": [
-          "Asocio un dibujo con su descripción escrita.",
-          "Comprendo descripciones cortas sobre personas, lugares y acciones conocidas.",
-          "Ubico en un texto corto los lugares y momentos en que suceden las acciones.",
-          "Identifico las acciones en una secuencia corta de eventos.",
-          "Leo y entiendo textos auténticos y sencillos sobre acontecimientos concretos asociados a tradiciones culturales que conozco (cumpleaños, navidad, etc.).",
-          "Reconozco, en un texto narrativo corto, aspectos como qué, quién, cuándo y dónde."
-        ],
-        "saberes": [
-          "Descripciones escritas",
-          "Descripciones de personas y lugares",
-          "Lugares y tiempo de las acciones",
-          "Secuencias de eventos",
-          "Tradiciones culturales",
-          "Estructura narrativa"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Pragmático",
-        "estandar": ["Escritura"],
-        "dba": [
-          "Produce un texto narrativo oral y/o escrito, corto y sencillo, que responde al '¿qué?, ¿quién?, ¿cuándo? y ¿dónde?' de un evento o anécdota."
-        ],
-        "evidencias": [
-          "Escribo descripciones y narraciones cortas basadas en una secuencia de ilustraciones.",
-          "Describo los rasgos personales de gente de mi entorno.",
-          "Enlazo frases y oraciones usando conectores que expresan secuencia y adición.",
-          "Uso adecuadamente estructuras y patrones gramaticales de uso frecuente.",
-          "Verifico la ortografía de las palabras que escribo con frecuencia."
-        ],
-        "saberes": [
-          "Narraciones basadas en ilustraciones",
-          "Descripción de rasgos",
-          "Conectores",
-          "Estructuras gramaticales",
-          "Patrones gramaticales",
-          "Ortografía propia"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      }
-    ],
-    "4": [
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Escucha"],
-        "dba": [
-          "Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
-        ],
-        "evidencias": [
-          "Comprendo información personal proporcionada por mis compañeros y mi profesor.",
-          "Identifico la secuencia de las acciones y las asocio con los momentos del día, cuando alguien describe su rutina diaria."
-        ],
-        "saberes": [
-          "Descripciones personales de compañeros",
-          "Rutina diaria",
-          "Acciones de la rutina"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Conversación"],
-        "dba": [
-          "Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
-        ],
-        "evidencias": [
-          "Respondo a preguntas personales como nombre, edad, nacionalidad y dirección, con apoyo de repeticiones cuando sea necesario.",
-          "Puedo saludar de acuerdo con la hora del día, de forma natural y apropiada.",
-          "Saludo cortésmente de acuerdo con la edad y rango del interlocutor.",
-          "Mantengo una conversación simple en inglés con un compañero cuando desarrollo una actividad de aula.",
-          "Respondo preguntas sobre mis gustos y preferencias."
-        ],
-        "saberes": [
-          "Preguntas personales",
-          "Saludos",
-          "Conversaciones simples",
-          "Gustos y preferencias"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Lingüístico",
-        "estandar": ["Monólogo"],
-        "dba": [
-          "Explica causas y consecuencias de una situación a través de oraciones simples de manera oral y escrita siguiendo un modelo establecido."
-        ],
-        "evidencias": [
-          "Uso oraciones cortas para decir lo que puedo o no puedo hacer.",
-          "Deletreo palabras que me son conocidas.",
-          "Expreso en una palabra o frase corta, cómo me siento.",
-          "Hablo de las actividades que realizo habitualmente.",
-          "Puedo hablar de cantidades y contar objetos hasta mil."
-        ],
-        "saberes": [
-          "Lo que puedo hacer o no",
-          "Deletreo de palabras",
-          "Estados de ánimo",
-          "Actividades habituales",
-          "Números hasta el mil"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Sociolingüístico",
-        "estandar": ["Lectura"],
-        "dba": [
-          "Comprende información general y específica en un texto narrativo corto sobre temas conocidos y de interés."
-        ],
-        "evidencias": [
-          "Asocio un dibujo con su descripción escrita.",
-          "Comprendo descripciones cortas sobre personas, lugares y acciones conocidas.",
-          "Ubico en un texto corto los lugares y momentos en que suceden las acciones.",
-          "Identifico las acciones en una secuencia corta de eventos.",
-          "Leo y entiendo textos auténticos y sencillos sobre acontecimientos concretos asociados a tradiciones culturales que conozco (cumpleaños, navidad, etc.).",
-          "Reconozco, en un texto narrativo corto, aspectos como qué, quién, cuándo y dónde."
-        ],
-        "saberes": [
-          "Descripciones escritas",
-          "Descripciones de personas y lugares",
-          "Lugares y tiempo de las acciones",
-          "Secuencias de eventos",
-          "Tradiciones culturales",
-          "Estructura narrativa"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      },
-      {
-        "componente": "Pragmático",
-        "estandar": ["Escritura"],
-        "dba": [
-          "Produce un texto narrativo oral y/o escrito, corto y sencillo, que responde al '¿qué?, ¿quién?, ¿cuándo? y ¿dónde?' de un evento o anécdota."
-        ],
-        "evidencias": [
-          "Escribo descripciones y narraciones cortas basadas en una secuencia de ilustraciones.",
-          "Escribo tarjetas con mensajes cortos de felicitación o invitación.",
-          "Escribo textos cortos que describen mi estado de ánimo y mis preferencias.",
-          "Uso adecuadamente estructuras y patrones gramaticales de uso frecuente.",
-          "Verifico la ortografía de las palabras que escribo con frecuencia."
-        ],
-        "saberes": [
-          "Narraciones basadas en ilustraciones",
-          "Tarjetas de felicitación o invitación",
-          "Estados de ánimo",
-          "Preferencias personales",
-          "Estructuras gramaticales",
-          "Ortografía propia"
-        ],
-        "socioemocional": null,
-        "diccionario": null,
-        "tareas_dce": null,
-        "fuente": "Grupo Edúcate Colombia"
-      }
-    ]
-  }
+"area": "Inglés",
+"grado": "5",
+"tipo_malla": "Malla Periódica",
+"numero_periodos": 4,
+"periodos": {
+"1": [
+{
+"componente": "Lingüístico",
+"estandar": ["Escucha"],
+"dba": [
+"Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
+],
+"evidencias": [
+"Comprendo información personal proporcionada por mis compañeros y mi profesor."
+],
+"saberes": [
+"Información personal"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Lingüístico",
+"estandar": ["Conversación"],
+"dba": [
+"Compara características básicas de personas, objetos y lugares de su escuela y comunidad, a través de oraciones simples.",
+"Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
+],
+"evidencias": [
+"Respondo a preguntas personales como nombre, edad, nacionalidad y dirección, con apoyo de repeticiones cuando sea necesario.",
+"Puedo saludar de acuerdo con la hora del día, de forma natural y apropiada.",
+"Saludo cortésmente de acuerdo con la edad y rango del interlocutor.",
+"Mantengo una conversación simple en inglés con un compañero cuando desarrollo una actividad de aula.",
+"Respondo preguntas sobre mis gustos y preferencias."
+],
+"saberes": [
+"Preguntas personales",
+"Saludos según la hora del día",
+"Saludos corteses",
+"Conversaciones simples con compañeros",
+"Gustos",
+"Preferencias"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Lingüístico",
+"estandar": ["Monólogo"],
+"dba": [
+"Explica causas y consecuencias de una situación a través de oraciones simples de manera oral y escrita siguiendo un modelo establecido."
+],
+"evidencias": [
+"Deletreo palabras que me son conocidas.",
+"Expreso en una palabra o frase corta, cómo me siento.",
+"Hablo de las actividades que realizo habitualmente.",
+"Puedo hablar de cantidades y contar objetos hasta mil."
+],
+"saberes": [
+"Deletreo de palabras",
+"Respuestas de estados de ánimo",
+"Actividades habituales",
+"Números hasta el mil"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Sociolingüístico",
+"estandar": ["Lectura"],
+"dba": [
+"Comprende información general y específica en un texto narrativo corto sobre temas conocidos y de interés."
+],
+"evidencias": [
+"Identifico la secuencia de las acciones y las asocio con los momentos del día, cuando alguien describe su rutina diaria.",
+"Asocio un dibujo con su descripción escrita.",
+"Comprendo descripciones cortas sobre personas, lugares y acciones conocidas.",
+"Ubico en un texto corto los lugares y momentos en que suceden las acciones.",
+"Identifico las acciones en una secuencia corta de eventos.",
+"Leo y entiendo textos auténticos y sencillos sobre acontecimientos concretos asociados a tradiciones culturales que conozco (cumpleaños, navidad, etc.).",
+"Reconozco, en un texto narrativo corto, aspectos como qué, quién, cuándo y dónde."
+],
+"saberes": [
+"Rutina diaria",
+"Acciones de la rutina",
+"Descripciones escritas",
+"Descripciones de personas",
+"Descripciones de lugares",
+"Descripciones de acciones",
+"Lugares y tiempo de las acciones",
+"Secuencias de eventos",
+"Tradiciones culturales",
+"Estructura narrativa (qué, quién, cuándo, dónde)"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Pragmático",
+"estandar": ["Escritura"],
+"dba": [
+"Produce un texto narrativo oral y/o escrito, corto y sencillo, que responde al '¿qué?, ¿quién?, ¿cuándo? y ¿dónde?' de un evento o anécdota."
+],
+"evidencias": [
+"Escribo descripciones y narraciones cortas basadas en una secuencia de ilustraciones.",
+"Enlazo frases y oraciones usando conectores que expresan secuencia y adición.",
+"Escribo textos cortos que describen mi estado de ánimo y mis preferencias.",
+"Uso adecuadamente estructuras y patrones gramaticales de uso frecuente.",
+"Verifico la ortografía de las palabras que escribo con frecuencia"
+],
+"saberes": [
+"Narraciones basadas en ilustraciones",
+"Conectores de secuencia",
+"Conectores de adición",
+"Estados de ánimo",
+"Preferencias personales",
+"Estructuras gramaticales",
+"Patrones gramaticales",
+"Ortografía propia"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+}
+],
+"2": [
+{
+"componente": "Lingüístico",
+"estandar": ["Escucha"],
+"dba": [
+"Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
+],
+"evidencias": [
+"Comprendo información personal proporcionada por mis compañeros y mi profesor."
+],
+"saberes": [
+"Información personal"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Lingüístico",
+"estandar": ["Conversación"],
+"dba": [
+"Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
+],
+"evidencias": [
+"Respondo a preguntas personales como nombre, edad, nacionalidad y dirección, con apoyo de repeticiones cuando sea necesario.",
+"Puedo saludar de acuerdo con la hora del día, de forma natural y apropiada.",
+"Saludo cortésmente de acuerdo con la edad y rango del interlocutor.",
+"Pido y acepto disculpas de forma simple y cortés.",
+"Mantengo una conversación simple en inglés con un compañero cuando desarrollo una actividad de aula.",
+"Pregunto y respondo sobre las características físicas de objetos familiares.",
+"Respondo preguntas sobre mis gustos y preferencias."
+],
+"saberes": [
+"Preguntas personales",
+"Saludos",
+"Disculpas simples",
+"Conversaciones simples",
+"Características de objetos",
+"Gustos",
+"Preferencias"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Lingüístico",
+"estandar": ["Monólogo"],
+"dba": [
+"Explica causas y consecuencias de una situación a través de oraciones simples de manera oral y escrita siguiendo un modelo establecido."
+],
+"evidencias": [
+"Me describo a mí o a otra persona conocida, con frases simples y cortas, teniendo en cuenta su edad y sus características físicas.",
+"Deletreo palabras que me son conocidas.",
+"Expreso en una palabra o frase corta, cómo me siento.",
+"Puedo hablar de cantidades y contar objetos hasta mil."
+],
+"saberes": [
+"Descripción de personas según edad y características físicas",
+"Deletreo de palabras",
+"Respuestas de estados de ánimo",
+"Números hasta el mil"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Sociolingüístico",
+"estandar": ["Lectura"],
+"dba": [
+"Comprende información general y específica en un texto narrativo corto sobre temas conocidos y de interés."
+],
+"evidencias": [
+"Asocio un dibujo con su descripción escrita.",
+"Comprendo descripciones cortas sobre personas, lugares y acciones conocidas.",
+"Ubico en un texto corto los lugares y momentos en que suceden las acciones.",
+"Leo y entiendo textos auténticos y sencillos sobre acontecimientos concretos asociados a tradiciones culturales que conozco (cumpleaños, navidad, etc.).",
+"Reconozco, en un texto narrativo corto, aspectos como qué, quién, cuándo y dónde."
+],
+"saberes": [
+"Descripciones escritas",
+"Descripciones de personas y lugares",
+"Lugares y tiempo de las acciones",
+"Tradiciones culturales",
+"Estructura narrativa"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Pragmático",
+"estandar": ["Escritura"],
+"dba": [
+"Produce un texto narrativo oral y/o escrito, corto y sencillo, que responde al '¿qué?, ¿quién?, ¿cuándo? y ¿dónde?' de un evento o anécdota."
+],
+"evidencias": [
+"Escribo descripciones y narraciones cortas basadas en una secuencia de ilustraciones.",
+"Describo los rasgos personales de gente de mi entorno.",
+"Escribo textos cortos que describen mi estado de ánimo y mis preferencias.",
+"Uso adecuadamente estructuras y patrones gramaticales de uso frecuente.",
+"Verifico la ortografía de las palabras que escribo con frecuencia."
+],
+"saberes": [
+"Narraciones basadas en ilustraciones",
+"Descripción de rasgos",
+"Estados de ánimo",
+"Preferencias personales",
+"Estructuras gramaticales",
+"Ortografía propia"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+}
+],
+"3": [
+{
+"componente": "Lingüístico",
+"estandar": ["Escucha"],
+"dba": [
+"Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
+],
+"evidencias": [
+"Comprendo información personal proporcionada por mis compañeros y mi profesor.",
+"Identifico la secuencia de las acciones y las asocio con los momentos del día, cuando alguien describe su rutina diaria."
+],
+"saberes": [
+"Descripciones personales de compañeros de aula",
+"Rutina diaria",
+"Acciones de la rutina"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Lingüístico",
+"estandar": ["Conversación"],
+"dba": [
+"Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
+],
+"evidencias": [
+"Respondo a preguntas personales como nombre, edad, nacionalidad y dirección, con apoyo de repeticiones cuando sea necesario.",
+"Puedo saludar de acuerdo con la hora del día, de forma natural y apropiada.",
+"Saludo cortésmente de acuerdo con la edad y rango del interlocutor.",
+"Mantengo una conversación simple en inglés con un compañero cuando desarrollo una actividad de aula."
+],
+"saberes": [
+"Preguntas personales",
+"Saludos",
+"Conversaciones simples con compañeros"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Lingüístico",
+"estandar": ["Monólogo"],
+"dba": [
+"Explica causas y consecuencias de una situación a través de oraciones simples de manera oral y escrita siguiendo un modelo establecido."
+],
+"evidencias": [
+"Me describo a mí o a otra persona conocida, con frases simples y cortas, teniendo en cuenta su edad y sus características físicas.",
+"Deletreo palabras que me son conocidas.",
+"Hablo de las actividades que realizo habitualmente.",
+"Puedo hablar de cantidades y contar objetos hasta mil."
+],
+"saberes": [
+"Descripción propia o de otra persona",
+"Deletreo de palabras",
+"Actividades habituales",
+"Números hasta el mil"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Sociolingüístico",
+"estandar": ["Lectura"],
+"dba": [
+"Comprende información general y específica en un texto narrativo corto sobre temas conocidos y de interés."
+],
+"evidencias": [
+"Asocio un dibujo con su descripción escrita.",
+"Comprendo descripciones cortas sobre personas, lugares y acciones conocidas.",
+"Ubico en un texto corto los lugares y momentos en que suceden las acciones.",
+"Identifico las acciones en una secuencia corta de eventos.",
+"Leo y entiendo textos auténticos y sencillos sobre acontecimientos concretos asociados a tradiciones culturales que conozco (cumpleaños, navidad, etc.).",
+"Reconozco, en un texto narrativo corto, aspectos como qué, quién, cuándo y dónde."
+],
+"saberes": [
+"Descripciones escritas",
+"Descripciones de personas y lugares",
+"Lugares y tiempo de las acciones",
+"Secuencias de eventos",
+"Tradiciones culturales",
+"Estructura narrativa"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Pragmático",
+"estandar": ["Escritura"],
+"dba": [
+"Produce un texto narrativo oral y/o escrito, corto y sencillo, que responde al '¿qué?, ¿quién?, ¿cuándo? y ¿dónde?' de un evento o anécdota."
+],
+"evidencias": [
+"Escribo descripciones y narraciones cortas basadas en una secuencia de ilustraciones.",
+"Describo los rasgos personales de gente de mi entorno.",
+"Enlazo frases y oraciones usando conectores que expresan secuencia y adición.",
+"Uso adecuadamente estructuras y patrones gramaticales de uso frecuente.",
+"Verifico la ortografía de las palabras que escribo con frecuencia."
+],
+"saberes": [
+"Narraciones basadas en ilustraciones",
+"Descripción de rasgos",
+"Conectores",
+"Estructuras gramaticales",
+"Patrones gramaticales",
+"Ortografía propia"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+}
+],
+"4": [
+{
+"componente": "Lingüístico",
+"estandar": ["Escucha"],
+"dba": [
+"Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
+],
+"evidencias": [
+"Comprendo información personal proporcionada por mis compañeros y mi profesor.",
+"Identifico la secuencia de las acciones y las asocio con los momentos del día, cuando alguien describe su rutina diaria."
+],
+"saberes": [
+"Descripciones personales de compañeros",
+"Rutina diaria",
+"Acciones de la rutina"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Lingüístico",
+"estandar": ["Conversación"],
+"dba": [
+"Pregunta y responde, de forma oral o escrita, interrogantes relacionados con el 'quién, cuándo y dónde', después de leer o escuchar un texto corto y sencillo siempre que el tema le sea conocido."
+],
+"evidencias": [
+"Respondo a preguntas personales como nombre, edad, nacionalidad y dirección, con apoyo de repeticiones cuando sea necesario.",
+"Puedo saludar de acuerdo con la hora del día, de forma natural y apropiada.",
+"Saludo cortésmente de acuerdo con la edad y rango del interlocutor.",
+"Mantengo una conversación simple en inglés con un compañero cuando desarrollo una actividad de aula.",
+"Respondo preguntas sobre mis gustos y preferencias."
+],
+"saberes": [
+"Preguntas personales",
+"Saludos",
+"Conversaciones simples",
+"Gustos y preferencias"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Lingüístico",
+"estandar": ["Monólogo"],
+"dba": [
+"Explica causas y consecuencias de una situación a través de oraciones simples de manera oral y escrita siguiendo un modelo establecido."
+],
+"evidencias": [
+"Uso oraciones cortas para decir lo que puedo o no puedo hacer.",
+"Deletreo palabras que me son conocidas.",
+"Expreso en una palabra o frase corta, cómo me siento.",
+"Hablo de las actividades que realizo habitualmente.",
+"Puedo hablar de cantidades y contar objetos hasta mil."
+],
+"saberes": [
+"Lo que puedo hacer o no",
+"Deletreo de palabras",
+"Estados de ánimo",
+"Actividades habituales",
+"Números hasta el mil"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Sociolingüístico",
+"estandar": ["Lectura"],
+"dba": [
+"Comprende información general y específica en un texto narrativo corto sobre temas conocidos y de interés."
+],
+"evidencias": [
+"Asocio un dibujo con su descripción escrita.",
+"Comprendo descripciones cortas sobre personas, lugares y acciones conocidas.",
+"Ubico en un texto corto los lugares y momentos en que suceden las acciones.",
+"Identifico las acciones en una secuencia corta de eventos.",
+"Leo y entiendo textos auténticos y sencillos sobre acontecimientos concretos asociados a tradiciones culturales que conozco (cumpleaños, navidad, etc.).",
+"Reconozco, en un texto narrativo corto, aspectos como qué, quién, cuándo y dónde."
+],
+"saberes": [
+"Descripciones escritas",
+"Descripciones de personas y lugares",
+"Lugares y tiempo de las acciones",
+"Secuencias de eventos",
+"Tradiciones culturales",
+"Estructura narrativa"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+},
+{
+"componente": "Pragmático",
+"estandar": ["Escritura"],
+"dba": [
+"Produce un texto narrativo oral y/o escrito, corto y sencillo, que responde al '¿qué?, ¿quién?, ¿cuándo? y ¿dónde?' de un evento o anécdota."
+],
+"evidencias": [
+"Escribo descripciones y narraciones cortas basadas en una secuencia de ilustraciones.",
+"Escribo tarjetas con mensajes cortos de felicitación o invitación.",
+"Escribo textos cortos que describen mi estado de ánimo y mis preferencias.",
+"Uso adecuadamente estructuras y patrones gramaticales de uso frecuente.",
+"Verifico la ortografía de las palabras que escribo con frecuencia."
+],
+"saberes": [
+"Narraciones basadas en ilustraciones",
+"Tarjetas de felicitación o invitación",
+"Estados de ánimo",
+"Preferencias personales",
+"Estructuras gramaticales",
+"Ortografía propia"
+],
+"socioemocional": null,
+"diccionario": null,
+"tareas_dce": null,
+"fuente": "Grupo Edúcate Colombia"
+}
+]
+}
+
 }
