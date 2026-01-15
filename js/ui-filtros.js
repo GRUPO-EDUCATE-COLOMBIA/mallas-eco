@@ -1,4 +1,4 @@
-// FILE: js/ui-filtros.js | VERSION: v7.9.6 Stable
+// FILE: js/ui-filtros.js | VERSION: v10.3 Stable
 document.addEventListener('DOMContentLoaded', () => {
   const areaSel = document.getElementById('area');
   const gradoSel = document.getElementById('grado');
@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const modal = document.getElementById('modal-notificacion');
   const modalMsg = document.getElementById('modal-mensaje');
   const btnCerrarModal = document.getElementById('btn-cerrar-modal');
+  
+  // Captura de los botones de radio (3 P. / 4 P.)
+  const radiosPeriodos = document.querySelectorAll('input[name="periodos"]');
 
   function mostrarError(mensaje) {
     if (modalMsg) modalMsg.textContent = mensaje;
@@ -19,18 +22,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (btnCerrarModal) btnCerrarModal.onclick = () => modal.classList.remove('mostrar-flex');
 
-  // LIMPIEZA DE INTERFAZ
+  // LIMPIEZA DE INTERFAZ (UX Propuesta por el usuario)
   function resetResultados() {
     const contMalla = document.getElementById('contenedor-malla');
     const resPrincipal = document.getElementById('resultados-principal');
     const indPeriodo = document.getElementById('indicador-periodo');
-    
     if (contMalla) contMalla.innerHTML = '';
     if (resPrincipal) resPrincipal.classList.remove('mostrar-block');
     if (indPeriodo) indPeriodo.style.display = 'none';
   }
 
-  // 1. CAMBIO DE ÁREA: Genera Grados y limpia lo demás
+  // --- LÓGICA DE ALTERNANCIA 3P / 4P ---
+  radiosPeriodos.forEach(radio => {
+    radio.addEventListener('change', (e) => {
+      // Actualiza la modalidad en la configuración global
+      const seleccion = e.target.value; // "3" o "4"
+      window.APP_CONFIG.TIPO_MALLA = window.APP_CONFIG.MODALIDADES_TIEMPO[seleccion];
+      
+      // Reset de selectores para obligar a una nueva carga limpia
+      resetResultados();
+      areaSel.value = "";
+      gradoSel.innerHTML = '<option value="">Seleccionar</option>';
+      gradoSel.disabled = true;
+      periodoSel.innerHTML = '<option value="">Seleccionar</option>';
+      periodoSel.disabled = true;
+      compSel.innerHTML = '<option value="todos">Todos</option>';
+      compSel.disabled = true;
+      btnProg.disabled = true;
+    });
+  });
+
   areaSel.addEventListener('change', () => {
     resetResultados();
     gradoSel.innerHTML = '<option value="">Seleccionar</option>';
@@ -41,8 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (areaSel.value) {
       window.APP_CONFIG.GRADOS.forEach(g => {
-        const opt = document.createElement('option'); 
-        opt.value = g;
+        const opt = document.createElement('option'); opt.value = g;
         opt.textContent = g === "0" ? "Transición (0)" : (g === "-1" ? "Jardín (-1)" : g + "°");
         gradoSel.appendChild(opt);
       });
@@ -50,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 2. CAMBIO DE GRADO: Genera Períodos (ESTE ERA EL BLOQUE FALTANTE)
   gradoSel.addEventListener('change', () => {
     resetResultados();
     periodoSel.innerHTML = '<option value="">Seleccionar</option>';
@@ -58,11 +77,11 @@ document.addEventListener('DOMContentLoaded', () => {
     compSel.disabled = true;
 
     if (gradoSel.value) {
-      // Detecta si la configuración pide 3 o 4 períodos
-      const maxPeriodos = window.APP_CONFIG.TIPO_MALLA === "3_periodos" ? 3 : 4;
-      for (let i = 1; i <= maxPeriodos; i++) {
-        const opt = document.createElement('option');
-        opt.value = i;
+      // DETERMINACIÓN DINÁMICA DE PERIODOS (3 o 4)
+      const maxP = window.APP_CONFIG.TIPO_MALLA === "3_periodos" ? 3 : 4;
+      for (let i = 1; i <= maxP; i++) {
+        const opt = document.createElement('option'); 
+        opt.value = i; 
         opt.textContent = `${i}° Periodo`;
         periodoSel.appendChild(opt);
       }
@@ -70,7 +89,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 3. CAMBIO DE PERIODO: Carga datos y genera Componentes
   periodoSel.addEventListener('change', async () => {
     resetResultados();
     if (!periodoSel.value) return;
@@ -86,8 +104,15 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (dataGrado && dataGrado.periodos && dataGrado.periodos[periodoSel.value]) {
         const items = dataGrado.periodos[periodoSel.value];
-        compSel.innerHTML = '<option value="todos">Todos</option>';
         
+        // BLINDAJE v10.3: Validación de lista
+        if (!Array.isArray(items)) {
+          mostrarError("Error de formato en el archivo JSON. Se esperaba una lista [ ].");
+          window.RenderEngine.setCargando(false);
+          return;
+        }
+
+        compSel.innerHTML = '<option value="todos">Todos</option>';
         const componentesUnicos = [...new Set(items.map(it => it.componente || it.competencia))];
         componentesUnicos.forEach(n => {
           if (n) {
@@ -102,7 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.RenderEngine.setCargando(false);
   });
 
-  // 4. BÚSQUEDA Y NAVEGACIÓN
   btnBuscar.addEventListener('click', () => {
     if (!areaSel.value || !gradoSel.value || !periodoSel.value) {
       mostrarError("Seleccione Área, Grado y Periodo.");
@@ -136,9 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   window.onscroll = () => { 
-    if (btnTop) {
-      btnTop.style.display = (window.scrollY > 400) ? 'block' : 'none';
-    }
+    if (btnTop) btnTop.style.display = (window.scrollY > 400) ? 'block' : 'none';
   };
   if (btnTop) btnTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 });
