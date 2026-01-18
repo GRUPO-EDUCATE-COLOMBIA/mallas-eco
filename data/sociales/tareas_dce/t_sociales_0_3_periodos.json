@@ -1,7 +1,7 @@
 {
   "area": "Ciencias Sociales",
   "grado": "0",
-  "nombre_archivo": "t_sociales_0_4_periodos.json",
+  "nombre_archivo": "t_sociales_0_3_periodos.json",
   "periodos": [
     {
       "periodo_id": 1,
@@ -81,29 +81,7 @@
         }
       ]
     },
-    {
-      "periodo_id": 4,
-      "guias_por_componente": [
-        {
-          "componente": "Identidad y relaciones sociales",
-          "guia_didactica": {
-            "la_estrategia": "Pequeños Ciudadanos en Acción",
-            "un_reto_sugerido": "Participar en una votación grupal respetando el resultado y argumentar su opinión sobre un proyecto común.",
-            "ruta_de_exploracion": {
-              "explorar": "Debates sencillos sobre temas de interés del aula donde cada niño deba proponer su punto de vista.",
-              "visual": "Análisis de situaciones de respeto y falta de respeto hacia las diferencias físicas o de opinión mediante imágenes.",
-              "produccion": "Simulación de una jornada democrática (votación) para elegir la actividad de cierre del año escolar."
-            },
-            "para_pensar": [
-              "¿Qué podemos hacer cuando nuestra idea no gana en una votación?",
-              "¿Por qué es bueno que todos seamos diferentes y pensemos distinto?"
-            ],
-            "pistas_del_exito": [
-              "Acepta y respeta el resultado de un acuerdo colectivo o votación grupal.",
-              "Expresa sus ideas con claridad y escucha con respeto las opiniones de los demás."
-            ],
-            "un_refuerzo": "Validación de la identidad, pluralidad y participación democrática para el tránsito a la educación básica primaria."
-          }
+   
         }
       ]
     }
