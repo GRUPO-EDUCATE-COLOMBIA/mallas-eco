@@ -35,8 +35,8 @@
         ],
         "evidencias": [
           "(Saber Conocer) Compara los hábitos de vida de las personas antes y después de la llegada al país del cine, la radio, la aviación comercial y los automóviles.",
-          "(Saber Hacer) Establece posibles relaciones entre los hechos sociales y políticos de la segunda mitad del siglo XX en Colombia y los que tienen lugar en la actualidad (partidos políticos, violencia política, conflicto armado, desplazamiento, narcotráfico, reformas constitucionales, apertura económica, corrupción, entre otros)."
-        ],
+        "(Saber Hacer) Establece posibles relaciones entre los hechos sociales y políticos de la segunda mitad del siglo XX en Colombia y los que tienen lugar en la actualidad (partidos políticos, violencia política, conflicto armado, desplazamiento, narcotráfico, reformas constitucionales, apertura económica, corrupción, entre otros)."
+],
         "saberes": [
           "Abolición de la esclavitud",
           "Surgimiento de movimientos obreros.",
@@ -128,7 +128,7 @@
         ],
         "evidencias": [
           "(Saber Hacer) Explica los cambios del proceso de modernización en Colombia en la primera mitad del siglo XX: construcción de vías de comunicación, urbanización y desarrollo industrial."
-        ],
+],
         "saberes": [
           "Cambios en los procesos de modernización en Colombia en la primera mitad del siglo XX. (urbanización, desarrollo, tecnologías, cultura, desarrollo industrial, etc.)."
         ],
@@ -277,4 +277,5 @@
   }
 
 }
+
 
