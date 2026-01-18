@@ -1,5 +1,5 @@
 
-  "area": "Ciencias Sociales",
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
   "grado": "6",
   "nombre_archivo": "t_sociales_6_3_periodos.json",
   "periodos": [
@@ -271,4 +271,5 @@
       ]
     }
   ]
+
 }
