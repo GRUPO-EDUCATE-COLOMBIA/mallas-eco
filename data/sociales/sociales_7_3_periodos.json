@@ -1,5 +1,5 @@
-
-  "area": "Ciencias Sociales",
+{
+  "area": "Ciencias Sociales y Competencias Ciudadanas",
   "grado": "7",
   "tipo_malla": "3_periodos",
   "numero_periodos": 3,
@@ -276,4 +276,5 @@
       }
     ]
   }
+
 }
