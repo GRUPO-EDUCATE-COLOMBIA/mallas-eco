@@ -5,7 +5,7 @@
   "periodo_1": [
     {
       "id": "CON-001",
-      "concepto": "Conciencia de Señales",
+      "concepto": "Consciencia de Señales",
       "definicion_pedagogica": "Se refiere al desarrollo de la interocepción y la propiocepción emocional. Es la capacidad del estudiante para identificar marcadores somáticos (cambios en el ritmo cardíaco, tono de voz o expresiones faciales) que preceden o acompañan a una emoción, permitiéndole categorizar la intensidad de su estado afectivo.",
       "definicion_estudiante": "Es aprender a leer los mensajes de mi cuerpo, como mi voz, mi cara o mi corazón, para saber si mi emoción es fuerte o suave y si está cambiando.",
       "habilidad_malla": "Autoconocimiento y Conciencia Corporal",
@@ -150,4 +150,5 @@
       "tip_psicologico": "Enseñe a diferenciar entre 'acusar' (para meter en problemas) y 'pedir ayuda' (para resolver un problema). Valide la búsqueda de mediación como un acto de sabiduría social."
     }
   ]
+
 }
