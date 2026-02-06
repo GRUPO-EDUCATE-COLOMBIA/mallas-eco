@@ -1,0 +1,144 @@
+code
+
+{
+  "identificacion_grado": 1,
+  "area_identificacion": "Proyecto Socioemocional",
+  "periodo_1": [
+    {
+      "id": "CON-001",
+      "concepto": "Respeto",
+      "definicion_pedagogica": "El respeto en el primer grado se entiende como el reconocimiento de la alteridad y la dignidad del otro. Es la capacidad de otorgar valor a las normas de convivencia y a la integridad física y emocional de los pares, fundamentando las bases de una ciudadanía democrática y pacífica desde la infancia temprana.",
+      "definicion_estudiante": "Es tratar a los demás y a ti mismo con mucho cuidado, escuchando con atención y hablando con palabras dulces. Es entender que todos somos importantes y merecemos ser tratados bien.",
+      "habilidad_malla": "Convivencia y Ciudadanía",
+      "ejemplo_aula": "“Demuestro respeto cuando espero a que mi compañero termine de hablar.”",
+      "evidencia_logro": "El estudiante utiliza turnos de palabra de manera espontánea y emplea un lenguaje cordial al dirigirse a sus compañeros y docentes.",
+      "tip_psicologico": "Modele la escucha activa: cuando un niño le hable, inclínese a su altura y mantenga contacto visual. Esto le enseña, a través del ejemplo, cómo se siente ser respetado."
+    },
+    {
+      "id": "CON-002",
+      "concepto": "Autocontrol",
+      "definicion_pedagogica": "Habilidad neuropsicológica vinculada a las funciones ejecutivas, específicamente al control inhibitorio. Permite al estudiante de primer grado gestionar sus respuestas impulsivas ante estímulos emocionales intensos, facilitando una transición exitosa hacia la autorregulación autónoma.",
+      "definicion_estudiante": "Es como tener un semáforo interno: cuando sientes mucha rabia o ganas de gritar, pones la luz roja para parar, respirar y pensar antes de actuar.",
+      "habilidad_malla": "Autorregulación",
+      "ejemplo_aula": "“Practiqué el autocontrol cuando respiré hondo en lugar de gritar a mis compañeros cuando me sentía enojado.”",
+      "evidencia_logro": "El niño logra detener una acción impulsiva tras una instrucción verbal o mediante el uso de técnicas de respiración enseñadas en clase.",
+      "tip_psicologico": "Implemente la 'pausa de la calma' en el salón. Enseñe a los niños que sentir enojo es normal, pero que tenemos el poder de elegir cómo reaccionar ante él."
+    }
+  ],
+  "periodo_2": [
+    {
+      "id": "CON-003",
+      "concepto": "Respeto",
+      "definicion_pedagogica": "Refuerzo del concepto de respeto enfocado en la validación de los sentimientos ajenos. En este periodo, se busca que el estudiante comprenda que el respeto no es solo seguir reglas, sino una forma de cuidar el clima emocional del grupo.",
+      "definicion_estudiante": "Es cuidar los sentimientos de tus amigos. Si alguien está hablando, le prestamos atención porque lo que dice es valioso para todos.",
+      "habilidad_malla": "Conciencia Social",
+      "ejemplo_aula": "“Demuestro respeto cuando espero a que mi compañero termine de hablar.”",
+      "evidencia_logro": "El estudiante evita interrumpir actividades grupales y muestra consideración por el espacio personal de sus pares.",
+      "tip_psicologico": "Resalte las conductas positivas. Diga: 'Me gustó mucho cómo respetaste el tiempo de María', esto refuerza la identidad del niño como alguien respetuoso."
+    },
+    {
+      "id": "CON-004",
+      "concepto": "Valentía",
+      "definicion_pedagogica": "Capacidad de afrontamiento ante situaciones que generan ansiedad o incertidumbre. La valentía en primer grado no es la ausencia de miedo, sino la movilización de recursos personales para superar desafíos académicos y sociales.",
+      "definicion_estudiante": "Es hacer algo aunque sientas un poquito de nervios o miedo, como cuando intentas leer una palabra difícil o pides ayuda frente a todos.",
+      "habilidad_malla": "Autoeficacia y Confianza",
+      "ejemplo_aula": "“Actué con valentía cuando levanté la mano para leer frente a todos.”",
+      "evidencia_logro": "El estudiante se involucra en actividades nuevas o retos pedagógicos a pesar de manifestar inicialmente inseguridad o timidez.",
+      "tip_psicologico": "Valide el miedo antes de pedir valentía. Diga: 'Es normal sentir nervios, a mí también me pasa. Vamos a intentarlo juntos'."
+    },
+    {
+      "id": "CON-005",
+      "concepto": "Colaboración",
+      "definicion_pedagogica": "Proceso de trabajo cooperativo donde el estudiante reconoce que el esfuerzo conjunto produce resultados superiores al individual. Implica el desarrollo de habilidades de negociación, escucha y distribución de tareas sencillas.",
+      "definicion_estudiante": "Es trabajar en equipo como si fuéramos un gran motor donde cada pieza es importante. Ayudamos a los demás y aceptamos su ayuda para lograr una meta.",
+      "habilidad_malla": "Trabajo en Equipo",
+      "ejemplo_aula": "“Trabajamos en colaboración cuando hicimos el cartel del Día de la Tierra entre todos.”",
+      "evidencia_logro": "El niño participa activamente en tareas grupales, compartiendo materiales y aceptando sugerencias de sus compañeros.",
+      "tip_psicologico": "Asigne roles rotativos en los grupos (el que reparte, el que organiza, el que limpia). Esto ayuda a que todos se sientan parte esencial del proceso colaborativo."
+    }
+  ],
+  "periodo_3": [
+    {
+      "id": "CON-006",
+      "concepto": "Respeto",
+      "definicion_pedagogica": "Consolidación del respeto como base de la comunicación asertiva. Se enfatiza en la resolución de conflictos mediante el diálogo amable, reconociendo que la diferencia de opiniones es una oportunidad de aprendizaje.",
+      "definicion_estudiante": "Es hablar con calma incluso cuando no estamos de acuerdo. Respetamos las ideas de los demás porque cada cabeza es un mundo diferente.",
+      "habilidad_malla": "Resolución de Conflictos",
+      "ejemplo_aula": "“Demuestro respeto cuando espero a que mi compañero termine de hablar.”",
+      "evidencia_logro": "El estudiante utiliza frases como 'yo pienso que...' o '¿puedo decir algo?' en lugar de imponer sus ideas por la fuerza o el grito.",
+      "tip_psicologico": "Utilice un 'objeto de la palabra' (un peluche o pelota). Solo quien tiene el objeto puede hablar, enseñando visualmente el respeto por el turno ajeno."
+    },
+    {
+      "id": "CON-007",
+      "concepto": "Valentía",
+      "definicion_pedagogica": "Fortalecimiento de la identidad personal a través de la expresión honesta. La valentía se vincula aquí con la capacidad de decir la verdad y defender los propios pensamientos manteniendo el respeto por el entorno.",
+      "definicion_estudiante": "Es confiar en ti mismo para decir lo que piensas y para intentar cosas que parecen difíciles. ¡Tú puedes lograrlo!",
+      "habilidad_malla": "Autonomía",
+      "ejemplo_aula": "“Actué con valentía cuando levanté la mano para leer frente a todos.”",
+      "evidencia_logro": "El estudiante admite errores o pide aclaraciones sobre temas que no comprende, mostrando seguridad en su proceso de aprendizaje.",
+      "tip_psicologico": "Celebre el esfuerzo y no solo el resultado. Premie el 'haberlo intentado' para desmitificar el miedo al error."
+    },
+    {
+      "id": "CON-008",
+      "concepto": "Colaboración",
+      "definicion_pedagogica": "Integración de la empatía en el trabajo grupal. La colaboración evoluciona hacia el apoyo mutuo, donde el estudiante identifica quién necesita ayuda y se la ofrece de manera proactiva.",
+      "definicion_estudiante": "Es darnos cuenta de que juntos somos más fuertes. Si un amigo no sabe cómo hacer algo, le enseñamos con cariño.",
+      "habilidad_malla": "Habilidades Prosociales",
+      "ejemplo_aula": "“Trabajamos en colaboración cuando hicimos el cartel del Día de la Tierra entre todos.”",
+      "evidencia_logro": "El niño ofrece ayuda a sus pares sin que el docente se lo solicite y muestra alegría por los logros del grupo.",
+      "tip_psicologico": "Fomente juegos de relevos o construcción donde el éxito dependa de la coordinación de todos, reforzando el valor de cada aporte individual."
+    },
+    {
+      "id": "CON-009",
+      "concepto": "Autocontrol",
+      "definicion_pedagogica": "Manejo de la frustración ante desafíos de mayor complejidad. El autocontrol se aplica ahora a la persistencia en tareas académicas, evitando el abandono ante la primera dificultad.",
+      "definicion_estudiante": "Es mantener la calma cuando algo no te sale a la primera. En lugar de enojarte, respiras y lo intentas de nuevo con paciencia.",
+      "habilidad_malla": "Persistencia",
+      "ejemplo_aula": "“Practiqué el autocontrol cuando respiré hondo en lugar de gritar a mis compañeros cuando me sentía enojado.”",
+      "evidencia_logro": "El estudiante permanece en la tarea asignada a pesar de encontrar obstáculos, utilizando el diálogo interno para calmarse.",
+      "tip_psicologico": "Enseñe la técnica de 'contar hasta diez'. Es una herramienta sencilla que les da el tiempo necesario para que la parte racional del cerebro tome el mando."
+    }
+  ],
+  "periodo_4": [
+    {
+      "id": "CON-010",
+      "concepto": "Respeto",
+      "definicion_pedagogica": "Interiorización del respeto como un estilo de vida escolar. Al finalizar el año, el estudiante debe manifestar respeto no por obediencia a la autoridad, sino por convicción sobre su importancia para la armonía grupal.",
+      "definicion_estudiante": "Es la llave mágica que abre todas las puertas de la amistad. Tratamos a todos con amor porque queremos un salón feliz.",
+      "habilidad_malla": "Ética y Valores",
+      "ejemplo_aula": "“Demuestro respeto cuando espero a que mi compañero termine de hablar.”",
+      "evidencia_logro": "El estudiante actúa de forma respetuosa de manera consistente, incluso en ausencia de supervisión directa del docente.",
+      "tip_psicologico": "Realice un círculo de gratitud donde los niños se agradezcan mutuamente por el respeto recibido durante el año."
+    },
+    {
+      "id": "CON-011",
+      "concepto": "Valentía",
+      "definicion_pedagogica": "Resiliencia y preparación para la transición. La valentía se enfoca en la capacidad de cerrar un ciclo y prepararse para los nuevos retos del siguiente grado con optimismo y seguridad.",
+      "definicion_estudiante": "Es sentirte orgulloso de todo lo que aprendiste y estar listo para nuevas aventuras, sabiendo que eres capaz de superar retos.",
+      "habilidad_malla": "Resiliencia",
+      "ejemplo_aula": "“Actué con valentía cuando levanté la mano para leer frente a todos.”",
+      "evidencia_logro": "El estudiante expresa verbalmente sus metas para el próximo año y muestra disposición para enfrentar cambios en su entorno escolar.",
+      "tip_psicologico": "Ayude a los niños a identificar sus 'superpoderes' (habilidades) desarrollados en el año para que afronten el futuro con alta autoestima."
+    },
+    {
+      "id": "CON-012",
+      "concepto": "Colaboración",
+      "definicion_pedagogica": "Liderazgo colaborativo. El estudiante es capaz de proponer metas comunes y organizar pequeños esfuerzos grupales para alcanzar un cierre de año exitoso y solidario.",
+      "definicion_estudiante": "Es celebrar que juntos logramos terminar este año. Compartimos nuestra alegría y ayudamos a que todos se sientan felices de haber cumplido la meta.",
+      "habilidad_malla": "Liderazgo Positivo",
+      "ejemplo_aula": "“Trabajamos en colaboración cuando hicimos el cartel del Día de la Tierra entre todos.”",
+      "evidencia_logro": "El estudiante propone ideas para actividades de cierre y colabora activamente en la organización del espacio común.",
+      "tip_psicologico": "Promueva un proyecto final donde el resultado dependa de la unión de los trabajos individuales de todos los alumnos."
+    },
+    {
+      "id": "CON-013",
+      "concepto": "Autocontrol",
+      "definicion_pedagogica": "Madurez en la gestión emocional. Se espera que el estudiante haya integrado diversas estrategias de regulación y las aplique de forma autónoma ante las tensiones naturales del fin de ciclo.",
+      "definicion_estudiante": "Es ser el dueño de tus emociones. Sabes calmarte solo y elegir palabras bonitas para resolver cualquier problema con tus amigos.",
+      "habilidad_malla": "Inteligencia Emocional",
+      "ejemplo_aula": "“Practiqué el autocontrol cuando respiré hondo en lugar de gritar a mis compañeros cuando me sentía enojado.”",
+      "evidencia_logro": "El estudiante resuelve conflictos menores de forma autónoma, utilizando el diálogo y manteniendo la estabilidad emocional.",
+      "tip_psicologico": "Refuerce la autonomía emocional: cuando ocurra un conflicto, pregunte: '¿Qué herramienta de calma podrías usar ahora?' en lugar de dar la solución de inmediato."
+    }
+  ]
+}
