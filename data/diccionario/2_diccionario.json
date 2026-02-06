@@ -1,0 +1,143 @@
+
+{
+  "identificacion_grado": 2,
+  "area_identificacion": "Proyecto Socioemocional",
+  "periodo_1": [
+    {
+      "id": "CON-001",
+      "concepto": "Ambivalencia / Mezcla de emociones",
+      "definicion_pedagogica": "Capacidad cognitiva de nivel intermedio que permite al niño reconocer la coexistencia de valencias emocionales opuestas o distintas ante un mismo estímulo o situación. Es un avance crítico en la madurez emocional, ya que supera el pensamiento dicotómico (todo bueno o todo malo) y permite una comprensión más realista de la experiencia humana.",
+      "definicion_estudiante": "Es entender que mi corazón puede sentir dos cosas al mismo tiempo, como estar feliz porque me dieron un regalo, pero un poquito triste porque se acabó la fiesta.",
+      "habilidad_malla": "Conciencia Emocional Compleja",
+      "ejemplo_aula": "\"Me siento feliz porque voy a participar en el baile, pero nervioso porque hay mucha gente mirando.\"",
+      "evidencia_logro": "El estudiante logra verbalizar dos emociones distintas ante una situación narrada o vivida en el aula, explicando el motivo de cada una.",
+      "tip_psicologico": "Valide ambas emociones sin priorizar una sobre otra. Use la técnica del 'Y': 'Estás emocionado Y estás asustado', para que el niño aprenda que las emociones no se anulan entre sí."
+    },
+    {
+      "id": "CON-002",
+      "concepto": "Influencia del Pensamiento / El eco de la mente",
+      "definicion_pedagogica": "Introducción al modelo cognitivo-conductual. Se busca que el estudiante identifique el vínculo causal entre sus autoverbalizaciones (diálogo interno) y su estado afectivo. Al reconocer que el pensamiento precede a la emoción, el niño adquiere una herramienta de empoderamiento para la autorregulación.",
+      "definicion_estudiante": "Es darme cuenta de que lo que digo en mi cabecita puede hacerme sentir mejor o peor. Si pienso 'puedo lograrlo', mi emoción cambia y me siento más valiente.",
+      "habilidad_malla": "Reestructuración Cognitiva Inicial",
+      "ejemplo_aula": "\"Cambié el pensamiento 'no sé hacer esto' por 'voy a intentarlo', y me sentí más tranquilo.\"",
+      "evidencia_logro": "El estudiante identifica un pensamiento negativo que le genera malestar y propone un pensamiento alternativo positivo para cambiar su emoción.",
+      "tip_psicologico": "Enseñe a los niños a 'atrapar' pensamientos negativos como si fueran moscas y a reemplazarlos por 'pensamientos semilla' que les ayuden a crecer y estar tranquilos."
+    },
+    {
+      "id": "CON-003",
+      "concepto": "Fluctuación / Subidas y bajadas",
+      "definicion_pedagogica": "Comprensión de la impermanencia emocional y la curva de intensidad de los afectos. Este concepto ayuda a reducir la ansiedad ante emociones intensas (como la ira o la tristeza) al entender que tienen un inicio, un clímax y una resolución natural en el tiempo.",
+      "definicion_estudiante": "Es notar cómo una emoción empieza suave, sube como una ola muy alta y luego vuelve a bajar poco a poco hasta que desaparece.",
+      "habilidad_malla": "Autorregulación y Gestión del Tiempo Emocional",
+      "ejemplo_aula": "\"Me di cuenta de que mi rabia era muy grande al principio, pero después de un rato se volvió chiquita.\"",
+      "evidencia_logro": "El estudiante describe el proceso de una emoción pasada, reconociendo que la intensidad disminuyó con el paso de los minutos o tras realizar una acción de calma.",
+      "tip_psicologico": "Utilice la metáfora de la ola del mar. Dibuje con ellos una curva donde ubiquen en qué parte de la 'ola' se sienten cuando algo les molesta, ayudándoles a anticipar que la bajada siempre llega."
+    }
+  ],
+  "periodo_2": [
+    {
+      "id": "CON-004",
+      "concepto": "Autorregulación Preventiva / Alerta temprana",
+      "definicion_pedagogica": "Fortalecimiento de la conciencia interoceptiva para la detección de señales fisiológicas de estrés. El objetivo es que el estudiante actúe antes de alcanzar el punto de desborde emocional, utilizando estrategias de afrontamiento de manera proactiva.",
+      "definicion_estudiante": "Es aprender a sentir las señales de mi cuerpo, como el calor en la cara o la tensión en las manos, para usar mi respiración antes de explotar de mal genio.",
+      "habilidad_malla": "Autocontrol y Prevención",
+      "ejemplo_aula": "\"Sentí mis manos calientes y supe que me estaba enojando, así que me alejé un momento antes de gritar.\"",
+      "evidencia_logro": "El estudiante identifica un cambio físico previo a una reacción impulsiva y utiliza voluntariamente una técnica de enfriamiento (alejarse, respirar).",
+      "tip_psicologico": "Entrene al grupo en la 'Alerta Amarilla'. Cuando noten calor o tensión, es el momento de usar la 'herramienta de calma' favorita antes de que el semáforo pase a rojo."
+    },
+    {
+      "id": "CON-005",
+      "concepto": "Justicia Restaurativa / Arreglar el corazón",
+      "definicion_pedagogica": "Evolución del concepto de disculpa hacia la reparación activa. Se enfoca en la responsabilidad relacional, donde el estudiante no solo reconoce la falta, sino que diseña una acción que busca mitigar el daño causado y restaurar el vínculo afectado.",
+      "definicion_estudiante": "Es cuando me equivoco y, en lugar de solo sentirme mal, busco una forma de hacer algo lindo para que la otra persona se sienta mejor.",
+      "habilidad_malla": "Resolución de Conflictos y Responsabilidad",
+      "ejemplo_aula": "\"Le pedí disculpas a mi amiga por mi comentario y le hice una carta para que volviéramos a estar bien.\"",
+      "evidencia_logro": "Ante un conflicto, el estudiante propone y ejecuta una acción compensatoria (ayudar, regalar un dibujo, invitar a jugar) además de pedir perdón.",
+      "tip_psicologico": "Pregunte siempre: '¿Qué necesita la otra persona para que su corazón esté tranquilo otra vez?'. Esto desplaza el foco del castigo hacia la sanación del vínculo."
+    },
+    {
+      "id": "CON-006",
+      "concepto": "Autoconfianza / Confianza en mi fuerza",
+      "definicion_pedagogica": "Consolidación del autoconcepto basado en la evidencia de logros previos. Implica la capacidad de recuperar memorias de éxito para enfrentar desafíos presentes, fortaleciendo la resiliencia y la disposición al aprendizaje.",
+      "definicion_estudiante": "Es creer que soy capaz de hacer cosas nuevas y difíciles porque recuerdo todas las cosas que ya he aprendido a hacer muy bien antes.",
+      "habilidad_malla": "Autoestima y Autoeficacia",
+      "ejemplo_aula": "\"Sentí confianza al pasar al tablero porque recordé que estuve practicando mucho en casa.\"",
+      "evidencia_logro": "El estudiante inicia una tarea retadora con actitud positiva, haciendo referencia a sus capacidades o esfuerzos anteriores.",
+      "tip_psicologico": "Ayude al niño a crear un 'Escudo de Logros'. Cada vez que aprenda algo difícil, pídale que lo anote para que pueda consultarlo cuando sienta miedo ante un nuevo reto."
+    }
+  ],
+  "periodo_3": [
+    {
+      "id": "CON-007",
+      "concepto": "Toma de Perspectiva / Ponerse otros lentes",
+      "definicion_pedagogica": "Desarrollo de la Teoría de la Mente aplicada a la convivencia. Es la capacidad de descentración cognitiva que permite al niño comprender que los demás pueden tener deseos, pensamientos y necesidades diferentes a los propios, y que estas son válidas.",
+      "definicion_estudiante": "Es tratar de entender por qué mi amigo piensa o hace cosas diferentes a las mías, mirando lo que pasa como si usara sus ojos.",
+      "habilidad_malla": "Empatía Cognitiva",
+      "ejemplo_aula": "\"Aunque yo quería jugar fútbol, entendí que mi amigo estaba cansado y prefería jugar algo sentado.\"",
+      "evidencia_logro": "El estudiante explica la posible razón del comportamiento de un compañero sin juzgarlo, mostrando comprensión de sus circunstancias.",
+      "tip_psicologico": "Use el ejercicio de los 'Lentes Mágicos'. Entregue marcos de lentes de colores y pida a los niños que describan un problema desde el color (perspectiva) de otra persona."
+    },
+    {
+      "id": "CON-008",
+      "concepto": "Asertividad Bajo Presión / Hablar firme y claro",
+      "definicion_pedagogica": "Habilidad de comunicación defensiva y proactiva en contextos de alta carga emocional. Se busca que el estudiante mantenga la coherencia entre su necesidad de respeto y su forma de expresión, evitando la sumisión o la agresión.",
+      "definicion_estudiante": "Es defender lo que pienso o decir que algo me molesta usando una voz tranquila y segura, incluso si estoy un poquito enojado.",
+      "habilidad_malla": "Comunicación Asertiva",
+      "ejemplo_aula": "\"Le dije a mi compañero: 'Por favor no tomes mis lápices sin permiso', sin necesidad de gritarle.\"",
+      "evidencia_logro": "El estudiante establece límites claros a sus pares de manera respetuosa y firme durante situaciones de desacuerdo en el juego o el trabajo.",
+      "tip_psicologico": "Practique el 'Tono de Locutor'. Enseñe a los niños que para ser escuchados no necesitan volumen alto, sino una voz firme, clara y manteniendo el contacto visual."
+    },
+    {
+      "id": "CON-009",
+      "concepto": "Cooperación Democrática / Sumar ideas",
+      "definicion_pedagogica": "Habilidad de negociación y flexibilidad cognitiva en grupos. Implica la capacidad de ceder en preferencias individuales en favor del consenso grupal, reconociendo el valor de la armonía colectiva sobre el interés personal.",
+      "definicion_estudiante": "Es trabajar en equipo aceptando las ideas de la mayoría, aunque no sean exactamente las que yo quería al principio, para que todos estemos felices.",
+      "habilidad_malla": "Trabajo Colaborativo",
+      "ejemplo_aula": "\"Acepté que el grupo hiciera el dibujo de color azul, aunque yo lo quería verde, para que todos estuviéramos felices.\"",
+      "evidencia_logro": "El estudiante participa en una decisión grupal, acepta el resultado de una votación o consenso y continúa colaborando con entusiasmo.",
+      "tip_psicologico": "Fomente la técnica de 'Sumar, no Restar'. Anime a los niños a decir: 'Me gusta tu idea Y podemos agregarle esto', en lugar de rechazar las propuestas de los demás."
+    }
+  ],
+  "periodo_4": [
+    {
+      "id": "CON-010",
+      "concepto": "Integridad / Honestidad de corazón",
+      "definicion_pedagogica": "Desarrollo de la autonomía moral y la ética interna. Se refiere a la consistencia de la conducta prosocial basada en valores personales interiorizados, independientemente de la presencia de supervisión externa o figuras de autoridad.",
+      "definicion_estudiante": "Es portarme bien y seguir las reglas porque sé que es lo correcto, incluso si la profe o mis papás no me están mirando.",
+      "habilidad_malla": "Ética y Autogestión",
+      "ejemplo_aula": "\"Recogí el papel que se me cayó al piso aunque la profe no estaba en el salón en ese momento.\"",
+      "evidencia_logro": "El estudiante realiza acciones de cuidado del aula o cumplimiento de normas de forma espontánea cuando no se siente observado.",
+      "tip_psicologico": "Celebre la 'Integridad Invisible'. Cuando note que alguien hizo algo bien sin que se lo pidieran, menciónelo al grupo: 'Me encantó ver cómo cuidaste el salón por iniciativa propia'."
+    },
+    {
+      "id": "CON-011",
+      "concepto": "Impacto Social / Efecto dominó",
+      "definicion_pedagogica": "Comprensión de la interconexión sistémica en el aula. El estudiante reconoce que sus estados emocionales y conductas individuales influyen en el clima general y en el bienestar de los demás, fomentando la responsabilidad social.",
+      "definicion_estudiante": "Es entender que lo que yo hago (bueno o malo) puede cambiar el ánimo de mis amigos y de todo el salón, como una fila de fichas que se empujan.",
+      "habilidad_malla": "Conciencia Social y Clima de Aula",
+      "ejemplo_aula": "\"Me di cuenta de que si yo guardo silencio, ayudo a que todo mi equipo pueda terminar más rápido la tarea.\"",
+      "evidencia_logro": "El estudiante ajusta su comportamiento tras reflexionar sobre cómo este afecta el trabajo o la tranquilidad de sus compañeros.",
+      "tip_psicologico": "Use una ficha de dominó real para ilustrar cómo una sonrisa o un grito se 'contagia' a los demás. Pregunte: '¿Qué tipo de efecto quieres causar hoy en tus amigos?'."
+    },
+    {
+      "id": "CON-012",
+      "concepto": "Compromiso / Palabra de honor",
+      "definicion_pedagogica": "Desarrollo de la perseverancia y la fiabilidad personal. Implica la capacidad de mantener el esfuerzo hacia una meta u obligación aceptada voluntariamente, superando obstáculos menores o el cansancio transitorio.",
+      "definicion_estudiante": "Es esforzarme por terminar lo que empecé y cumplir mis promesas a mis amigos, aunque me cueste un poquito de trabajo.",
+      "habilidad_malla": "Persistencia y Responsabilidad",
+      "ejemplo_aula": "\"Me comprometí a traer los materiales para el grupo y cumplí, para que todos pudiéramos trabajar.\"",
+      "evidencia_logro": "El estudiante finaliza las tareas asignadas en el tiempo previsto y cumple con los acuerdos realizados con sus pares o docentes.",
+      "tip_psicologico": "Enseñe el valor de la 'Palabra'. Cuando un niño cumple un compromiso difícil, refuerce su identidad: 'Eres una persona de palabra, y eso hace que los demás confíen mucho en ti'."
+    },
+    {
+      "id": "CON-013",
+      "concepto": "Inclusión y Respeto / Abrazo a la diferencia",
+      "definicion_pedagogica": "Valoración de la diversidad como activo social. Se busca que el estudiante identifique activamente situaciones de exclusión y actúe para integrar a otros, fundamentado en el respeto a la dignidad y la singularidad de cada compañero.",
+      "definicion_estudiante": "Es querer a mis compañeros tal como son, no burlarme de nadie y asegurarme de que todos tengan un lugar para jugar conmigo.",
+      "habilidad_malla": "Inclusión y Valoración de la Diversidad",
+      "ejemplo_aula": "\"Invité al compañero nuevo a jugar con nosotros porque noté que estaba solo en el descanso.\"",
+      "evidencia_logro": "El estudiante integra a compañeros que suelen estar aislados o muestra actitudes de respeto ante diferencias físicas, culturales o de aprendizaje.",
+      "tip_psicologico": "Fomente la 'Mirada de Bienvenida'. Enseñe a los niños a observar quién está solo en el recreo y a usar la frase mágica: '¿Quieres jugar con nosotros?'. Esto previene el acoso escolar desde la base."
+    }
+  ]
+}

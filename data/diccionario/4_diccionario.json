@@ -1,0 +1,133 @@
+
+{
+  "identificacion_grado": 4,
+  "area_identificacion": "Proyecto Socioemocional",
+  "periodo_1": [
+    {
+      "id": "CON-001",
+      "concepto": "Autoconocimiento",
+      "definicion_pedagogica": "Capacidad metacognitiva de introspección que permite al estudiante de 9 a 10 años identificar estados emocionales complejos (orgullo, culpa, duda) y reconocer su autoconcepto. Implica la evaluación de las propias fortalezas y áreas de mejora como base para la construcción de una identidad sólida y una autoestima saludable.",
+      "definicion_estudiante": "Es la capacidad de mirarnos hacia adentro para identificar qué sentimos (como orgullo, culpa o duda) y conocer nuestras fortalezas antes de actuar.",
+      "habilidad_malla": "Conciencia de sí mismo",
+      "ejemplo_aula": "\"Me siento orgulloso porque terminé la tarea difícil yo solo.\"",
+      "evidencia_logro": "El estudiante identifica y nombra al menos una fortaleza personal y una emoción compleja en situaciones cotidianas del aula.",
+      "tip_psicologico": "Fomente el uso de diarios de fortalezas. Ayude al niño a conectar sus logros con el esfuerzo realizado para fortalecer su autoconcepto positivo."
+    },
+    {
+      "id": "CON-002",
+      "concepto": "Toma de Decisiones",
+      "definicion_pedagogica": "Proceso ejecutivo de análisis reflexivo que precede a la acción. En esta etapa, el estudiante debe ser capaz de evaluar las consecuencias a corto y mediano plazo de sus actos, utilizando el pensamiento crítico para elegir opciones que favorezcan el bienestar propio y el del grupo.",
+      "definicion_estudiante": "Es detenernos a pensar antes de actuar, evaluando si lo que vamos a hacer nos trae consecuencias buenas o malas a nosotros y a los demás.",
+      "habilidad_malla": "Pensamiento Crítico y Responsabilidad",
+      "ejemplo_aula": "\"El estudiante se detiene antes de lanzar un papel y dice: 'Mejor lo guardo, porque si lo tiro ensucio el salón'.\"",
+      "evidencia_logro": "El estudiante demuestra una pausa reflexiva ante un impulso y verbaliza las posibles consecuencias antes de tomar una decisión.",
+      "tip_psicologico": "Utilice la técnica del 'Stop-Think-Act'. Enseñe a los niños que cada elección es una oportunidad para practicar su autonomía y liderazgo."
+    },
+    {
+      "id": "CON-003",
+      "concepto": "Responsabilidad",
+      "definicion_pedagogica": "Desarrollo del sentido de agencia y asunción de consecuencias. Implica el tránsito de una moral externa hacia una interna, donde el estudiante reconoce su autoría en los actos y muestra disposición para la reparación ética sin recurrir a mecanismos de defensa como la negación o la proyección en otros.",
+      "definicion_estudiante": "Es la valentía de hacernos cargo del resultado de nuestras acciones, aceptando nuestros errores sin culpar a otros y buscando formas de arreglarlos.",
+      "habilidad_malla": "Ética y Autogestión",
+      "ejemplo_aula": "\"El estudiante admite: 'Fui yo quien rompió la regla, lo siento' en lugar de decir 'Fue culpa de él'.\"",
+      "evidencia_logro": "El estudiante admite su error de manera honesta y propone una acción inmediata para corregir la situación o reparar el daño.",
+      "tip_psicologico": "Elimine el estigma del error. Refuerce que la verdadera valentía no está en no equivocarse, sino en tener la integridad de admitirlo y corregirlo."
+    }
+  ],
+  "periodo_2": [
+    {
+      "id": "CON-004",
+      "concepto": "Autocuidado",
+      "definicion_pedagogica": "Conciencia de las necesidades biopsicosociales personales. El estudiante aprende a monitorear su estado físico y mental (higiene, sueño, alimentación, salud emocional) y reconoce la importancia de buscar apoyo externo cuando sus recursos individuales son insuficientes.",
+      "definicion_estudiante": "Es tratar a nuestro cuerpo y mente como un tesoro, dándonos cuenta de cuándo necesitamos descansar, estar limpios o pedir ayuda para estar bien.",
+      "habilidad_malla": "Cuidado de sí mismo y Bienestar",
+      "ejemplo_aula": "\"Hoy estoy muy cansado, necesito acostarme temprano para rendir mañana.\"",
+      "evidencia_logro": "El estudiante verbaliza necesidades físicas o emocionales específicas y toma acciones preventivas para mantener su equilibrio.",
+      "tip_psicologico": "Promueva 'pausas de bienestar' en clase. Enseñe que pedir ayuda o descansar no es signo de debilidad, sino de inteligencia emocional y autoconocimiento."
+    },
+    {
+      "id": "CON-005",
+      "concepto": "Límites Personales",
+      "definicion_pedagogica": "Habilidad de asertividad vinculada a la autonomía corporal y emocional. Implica la capacidad de establecer fronteras claras respecto a lo que se permite en el trato con los demás y el respeto recíproco hacia la privacidad y el espacio del otro.",
+      "definicion_estudiante": "Es la capacidad de decir 'no' de forma firme pero respetuosa cuando algo nos incomoda, y respetar cuando otros nos dicen 'no' a nosotros.",
+      "habilidad_malla": "Asertividad y Respeto",
+      "ejemplo_aula": "\"No me gusta que me empujes, por favor deja de hacerlo.\"",
+      "evidencia_logro": "El estudiante expresa desacuerdo ante una invasión de su espacio o trato inadecuado de forma calmada y firme, y cesa una conducta cuando un par le pone un límite.",
+      "tip_psicologico": "Realice juegos de rol sobre cómo decir 'no' sin agredir. Validar el derecho de los niños a sus propios límites previene situaciones de abuso o acoso escolar."
+    },
+    {
+      "id": "CON-006",
+      "concepto": "Integridad (Respeto)",
+      "definicion_pedagogica": "Consolidación de la conducta ética basada en principios universales de respeto. Se refiere a la coherencia entre el valor del respeto y la acción cotidiana, especialmente en relación con la propiedad ajena y la dignidad de los pares, independientemente de la supervisión adulta.",
+      "definicion_estudiante": "Es actuar correctamente incluso cuando nadie nos ve, respetando nuestras cosas y las de nuestros compañeros.",
+      "habilidad_malla": "Convivencia Ciudadana",
+      "ejemplo_aula": "\"El estudiante pide permiso antes de tomar los colores de un compañero, respetando la propiedad ajena.\"",
+      "evidencia_logro": "El estudiante muestra respeto por los materiales y el espacio de los demás de forma espontánea y constante.",
+      "tip_psicologico": "Resalte la importancia de la confianza. Explique que la integridad construye una reputación positiva que facilita las relaciones y el trabajo en equipo."
+    }
+  ],
+  "periodo_3": [
+    {
+      "id": "CON-007",
+      "concepto": "Perseverancia",
+      "definicion_pedagogica": "Capacidad de mantener el esfuerzo y la motivación hacia una meta a pesar de las dificultades o el aburrimiento. En cuarto grado, se vincula con la tolerancia a la frustración y la comprensión del error como un paso necesario en el proceso de aprendizaje (Grit).",
+      "definicion_estudiante": "Es la fuerza de voluntad para seguir intentando una tarea difícil o aburrida, entendiendo que equivocarse es parte de aprender y no una razón para rendirse.",
+      "habilidad_malla": "Determinación y Resiliencia",
+      "ejemplo_aula": "\"El estudiante borra un ejercicio mal hecho y lo intenta de nuevo en lugar de cerrar el cuaderno enojado.\"",
+      "evidencia_logro": "El estudiante persiste en la resolución de un problema académico o social tras un primer intento fallido, sin mostrar desborde emocional.",
+      "tip_psicologico": "Elogie el proceso y el esfuerzo más que el resultado final. Use frases como: 'Me gusta cómo buscaste una forma diferente de resolverlo'."
+    },
+    {
+      "id": "CON-008",
+      "concepto": "Autorregulación",
+      "definicion_pedagogica": "Gestión consciente de la intensidad y duración de las respuestas emocionales. El estudiante emplea estrategias cognitivas y conductuales para modular estados de alta activación, permitiendo una transición fluida hacia estados de calma necesarios para el aprendizaje.",
+      "definicion_estudiante": "Es usar estrategias como respirar, contar o alejarnos un momento para bajar la fuerza de una emoción grande antes de que nos haga actuar mal.",
+      "habilidad_malla": "Gestión Emocional",
+      "ejemplo_aula": "\"El estudiante respira profundo tres veces cuando pierde en un juego, para no gritarle al ganador.\"",
+      "evidencia_logro": "El estudiante aplica autónomamente una técnica de respiración o distanciamiento ante una situación de conflicto o pérdida.",
+      "tip_psicologico": "Ayude a los niños a identificar su 'caja de herramientas' para la calma. Cada niño puede tener una estrategia preferida (dibujar, respirar, caminar) que debe ser respetada."
+    },
+    {
+      "id": "CON-009",
+      "concepto": "Autoeficacia",
+      "definicion_pedagogica": "Creencia en las propias capacidades para organizar y ejecutar las acciones necesarias para alcanzar logros. Es un predictor clave del éxito académico y la salud mental, fundamentado en la experiencia de dominio y el modelado social.",
+      "definicion_estudiante": "Es la confianza en que podemos resolver problemas o aprender cosas nuevas si nos esforzamos y practicamos lo suficiente.",
+      "habilidad_malla": "Confianza y Motivación Logro",
+      "ejemplo_aula": "\"No entiendo esto todavía, pero si me explicas, sé que puedo lograrlo.\"",
+      "evidencia_logro": "El estudiante aborda tareas nuevas con una actitud proactiva y solicita retroalimentación específica para mejorar su desempeño.",
+      "tip_psicologico": "Divida los grandes retos en metas pequeñas. El éxito en pasos cortos aumenta la percepción de autoeficacia y disminuye la ansiedad ante lo desconocido."
+    }
+  ],
+  "periodo_4": [
+    {
+      "id": "CON-010",
+      "concepto": "Cooperación",
+      "definicion_pedagogica": "Habilidad social compleja que implica la suma de esfuerzos individuales para un objetivo colectivo. Requiere la capacidad de escucha, la división de roles y la valoración de las contribuciones ajenas, superando el individualismo competitivo.",
+      "definicion_estudiante": "Es trabajar juntos sumando las habilidades de todos para lograr una meta común, escuchando las ideas de los demás sin imponer las mías.",
+      "habilidad_malla": "Trabajo Colaborativo",
+      "ejemplo_aula": "\"El estudiante ayuda a organizar los pupitres con su grupo para terminar más rápido la actividad.\"",
+      "evidencia_logro": "El estudiante participa activamente en trabajos grupales, escucha las propuestas de sus pares y contribuye al éxito del equipo.",
+      "tip_psicologico": "Fomente la interdependencia positiva. Cree actividades donde el éxito del grupo dependa de que cada miembro cumpla una función específica y valiosa."
+    },
+    {
+      "id": "CON-011",
+      "concepto": "Acuerdos",
+      "definicion_pedagogica": "Construcción y seguimiento de normas colectivas basadas en el consenso. El estudiante reconoce que los acuerdos son herramientas de convivencia que protegen los derechos de todos y facilitan el orden social y el respeto mutuo.",
+      "definicion_estudiante": "Son los tratos o reglas que construimos entre todos para vivir mejor en el salón. Cumplirlos demuestra que respetamos a nuestros compañeros.",
+      "habilidad_malla": "Ciudadanía y Convivencia",
+      "ejemplo_aula": "\"El estudiante cumple su turno de limpieza porque fue lo que acordó con su equipo al inicio de la clase.\"",
+      "evidencia_logro": "El estudiante cumple con los compromisos adquiridos en el grupo y recuerda a otros los acuerdos de forma respetuosa.",
+      "tip_psicologico": "Involucre a los estudiantes en la creación de los acuerdos de aula. Cuando ellos participan en la norma, su nivel de compromiso y cumplimiento aumenta significativamente."
+    },
+    {
+      "id": "CON-012",
+      "concepto": "Resolución Pacífica",
+      "definicion_pedagogica": "Capacidad de gestionar desacuerdos mediante el diálogo y la negociación. Implica la búsqueda de soluciones 'ganar-ganar' donde se prioriza la preservación del vínculo y la justicia sobre la imposición de poder.",
+      "definicion_estudiante": "Es la habilidad de solucionar problemas hablando y escuchando, buscando un punto medio donde todos nos sintamos respetados.",
+      "habilidad_malla": "Mediación y Resolución de Conflictos",
+      "ejemplo_aula": "\"¿Qué tal si tú usas el libro 10 minutos y luego me lo prestas a mí?\"",
+      "evidencia_logro": "El estudiante propone al menos una solución alternativa ante un conflicto de intereses con un compañero, utilizando un lenguaje conciliador.",
+      "tip_psicologico": "Enseñe a los niños a buscar 'la tercera opción'. En un conflicto, a menudo no es mi forma o la tuya, sino una nueva forma que nos sirva a ambos."
+    }
+  ]
+}
