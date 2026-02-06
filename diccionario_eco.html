@@ -1,4 +1,4 @@
-<!-- FILE: diccionario_eco.html | VERSION: v1.0.0 (Diccionario ECO - Fase Beta) -->
+<!-- FILE: diccionario_eco.html | VERSION: v11.0.0 -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,9 +10,13 @@
 </head>
 <body id="body-diccionario">
   
-  <header id="header-diccionario" class="no-print">
-    <div class="header-content">
-      <p id="dic-header-info">CONSULTANDO CÁTEDRA ECO-PRO | GRADO: [GRADO_PLACEHOLDER] | PERIODO: [PERIODO_PLACEHOLDER]</p>
+  <!-- HEADER INSTITUCIONAL (AZUL) -->
+  <header id="header-institucional" class="no-print">
+    <div class="header-blue-content">
+      <div class="brand-titles">
+        <h1>MALLAS CURRICULARES NACIONALES</h1>
+        <p>Grupo Edúcate Colombia - Dirección de Pedagogía</p>
+      </div>
       <div class="header-actions">
         <button id="btn-imprimir-dic" class="btn-imprimir">🖨️ IMPRIMIR FICHA</button>
         <button id="btn-cerrar-dic" class="btn-cerrar">✕</button>
@@ -20,11 +24,17 @@
     </div>
   </header>
 
+  <!-- FRANJA DE INFORMACIÓN (GRIS) -->
+  <div id="info-bar-consulta" class="no-print">
+    <div class="info-bar-content">
+      <span class="label-eco">CONSULTADO ECO PRO</span>
+      <span id="dic-header-info" class="data-eco">GRADO: -- | PERIODO: --</span>
+    </div>
+  </div>
+
   <main id="main-diccionario">
-    <!-- MARCA DE AGUA SOBRE EL TEXTO (para impresión) -->
     <div class="watermark-print">GRUPO EDÚCATE COLOMBIA <br> COPIA PARA ESTUDIO</div>
 
-    <!-- Encabezado solo para impresión -->
     <div id="print-header-dic" class="print-only-header">
       <h1 style="font-size: 2.2rem; margin-bottom: 5px;">GRUPO EDÚCATE COLOMBIA</h1>
       <h2 style="font-size: 1.6rem; margin-bottom: 5px; text-transform: uppercase;">Diccionario ECO</h2>
@@ -41,8 +51,7 @@
       </nav>
 
       <div id="dic-content-display">
-        <!-- Contenido del diccionario o talleres se cargará aquí -->
-        <p class="loading-message">Cargando contenido...</p>
+        <p class="loading-message">Cargando contenido institucional...</p>
       </div>
     </section>
   </main>
