@@ -1,0 +1,133 @@
+
+{
+  "identificacion_grado": 5,
+  "area_identificacion": "Proyecto Socioemocional",
+  "periodo_1": [
+    {
+      "id": "CON-001",
+      "concepto": "Autoconocimiento (Identidad)",
+      "definicion_pedagogica": "Proceso de consolidación de la identidad personal en la transición a la preadolescencia. Implica la integración de rasgos de personalidad, valores morales y competencias percibidas, permitiendo al estudiante diferenciarse de sus pares y construir un autoconcepto basado en la autenticidad y la autoaceptación.",
+      "definicion_estudiante": "Es reconocer no solo qué siento, sino quién soy: mis valores, mis fortalezas y todas esas cosas que me hacen único y me diferencian de los demás.",
+      "habilidad_malla": "Construcción de Identidad",
+      "ejemplo_aula": "\"Yo soy bueno organizando, así que puedo ayudar con eso en el grupo.\"",
+      "evidencia_logro": "El estudiante describe sus características personales y habilidades específicas, reconociendo cómo estas aportan valor a su entorno escolar.",
+      "tip_psicologico": "Promueva actividades donde los estudiantes identifiquen sus 'valores no negociables'. Ayúdeles a entender que su identidad es un proceso en construcción que se fortalece con sus decisiones diarias."
+    },
+    {
+      "id": "CON-002",
+      "concepto": "Pensamiento Crítico",
+      "definicion_pedagogica": "Habilidad cognitiva superior que permite evaluar la validez de la información y las situaciones antes de emitir un juicio o actuar. Involucra la capacidad de cuestionar premisas, analizar evidencias y anticipar consecuencias lógicas, fundamental para resistir la presión de grupo y evitar la impulsividad.",
+      "definicion_estudiante": "Es la capacidad de analizar una situación antes de actuar, preguntándome: ¿Esto me conviene?, ¿es verdad?, ¿qué pasará después de que lo haga?",
+      "habilidad_malla": "Análisis y Reflexión Crítica",
+      "ejemplo_aula": "\"El estudiante cuestiona un rumor antes de repetirlo: '¿Estamos seguros de que eso es verdad?'.\"",
+      "evidencia_logro": "El estudiante formula preguntas reflexivas antes de tomar una decisión o aceptar una información como verdadera, mostrando independencia de criterio.",
+      "tip_psicologico": "Fomente el hábito de preguntar '¿Por qué?' y '¿Qué pasaría si...?'. Enseñe a los estudiantes a diferenciar entre hechos y opiniones para fortalecer su objetividad."
+    },
+    {
+      "id": "CON-003",
+      "concepto": "Responsabilidad (Consecuencias)",
+      "definicion_pedagogica": "Desarrollo del locus de control interno. Se refiere a la comprensión de que cada acción u omisión genera un impacto directo en la realidad personal y social. El estudiante asume la autoría de sus resultados, eliminando mecanismos de defensa como la victimización o la externalización de la culpa.",
+      "definicion_estudiante": "Es asumir que cada elección tiene un resultado. Si elijo no estudiar, asumo la nota; si elijo mentir, asumo la desconfianza. Es hacerse cargo de mis actos sin poner excusas.",
+      "habilidad_malla": "Autogestión y Ética",
+      "ejemplo_aula": "\"No traje la tarea porque me distraje, asumo la nota baja.\"",
+      "evidencia_logro": "El estudiante admite su responsabilidad ante un incumplimiento o error, aceptando la consecuencia correspondiente sin intentar evadirla.",
+      "tip_psicologico": "Evite rescatar al estudiante de las consecuencias naturales de sus actos. El aprendizaje más potente ocurre cuando el niño experimenta el resultado de su decisión en un entorno controlado y seguro."
+    }
+  ],
+  "periodo_2": [
+    {
+      "id": "CON-004",
+      "concepto": "Autocuidado",
+      "definicion_pedagogica": "Gestión autónoma de la salud integral. En esta etapa, el autocuidado trasciende la higiene básica para incluir la protección ante riesgos físicos y digitales, el manejo del descanso y la alimentación consciente, reconociendo el cuerpo como el soporte fundamental de la realización personal.",
+      "definicion_estudiante": "Es la responsabilidad que tengo con mi propio cuerpo y mente, creando hábitos de limpieza, descanso y protección para estar siempre bien y seguro.",
+      "habilidad_malla": "Cuidado de sí mismo y Prevención",
+      "ejemplo_aula": "\"Hoy no voy a jugar fútbol en el descanso porque me duele la rodilla, prefiero cuidarme.\"",
+      "evidencia_logro": "El estudiante toma decisiones preventivas para proteger su integridad física o emocional, incluso cuando estas implican renunciar a una actividad placentera inmediata.",
+      "tip_psicologico": "Relacione el autocuidado con el rendimiento en sus áreas de interés (deportes, videojuegos, artes). Si entienden que su cuerpo es su 'herramienta' principal, cuidarlo tendrá más sentido para ellos."
+    },
+    {
+      "id": "CON-005",
+      "concepto": "Límites Personales",
+      "definicion_pedagogica": "Habilidad de asertividad y defensa de la integridad personal. Implica la capacidad de definir y comunicar fronteras claras sobre lo aceptable en las interacciones sociales, así como el reconocimiento y respeto de los límites establecidos por los demás, base de la prevención del acoso.",
+      "definicion_estudiante": "Es saber decir 'no' con firmeza cuando algo va en contra de lo que pienso o me hace sentir incómodo, y también respetar cuando otros me dicen 'no' a mí.",
+      "habilidad_malla": "Asertividad y Relaciones Saludables",
+      "ejemplo_aula": "\"No me gusta que me llamen así, por favor para.\"",
+      "evidencia_logro": "El estudiante comunica sus límites de forma directa y respetuosa, y detiene su conducta inmediatamente cuando un par le expresa incomodidad.",
+      "tip_psicologico": "Modele la 'Comunicación Firme'. Enseñe que un límite no requiere agresividad, sino claridad y consistencia. Refuerce que decir 'no' es un derecho fundamental de todos."
+    },
+    {
+      "id": "CON-006",
+      "concepto": "Privacidad (Respeto)",
+      "definicion_pedagogica": "Comprensión del derecho a la intimidad propia y ajena. Involucra el respeto por los espacios físicos, los objetos personales y la información privada (física y digital), reconociendo que la confianza se construye sobre el respeto a la frontera del 'yo' del otro.",
+      "definicion_estudiante": "Es entender que hay partes de mi vida, de mi cuerpo y de mis mensajes que son solo míos, y que debo respetar la intimidad de los demás sin curiosear sus cosas.",
+      "habilidad_malla": "Respeto a la Intimidad",
+      "ejemplo_aula": "\"El estudiante evita leer el diario o los mensajes de un compañero sin permiso.\"",
+      "evidencia_logro": "El estudiante muestra respeto por las pertenencias y la información privada de sus pares, solicitando permiso antes de acceder a cualquier espacio u objeto ajeno.",
+      "tip_psicologico": "Hable abiertamente sobre la privacidad digital. Explique que revisar un celular ajeno o compartir información privada de otros es una falta grave a la integridad y a la confianza grupal."
+    }
+  ],
+  "periodo_3": [
+    {
+      "id": "CON-007",
+      "concepto": "Autodisciplina",
+      "definicion_pedagogica": "Capacidad de autorregulación orientada a metas de largo plazo. Implica la subordinación de impulsos inmediatos o estados anímicos transitorios (pereza, desmotivación) en favor del cumplimiento de compromisos y objetivos personales o académicos.",
+      "definicion_estudiante": "Es la capacidad de hacer lo que debo hacer (como estudiar o cumplir) incluso cuando no tengo ganas, porque sé que eso me ayudará a lograr mis metas.",
+      "habilidad_malla": "Persistencia y Autogestión",
+      "ejemplo_aula": "\"El estudiante rechaza una distracción en clase para terminar su trabajo a tiempo.\"",
+      "evidencia_logro": "El estudiante finaliza sus tareas y compromisos de manera constante, gestionando sus distractores de forma autónoma.",
+      "tip_psicologico": "Ayude a los estudiantes a visualizar su 'Yo del Futuro'. Pregúnteles: '¿Cómo se sentirá tu yo de mañana si hoy terminas esta tarea?'. Esto ayuda a vencer la gratificación inmediata."
+    },
+    {
+      "id": "CON-008",
+      "concepto": "Resiliencia",
+      "definicion_pedagogica": "Capacidad de adaptación positiva ante la adversidad. Se enfoca en la reestructuración cognitiva del fracaso, viéndolo como una fuente de información para el aprendizaje y no como un juicio sobre la valía personal. Promueve la perseverancia y el optimismo realista.",
+      "definicion_estudiante": "Es la habilidad de 'rebotar' después de un error. En lugar de quedarme en la queja, busco qué aprendí y lo intento de nuevo con una mejor estrategia.",
+      "habilidad_malla": "Resiliencia y Mentalidad de Crecimiento",
+      "ejemplo_aula": "\"Voy a revisar en qué fallé para estudiar mejor la próxima vez.\"",
+      "evidencia_logro": "El estudiante retoma una tarea tras un resultado negativo, aplicando cambios específicos en su método basados en la experiencia previa.",
+      "tip_psicologico": "Normalice el error en el aula. Comparta historias de personajes famosos que fracasaron antes de tener éxito, enfatizando que la resiliencia es un músculo que se entrena con cada caída."
+    },
+    {
+      "id": "CON-009",
+      "concepto": "Gestión de la Frustración",
+      "definicion_pedagogica": "Modulación de la respuesta emocional ante el bloqueo de metas. El estudiante aprende a identificar el aumento de la tensión emocional y utiliza estrategias de enfriamiento para prevenir reacciones desadaptativas, manteniendo la funcionalidad y el respeto por los demás.",
+      "definicion_estudiante": "Es reconocer cuando algo me molesta mucho y usar herramientas como respirar o tomar un momento de calma para no explotar contra los demás.",
+      "habilidad_malla": "Autorregulación Emocional",
+      "ejemplo_aula": "\"El estudiante pide salir un momento a tomar agua porque siente que va a perder el control.\"",
+      "evidencia_logro": "El estudiante utiliza estrategias de calma de manera proactiva cuando detecta que su nivel de frustración está escalando.",
+      "tip_psicologico": "Enseñe la técnica del 'Tiempo Fuera Positivo'. No es un castigo, sino un recurso de autoprotección emocional que el estudiante puede solicitar cuando se siente desbordado."
+    }
+  ],
+  "periodo_4": [
+    {
+      "id": "CON-010",
+      "concepto": "Integridad",
+      "definicion_pedagogica": "Consolidación de la moralidad autónoma. Se refiere a la práctica constante de la honestidad y la ética basada en principios internos, independientemente de la observación externa. La integridad genera coherencia personal y es la base de la confiabilidad social.",
+      "definicion_estudiante": "Es hacer lo correcto incluso cuando nadie me ve. Es ser honesto conmigo mismo y cumplir mi palabra, lo que hace que los demás confíen en mí.",
+      "habilidad_malla": "Ética y Honestidad",
+      "ejemplo_aula": "\"El estudiante devuelve dinero que encontró en el suelo aunque nadie lo vio recogerlo.\"",
+      "evidencia_logro": "El estudiante actúa de acuerdo con las normas y valores del aula de forma espontánea y consistente, incluso en situaciones de tentación o falta de vigilancia.",
+      "tip_psicologico": "Refuerce el valor de la 'Paz Mental'. Explique que actuar con integridad nos permite estar tranquilos con nosotros mismos, lo cual es la recompensa más grande de ser honestos."
+    },
+    {
+      "id": "CON-011",
+      "concepto": "Responsabilidad Social",
+      "definicion_pedagogica": "Conciencia de pertenencia y contribución al bien común. El estudiante comprende que sus acciones individuales impactan el ecosistema social y ambiental de la escuela, asumiendo un rol activo en el cuidado y mejora de su comunidad.",
+      "definicion_estudiante": "Es entender que soy parte de un grupo y que mis acciones, como cuidar el salón o ayudar a otros, ayudan a que todos estemos mejor.",
+      "habilidad_malla": "Conciencia Social y Ciudadanía",
+      "ejemplo_aula": "\"El estudiante recoge basura del patio que no es suya para cuidar el colegio.\"",
+      "evidencia_logro": "El estudiante realiza acciones voluntarias que benefician al grupo o al entorno escolar, mostrando iniciativa y compromiso social.",
+      "tip_psicologico": "Visibilice el impacto de las pequeñas acciones. Use ejemplos de cómo un gesto sencillo de un estudiante mejoró el día de alguien o el estado de un lugar común."
+    },
+    {
+      "id": "CON-012",
+      "concepto": "Acuerdos Colectivos",
+      "definicion_pedagogica": "Habilidad de negociación democrática y resolución de conflictos de intereses. Implica la capacidad de ceder en posiciones personales para alcanzar consensos que favorezcan la armonía grupal, respetando la pluralidad de opiniones.",
+      "definicion_estudiante": "Es la capacidad de negociar y ceder para llegar a soluciones que nos sirvan a todos, respetando las ideas que son diferentes a las mías.",
+      "habilidad_malla": "Mediación y Convivencia Democrática",
+      "ejemplo_aula": "\"El estudiante propone una votación para decidir el juego, aceptando el resultado aunque no ganara su opción.\"",
+      "evidencia_logro": "El estudiante participa activamente en la toma de decisiones grupales, propone alternativas de solución y acata los acuerdos colectivos con actitud positiva.",
+      "tip_psicologico": "Enseñe la diferencia entre 'ganar una discusión' y 'ganar una solución'. En la convivencia, el éxito es lograr que el grupo siga unido y funcionando bien después de un desacuerdo."
+    }
+  ]
+}
