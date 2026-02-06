@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "grado": 1,
+    "area": "Proyecto Socioemocional"
+  },
+  "periodos": [
+    {
+      "numero_periodo": 1,
+      "talleres": [
+        {
+          "id_taller": "G1-P1-T1",
+          "nombre_taller": "Turnos que Escuchan",
+          "conceptos_relacionados": [
+            "Respeto"
+          ],
+          "proposito_experiencia": "Reconocer que cada persona tiene pensamientos y sentimientos que merecen atención y escucha activa.",
+          "recursos_eco": "Un objeto pequeño (pelota, marcador grueso o peluche), círculo de sillas.",
+          "momento_inicio_conexion": "Siente a los estudiantes en círculo. Diga a los niños: 'Hoy este objeto será nuestro micrófono mágico; solo quien lo sostiene tiene el superpoder de ser escuchado'.",
+          "momento_desarrollo_vivencia": "Inicie una ronda con un tema simple como '¿Qué te gusta hacer en el descanso?'. El docente entrega el objeto a un niño; mientras él habla, los demás deben mantener silencio y contacto visual. Haga que el grupo pase el objeto hasta que todos participen sin interrupciones.",
+          "momento_cierre_integracion": "Pregunte: '¿Cómo te sentiste cuando te escucharon sin interrumpir?' y '¿Qué cambia en el grupo cuando nos escuchamos bien?'. Refuerce que escuchar es una forma de cuidar al amigo.",
+          "revision_proposito": "Observar si el estudiante espera su turno sin arrebatos y si logra mantener el silencio mientras otro compañero habla.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P1-T2",
+          "nombre_taller": "Pausa antes de Actuar",
+          "conceptos_relacionados": [
+            "Autocontrol"
+          ],
+          "proposito_experiencia": "Desarrollar la capacidad de pausar y elegir una respuesta calmada ante situaciones de tensión o impulsividad.",
+          "recursos_eco": "Espacio despejado, imágenes de situaciones de conflicto (opcional).",
+          "momento_inicio_conexion": "Diga a los niños: 'A veces nuestro cuerpo quiere reaccionar muy rápido como un cohete, pero hoy aprenderemos a ponerle un freno de seguridad'.",
+          "momento_desarrollo_vivencia": "Presente situaciones comunes (ej. alguien te empuja sin querer). Pida a los estudiantes que realicen una 'micro-pausa' de 5 segundos: deben cerrar los ojos, respirar profundo y luego decir en voz alta una respuesta calmada como '¿Estás bien? No me empujes, por favor'. Repita con situaciones como 'se te cae el material'.",
+          "momento_cierre_integracion": "Pregunte: '¿Cómo se siente tu cuerpo cuando haces la pausa?' y '¿Por qué es importante respirar antes de responder?'.",
+          "revision_proposito": "Identificar si el estudiante logra realizar la respiración profunda ante la simulación de un estímulo estresante.",
+          "tiempo_aplicacion": "12 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P1-T3",
+          "nombre_taller": "El Semáforo del Trato Amable",
+          "conceptos_relacionados": [
+            "Respeto",
+            "Autocontrol"
+          ],
+          "proposito_experiencia": "Integrar el respeto por el espacio ajeno con la autorregulación motriz y verbal.",
+          "recursos_eco": "Cartulinas de colores (Rojo, Amarillo, Verde).",
+          "momento_inicio_conexion": "Muestre los colores y diga: 'Nuestro respeto hacia los demás funciona como un semáforo; hay momentos para parar y momentos para avanzar con amabilidad'.",
+          "momento_desarrollo_vivencia": "Haga que los niños caminen por el salón. Rojo: detenerse y pensar en un amigo. Amarillo: respirar y sonreír al compañero más cercano. Verde: decir un cumplido respetuoso al compañero. Diga a los niños: 'Usa tu autocontrol para no chocar y tu respeto para saludar'.",
+          "momento_cierre_integracion": "Pregunte: '¿Qué palabra amable te gustó más recibir?' y '¿Cómo nos ayuda el semáforo a convivir mejor?'.",
+          "revision_proposito": "Verificar la coordinación del niño para detenerse ante la señal y su capacidad de emitir frases respetuosas.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        }
+      ]
+    },
+    {
+      "numero_periodo": 2,
+      "talleres": [
+        {
+          "id_taller": "G1-P2-T1",
+          "nombre_taller": "Reparamos lo Ocurrido",
+          "conceptos_relacionados": [
+            "Respeto"
+          ],
+          "proposito_experiencia": "Comprender el perdón y la reparación como herramientas fundamentales para la convivencia segura y amable.",
+          "recursos_eco": "Hojas de papel, pegatinas o dibujos de corazones.",
+          "momento_inicio_conexion": "Diga a los niños: 'Todos podemos cometer errores, pero lo valiente es saber cómo arreglarlos para que la amistad siga brillando'.",
+          "momento_desarrollo_vivencia": "Simule conflictos leves (ej. un daño pequeño de material). Guíe a los niños en tres pasos: 1. Reconozco lo que pasó ('Rompí tu hoja'). 2. Expreso disculpa ('Perdón, fue sin querer'). 3. Propongo una reparación ('¿Te ayudo a pegarla con cinta?'). Haga que practiquen en parejas.",
+          "momento_cierre_integracion": "Pregunte: '¿Qué significa reparar un error?' y '¿Cómo te sientes cuando alguien te pide perdón de corazón?'.",
+          "revision_proposito": "Observar si el estudiante propone acciones concretas para solucionar un desacuerdo simulado.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P2-T2",
+          "nombre_taller": "Lo Intento con Valentía",
+          "conceptos_relacionados": [
+            "Valentía"
+          ],
+          "proposito_experiencia": "Fortalecer la confianza en uno mismo al enfrentar retos sencillos que generan nervios o duda.",
+          "recursos_eco": "Dibujos de los niños, un 'escenario' improvisado en el salón.",
+          "momento_inicio_conexion": "Pida a los niños que piensen en algo que les dé un poquito de pena, como hablar frente a otros. Diga a los niños: 'Hoy vamos a sacar nuestra valentía de exploradores'.",
+          "momento_desarrollo_vivencia": "Cada niño elije una acción pequeña (mostrar un dibujo, leer una palabra o decir un saludo). El docente ofrece refuerzo positivo constante. Haga que el grupo aplauda cada vez que alguien se atreve a pasar al frente. Diga: '¡Mira qué valiente eres al intentarlo!'.",
+          "momento_cierre_integracion": "Pregunte: '¿Qué sentiste justo antes de pasar?' y '¿Qué aprendiste sobre ti mismo al hacerlo?'.",
+          "revision_proposito": "Evaluar la disposición del estudiante para participar en la actividad a pesar de manifestar timidez inicial.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P2-T3",
+          "nombre_taller": "Construimos Juntos",
+          "conceptos_relacionados": [
+            "Colaboración"
+          ],
+          "proposito_experiencia": "Experimentar que el trabajo en equipo permite llegar más lejos y que cada aporte individual es valioso.",
+          "recursos_eco": "Bloques, hojas, cinta, palitos o material reciclable.",
+          "momento_inicio_conexion": "Organice grupos de 3. Diga a los niños: 'Ninguno de nosotros es tan fuerte como todos nosotros juntos; hoy crearemos algo increíble en equipo'.",
+          "momento_desarrollo_vivencia": "Entregue material común a cada grupo. Deben crear una figura (torre, bandera o puente). Cada integrante debe cumplir un rol (ej. el que sostiene, el que pega, el que decora). Haga que intercambien ideas antes de empezar a construir.",
+          "momento_cierre_integracion": "Pregunte: '¿Fue fácil ponerse de acuerdo?' y '¿Cómo se siente colaborar en vez de trabajar solo?'.",
+          "revision_proposito": "Identificar si el estudiante escucha las sugerencias de sus compañeros durante la construcción.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        }
+      ]
+    },
+    {
+      "numero_periodo": 3,
+      "talleres": [
+        {
+          "id_taller": "G1-P3-T1",
+          "nombre_taller": "Celebramos tus Logros",
+          "conceptos_relacionados": [
+            "Respeto",
+            "Colaboración"
+          ],
+          "proposito_experiencia": "Fomentar la alegría compartida y el respeto por los procesos de aprendizaje de los compañeros.",
+          "recursos_eco": "Espacio circular.",
+          "momento_inicio_conexion": "Diga a los niños: 'Cuando un amigo logra algo, nuestro corazón también se pone feliz. ¡Hoy vamos a celebrar!'.",
+          "momento_desarrollo_vivencia": "Cada niño comparte un logro simple (ej. 'ya sé guardar mis colores solo' o 'aprendí una palabra nueva'). Los compañeros deben responder con entusiasmo diciendo: '¡Qué bien!', '¡Te felicito!'. Haga que el grupo note cómo se siente el ambiente cuando todos se alegran por los demás.",
+          "momento_cierre_integracion": "Pregunte: '¿Cómo te sientes cuando otros celebran contigo?' y '¿Por qué es importante alegrarse por los demás?'.",
+          "revision_proposito": "Observar la reacción gestual y verbal del niño ante el éxito compartido de sus pares.",
+          "tiempo_aplicacion": "12 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P3-T2",
+          "nombre_taller": "Detectives de Ayuda",
+          "conceptos_relacionados": [
+            "Respeto",
+            "Colaboración"
+          ],
+          "proposito_experiencia": "Identificar y valorar acciones solidarias en el entorno escolar para promover una cultura de apoyo mutuo.",
+          "recursos_eco": "Lupa de cartulina (opcional).",
+          "momento_inicio_conexion": "Diga a los niños: 'Hoy seremos detectives buscando gestos de amor y ayuda en nuestro salón'.",
+          "momento_desarrollo_vivencia": "Durante la actividad habitual o un recreo corto, los niños deben observar situaciones donde alguien ayude a otro (recoger algo, explicar una tarea). Al regresar al círculo, cada uno comparte la 'acción solidaria' que vio. Diga: 'Ayudar es una forma de respetar el bienestar de todos'.",
+          "momento_cierre_integracion": "Pregunte: '¿Qué acción solidaria viste hoy?' y '¿En qué momento podrías ser más solidario mañana?'.",
+          "revision_proposito": "Verificar si el estudiante reconoce y describe correctamente conductas prosociales en sus compañeros.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P3-T3",
+          "nombre_taller": "El Poder de las Preguntas",
+          "conceptos_relacionados": [
+            "Valentía",
+            "Autocontrol"
+          ],
+          "proposito_experiencia": "Usar la curiosidad con valentía para aprender, manteniendo el autocontrol en la interacción grupal.",
+          "recursos_eco": "Un objeto curioso (imán, insecto de juguete o máquina simple).",
+          "momento_inicio_conexion": "Muestre el objeto misterioso. Diga a los niños: 'Ser valiente es preguntar cuando no sabemos algo; hoy solo se permiten preguntas, no respuestas'.",
+          "momento_desarrollo_vivencia": "Los niños observan el objeto y deben formular una pregunta cada uno (ej. '¿Para qué sirve?', '¿De qué está hecho?'). Deben esperar su turno usando su autocontrol. El docente refuerza: 'Qué buena pregunta, gracias por atreverte a investigar'.",
+          "momento_cierre_integracion": "Pregunte: '¿Cómo te ayuda la curiosidad a aprender?' y '¿Qué sientes cuando descubres algo nuevo?'.",
+          "revision_proposito": "Evaluar la capacidad del niño para estructurar preguntas y su respeto por el orden de participación.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        }
+      ]
+    },
+    {
+      "numero_periodo": 4,
+      "talleres": [
+        {
+          "id_taller": "G1-P4-T1",
+          "nombre_taller": "Jugamos Diferente",
+          "conceptos_relacionados": [
+            "Respeto"
+          ],
+          "proposito_experiencia": "Fomentar la tolerancia y el respeto por las diferencias de opinión y preferencias en el juego.",
+          "recursos_eco": "Ninguno.",
+          "momento_inicio_conexion": "Diga a los niños: 'No todos los juegos se juegan igual para todos, y eso es lo que los hace divertidos'.",
+          "momento_desarrollo_vivencia": "Proponga un mini-juego (ej. Simón dice) donde cada minuto un niño distinto propone una regla nueva (ej. saltar en un pie, hablar con voz de robot). El grupo debe aceptar la regla aunque no sea su favorita. Diga: 'Respetamos la idea del compañero para que todos seamos incluidos'.",
+          "momento_cierre_integracion": "Pregunte: '¿Cómo te sentiste cuando la regla no era la que querías?' y '¿Por qué es importante aceptar diferencias en el recreo?'.",
+          "revision_proposito": "Observar la flexibilidad del estudiante ante cambios en las normas de juego propuestas por otros.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P4-T2",
+          "nombre_taller": "Hoy Quiero Lograr...",
+          "conceptos_relacionados": [
+            "Valentía",
+            "Autocontrol"
+          ],
+          "proposito_experiencia": "Fortalecer la motivación personal y la valentía para proponerse metas de mejora diaria.",
+          "recursos_eco": "Hojas de papel, colores.",
+          "momento_inicio_conexion": "Diga a los niños: 'Cada día es una nueva oportunidad para ser nuestra mejor versión. ¿Cuál es tu meta hoy?'.",
+          "momento_desarrollo_vivencia": "Cada estudiante escribe o dibuja un pequeño objetivo (ej. terminar un trabajo, levantar la mano para hablar). Al final del día, revisan en círculo si lo intentaron. Use frases como: 'Te tomó mucha valentía intentarlo' o 'Usaste tu autocontrol para cumplir tu meta'.",
+          "momento_cierre_integracion": "Pregunte: '¿Qué objetivo elegiste?' y '¿Qué sientes cuando algo te motiva a mejorar?'.",
+          "revision_proposito": "Verificar si el estudiante asocia el esfuerzo personal con la satisfacción de lograr una meta.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P4-T3",
+          "nombre_taller": "El Puente Cooperativo",
+          "conceptos_relacionados": [
+            "Colaboración",
+            "Respeto"
+          ],
+          "proposito_experiencia": "Integrar la colaboración con el respeto mutuo para resolver un desafío colectivo final.",
+          "recursos_eco": "Cinta adhesiva de colores o cuerdas.",
+          "momento_inicio_conexion": "Diga a los niños: 'Para llegar al final del año, hemos construido un puente de amistad. ¡Hagámoslo real hoy!'.",
+          "momento_desarrollo_vivencia": "En el piso, dibuje dos líneas paralelas. El grupo debe 'cruzar el puente' sin salirse, pero solo pueden avanzar si todos están listos y se ayudan de las manos. Si alguien se sale, el grupo pausa (autocontrol) y vuelve a empezar con respeto. Diga: 'Nadie se queda atrás si colaboramos'.",
+          "momento_cierre_integracion": "Pregunte: '¿Qué ayudó a que el trabajo saliera mejor?' y '¿Cómo podemos seguir siendo un gran equipo el próximo año?'.",
+          "revision_proposito": "Evaluar la sincronización del grupo y la comunicación asertiva durante el reto físico.",
+          "tiempo_aplicacion": "15 minutos",
+          "enlace_multimedia": null
+        }
+      ]
+    }
+  ]
+}
