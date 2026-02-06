@@ -1,405 +1,128 @@
-/* FILE: styles-diccionario.css | VERSION: v11.0.0 (Diccionario ECO - Fase Beta) */
+/* FILE: styles-diccionario.css | VERSION: v11.0.0 */
 
-/* Importar fuente principal de Educate Brand */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&display=swap');
-
-/* VARIABLES CSS - BASADAS EN educate-tokens.json */
 :root {
-  /* Neutros */
-  --color-black: #000000;
-  --color-white: #FFFFFF;
-  --color-gray: #808080;
-  --color-light-gray: #f0f4f7; /* Fondo general, similar al principal */
-  --color-border-light: #e0e6ed; /* Borde general */
-  
-  /* Primarios */
-  --color-primary-100: #17334B; /* Azul oscuro */
-  --color-primary-200: #11678B; /* Azul intermedio */
-  --color-primary-300: #54BBAB; /* Verde azulado */
-
-  /* Secundarios para identificadores de conceptos/talleres */
-  --color-secondary-100: #F39325; /* Naranja */
-  --color-secondary-200: #D94D15; /* Rojo anaranjado */
-  --color-secondary-300: #B01829; /* Rojo */
-  --color-secondary-400: #521537; /* Vino */
-  --color-secondary-500: #878721; /* Verde oliva */
-  
-  /* Colores ECO existentes que podrían mapearse o ser adicionales */
-  --eco-purple: #9B7BB6; /* Usado en Socioemocional y Progresión */
-  --eco-teal: #00A19B; /* Usado en botones secundarios */
-  --eco-dark: #17334B; /* Ya mapeado a primary-100 */
-  --eco-green: #54BBAB; /* Ya mapeado a primary-300 */
-
-  /* Tipografía */
+  --color-primary-100: #17334B; 
+  --color-primary-200: #11678B;
+  --color-primary-300: #54BBAB;
+  --color-info-bar: #e9ecef; /* Gris para la franja de info */
   --font-family-primary: 'Barlow Condensed', sans-serif;
-
-  /* Sombras y transiciones */
-  --shadow-sm: 0 2px 5px rgba(0,0,0,0.05);
-  --shadow-md: 0 5px 15px rgba(0,0,0,0.1);
-  --transition-ease: all 0.3s ease;
 }
 
-/* GENERAL */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body { 
-  font-family: var(--font-family-primary); 
-  background: var(--color-light-gray); 
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #333;
-  user-select: none !important;
-  -webkit-user-select: none !important;
-  -moz-user-select: none !important;
-  -ms-user-select: none !important;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Asegura que el footer (si existe) ocupe el fondo */
-}
-
-/* SEGURIDAD NACIONAL - Elementos ocultos por defecto */
-.no-print { /* Se usa en HTML para elementos que no deben imprimirse */ }
-.print-only-header, .watermark-print { display: none !important; }
-
-/* LAYOUT PRINCIPAL */
-#header-diccionario {
-  background: linear-gradient(180deg, var(--color-primary-200) 0%, var(--color-primary-100) 100%);
-  color: var(--color-white);
+/* HEADER INSTITUCIONAL MEJORADO */
+#header-institucional {
+  background: linear-gradient(90deg, #17334B 0%, #11678B 100%);
+  color: white;
   padding: 1rem 2rem;
-  box-shadow: var(--shadow-md);
 }
 
-.header-content {
-  max-width: 1300px;
+.header-blue-content {
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.2rem;
 }
 
-.header-actions {
-  display: flex;
-  gap: 10px;
+.brand-titles h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin: 0;
 }
 
-#main-diccionario {
-  flex-grow: 1; /* Permite que el contenido principal ocupe el espacio disponible */
-  max-width: 1300px;
-  margin: 1.5rem auto;
-  padding: 0 1.5rem;
-  display: flex; /* Para el layout de menú lateral y contenido */
-  gap: 1.5rem;
-}
-
-/* BOTONES GLOBALES */
-.btn-imprimir, .btn-cerrar {
-  padding: 10px 18px;
-  border: none;
-  border-radius: 8px;
-  font-family: var(--font-family-primary);
-  font-weight: 700;
-  cursor: pointer;
+.brand-titles p {
   font-size: 1.1rem;
-  transition: var(--transition-ease);
+  font-weight: 400;
+  opacity: 0.9;
 }
 
-.btn-imprimir {
-  background: var(--eco-teal);
-  color: var(--color-white);
-}
-.btn-imprimir:hover { background: #008f8a; }
-
-.btn-cerrar {
-  background: var(--color-secondary-300); /* Rojo para el botón de cerrar */
-  color: var(--color-white);
-}
-.btn-cerrar:hover { background: #9b1425; }
-
-/* SECCIÓN PRINCIPAL DEL DICCIONARIO */
-#dic-container {
-  display: flex;
-  gap: 1.5rem;
-  width: 100%;
+/* FRANJA GRIS DE INFO */
+#info-bar-consulta {
+  background: var(--color-info-bar);
+  border-bottom: 2px solid #dee2e6;
+  padding: 0.5rem 2rem;
 }
 
-#dic-menu {
-  flex-shrink: 0; /* Evita que el menú se encoja */
-  width: 250px; /* Ancho fijo para el menú lateral */
-  background: var(--color-white);
-  padding: 1.5rem;
-  border-radius: 15px;
-  box-shadow: var(--shadow-sm);
+.info-bar-content {
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  align-self: flex-start; /* Se alinea al inicio y no se estira */
-  position: sticky; /* Menú sticky */
-  top: 1.5rem; /* Ajustar según el header fijo si lo hubiera */
 }
 
-.dic-menu-item {
-  width: 100%;
-  padding: 12px 15px;
-  border: none;
-  border-radius: 8px;
-  background: #f8f8f8;
+.label-eco {
+  font-weight: 800;
   color: var(--color-primary-100);
-  text-align: left;
-  font-family: var(--font-family-primary);
+  font-size: 1rem;
+}
+
+.data-eco {
+  font-size: 1.2rem;
+  color: #555;
   font-weight: 600;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: var(--transition-ease);
 }
 
-.dic-menu-item:hover:not(.active) {
-  background: #e9ecef;
+/* LAYOUT HORIZONTAL DEL DICCIONARIO (GRID) */
+.dic-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 2rem;
 }
 
-.dic-menu-item.active {
-  background: var(--color-primary-300); /* Verde azulado para activo */
-  color: var(--color-white);
-  box-shadow: var(--shadow-sm);
-}
-
-#dic-content-display {
-  flex-grow: 1; /* Ocupa el espacio restante */
-  background: var(--color-white);
-  padding: 2rem;
-  border-radius: 15px;
-  box-shadow: var(--shadow-sm);
-  min-height: 600px; /* Para que no se vea vacío */
-}
-
-.loading-message {
-  text-align: center;
-  color: var(--color-gray);
-  font-style: italic;
-  padding: 50px 0;
-}
-
-/* ESTILOS ESPECÍFICOS PARA EL DICCIONARIO */
-.dic-header-section {
-  background: #f8f9fa;
-  border-left: 5px solid var(--color-primary-200);
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: 10px;
-}
-
-.dic-header-section strong {
-  color: var(--color-primary-100);
-  font-size: 1.3rem;
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.dic-concepto-card {
-  background: var(--color-white);
-  border: 1px solid var(--color-border-light);
-  border-radius: 15px;
-  padding: 1.8rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
-  overflow: hidden; /* Para el border-left */
-  position: relative;
-}
-
-.dic-concepto-card::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 10px; /* Ancho de la franja de color */
-  background-color: var(--concepto-color, var(--eco-purple)); /* Color dinámico */
-}
-
+/* FUENTES MÁS GRANDES EN TARJETAS */
 .dic-concepto-card h3 {
-  font-size: 1.8rem;
-  color: var(--color-primary-100);
-  margin-bottom: 1rem;
-  padding-left: 20px; /* Espacio para la franja */
-  text-transform: uppercase;
-}
-
-.dic-field {
-  margin-bottom: 1rem;
-  padding-left: 20px; /* Espacio para la franja */
+  font-size: 2.2rem !important; /* Fuente más grande solicitada */
+  margin-bottom: 1.5rem;
 }
 
 .dic-field strong {
-  display: block;
-  font-size: 0.95rem;
-  color: var(--color-primary-200);
-  margin-bottom: 0.3rem;
-  text-transform: uppercase;
+  font-size: 1.1rem !important;
 }
 
-.dic-field p, .dic-field ul {
-  font-size: 1rem;
-  color: #555;
-  margin-left: 0;
-  list-style-type: none; /* Eliminar viñetas por defecto */
+.dic-field p {
+  font-size: 1.2rem !important; /* Texto más legible */
 }
 
-.dic-field ul li::before {
-  content: "•";
-  color: var(--eco-teal);
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+/* MEJORA VISUAL TALLERES (NO PLANO) */
+.taller-section-block {
+  background: #fdfdfd;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s;
 }
 
-.dic-tip {
-  background: var(--color-secondary-100); /* Naranja para el tip */
-  color: var(--color-white);
-  padding: 1rem 1.8rem;
-  border-radius: 10px;
-  margin-top: 1.5rem;
-  font-style: italic;
+.taller-section-block:hover {
+  border-color: var(--color-primary-300);
+  background: #fafffe;
+}
+
+.taller-section-header {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 400;
-  padding-left: calc(20px + 1.8rem); /* Ajuste para la franja */
+  margin-bottom: 8px;
+  color: var(--color-primary-200);
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
 }
 
-.dic-tip::before {
-  content: "💡"; /* Icono de bombilla */
-  font-size: 1.5rem;
-  line-height: 1;
+.taller-icon { font-size: 1.4rem; }
+
+.badge-concepto {
   display: inline-block;
-  margin-right: 5px;
-}
-
-/* ESTILOS ESPECÍFICOS PARA TALLERES */
-.taller-card {
-  background: var(--color-white);
-  border: 1px solid var(--color-border-light);
-  border-radius: 15px;
-  padding: 1.8rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
-  position: relative;
-}
-
-.taller-card::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 10px; /* Ancho de la franja de color */
-  background-color: var(--taller-color, var(--eco-green)); /* Color dinámico */
-}
-
-.taller-card h3 {
-  font-size: 1.8rem;
-  color: var(--color-primary-100);
-  margin-bottom: 1rem;
-  padding-left: 20px;
+  background: var(--color-primary-100);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin: 4px;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
-/* ESTILOS DE IMPRESIÓN */
-@media print {
-  body {
-    background: none !important;
-    font-size: 1rem; /* Ajustar para impresión */
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
-  .no-print, #header-diccionario, #dic-menu, #btn-top-dic {
-    display: none !important;
-  }
-  #main-diccionario {
-    margin: 0 !important;
-    padding: 0 !important;
-    max-width: 100% !important;
-    display: block !important;
-  }
-  #dic-container {
-    display: block !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    width: 100% !important;
-  }
-  #dic-content-display {
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    padding: 1rem !important;
-    background: none !important;
-    margin-top: 0 !important;
-  }
-  .print-only-header {
-    display: block !important;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 2px solid #ccc;
-  }
-  .watermark-print {
-    display: block !important;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-    font-size: 5rem;
-    color: rgba(180, 180, 180, 0.12) !important;
-    font-weight: 700;
-    z-index: 99999 !important;
-    pointer-events: none;
-    white-space: nowrap;
-  }
-
-  /* Ajustes para evitar cortes en la impresión */
-  .dic-concepto-card, .taller-card {
-    break-inside: avoid;
-    border: 1px solid #ddd !important; /* Bordes visibles en impresión */
-    margin-bottom: 1.5rem !important;
-    box-shadow: none !important;
-  }
-  .dic-concepto-card::before, .taller-card::before {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
-  .dic-tip {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-    background: var(--color-secondary-100) !important;
-    color: var(--color-white) !important;
-  }
-}
-
-/* BOTÓN TOP */
-.btn-top {
-  display: none; position: fixed; bottom: 30px; right: 30px; 
-  width: 50px; height: 50px; background: var(--eco-teal); color: white; 
-  border: none; border-radius: 50%; font-size: 1.5rem; cursor: pointer; 
-  z-index: 5000; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  transition: var(--transition-ease);
-}
-.btn-top:hover { background: #008f8a; }
-
-/* Responsive (básico) */
-@media (max-width: 768px) {
-  .header-content { flex-direction: column; gap: 10px; }
-  #main-diccionario, #dic-container { flex-direction: column; padding: 0 1rem; }
-  #dic-menu { 
-    width: 100%; 
-    position: static; 
-    margin-bottom: 1.5rem; 
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    justify-content: center;
-  }
-  .dic-menu-item { flex-grow: 1; text-align: center;}
-  .dic-concepto-card h3, .dic-field, .dic-tip, .taller-card h3 {
-    padding-left: 10px; /* Menos padding en móviles */
-  }
-  .dic-concepto-card::before, .taller-card::before {
-    width: 5px; /* Franja más delgada en móviles */
-  }
+/* Ajustes Responsive */
+@media (max-width: 900px) {
+  .dic-grid-container { grid-template-columns: 1fr; }
 }
