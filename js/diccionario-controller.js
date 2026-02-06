@@ -1,17 +1,16 @@
-// FILE: js/diccionario-controller.js | VERSION: v11.0.0 (Diccionario ECO - Fase Beta)
+// FILE: js/diccionario-controller.js | VERSION: v11.0.0
 document.addEventListener('DOMContentLoaded', async () => {
   const urlParams = new URLSearchParams(window.location.search);
   const grado = urlParams.get('grado');
-  const periodo = parseInt(urlParams.get('periodo')); // Se espera un número
-  const areaNombre = urlParams.get('area') || "Proyecto Socioemocional"; // Para encabezado si no se pasa explícitamente
+  const periodo = parseInt(urlParams.get('periodo'));
+  const areaNombre = urlParams.get('area') || "Proyecto Socioemocional";
 
   if (!grado || isNaN(periodo)) {
-    alert('Error: Grado o Período no especificado en la URL.');
-    window.close(); // Cierra la ventana si falta información esencial
+    alert('Información incompleta.');
+    window.close();
     return;
   }
 
-  // Elementos del DOM
   const headerInfo = document.getElementById('dic-header-info');
   const dicMenu = document.getElementById('dic-menu');
   const dicContentDisplay = document.getElementById('dic-content-display');
@@ -19,35 +18,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   const btnImprimir = document.getElementById('btn-imprimir-dic');
   const btnTop = document.getElementById('btn-top-dic');
 
-  // Cache interna para los datos cargados
   let diccionarioData = null;
   let talleresData = null;
-  let conceptosColores = {}; // Para asignar colores únicos a los conceptos
+  let conceptosColores = {};
 
-  // --- CONFIGURACIÓN DE COLORES PARA CONCEPTOS Y TALLERES ---
-  // Se usarán los colores secundarios de educate-tokens.json
   const coloresConceptos = [
-    'var(--color-secondary-100)', // Naranja
-    'var(--color-secondary-200)', // Rojo anaranjado
-    'var(--color-primary-300)',   // Verde azulado (usado también en ECO, Primary 300)
-    'var(--color-secondary-400)', // Vino
-    'var(--color-eco-purple)',    // Púrpura ECO
-    'var(--color-secondary-500)', // Verde oliva
-    'var(--color-primary-200)',   // Azul intermedio (Primary 200)
+    '#F39325', '#D94D15', '#54BBAB', '#521537', '#9B7BB6', '#878721', '#11678B'
   ];
-  let colorIndex = 0; // Para rotar los colores
-
-  // --- FUNCIONES DE UTILIDAD ---
-  function normalizarTexto(texto) {
-    if (!texto) return "";
-    return texto.normalize("NFD")
-                .replace(/[\u0300-\u036f]/g, "")
-                .toLowerCase()
-                .trim();
-  }
+  let colorIndex = 0;
 
   function getConceptoColor(concepto) {
-    const key = normalizarTexto(concepto);
+    const key = concepto.toLowerCase().trim();
     if (!conceptosColores[key]) {
       conceptosColores[key] = coloresConceptos[colorIndex % coloresConceptos.length];
       colorIndex++;
@@ -55,211 +36,106 @@ document.addEventListener('DOMContentLoaded', async () => {
     return conceptosColores[key];
   }
 
-  function showLoading(show) {
-    const loadingMessage = dicContentDisplay.querySelector('.loading-message');
-    if (loadingMessage) {
-      loadingMessage.style.display = show ? 'block' : 'none';
-    }
-    dicContentDisplay.style.minHeight = show ? '200px' : 'auto'; // Mantener altura mínima
-  }
-
-  // --- CARGA DE DATOS ---
-  async function cargarDatosDiccionario() {
-    if (diccionarioData) return diccionarioData; // Retornar caché si ya existe
+  async function cargarDatos() {
     try {
-      showLoading(true);
-      const response = await fetch(`data/diccionario/${grado}_diccionario.json?v=${new Date().getTime()}`);
-      if (!response.ok) throw new Error('No se pudo cargar el diccionario.');
-      diccionarioData = await response.json();
-      showLoading(false);
-      return diccionarioData;
-    } catch (error) {
-      console.error("Error al cargar el diccionario:", error);
-      showLoading(false);
-      dicContentDisplay.innerHTML = `<p class="error-message">Error al cargar el diccionario para Grado ${grado}.</p>`;
-      return null;
-    }
+      const [resDic, resTal] = await Promise.all([
+        fetch(`data/diccionario/${grado}_diccionario.json?v=${Date.now()}`),
+        fetch(`data/diccionario/${grado}_talleres.json?v=${Date.now()}`)
+      ]);
+      if (resDic.ok) diccionarioData = await resDic.json();
+      if (resTal.ok) talleresData = await resTal.json();
+    } catch (e) { console.error("Error cargando datos", e); }
   }
 
-  async function cargarDatosTalleres() {
-    if (talleresData) return talleresData; // Retornar caché si ya existe
-    try {
-      showLoading(true);
-      const response = await fetch(`data/diccionario/${grado}_talleres.json?v=${new Date().getTime()}`);
-      if (!response.ok) throw new Error('No se pudieron cargar los talleres.');
-      talleresData = await response.json();
-      showLoading(false);
-      return talleresData;
-    } catch (error) {
-      console.error("Error al cargar los talleres:", error);
-      showLoading(false);
-      // No reemplazar el contenido si hay error en talleres, solo mostrar mensaje
-      dicContentDisplay.insertAdjacentHTML('beforeend', `<p class="error-message">Error al cargar los talleres para Grado ${grado}.</p>`);
-      return null;
-    }
-  }
-
-  // --- RENDERIZADO DE CONTENIDO ---
   function renderizarDiccionario() {
-    if (!diccionarioData) {
-      dicContentDisplay.innerHTML = `<p class="error-message">Diccionario no disponible.</p>`;
-      return;
-    }
-
-    const periodoKey = `periodo_${periodo}`;
-    const conceptosPeriodo = diccionarioData[periodoKey];
-
-    if (!conceptosPeriodo || conceptosPeriodo.length === 0) {
-      dicContentDisplay.innerHTML = `<p class="info-message">No hay conceptos de diccionario para el periodo ${periodo} del grado ${grado}.</p>`;
-      return;
-    }
-
+    if (!diccionarioData) return;
+    const conceptos = diccionarioData[`periodo_${periodo}`] || [];
+    
     let html = `
       <div class="dic-header-section">
-        <strong>ESTÁNDAR DEL PERIODO:</strong>
-        <p>Identifico emociones básicas en momentos escolares cotidianos.</p>
-        <p>EJE | COMPETENCIA: Autonomía emocional</p>
+        <strong>🎯 ESTÁNDAR DEL PERIODO:</strong>
+        <p style="font-size:1.5rem; font-weight:700;">Identifico emociones básicas en momentos escolares cotidianos.</p>
+        <p>EJE: Reconozco lo que siento | COMPETENCIA: Autonomía emocional</p>
       </div>
+      <div class="dic-grid-container">
     `;
 
-    conceptosPeriodo.forEach(concepto => {
-      const conceptoColor = getConceptoColor(concepto.concepto);
+    conceptos.forEach(c => {
+      const color = getConceptoColor(c.concepto);
       html += `
-        <div class="dic-concepto-card" style="--concepto-color: ${conceptoColor};">
-          <h3>${concepto.concepto}</h3>
-          <div class="dic-field"><strong>Definición Pedagógica:</strong> <p>${concepto.definicion_pedagogica}</p></div>
-          <div class="dic-field"><strong>Definición para el Estudiante:</strong> <p>${concepto.definicion_estudiante}</p></div>
-          <div class="dic-field"><strong>Habilidad en Malla:</strong> <p>${concepto.habilidad_malla}</p></div>
-          <div class="dic-field"><strong>Ejemplo de Aula:</strong> <p>${concepto.ejemplo_aula}</p></div>
-          <div class="dic-field"><strong>Evidencia de Logro:</strong> <p>${concepto.evidencia_logro}</p></div>
-          <div class="dic-tip">${concepto.tip_psicologico}</div>
+        <div class="dic-concepto-card" style="--concepto-color: ${color};">
+          <h3>${c.concepto}</h3>
+          <div class="dic-field"><strong>🧠 Definición Pedagógica:</strong> <p>${c.definicion_pedagogica}</p></div>
+          <div class="dic-field"><strong>🎓 Habilidad Técnica:</strong> <p>${c.habilidad_malla}</p></div>
+          <div class="dic-field"><strong>🔍 ¿Qué observar? (Evidencia):</strong> <p>${c.evidencia_logro}</p></div>
+          <div class="dic-tip">💡 <strong>Tip para el Profe:</strong> ${c.tip_psicologico}</div>
         </div>
       `;
     });
+    html += `</div>`;
     dicContentDisplay.innerHTML = html;
   }
 
-  function renderizarTaller(tallerIndex) {
-    if (!talleresData) {
-      dicContentDisplay.innerHTML = `<p class="error-message">Talleres no disponibles.</p>`;
-      return;
-    }
+  function renderizarTaller(idx) {
+    if (!talleresData) return;
+    const t = talleresData.periodos.find(p => p.numero_periodo === periodo)?.talleres[idx-1];
+    if (!t) { dicContentDisplay.innerHTML = "Taller no disponible."; return; }
 
-    const periodoTalleres = talleresData.periodos.find(p => p.numero_periodo === periodo);
+    dicContentDisplay.innerHTML = `
+      <div class="taller-card">
+        <h2 style="font-size: 2.8rem; color: #17334B; margin-bottom: 1.5rem;">TALLER ${idx}: ${t.nombre_taller}</h2>
+        
+        <div class="taller-section-block">
+          <div class="taller-section-header">🏷️ CONCEPTOS VINCULADOS</div>
+          <div>${t.conceptos_relacionados.map(c => `<span class="badge-concepto">${c}</span>`).join('')}</div>
+        </div>
 
-    if (!periodoTalleres || !periodoTalleres.talleres || periodoTalleres.talleres.length === 0) {
-      dicContentDisplay.innerHTML = `<p class="info-message">No hay talleres para el periodo ${periodo} del grado ${grado}.</p>`;
-      return;
-    }
+        <div class="taller-section-block">
+          <div class="taller-section-header">🎯 PROPÓSITO</div>
+          <p style="font-size:1.3rem;">${t.proposito_experiencia}</p>
+        </div>
 
-    const taller = periodoTalleres.talleres[tallerIndex - 1]; // tallerIndex es 1, 2 o 3
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="taller-section-block"><div class="taller-section-header">⚡ INICIO</div><p>${t.momento_inicio_conexion}</p></div>
+          <div class="taller-section-block"><div class="taller-section-header">✨ DESARROLLO</div><p>${t.momento_desarrollo_vivencia}</p></div>
+        </div>
 
-    if (!taller) {
-      dicContentDisplay.innerHTML = `<p class="info-message">Taller ${tallerIndex} no encontrado para el periodo ${periodo}.</p>`;
-      return;
-    }
+        <div class="taller-section-block"><div class="taller-section-header">✅ CIERRE</div><p>${t.momento_cierre_integracion}</p></div>
 
-    // Colores para talleres, rotando los mismos o un subconjunto
-    const tallerColor = coloresConceptos[(tallerIndex - 1 + 2) % coloresConceptos.length]; // Offset para diferenciarlos
-
-    let html = `
-      <div class="taller-card" style="--taller-color: ${tallerColor};">
-        <h3>TALLER ${tallerIndex}: ${taller.nombre_taller}</h3>
-        <div class="dic-field"><strong>Conceptos Relacionados:</strong> <p>${taller.conceptos_relacionados.join(', ')}</p></div>
-        <div class="dic-field"><strong>Propósito de la Experiencia:</strong> <p>${taller.proposito_experiencia}</p></div>
-        <div class="dic-field"><strong>Recursos ECO:</strong> <p>${taller.recursos_eco}</p></div>
-        <div class="dic-field"><strong>Momento de Inicio / Conexión:</strong> <p>${taller.momento_inicio_conexion}</p></div>
-        <div class="dic-field"><strong>Momento de Desarrollo / Vivencia:</strong> <p>${taller.momento_desarrollo_vivencia}</p></div>
-        <div class="dic-field"><strong>Momento de Cierre / Integración:</strong> <p>${taller.momento_cierre_integracion}</p></div>
-        <div class="dic-field"><strong>Revisión del Propósito:</strong> <p>${taller.revision_proposito}</p></div>
-        <div class="dic-field"><strong>Tiempo de Aplicación:</strong> <p>${taller.tiempo_aplicacion}</p></div>
-        ${taller.enlace_multimedia ? `<div class="dic-field"><strong>Recurso Multimedia:</strong> <a href="${taller.enlace_multimedia}" target="_blank">Ver Recurso</a></div>` : ''}
+        <div class="taller-section-block" style="background: #fff9e6; border-left: 6px solid #f39325;">
+          <div class="taller-section-header">⏱️ RECURSOS Y TIEMPO</div>
+          <p><strong>Recursos:</strong> ${t.recursos_eco} | <strong>Tiempo:</strong> ${t.tiempo_application || t.tiempo_aplicacion}</p>
+        </div>
       </div>
     `;
-    dicContentDisplay.innerHTML = html;
   }
 
-  // --- INICIALIZACIÓN ---
   async function init() {
-    // Actualizar encabezado
-    if (headerInfo) {
-      headerInfo.textContent = `CONSULTANDO CÁTEDRA ECO-PRO | GRADO: ${grado === "-1" ? "JARDÍN (-1)" : (grado === "0" ? "TRANSICIÓN (0)" : `GRADO ${grado}°`)} | PERIODO: ${periodo}°`;
-    }
-
-    // Cargar ambos datasets en paralelo para mejor rendimiento
-    await Promise.all([cargarDatosDiccionario(), cargarDatosTalleres()]);
-
-    // Renderizar diccionario por defecto
+    const gradoTxt = grado === "-1" ? "JARDÍN" : (grado === "0" ? "TRANSICIÓN" : `GRADO ${grado}°`);
+    headerInfo.textContent = `GRADO: ${gradoTxt} | PERIODO: ${periodo}`;
+    await cargarDatos();
     renderizarDiccionario();
 
-    // --- MANEJADORES DE EVENTOS ---
-
-    // Menú de navegación
-    dicMenu.addEventListener('click', (e) => {
-      const target = e.target;
-      if (target.classList.contains('dic-menu-item')) {
-        // Remover 'active' de todos los elementos del menú
-        dicMenu.querySelectorAll('.dic-menu-item').forEach(item => item.classList.remove('active'));
-        // Añadir 'active' al elemento clickeado
-        target.classList.add('active');
-
-        const contentType = target.dataset.content;
-        dicContentDisplay.innerHTML = '<p class="loading-message">Cargando contenido...</p>'; // Mostrar mensaje de carga
-        showLoading(true);
-
-        setTimeout(() => { // Pequeño delay para UX
-          if (contentType === 'diccionario') {
-            renderizarDiccionario();
-          } else if (contentType.startsWith('taller-')) {
-            const tallerIndex = parseInt(contentType.split('-')[1]);
-            renderizarTaller(tallerIndex);
-          }
-          showLoading(false);
-        }, 100);
-      }
-    });
-
-    // Botón cerrar
-    if (btnCerrar) {
-      btnCerrar.onclick = () => {
-        window.close();
-      };
-    }
-
-    // Botón imprimir
-    if (btnImprimir) {
-      btnImprimir.addEventListener('click', () => {
-        // Población del encabezado oculto para impresión
-        const printFechaTxt = document.getElementById('print-fecha-txt-dic');
-        const ahora = new Date();
-        const fechaFormateada = ahora.toLocaleDateString() + ' ' + ahora.toLocaleTimeString();
-        if (printFechaTxt) {
-            printFechaTxt.innerHTML = `<strong>ÁREA:</strong> ${areaNombre} | <strong>GRADO:</strong> ${grado === "-1" ? "JARDÍN (-1)" : (grado === "0" ? "TRANSICIÓN (0)" : `GRADO ${grado}°`)} | <strong>PERIODO:</strong> ${periodo}° <br> <strong>FECHA DE CONSULTA:</strong> ${fechaFormateada}`;
-        }
-        setTimeout(() => {
-            window.print();
-        }, 400); // Pequeña espera para asegurar que el DOM esté listo para la impresión
-      });
-    }
-
-    // Botón "Volver Arriba"
-    window.onscroll = () => {
-      if (btnTop) btnTop.style.display = (window.scrollY > 400) ? 'block' : 'none';
+    dicMenu.onclick = (e) => {
+      const btn = e.target.closest('.dic-menu-item');
+      if (!btn) return;
+      document.querySelectorAll('.dic-menu-item').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const content = btn.dataset.content;
+      if (content === 'diccionario') renderizarDiccionario();
+      else renderizarTaller(parseInt(content.split('-')[1]));
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     };
-    if (btnTop) btnTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    btnCerrar.onclick = () => window.close();
+    btnImprimir.onclick = () => {
+      const f = new Date();
+      document.getElementById('print-fecha-txt-dic').innerHTML = `<strong>ÁREA:</strong> ${areaNombre} | <strong>GRADO:</strong> ${gradoTxt} | <strong>PERIODO:</strong> ${periodo}° <br> <strong>CONSULTA:</strong> ${f.toLocaleDateString()} ${f.toLocaleTimeString()}`;
+      setTimeout(() => window.print(), 500);
+    };
+    window.onscroll = () => btnTop.style.display = window.scrollY > 400 ? 'block' : 'none';
+    btnTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  // Iniciar el controlador
   init();
-
-  // SEGURIDAD NACIONAL - Bloqueo de teclado y mouse
-  document.addEventListener('contextmenu', e => e.preventDefault());
-  document.addEventListener('keydown', e => {
-    if (e.ctrlKey && ['c','u','i','s','p'].includes(e.key.toLowerCase())) {
-      e.preventDefault();
-      // Opcional: mostrar una notificación de "Acceso Protegido" si se desea
-      // console.warn("Acceso Protegido - Contenido no copiable.");
-    }
-  });
-
 });
