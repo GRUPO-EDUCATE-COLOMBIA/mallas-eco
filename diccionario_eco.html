@@ -1,12 +1,12 @@
-<!-- FILE: diccionario_eco.html | VERSION: v11.0.1 (CORREGIDO) -->
+<!-- FILE: diccionario_eco.html | VERSION: v11.0.2 (PUNTO DE CONTROL) -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diccionario ECO - Grupo Edúcate Colombia</title>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles-diccionario.css">
+  <!-- Control 1: Agregamos ?v=1 para forzar al navegador a leer el nuevo CSS -->
+  <link rel="stylesheet" href="styles-diccionario.css?v=1.1">
 </head>
 <body id="body-diccionario">
   
@@ -31,8 +31,9 @@
   </div>
 
   <main id="main-diccionario">
+    <!-- El contenedor flex solo debe tener DOS hijos directos: el aside y el display -->
     <section id="dic-container">
-      <aside id="dic-sidebar">
+      <aside id="dic-sidebar" class="no-print">
         <nav id="dic-menu">
           <button class="dic-menu-item active" data-content="diccionario">DICCIONARIO</button>
           <button class="dic-menu-item" data-content="taller-1">TALLER 1</button>
@@ -42,20 +43,20 @@
       </aside>
 
       <div id="dic-content-display">
-        <p class="loading-message">Cargando contenido...</p>
+        <p class="loading-message">Cargando...</p>
       </div>
     </section>
   </main>
 
-  <!-- ELEMENTOS EXCLUSIVOS PARA IMPRESIÓN (OCULTOS EN PANTALLA) -->
-  <div class="watermark-print">GRUPO EDÚCATE COLOMBIA <br> COPIA PARA ESTUDIO</div>
-  <div id="print-header-dic" class="print-only-header">
-      <h1>GRUPO EDÚCATE COLOMBIA</h1>
-      <h2>Diccionario ECO - Dirección de Pedagogía</h2>
-      <p id="print-fecha-txt-dic"></p>
+  <!-- CONTENEDOR FANTASMA DE IMPRESIÓN (Totalmente aislado del layout de pantalla) -->
+  <div id="seccion-aislada-impresion">
+    <div class="watermark-print">GRUPO EDÚCATE COLOMBIA <br> COPIA PARA ESTUDIO</div>
+    <div id="print-header-dic" class="print-only-header">
+        <h1>GRUPO EDÚCATE COLOMBIA</h1>
+        <h2>Diccionario ECO - Dirección de Pedagogía</h2>
+        <p id="print-fecha-txt-dic"></p>
+    </div>
   </div>
-
-  <button id="btn-top-dic" class="btn-top no-print">↑</button>
 
   <script src="js/diccionario-controller.js"></script>
 </body>
