@@ -8,7 +8,7 @@
       "concepto": "Consciencia de Señales",
       "definicion_pedagogica": "Se refiere al desarrollo de la interocepción y la propiocepción emocional. Es la capacidad del estudiante para identificar marcadores somáticos (cambios en el ritmo cardíaco, tono de voz o expresiones faciales) que preceden o acompañan a una emoción, permitiéndole categorizar la intensidad de su estado afectivo.",
       "definicion_estudiante": "Es aprender a leer los mensajes de mi cuerpo, como mi voz, mi cara o mi corazón, para saber si mi emoción es fuerte o suave y si está cambiando.",
-      "habilidad_malla": "Autoconocimiento y Conciencia Corporal",
+      "habilidad_malla": "Autoconocimiento y Consciencia Corporal",
       "ejemplo_aula": "\"Noto que mi voz tiembla un poquito; eso me avisa que estoy nervioso por la exposición.\"",
       "evidencia_logro": "El estudiante identifica y describe verbalmente una sensación física asociada a una emoción específica durante las actividades de clase.",
       "tip_psicologico": "Realice ejercicios de 'escaneo corporal' rápidos antes de iniciar una tarea nueva, preguntando a los niños en qué parte del cuerpo sienten su energía en ese momento."
@@ -18,7 +18,7 @@
       "concepto": "Diferenciación Emocional",
       "definicion_pedagogica": "Capacidad de granularidad emocional que permite al niño transitar de categorías básicas (bien/mal) a etiquetas más precisas. Este proceso es fundamental para la regulación, ya que una emoción correctamente identificada es más fácil de gestionar cognitivamente.",
       "definicion_estudiante": "Es cuando puedes darte cuenta de qué sientes exactamente, como saber si estás realmente asustado o solo un poco preocupado por algo.",
-      "habilidad_malla": "Conciencia Emocional",
+      "habilidad_malla": "Consciencia Emocional",
       "ejemplo_aula": "\"No tengo miedo a la tarea, solo estoy preocupado porque es un poquito larga.\"",
       "evidencia_logro": "El estudiante utiliza un vocabulario emocional variado para explicar su estado de ánimo, diferenciando matices entre emociones similares.",
       "tip_psicologico": "Utilice un 'emocionómetro' visual en el salón donde los niños puedan ubicar su nombre según la intensidad y el tipo de emoción que sienten."
@@ -28,7 +28,7 @@
       "concepto": "Empatía Observadora",
       "definicion_pedagogica": "Fase inicial de la toma de perspectiva social donde el estudiante utiliza claves no verbales (gestos, postura, prosodia) para inferir el estado interno de sus pares. Es la base de la cognición social y la respuesta prosocial.",
       "definicion_estudiante": "Es fijarme en los gestos y la voz de mis amigos para darme cuenta de cómo se sienten, aunque no me digan nada con palabras.",
-      "habilidad_malla": "Conciencia Social",
+      "habilidad_malla": "Consciencia Social",
       "ejemplo_aula": "\"Vi a mi amigo sentado solo y con la cabeza baja; me di cuenta de que se sentía solo.\"",
       "evidencia_logro": "El estudiante reporta o reacciona ante el estado emocional de un compañero basándose en la observación de su lenguaje corporal.",
       "tip_psicologico": "Juegue a 'detectives de emociones' observando imágenes o videos cortos sin sonido, pidiendo a los niños que adivinen qué siente el personaje por su cara."
@@ -152,3 +152,4 @@
   ]
 
 }
+
