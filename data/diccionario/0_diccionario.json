@@ -1,0 +1,116 @@
+{
+  "grado": 0,
+  "area": "Proyecto Socioemocional",
+  "periodos": [
+    {
+      "periodo": 1,
+      "conceptos": [
+        {
+          "id": "CON-001",
+          "concepto": "Adaptación al Entorno Escolar",
+          "definicion_pedagogica": "Proceso psicológico mediante el cual el niño integra el nuevo espacio físico y social de la escuela como un lugar seguro (zona de confort), reduciendo la ansiedad por separación y estableciendo vínculos de confianza con el docente.",
+          "definicion_estudiante": "Es sentirme feliz y tranquilo en mi salón, sabiendo que mi profe y mis nuevos amigos me quieren y me cuidan.",
+          "habilidad_malla": "Conciencia del Entorno",
+          "ejemplo_aula": "\"Martín entra al salón, saluda a su profesora con una sonrisa y coloca su lonchera en el lugar asignado sin llorar.\"",
+          "evidencia_logro": "El estudiante ingresa al aula con tranquilidad, se despide de sus padres sin angustia desbordada y participa en las rutinas iniciales.",
+          "tip_psicologico": "Valide las emociones del niño. Si llora, agáchese a su altura, haga contacto visual y use un tono calmado; evite minimizar su miedo, en su lugar, dele seguridad."
+        },
+        {
+          "id": "CON-002",
+          "concepto": "Normas de Convivencia (Pactos de Aula)",
+          "definicion_pedagogica": "Internalización de límites y acuerdos sociales básicos necesarios para la armonía grupal. Implica el desarrollo incipiente del control inhibitorio para seguir instrucciones colectivas.",
+          "definicion_estudiante": "Son las reglas mágicas de nuestro salón para que todos estemos felices, como levantar la mano o caminar despacio.",
+          "habilidad_malla": "Toma de Decisiones Responsable",
+          "ejemplo_aula": "\"Sofía espera su turno para hablar en la asamblea porque recuerda que levantamos la mano para escucharnos.\"",
+          "evidencia_logro": "El estudiante recuerda y ejecuta al menos dos normas básicas del aula sin necesidad de recordatorio constante (ej. guardar los juguetes).",
+          "tip_psicologico": "Formule las normas en positivo (ej. 'Caminamos despacio' en lugar de 'No correr'). Utilice apoyos visuales en las paredes para reforzar la memoria."
+        },
+        {
+          "id": "CON-003",
+          "concepto": "Autonomía Básica (Rutinas)",
+          "definicion_pedagogica": "Capacidad del niño para ejecutar acciones de autocuidado y organización personal sin dependencia directa del adulto, fomentando su sentido de competencia y autoeficacia.",
+          "definicion_estudiante": "Es cuando puedo hacer cosas yo solito, como ponerme la chaqueta, ir al baño o comer mi lonchera como un niño grande.",
+          "habilidad_malla": "Autogestión",
+          "ejemplo_aula": "\"Pedro termina de comer, cierra su termo y limpia su puesto sin que la profesora se lo tenga que pedir.\"",
+          "evidencia_logro": "El estudiante gestiona sus pertenencias personales y necesidades fisiológicas con mínima asistencia del docente.",
+          "tip_psicologico": "Tenga paciencia. No haga las cosas por ellos para 'agilizar'; celebre cada pequeño logro de independencia con entusiasmo verbal."
+        }
+      ]
+    },
+    {
+      "periodo": 2,
+      "conceptos": [
+        {
+          "id": "CON-004",
+          "concepto": "Reconocimiento de Emociones Básicas",
+          "definicion_pedagogica": "Alfabetización emocional inicial. Habilidad para identificar y etiquetar estados afectivos primarios (alegría, tristeza, enojo, miedo) basándose en expresiones faciales y sensaciones corporales.",
+          "definicion_estudiante": "Es saber cómo se siente mi corazón y mi carita. Si sonrío estoy feliz, si lloro estoy triste, y está bien sentir todo eso.",
+          "habilidad_malla": "Conciencia Social (Empatía)",
+          "ejemplo_aula": "\"Cuando la profesora muestra una lámina de un niño llorando, Ana dice: 'Él está triste porque se le cayó el helado'.\"",
+          "evidencia_logro": "El estudiante nombra correctamente la emoción básica al ver imágenes o situaciones representadas en títeres o cuentos.",
+          "tip_psicologico": "Use el 'espejo de emociones'. Pida a los niños que imiten caras de emociones frente a un espejo para que conecten la propiocepción facial con el sentimiento."
+        },
+        {
+          "id": "CON-005",
+          "concepto": "Expresión Emocional Adecuada",
+          "definicion_pedagogica": "Inicio de la regulación emocional, donde el niño aprende a manifestar lo que siente utilizando el lenguaje verbal o gestual en lugar de la actuación física agresiva (pegar, morder).",
+          "definicion_estudiante": "Es usar mis palabras para decir lo que me pasa. En lugar de empujar, digo: '¡No me gusta eso!' o '¡Estoy bravo!'.",
+          "habilidad_malla": "Autorregulación",
+          "ejemplo_aula": "\"En lugar de arrebatar el juguete, Luis le dice a su compañero: 'Yo lo estaba usando, estoy molesto', y busca a la profesora.\"",
+          "evidencia_logro": "El estudiante busca al adulto o usa palabras para comunicar disconfort antes de recurrir a la agresión física.",
+          "tip_psicologico": "Cuando el niño esté desbordado, ofrezca las palabras que él no encuentra: 'Veo que estás muy enojado porque querías ese juguete'. Eso calma su sistema límbico."
+        }
+      ]
+    },
+    {
+      "periodo": 3,
+      "conceptos": [
+        {
+          "id": "CON-006",
+          "concepto": "Habilidades Sociales: Saludo y Cortesía",
+          "definicion_pedagogica": "Adquisición de convenciones sociales que facilitan la interacción positiva. El uso de 'palabras mágicas' fomenta el respeto mutuo y la validación del otro.",
+          "definicion_estudiante": "Son mis súper palabras amables: 'Buenos días', 'Por favor' y 'Gracias'. Hacen que los demás se sientan bien conmigo.",
+          "habilidad_malla": "Habilidades de Relación",
+          "ejemplo_aula": "\"Al recibir el material de trabajo, Camila mira a la auxiliar y le dice 'Gracias' con una sonrisa.\"",
+          "evidencia_logro": "El estudiante utiliza espontáneamente fórmulas de cortesía en interacciones cotidianas con pares y adultos.",
+          "tip_psicologico": "Sea el modelo. Salude y agradezca a los niños mirándolos a los ojos. El modelamiento es la herramienta de aprendizaje más potente en esta etapa."
+        },
+        {
+          "id": "CON-007",
+          "concepto": "Juego Cooperativo y Turnos",
+          "definicion_pedagogica": "Transición del juego paralelo al juego asociativo/cooperativo. Implica la capacidad de postergar la gratificación inmediata (esperar turno) para lograr una meta lúdica común.",
+          "definicion_estudiante": "Es jugar juntos para divertirnos más. A veces me toca a mí, a veces a mi amigo, y esperamos contentos.",
+          "habilidad_malla": "Habilidades de Relación",
+          "ejemplo_aula": "\"En el juego de lotería, Tomás espera pacientemente a que sus compañeros pongan sus fichas antes de poner la suya.\"",
+          "evidencia_logro": "El estudiante acepta esperar su turno en actividades grupales y comparte materiales sin conflicto constante.",
+          "tip_psicologico": "Utilice un objeto físico (un 'bastón de la palabra' o un peluche) para marcar visualmente de quién es el turno. Esto ayuda a concretar el concepto abstracto de tiempo."
+        }
+      ]
+    },
+    {
+      "periodo": 4,
+      "conceptos": [
+        {
+          "id": "CON-008",
+          "concepto": "Autoestima y Autoconcepto",
+          "definicion_pedagogica": "Valoración positiva de sí mismo basada en el reconocimiento de sus propias características físicas y habilidades. Es la base de la seguridad personal.",
+          "definicion_estudiante": "Es quererme mucho a mí mismo. Saber que soy especial, que tengo un nombre lindo y que puedo aprender muchas cosas.",
+          "habilidad_malla": "Conciencia de Sí Mismo",
+          "ejemplo_aula": "\"Durante la actividad 'Todo sobre mí', David muestra su dibujo y dice orgulloso: '¡Miren, este soy yo y sé correr muy rápido!'\"",
+          "evidencia_logro": "El estudiante habla positivamente de sí mismo o de sus trabajos y reconoce su nombre e imagen con agrado.",
+          "tip_psicologico": "Evite el elogio genérico ('Muy bien'). Use elogio descriptivo ('Me gusta mucho cómo escogiste esos colores para tu dibujo'), esto construye una autoestima real."
+        },
+        {
+          "id": "CON-009",
+          "concepto": "Resolución Pacífica de Conflictos",
+          "definicion_pedagogica": "Capacidad inicial para negociar y encontrar soluciones sencillas a disputas interpersonales con la mediación del adulto, promoviendo la cultura de paz.",
+          "definicion_estudiante": "Cuando peleamos, paramos, respiramos y hablamos para volver a ser amigos. No necesitamos pegarnos.",
+          "habilidad_malla": "Toma de Decisiones Responsable",
+          "ejemplo_aula": "\"Dos niños quieren el mismo libro. Con ayuda de la profe, deciden verlo juntos pasando una página cada uno.\"",
+          "evidencia_logro": "El estudiante acepta la mediación del docente en un conflicto y propone o acepta una solución sencilla (ej. turnarse o cambiar de juguete).",
+          "tip_psicologico": "Actúe como mediador, no como juez. Pregunte '¿Qué pasó?' y '¿Cómo lo podemos solucionar?' en lugar de buscar culpables."
+        }
+      ]
+    }
+  ]
+}
