@@ -1,7 +1,7 @@
 
 {
   "area": "Inglés",
-  "grado": "0",
+  "grado": 0,
   "tipo_malla": "3_periodos",
   "numero_periodos": 3,
   "periodos": [
@@ -85,3 +85,4 @@
     }
   ]
 }
+
