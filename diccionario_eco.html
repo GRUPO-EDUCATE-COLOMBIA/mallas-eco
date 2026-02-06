@@ -1,15 +1,16 @@
-<!-- FILE: diccionario_eco.html | VERSION: v11.0.2 (PUNTO DE CONTROL) -->
+<!-- FILE: diccionario_eco.html | VERSION: v11.0.3 (FINAL-ESTABLE) -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diccionario ECO - Grupo Edúcate Colombia</title>
-  <!-- Control 1: Agregamos ?v=1 para forzar al navegador a leer el nuevo CSS -->
-  <link rel="stylesheet" href="styles-diccionario.css?v=1.1">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles-diccionario.css">
 </head>
 <body id="body-diccionario">
   
+  <!-- CABEZAL AZUL INSTITUCIONAL -->
   <header id="header-institucional" class="no-print">
     <div class="header-blue-content">
       <div class="brand-titles">
@@ -23,6 +24,7 @@
     </div>
   </header>
 
+  <!-- BARRA DE INFORMACIÓN GRIS -->
   <div id="info-bar-consulta" class="no-print">
     <div class="info-bar-content">
       <span class="label-eco">CONSULTADO ECO PRO</span>
@@ -30,9 +32,11 @@
     </div>
   </div>
 
+  <!-- CONTENIDO PRINCIPAL -->
   <main id="main-diccionario">
-    <!-- El contenedor flex solo debe tener DOS hijos directos: el aside y el display -->
     <section id="dic-container">
+      
+      <!-- MENÚ LATERAL -->
       <aside id="dic-sidebar" class="no-print">
         <nav id="dic-menu">
           <button class="dic-menu-item active" data-content="diccionario">DICCIONARIO</button>
@@ -42,14 +46,16 @@
         </nav>
       </aside>
 
+      <!-- ÁREA DE DESPLIEGUE -->
       <div id="dic-content-display">
-        <p class="loading-message">Cargando...</p>
+        <p class="loading-message">Iniciando consulta pedagógica...</p>
       </div>
+
     </section>
   </main>
 
-  <!-- CONTENEDOR FANTASMA DE IMPRESIÓN (Totalmente aislado del layout de pantalla) -->
-  <div id="seccion-aislada-impresion">
+  <!-- ELEMENTOS EXCLUSIVOS PARA IMPRESIÓN (TOTALMENTE OCULTOS EN PANTALLA) -->
+  <div id="capa-impresion-exclusiva">
     <div class="watermark-print">GRUPO EDÚCATE COLOMBIA <br> COPIA PARA ESTUDIO</div>
     <div id="print-header-dic" class="print-only-header">
         <h1>GRUPO EDÚCATE COLOMBIA</h1>
@@ -57,6 +63,8 @@
         <p id="print-fecha-txt-dic"></p>
     </div>
   </div>
+
+  <button id="btn-top-dic" class="btn-top no-print">↑</button>
 
   <script src="js/diccionario-controller.js"></script>
 </body>
