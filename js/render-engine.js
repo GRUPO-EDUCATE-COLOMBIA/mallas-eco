@@ -1,4 +1,4 @@
-// FILE: js/render-engine.js | VERSION: v10.7 Stable
+// FILE: js/render-engine.js | VERSION: v11.0.0 Stable (Actualización para Diccionario ECO)
 window.RenderEngine = (function() {
   const containerMalla = document.getElementById('contenedor-malla');
 
@@ -61,7 +61,7 @@ window.RenderEngine = (function() {
 
     // Distribución por tipo de área
     containerMalla.innerHTML = items.map(item => {
-      if (areaId === "proyecto-socioemocional") return plantillaSocioemocional(item, grado);
+      if (areaId === "proyecto-socioemocional") return plantillaSocioemocional(item, grado, periodo); // Pasar periodo también
       return plantillaAcademica(item, areaId, grado, periodo);
     }).join('');
   }
@@ -86,6 +86,9 @@ window.RenderEngine = (function() {
     const llaveEco = normalizarTexto(window.APP_CONFIG.AREAS["proyecto-socioemocional"].nombre);
     const ecoData = window.MallasData[llaveEco]?.[grado]?.[tipoMalla]?.periodos?.[periodo];
     const infoECO = (ecoData && Array.isArray(ecoData) && ecoData.length > 0) ? ecoData[0] : null;
+
+    // --- MODIFICACIÓN CLAVE PARA EL BOTÓN DICCIONARIO ECO ---
+    const diccionarioUrl = `diccionario_eco.html?grado=${grado}&periodo=${periodo}&area=${encodeURIComponent(window.APP_CONFIG.AREAS["proyecto-socioemocional"].nombre)}`;
 
     return `
       <div class="item-malla">
@@ -140,7 +143,7 @@ window.RenderEngine = (function() {
 
           <!-- BOTÓN RECURSOS DICCIONARIO -->
           <div style="text-align:center; margin-top:2rem;">
-            <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
+            <a href="${diccionarioUrl}" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
           </div>
         </div>
       </div>
@@ -150,7 +153,10 @@ window.RenderEngine = (function() {
   /**
    * PLANTILLA PARA ÁREA SOCIOEMOCIONAL PURA
    */
-  function plantillaSocioemocional(item, grado) {
+  function plantillaSocioemocional(item, grado, periodo) { // Recibe periodo
+    // --- MODIFICACIÓN CLAVE PARA EL BOTÓN DICCIONARIO ECO ---
+    const diccionarioUrl = `diccionario_eco.html?grado=${grado}&periodo=${periodo}&area=${encodeURIComponent(window.APP_CONFIG.AREAS["proyecto-socioemocional"].nombre)}`;
+
     return `
       <div class="item-malla">
         <div class="franja-titulo-principal" style="background-color: var(--eco-purple);">
@@ -162,7 +168,7 @@ window.RenderEngine = (function() {
           <div class="campo"><strong>Habilidades a Fortalecer:</strong> <div style="background:white; padding:20px; border-radius:10px; border:1px solid #eee; border-left:5px solid var(--eco-purple);">${validarDato(item.Habilidades)}</div></div>
           <div class="campo"><strong>Evidencias ECO:</strong> <div>${validarDato(item.evidencias_de_desempeno)}</div></div>
           <div style="text-align:center; margin-top:2rem;">
-            <a href="eco/diccionario/eco_dic_${grado}.html" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
+            <a href="${diccionarioUrl}" target="_blank" class="btn-eco-dic">Consultar Diccionario ECO</a>
           </div>
         </div>
       </div>

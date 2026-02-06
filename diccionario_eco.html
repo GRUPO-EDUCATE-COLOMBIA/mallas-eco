@@ -1,0 +1,54 @@
+<!-- FILE: diccionario_eco.html | VERSION: v1.0.0 (Diccionario ECO - Fase Beta) -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diccionario ECO - Grupo Edúcate Colombia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles-diccionario.css">
+</head>
+<body id="body-diccionario">
+  
+  <header id="header-diccionario" class="no-print">
+    <div class="header-content">
+      <p id="dic-header-info">CONSULTANDO CÁTEDRA ECO-PRO | GRADO: [GRADO_PLACEHOLDER] | PERIODO: [PERIODO_PLACEHOLDER]</p>
+      <div class="header-actions">
+        <button id="btn-imprimir-dic" class="btn-imprimir">🖨️ IMPRIMIR FICHA</button>
+        <button id="btn-cerrar-dic" class="btn-cerrar">✕</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-diccionario">
+    <!-- MARCA DE AGUA SOBRE EL TEXTO (para impresión) -->
+    <div class="watermark-print">GRUPO EDÚCATE COLOMBIA <br> COPIA PARA ESTUDIO</div>
+
+    <!-- Encabezado solo para impresión -->
+    <div id="print-header-dic" class="print-only-header">
+      <h1 style="font-size: 2.2rem; margin-bottom: 5px;">GRUPO EDÚCATE COLOMBIA</h1>
+      <h2 style="font-size: 1.6rem; margin-bottom: 5px; text-transform: uppercase;">Diccionario ECO</h2>
+      <h3 style="font-size: 1.2rem; font-weight: 400; margin-bottom: 15px;">Dirección de Pedagogía</h3>
+      <p id="print-fecha-txt-dic" style="border-top: 1px solid #000; padding-top: 10px;"></p>
+    </div>
+
+    <section id="dic-container">
+      <nav id="dic-menu">
+        <button class="dic-menu-item active" data-content="diccionario">DICCIONARIO</button>
+        <button class="dic-menu-item" data-content="taller-1">TALLER 1</button>
+        <button class="dic-menu-item" data-content="taller-2">TALLER 2</button>
+        <button class="dic-menu-item" data-content="taller-3">TALLER 3</button>
+      </nav>
+
+      <div id="dic-content-display">
+        <!-- Contenido del diccionario o talleres se cargará aquí -->
+        <p class="loading-message">Cargando contenido...</p>
+      </div>
+    </section>
+  </main>
+
+  <button id="btn-top-dic" class="btn-top no-print">↑</button>
+
+  <script src="js/diccionario-controller.js"></script>
+</body>
+</html>
