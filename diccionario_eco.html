@@ -1,4 +1,4 @@
-<!-- FILE: diccionario_eco.html | VERSION: v11.0.5 -->
+<!-- FILE: diccionario_eco.html | VERSION: v12.0.0 -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,6 +10,7 @@
 </head>
 <body id="body-diccionario">
   
+  <!-- HEADER INSTITUCIONAL (MANTENIDO POR INTEGRIDAD) -->
   <header id="header-institucional" class="no-print">
     <div class="header-blue-content">
       <div class="brand-titles">
@@ -23,6 +24,7 @@
     </div>
   </header>
 
+  <!-- BARRA DE INFORMACIÓN SUPERIOR -->
   <div id="info-bar-consulta" class="no-print">
     <div class="info-bar-content">
       <span class="label-eco">CONSULTA AL DICCIONARIO DEL PROYECTO ECO PRO</span>
@@ -32,21 +34,24 @@
 
   <main id="main-diccionario">
     <section id="dic-container">
-      <aside id="dic-sidebar" class="no-print">
-        <nav id="dic-menu">
-          <button class="dic-menu-item active" data-content="diccionario">DICCIONARIO</button>
-          <button class="dic-menu-item" data-content="taller-1">TALLER 1</button>
-          <button class="dic-menu-item" data-content="taller-2">TALLER 2</button>
-          <button class="dic-menu-item" data-content="taller-3">TALLER 3</button>
-        </nav>
-      </aside>
+      
+      <!-- NAVEGACIÓN POR PESTAÑAS (NUEVA UBICACIÓN SUPERIOR) -->
+      <nav id="dic-menu" class="no-print">
+        <button class="dic-menu-item active" data-content="diccionario">DICCIONARIO</button>
+        <button class="dic-menu-item" data-content="taller-1">TALLER 1</button>
+        <button class="dic-menu-item" data-content="taller-2">TALLER 2</button>
+        <button class="dic-menu-item" data-content="taller-3">TALLER 3</button>
+      </nav>
 
+      <!-- ÁREA DE DESPLIEGUE DE CONTENIDO -->
       <div id="dic-content-display">
         <p class="loading-message">Procesando información completa del periodo...</p>
       </div>
+
     </section>
   </main>
 
+  <!-- CAPA DE IMPRESIÓN EXCLUSIVA (MANTENIDA POR INTEGRIDAD) -->
   <div id="capa-impresion-exclusiva">
     <div class="watermark-print">GRUPO EDÚCATE COLOMBIA <br> COPIA PARA ESTUDIO</div>
     <div id="print-header-dic" class="print-only-header">
@@ -56,6 +61,7 @@
     </div>
   </div>
 
+  <!-- CONTROLADOR LÓGICO -->
   <script src="js/diccionario-controller.js"></script>
 </body>
 </html>
