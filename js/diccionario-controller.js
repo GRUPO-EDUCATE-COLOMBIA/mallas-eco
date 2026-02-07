@@ -1,4 +1,4 @@
-// FILE: js/diccionario-controller.js | VERSION: v12.1.0 Stable (Actualización Persistencia)
+// FILE: js/diccionario-controller.js | VERSION: v12.1.1 Stable (Corrección Redundancia)
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const grado = urlParams.get('grado');
@@ -38,18 +38,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     async function cargarDatos() {
         try {
-            // DOBLE VALIDACIÓN: ¿Los datos vienen persistidos de la página anterior?
             const persistencia = sessionStorage.getItem('ECO_PERSISTENCIA_SOCIO');
             if (persistencia) {
                 const pData = JSON.parse(persistencia);
-                // Solo usamos la persistencia si coincide con lo solicitado por URL
                 if (String(pData.grado) === String(grado)) {
                     socioData = pData.data;
-                    console.log("Datos socioemocionales recuperados de persistencia.");
                 }
             }
 
-            // Cargamos el resto de archivos (y el socioData como respaldo si falló la persistencia)
             const [resDic, resTal, resSocioFallback] = await Promise.all([
                 fetch(`data/diccionario/${grado}_diccionario.json?v=${Date.now()}`),
                 fetch(`data/diccionario/${grado}_talleres.json?v=${Date.now()}`),
@@ -68,8 +64,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     function renderizarDiccionario() {
         if (!diccionarioData) return;
         const conceptos = diccionarioData[`periodo_${periodo}`] || [];
-        
-        // El JSON puede venir con estructura de "periodos" (como el que me cargaste)
         const infoSocio = (socioData && socioData.periodos && socioData.periodos[periodo]) 
                           ? socioData.periodos[periodo][0] 
                           : null;
@@ -123,7 +117,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const p = talleresData.periodos.find(per => per.numero_periodo === periodo);
         const t = p?.talleres[idx-1];
         if (!t) {
-            dicContentDisplay.innerHTML = `<p>Taller no disponible.</p>`;
+            dicContentDisplay.innerHTML = `<p style="padding:20px; color:#666;">Taller no disponible para este periodo.</p>`;
             return;
         }
         dicContentDisplay.innerHTML = `
@@ -144,15 +138,25 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO / VIVENCIA</strong><p>${validarCampo(t.momento_desarrollo_vivencia)}</p></div>
                 </div>
                 <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE / INTEGRACIÓN</strong><p>${validarCampo(t.momento_cierre_integracion)}</p></div>
+                <div class="taller-section-block" style="background: #fff9e6; border-left: 8px solid #F39325;">
+                    <strong>⏱️ LOGÍSTICA Y RECURSOS</strong>
+                    <p style="margin-top:5px;"><strong>TIEMPO:</strong> ${t.tiempo_application || t.tiempo_aplicacion || 'No definido'} | <strong>RECURSOS ECO:</strong> ${validarCampo(t.recursos_eco)}</p>
+                </div>
             </div>
         `;
     }
 
     async function init() {
-        const gTxt = (grado === "0") ? "TRANSICIÓN" : (grado === "-1" ? "JARDÍN" : `GRADO ${grado}°`);
+        // CORRECCIÓN DE REDUNDANCIA: gTxt ya no incluye la palabra "GRADO" si es numérico
+        const gTxt = (grado === "0") ? "TRANSICIÓN" : 
+                     (grado === "-1" ? "JARDÍN" : 
+                     (grado === "-2" ? "PRE-JARDÍN" : `${grado}°`));
+        
         headerInfo.textContent = `GRADO: ${gTxt} | PERIODO: ${periodo}`;
+        
         await cargarDatos();
         renderizarDiccionario();
+
         dicMenu.onclick = (e) => {
             const btn = e.target.closest('.dic-menu-item');
             if (!btn) return;
@@ -163,6 +167,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             else renderizarTaller(parseInt(content.split('-')[1]));
             window.scrollTo({top: 0, behavior: 'smooth'});
         };
+
         btnCerrar.onclick = () => window.close();
         btnImprimir.onclick = () => window.print();
     }
