@@ -1,4 +1,4 @@
-// FILE: js/diccionario-controller.js | VERSION: v12.1.1 Stable (Corrección Redundancia)
+// FILE: js/diccionario-controller.js | VERSION: v12.2.0
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const grado = urlParams.get('grado');
@@ -36,60 +36,43 @@ document.addEventListener('DOMContentLoaded', async () => {
         return valor;
     }
 
+    // Micro-interacción: Disparar animación
+    function triggerAnimation() {
+        dicContentDisplay.classList.remove('animate-fade-in');
+        void dicContentDisplay.offsetWidth; // Trigger reflow
+        dicContentDisplay.classList.add('animate-fade-in');
+    }
+
     async function cargarDatos() {
         try {
             const persistencia = sessionStorage.getItem('ECO_PERSISTENCIA_SOCIO');
             if (persistencia) {
                 const pData = JSON.parse(persistencia);
-                if (String(pData.grado) === String(grado)) {
-                    socioData = pData.data;
-                }
+                if (String(pData.grado) === String(grado)) socioData = pData.data;
             }
 
-            const [resDic, resTal, resSocioFallback] = await Promise.all([
+            const [resDic, resTal] = await Promise.all([
                 fetch(`data/diccionario/${grado}_diccionario.json?v=${Date.now()}`),
-                fetch(`data/diccionario/${grado}_talleres.json?v=${Date.now()}`),
-                (!socioData) ? fetch(`data/socioemocional/socioemocional_${grado}_4_periodos.json`).then(r => r.json()).catch(() => null) : Promise.resolve(null)
+                fetch(`data/diccionario/${grado}_talleres.json?v=${Date.now()}`)
             ]);
 
             if (resDic.ok) diccionarioData = await resDic.json();
             if (resTal.ok) talleresData = await resTal.json();
-            if (resSocioFallback) socioData = resSocioFallback;
-            
-        } catch (e) { 
-            console.error("Error en carga de datos", e); 
-        }
+        } catch (e) { console.error("Error en carga de datos", e); }
     }
 
     function renderizarDiccionario() {
         if (!diccionarioData) return;
+        triggerAnimation();
         const conceptos = diccionarioData[`periodo_${periodo}`] || [];
-        const infoSocio = (socioData && socioData.periodos && socioData.periodos[periodo]) 
-                          ? socioData.periodos[periodo][0] 
-                          : null;
+        const infoSocio = (socioData && socioData.periodos && socioData.periodos[periodo]) ? socioData.periodos[periodo][0] : null;
 
         let html = `
             <div class="dic-summary-header">
-                <div class="summary-row">
-                    ${ICONS.anual}
-                    <div class="summary-label">Competencia Anual:</div>
-                    <div class="summary-value">${validarCampo(infoSocio?.competencia_anual)}</div>
-                </div>
-                <div class="summary-row">
-                    ${ICONS.periodo}
-                    <div class="summary-label">Competencia del Periodo:</div>
-                    <div class="summary-value">${validarCampo(infoSocio?.competencia)}</div>
-                </div>
-                <div class="summary-row">
-                    ${ICONS.estandar}
-                    <div class="summary-label">Estándar del Periodo:</div>
-                    <div class="summary-value destacado">${validarCampo(infoSocio?.estandar)}</div>
-                </div>
-                <div class="summary-row">
-                    ${ICONS.eje}
-                    <div class="summary-label">Eje Central:</div>
-                    <div class="summary-value">${validarCampo(infoSocio?.eje_central)}</div>
-                </div>
+                <div class="summary-row">${ICONS.anual} <div class="summary-label">Competencia Anual:</div> <div class="summary-value">${validarCampo(infoSocio?.competencia_anual)}</div></div>
+                <div class="summary-row">${ICONS.periodo} <div class="summary-label">Competencia del Periodo:</div> <div class="summary-value">${validarCampo(infoSocio?.competencia)}</div></div>
+                <div class="summary-row">${ICONS.estandar} <div class="summary-label">Estándar del Periodo:</div> <div class="summary-value destacado">${validarCampo(infoSocio?.estandar)}</div></div>
+                <div class="summary-row">${ICONS.eje} <div class="summary-label">Eje Central:</div> <div class="summary-value">${validarCampo(infoSocio?.eje_central)}</div></div>
             </div>
             <div class="dic-grid-container">
         `;
@@ -114,10 +97,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function renderizarTaller(idx) {
         if (!talleresData) return;
+        triggerAnimation();
         const p = talleresData.periodos.find(per => per.numero_periodo === periodo);
         const t = p?.talleres[idx-1];
         if (!t) {
-            dicContentDisplay.innerHTML = `<p style="padding:20px; color:#666;">Taller no disponible para este periodo.</p>`;
+            dicContentDisplay.innerHTML = `<div class="animate-fade-in" style="padding:40px; text-align:center; color:#64748b;"><h3>Taller no disponible para este periodo.</h3></div>`;
             return;
         }
         dicContentDisplay.innerHTML = `
@@ -131,35 +115,30 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
                 <div class="taller-section-block">
                     <div style="font-weight:800; color:#11678B; margin-bottom:5px; font-size:1.1rem;">🎯 PROPÓSITO DE LA EXPERIENCIA</div>
-                    <p style="font-size:1.4rem; line-height:1.4;">${validarCampo(t.proposito_experiencia)}</p>
+                    <p style="font-size:1.4rem; line-height:1.4; font-family:'Inter', sans-serif;">${validarCampo(t.proposito_experiencia)}</p>
                 </div>
                 <div class="taller-grid-split">
-                    <div class="taller-section-block"><strong>⚡ MOMENTO DE INICIO / CONEXIÓN</strong><p>${validarCampo(t.momento_inicio_conexion)}</p></div>
-                    <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO / VIVENCIA</strong><p>${validarCampo(t.momento_desarrollo_vivencia)}</p></div>
+                    <div class="taller-section-block"><strong>⚡ MOMENTO DE INICIO / CONEXIÓN</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_inicio_conexion)}</p></div>
+                    <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO / VIVENCIA</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_desarrollo_vivencia)}</p></div>
                 </div>
-                <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE / INTEGRACIÓN</strong><p>${validarCampo(t.momento_cierre_integracion)}</p></div>
+                <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE / INTEGRACIÓN</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_cierre_integracion)}</p></div>
                 <div class="taller-section-block" style="background: #fff9e6; border-left: 8px solid #F39325;">
                     <strong>⏱️ LOGÍSTICA Y RECURSOS</strong>
-                    <p style="margin-top:5px;"><strong>TIEMPO:</strong> ${t.tiempo_application || t.tiempo_aplicacion || 'No definido'} | <strong>RECURSOS ECO:</strong> ${validarCampo(t.recursos_eco)}</p>
+                    <p style="margin-top:5px; font-family:'Inter', sans-serif;"><strong>TIEMPO:</strong> ${t.tiempo_application || t.tiempo_aplicacion || 'No definido'} | <strong>RECURSOS ECO:</strong> ${validarCampo(t.recursos_eco)}</p>
                 </div>
             </div>
         `;
     }
 
     async function init() {
-        // CORRECCIÓN DE REDUNDANCIA: gTxt ya no incluye la palabra "GRADO" si es numérico
-        const gTxt = (grado === "0") ? "TRANSICIÓN" : 
-                     (grado === "-1" ? "JARDÍN" : 
-                     (grado === "-2" ? "PRE-JARDÍN" : `${grado}°`));
-        
+        const gTxt = (grado === "0") ? "TRANSICIÓN" : (grado === "-1" ? "JARDÍN" : (grado === "-2" ? "PRE-JARDÍN" : `${grado}°`));
         headerInfo.textContent = `GRADO: ${gTxt} | PERIODO: ${periodo}`;
-        
         await cargarDatos();
         renderizarDiccionario();
 
         dicMenu.onclick = (e) => {
             const btn = e.target.closest('.dic-menu-item');
-            if (!btn) return;
+            if (!btn || btn.classList.contains('active')) return;
             document.querySelectorAll('.dic-menu-item').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             const content = btn.dataset.content;
