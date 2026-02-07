@@ -1,4 +1,4 @@
-/* FILE: styles-diccionario.css | VERSION: v12.2.0 */
+/* FILE: styles-diccionario.css | VERSION: v12.2.1 (Fix SVG Overflow) */
 
 :root {
   --color-primary-100: #17334B; 
@@ -6,7 +6,7 @@
   --color-primary-300: #54BBAB;
   --color-accent: #F39325; 
   --font-titles: 'Barlow Condensed', sans-serif;
-  --font-body: 'Inter', sans-serif; /* Nueva para legibilidad */
+  --font-body: 'Inter', sans-serif;
   --shadow-card: 0 4px 20px rgba(0,0,0,0.06);
   --shadow-hover: 0 10px 30px rgba(0,0,0,0.12);
 }
@@ -19,7 +19,6 @@ body {
   color: #333;
 }
 
-/* HEADER Y BARRAS - MANTENIDO */
 #header-institucional {
   background: linear-gradient(90deg, #17334B 0%, #11678B 100%);
   color: white; padding: 1rem 2rem;
@@ -42,11 +41,11 @@ body {
 .label-eco { font-weight: 800; color: #94a3b8; font-size: 0.9rem; margin-bottom: 5px; letter-spacing: 1px; }
 .data-eco { font-size: 2rem; color: #1e293b; font-weight: 800; text-transform: uppercase; }
 
-/* MEJORA: NAVEGACIÓN STICKY Y RESPONSIVE */
+/* MENÚ TABS STICKY */
 #dic-menu { 
     display: flex; 
     gap: 8px; 
-    position: sticky; /* Sticky Activo */
+    position: sticky;
     top: 0;
     background: #f1f5f9; 
     padding: 10px 0;
@@ -64,52 +63,27 @@ body {
   font-weight: 700; 
   font-size: 1.2rem; 
   cursor: pointer; 
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
 }
 
 .dic-menu-item.active { 
     background: var(--color-primary-300); 
     color: white; 
     border-color: var(--color-primary-300);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(84, 187, 171, 0.3);
 }
 
-/* MEJORA: ADAPTABILIDAD MÓVIL */
-@media (max-width: 768px) {
-    #dic-menu {
-        flex-wrap: wrap;
-        padding: 10px 15px;
-    }
-    .dic-menu-item {
-        flex: 1 1 calc(50% - 10px);
-        font-size: 1rem;
-        padding: 8px;
-    }
-}
-
-/* CONTENEDOR Y ANIMACIONES */
+/* CONTENEDOR PRINCIPAL */
 #dic-content-display { 
     background: white; 
     border-radius: 16px; 
-    padding: 2rem; 
+    padding: 2.5rem; 
     box-shadow: var(--shadow-card); 
     min-height: 600px;
     border: 1px solid #e2e8f0;
+    overflow: hidden; /* Evita desbordes */
 }
 
-/* Micro-interacción: Fade In */
-.animate-fade-in {
-    animation: fadeInUp 0.5s ease-out forwards;
-}
-
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-/* BLOQUE DE RESUMEN */
+/* RESUMEN HEADER - CORRECCIÓN DE FILAS */
 .dic-summary-header {
     background: #f8fafc;
     border-left: 8px solid #11678B;
@@ -118,53 +92,55 @@ body {
     margin-bottom: 2rem;
 }
 
-.summary-row { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 8px; }
-.summary-label { font-weight: 800; text-transform: uppercase; font-size: 0.95rem; color: #1e293b; white-space: nowrap; }
-.summary-value { font-size: 1.15rem; color: #475569; font-family: var(--font-body); }
-.summary-value.destacado { font-weight: 800; font-style: italic; color: #000; font-size: 1.3rem; font-family: var(--font-titles); }
-
-/* MEJORA: TARJETAS CON HOVER Y TIPOGRAFÍA */
-.dic-grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); gap: 2rem; }
-
-@media (max-width: 600px) {
-    .dic-grid-container { grid-template-columns: 1fr; }
+.summary-row { 
+    display: flex; 
+    align-items: center; /* Alinea icono y texto */
+    gap: 15px; 
+    margin-bottom: 10px; 
+    width: 100%;
 }
+
+/* REGLA DE ORO PARA EL SVG */
+.summary-row svg {
+    width: 28px !important;
+    height: 28px !important;
+    min-width: 28px;
+    flex-shrink: 0;
+    display: block;
+}
+
+.summary-label { 
+    font-weight: 800; 
+    text-transform: uppercase; 
+    font-size: 1rem; 
+    color: #1e293b; 
+    min-width: 180px; /* Alineación de etiquetas */
+}
+
+.summary-value { font-size: 1.2rem; color: #475569; font-family: var(--font-body); flex-grow: 1; }
+.summary-value.destacado { font-weight: 800; font-style: italic; color: #000; font-size: 1.4rem; font-family: var(--font-titles); }
+
+/* TARJETAS */
+.dic-grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); gap: 2rem; }
 
 .dic-concepto-card { 
     border: 1px solid #e2e8f0; border-radius: 15px; padding: 2rem; position: relative; 
     overflow: hidden; background: #fff;
     transition: all 0.3s ease;
 }
-
-.dic-concepto-card:hover { 
-    transform: translateY(-8px); 
-    box-shadow: var(--shadow-hover);
-}
-
+.dic-concepto-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
 .dic-concepto-card::before { content:''; position:absolute; left:0; top:0; bottom:0; width:8px; background: var(--concepto-color); }
-
-.dic-concepto-card h3 { 
-    font-size: 2.2rem; color: var(--color-accent); margin-bottom: 1.5rem; 
-    text-transform: uppercase; border-bottom: 1px solid #f1f5f9; padding-bottom: 8px;
-}
+.dic-concepto-card h3 { font-size: 2.5rem; color: var(--color-accent); margin-bottom: 1.5rem; text-transform: uppercase; }
 
 .dic-field { margin-bottom: 1.2rem; }
 .dic-field strong { display: block; font-size: 0.9rem; color: var(--color-primary-300); text-transform: uppercase; margin-bottom: 4px; }
+.dic-field p { font-family: var(--font-body); font-size: 1.15rem; line-height: 1.6; color: #334155; }
 
-/* MEJORA: Cuerpo del texto con fuente Inter para legibilidad */
-.dic-field p { 
-    font-family: var(--font-body); 
-    font-size: 1.15rem; 
-    line-height: 1.6; 
-    color: #334155; 
-}
+.animate-fade-in { animation: fadeInUp 0.5s ease-out forwards; }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
 
-.dic-tip-box {
-    background: #fff9e6; border: 1px solid #ffeeba; padding: 1.2rem; border-radius: 10px; margin-top: 1.5rem; display: flex; align-items: flex-start; gap: 10px;
-}
-.dic-tip-box p { font-family: var(--font-body); font-size: 1.05rem; font-style: italic; color: #856404; }
-
-@media print {
-    #dic-menu { display: none !important; }
-    .dic-concepto-card:hover { transform: none; box-shadow: none; }
+@media (max-width: 768px) {
+    .dic-grid-container { grid-template-columns: 1fr; }
+    .summary-row { flex-direction: column; align-items: flex-start; gap: 5px; }
+    .summary-label { min-width: auto; }
 }
