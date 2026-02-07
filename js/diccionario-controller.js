@@ -1,11 +1,11 @@
-// FILE: js/diccionario-controller.js | VERSION: v12.0.0
+// FILE: js/diccionario-controller.js | VERSION: v12.1.0 Stable (Actualización Persistencia)
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const grado = urlParams.get('grado');
     const periodo = parseInt(urlParams.get('periodo'));
 
     if (!grado || isNaN(periodo)) {
-        alert('Faltan parámetros de consulta (grado/periodo).');
+        alert('Faltan parámetros de consulta.');
         window.close();
         return;
     }
@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     let socioData = null;
     let talleresData = null;
 
-    // DEFINICIÓN DE ICONOS SVG (DISEÑO PROFESIONAL)
     const ICONS = {
         anual: `<svg viewBox="0 0 24 24" fill="none" stroke="#F39325" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>`,
         periodo: `<svg viewBox="0 0 24 24" fill="none" stroke="#11678B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>`,
@@ -30,11 +29,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const coloresConceptos = ['#F39325', '#11678B', '#54BBAB', '#9B7BB6', '#D94D15'];
 
-    /**
-     * FUNCIÓN DE VALIDACIÓN (Doble Capa)
-     */
     function validarCampo(valor) {
-        if (!valor || valor.trim() === "") {
+        if (!valor || valor === "" || (Array.isArray(valor) && valor.length === 0)) {
             return '<span style="color:#94a3b8; font-weight:400; font-style:italic;">Información en proceso de revisión...</span>';
         }
         return valor;
@@ -42,19 +38,30 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     async function cargarDatos() {
         try {
-            // Intentamos cargar Diccionario, Talleres y la data Socioemocional del grado
-            const [resDic, resTal, resSocio] = await Promise.all([
+            // DOBLE VALIDACIÓN: ¿Los datos vienen persistidos de la página anterior?
+            const persistencia = sessionStorage.getItem('ECO_PERSISTENCIA_SOCIO');
+            if (persistencia) {
+                const pData = JSON.parse(persistencia);
+                // Solo usamos la persistencia si coincide con lo solicitado por URL
+                if (String(pData.grado) === String(grado)) {
+                    socioData = pData.data;
+                    console.log("Datos socioemocionales recuperados de persistencia.");
+                }
+            }
+
+            // Cargamos el resto de archivos (y el socioData como respaldo si falló la persistencia)
+            const [resDic, resTal, resSocioFallback] = await Promise.all([
                 fetch(`data/diccionario/${grado}_diccionario.json?v=${Date.now()}`),
                 fetch(`data/diccionario/${grado}_talleres.json?v=${Date.now()}`),
-                fetch(`data/socioemocional/${grado}_socioemocional.json?v=${Date.now()}`).catch(() => null)
+                (!socioData) ? fetch(`data/socioemocional/socioemocional_${grado}_4_periodos.json`).then(r => r.json()).catch(() => null) : Promise.resolve(null)
             ]);
 
             if (resDic.ok) diccionarioData = await resDic.json();
             if (resTal.ok) talleresData = await resTal.json();
-            if (resSocio && resSocio.ok) socioData = await resSocio.json();
+            if (resSocioFallback) socioData = resSocioFallback;
             
         } catch (e) { 
-            console.error("Error crítico en carga de datos", e); 
+            console.error("Error en carga de datos", e); 
         }
     }
 
@@ -62,13 +69,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!diccionarioData) return;
         const conceptos = diccionarioData[`periodo_${periodo}`] || [];
         
-        // Búsqueda de información socioemocional del periodo (Validación de existencia)
+        // El JSON puede venir con estructura de "periodos" (como el que me cargaste)
         const infoSocio = (socioData && socioData.periodos && socioData.periodos[periodo]) 
                           ? socioData.periodos[periodo][0] 
                           : null;
 
         let html = `
-            <!-- BLOQUE RESUMEN DINÁMICO CON SVG -->
             <div class="dic-summary-header">
                 <div class="summary-row">
                     ${ICONS.anual}
@@ -91,7 +97,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <div class="summary-value">${validarCampo(infoSocio?.eje_central)}</div>
                 </div>
             </div>
-
             <div class="dic-grid-container">
         `;
 
@@ -105,10 +110,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <div class="dic-field"><strong>HABILIDAD TÉCNICA (EN MALLA)</strong><p>${validarCampo(c.habilidad_malla)}</p></div>
                     <div class="dic-field"><strong>EJEMPLO DE APLICACIÓN EN AULA</strong><p>${validarCampo(c.ejemplo_aula)}</p></div>
                     <div class="dic-field"><strong>¿QUÉ OBSERVAR? (EVIDENCIA DE LOGRO)</strong><p>${validarCampo(c.evidencia_logro)}</p></div>
-                    <div class="dic-tip-box">
-                        <span>💡</span>
-                        <p><strong>Tip para el Profe:</strong> ${validarCampo(c.tip_psicologico)}</p>
-                    </div>
+                    <div class="dic-tip-box"><span>💡</span><p><strong>Tip para el Profe:</strong> ${validarCampo(c.tip_psicologico)}</p></div>
                 </div>
             `;
         });
@@ -120,12 +122,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!talleresData) return;
         const p = talleresData.periodos.find(per => per.numero_periodo === periodo);
         const t = p?.talleres[idx-1];
-        
         if (!t) {
-            dicContentDisplay.innerHTML = `<div class="taller-section-block">Este taller no está disponible para el periodo consultado.</div>`;
+            dicContentDisplay.innerHTML = `<p>Taller no disponible.</p>`;
             return;
         }
-
         dicContentDisplay.innerHTML = `
             <div class="taller-card">
                 <h2>TALLER ${idx}: ${t.nombre_taller}</h2>
@@ -140,44 +140,31 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <p style="font-size:1.4rem; line-height:1.4;">${validarCampo(t.proposito_experiencia)}</p>
                 </div>
                 <div class="taller-grid-split">
-                    <div class="taller-section-block"><strong>⚡ MOMENTO DE INICIO / CONEXIÓN</strong><p style="font-size:1.15rem; margin-top:8px;">${validarCampo(t.momento_inicio_conexion)}</p></div>
-                    <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO / VIVENCIA</strong><p style="font-size:1.15rem; margin-top:8px;">${validarCampo(t.momento_desarrollo_vivencia)}</p></div>
+                    <div class="taller-section-block"><strong>⚡ MOMENTO DE INICIO / CONEXIÓN</strong><p>${validarCampo(t.momento_inicio_conexion)}</p></div>
+                    <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO / VIVENCIA</strong><p>${validarCampo(t.momento_desarrollo_vivencia)}</p></div>
                 </div>
-                <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE / INTEGRACIÓN</strong><p style="font-size:1.15rem; margin-top:8px;">${validarCampo(t.momento_cierre_integracion)}</p></div>
-                
-                <div class="taller-section-block" style="background: #fff9e6; border-left: 8px solid #F39325;">
-                    <strong>⏱️ LOGÍSTICA Y RECURSOS</strong>
-                    <p style="margin-top:5px;"><strong>TIEMPO:</strong> ${t.tiempo_application || t.tiempo_aplicacion || 'No definido'} | <strong>RECURSOS ECO:</strong> ${validarCampo(t.recursos_eco)}</p>
-                </div>
+                <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE / INTEGRACIÓN</strong><p>${validarCampo(t.momento_cierre_integracion)}</p></div>
             </div>
         `;
     }
 
     async function init() {
-        // Texto de cabecera dinámico
-        const gTxt = (grado === "0") ? "TRANSICIÓN" : (grado === "-1" ? "JARDÍN" : (grado === "-2" ? "PRE-JARDÍN" : `GRADO ${grado}°`));
+        const gTxt = (grado === "0") ? "TRANSICIÓN" : (grado === "-1" ? "JARDÍN" : `GRADO ${grado}°`);
         headerInfo.textContent = `GRADO: ${gTxt} | PERIODO: ${periodo}`;
-        
         await cargarDatos();
         renderizarDiccionario();
-
-        // Control de pestañas (Tabs)
         dicMenu.onclick = (e) => {
             const btn = e.target.closest('.dic-menu-item');
             if (!btn) return;
             document.querySelectorAll('.dic-menu-item').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            
             const content = btn.dataset.content;
             if (content === 'diccionario') renderizarDiccionario();
             else renderizarTaller(parseInt(content.split('-')[1]));
-            
             window.scrollTo({top: 0, behavior: 'smooth'});
         };
-
         btnCerrar.onclick = () => window.close();
         btnImprimir.onclick = () => window.print();
     }
-
     init();
 });
