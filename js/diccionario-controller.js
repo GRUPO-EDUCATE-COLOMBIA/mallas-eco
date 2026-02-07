@@ -1,12 +1,11 @@
-// FILE: js/diccionario-controller.js | VERSION: v11.0.5
+// FILE: js/diccionario-controller.js | VERSION: v12.0.0
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const grado = urlParams.get('grado');
     const periodo = parseInt(urlParams.get('periodo'));
-    const areaNombre = urlParams.get('area') || "Proyecto Socioemocional";
 
     if (!grado || isNaN(periodo)) {
-        alert('Faltan parámetros de consulta.');
+        alert('Faltan parámetros de consulta (grado/periodo).');
         window.close();
         return;
     }
@@ -18,54 +17,97 @@ document.addEventListener('DOMContentLoaded', async () => {
     const btnImprimir = document.getElementById('btn-imprimir-dic');
 
     let diccionarioData = null;
+    let socioData = null;
     let talleresData = null;
 
-    // Colores para las franjas laterales de los conceptos
-    const colores = ['#F39325', '#11678B', '#54BBAB', '#9B7BB6', '#D94D15'];
+    // DEFINICIÓN DE ICONOS SVG (DISEÑO PROFESIONAL)
+    const ICONS = {
+        anual: `<svg viewBox="0 0 24 24" fill="none" stroke="#F39325" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>`,
+        periodo: `<svg viewBox="0 0 24 24" fill="none" stroke="#11678B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>`,
+        estandar: `<svg viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg>`,
+        eje: `<svg viewBox="0 0 24 24" fill="none" stroke="#54BBAB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`
+    };
+
+    const coloresConceptos = ['#F39325', '#11678B', '#54BBAB', '#9B7BB6', '#D94D15'];
+
+    /**
+     * FUNCIÓN DE VALIDACIÓN (Doble Capa)
+     */
+    function validarCampo(valor) {
+        if (!valor || valor.trim() === "") {
+            return '<span style="color:#94a3b8; font-weight:400; font-style:italic;">Información en proceso de revisión...</span>';
+        }
+        return valor;
+    }
 
     async function cargarDatos() {
         try {
-            const [resDic, resTal] = await Promise.all([
+            // Intentamos cargar Diccionario, Talleres y la data Socioemocional del grado
+            const [resDic, resTal, resSocio] = await Promise.all([
                 fetch(`data/diccionario/${grado}_diccionario.json?v=${Date.now()}`),
-                fetch(`data/diccionario/${grado}_talleres.json?v=${Date.now()}`)
+                fetch(`data/diccionario/${grado}_talleres.json?v=${Date.now()}`),
+                fetch(`data/socioemocional/${grado}_socioemocional.json?v=${Date.now()}`).catch(() => null)
             ]);
+
             if (resDic.ok) diccionarioData = await resDic.json();
             if (resTal.ok) talleresData = await resTal.json();
-        } catch (e) { console.error("Error en la carga de JSON", e); }
+            if (resSocio && resSocio.ok) socioData = await resSocio.json();
+            
+        } catch (e) { 
+            console.error("Error crítico en carga de datos", e); 
+        }
     }
 
     function renderizarDiccionario() {
         if (!diccionarioData) return;
         const conceptos = diccionarioData[`periodo_${periodo}`] || [];
         
+        // Búsqueda de información socioemocional del periodo (Validación de existencia)
+        const infoSocio = (socioData && socioData.periodos && socioData.periodos[periodo]) 
+                          ? socioData.periodos[periodo][0] 
+                          : null;
+
         let html = `
-            <div class="taller-section-block" style="border-left: 10px solid #11678B; background: #f0f4f8;">
-                <strong>🎯 ESTÁNDAR DEL PERIODO:</strong>
-                <p style="font-size:1.6rem; font-weight:800; color:#17334B; margin-top:5px;">Identifico emociones básicas en momentos escolares cotidianos.</p>
-                <p style="font-size:1.2rem; color:#666;">EJE: Reconozco lo que siento | COMPETENCIA: Autonomía emocional</p>
+            <!-- BLOQUE RESUMEN DINÁMICO CON SVG -->
+            <div class="dic-summary-header">
+                <div class="summary-row">
+                    ${ICONS.anual}
+                    <div class="summary-label">Competencia Anual:</div>
+                    <div class="summary-value">${validarCampo(infoSocio?.competencia_anual)}</div>
+                </div>
+                <div class="summary-row">
+                    ${ICONS.periodo}
+                    <div class="summary-label">Competencia del Periodo:</div>
+                    <div class="summary-value">${validarCampo(infoSocio?.competencia)}</div>
+                </div>
+                <div class="summary-row">
+                    ${ICONS.estandar}
+                    <div class="summary-label">Estándar del Periodo:</div>
+                    <div class="summary-value destacado">${validarCampo(infoSocio?.estandar)}</div>
+                </div>
+                <div class="summary-row">
+                    ${ICONS.eje}
+                    <div class="summary-label">Eje Central:</div>
+                    <div class="summary-value">${validarCampo(infoSocio?.eje_central)}</div>
+                </div>
             </div>
+
             <div class="dic-grid-container">
         `;
 
         conceptos.forEach((c, i) => {
-            const color = colores[i % colores.length];
+            const color = coloresConceptos[i % coloresConceptos.length];
             html += `
                 <div class="dic-concepto-card" style="--concepto-color: ${color}">
                     <h3>${c.concepto}</h3>
-                    
-                    <div class="dic-field"><strong>DEFINICIÓN PEDAGÓGICA</strong><p>${c.definicion_pedagogica}</p></div>
-                    
-                    <div class="dic-field"><strong>DEFINICIÓN PARA EL ESTUDIANTE</strong><p>${c.definicion_estudiante}</p></div>
-                    
-                    <div class="dic-field"><strong>HABILIDAD TÉCNICA (EN MALLA)</strong><p>${c.habilidad_malla}</p></div>
-                    
-                    <div class="dic-field"><strong>EJEMPLO DE APLICACIÓN EN AULA</strong><p>${c.ejemplo_aula}</p></div>
-                    
-                    <div class="dic-field"><strong>¿QUÉ OBSERVAR? (EVIDENCIA DE LOGRO)</strong><p>${c.evidencia_logro}</p></div>
-                    
+                    <div class="dic-field"><strong>DEFINICIÓN PEDAGÓGICA</strong><p>${validarCampo(c.definicion_pedagogica)}</p></div>
+                    <div class="dic-field"><strong>DEFINICIÓN PARA EL ESTUDIANTE</strong><p>${validarCampo(c.definicion_estudiante)}</p></div>
+                    <div class="dic-field"><strong>HABILIDAD TÉCNICA (EN MALLA)</strong><p>${validarCampo(c.habilidad_malla)}</p></div>
+                    <div class="dic-field"><strong>EJEMPLO DE APLICACIÓN EN AULA</strong><p>${validarCampo(c.ejemplo_aula)}</p></div>
+                    <div class="dic-field"><strong>¿QUÉ OBSERVAR? (EVIDENCIA DE LOGRO)</strong><p>${validarCampo(c.evidencia_logro)}</p></div>
                     <div class="dic-tip-box">
                         <span>💡</span>
-                        <p><strong>Tip para el Profe:</strong> ${c.tip_psicologico}</p>
+                        <p><strong>Tip para el Profe:</strong> ${validarCampo(c.tip_psicologico)}</p>
                     </div>
                 </div>
             `;
@@ -78,7 +120,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!talleresData) return;
         const p = talleresData.periodos.find(per => per.numero_periodo === periodo);
         const t = p?.talleres[idx-1];
-        if (!t) return;
+        
+        if (!t) {
+            dicContentDisplay.innerHTML = `<div class="taller-section-block">Este taller no está disponible para el periodo consultado.</div>`;
+            return;
+        }
 
         dicContentDisplay.innerHTML = `
             <div class="taller-card">
@@ -91,41 +137,47 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
                 <div class="taller-section-block">
                     <div style="font-weight:800; color:#11678B; margin-bottom:5px; font-size:1.1rem;">🎯 PROPÓSITO DE LA EXPERIENCIA</div>
-                    <p style="font-size:1.4rem; line-height:1.4;">${t.proposito_experiencia}</p>
+                    <p style="font-size:1.4rem; line-height:1.4;">${validarCampo(t.proposito_experiencia)}</p>
                 </div>
                 <div class="taller-grid-split">
-                    <div class="taller-section-block"><strong>⚡ MOMENTO DE INICIO / CONEXIÓN</strong><p style="font-size:1.15rem; margin-top:8px;">${t.momento_inicio_conexion}</p></div>
-                    <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO / VIVENCIA</strong><p style="font-size:1.15rem; margin-top:8px;">${t.momento_desarrollo_vivencia}</p></div>
+                    <div class="taller-section-block"><strong>⚡ MOMENTO DE INICIO / CONEXIÓN</strong><p style="font-size:1.15rem; margin-top:8px;">${validarCampo(t.momento_inicio_conexion)}</p></div>
+                    <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO / VIVENCIA</strong><p style="font-size:1.15rem; margin-top:8px;">${validarCampo(t.momento_desarrollo_vivencia)}</p></div>
                 </div>
-                <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE / INTEGRACIÓN</strong><p style="font-size:1.15rem; margin-top:8px;">${t.momento_cierre_integracion}</p></div>
+                <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE / INTEGRACIÓN</strong><p style="font-size:1.15rem; margin-top:8px;">${validarCampo(t.momento_cierre_integracion)}</p></div>
                 
                 <div class="taller-section-block" style="background: #fff9e6; border-left: 8px solid #F39325;">
                     <strong>⏱️ LOGÍSTICA Y RECURSOS</strong>
-                    <p style="margin-top:5px;"><strong>TIEMPO:</strong> ${t.tiempo_application || t.tiempo_aplicacion} | <strong>RECURSOS ECO:</strong> ${t.recursos_eco}</p>
+                    <p style="margin-top:5px;"><strong>TIEMPO:</strong> ${t.tiempo_application || t.tiempo_aplicacion || 'No definido'} | <strong>RECURSOS ECO:</strong> ${validarCampo(t.recursos_eco)}</p>
                 </div>
             </div>
         `;
     }
 
     async function init() {
-        const gTxt = grado === "0" ? "TRANSICIÓN" : (grado === "-1" ? "JARDÍN" : `GRADO ${grado}°`);
+        // Texto de cabecera dinámico
+        const gTxt = (grado === "0") ? "TRANSICIÓN" : (grado === "-1" ? "JARDÍN" : (grado === "-2" ? "PRE-JARDÍN" : `GRADO ${grado}°`));
         headerInfo.textContent = `GRADO: ${gTxt} | PERIODO: ${periodo}`;
+        
         await cargarDatos();
         renderizarDiccionario();
 
+        // Control de pestañas (Tabs)
         dicMenu.onclick = (e) => {
             const btn = e.target.closest('.dic-menu-item');
             if (!btn) return;
             document.querySelectorAll('.dic-menu-item').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
+            
             const content = btn.dataset.content;
             if (content === 'diccionario') renderizarDiccionario();
             else renderizarTaller(parseInt(content.split('-')[1]));
+            
             window.scrollTo({top: 0, behavior: 'smooth'});
         };
 
         btnCerrar.onclick = () => window.close();
         btnImprimir.onclick = () => window.print();
     }
+
     init();
 });
