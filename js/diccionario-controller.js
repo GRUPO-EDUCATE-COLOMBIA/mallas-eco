@@ -1,4 +1,4 @@
-// FILE: js/diccionario-controller.js | VERSION: v12.2.0
+// FILE: js/diccionario-controller.js | VERSION: v12.2.1 (Fix SVG Overflow)
 document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const grado = urlParams.get('grado');
@@ -20,11 +20,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     let socioData = null;
     let talleresData = null;
 
+    // ICONOS CON DIMENSIONES FIJAS (PREVENCIÓN DE DESBORDE)
     const ICONS = {
-        anual: `<svg viewBox="0 0 24 24" fill="none" stroke="#F39325" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>`,
-        periodo: `<svg viewBox="0 0 24 24" fill="none" stroke="#11678B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>`,
-        estandar: `<svg viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg>`,
-        eje: `<svg viewBox="0 0 24 24" fill="none" stroke="#54BBAB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`
+        anual: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F39325" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>`,
+        periodo: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#11678B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>`,
+        estandar: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg>`,
+        eje: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#54BBAB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`
     };
 
     const coloresConceptos = ['#F39325', '#11678B', '#54BBAB', '#9B7BB6', '#D94D15'];
@@ -36,10 +37,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         return valor;
     }
 
-    // Micro-interacción: Disparar animación
     function triggerAnimation() {
         dicContentDisplay.classList.remove('animate-fade-in');
-        void dicContentDisplay.offsetWidth; // Trigger reflow
+        void dicContentDisplay.offsetWidth;
         dicContentDisplay.classList.add('animate-fade-in');
     }
 
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (resDic.ok) diccionarioData = await resDic.json();
             if (resTal.ok) talleresData = await resTal.json();
-        } catch (e) { console.error("Error en carga de datos", e); }
+        } catch (e) { console.error("Error", e); }
     }
 
     function renderizarDiccionario() {
@@ -87,7 +87,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <div class="dic-field"><strong>HABILIDAD TÉCNICA (EN MALLA)</strong><p>${validarCampo(c.habilidad_malla)}</p></div>
                     <div class="dic-field"><strong>EJEMPLO DE APLICACIÓN EN AULA</strong><p>${validarCampo(c.ejemplo_aula)}</p></div>
                     <div class="dic-field"><strong>¿QUÉ OBSERVAR? (EVIDENCIA DE LOGRO)</strong><p>${validarCampo(c.evidencia_logro)}</p></div>
-                    <div class="dic-tip-box"><span>💡</span><p><strong>Tip para el Profe:</strong> ${validarCampo(c.tip_psicologico)}</p></div>
                 </div>
             `;
         });
@@ -101,7 +100,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const p = talleresData.periodos.find(per => per.numero_periodo === periodo);
         const t = p?.talleres[idx-1];
         if (!t) {
-            dicContentDisplay.innerHTML = `<div class="animate-fade-in" style="padding:40px; text-align:center; color:#64748b;"><h3>Taller no disponible para este periodo.</h3></div>`;
+            dicContentDisplay.innerHTML = `<div style="padding:40px; text-align:center;"><h3>Taller no disponible.</h3></div>`;
             return;
         }
         dicContentDisplay.innerHTML = `
@@ -117,36 +116,27 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <div style="font-weight:800; color:#11678B; margin-bottom:5px; font-size:1.1rem;">🎯 PROPÓSITO DE LA EXPERIENCIA</div>
                     <p style="font-size:1.4rem; line-height:1.4; font-family:'Inter', sans-serif;">${validarCampo(t.proposito_experiencia)}</p>
                 </div>
-                <div class="taller-grid-split">
-                    <div class="taller-section-block"><strong>⚡ MOMENTO DE INICIO / CONEXIÓN</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_inicio_conexion)}</p></div>
-                    <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO / VIVENCIA</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_desarrollo_vivencia)}</p></div>
-                </div>
-                <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE / INTEGRACIÓN</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_cierre_integracion)}</p></div>
-                <div class="taller-section-block" style="background: #fff9e6; border-left: 8px solid #F39325;">
-                    <strong>⏱️ LOGÍSTICA Y RECURSOS</strong>
-                    <p style="margin-top:5px; font-family:'Inter', sans-serif;"><strong>TIEMPO:</strong> ${t.tiempo_application || t.tiempo_aplicacion || 'No definido'} | <strong>RECURSOS ECO:</strong> ${validarCampo(t.recursos_eco)}</p>
-                </div>
+                <div class="taller-section-block"><strong>⚡ MOMENTO DE INICIO</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_inicio_conexion)}</p></div>
+                <div class="taller-section-block"><strong>✨ MOMENTO DE DESARROLLO</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_desarrollo_vivencia)}</p></div>
+                <div class="taller-section-block"><strong>✅ MOMENTO DE CIERRE</strong><p style="font-family:'Inter', sans-serif;">${validarCampo(t.momento_cierre_integracion)}</p></div>
             </div>
         `;
     }
 
     async function init() {
-        const gTxt = (grado === "0") ? "TRANSICIÓN" : (grado === "-1" ? "JARDÍN" : (grado === "-2" ? "PRE-JARDÍN" : `${grado}°`));
+        const gTxt = (grado === "0") ? "TRANSICIÓN" : (grado === "-1" ? "JARDÍN" : `${grado}°`);
         headerInfo.textContent = `GRADO: ${gTxt} | PERIODO: ${periodo}`;
         await cargarDatos();
         renderizarDiccionario();
-
         dicMenu.onclick = (e) => {
             const btn = e.target.closest('.dic-menu-item');
             if (!btn || btn.classList.contains('active')) return;
             document.querySelectorAll('.dic-menu-item').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            const content = btn.dataset.content;
-            if (content === 'diccionario') renderizarDiccionario();
-            else renderizarTaller(parseInt(content.split('-')[1]));
+            if (btn.dataset.content === 'diccionario') renderizarDiccionario();
+            else renderizarTaller(parseInt(btn.dataset.content.split('-')[1]));
             window.scrollTo({top: 0, behavior: 'smooth'});
         };
-
         btnCerrar.onclick = () => window.close();
         btnImprimir.onclick = () => window.print();
     }
