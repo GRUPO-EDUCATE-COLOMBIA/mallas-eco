@@ -6,7 +6,7 @@
   },
   "periodos": [
     {
-      "periodo": 1,
+      "numero_periodo": 1,
       "talleres": [
         {
           "id_taller": "G1-P1-T1",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "periodo": 2,
+      "numero_periodo": 2,
       "talleres": [
         {
           "id_taller": "G1-P2-T1",
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "periodo": 3,
+      "numero_periodo": 3,
       "talleres": [
         {
           "id_taller": "G1-P3-T1",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "periodo": 4,
+      "numero_periodo": 4,
       "talleres": [
         {
           "id_taller": "G1-P4-T1",
