@@ -1,4 +1,14 @@
-/* FILE: styles-diccionario.css | VERSION: v12.2.2 (Restauración Total Talleres) */
+/* FILE: styles-diccionario.css | VERSION: v12.2.3 (Final Fix: Print Layer Visibility) */
+
+/* 1. REGLA DE SEGURIDAD: Ocultar contenido de impresión en la pantalla */
+#capa-impresion-exclusiva, 
+.watermark-print, 
+.print-only-header {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
 
 :root {
   --color-primary-100: #17334B; 
@@ -14,7 +24,7 @@
 
 body { font-family: var(--font-titles); background: #f1f5f9; color: #333; }
 
-/* HEADER E INFO BAR (Mantenidos por integridad) */
+/* HEADER E INFO BAR */
 #header-institucional { background: linear-gradient(90deg, #17334B 0%, #11678B 100%); color: white; padding: 1rem 2rem; }
 .header-blue-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
 .brand-titles h1 { font-size: 1.8rem; font-weight: 800; }
@@ -61,23 +71,32 @@ body { font-family: var(--font-titles); background: #f1f5f9; color: #333; }
 .dic-field strong { display: block; font-size: 0.9rem; color: var(--color-primary-300); text-transform: uppercase; margin-bottom: 4px; }
 .dic-field p { font-family: var(--font-body); font-size: 1.15rem; line-height: 1.6; color: #334155; }
 
-/* --- ESTRUCTURA DE TALLERES (RECUPERADA) --- */
+/* ESTRUCTURA DE TALLERES */
 .taller-card h2 { font-size: 2.8rem; color: var(--color-primary-100); margin-bottom: 1.5rem; text-transform: uppercase; }
 .taller-section-block { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 1.8rem; margin-bottom: 1.5rem; }
 .taller-section-block strong { display: block; color: #11678B; font-size: 1.1rem; margin-bottom: 10px; text-transform: uppercase; border-bottom: 1px solid #e2e8f0; padding-bottom: 5px; }
 .taller-section-block p { font-family: var(--font-body); font-size: 1.2rem; line-height: 1.6; color: #334155; }
-
 .taller-grid-split { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
 .concept-pill { background: #1e293b; color: white; padding: 6px 18px; border-radius: 20px; font-weight: 700; font-size: 1.1rem; display: inline-block; margin-right: 8px; margin-bottom: 8px; }
-
-/* CAJA DE LOGÍSTICA (Naranja) */
 .logistica-box { background: #fff9e6; border-left: 8px solid #F39325; border-radius: 10px; padding: 1.5rem; }
 .logistica-box strong { color: #856404; border-bottom: 1px solid #ffeeba; }
 
 .animate-fade-in { animation: fadeInUp 0.4s ease-out forwards; }
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
-@media (max-width: 768px) {
-    .taller-grid-split { grid-template-columns: 1fr; }
-    .dic-grid-container { grid-template-columns: 1fr; }
+/* REGLAS DE IMPRESIÓN REFORZADAS */
+@media print {
+    #capa-impresion-exclusiva, .watermark-print, .print-only-header {
+        display: block !important;
+        visibility: visible !important;
+        height: auto !important;
+        position: static !important;
+    }
+    #header-institucional, #info-bar-consulta, #dic-menu, .header-actions {
+        display: none !important;
+    }
+    #main-diccionario { margin: 0; padding: 0; }
+    #dic-content-display { box-shadow: none; border: none; padding: 0; }
+    .dic-grid-container { grid-template-columns: 1fr !important; }
+    .dic-concepto-card { page-break-inside: avoid; border: 1px solid #eee; margin-bottom: 15px; }
 }
