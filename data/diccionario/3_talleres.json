@@ -1,7 +1,8 @@
 {
   "metadata": {
     "grado": 3,
-    "area": "Proyecto Socioemocional"
+    "area": "Proyecto Socioemocional",
+    "descripcion_grado": "Planeación anual de talleres socioemocionales para estudiantes de grado tercero, enfocada en el fortalecimiento de la identidad, la resolución de conflictos, la justicia y la responsabilidad ciudadana."
   },
   "periodos": [
     {
@@ -30,7 +31,7 @@
           "conceptos_relacionados": [
             "Identificación de Emociones",
             "Causas y Consecuencias",
-            "Influencia de Emociones en"
+            "Influencia de Emociones"
           ],
           "proposito_experiencia": "Identificar emociones, comprender sus causas y la influencia en las decisiones, y reconocer cuándo pedir ayuda.",
           "recursos_eco": "Tarjetas con diferentes emociones (felicidad, tristeza, enojo, miedo), semáforo de papel (rojo, amarillo, verde).",
@@ -47,7 +48,7 @@
           "conceptos_relacionados": [
             "Amabilidad",
             "Respeto por la Diferencia",
-            "Petición de Ayuda para"
+            "Petición de Ayuda"
           ],
           "proposito_experiencia": "Fomentar la amabilidad, el respeto por las diferencias y la disposición a pedir ayuda de manera efectiva.",
           "recursos_eco": "Tarjetas con dibujos de niños en diversas situaciones (alguien con muletas, alguien con gafas, alguien que habla otro idioma), hojas de papel, crayones.",
@@ -85,8 +86,8 @@
           "nombre_taller": "El Constructor de Soluciones",
           "conceptos_relacionados": [
             "Diálogo para Resolver",
-            "Empatía y Perdón en",
-            "Manejo de Emociones en"
+            "Empatía y Perdón",
+            "Manejo de Emociones"
           ],
           "proposito_experiencia": "Desarrollar habilidades de diálogo, empatía y perdón para resolver conflictos de manera constructiva.",
           "recursos_eco": "Tarjetas con conflictos sencillos (ej. 'dos quieren el mismo juego', 'alguien rompió algo sin querer'), títere mediador.",
@@ -102,7 +103,7 @@
           "nombre_taller": "Mi Equipo, Mi Apoyo",
           "conceptos_relacionados": [
             "Colaboración",
-            "Petición de Ayuda para",
+            "Petición de Ayuda",
             "Respeto por la Diferencia"
           ],
           "proposito_experiencia": "Fortalecer la colaboración en equipo, promoviendo la ayuda mutua y el respeto por las diversas formas de contribuir.",
@@ -123,8 +124,8 @@
           "id_taller": "G3-P3-T1",
           "nombre_taller": "El Escudo de la Comunicación Asertiva",
           "conceptos_relacionados": [
-            "Comunicación Respetuosa y",
-            "Escucha Activa y Valoración",
+            "Comunicación Respetuosa",
+            "Escucha Activa",
             "Autocontrol"
           ],
           "proposito_experiencia": "Desarrollar la comunicación asertiva, la escucha activa y el autocontrol para interactuar de forma respetuosa.",
@@ -141,8 +142,8 @@
           "nombre_taller": "El Hilo de la Justicia",
           "conceptos_relacionados": [
             "Justicia",
-            "Búsqueda de Acuerdos y",
-            "Empatía y Perdón en"
+            "Búsqueda de Acuerdos",
+            "Empatía y Perdón"
           ],
           "proposito_experiencia": "Comprender y aplicar el concepto de justicia, buscando acuerdos y fomentando la empatía para resolver conflictos equitativamente.",
           "recursos_eco": "Hilos de lana de colores, escenarios de injusticia (en juegos, turnos, distribución de materiales).",
@@ -158,11 +159,11 @@
           "nombre_taller": "El Árbol de la Responsabilidad",
           "conceptos_relacionados": [
             "Responsabilidad",
-            "Cumplimiento de",
+            "Cumplimiento de Compromisos",
             "Autocontrol"
           ],
           "proposito_experiencia": "Fomentar la responsabilidad personal y el cumplimiento de compromisos, utilizando el autocontrol para actuar de forma consciente.",
-          "recursos_eco": "Dibujo grande de un árbol con ramas vacías, hojas de papel con "frutos" (acciones responsables).",
+          "recursos_eco": "Dibujo grande de un árbol con ramas vacías, hojas de papel con 'frutos' (acciones responsables).",
           "momento_inicio_conexion": "Diga a los niños: 'Un árbol fuerte da muchos frutos. Nosotros, con nuestras responsabilidades, hacemos crecer nuestro propio árbol'.",
           "momento_desarrollo_vivencia": "En parejas, analizan situaciones donde las palabras lastiman o ayudan, decidiendo qué opción muestra mayor 'Responsabilidad emocional'. Cada estudiante piensa en una acción responsable que va a cumplir. Se practica el 'Autocontrol' al elegir la respuesta. 'Mostré responsabilidad cuando pedí disculpas por mis palabras'. 'Cumplo mis compromisos sin que la maestra me lo recuerde'.",
           "momento_cierre_integracion": "Pregunte: '¿Qué frase o acción viste hoy que tenía responsabilidad emocional?' y '¿Qué puedes hacer mañana para ser más responsable emocionalmente?'.",
@@ -196,7 +197,7 @@
           "id_taller": "G3-P4-T2",
           "nombre_taller": "Cuidando Nuestro Mundo (Colegio)",
           "conceptos_relacionados": [
-            "Cuidado del Entorno y",
+            "Cuidado del Entorno",
             "Promoción de la Convivencia",
             "Responsabilidad"
           ],
