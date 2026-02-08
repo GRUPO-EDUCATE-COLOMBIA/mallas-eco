@@ -1,229 +1,225 @@
 {
   "metadata": {
     "grado": 2,
-    "area": "Proyecto Socioemocional"
+    "area": "Proyecto Socioemocional",
+    "descripcion_grado": "Planeación anual de talleres socioemocionales para estudiantes de grado segundo, organizada en cuatro periodos con experiencias vivenciales alineadas a la malla de competencias emocionales."
   },
   "periodos": [
     {
-      "numero_periodo": 1,
+      "periodo": 1,
       "talleres": [
         {
           "id_taller": "G2-P1-T1",
-          "nombre_taller": "Respiro y Recupero mi Centro",
+          "nombre_taller": "Hoy agradezco por…",
           "conceptos_relacionados": [
-            "Autocontrol",
+            "Gratitud",
             "Serenidad"
           ],
-          "proposito_experiencia": "Desarrollar la habilidad de pausar y calmar el cuerpo ante emociones intensas para pensar antes de actuar.",
-          "recursos_eco": "Espacio tranquilo, colchonetas o sillas cómodas.",
-          "momento_inicio_conexion": "Pida a los estudiantes que cierren los ojos. Diga a los niños: 'Imaginen que son un globo que se infla muy lento y se desinfla sin hacer ruido'. Realice tres respiraciones profundas guiadas.",
-          "momento_desarrollo_vivencia": "Invite al grupo a poner sus manos sobre el pecho. Pídales que piensen en algo que les genere tensión en el colegio. Instruya: 'Sientan cómo el aire entra y limpia ese pensamiento. Expulsen el aire y dejen que su cuerpo se sienta flojito'. Comenten en círculo qué parte del cuerpo sintieron más tensa y cómo se siente ahora.",
-          "momento_cierre_integracion": "Pregunte: '¿Qué te ayudó a recuperar la calma?' y '¿Cuándo necesitas usar tu serenidad en el salón?'.",
-          "revision_proposito": "Observar si el estudiante logra mantener la quietud durante el ejercicio y si identifica sensaciones corporales de relajación.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes reconozcan situaciones cotidianas en las que reciben ayuda o apoyo y aprendan a expresar gratitud de manera explícita, conectando este gesto con sensaciones de calma y bienestar en el grupo.",
+          "recursos_eco": "Papelitos pequeños o notas adhesivas, lápices o colores, cartel o papelógrafo grande con el título 'Muro de la Gratitud', cinta adhesiva, ambiente tranquilo que permita compartir en círculo.",
+          "momento_inicio_conexion": "Diga a los niños: 'Hoy vamos a descubrir cuántas cosas buenas recibimos cada día, aunque a veces se nos olvidan'. Pídales que cierren los ojos unos segundos y recuerden algo bueno que les haya pasado en la mañana (alguien les prestó algo, los saludó, los ayudó). Luego, invítelos a levantar la mano para compartir uno o dos ejemplos, resaltando que cuando agradecemos, cuidamos nuestras relaciones y nos sentimos mejor.",
+          "momento_desarrollo_vivencia": "1) Entregue a cada estudiante un papel pequeño y pídales que escriban o dibujen la frase 'Hoy agradezco por…' completándola con algo concreto (una persona, una ayuda, una oportunidad). Si alguien tiene dificultad para escribir, acompáñelo dictándole la frase. 2) Explique que van a crear juntos el 'Muro de la Gratitud'. Llame de a pocos estudiantes para que peguen su papel en el cartel y lean en voz alta, si se sienten cómodos, lo que agradecen. 3) Invite al grupo a observar el mural completo y hacer comentarios sobre las coincidencias (por ejemplo, muchos agradecen por amigos, familia, juegos, aprendizaje). 4) Conecte la gratitud con la serenidad preguntando cómo se sienten en el cuerpo y en la mente cuando piensan en algo que agradecen; anime respuestas como 'más tranquilos', 'felices', 'menos enojados'. 5) Señale que pueden volver a mirar el mural cuando se sientan tensos o tristes para recordar cosas positivas de su día.",
+          "momento_cierre_integracion": "En círculo, formule preguntas: '¿Qué agradeciste hoy?', '¿Cómo te sentiste al escribirlo y compartirlo?', '¿Por qué crees que agradecer nos hace bien?', '¿Cómo cambia el grupo cuando expresamos gratitud en lugar de solo quejarnos?', '¿A quién te gustaría agradecerle esta semana y cómo lo harás?'. Cierre invitando a que durante la semana digan 'gracias' de manera clara cada vez que alguien les ayude.",
+          "revision_proposito": "Observe si los estudiantes logran identificar al menos una situación concreta de gratitud y si expresan su agradecimiento en forma oral o escrita. Note si durante la actividad muestran actitudes de respeto mientras escuchan a los compañeros y si describen sensaciones de calma o alegría al enfocarse en lo positivo. En los días siguientes, registre si incrementan el uso espontáneo de expresiones de agradecimiento en el aula.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         },
         {
           "id_taller": "G2-P1-T2",
-          "nombre_taller": "El Muro de los Gestos Amables",
+          "nombre_taller": "Respiro y ordeno mis emociones",
           "conceptos_relacionados": [
-            "Amabilidad",
-            "Gratitud"
+            "Serenidad",
+            "Conciencia de Pensamientos y Emociones",
+            "Gestión de la Rabia"
           ],
-          "proposito_experiencia": "Fomentar el reconocimiento de las acciones positivas de los demás y la expresión de agradecimiento.",
-          "recursos_eco": "Papelitos de colores, pegante, un cartel grande titulado 'Muro de la Gratitud'.",
-          "momento_inicio_conexion": "Diga a los niños: 'Hoy vamos a ser detectives de cosas buenas. Piensen en alguien que les haya ayudado hoy o ayer'.",
-          "momento_desarrollo_vivencia": "Cada estudiante debe escribir una frase breve que empiece con: 'Hoy agradezco a... por...'. Por ejemplo: 'Hoy agradezco a Juan por prestarme su borrador'. Haga que cada niño pegue su papel en el muro común. Diga a los niños: 'Miren cómo se llena nuestro salón de luz con sus palabras'.",
-          "momento_cierre_integracion": "Pregunte: '¿Cómo te sentiste al escribir tu agradecimiento?' y '¿Por qué creen que agradecer nos hace bien a todos?'.",
-          "revision_proposito": "Verificar que el estudiante identifique una acción concreta de amabilidad recibida y logre expresarla por escrito.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes practiquen una rutina breve de respiración y reflexión para recuperar la calma, identificando cómo algunos pensamientos aumentan o disminuyen la rabia y la tensión.",
+          "recursos_eco": "Espacio donde los niños puedan sentarse cómodos (en sillas o en el piso), música suave opcional, imagen sencilla de un cuerpo humano para señalar partes donde sienten tensión, tablero o papelógrafo para anotar pensamientos típicos.",
+          "momento_inicio_conexion": "Explique al grupo: 'A veces nos enojamos o nos ponemos muy nerviosos y parece que los pensamientos dan vueltas en la cabeza. Hoy vamos a practicar una forma de recuperar serenidad'. Pida que mencionen momentos recientes en los que se sintieron muy enojados o preocupados y qué hicieron para calmarse, sin juzgar sus respuestas.",
+          "momento_desarrollo_vivencia": "1) Guíe un ejercicio corto: pida que se sienten con la espalda recta, coloquen las manos sobre el pecho o el abdomen y cierren suavemente los ojos si se sienten cómodos. Dirija 3 respiraciones lentas contando despacio hasta 3 para inhalar y hasta 3 para exhalar. 2) Después de respirar, pídales que observen qué parte de su cuerpo estaba más tensa (cabeza, cuello, pecho, estómago, manos) y coméntenlo en voz alta. 3) Escriba en el tablero algunos pensamientos que suelen aparecer cuando están muy enojados o preocupados (por ejemplo, 'nunca me eligen', 'no voy a poder', 'no me cae bien'). Pregunte cómo se sienten cuando piensan eso. Luego, construyan juntos pensamientos alternativos más calmados ('esta vez no me eligieron, pero en otra ocasión sí', 'si no entiendo, puedo pedir ayuda'). 4) Haga una breve dinámica donde plantee una situación (perder un juego, discutir con un amigo) y los niños practican primero identificar el pensamiento que los hace sentir peor y luego una frase que les ayude a recuperar serenidad. 5) Repite la secuencia respiración–pensamiento calmante con 1 o 2 ejemplos más, reforzando que esta es una herramienta que pueden usar antes de explotar.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué parte de tu cuerpo sentiste más tensa hoy?', '¿Qué te ayudó más a recuperar la calma: respirar, cambiar el pensamiento o ambas?', '¿Qué puedes hacer la próxima vez que sientas enojo o tensión muy fuerte?', '¿Cómo cambia tu forma de pensar cuando recuperas serenidad?', '¿En qué momento del colegio necesitas más serenidad (recreo, evaluaciones, juegos)?'. Motívelos a elegir una frase calmante que recuerden en la semana.",
+          "revision_proposito": "Observe si los estudiantes siguen la secuencia de respiración con disposición y si identifican verbalmente alguna parte del cuerpo donde acumulan tensión. Revise si pueden proponer al menos un pensamiento alternativo más sereno frente a una situación difícil. En días posteriores, registre si algunos niños aplican espontáneamente la respiración o las frases calmantes cuando se sienten alterados.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         },
         {
           "id_taller": "G2-P1-T3",
-          "nombre_taller": "Guardianes de la Ayuda",
+          "nombre_taller": "Muchas emociones al mismo tiempo",
           "conceptos_relacionados": [
-            "Amabilidad",
-            "Autocontrol"
+            "Identificación de Múltiples Emociones",
+            "Reconocimiento del Origen Emocional",
+            "Necesidad de Apoyo Emocional"
           ],
-          "proposito_experiencia": "Practicar la ayuda desinteresada controlando el impulso de ignorar las necesidades del otro.",
-          "recursos_eco": "Objetos escolares (cuadernos, lápices) que se dejan caer 'accidentalmente'.",
-          "momento_inicio_conexion": "Diga a los niños: 'Un guardián de la amabilidad siempre tiene los ojos abiertos para ayudar antes de que se lo pidan'.",
-          "momento_desarrollo_vivencia": "Simule que se le caen varios cuadernos. Observe quién reacciona. Luego, organice una dinámica donde en parejas uno debe 'perder' algo y el otro debe ayudarle a encontrarlo o recogerlo con una sonrisa. Diga a los niños: 'Usen su autocontrol para dejar de jugar un segundo y ayudar al compañero'.",
-          "momento_cierre_integracion": "Pregunte: '¿Qué gesto pequeño puede cambiar el día de un compañero?' y '¿Qué sientes cuando ayudas sin que nadie te lo pida?'.",
-          "revision_proposito": "Evaluar la disposición proactiva del niño para colaborar en situaciones cotidianas de necesidad.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes comprendan que pueden sentir varias emociones a la vez, distingan si estas vienen de lo que piensan o de lo que sucede y reconozcan cuándo necesitan hablar con alguien para manejar lo que sienten.",
+          "recursos_eco": "Tarjetas o dibujos de situaciones escolares variadas (presentación en clase, juego perdido, felicitación del docente, discusión con un amigo), hojas divididas en dos columnas (lo que pasa / lo que pienso), colores para representar emociones, espacio para trabajo en pequeños grupos.",
+          "momento_inicio_conexion": "Diga al grupo: 'A veces no sentimos solo una emoción, sino varias mezcladas: alegría, nervios, miedo o tristeza al mismo tiempo'. Pida ejemplos, como el primer día de clases o cuando presentaron algo frente al curso. Valide las respuestas señalando que es normal que las emociones cambien durante el día.",
+          "momento_desarrollo_vivencia": "1) Entregue a cada estudiante una hoja dividida en dos columnas: 'Lo que pasó' y 'Lo que pensé'. Explique que en la primera escribirán o dibujarán una situación real que les haya ocurrido (por ejemplo, perder un juego, recibir una buena nota, pelear con un amigo) y en la segunda anotarán los pensamientos que tuvieron en ese momento. 2) Pida que luego agreguen con colores las emociones que sintieron (alegría, miedo, rabia, tristeza, nervios), pudiendo marcar más de una por situación. 3) En parejas o pequeños grupos, invite a que compartan su situación y comparen cuántas emociones aparecieron y qué pensamientos las acompañaban. 4) Guíe una puesta en común preguntando: '¿Qué emociones ven mezcladas con más frecuencia?', '¿Cuándo se dieron cuenta de que el enojo venía de lo que pasó y cuándo de lo que pensaban sobre eso?'. 5) Introduzca la idea de apoyo emocional: pregunte quiénes han sentido una emoción tan fuerte que necesitaron hablar con alguien. Enumere con el grupo las personas a quienes pueden acudir (docente, orientador, familia, amigos de confianza) cuando esa mezcla de emociones se vuelve muy intensa.",
+          "momento_cierre_integracion": "En círculo, realice preguntas: '¿En qué momento del día sientes varias emociones al mismo tiempo?', '¿Cómo puedes distinguir entre lo que pasó y lo que pensaste sobre eso?', '¿Cuándo te conviene buscar a un adulto para hablar de lo que sientes?', '¿Cómo te ayuda hablar con alguien cuando una emoción es muy fuerte?'. Invite a los niños a comprometerse a pedir ayuda si sienten que su enojo o tristeza se vuelven difíciles de manejar.",
+          "revision_proposito": "Observe si los estudiantes logran describir una situación concreta y señalar al menos dos emociones que sintieron simultáneamente. Verifique si pueden mencionar ejemplos de pensamientos que aumentan o disminuyen una emoción y si identifican al menos una persona de confianza a la que acudirían para pedir apoyo emocional.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         }
       ]
     },
     {
-      "numero_periodo": 2,
+      "periodo": 2,
       "talleres": [
         {
           "id_taller": "G2-P2-T1",
-          "nombre_taller": "Mi Mapa de Talentos",
+          "nombre_taller": "Antes de actuar, pienso en el otro",
           "conceptos_relacionados": [
-            "Identidad",
-            "Autoaceptación",
-            "Autoconfianza"
+            "Consideración",
+            "Empatía y Perspectiva"
           ],
-          "proposito_experiencia": "Fortalecer la imagen personal positiva reconociendo habilidades y aceptando el proceso de aprendizaje propio.",
-          "recursos_eco": "Hojas de papel, colores.",
-          "momento_inicio_conexion": "Diga a los niños: 'Cada uno de ustedes es como una pieza de un rompecabezas única. Nadie tiene sus mismos talentos'.",
-          "momento_desarrollo_vivencia": "Haga que cada niño dibuje tres cosas que sabe hacer muy bien (ej. dibujar, correr, ayudar). Luego, invítelos a compartir una frente al grupo. Si alguien dice 'no sé hacer nada bien', ayúdele a identificar un pequeño logro reciente. Diga a los niños: 'Sentirse bien con lo que somos es nuestro mayor tesoro'.",
-          "momento_cierre_integracion": "Pregunte: '¿Cómo te sentiste cuando el grupo reconoció tu talento?' y '¿Por qué es importante confiar en uno mismo?'.",
-          "revision_proposito": "Identificar si el estudiante logra verbalizar al menos una fortaleza personal con seguridad.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes practiquen la habilidad de ponerse en el lugar del otro antes de actuar, proponiendo conductas consideradas en situaciones cotidianas del aula.",
+          "recursos_eco": "Tarjetas con tres o más situaciones breves (alguien está cansado, otro está triste, otro se concentra, alguien se lesionó), tablero o cartel para registrar ideas de conductas consideradas, fichas o stickers para marcar propuestas que cuidan al otro.",
+          "momento_inicio_conexion": "Explique: 'Hoy vamos a practicar pensar en los demás antes de hacer algo'. Presente una situación sencilla, por ejemplo: 'Tu compañero está con la cabeza sobre la mesa y se ve muy cansado, ¿qué podrías hacer o no hacer para cuidarlo?'. Permita que den ideas y resalte aquellas que muestran consideración.",
+          "momento_desarrollo_vivencia": "1) Muestre una a una tres situaciones breves: alguien está cansado, otro está triste, otro se está concentrando en una tarea importante. Después de leer cada situación, pida que en pequeños grupos piensen y anoten o dibujen conductas consideradas (bajar la voz, ofrecer ayuda, no molestar, preguntar si necesita algo). 2) Invite a los grupos a pasar al frente para compartir al menos una conducta en cada caso. Registre en el tablero las propuestas y marque con un símbolo aquellas que claramente muestran cuidado. 3) Discuta brevemente qué pasaría si en cada situación actuaran sin pensar (hablar fuerte, burlarse, quitar materiales) y cómo se sentiría la otra persona. 4) Proponga un pequeño juego de rol donde algunos estudiantes representen la situación y otros muestren la conducta considerada acordada por el grupo. 5) Relacione lo anterior con el recreo y otros espacios del colegio, señalando que la consideración se aplica en filas, juegos, pasillos y trabajo en equipo.",
+          "momento_cierre_integracion": "Pregunte al grupo: '¿Cómo te das cuenta de que alguien necesita consideración?', '¿Qué gesto pequeño puede cambiarle el día a un compañero?', '¿Qué pasa cuando actuamos sin pensar en los demás?', '¿Cuándo te gustaría que otros fueran más considerados contigo?', '¿Cómo puedes practicar consideración en el recreo y en el salón?'. Invite a cada niño a elegir una acción considerada específica para practicar ese mismo día.",
+          "revision_proposito": "Observe si los estudiantes identifican señales de cansancio, tristeza o concentración en los demás y si pueden proponer respuestas cuidadosas. Revise si, durante las dramatizaciones y en la vida diaria, empiezan a bajar la voz, esperar o preguntar antes de interrumpir a alguien que lo necesita.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         },
         {
           "id_taller": "G2-P2-T2",
-          "nombre_taller": "En los Zapatos del Otro",
+          "nombre_taller": "Confío en lo que ya puedo hacer",
           "conceptos_relacionados": [
-            "Respeto por la diferencia",
-            "Consideración",
-            "Amabilidad"
+            "Autoconfianza",
+            "Autorregulación Emocional"
           ],
-          "proposito_experiencia": "Promover la escucha activa y la aceptación de formas distintas de pensar y actuar.",
-          "recursos_eco": "Tarjetas con situaciones de diversidad (ej. un niño que prefiere jugar solo, un niño con gustos diferentes).",
-          "momento_inicio_conexion": "Presente una situación: 'A un compañero le gusta el silencio y a otros el ruido'. Diga a los niños: 'Antes de actuar, pensemos en cómo se siente el otro'.",
-          "momento_desarrollo_vivencia": "Haga que el grupo proponga conductas consideradas para cada caso. Por ejemplo: 'Si mi amigo tiene dolor de cabeza, bajo la voz'. Practiquen escuchar una idea diferente sin burlarse. Diga a los niños: 'Respetar la diferencia es dejar que el otro explique su idea con calma'.",
-          "momento_cierre_integracion": "Pregunte: '¿Cómo te das cuenta de que alguien necesita consideración?' y '¿Qué cambia cuando aceptamos que no todos somos iguales?'.",
-          "revision_proposito": "Observar si el estudiante propone soluciones empáticas ante situaciones de diversidad.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes identifiquen sus fortalezas personales y las relacionen con la capacidad de calmarse y animarse a intentar nuevas tareas, incluso cuando sienten nervios o miedo.",
+          "recursos_eco": "Hojas de papel divididas en tres espacios, lápices y colores, cartel con frases de refuerzo positivo, espacio para una ronda voluntaria de exposición frente al grupo.",
+          "momento_inicio_conexion": "Diga a los niños: 'Todos tenemos cosas que ya sabemos hacer bien y que nos ayudan a sentirnos seguros'. Pregunte: '¿En qué cosas sientes que eres bueno?' y permita algunas respuestas. Explique que reconocer esas fortalezas aumenta la confianza para enfrentar retos nuevos.",
+          "momento_desarrollo_vivencia": "1) Entregue a cada estudiante una hoja y pídales que escriban o dibujen tres cosas que saben hacer muy bien (leer, correr, ayudar, dibujar, ordenar, explicar algo, escuchar a los demás). 2) Camine por el salón y ofrezca ejemplos a quienes lo necesiten, evitando comparaciones entre compañeros. 3) Luego indique que seleccionen una de esas fortalezas para compartirla con el grupo. Prepare una ronda voluntaria en la que cada estudiante que quiera pasa al frente, nombra su fortaleza y, si es posible, la demuestra brevemente o la explica. 4) Después de cada participación, refuerce con un reconocimiento específico, por ejemplo: 'Noté que lo explicaste con claridad', 'Se ve que te esfuerzas mucho en eso', 'Ayudas mucho al grupo con esa habilidad'. 5) Conecte la autoconfianza con la autorregulación preguntando cómo pueden recordar sus fortalezas cuando algo no les sale bien o cuando sienten miedo de intentarlo otra vez.",
+          "momento_cierre_integracion": "Guíe la reflexión con preguntas: '¿Qué elegiste como fortaleza personal?', '¿Cómo te diste cuenta de que eres bueno en eso?', '¿Qué sientes cuando alguien reconoce algo que haces bien?', '¿Por qué es importante confiar en uno mismo, especialmente cuando algo es difícil?', '¿Qué te gustaría aprender o practicar para aumentar tu autoconfianza?'. Invite a los alumnos a recordar una de sus fortalezas cuando enfrenten un reto en la semana.",
+          "revision_proposito": "Observe si los estudiantes logran identificar al menos tres habilidades propias y si se animan a compartir una frente al grupo. Note si durante la reflexión relacionan sus fortalezas con la capacidad de seguir intentando a pesar de la frustración. En actividades posteriores, registre si espontáneamente recuerdan lo que ya saben hacer cuando algo nuevo les resulta desafiante.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         },
         {
           "id_taller": "G2-P2-T3",
-          "nombre_taller": "El Reto de la Cooperación Optimista",
+          "nombre_taller": "Manejo mi rabia sin explotar",
           "conceptos_relacionados": [
-            "Perseverancia",
-            "Colaboración",
-            "Compromiso",
-            "Optimismo"
+            "Gestión de la Rabia",
+            "Autorregulación Emocional",
+            "Resolución de Conflictos (Avanzado)"
           ],
-          "proposito_experiencia": "Experimentar el trabajo en equipo manteniendo una actitud positiva ante los desafíos difíciles.",
-          "recursos_eco": "Materiales de construcción (bloques o vasos plásticos).",
-          "momento_inicio_conexion": "Organice grupos de 4. Diga a los niños: 'Vamos a construir la torre más alta, pero cada 30 segundos debemos cambiar de turno'.",
-          "momento_desarrollo_vivencia": "Invite a los grupos a construir. Si la torre se cae, diga: '¡Es una oportunidad para mejorar! Digan: practicaré más'. Fomente que colaboren repartiendo materiales. Al final, pídales que revisen si cumplieron el compromiso de cuidar el material y respetar los turnos.",
-          "momento_cierre_integracion": "Pregunte: '¿Qué fue lo más difícil de colaborar?' y '¿Cómo te ayuda pensar positivamente cuando algo no sale a la primera?'.",
-          "revision_proposito": "Evaluar la persistencia del grupo ante el error y la calidad de la interacción colaborativa.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes identifiquen señales tempranas de rabia, practiquen estrategias concretas para calmarse y ensayen formas respetuosas de resolver problemas sin gritar ni agredir.",
+          "recursos_eco": "Tarjetas con situaciones que pueden causar enojo (ser corregido, perder un juego, sufrir una burla), cartel con pasos para manejar la rabia, espacio para dramatizar, posible uso de títeres.",
+          "momento_inicio_conexion": "Diga: 'Todos sentimos rabia, pero lo importante es qué hacemos con ella'. Pregunte quién ha sentido que su rabia crece hasta casi explotar y qué señales notan en su cuerpo (corazón rápido, manos apretadas, cara caliente). Escriba algunas señales en el tablero.",
+          "momento_desarrollo_vivencia": "1) Presente en un cartel dos partes: 'Señales de que la rabia está creciendo' y 'Lo que puedo hacer'. En la primera columna anote las señales que los estudiantes mencionaron; en la segunda, construyan juntos estrategias de autorregulación (respirar, alejarse un momento, contar hasta 10, hablar con un adulto, usar palabras de calma). 2) Muestre una tarjeta con una situación concreta (por ejemplo, 'pierdes un juego en el recreo y alguien se burla'). Pida que describan qué señales de rabia aparecerían y qué estrategia usarían para calmarse. 3) Organice pequeños grupos para dramatizar situaciones distintas usando primero la versión 'sin control' (gritos, empujones) y luego la versión 'con control' donde aplican una estrategia y buscan una solución respetuosa. 4) Después de cada dramatización, pregunte: '¿En qué momento la rabia empezó a crecer?', '¿Qué hicieron para calmarse?', '¿Cómo fue diferente el final del problema?'. 5) Vincule esta práctica con la resolución de conflictos avanzada, resaltando que manejar la rabia ayuda a hablar mejor, pedir disculpas y reparar cuando es necesario.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué señal te avisa que te estás enojando?', '¿Qué estrategia te funcionó mejor hoy para calmarte?', '¿Qué puedes hacer la próxima vez que sientas que vas a explotar?', '¿Por qué es importante manejar la rabia antes de hablar o actuar?', '¿Con quién puedes hablar si sientes que solo no logras calmarte?'. Invite a los estudiantes a elegir una estrategia que practicarán en la semana.",
+          "revision_proposito": "Observe si los niños identifican al menos una señal corporal de rabia en ellos mismos y si pueden nombrar dos o más estrategias para calmarse. Durante las dramatizaciones y en la vida real, registre si empiezan a usar con mayor frecuencia estas estrategias antes de recurrir a gritos o empujones.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         }
       ]
     },
     {
-      "numero_periodo": 3,
+      "periodo": 3,
       "talleres": [
         {
           "id_taller": "G2-P3-T1",
-          "nombre_taller": "Mi Escudo de Autorrespeto",
+          "nombre_taller": "Si lo hacemos juntos, sale mejor",
           "conceptos_relacionados": [
-            "Autorrespeto",
-            "Autocontrol",
-            "Serenidad"
+            "Cooperación",
+            "Valoración del Otro y Respeto a las Diferencias",
+            "Ayuda y Colaboración en el Grupo"
           ],
-          "proposito_experiencia": "Enseñar a poner límites tranquilos y tratarse a sí mismo con amabilidad.",
-          "recursos_eco": "Hojas con silueta de escudo.",
-          "momento_inicio_conexion": "Diga a los niños: 'El autorrespeto es como un escudo invisible que nos protege de que nos traten mal y nos enseña a cuidarnos'.",
-          "momento_desarrollo_vivencia": "Haga que los niños dibujen dentro del escudo situaciones donde se cuidan (ej. comer bien, decir 'no' cuando algo les molesta). Practiquen decir con voz tranquila: 'No me gusta que hagas eso'. Use la serenidad para no gritar al poner el límite. Diga a los niños: 'Tu voz tranquila tiene mucho poder'.",
-          "momento_cierre_integracion": "Pregunte: '¿Qué parte de tu cuerpo se siente fuerte cuando te respetas?' y '¿Cómo cambia tu pensamiento cuando recuperas la serenidad?'.",
-          "revision_proposito": "Observar la capacidad del estudiante para expresar límites personales de forma asertiva y calmada.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes experimenten la cooperación en parejas o pequeños grupos, valorando las ideas de los otros y reconociendo que el trabajo compartido mejora los resultados y el clima del aula.",
+          "recursos_eco": "Materiales sencillos para construir en pareja (hojas, colores, tijeras, pegante) o hacer un mini-cartel, cronómetro o reloj para marcar cambios de turno, cartel para anotar reglas de cooperación.",
+          "momento_inicio_conexion": "Diga al grupo: 'Hoy vamos a comprobar que cuando cooperamos, las cosas pueden salir mejor que cuando trabajamos solos'. Pregunte: '¿En qué actividades del colegio crees que necesitas más ayuda de tus compañeros?'. Escuche respuestas y muestre disposición positiva hacia el trabajo en equipo.",
+          "momento_desarrollo_vivencia": "1) Organice a los estudiantes en parejas. Explique que deberán construir algo pequeño juntos (una figura, un dibujo, un mini-cartel sobre un tema del aula). Establezca la regla: cada 30 segundos deben cambiar el lápiz o el turno de quien dibuja o escribe. 2) Inicie el tiempo e indique cada cambio de turno. Observe cómo negocian ideas, se escuchan y respetan los acuerdos. 3) Luego de la actividad, pida a cada pareja que observe su trabajo final y piense qué aportó cada uno. 4) Pida voluntarios para mostrar sus producciones al grupo y describir cómo cooperaron (quién propuso la idea, quién dibujó, quién escribió, quién ayudó a organizar). 5) En un cartel, construya junto al grupo algunas reglas de cooperación: escuchar al otro, respetar turnos, aceptar ideas distintas, ayudar a quien va más despacio. Relacione estas actitudes con el respeto a las diferencias y el comportamiento prosocial.",
+          "momento_cierre_integracion": "Promueva la reflexión con preguntas: '¿Cómo se sintieron al trabajar en pareja?', '¿Qué fue fácil y qué fue difícil de cooperar?', '¿Qué aprendiste sobre escuchar al otro y respetar sus ideas?', '¿Cómo se ve la cooperación en el salón y en el recreo?', '¿Qué actividad del colegio crees que requiere mucha cooperación?'. Invite a que cada estudiante nombre una persona con la que le gustaría cooperar mejor.",
+          "revision_proposito": "Observe si las parejas logran alternar los turnos sin discusiones fuertes y si reconocen verbalmente el aporte de su compañero. Note si se refieren con respeto a ideas diferentes y si, en actividades futuras, se muestran más dispuestos a colaborar y a incluir a todos en el trabajo grupal.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         },
         {
           "id_taller": "G2-P3-T2",
-          "nombre_taller": "Repartiendo con Justicia",
+          "nombre_taller": "Digo lo que siento sin herir",
           "conceptos_relacionados": [
-            "Justicia",
-            "Colaboración",
-            "Respeto por la diferencia"
+            "Comunicación Asertiva y Respetuosa",
+            "Petición de Disculpas y Agradecimiento"
           ],
-          "proposito_experiencia": "Entender la justicia como un trato equitativo y respetuoso para todos los miembros del grupo.",
-          "recursos_eco": "Fichas de juego o dulces imaginarios.",
-          "momento_inicio_conexion": "Diga a los niños: 'Justicia no es que todos reciban lo mismo, sino que todos tengan lo que necesitan para estar bien'.",
-          "momento_desarrollo_vivencia": "Presente un caso donde hay que repartir tiempo de juego o materiales en grupos con necesidades distintas. Haga que los estudiantes colaboren para decidir cómo hacerlo de forma equitativa. Instruya: 'Escuchen todas las ideas antes de decidir'. Valore cuando digan: 'Todos debemos tener el mismo tiempo'.",
-          "momento_cierre_integracion": "Pregunte: '¿Por qué es importante seguir reglas claras?' y '¿Cómo te sientes cuando ves que algo es justo para todos?'.",
-          "revision_proposito": "Evaluar el razonamiento moral del niño hacia la equidad y el respeto a las normas colectivas.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes practiquen transformar expresiones impulsivas o agresivas en frases asertivas y respetuosas, integrando el uso de disculpas y agradecimientos cuando corresponde.",
+          "recursos_eco": "Tarjetas con frases como '¡No me empujes!', '¡No quiero jugar contigo!', '¡Dame mis colores ya!', hojas y lápices para escribir nuevas frases, pizarra para modelar ejemplos asertivos.",
+          "momento_inicio_conexion": "Explique: 'A veces decimos las cosas de forma que lastiman a otros, aunque tengamos razón en lo que sentimos'. Pregunte si alguna vez han dicho algo de forma brusca y luego se han arrepentido. Aclare que hoy van a aprender a decir lo mismo pero con respeto.",
+          "momento_desarrollo_vivencia": "1) Muestre la primera frase impulsiva: '¡No me empujes!'. Pida al grupo que proponga formas de decir lo mismo con respeto, por ejemplo: 'No me empujes, por favor. Me duele y no me gusta'. Escriba las mejores opciones en el tablero. 2) Repita con las frases '¡No quiero jugar contigo!' y '¡Dame mis colores ya!', resaltando alternativas asertivas como 'Ahora quiero jugar a otra cosa' o '¿Me devuelves mis colores, por favor?'. 3) Entregue a los estudiantes tarjetas donde ellos mismos escriban una frase impulsiva que hayan escuchado o dicho alguna vez (sin usar nombres) y, en la parte de atrás, los invite a escribir una versión asertiva y respetuosa. 4) En parejas, intercambian tarjetas y practican leer y representar las dos versiones: primero la impulsiva, luego la asertiva. Comenten cómo se siente cada una. 5) Incorpore la petición de disculpas y el agradecimiento: muestre ejemplos de cómo una frase asertiva puede ir acompañada de 'lo siento' o 'gracias' cuando corresponda, y pratique situaciones breves donde los estudiantes usan estas expresiones.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Cuál frase asertiva te pareció más fácil de usar?', '¿En qué momento del día necesitas hablar con más claridad y respeto?', '¿Qué cambia en el grupo cuando decimos las cosas con respeto?', '¿Qué puedes hacer si alguien no te escucha aunque hables con respeto?', '¿Cómo te sientes cuando te hablan con respeto y te piden disculpas o dan las gracias?'. Invite a los estudiantes a escoger una frase asertiva que intentarán usar esa misma semana.",
+          "revision_proposito": "Observe si los estudiantes logran transformar las frases impulsivas en formulaciones asertivas con palabras amables. En la vida diaria, note si comienzan a incluir expresiones como 'por favor', 'gracias' y 'lo siento' en sus interacciones, especialmente en situaciones de conflicto.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         },
         {
           "id_taller": "G2-P3-T3",
-          "nombre_taller": "El Puente de la Reconciliación",
+          "nombre_taller": "Pienso en lo que sí puedo hacer",
           "conceptos_relacionados": [
-            "Responsabilidad emocional",
-            "Autocontrol",
-            "Reconciliación"
+            "Optimismo",
+            "Conciencia de Pensamientos y Emociones"
           ],
-          "proposito_experiencia": "Asumir la responsabilidad de las propias acciones y aprender a reparar vínculos después de un conflicto.",
-          "recursos_eco": "Tarjetas con conflictos ficticios del aula.",
-          "momento_inicio_conexion": "Diga a los niños: 'Responsabilidad emocional es saber que mis palabras pueden hacer mella en el otro. Si lastimo, mi deber es reparar'.",
-          "momento_desarrollo_vivencia": "En grupos, analicen un conflicto: '¿Qué pasó? ¿Qué puedo decir? ¿Cómo volvemos a estar bien?'. Practiquen pedir disculpas sinceras y proponer una reparación (ej. ayudar al otro). Haga énfasis en usar el autocontrol para no culpar al otro de inmediato.",
-          "momento_cierre_integracion": "Pregunte: '¿Qué es lo más difícil de reconciliarse?' y '¿Por qué es importante reparar lo que pasó?'.",
-          "revision_proposito": "Identificar si el estudiante propone acciones de reparación genuina y asume su parte en el conflicto.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes identifiquen pensamientos pesimistas frecuentes y los sustituyan por frases optimistas realistas, enfocadas en acciones posibles para mejorar una situación.",
+          "recursos_eco": "Tarjetas con ejemplos de situaciones difíciles (perder un juego, no entender un ejercicio, equivocarse frente al grupo), pizarra para escribir pensamientos pesimistas y optimistas, hojas para que los estudiantes escriban su propia frase optimista.",
+          "momento_inicio_conexion": "Diga al grupo: 'No siempre podemos cambiar lo que pasa, pero sí podemos cambiar lo que pensamos y hacemos después'. Pregunte si alguna vez se sintieron muy mal por perder en un juego o equivocarse en clase y qué pensaron en ese momento. Tome algunos ejemplos sin juzgarlos.",
+          "momento_desarrollo_vivencia": "1) Escriba en la pizarra un ejemplo: 'Perdí un juego'. Pida que digan pensamientos pesimistas que podrían aparecer ('soy malo', 'nunca gano') y registre algunos. Luego, construyan juntos pensamientos optimistas y realistas ('esta vez perdí, pero puedo practicar', 'la próxima vez intentaré otra estrategia'). 2) Repita el procedimiento con otras situaciones: 'No entendí un ejercicio', 'Me equivoqué al leer frente a todos'. Siempre contraste una columna de pensamientos que desaniman con otra de pensamientos que ayudan a seguir intentando. 3) Entregue a cada estudiante una tarjeta con una situación difícil (o pídales que inventen una propia) y ponga la consigna: 'Escribe una frase optimista sobre lo que SÍ puedes hacer'. Revise y apoye a quienes lo necesiten. 4) Invite a algunos alumnos a leer su situación y su frase optimista, y permita que el grupo sugiera pequeñas mejoras si es necesario para que se mantenga realista. 5) Relacione el optimismo con la capacidad de pedir ayuda, practicar más o cambiar una estrategia, no con negar lo que pasó.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué situación te hizo practicar el optimismo hoy?', '¿Cómo te ayuda pensar en lo que sí puedes hacer en lugar de solo lo que salió mal?', '¿Qué cambia en tu actitud cuando piensas de forma más positiva?', '¿Cuándo se te hace más difícil ser optimista?', '¿Quién te ayuda a ver lo bueno cuando estás triste o frustrado?'. Invite a los estudiantes a guardar su tarjeta como recordatorio en el cuaderno.",
+          "revision_proposito": "Observe si los estudiantes diferencian entre pensamientos que los desaniman y otros que los impulsan a actuar. En actividades posteriores, registre si algunos niños utilizan espontáneamente frases como 'voy a practicar más' o 'puedo pedir que me expliquen otra vez' cuando se enfrentan a errores o dificultades.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         }
       ]
     },
     {
-      "numero_periodo": 4,
+      "periodo": 4,
       "talleres": [
         {
           "id_taller": "G2-P4-T1",
-          "nombre_taller": "Pequeños Pasos, Grandes Metas",
+          "nombre_taller": "Cumplo lo que digo",
           "conceptos_relacionados": [
-            "Perseverancia",
+            "Compromiso",
             "Constancia",
-            "Identidad",
-            "Optimismo"
+            "Cumplimiento de Deberes y Normas"
           ],
-          "proposito_experiencia": "Reforzar la perseverancia como parte fundamental de la identidad de quien desea aprender y mejorar.",
-          "recursos_eco": "Un mini-reto físico o mental (ej. completar un patrón complejo).",
-          "momento_inicio_conexion": "Diga a los niños: 'Ustedes son personas que no se rinden. Miren cuánto han avanzado este año'.",
-          "momento_desarrollo_vivencia": "Proponga el reto. Repítalo dos veces. Diga a los niños: 'Noten la mejora entre el primer y segundo intento'. Si alguien siente ganas de rendirse, invítelo a usar el optimismo diciendo: 'Hoy no pude, pero mañana estaré más cerca'. Reflexione sobre qué actividades diarias necesitan más constancia.",
-          "momento_cierre_integracion": "Pregunte: '¿Qué cambió entre tu primer y segundo intento?' y '¿Qué te ayudó a seguir intentándolo?'.",
-          "revision_proposito": "Observar la evolución del desempeño del estudiante tras la práctica y su actitud ante la dificultad.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes se ejerciten en asumir compromisos sencillos para la jornada escolar, revisando al final si los cumplieron y reflexionando sobre qué les ayudó o dificultó mantener la palabra dada.",
+          "recursos_eco": "Tarjetas o papelitos para escribir compromisos individuales, lápices, un cuadro en el tablero para registrar ejemplos de compromisos, unos minutos al final del día para la revisión.",
+          "momento_inicio_conexion": "Explique: 'Cuando decimos que haremos algo y lo cumplimos, mostramos compromiso y los demás confían más en nosotros'. Pregunte si alguna vez prometieron algo y no lo cumplieron, y qué sintieron después. Aclare que hoy practicarán compromisos pequeños y realistas para el día.",
+          "momento_desarrollo_vivencia": "1) Entregue a cada estudiante una tarjeta y pídales que escriban una pequeña acción que se comprometen a realizar durante la jornada escolar (organizar su mesa, terminar una tarea, cuidar materiales, seguir una norma específica). Ayúdeles a formular compromisos concretos y alcanzables. 2) Invite a algunos voluntarios a leer su compromiso en voz alta, reforzando que no se trata de competir, sino de practicar el cumplimiento de la palabra. 3) Guarde las tarjetas en un lugar seguro o pídales que las peguen en su cuaderno para revisarlas al final del día. 4) Hacia el cierre de la jornada, retome el taller: pida que vuelvan a leer su compromiso y que marquen en la tarjeta si lo cumplieron, lo cumplieron parcialmente o no lo lograron. 5) Guíe una breve conversación grupal sobre qué les ayudó a cumplirlo (recordar la norma, la constancia, el apoyo de un compañero) y qué lo hizo difícil (olvidos, falta de tiempo, distracciones). Relacione esto con la importancia de la constancia y el cumplimiento de deberes y normas.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué compromiso escogiste hoy?', '¿Qué te ayudó a cumplirlo?', '¿Qué lo hizo difícil?', '¿Cómo te sentiste al lograrlo o al intentar cumplirlo?', '¿Por qué es importante cumplir lo que decimos en el colegio y en la casa?'. Invite a cada niño a pensar en un nuevo compromiso sencillo para el día siguiente.",
+          "revision_proposito": "Observe si los estudiantes formulan compromisos específicos y realistas y si realizan una revisión honesta de su cumplimiento. En días posteriores, note si aumenta la responsabilidad en la realización de tareas, el cuidado de materiales y la observancia de normas sin necesidad de tantos recordatorios.",
+          "tiempo_aplicacion": "30 a 40 minutos (distribuidos en un momento de inicio y otro breve al final de la jornada)",
           "enlace_multimedia": null
         },
         {
           "id_taller": "G2-P4-T2",
-          "nombre_taller": "Digo lo que Siento con Valor",
+          "nombre_taller": "Volver a estar bien después del conflicto",
           "conceptos_relacionados": [
-            "Asertividad",
-            "Autorrespeto",
-            "Responsabilidad emocional"
+            "Reconciliación",
+            "Responsabilidad Social y Cuidado del Entorno",
+            "Comportamiento Prosocial y Ejemplar"
           ],
-          "proposito_experiencia": "Expresar pensamientos y emociones de manera clara y respetuosa sin herir a los demás.",
-          "recursos_eco": "Frascos con frases 'agresivas' para transformar.",
-          "momento_inicio_conexion": "Diga a los niños: 'Ser asertivo es hablar con la verdad sin usar gritos ni peleas. Es cuidar nuestro corazón y el del otro'.",
-          "momento_desarrollo_vivencia": "Presente frases como '¡Dame mis colores ya!'. Pida a los estudiantes que las transformen usando el autorrespeto y la claridad: '¿Me prestas mis colores, por favor? Los necesito ahora'. Practiquen hablar con voz tranquila y firme. Haga que noten cómo se siente recibir una frase con respeto.",
-          "momento_cierre_integracion": "Pregunte: '¿Qué cambia cuando decimos las cosas con respeto?' y '¿Cómo te sientes cuando te hablan con asertividad?'.",
-          "revision_proposito": "Evaluar la capacidad del estudiante para reformular peticiones agresivas en expresiones asertivas.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes practiquen pasos sencillos para reconciliarse después de un conflicto, reconociendo su responsabilidad en el cuidado del clima del aula y del bienestar de los compañeros.",
+          "recursos_eco": "Tarjetas con pequeños conflictos ficticios adecuados a la edad (discusiones por juegos, materiales dañados, exclusión de un compañero), cartel con preguntas guía ('¿Qué pasó?', '¿Qué puedo decir?', '¿Cómo podemos volver a estar bien?'), espacio para trabajo en grupos pequeños.",
+          "momento_inicio_conexion": "Diga al grupo: 'En todos los cursos hay peleas y discusiones, pero lo importante es cómo volvemos a estar bien después'. Pregunte qué es lo más difícil para ellos cuando han peleado con alguien (hablar, pedir perdón, acercarse de nuevo). Escuche sin juzgar.",
+          "momento_desarrollo_vivencia": "1) Escriba en un cartel tres preguntas que ayudarán a la reconciliación: '¿Qué pasó?', '¿Qué puedo decir?', '¿Cómo podemos volver a estar bien?'. Explique cada una con un ejemplo sencillo. 2) Divida a la clase en grupos pequeños y entrégueles una tarjeta con un conflicto ficticio (por ejemplo, 'dos compañeros se culpan por un balón perdido', 'alguien se burla del dibujo de otro', 'un niño no deja participar a otro en el juego'). 3) Pida que en el grupo respondan las tres preguntas y preparen una pequeña dramatización donde muestren cómo se reconcilian. 4) Invite a cada grupo a presentar su escena frente al curso, enfatizando la parte en la que se dicen cosas que ayudan a estar mejor (pedir perdón, aceptar disculpas, proponer jugar nuevamente, reparar un daño). 5) Después de cada presentación, pregunte: '¿Qué fue lo más difícil para que se reconciliaran?', '¿Qué hicieron para que todos quedaran más tranquilos?', conectando con la responsabilidad que cada uno tiene en el ambiente del salón.",
+          "momento_cierre_integracion": "En círculo, formule preguntas: '¿Qué es lo más difícil de reconciliarse para ti?', '¿Qué te ayuda a hablar después de una pelea?', '¿Por qué es importante reparar lo que pasó y no seguir con el enojo?', '¿Cómo te sientes cuando haces las paces con alguien?', '¿Qué podemos hacer como grupo para evitar conflictos innecesarios y cuidar nuestro salón?'. Invite a los estudiantes a identificar una persona con la que necesiten mejorar la relación y a pensar un primer paso para acercarse.",
+          "revision_proposito": "Observe si los estudiantes logran relatar claramente lo que ocurrió en cada conflicto ficticio y si proponen palabras y acciones orientadas a la reparación y la paz. En la convivencia cotidiana, registre si comienzan a buscar más pronto la reconciliación y si muestran conductas prosociales como incluir a otros, dejar de burlarse y cuidar el ambiente del salón.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         },
         {
           "id_taller": "G2-P4-T3",
-          "nombre_taller": "Mi Promesa de Fin de Año",
+          "nombre_taller": "Cuidamos el grupo y el entorno",
           "conceptos_relacionados": [
-            "Compromiso",
-            "Amabilidad",
-            "Autoaceptación",
-            "Gratitud"
+            "Responsabilidad Social y Cuidado del Entorno",
+            "Ayuda y Colaboración en el Grupo",
+            "Comportamiento Prosocial y Ejemplar"
           ],
-          "proposito_experiencia": "Cerrar el ciclo escolar asumiendo compromisos personales de cuidado y gratitud hacia la comunidad.",
-          "recursos_eco": "Tarjetas decoradas.",
-          "momento_inicio_conexion": "Siente al grupo en círculo. Diga a los niños: 'Hemos crecido mucho. Hoy haremos una promesa para seguir siendo amables y valientes'.",
-          "momento_desarrollo_vivencia": "Cada estudiante escribe una acción que se compromete a realizar (ej. organizar su mesa, ser amable con el nuevo vecino). Haga que compartan su compromiso. Diga a los niños: 'Aceptarse y comprometerse es el primer paso para ser felices'. Terminen con una ronda de gratitud por el año compartido.",
-          "momento_cierre_integracion": "Pregunte: '¿Qué te ayudó a cumplir tus metas este año?' y '¿Por qué es importante cumplir lo que decimos?'.",
-          "revision_proposito": "Identificar si el estudiante vincula la autoaceptación con el deseo de mejora y compromiso social.",
-          "tiempo_aplicacion": "15 minutos",
+          "proposito_experiencia": "Que los estudiantes identifiquen acciones concretas para cuidar el salón, los materiales y a sus compañeros, asumiendo un rol activo como modelos positivos dentro del grupo.",
+          "recursos_eco": "Lista visual de normas del salón y del colegio, imágenes o tarjetas que muestren conductas de cuidado y descuido, hojas para diseñar pequeños afiches o recordatorios de buen comportamiento, cinta para pegar afiches en lugares visibles.",
+          "momento_inicio_conexion": "Explique: 'Nuestro salón y nuestro colegio son lugares que compartimos todos. Lo que cada uno hace afecta a los demás'. Pregunte qué cosas les molestan cuando otros no cuidan el espacio o el grupo (basura, gritos, burlas, empujones) y anótelas en el tablero.",
+          "momento_desarrollo_vivencia": "1) Muestre la lista de normas del salón y pida que identifiquen cuáles tienen que ver con cuidar el entorno (no rayar paredes, mantener el puesto ordenado, cuidar libros y materiales) y cuáles con cuidar a las personas (no burlarse, incluir a todos, respetar turnos). 2) Divida al grupo en pequeños equipos y asígneles un tema para crear un mini-afiche: 'cuidar el salón', 'incluir a todos', 'respetar las diferencias', 'cuidar los materiales compartidos'. Pida que en el afiche incluyan un dibujo y una frase clara y positiva que invite al buen comportamiento. 3) Mientras trabajan, observe cómo se organizan y colaboran. Refuerce acciones de ayuda y cooperación. 4) Cuando terminen, cada equipo presenta su afiche al curso, explicando qué conducta quieren promover y por qué es importante. 5) Peguen los afiches en lugares visibles del aula y acuerden que, durante la semana, podrán señalar sus propios afiches como recordatorio cuando vean una conducta que no cuida el entorno o el grupo.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué norma o acuerdo del salón te ayuda más a cuidar el entorno?', '¿Qué tipo de ayuda te gusta recibir de tus compañeros en el salón o en el recreo?', '¿Cómo puedes ser un buen ejemplo para otros en el colegio?', '¿Qué harás diferente desde hoy para cuidar mejor el grupo y el salón?'. Invite a cada estudiante a decir en voz alta una acción concreta de cuidado que intentará mantener durante la semana.",
+          "revision_proposito": "Observe si los estudiantes proponen acciones específicas para cuidar el entorno y ser modelos positivos, y si se involucran en la elaboración de los afiches con actitud colaborativa. En las semanas siguientes, registre si disminuyen conductas de descuido y si los estudiantes utilizan los afiches como apoyo para recordar los acuerdos del grupo.",
+          "tiempo_aplicacion": "30 a 40 minutos",
           "enlace_multimedia": null
         }
       ]
