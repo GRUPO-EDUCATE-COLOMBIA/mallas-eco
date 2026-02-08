@@ -1,212 +1,223 @@
 {
-  "identificacion_grado": 1,
-  "area_identificacion": "Proyecto Socioemocional",
-  "periodo_1": [
+  "metadata": {
+    "grado": 1,
+    "area": "Proyecto Socioemocional",
+    "descripcion_grado": "Planeación anual de talleres socioemocionales para estudiantes de grado primero, con enfoque vivencial y lenguaje sencillo para docentes no especialistas."
+  },
+  "periodos": [
     {
-      "id": "CON-001",
-      "concepto": "Emociones",
-      "definicion_pedagogica": "En el contexto de grado 1, el trabajo con emociones se orienta a que el docente ayude al estudiante a identificar, nombrar y diferenciar estados emocionales básicos presentes en la vida escolar cotidiana (alegría, tristeza, miedo, enojo), vinculándolos con situaciones concretas del aula y del recreo. El objetivo pedagógico es que el niño comprenda que todas las emociones son válidas, que tienen una función adaptativa y que pueden expresarse de manera respetuosa hacia sí mismo y hacia los demás. Este reconocimiento inicial sienta las bases para procesos posteriores de autorregulación, resolución pacífica de conflictos y construcción de convivencia, en coherencia con la competencia anual de regulación básica y expresión emocional y con el estándar de desarrollo de conciencia emocional básica del Ciclo 1.",
-      "definicion_estudiante": "En este grado, las emociones son lo que sentimos por dentro cuando pasan cosas en el colegio o en la casa, como alegría, tristeza, miedo o enojo. Las emociones aparecen en nuestro cuerpo y en nuestros pensamientos, y pueden cambiar durante el día según lo que vivimos con nuestros compañeros y profesores. Aprender sobre emociones significa darnos cuenta de cómo nos sentimos y buscar formas respetuosas de decirlo y de actuar, sin hacer daño a otros.",
-      "habilidad_malla": "Reconocimiento emocional",
-      "ejemplo_aula": "\"Demuestro respeto cuando espero a que mi compañero termine de hablar.\"",
-      "evidencia_logro": "El docente observa que el estudiante nombra al menos dos emociones básicas vinculadas a situaciones escolares concretas (por ejemplo, expresa que se siente alegre, triste, con miedo o enojado frente a una actividad o interacción específica) y comienza a relacionar lo que siente con lo que ocurre en el aula, de acuerdo con el estándar que plantea identificar y nombrar emociones en situaciones cotidianas para iniciar su gestión personal.",
-      "tip_psicologico": "Modelar de manera explícita el vocabulario emocional en las rutinas diarias (asambleas, cierres de clase), haciendo preguntas abiertas como \"¿cómo te sentiste en esta actividad?\" y validando cada emoción sin juicio. Utilizar apoyos visuales (caras, pictogramas, termómetros emocionales) para que el estudiante asocie situaciones escolares con emociones básicas y pueda expresarlas en palabras. Reforzar positivamente cada vez que el niño nombra lo que siente sin recurrir a conductas disruptivas, conectando el reconocimiento emocional con el respeto por sí mismo y por sus compañeros."
+      "periodo": 1,
+      "talleres": [
+        {
+          "id_taller": "G1-P1-T1",
+          "nombre_taller": "Reconozco lo que siento por dentro",
+          "conceptos_relacionados": [
+            "Conciencia Emocional Propia",
+            "Identificación de Señales Corporales"
+          ],
+          "proposito_experiencia": "Que los niños identifiquen y nombren sus emociones básicas, relacionándolas con las sensaciones de su cuerpo, para empezar a comprender qué les pasa por dentro en diferentes situaciones cotidianas.",
+          "recursos_eco": "Tarjetas con caras que expresen emociones básicas (alegría, tristeza, enojo, miedo, sorpresa), hojas blancas, lápices de colores, tablero o cartel grande, ambiente tranquilo donde los niños puedan moverse y expresarse sin burla.",
+          "momento_inicio_conexion": "Diga a los niños que van a jugar a ser 'detectives de emociones'. Pídales que se pongan de pie y muestren con su cara cómo se ven cuando están muy felices. Luego, pídales que cambien y muestren con su cara cómo se ven cuando están tristes, enojados o asustados. Haga que el grupo adivine en voz alta qué emoción está representando cada gesto. Refuerce diciendo: 'Hoy vamos a aprender a reconocer lo que sentimos por dentro y cómo se ve por fuera'.",
+          "momento_desarrollo_vivencia": "1) Muestre las tarjetas con las distintas emociones una por una y nombre en voz alta: alegría, tristeza, enojo, miedo, sorpresa. 2) Diga a los niños: 'Cuando sentimos una emoción, nuestro cuerpo también cambia'. Pregunte: '¿Cómo se siente tu cuerpo cuando estás bravo?', '¿Qué pasa con tu cuerpo cuando estás feliz?'. Escriba o dibuje en el tablero algunas respuestas sencillas (corazón rápido, ganas de llorar, sonrisa, cuerpo tenso). 3) Entregue a cada niño una hoja y pídales que dibujen una situación donde hayan sentido una emoción fuerte (por ejemplo, cuando ganaron un juego, cuando alguien no quiso jugar con ellos, cuando se asustaron, etc.). Indique: 'Dibujen qué pasó y cómo se sintieron en su cuerpo'. 4) Invite voluntarios a pasar al frente a mostrar su dibujo. Ayúdeles con el lenguaje: 'Yo sentí alegría cuando…', 'Mi cuerpo se puso tenso cuando…'. 5) Vaya reforzando que poner nombre a lo que sienten y notar su cuerpo les ayuda a entenderse mejor y a pedir ayuda si lo necesitan.",
+          "momento_cierre_integracion": "Guíe una breve conversación sentando al grupo en círculo. Pregunte: '¿Qué emoción conociste mejor hoy?', '¿Cómo se siente tu cuerpo cuando estás muy feliz?', '¿Cómo se siente cuando estás triste o bravo?', '¿Por qué es importante saber qué estamos sintiendo?', '¿A quién podrías contarle cómo te sientes cuando te pase algo fuerte?'. Cierre recordando que todas las emociones son válidas y que aprender a reconocerlas es el primer paso para cuidarse a sí mismos y a los demás.",
+          "revision_proposito": "Observe si los estudiantes pueden nombrar al menos una emoción que sienten con frecuencia y si logran describir algún cambio corporal asociado (por ejemplo, 'mi corazón late rápido', 'me dan ganas de llorar'). Verifique si participan respetando el turno de palabra y si se expresan sin burlarse de los compañeros. Note si usan frases sencillas como 'me siento...' para hablar de sus estados emocionales.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P1-T2",
+          "nombre_taller": "Miro las emociones de mis amigos",
+          "conceptos_relacionados": [
+            "Conciencia Emocional Ajena",
+            "Emociones"
+          ],
+          "proposito_experiencia": "Que los niños desarrollen la capacidad de observar gestos, voz y acciones de sus compañeros para inferir cómo se sienten, fortaleciendo la sensibilidad hacia las emociones de los demás.",
+          "recursos_eco": "Tarjetas o imágenes de niños con distintas expresiones emocionales, títeres simples o dibujos en papel, espacio para representar pequeñas escenas, cinta adhesiva o imanes para el tablero.",
+          "momento_inicio_conexion": "Haga que el grupo se siente en semicírculo. Muestre una imagen de un niño con cara muy triste y pregunte: '¿Cómo creen que se siente? ¿Qué cosas ven en su cara y en su cuerpo que les dan esa pista?'. Luego muestre otra imagen con una cara muy alegre y repita la pregunta. Explique con lenguaje simple: 'Así como tú sientes cosas adentro, tus amigos también sienten, y su cara y su cuerpo nos dan pistas'.",
+          "momento_desarrollo_vivencia": "1) Pegue en el tablero varias imágenes de niños con diferentes expresiones: alegría, enojo, miedo, sorpresa, vergüenza. 2) Pida voluntarios para que señalen una imagen y digan: 'Creo que se siente… porque…', completando con lo que ven (cara, ojos, postura). 3) Luego organice parejas. Diga a los niños: 'Uno va a representar una emoción con su cara y su cuerpo sin hablar, y el otro va a adivinar y decir qué emoción ve y qué le hace pensar eso'. Después de unos minutos, cambian de rol. 4) Invite a algunos pares a representar al frente sus escenas breves (por ejemplo, alguien que perdió un juguete, alguien que ganó un juego). Ayude a todo el grupo a decir la emoción observada y la posible causa. 5) Refuerce la idea de que mirar con atención ayuda a darnos cuenta de cómo se sienten los otros y a tratarlos mejor.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué te ayudó hoy a darte cuenta de cómo se sentían los demás?', '¿Cómo puedes saber si un amigo está triste aunque no te lo diga?', '¿Qué puedes hacer cuando ves a alguien con cara de susto o de enojo?', '¿Por qué es importante fijarnos en las emociones de nuestros compañeros?'. Cierre enfatizando que reconocer las emociones ajenas permite ofrecer ayuda, respetar y mejorar la convivencia en el salón.",
+          "revision_proposito": "Revise si los niños logran identificar al menos dos emociones en imágenes o representaciones de sus compañeros y si pueden explicar brevemente qué pista observaron (gesto, voz, cuerpo). Observe si muestran actitudes de respeto cuando otros representan emociones y si comienzan a hablar de formas de ayudar o acompañar a quien se siente mal.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P1-T3",
+          "nombre_taller": "Mi semáforo de emociones",
+          "conceptos_relacionados": [
+            "Conciencia Emocional Propia",
+            "Conciencia Emocional Ajena",
+            "Identificación de Señales Corporales"
+          ],
+          "proposito_experiencia": "Que los niños relacionen la intensidad de sus emociones con la metáfora de un semáforo, diferenciando momentos de calma, alerta y alto, para empezar a tomar decisiones más seguras en la convivencia escolar.",
+          "recursos_eco": "Cartulina o papelógrafo con un semáforo grande (rojo, amarillo, verde), círculos pequeños de cartulina de colores para cada niño, pegante o cinta, marcadores, espacio para moverse y hacer pequeñas dramatizaciones.",
+          "momento_inicio_conexion": "Muestre el dibujo de un semáforo grande y pregunte: '¿Para qué sirve un semáforo en la calle?'. Escuche sus respuestas y luego diga: 'Así como los carros necesitan semáforo, nuestras emociones también'. Invite a los niños a decir ejemplos de cuando están tranquilos, un poco molestos o muy enojados.",
+          "momento_desarrollo_vivencia": "1) Explique el significado de cada color: verde para emociones tranquilas o agradables (alegría, calma), amarillo para cuando empezamos a molestarnos o asustarnos un poco, rojo para cuando la emoción es muy fuerte y necesitamos parar. 2) Diga a los niños varias situaciones cotidianas del aula (por ejemplo: 'Un amigo te invita a jugar un juego que te gusta', 'Te quitan un lápiz sin pedirlo', 'Ganas un juego en el recreo', 'Nadie te elige para el equipo'). Después de cada ejemplo, pídales que levanten la mano diciendo si esa situación se sentiría más como verde, amarillo o rojo, y que expliquen por qué. 3) Entregue a cada niño tres círculos de cartulina (rojo, amarillo, verde). Pídales que piensen en una situación real que hayan vivido en el colegio y que dibujen o escriban un símbolo sencillo en el círculo del color que mejor represente cómo se sintieron. 4) Invite a algunos voluntarios a pegar sus círculos en el semáforo grande y a explicar brevemente qué pasó y cómo se sintieron en el cuerpo. Acompañe con preguntas como: '¿Tu corazón iba rápido o lento?', '¿Tenías ganas de llorar o reír?'. 5) Refuerce la idea de que cuando estamos en rojo necesitamos detenernos, respirar y pedir ayuda; cuando estamos en amarillo debemos estar atentos a lo que sentimos; y cuando estamos en verde podemos seguir disfrutando y compartiendo con otros.",
+          "momento_cierre_integracion": "Cierre con unas preguntas guía: '¿Qué aprendiste hoy sobre tus emociones y el semáforo?', '¿Qué puedes hacer cuando sientes que estás en rojo?', '¿Cómo puedes darte cuenta de que un compañero está en rojo o en amarillo?', '¿A quién puedes pedir ayuda cuando tus emociones son muy fuertes?'. Invite a los niños a usar el lenguaje del semáforo durante la semana para hablar de cómo se sienten.",
+          "revision_proposito": "Observe si los estudiantes pueden asociar correctamente situaciones cotidianas con al menos dos niveles del semáforo emocional (verde, amarillo, rojo) y si describen brevemente sensaciones corporales ligadas a esas situaciones. Verifique si comienzan a proponer estrategias sencillas como respirar, pedir ayuda o hablar con un adulto cuando reconocen emociones muy intensas en sí mismos o en sus compañeros.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        }
+      ]
     },
     {
-      "id": "CON-002",
-      "concepto": "Conciencia Emocional Propia",
-      "definicion_pedagogica": "La conciencia emocional propia en grado 1 se enfoca en que el estudiante identifique lo que siente en situaciones de aprendizaje y convivencia, y lo relacione con sensaciones corporales y con los pensamientos que se activan. Desde la perspectiva docente, implica ayudar al niño a diferenciar emociones básicas, reconocer los detonantes (tareas nuevas, juegos, correcciones del adulto) y comenzar a comprender que puede comunicar sus estados internos para gestionar mejor su comportamiento. Esta habilidad se articula con la competencia de conciencia emocional y con la evidencia de desempeño que exige que el estudiante describa cómo se siente frente a nuevas tareas escolares, relacionando al menos dos emociones con las situaciones que las provocan.",
-      "definicion_estudiante": "Tener conciencia emocional propia es saber qué estoy sintiendo y poder decirlo con palabras, como \"estoy alegre\", \"estoy triste\" o \"tengo miedo\". También es darme cuenta de qué pasa en mi cuerpo cuando tengo esa emoción, por ejemplo si mi corazón late rápido o si me dan ganas de llorar. Cuando entiendo lo que siento, puedo pedir ayuda, calmarme y participar mejor en clase.",
-      "habilidad_malla": "Conciencia emocional",
-      "ejemplo_aula": "\"Cuando me siento bravo, mi cuerpo se pone tenso y mi corazón late rápido.\" / \"Sé que estoy triste cuando me dan ganas de llorar.\"",
-      "evidencia_logro": "El docente identifica que el estudiante nombra cómo se siente frente a nuevas tareas o situaciones del aula, diferenciando al menos dos emociones básicas (por ejemplo, alegría y miedo, o enojo y tristeza) y vinculándolas con la situación que las genera, tal como lo establece la evidencia de desempeño del Ciclo 1.",
-      "tip_psicologico": "Invitar de manera sistemática a que los estudiantes describan lo que sienten antes, durante y después de actividades clave, usando frases guía como \"yo me siento... porque...\". Acompañar la verbalización con preguntas sobre sensaciones corporales (\"¿qué nota tu cuerpo cuando estás bravo?\") para fortalecer el vínculo entre cuerpo y emoción. Evitar etiquetar al niño (\"eres muy bravo\") y centrarse en la emoción como algo que aparece y se puede gestionar, reforzando mensajes de aceptación y seguridad emocional."
+      "periodo": 2,
+      "talleres": [
+        {
+          "id_taller": "G1-P2-T1",
+          "nombre_taller": "Pausa antes de actuar",
+          "conceptos_relacionados": [
+            "Autocontrol",
+            "Regulación Emocional"
+          ],
+          "proposito_experiencia": "Que los niños practiquen una secuencia sencilla de autocontrol (pausa, respiración y elección de respuesta calmada) frente a situaciones comunes del aula que generan enojo o frustración.",
+          "recursos_eco": "Tarjetas con situaciones del aula (empujón accidental, no ser elegido en un juego, caída de materiales), cronómetro o conteo en voz alta para los 5 segundos de pausa, espacio libre para dramatizar, tablero para escribir los pasos de autocontrol.",
+          "momento_inicio_conexion": "Diga a los niños: 'A veces pasan cosas en el salón que nos molestan mucho y queremos gritar o empujar. Hoy vamos a aprender un truco para que nuestra emoción no nos mande'. Pida que levanten la mano quienes alguna vez han querido gritar o empujar cuando se enojan. Valide sus respuestas y explíqueles que sentir enojo es normal, pero que podemos aprender a manejarlo.",
+          "momento_desarrollo_vivencia": "1) Escriba en el tablero tres pasos simples: 1. Pauso, 2. Respiro profundo, 3. Elijo una respuesta calmada. Lea en voz alta cada paso y haga que los niños lo repitan con usted. 2) Presente una primera situación: 'Alguien te empuja sin querer en la fila'. Pida a dos estudiantes que la representen suavemente. Luego guíe al grupo: 'Todos vamos a practicar: primero PAUSO (quédense quietos 5 segundos), luego RESPIRO profundo 3 veces, y después ELIGO una respuesta calma, por ejemplo decir: \"Por favor, no me empujes\"'. 3) Repita la dinámica con otras situaciones como 'no te eligen para el juego' o 'se te cae tu cuaderno y se arruga'. Después de cada dramatización, haga que el grupo practique los tres pasos coordinados. 4) Invite a algunos niños a inventar una nueva situación del aula donde necesiten autocontrol y dramatizarla aplicando los pasos. Refuerce el elogio cuando usen lenguaje calmado y respetuoso. 5) Conecte con la idea de regulación emocional explicando que estas estrategias ayudan a que el cuerpo se calme y que no lastimen a otros ni a sí mismos.",
+          "momento_cierre_integracion": "Siéntese con el grupo en círculo y pregunte: '¿En qué parte del cuerpo sientes primero el enojo?', '¿Qué paso del autocontrol te parece más difícil: pausar, respirar o elegir la respuesta?', '¿En qué situación de tu vida podrías usar estos pasos hoy?', '¿Por qué es importante pausar antes de responder cuando estamos muy molestos?'. Invite a los niños a comentar alguna vez reciente en que lograron controlarse o en que les habría gustado hacerlo mejor.",
+          "revision_proposito": "Observe si los estudiantes recuerdan la secuencia de tres pasos y pueden repetirla sin apoyo visual. Verifique durante las dramatizaciones si son capaces de detenerse, respirar y proponer respuestas verbales respetuosas en lugar de reacciones impulsivas. Revise en los días siguientes si algunos niños comienzan a usar el lenguaje 'pauso, respiro, elijo' en situaciones reales del aula.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P2-T2",
+          "nombre_taller": "Esperar mi turno con respeto",
+          "conceptos_relacionados": [
+            "Espera de Turno",
+            "Respeto"
+          ],
+          "proposito_experiencia": "Que los niños practiquen conductas concretas para esperar su turno al hablar o usar materiales, comprendiendo que esta habilidad favorece el respeto y el orden en el grupo.",
+          "recursos_eco": "Objeto de turno (pelota blanda o marcador grueso), tarjetas con dibujos de fila, juego y círculo de conversación, algunos materiales de uso común (colores, libros), espacio amplio para hacer filas y círculos.",
+          "momento_inicio_conexion": "Diga al grupo: 'Hoy vamos a jugar a los turnos que escuchan'. Coloque a los niños en círculo y muestre el objeto de turno. Explique: 'Solo quien tiene el objeto puede hablar, los demás escuchan en silencio y esperan'. Haga una ronda rápida preguntando algo sencillo como '¿Qué te gusta hacer en el descanso?', para que practiquen la regla básica de esperar su turno.",
+          "momento_desarrollo_vivencia": "1) Después de la primera ronda, pregunte cómo se sintieron al esperar su turno y si en algún momento quisieron interrumpir. Refuerce la importancia de escuchar sin hablar encima del otro. 2) Organice a los niños en pequeñas filas simulando entrada al salón, uso del baño o entrega de trabajos. Diga instrucciones claras: 'Cuando estás en la fila, tu cuerpo está detrás del compañero, no lo empujas, no te cuelas, esperas tu turno'. Haga que practiquen avanzando lentamente mientras usted observa y corrige con amabilidad. 3) Luego, proponga una mini-actividad con material compartido (por ejemplo, un juego o un set de colores). Indique que cada mesa debe decidir un orden de turno. Observe si respetan el acuerdo y anímelos a recordar la frase: 'Ahora te toca a ti, luego a mí'. 4) Detenga la actividad y converse brevemente sobre qué pasó cuando alguien no respetó los turnos y cómo se sintieron. Ayude a los niños a encontrar soluciones como 'recordar la regla', 'volver a hacer la fila' o 'pedir ayuda a la profe'. 5) Refuerce el mensaje de que respetar el turno es una forma concreta de mostrar respeto a los demás.",
+          "momento_cierre_integracion": "En círculo, formule preguntas de reflexión: '¿Cómo te sentiste cuando te escucharon sin interrumpir?', '¿Te costó esperar tu turno? ¿Por qué?', '¿Qué ayuda a que todos se sientan respetados cuando hablamos?', '¿Qué cambia en el grupo cuando escuchamos bien y esperamos el turno?', '¿Cómo puedes mostrar respeto mañana en clase al hacer fila o usar materiales?'. Invite a que cada niño comparta al menos una acción concreta que intentará aplicar.",
+          "revision_proposito": "Observe si durante el taller los estudiantes respetan el uso del objeto de turno, mantienen su lugar en la fila y comparten materiales sin pelear. Registre si son capaces de verbalizar al menos una regla para esperar el turno y una razón por la cual esto mejora la convivencia. En días posteriores, note si disminuyen las interrupciones constantes y los reclamos por 'se coló'.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P2-T3",
+          "nombre_taller": "Buscamos soluciones juntos",
+          "conceptos_relacionados": [
+            "Resolución de Conflictos (Básico)",
+            "Valentía"
+          ],
+          "proposito_experiencia": "Que los niños ensayen pasos sencillos para resolver conflictos cotidianos hablando, pidiendo ayuda y mostrando valentía para expresar lo que sienten sin recurrir a la agresión.",
+          "recursos_eco": "Tarjetas con escenas de conflicto leve (no compartir un juguete, desacuerdo en un juego, empujón), títeres o muñecos sencillos, pizarra para escribir pasos de solución, espacio para dramatizar frente al grupo.",
+          "momento_inicio_conexion": "Empiece preguntando: '¿Alguna vez has tenido un problema con un compañero por un juego o un material?'. Escuche algunos ejemplos breves y valide que los conflictos son normales. Explique que hoy aprenderán a buscar soluciones sin pelear, usando la voz y la ayuda de un adulto cuando sea necesario.",
+          "momento_desarrollo_vivencia": "1) Presente una escena sencilla con títeres o dramatizada por usted: dos niños que quieren el mismo juguete y empiezan a gritar. Detenga la escena y pregunte al grupo qué podría pasar si siguen así. 2) Proponga tres pasos básicos en el tablero: 1. Me calmo, 2. Digo lo que siento y lo que quiero, 3. Buscamos una solución o pedimos ayuda a un adulto. Lea cada paso y comente con ejemplos. 3) Divida al curso en pequeños grupos y entrégueles una tarjeta con una situación de conflicto distinta (no ponerse de acuerdo en el juego, alguien que no respeta el turno, un empujón accidental). Diga a los niños que representen primero el problema y luego una posible solución aplicando los tres pasos. 4) Invite a cada grupo a presentar su dramatización. Después de cada una, pregunte: '¿En qué momento se calmaron?', '¿Cómo dijeron lo que sentían?', '¿Qué solución encontraron o a quién pidieron ayuda?'. 5) Haga énfasis en que se necesita valentía para hablar con calma y pedir ayuda, y que esa valentía es mejor que gritar o pegar.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué paso te pareció más difícil al resolver un conflicto?', '¿Por qué es mejor hablar y buscar ayuda que pelear?', '¿En qué tipo de problema te gustaría practicar estos pasos esta semana?', '¿Cómo puedes ayudar a un compañero que está peleando a recordar estos pasos?'. Invite a los niños a mencionar una situación real del salón donde podrían usar lo aprendido.",
+          "revision_proposito": "Observe si los niños comprenden y repiten los tres pasos básicos de resolución de conflictos y si en las dramatizaciones logran pasar de la pelea a una alternativa de diálogo o búsqueda de ayuda. Durante la convivencia diaria, verifique si comienzan a llamar a un adulto o usar frases asertivas en lugar de recurrir inmediatamente a la agresión física o verbal.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        }
+      ]
     },
     {
-      "id": "CON-003",
-      "concepto": "Conciencia Emocional Ajena",
-      "definicion_pedagogica": "La conciencia emocional ajena se refiere a la capacidad del estudiante para percibir y comprender las emociones de sus compañeros y adultos a partir de pistas externas como gestos, tono de voz y conductas. En grado 1, el propósito pedagógico es que el niño comience a reconocer que los otros también sienten alegría, tristeza, miedo o enojo, y que esa comprensión es la base para respuestas empáticas y respetuosas en la convivencia. Esta habilidad se conecta con las competencias de habilidades sociales y convivencia, y prepara el terreno para la evidencia que señala que el estudiante expresa cómo se siente usando palabras amables y que acepta o propone soluciones pacíficas ante conflictos sencillos.",
-      "definicion_estudiante": "La conciencia emocional ajena es darse cuenta de cómo se sienten los demás, mirando su cara, escuchando su voz y observando lo que hacen. Significa entender que mi amigo puede estar triste, asustado o enojado aunque no lo diga, y que puedo tratarlo con cuidado cuando noto eso. Al reconocer cómo se siente otro, puedo ayudarlo y jugar mejor con él.",
-      "habilidad_malla": "Habilidades sociales",
-      "ejemplo_aula": "\"Vi a mi amigo con la cara triste y la voz baja, y supe que se sentía mal.\"",
-      "evidencia_logro": "El docente observa que el estudiante identifica señales básicas de emoción en sus compañeros (expresiones faciales, postura, tono de voz) y las nombra en situaciones de juego o trabajo en el aula, mostrando conductas de ayuda o de acercamiento respetuoso cuando percibe malestar en otros.",
-      "tip_psicologico": "Diseñar actividades de observación guiada en las que los estudiantes describan cómo creen que se siente un personaje o un compañero a partir de su expresión corporal y verbal, y luego contrastar con lo que ese compañero expresa. Favorecer el uso de frases empáticas simples como \"veo que estás triste\" o \"¿te ayudo?\", reforzando cada intento de reconocimiento emocional ajeno. Evitar ridiculizar o minimizar el malestar de los niños para no inhibir la expresión emocional en el grupo."
+      "periodo": 3,
+      "talleres": [
+        {
+          "id_taller": "G1-P3-T1",
+          "nombre_taller": "Hablamos claro y con respeto",
+          "conceptos_relacionados": [
+            "Comunicación Asertiva",
+            "Respeto"
+          ],
+          "proposito_experiencia": "Que los niños practiquen expresar lo que sienten, piensan y necesitan usando palabras claras y respetuosas, sin gritar ni insultar, aun cuando están molestos.",
+          "recursos_eco": "Tarjetas con frases modelo asertivas, tarjetas con frases agresivas o pasivas para transformar, títeres o muñecos para representaciones, tablero para escribir ejemplos, espacio para dramatizar.",
+          "momento_inicio_conexion": "Pregunte al grupo: '¿Qué pasa cuando alguien te habla gritando o usando palabras feas?'. Escuche algunas respuestas y luego pregunte: '¿Y cómo se siente cuando te hablan con respeto, diciendo \"por favor\" y \"gracias\"?'. Explique que hoy aprenderán a usar la voz para decir lo que sienten sin hacer daño.",
+          "momento_desarrollo_vivencia": "1) Escriba en el tablero algunos ejemplos de frases agresivas comunes (adaptadas al lenguaje de primer grado, sin reproducir insultos fuertes) como '¡Dame eso!' o '¡No juegues aquí!'. Pida al grupo que las transforme en frases asertivas añadiendo respeto: '¿Me prestas eso, por favor?', '¿Podemos compartir este espacio?'. 2) Muestre tarjetas con frases modelo como 'Me molesta cuando...', 'Me siento triste cuando...', 'Necesito que...', y practiquen diciendo estas frases en coro. 3) Organice parejas y entrégueles una situación sencilla (alguien toma un color sin pedirlo, alguien habla muy duro al lado). Indique que primero representen la escena con una respuesta agresiva y luego la repitan usando una frase asertiva. 4) Invite a algunas parejas a mostrar sus escenas al grupo. Después de cada una, pregunte: '¿En cuál forma de hablar se sintieron mejor?', '¿Cuál ayuda más a resolver el problema?'. 5) Refuerce constantemente el tono de voz moderado y el uso de palabras de cortesía como 'por favor', 'gracias' y 'disculpa'.",
+          "momento_cierre_integracion": "En círculo, formule preguntas de reflexión: '¿Qué diferencia hay entre gritar y hablar con respeto?', '¿Qué puedes decir cuando algo te molesta en vez de quedarte callado o pegar?', '¿En qué situación de tu vida te gustaría usar una frase como \"Me molesta cuando…\"?', '¿Cómo te sientes cuando alguien te habla con respeto aunque esté bravo?'. Invite a los niños a elegir una frase asertiva que se comprometan a usar durante la semana.",
+          "revision_proposito": "Observe si los estudiantes pueden transformar frases agresivas en enunciados más respetuosos y si usan un tono de voz moderado durante las dramatizaciones. En la convivencia diaria, registre si comienzan a usar expresiones como 'por favor', 'gracias' y 'me molesta cuando…' para manejar desacuerdos.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P3-T2",
+          "nombre_taller": "Escucho con todo mi cuerpo",
+          "conceptos_relacionados": [
+            "Escucha Activa",
+            "Respeto"
+          ],
+          "proposito_experiencia": "Que los niños identifiquen y practiquen conductas concretas de escucha activa (mirar a quien habla, no interrumpir, esperar turno, responder a lo que el otro dijo) para mejorar la comprensión y el respeto en el aula.",
+          "recursos_eco": "Cartel con dibujo de un niño escuchando (ojos mirando, boca cerrada, cuerpo quieto), objeto de turno (pelota o bastón de la palabra), pequeñas historias o instrucciones para leer en voz alta, espacio para sentarse en círculo.",
+          "momento_inicio_conexion": "Muéstreles un cartel con un niño escuchando e invite al grupo a observar los detalles. Pregunte: '¿Qué está haciendo con sus ojos, su boca y su cuerpo?'. Escriba en el tablero las respuestas y explíqueles que eso se llama 'escucha activa' y nos ayuda a entender mejor a los demás.",
+          "momento_desarrollo_vivencia": "1) Diga a los niños: 'Vamos a practicar escuchar con todo el cuerpo'. Haga una demostración exagerando la buena escucha (mirar a la persona, estar quieto, no hablar) y otra demostración de mala escucha (mirar hacia otro lado, jugar con objetos, interrumpir). Pregunte cuál de las dos se siente más respetuosa. 2) Siéntelos en círculo y entregue el objeto de turno. Lea una historia corta o dé una instrucción y pida a quien tenga el objeto que repita lo más importante de lo escuchado. Luego pasa el objeto a otro compañero. 3) Organice pequeños diálogos entre parejas, donde uno cuenta algo que le pasó en el recreo y el otro debe escuchar y luego decir: 'Escuché que tú…', resumiendo lo que entendió. Luego cambian los roles. 4) Durante las prácticas, señale y nombre las conductas positivas: 'Veo que estás mirando a tu compañero', 'Esperaste tu turno para hablar'. 5) Conecte la escucha activa con el respeto, mencionando que cuando escuchamos bien hay menos malentendidos y peleas.",
+          "momento_cierre_integracion": "Cierre con preguntas: '¿Qué haces con tu cuerpo cuando escuchas activamente?', '¿Qué se siente cuando alguien te escucha de verdad?', '¿Qué pasa en el grupo cuando muchos interrumpen al mismo tiempo?', '¿En qué momento del día podrías practicar más la escucha activa?'. Invite a los niños a elegir un momento específico (clase, instrucciones, recreo) donde se comprometan a escuchar mejor.",
+          "revision_proposito": "Observe si durante el taller los estudiantes mantienen el contacto visual, controlan la impulsividad para no interrumpir y logran repetir información básica que escucharon. En las clases siguientes, note si disminuyen las interrupciones y si comprenden mejor las instrucciones al poner en práctica la escucha activa.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P3-T3",
+          "nombre_taller": "Construimos juntos",
+          "conceptos_relacionados": [
+            "Colaboración",
+            "Empatía Básica"
+          ],
+          "proposito_experiencia": "Que los niños experimenten la colaboración en pequeños grupos, reconociendo el aporte de cada compañero y vinculando la ayuda y el respeto con el logro de una tarea común.",
+          "recursos_eco": "Material común para construir en equipo (bloques, hojas y cinta, palitos de paleta, plastilina), hojas para dibujar roles, espacio suficiente para trabajar en grupos de tres, cartel para escribir acuerdos de trabajo en equipo.",
+          "momento_inicio_conexion": "Diga a los niños: 'Hoy no vamos a trabajar solos, vamos a construir algo juntos'. Pregunte: '¿Qué cosas son más fáciles cuando las hacemos en equipo?'. Escuche algunas respuestas y explique que cuando colaboramos, cada uno tiene una parte importante que hacer.",
+          "momento_desarrollo_vivencia": "1) Forme grupos de tres estudiantes y entrégueles el mismo tipo de material. Indique que el reto es construir algo en equipo (una torre, una figura, una mini-bandera), pero que primero deben decidir qué van a hacer y qué rol tendrá cada uno (por ejemplo, quien pega, quien sostiene, quien organiza las piezas). 2) Pida que conversen un momento dentro del grupo para acordar qué construirán y qué hará cada uno. Acérquese a los grupos y apoye la toma de decisiones con preguntas como: '¿Qué idea van a escoger?', '¿Qué va a hacer cada uno?'. 3) Deje que trabajen durante varios minutos, observando si se escuchan entre sí, comparten el material y ayudan a quien lo necesita. 4) Al finalizar, invite a cada grupo a mostrar su creación al resto del curso y a nombrar qué aportó cada integrante. Destaque ejemplos de colaboración y empatía, como cuando un niño espera que el otro termine o ayuda a corregir con paciencia. 5) Relacione lo vivido con la idea de que trabajar juntos se siente mejor que competir todo el tiempo y que cada aporte cuenta.",
+          "momento_cierre_integracion": "En círculo, haga preguntas guía: '¿Qué aportó cada persona del grupo?', '¿Fue fácil o difícil ponerse de acuerdo? ¿Por qué?', '¿Qué ayudó a que el trabajo saliera mejor?', '¿Cómo se siente colaborar en vez de trabajar solo?', '¿Qué podrían mejorar para la próxima actividad en equipo?'. Invite a los niños a decir el nombre de un compañero que los haya ayudado hoy y qué hizo.",
+          "revision_proposito": "Observe si los estudiantes son capaces de distribuir roles sencillos, compartir materiales sin discutir y reconocer en voz alta el aporte de sus compañeros. En actividades posteriores, note si piden ayuda con más facilidad, si escuchan ideas distintas a las propias y si muestran mayor disposición a trabajar en grupo.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        }
+      ]
     },
     {
-      "id": "CON-004",
-      "concepto": "Identificación de Señales Corporales",
-      "definicion_pedagogica": "En grado 1, la identificación de señales corporales tiene como objetivo que el estudiante asocie sus estados emocionales con manifestaciones físicas claras, como cambios en la respiración, la tensión muscular, el gesto facial o el tono de voz. Desde la práctica docente, esta habilidad permite que el niño reconozca precozmente las señales de activación emocional (por ejemplo, antes de un estallido de enojo) y pueda aplicar estrategias de autorregulación simples. Se articula con la orientación de la batería de autorregulación y con las evidencias que proponen que el estudiante aplique estrategias de respiración o pausa breve ante emociones desafiantes.",
-      "definicion_estudiante": "Identificar señales corporales es notar qué pasa en mi cuerpo cuando siento una emoción, como alegría, miedo o enojo. Puedo darme cuenta si mi corazón late rápido, si mis manos se aprietan, si mi cara se pone seria o si tengo ganas de llorar o de saltar. Cuando conozco esas señales, puedo avisar o usar estrategias para calmarme antes de hacer algo que me haga daño a mí o a otros.",
-      "habilidad_malla": "Auto regulación",
-      "ejemplo_aula": "\"Noto que cuando estoy asustado, mi cuerpo se pone tenso y quiero correr.\" / \"Cuando me siento feliz, mi cara sonríe y quiero saltar.\"",
-      "evidencia_logro": "El docente reconoce que el estudiante señala partes de su cuerpo y describe sensaciones asociadas a emociones básicas (por ejemplo, dice que el corazón late rápido cuando está enojado o que le dan ganas de llorar cuando está triste) y que, a partir de ello, está más dispuesto a aceptar o aplicar una estrategia de autorregulación como respirar profundo o hacer una pausa breve.",
-      "tip_psicologico": "Incorporar momentos breves de escaneo corporal guiado en la jornada (\"revisemos cómo está nuestro cuerpo\") para que los estudiantes identifiquen tensión, agitación o calma. Relacionar estas observaciones con situaciones recientes del aula, ayudándoles a nombrar la emoción correspondiente. Enseñar gradualmente que estas señales son como \"semáforos\" que avisan cuándo necesitan detenerse, respirar o pedir ayuda a un adulto."
-    }
-  ],
-  "periodo_2": [
-    {
-      "id": "CON-005",
-      "concepto": "Autocontrol",
-      "definicion_pedagogica": "El autocontrol en grado 1 se entiende como la capacidad del estudiante para detenerse antes de actuar impulsivamente y elegir respuestas más reguladas frente a emociones desafiantes como la frustración o el enojo. Para el docente, implica enseñar y modelar estrategias simples (respirar, contar, pedir una pausa) que permitan al niño mantener la participación y el respeto por las normas del aula, aun cuando se sienta molesto. Esta habilidad responde directamente al estándar de aplicar estrategias de autorregulación ante emociones desafiantes y se vincula con la competencia de autonomía emocional.",
-      "definicion_estudiante": "El autocontrol es poder detenerme un momento antes de hacer algo cuando estoy muy enojado o muy emocionado, para no lastimar a nadie ni meterme en problemas. Significa pensar primero y luego actuar, usando cosas que hemos aprendido como respirar profundo, contar o pedir ayuda. Así puedo seguir en la actividad sin gritar, pegar o tirarlo todo.",
-      "habilidad_malla": "Auto regulación",
-      "ejemplo_aula": "\"Practiqué el autocontrol cuando respiré hondo en lugar de gritar a mis compañeros cuando me sentía enojado.\"",
-      "evidencia_logro": "El docente observa que, ante tareas o juegos que generan frustración, el estudiante utiliza al menos una estrategia de autocontrol enseñada (respirar, contar, pedir pausa) antes de reaccionar impulsivamente, manteniendo la participación y evitando conductas como gritar, empujar o abandonar de inmediato la actividad.",
-      "tip_psicologico": "Enseñar explícitamente las estrategias de autocontrol en momentos de calma mediante juegos y ensayos guiados, y luego recordarlas de manera breve cuando surge la emoción intensa. Valorar públicamente los intentos de detenerse y respirar antes de actuar, más que solo sancionar las conductas impulsivas. Mantener instrucciones claras y consistentes, reduciendo estímulos distractores cuando se espera que los estudiantes pongan en práctica el autocontrol."
-    },
-    {
-      "id": "CON-006",
-      "concepto": "Regulación Emocional",
-      "definicion_pedagogica": "La regulación emocional abarca el conjunto de estrategias que el estudiante utiliza para modular la intensidad y duración de sus emociones, especialmente aquellas que pueden interferir con el aprendizaje o la convivencia. En grado 1, el énfasis está en que el niño aplique técnicas simples de autorregulación (respirar, pausar, pedir ayuda) durante actividades escolares desafiantes, de manera que logre mantener el esfuerzo y la participación. Esta habilidad concreta la competencia de regulación emocional y las evidencias que describen el uso de al menos una estrategia de autorregulación antes de continuar con la actividad.",
-      "definicion_estudiante": "La regulación emocional es aprender a calmarme cuando una emoción es muy fuerte, como cuando estoy muy enojado o muy triste, para poder seguir en clase sin hacer daño. Significa usar cosas que me ayudan, como respirar profundo, contar, pedir un momento o hablar con la profe. Así puedo sentirme mejor y terminar lo que estoy haciendo.",
-      "habilidad_malla": "Regulación emocional",
-      "ejemplo_aula": "\"Cuando me enojo, cuento hasta diez o respiro profundo para calmarme.\" / \"Evito empujar o gritar cuando me frustro.\"",
-      "evidencia_logro": "El docente verifica que el estudiante aplica de forma observable al menos una estrategia de regulación emocional antes de continuar con la tarea (por ejemplo, se detiene a respirar, cuenta, pide una pausa breve), y que, gracias a ello, mantiene el esfuerzo durante el tiempo acordado sin abandonar inmediatamente ni recurrir a conductas agresivas.",
-      "tip_psicologico": "Integrar las estrategias de regulación en la planificación diaria (inicio de clase, transiciones, cierre) para que se vuelvan hábitos y no solo recursos de emergencia. Usar lenguaje metacognitivo sencillo (\"te ayudó respirar antes de seguir\") para que el niño tome conciencia de qué estrategia funciona mejor para él. Coordinar con la familia el uso de las mismas estrategias básicas, ofreciendo coherencia entre casa y escuela."
-    },
-    {
-      "id": "CON-007",
-      "concepto": "Espera de Turno",
-      "definicion_pedagogica": "La espera de turno es una forma específica de regulación social que implica que el estudiante pueda posponer su deseo de hablar o actuar hasta que llegue su momento, respetando las normas de participación del aula. En grado 1, esta habilidad contribuye a la construcción de ambientes de aprendizaje organizados y seguros, donde cada niño puede ser escuchado. Está vinculada con las competencias de habilidades sociales y convivencia, así como con las evidencias que describen que el estudiante respeta turnos y formula solicitudes de manera respetuosa.",
-      "definicion_estudiante": "Esperar el turno es aguardar mi momento para hablar, jugar o usar un material, sin interrumpir a los demás ni empujarlos. Significa escuchar al que está hablando y hacer fila o levantar la mano cuando corresponde. Cuando espero mi turno, todos tenemos la oportunidad de participar y el salón está más ordenado.",
-      "habilidad_malla": "Convivencia",
-      "ejemplo_aula": "\"Pude esperar mi turno para hablar sin interrumpir a la maestra.\" / \"Espero a que mi compañero termine de usar el juguete antes de pedirlo.\"",
-      "evidencia_logro": "El docente observa que el estudiante respeta los turnos de participación en actividades orales, juegos y uso de materiales, esperando a ser nombrado o a que llegue su momento en la fila, y que formula sus pedidos con lenguaje respetuoso sin interrumpir ni tomar objetos de manera brusca.",
-      "tip_psicologico": "Establecer y recordar de forma visual y verbal las reglas de turnos (por ejemplo, usar tarjetas, palitos de nombres o señales de mano) para que el niño sepa cuándo le corresponde participar. Reforzar positivamente las ocasiones en que espera, describiendo la conducta observada (\"esperaste tu turno para hablar\") y mostrando cómo eso beneficia al grupo. Reducir el tiempo de espera para los estudiantes con mayor dificultad, ampliándolo progresivamente conforme ganan control."
-    },
-    {
-      "id": "CON-008",
-      "concepto": "Resolución de Conflictos (Básico)",
-      "definicion_pedagogica": "La resolución de conflictos básica en grado 1 se centra en que el estudiante aprenda a abordar desacuerdos sencillos mediante el diálogo, la búsqueda de acuerdos y la solicitud de mediación adulta cuando el conflicto lo supera. Para el docente, supone enseñar pasos claros y repetibles para resolver problemas (explicar lo que pasó, decir cómo se siente, escuchar al otro, proponer soluciones pacíficas) en situaciones del aula y el recreo. Esta habilidad se articula con la competencia de convivencia y con las evidencias que señalan que el estudiante propone o acepta soluciones pacíficas como turnarse, compartir o pedir mediación al docente.",
-      "definicion_estudiante": "La resolución de conflictos básica es aprender a arreglar problemas con mis compañeros sin pegar ni gritar. Significa contar lo que pasó, decir cómo me siento, escuchar al otro y buscar juntos una solución, como turnarnos o compartir. Si el problema es muy difícil, también es pedir ayuda a un adulto para que nos acompañe.",
-      "habilidad_malla": "Convivencia",
-      "ejemplo_aula": "\"Cuando un compañero y yo no nos poníamos de acuerdo con un juego, le pedimos ayuda a la maestra.\" / \"Intento hablar con mi amigo si hay un problema en lugar de pelear.\"",
-      "evidencia_logro": "El docente identifica que, en desacuerdos sencillos, el estudiante intenta primero usar el diálogo y propone o acepta opciones pacíficas (compartir, turnarse, cambiar de juego) y que, cuando se siente superado, recurre a la mediación del adulto en lugar de escalar el conflicto con agresiones verbales o físicas.",
-      "tip_psicologico": "Enseñar una secuencia simple para resolver conflictos (por ejemplo, \"hablo, escucho, propongo, acuerdo\") utilizando apoyos visuales y dramatizaciones con situaciones cercanas al grupo. Acompañar en vivo los primeros intentos de los estudiantes, guiando el uso de frases en primera persona y evitando culpas globales. Registrar y revisar con el curso ejemplos de conflictos resueltos pacíficamente para reforzar la idea de que los desacuerdos son oportunidades de aprendizaje."
-    },
-    {
-      "id": "CON-009",
-      "concepto": "Valentía",
-      "definicion_pedagogica": "En el marco del proyecto socioemocional, la valentía en grado 1 se entiende como la disposición del estudiante a actuar de manera adecuada a pesar de sentir miedo, vergüenza o inseguridad, especialmente en contextos de aprendizaje y participación social. Para el docente, implica promover experiencias graduadas en las que el niño pueda intentar cosas nuevas, expresar lo que siente o pedir ayuda, reconociendo que sentir miedo es natural pero que puede ser gestionado. Esta habilidad se vincula con la competencia de autonomía emocional y con las evidencias que muestran al estudiante participando en actividades desafiantes pese a sus temores.",
-      "definicion_estudiante": "La valentía es atreverse a hacer algo que da un poco de miedo, como hablar en voz alta, probar una actividad nueva o pedir ayuda cuando no entiendo. No significa no sentir miedo, sino intentarlo aunque esté nervioso, buscando apoyo si lo necesito. Cuando soy valiente, aprendo cosas nuevas y me siento orgulloso de mí.",
-      "habilidad_malla": "Autonomía emocional",
-      "ejemplo_aula": "\"Actué con valentía cuando levanté la mano para leer frente a todos.\"",
-      "evidencia_logro": "El docente observa que el estudiante participa en actividades que antes evitaba por miedo o vergüenza (como leer en voz alta, pasar al tablero o expresar una opinión), manifestando nervios o dudas pero logrando completar la acción con apoyo, y que luego puede reconocer el logro alcanzado.",
-      "tip_psicologico": "Crear un clima emocional seguro en el que equivocarse sea parte natural del aprendizaje, evitando burlas y corrigiendo con respeto. Proponer desafíos graduales, comenzando por tareas de exposición pequeñas y aumentando la dificultad conforme el estudiante gana confianza, reforzando verbalmente el esfuerzo más que el resultado. Utilizar relatos y personajes que muestren valentía cotidiana, conectando sus experiencias con las de los niños."
-    }
-  ],
-  "periodo_3": [
-    {
-      "id": "CON-010",
-      "concepto": "Respeto",
-      "definicion_pedagogica": "El respeto en grado 1 integra dimensiones de cuidado hacia uno mismo, hacia los otros y hacia las normas que organizan la vida escolar. Desde la intervención docente, implica promover conductas de escucha, uso de lenguaje amable, cuidado de los materiales y reconocimiento del valor de cada persona, articulando esta noción con la expresión emocional respetuosa planteada en el estándar del tercer período. El respeto funciona como eje transversal que sostiene la convivencia pacífica y la participación en el aula.",
-      "definicion_estudiante": "El respeto es tratar bien a las personas y a uno mismo, usando palabras amables, escuchando y cuidando las cosas del salón. Significa no pegar, no insultar y no interrumpir cuando otro habla. Cuando respetamos, todos podemos aprender y estar tranquilos en el colegio.",
-      "habilidad_malla": "Comunicación emocional",
-      "ejemplo_aula": "\"Demuestro respeto cuando espero a que mi compañero termine de hablar.\"",
-      "evidencia_logro": "El docente observa que el estudiante usa un tono de voz adecuado, evita los insultos y las burlas, respeta los turnos de palabra y cuida los materiales compartidos, mostrando coherencia entre lo que dice y lo que hace en relación con el respeto hacia compañeros y adultos.",
-      "tip_psicologico": "Explicitar normas de respeto concretas (cómo hablamos, cómo tocamos, cómo usamos los objetos) y revisarlas frecuentemente con el grupo, vinculándolas a situaciones reales del aula. Reconocer públicamente las conductas respetuosas, mostrando su impacto positivo en el clima de clase. Abordar de inmediato los actos de falta de respeto desde la reflexión y la reparación, más que solo desde la sanción."
-    },
-    {
-      "id": "CON-011",
-      "concepto": "Comunicación Asertiva",
-      "definicion_pedagogica": "La comunicación asertiva en grado 1 se refiere a la capacidad del estudiante para expresar emociones, pensamientos y necesidades de manera clara, respetuosa y directa, evitando tanto la agresividad como la pasividad. Para el docente, supone enseñar estructuras lingüísticas simples en primera persona y modelar cómo poner límites sin recurrir a gritos o agresiones verbales. Esta habilidad se vincula con la competencia de comunicación emocional y con las evidencias que indican que el estudiante expresa cómo se siente usando palabras amables y tono adecuado.",
-      "definicion_estudiante": "La comunicación asertiva es decir lo que siento y lo que necesito con respeto, sin gritar ni guardar todo en silencio. Significa usar palabras como \"por favor\", \"no me gusta\" o \"me molesta\" para que los demás entiendan cómo me siento. Cuando hablo así, puedo cuidar mis sentimientos y también los de mis compañeros.",
-      "habilidad_malla": "Comunicación emocional",
-      "ejemplo_aula": "\"Le dije a mi compañero: 'Me molesta que tomes mis colores sin preguntar', en lugar de enojarme.\" / \"Digo 'por favor' y 'gracias' cuando pido o recibo algo.\"",
-      "evidencia_logro": "El docente constata que el estudiante utiliza expresiones en primera persona para comunicar emociones y necesidades (\"yo siento\", \"no me gusta\") con un tono de voz adecuado, sin recurrir a gritos ni insultos, y que logra ajustar su forma de hablar cuando se le retroalimenta en situaciones de conflicto.",
-      "tip_psicologico": "Practicar frases modelo de comunicación asertiva mediante juegos de rol y diálogos guiados, ofreciendo al estudiante alternativas concretas para expresar desacuerdo o molestia. Señalar explícitamente cuándo una respuesta ha sido asertiva y qué la hace adecuada, reforzando tanto la forma como el contenido. Limitar el uso de etiquetas negativas entre compañeros y redirigir el lenguaje hacia la descripción de conductas y emociones."
-    },
-    {
-      "id": "CON-012",
-      "concepto": "Escucha Activa",
-      "definicion_pedagogica": "La escucha activa implica que el estudiante preste atención plena a quien habla, manteniendo contacto visual, postura adecuada y control de impulsos para no interrumpir. En grado 1, esta habilidad es fundamental para el seguimiento de instrucciones, la comprensión de consignas y el respeto por la palabra del otro. Se articula con las competencias de habilidades sociales y con la evidencia que plantea que el estudiante escucha y espera su turno antes de actuar o responder.",
-      "definicion_estudiante": "Escuchar activamente es poner mucha atención a la persona que habla, mirando a la profe o al compañero, sin hablar al mismo tiempo ni jugar con otras cosas. Significa esperar a que termine para entender bien lo que dice y luego poder responder o hacer la actividad. Cuando escucho así, me equivoco menos y entiendo mejor a los demás.",
-      "habilidad_malla": "Habilidades sociales",
-      "ejemplo_aula": "\"Escuché con atención las instrucciones de la profe sin empezar a hacer la actividad.\" / \"Me esfuerzo por entender a mis amigos cuando hablan, mirándolos a la cara.\"",
-      "evidencia_logro": "El docente observa que el estudiante mantiene contacto visual, reduce distractores y no interrumpe mientras otro habla, pudiendo luego repetir o ejecutar adecuadamente las instrucciones dadas, lo que evidencia comprensión y respeto por la comunicación en el aula.",
-      "tip_psicologico": "Incorporar señales claras de inicio de escucha (como un gesto o una palabra clave) y practicar con el grupo qué comportamientos se esperan en esos momentos. Alternar tiempos breves de explicación con oportunidades de participación para mantener la atención y evitar sobrecarga. Felicitar de manera específica la conducta de escucha (\"estuviste en silencio, mirando y esperando tu turno\") para reforzarla como una habilidad valiosa."
-    },
-    {
-      "id": "CON-013",
-      "concepto": "Colaboración",
-      "definicion_pedagogica": "La colaboración en grado 1 se orienta a que el estudiante participe activamente en tareas grupales, comparta materiales y espacios, y escuche las ideas de otros, comprendiendo que el trabajo conjunto beneficia a todos. Desde la mirada docente, esta habilidad requiere la planificación de actividades cooperativas estructuradas y la enseñanza explícita de roles y normas de interacción. Se relaciona con la competencia de convivencia y con las evidencias que muestran al estudiante compartiendo materiales, participando en tareas comunes y escuchando opiniones diversas.",
-      "definicion_estudiante": "Colaborar es trabajar junto con mis compañeros para lograr algo entre todos, como un cartel o un juego. Significa compartir materiales, ayudar cuando alguien lo necesita y escuchar las ideas de los demás, no solo hacer lo mío. Cuando colaboramos, el trabajo sale mejor y todos nos sentimos parte del grupo.",
-      "habilidad_malla": "Convivencia",
-      "ejemplo_aula": "\"Trabajamos en colaboración cuando hicimos el cartel del Día de la Tierra entre todos.\" / \"Ayudo a mis compañeros cuando lo necesitan en las actividades.\"",
-      "evidencia_logro": "El docente identifica que el estudiante comparte sus materiales en actividades grupales, acepta roles asignados o acordados y escucha las aportaciones de sus compañeros, evitando acaparar el trabajo o excluir a otros del proceso.",
-      "tip_psicologico": "Diseñar tareas en las que la colaboración sea necesaria para completar el producto, distribuyendo responsabilidades claras y rotativas. Supervisar de cerca las interacciones para prevenir que algunos estudiantes dominen y otros queden pasivos, promoviendo que todos tengan voz. Valorar explícitamente los comportamientos de ayuda mutua y cooperación, relacionándolos con el logro común."
-    },
-    {
-      "id": "CON-014",
-      "concepto": "Empatía Básica",
-      "definicion_pedagogica": "La empatía básica hace referencia a la capacidad del estudiante para reconocer y comprender, de manera sencilla, los sentimientos de los demás y responder con consideración. En grado 1, se trabaja a través de situaciones cotidianas del aula y del recreo, favoreciendo que el niño se pregunte cómo se siente el otro y cómo puede actuar de forma amable. Esta habilidad complementa la conciencia emocional ajena y está alineada con las competencias de habilidades sociales y convivencia pacífica.",
-      "definicion_estudiante": "La empatía básica es ponerse en el lugar del otro para imaginar cómo se siente y tratarlo bien por eso. Significa pensar \"¿cómo se sentirá mi amigo?\" cuando está triste, asustado o enojado, y decidir ayudarlo o cuidarlo en vez de burlarse. Cuando tengo empatía, cuido mis palabras y mis acciones para no hacer daño.",
-      "habilidad_malla": "Habilidades sociales",
-      "ejemplo_aula": "\"Trato bien a los demás aunque piense diferente a mí sobre un juego.\" / \"Me doy cuenta de cómo se siente mi amigo cuando está asustado.\"",
-      "evidencia_logro": "El docente observa que el estudiante muestra preocupación por compañeros que están tristes, nerviosos o asustados, se acerca a ofrecer ayuda o compañía y evita conductas de burla cuando alguien se equivoca o tiene miedo, evidenciando comprensión básica de los sentimientos ajenos.",
-      "tip_psicologico": "Utilizar cuentos, videos breves y situaciones simuladas para explorar cómo se sienten distintos personajes, guiando preguntas sobre emociones y posibles respuestas de apoyo. Invitar a los estudiantes a recordar momentos en que agradecieron que alguien los comprendiera, conectando esas experiencias con el valor de la empatía. Intervenir de inmediato ante conductas de burla, transformándolas en oportunidades para reflexionar sobre el impacto emocional en el otro."
-    }
-  ],
-  "periodo_4": [
-    {
-      "id": "CON-015",
-      "concepto": "Respeto a los Acuerdos y Normas",
-      "definicion_pedagogica": "El respeto a los acuerdos y normas en grado 1 implica que el estudiante comprenda y cumpla las reglas del aula, los juegos y la convivencia, incluso cuando estas no coinciden con sus deseos inmediatos. Para el docente, supone construir normas de manera participativa, explicando su sentido y revisándolas con el grupo, de modo que el cumplimiento se relacione con el cuidado propio y de los demás. Esta habilidad se vincula con la competencia de convivencia y con las evidencias que señalan que el estudiante acata y respeta acuerdos establecidos en el aula.",
-      "definicion_estudiante": "Respetar los acuerdos y normas es seguir las reglas que hacemos en el salón y en los juegos, aunque a veces no gane o no sea lo que yo quiero. Significa cumplir lo que se ha dicho, como no correr dentro del salón, levantar la mano para hablar o cuidar los materiales. Cuando todos respetamos las normas, el colegio es más seguro y ordenado.",
-      "habilidad_malla": "Convivencia",
-      "ejemplo_aula": "\"Sigo las reglas del juego de mesa aunque no haya ganado esta vez.\" / \"Cumplo con los acuerdos del salón para mantener el orden.\"",
-      "evidencia_logro": "El docente constata que el estudiante recuerda y cumple las normas del aula y de los juegos sin necesidad de recordatorios constantes, acepta resultados que no le favorecen sin romper el acuerdo y contribuye a que sus compañeros también recuerden las reglas de convivencia.",
-      "tip_psicologico": "Construir las normas junto con los estudiantes, usando lenguaje simple y apoyos visuales, para favorecer el sentido de pertenencia y compromiso. Revisar periódicamente los acuerdos, conectándolos con situaciones concretas de aula y destacando ejemplos de cumplimiento. Ante incumplimientos, promover la reflexión y la reparación en lugar de centrarse solo en la sanción, reforzando la idea de que las normas protegen al grupo."
-    },
-    {
-      "id": "CON-016",
-      "concepto": "Responsabilidad y Cuidado",
-      "definicion_pedagogica": "La responsabilidad y cuidado en grado 1 se expresan en la forma en que el estudiante protege sus pertenencias, los materiales compartidos y los espacios escolares, asumiendo tareas sencillas de orden y mantenimiento. Desde la práctica docente, esta habilidad se trabaja mediante rutinas claras de organización y encargos rotativos que conectan el cuidado del entorno con el respeto por los otros. Está alineada con la competencia de habilidades sociales y con el énfasis del proyecto en la convivencia y el uso responsable de recursos.",
-      "definicion_estudiante": "La responsabilidad y el cuidado son hacerme cargo de mis cosas y de las del salón, usando y guardando bien los materiales. Significa recoger lo que uso, no dañar los libros ni los juguetes y ayudar a mantener limpio el espacio donde estudia mi grupo. Cuando soy responsable, muestro que puedo cuidar lo que es mío y lo que es de todos.",
-      "habilidad_malla": "Habilidades sociales",
-      "ejemplo_aula": "\"Después de terminar mi actividad, recogí mis colores y guardé el material.\" / \"Cuido los libros de la biblioteca del colegio.\"",
-      "evidencia_logro": "El docente observa que el estudiante cumple de forma constante con tareas de orden y cuidado (recoger materiales, organizar su puesto, cuidar libros y recursos comunes) sin necesidad de múltiples recordatorios, mostrando comprensión de que su conducta impacta en el bienestar del grupo.",
-      "tip_psicologico": "Establecer responsabilidades concretas y visibles (encargados de material, de piso, de biblioteca) rotándolas para que todos tengan oportunidad de ejercer cuidado. Conectar verbalmente estos actos con valores de respeto y pertenencia, reforzando que el salón es un espacio compartido. Utilizar listas de chequeo sencillas o canciones para acompañar las rutinas de orden y hacerlas predecibles y motivantes."
-    },
-    {
-      "id": "CON-017",
-      "concepto": "Asunción de Consecuencias / Reparación",
-      "definicion_pedagogica": "La asunción de consecuencias y reparación, en grado 1, se refiere a que el estudiante reconozca cuando ha cometido un error que afecta a otros y se implique en acciones concretas para reparar el daño, más allá de decir \"perdón\". Para el docente, esto supone guiar al niño en la comprensión de la relación entre su conducta y el impacto en los demás, promoviendo respuestas reparadoras que fortalezcan el vínculo y la responsabilidad personal. Esta habilidad se vincula con las competencias de autonomía emocional y responsabilidad en la convivencia.",
-      "definicion_estudiante": "Asumir consecuencias y reparar es aceptar cuando hice algo que dañó a otro o a sus cosas, y hacer algo para arreglarlo. No es solo decir \"perdón\", sino mostrar con acciones que quiero mejorar, como ayudar a rehacer un trabajo o cuidar más la próxima vez. Así demuestro que me importa cómo se sienten los demás.",
-      "habilidad_malla": "Autonomía emocional",
-      "ejemplo_aula": "\"Le pedí perdón a mi amigo por hablarle fuerte y le invité a jugar para arreglarlo.\" / \"Cuando dañé el dibujo de un compañero sin querer, le ofrecí ayudarlo a arreglarlo.\"",
-      "evidencia_logro": "El docente verifica que, tras una conducta que afecta negativamente a un compañero o al grupo, el estudiante reconoce lo ocurrido, expresa disculpas y participa en una acción reparadora concreta (ayudar a reconstruir, devolver el tiempo de juego, colaborar en el orden), evidenciando aprendizaje a partir del error.",
-      "tip_psicologico": "Acompañar el proceso de reparación paso a paso, ayudando al niño a describir lo sucedido, reconocer la emoción del otro y pensar en formas concretas de enmendar el daño. Evitar humillar o exponer en exceso al estudiante, centrando la intervención en la responsabilidad y la posibilidad de mejorar. Registrar y resaltar ejemplos de reparaciones exitosas para consolidar esta práctica como parte de la cultura del curso."
-    },
-    {
-      "id": "CON-018",
-      "concepto": "Autonomía y Seguimiento de Instrucciones",
-      "definicion_pedagogica": "La autonomía y el seguimiento de instrucciones en grado 1 se manifiestan cuando el estudiante es capaz de iniciar y completar tareas escolares siguiendo indicaciones dadas, sin depender constantemente de recordatorios adultos para comportarse adecuadamente. Para el docente, implica estructurar consignas claras y gradualmente más complejas, de manera que el niño pueda asumir un rol más activo y responsable en su proceso de aprendizaje. Esta habilidad contribuye a la competencia de autonomía emocional y al desarrollo de hábitos de estudio.",
-      "definicion_estudiante": "Autonomía y seguimiento de instrucciones es poder empezar y terminar mis actividades siguiendo lo que la profe dice, sin que me lo repitan muchas veces. Significa escuchar la consigna, preguntar si no entiendo y luego trabajar por mi cuenta, cuidando mi comportamiento y mi espacio. Cuando lo hago, muestro que puedo hacer las cosas solo y que confían en mí.",
-      "habilidad_malla": "Autonomía emocional",
-      "ejemplo_aula": "\"Empecé a organizar mi puesto apenas terminó la clase, sin que la maestra me lo pidiera.\" / \"Sigo las instrucciones completas de la tarea sin que me las repitan.\"",
-      "evidencia_logro": "El docente observa que el estudiante escucha la consigna, la pone en práctica y mantiene la tarea hasta completarla, iniciando acciones como organizar su espacio o preparar materiales sin requerir múltiples indicaciones, lo que muestra un incremento en su autonomía y responsabilidad.",
-      "tip_psicologico": "Dar instrucciones cortas y secuenciadas, verificando comprensión mediante la repetición en voz del estudiante antes de iniciar la actividad. Ofrecer apoyos visuales (dibujos, pasos numerados) que permitan al niño seguir la tarea de forma independiente. Reforzar cada avance en autonomía con expresiones que destaquen la confianza en sus capacidades y el impacto positivo en la organización del grupo."
-    },
-    {
-      "id": "CON-019",
-      "concepto": "Búsqueda de Mediación / Ayuda",
-      "definicion_pedagogica": "La búsqueda de mediación o ayuda supone que el estudiante reconozca cuándo una situación emocional o de conflicto supera sus recursos y decida acudir a un adulto de referencia (docente, orientador) en lugar de responder con conductas descontroladas. En grado 1, esta habilidad es clave para la prevención de escaladas de conflicto y para la construcción de una red de apoyo percibida como segura. Se relaciona con las competencias de regulación emocional y convivencia.",
-      "definicion_estudiante": "Buscar mediación o ayuda es darse cuenta de que un problema es demasiado difícil para resolverlo solo y entonces llamar a un adulto para que acompañe. Significa decirle a la profe o a otro adulto de confianza lo que pasa y cómo me siento, en vez de pegar, gritar o irme. Pedir ayuda también es una forma de cuidarme y cuidar a mis amigos.",
-      "habilidad_malla": "Regulación emocional",
-      "ejemplo_aula": "\"Profe, no nos ponemos de acuerdo con el juego, ¿nos ayudas a buscar una solución?\" / \"Sé cuándo necesito un adulto para entender mejor lo que siento cuando estoy muy confundido.\"",
-      "evidencia_logro": "El docente identifica que, ante conflictos que se complican o emociones muy intensas, el estudiante acude de manera intencional a un adulto para solicitar mediación o contención, en lugar de recurrir a agresiones físicas o verbales, mostrando comprensión de que el acompañamiento puede ayudar a resolver la situación.",
-      "tip_psicologico": "Presentar claramente quiénes son los adultos disponibles para ayudar y en qué tipos de situaciones se recomienda acudir a ellos, usando ejemplos concretos. Validar siempre la decisión de pedir ayuda, evitando mensajes que la hagan ver como debilidad. Enseñar frases simples para solicitar mediación (\"profe, necesitamos ayuda con...\") y usarlas en dramatizaciones para que se integren al repertorio del estudiante."
-    },
-    {
-      "id": "CON-020",
-      "concepto": "Vínculo y Confianza",
-      "definicion_pedagogica": "El vínculo y la confianza en grado 1 se refieren a la construcción de relaciones positivas y seguras entre estudiantes y con los adultos, basadas en el respeto, la ayuda mutua y la comunicación abierta. Desde la mirada docente, esta habilidad implica ofrecer un clima emocional estable, coherente y predecible que permita al niño sentirse protegido para explorar, equivocarse y aprender. Se alinea con la competencia de habilidades sociales y con la orientación de la batería hacia la convivencia.",
-      "definicion_estudiante": "El vínculo y la confianza es sentir que puedo contar con mis amigos y con los adultos del colegio, porque me tratan bien y yo también los trato bien. Significa hablar con respeto, ayudar cuando alguien lo necesita y portarme de manera que los demás sepan que pueden confiar en mí. Cuando hay confianza, nos sentimos más tranquilos para aprender y jugar.",
-      "habilidad_malla": "Vínculo y confianza",
-      "ejemplo_aula": "\"Trato bien a mis amigos y profesores.\" / \"Intento solucionar desacuerdos hablando con respeto con mis compañeros.\" / \"Me esfuerzo por portarme bien para que los adultos confíen en mí.\"",
-      "evidencia_logro": "El docente observa que el estudiante se aproxima a adultos y compañeros para compartir lo que le ocurre, acepta consuelo o ayuda cuando lo necesita y muestra conductas consistentes de respeto y colaboración que fortalecen la confianza mutua en el grupo.",
-      "tip_psicologico": "Construir rutinas de bienvenida y cierre que incluyan espacios breves para compartir cómo se sienten, favoreciendo el conocimiento mutuo. Responder de forma estable y coherente a las conductas del estudiante, de modo que pueda anticipar reacciones adultas y sentirse seguro. Promover actividades cooperativas donde se destaquen gestos de apoyo y cuidado, explicando explícitamente cómo estos fortalecen la confianza entre todos."
+      "periodo": 4,
+      "talleres": [
+        {
+          "id_taller": "G1-P4-T1",
+          "nombre_taller": "Cuidamos lo que es de todos",
+          "conceptos_relacionados": [
+            "Respeto a los Acuerdos y Normas",
+            "Responsabilidad y Cuidado"
+          ],
+          "proposito_experiencia": "Que los niños comprendan que las normas y acuerdos del salón existen para cuidar a las personas y los objetos, y practiquen conductas concretas de responsabilidad en el uso de materiales y espacios.",
+          "recursos_eco": "Cartel con normas básicas del aula, imágenes o tarjetas que muestren conductas de cuidado y descuido, contenedores para materiales (cajas, canastas), etiquetas para identificar lugares de guardado, espacio para un breve juego de roles.",
+          "momento_inicio_conexion": "Pregunte: '¿Qué pasaría si en el salón nadie recogiera sus cosas ni respetara las reglas?'. Escuche las respuestas y luego muestre el cartel con algunas normas del curso. Explique que las normas no son castigos, sino acuerdos para que todos estén seguros y cómodos.",
+          "momento_desarrollo_vivencia": "1) Lea en voz alta algunas normas del aula (por ejemplo, levantar la mano para hablar, cuidar los libros, mantener el puesto ordenado) y pida a los niños que digan por qué creen que cada una es importante. 2) Muestre imágenes de situaciones de cuidado y descuido (material tirado, pupitre ordenado, libros rayados, juguetes guardados) y pida que identifiquen cuáles muestran respeto a las normas y cuáles no. 3) Organice un juego de roles en el que unos niños representen a un grupo que no respeta las normas (tirar papeles, hablar fuerte, no guardar materiales) y luego el mismo grupo represente cómo sería si sí las cumplieran. Pregunte qué diferencias notan en el ambiente. 4) Asigne a pequeños equipos la responsabilidad de un área específica del salón (biblioteca, cajón de colores, zona de mochilas) y pídales que diseñen, con ayuda del docente, una mini-regla para cuidarla. 5) Concluya reforzando que cumplir acuerdos y normas es una forma de mostrar respeto y cuidar el colegio como un espacio común.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué norma del salón te cuesta más cumplir?', '¿Cuál norma te ayuda más a estar tranquilo y aprender?', '¿Qué hiciste hoy para cuidar tus cosas y las del salón?', '¿Qué pasaría si todos decidieran no cumplir las normas?'. Invite a cada niño a elegir una norma que se comprometa a cuidar especialmente durante la semana.",
+          "revision_proposito": "Observe si los estudiantes pueden explicar con sus palabras para qué sirve al menos una norma del salón y si identifican conductas concretas de cuidado y descuido. Durante los días siguientes, registre si cumplen mejor los acuerdos establecidos para las distintas áreas del aula y si participan en el ordenamiento sin necesidad de múltiples recordatorios.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P4-T2",
+          "nombre_taller": "Reparo mis errores",
+          "conceptos_relacionados": [
+            "Asunción de Consecuencias / Reparación",
+            "Búsqueda de Mediación / Ayuda"
+          ],
+          "proposito_experiencia": "Que los niños reconozcan cuando han cometido un error que afecta a otros y practiquen una secuencia sencilla para pedir perdón y reparar, incluyendo la posibilidad de pedir ayuda a un adulto para resolver situaciones difíciles.",
+          "recursos_eco": "Tarjetas con ejemplos de errores comunes (romper algo sin querer, hablar fuerte a un compañero, no cumplir un acuerdo), cartel con los pasos para reparar, papel y lápices para escribir o dibujar disculpas, títeres o muñecos para dramatizar.",
+          "momento_inicio_conexion": "Pregunte: '¿Alguna vez has hecho algo que hizo sentir mal a alguien aunque no quisieras?'. Invite a levantar la mano sin pedir detalles. Explique que equivocarse es parte de aprender, pero que es importante hacerse responsable y reparar lo ocurrido.",
+          "momento_desarrollo_vivencia": "1) Presente y escriba en un cartel tres pasos para reparar: 1. Reconozco lo que pasó, 2. Pido perdón de forma sincera, 3. Busco una forma de reparar o pido ayuda a un adulto si no sé cómo hacerlo. 2) Dramatice con títeres una situación sencilla (empujón accidental, daño pequeño de material). Pausadamente, modele los tres pasos, diciendo frases como: 'Te empujé sin querer y te caíste, lo siento' y '¿Cómo puedo ayudarte a que te sientas mejor?'. 3) Entregue a los niños tarjetas con diferentes situaciones de error y pídales que, en parejas, inventen un pequeño diálogo usando los tres pasos. 4) Invite a varias parejas a presentar sus diálogos frente al grupo. Después de cada presentación, pregunte: '¿Reconoció lo que hizo?', '¿Pidió perdón?', '¿Cómo reparó o a quién pidió ayuda?'. 5) Ofrezca a los niños la posibilidad de escribir o dibujar en una hoja una disculpa simbólica para alguien a quien hayan hecho sentir mal recientemente (sin mencionar nombres en voz alta si no quieren) y recuérdeles que pueden hablar con la persona o con un adulto de confianza para reparar.",
+          "momento_cierre_integracion": "Cierre preguntando: '¿Qué significa para ti reparar un error?', '¿Qué te ayuda a pedir perdón cuando te cuesta?', '¿Qué sientes cuando alguien te pide perdón sinceramente?', '¿Por qué el perdón mejora la convivencia en el salón?', '¿A quién podrías pedir ayuda si tienes un problema que no puedes resolver solo?'. Invite a los niños a pensar en una situación pequeña en la que podrían aplicar estos pasos hoy o mañana.",
+          "revision_proposito": "Observe si los estudiantes son capaces de relatar al menos un ejemplo de error y una forma concreta de reparación. En la convivencia cotidiana, registre si empiezan a usar con mayor frecuencia expresiones de disculpa y si recurren a un adulto para mediar cuando el conflicto es demasiado difícil para ellos solos.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        },
+        {
+          "id_taller": "G1-P4-T3",
+          "nombre_taller": "Puedo solo, pero también pido ayuda",
+          "conceptos_relacionados": [
+            "Autonomía y Seguimiento de Instrucciones",
+            "Búsqueda de Mediación / Ayuda",
+            "Vínculo y Confianza"
+          ],
+          "proposito_experiencia": "Que los niños diferencien entre las tareas que pueden realizar de forma autónoma siguiendo instrucciones y aquellas situaciones emocionales o de conflicto en las que es mejor pedir ayuda a un adulto de confianza.",
+          "recursos_eco": "Lista visual de instrucciones simples para una tarea (por ejemplo, organizar el puesto, desarrollar una actividad breve), tarjetas con situaciones que sí pueden resolver solos y otras que requieren adulto, imágenes de adultos de confianza del colegio (docente, orientador, coordinador), espacio para trabajo individual y breve discusión en grupo.",
+          "momento_inicio_conexion": "Diga a los niños: 'Cada día haces cosas tú solo y otras en las que necesitas ayuda. Hoy vamos a descubrir cuáles puedes hacer por tu cuenta y cuándo es importante llamar a un adulto'. Pregunte: '¿Qué cosas ya sabes hacer sin que te lo recuerden?'. Listen algunas respuestas como ejemplo de autonomía.",
+          "momento_desarrollo_vivencia": "1) Presente una tarea sencilla paso a paso (por ejemplo, guardar cuadernos, organizar el puesto y preparar los materiales para la siguiente clase). Escriba o dibuje las instrucciones en el tablero. Pida a los niños que las sigan sin que usted esté repitiendo constantemente y observe quién lo logra. 2) Felicite los intentos de autonomía y pregunte cómo se sintieron al hacerlo solos. 3) Luego muestre tarjetas con distintas situaciones: 'Tu cuaderno se cae al piso', 'Un compañero no quiere jugar contigo', 'Dos niños se están empujando fuerte', 'Te sientes muy confundido y con ganas de llorar', 'No entiendes una parte de la tarea'. Pida al grupo que decida si es una situación que pueden resolver solos o si necesitan ayuda de un adulto, levantando una mano para cada opción. 4) Muestre imágenes de adultos de confianza en el colegio y refuerce que pueden acudir a ellos cuando el problema es muy grande o se sienten muy afectados. 5) Relacione la autonomía con la confianza de los adultos en ellos: seguir instrucciones sin que se las repitan, cuidar sus cosas y pedir ayuda cuando corresponde muestra que están creciendo.",
+          "momento_cierre_integracion": "En círculo, pregunte: '¿Qué tarea del colegio puedes hacer ahora más solo que antes?', '¿Qué tipo de problemas necesitas contarle a un adulto?', '¿Cómo te sientes cuando un adulto te ayuda a resolver algo difícil?', '¿Por qué crees que los adultos confían más en ti cuando sigues las instrucciones sin que te las repitan?'. Invite a los niños a elegir una tarea en la que intentarán ser más autónomos y un tipo de situación en la que prometen pedir ayuda.",
+          "revision_proposito": "Observe si los estudiantes siguen instrucciones simples de manera más independiente y si pueden clasificar verbalmente ejemplos de situaciones que requieren ayuda adulta. En los días siguientes, note si aumentan las conductas de orden y autoorganización y si buscan a un adulto de manera oportuna cuando enfrentan conflictos o emociones muy intensas.",
+          "tiempo_aplicacion": "30 a 40 minutos",
+          "enlace_multimedia": null
+        }
+      ]
     }
   ]
 }
