@@ -22,7 +22,7 @@ window.RenderEngine = (function() {
     }
 
     const url = `diccionario_eco.html?grado=${grado}&periodo=${periodo}&area=${encodeURIComponent(config.AREAS["proyecto-socioemocional"].nombre)}`;
-    window.open(url, '_blank');
+    window.open(url, '_self');
   };
 
 
