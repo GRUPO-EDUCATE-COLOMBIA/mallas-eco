@@ -1,4 +1,3 @@
-// FILE: js/render-engine.js | VERSION: v12.1.0 Stable (Actualización Persistencia)
 window.RenderEngine = (function() {
   const containerMalla = document.getElementById('contenedor-malla');
 
@@ -12,8 +11,7 @@ window.RenderEngine = (function() {
     const dataCompleta = window.MallasData[llaveEco]?.[grado]?.[tipoMalla];
 
     if (dataCompleta) {
-      // Guardamos en el baúl de la sesión para que la otra página lo vea
-      // CAMBIO AQUÍ: sessionStorage.setItem -> localStorage.setItem
+      // Guardamos en localStorage del ORIGEN ACTUAL del IFRAME
       localStorage.setItem('ECO_PERSISTENCIA_SOCIO', JSON.stringify({
         grado: grado,
         periodo: periodo,
@@ -22,7 +20,9 @@ window.RenderEngine = (function() {
     }
 
     const url = `diccionario_eco.html?grado=${grado}&periodo=${periodo}&area=${encodeURIComponent(config.AREAS["proyecto-socioemocional"].nombre)}`;
-    window.open(url, '_self');
+
+    // CAMBIO CLAVE: Cargar la URL en la misma ventana del iframe
+    window.location.href = url; // O window.location.replace(url) para no dejar historial
   };
 
 
