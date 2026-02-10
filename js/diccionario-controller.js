@@ -40,9 +40,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         dicContentDisplay.classList.add('animate-fade-in');
     }
 
-    async function cargarDatos() {
+   async function cargarDatos() {
         try {
-            const persistencia = sessionStorage.getItem('ECO_PERSISTENCIA_SOCIO');
+            // CAMBIO AQUÍ: sessionStorage.getItem -> localStorage.getItem
+            const persistencia = localStorage.getItem('ECO_PERSISTENCIA_SOCIO');
             if (persistencia) {
                 const pData = JSON.parse(persistencia);
                 if (String(pData.grado) === String(grado)) socioData = pData.data;
@@ -55,6 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (resTal.ok) talleresData = await resTal.json();
         } catch (e) { console.error("Error", e); }
     }
+
 
     function renderizarDiccionario() {
         if (!diccionarioData) return;
