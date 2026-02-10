@@ -7,13 +7,14 @@ window.RenderEngine = (function() {
     const config = window.APP_CONFIG;
     const tipoMalla = config.TIPO_MALLA;
     const llaveEco = normalizarTexto(config.AREAS["proyecto-socioemocional"].nombre);
-    
+
     // Recuperamos la data que ya cargó data-loader.js
     const dataCompleta = window.MallasData[llaveEco]?.[grado]?.[tipoMalla];
-    
+
     if (dataCompleta) {
       // Guardamos en el baúl de la sesión para que la otra página lo vea
-      sessionStorage.setItem('ECO_PERSISTENCIA_SOCIO', JSON.stringify({
+      // CAMBIO AQUÍ: sessionStorage.setItem -> localStorage.setItem
+      localStorage.setItem('ECO_PERSISTENCIA_SOCIO', JSON.stringify({
         grado: grado,
         periodo: periodo,
         data: dataCompleta
@@ -23,6 +24,7 @@ window.RenderEngine = (function() {
     const url = `diccionario_eco.html?grado=${grado}&periodo=${periodo}&area=${encodeURIComponent(config.AREAS["proyecto-socioemocional"].nombre)}`;
     window.open(url, '_blank');
   };
+
 
   function validarDato(dato) {
     const msg = '<em style="color:#999;font-weight:400;">Información en proceso de revisión...</em>';
