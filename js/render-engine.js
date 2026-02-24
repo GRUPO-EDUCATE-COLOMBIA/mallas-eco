@@ -48,6 +48,21 @@ window.RenderEngine = (function() {
     }).join('');
   }
 
+  function renderizarRutaExploracion(ruta) {
+    if (!ruta || typeof ruta !== 'object') return validarDato(ruta);
+    const bloques = [
+      { key: 'explorar', label: 'Explorar' },
+      { key: 'visual', label: 'Visual' },
+      { key: 'produccion', label: 'Producción' }
+    ];
+
+    const subcampos = bloques.map(({ key, label }) => {
+      return `<div class="subcampo-ruta" style="margin-bottom:10px; padding-left:12px; border-left:3px solid #d9e4ec;"><strong>${label}:</strong><div>${validarDato(ruta[key])}</div></div>`;
+    }).join('');
+
+    return `<div class="ruta-exploracion-subcampos">${subcampos}</div>`;
+  }
+
   function renderizar(items, areaId, grado, periodo) {
     const resSec = document.getElementById('resultados-principal');
     const indicador = document.getElementById('indicador-periodo');
@@ -95,7 +110,10 @@ window.RenderEngine = (function() {
               <div class="ficha-header ficha-header-dce"><span>💡</span> GUÍA DIDÁCTICA: ${infoDCE ? infoDCE.la_estrategia : 'En proceso'}</div>
               <div class="ficha-body">
                 <div class="campo"><strong>Reto Sugerido:</strong><div>${validarDato(infoDCE?.un_reto_sugerido)}</div></div>
+                <div class="campo"><strong>Ruta de Exploración:</strong><div>${renderizarRutaExploracion(infoDCE?.ruta_de_exploracion)}</div></div>
                 <div class="campo"><strong>Para Pensar:</strong><div>${validarDato(infoDCE?.para_pensar)}</div></div>
+                <div class="campo"><strong>Pistas del Éxito:</strong><div>${validarDato(infoDCE?.pistas_del_exito)}</div></div>
+                <div class="campo"><strong>Un Refuerzo:</strong><div>${validarDato(infoDCE?.un_refuerzo)}</div></div>
               </div>
             </div>
             <div class="ficha-cierre ficha-eco">
