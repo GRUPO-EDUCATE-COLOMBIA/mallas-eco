@@ -123,7 +123,11 @@
           "Explica el papel del trabajo de los homínidos (caza, pesca, recolección) y la importancia de estas actividades en la organización social y en el proceso de humanización.",
           "Discute teorías sobre las posibles formas de poblamiento en los diferentes continentes."
         ],
-        "saberes": ["Cultura de los pueblos", "Características de la sociedad colombiana", "Papel del trabajo en los homínidos", "Poblamiento de los continentes", "Nomadismo y sedentarismo"],
+        "saberes": [
+          "Cultura de los pueblos",
+          "Papel del trabajo en los homínidos",
+          "Poblamiento de los continentes",
+          "Nomadismo y sedentarismo"],
         "socioemocional": null,
         "diccionario": null,
         "tareas_dce": null,
