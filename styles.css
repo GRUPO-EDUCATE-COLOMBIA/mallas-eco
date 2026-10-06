@@ -54,10 +54,79 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
 .filtros select { padding: 0.6rem; border: 2px solid #e1e5e9; border-radius: 10px; font-family: 'Barlow Condensed'; font-size: 1.1rem; }
 .botones-container { display: flex; align-items: flex-end; gap: 15px; }
 
-/* BOTONES */
-.btn-buscar { background: #11678B; color: white; height: 48px; padding: 0 1.5rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
-.btn-progresion { background: var(--eco-purple); color: white; height: 48px; padding: 0 1.8rem; border: none; border-radius: 10px; font-weight: 700; cursor: pointer; }
-.btn-progresion:disabled { background: #d1d1d1 !important; color: #888 !important; cursor: not-allowed; }
+/* =========================================
+   1. ESTILOS PARA LOS BOTONES DEL HEADER 
+   ========================================= */
+.progresion-header button {
+  background: white;
+  color: var(--eco-dark);
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#btn-imprimir-progresion:hover {
+  background: var(--eco-teal);
+  color: white;
+}
+
+#btn-cerrar-progresion:hover {
+  background: #dc3545; /* Rojo para la acción de cerrar */
+  color: white;
+}
+
+/* =========================================
+   2. CORRECCIÓN DEL SCROLL EN PANTALLA
+   ========================================= */
+/* Cambiamos overflow-y a auto para que toda la zona gris tenga scroll unificado */
+.progresion-columnas { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  flex: 1; 
+  overflow-y: auto; /* Activado */
+  padding: 20px; 
+  gap: 20px; 
+  background: #e9ecef; 
+}
+
+/* Las columnas ahora crecerán según su contenido */
+.col-prog { 
+  background: white; 
+  border-radius: 15px; 
+  border: 1px solid #eee; 
+  display: flex; 
+  flex-direction: column; 
+  height: max-content; /* Permite que el contenedor crezca hacia abajo */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05); 
+}
+
+/* Fijamos los títulos "Grado X" en la parte superior al hacer scroll */
+.col-header { 
+  padding: 15px; 
+  text-align: center; 
+  font-weight: 700; 
+  background: #fdfdfd; 
+  border-bottom: 3px solid #eee; 
+  font-size: 1.4rem; 
+  color: var(--eco-dark); 
+  position: sticky; 
+  top: 0; 
+  z-index: 5; /* Evita que los estándares pasen por encima del título */
+}
+
+/* Quitamos el scroll individual para unificarlo en el contenedor padre */
+.col-content { 
+  padding: 15px; 
+  overflow-y: visible; 
+  flex: 1; 
+}
 
 /* HERRAMIENTAS E INDICADOR */
 .contenedor-herramientas-reporte { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
