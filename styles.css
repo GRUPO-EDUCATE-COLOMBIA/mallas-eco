@@ -126,12 +126,11 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
 .btn-top { display: none; position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px; background: var(--eco-green); color: white; border: none; border-radius: 50%; font-size: 1.5rem; cursor: pointer; z-index: 5000; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
 
 @media print {
-  /* 1. Reglas generales de tu sistema (se quita .overlay-progresion de esta lista general) */
+  /* 1. Reglas generales (se mantiene tal cual lo tenías) */
   .no-print, header, .filtros, .btn-top, .contenedor-herramientas-reporte, .modal-notificacion, .loading-overlay { 
     display: none !important; 
   }
   
-  /* 2. Aseguramos que el overlay no salga si imprimes la malla normal */
   body:not(.imprimiendo-progresion) .overlay-progresion { 
     display: none !important; 
   }
@@ -147,22 +146,21 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
   }
 
   /* ------------------------------------------------------------------------ */
-  /* 3. REGLAS EXCLUSIVAS PARA CUANDO SE IMPRIME EL MODAL DE PROGRESIÓN       */
+  /* 3. REGLAS EXCLUSIVAS PARA IMPRESIÓN DE PROGRESIÓN (CON TUS CLASES REALES)*/
   /* ------------------------------------------------------------------------ */
   
-  /* Oculta la malla principal de fondo para que el PDF quede limpio */
-  body.imprimiendo-progresion main { 
-    display: none !important; 
-  }
+  /* Oculta la malla de fondo */
+  body.imprimiendo-progresion main { display: none !important; }
 
-  /* Liberar el body y html para que permitan múltiples páginas */
+  /* Liberar el body para múltiples páginas */
   html, body.imprimiendo-progresion {
     height: auto !important;
     min-height: 100% !important;
     overflow: visible !important;
+    background: white !important;
   }
 
-  /* Fuerza a mostrar el modal, quita posiciones absolutas y límites de altura para evitar recortes */
+  /* Liberar el overlay oscuro y quitar el centrado forzado */
   body.imprimiendo-progresion .overlay-progresion {
     display: block !important;
     position: relative !important; 
@@ -173,23 +171,39 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
     background: white !important; 
   }
 
-  /* Liberar también los contenedores internos para que fluya el contenido */
-  body.imprimiendo-progresion .overlay-progresion > div, 
-  body.imprimiendo-progresion .contenedor-columnas { 
+  /* AQUI ESTÁ LA CLAVE: Liberar tus clases exactas del modal */
+  body.imprimiendo-progresion .progresion-container,
+  body.imprimiendo-progresion .progresion-columnas,
+  body.imprimiendo-progresion .col-prog,
+  body.imprimiendo-progresion .col-content {
     height: auto !important;
     max-height: none !important;
     overflow: visible !important;
     box-shadow: none !important; 
   }
 
-  /* Evitar que un estándar se parta a la mitad entre dos páginas */
+  /* Ajustes para aprovechar el 100% de la hoja PDF */
+  body.imprimiendo-progresion .progresion-container {
+    width: 100% !important;
+    border-radius: 0 !important;
+  }
+
+  body.imprimiendo-progresion .progresion-columnas {
+    padding: 0 !important; /* Quita márgenes grises en impresión */
+    gap: 10px !important;
+    background: white !important;
+  }
+
+  /* Evitar que un estándar se corte entre dos páginas */
   body.imprimiendo-progresion .prog-estandar-item {
     page-break-inside: avoid !important;
     break-inside: avoid !important;
     margin-bottom: 10px !important;
+    border: 1px solid #ccc !important; /* Borde más sutil para imprimir */
   }
 
-  /* Oculta los botones dentro del modal para que no se impriman */
+  /* Ocultar botones y barras de navegación en el PDF */
+  body.imprimiendo-progresion .progresion-navegacion,
   body.imprimiendo-progresion #btn-cerrar-progresion,
   body.imprimiendo-progresion #prog-prev,
   body.imprimiendo-progresion #prog-next,
