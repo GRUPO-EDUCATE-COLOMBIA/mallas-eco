@@ -152,6 +152,42 @@ window.ProgresionMotor = (function() {
       }
     };
   }
+// --- LÓGICA NATIVA DE IMPRESIÓN/PDF PARA PROGRESIÓN ---
+  const btnImprimirProg = document.getElementById('btn-imprimir-progresion');
+  
+  if (btnImprimirProg) {
+    btnImprimirProg.onclick = () => {
+      // Reutilizamos el contenedor de fecha de tu print-engine
+      const fechaTxt = document.getElementById('print-fecha-txt');
+      
+      if (fechaTxt) {
+        const ahora = new Date();
+        const fechaFormateada = ahora.toLocaleDateString() + ' ' + ahora.toLocaleTimeString();
+        const tituloComp = est.componente === "todos" ? "Todos los Componentes" : est.componente;
 
+        // Población del encabezado oculto con los datos del estado (est)
+        fechaTxt.innerHTML = `
+          <strong>REPORTE DE PROGRESIÓN DE ESTÁNDARES</strong><br>
+          <strong>ÁREA:</strong> ${est.areaNombre.toUpperCase()} | 
+          <strong>GRADO CENTRAL:</strong> ${est.gradoCentral} | 
+          <strong>COMPONENTE:</strong> ${tituloComp}<br>
+          <strong>FECHA DE CONSULTA:</strong> ${fechaFormateada}
+        `;
+      }
+
+      // 1. Añadimos una clase temporal al body para aislar el CSS
+      document.body.classList.add('imprimiendo-progresion');
+
+      // 2. Disparo del diálogo de impresión (manteniendo tus 400ms de sincronía)
+      setTimeout(() => {
+        window.print();
+        
+        // 3. Limpieza de la clase al terminar
+        setTimeout(() => {
+          document.body.classList.remove('imprimiendo-progresion');
+        }, 500); // Pequeño delay adicional para asegurar que el diálogo ya se abrió
+      }, 400);
+    };
+  }
   return { abrir };
 })();
