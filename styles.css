@@ -155,13 +155,38 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
     display: none !important; 
   }
 
-  /* Fuerza a mostrar el modal y le quita posiciones absolutas para evitar recortes */
+  /* Liberar el body y html para que permitan múltiples páginas */
+  html, body.imprimiendo-progresion {
+    height: auto !important;
+    min-height: 100% !important;
+    overflow: visible !important;
+  }
+
+  /* Fuerza a mostrar el modal, quita posiciones absolutas y límites de altura para evitar recortes */
   body.imprimiendo-progresion .overlay-progresion {
     display: block !important;
-    position: static !important;
+    position: relative !important; 
     height: auto !important;
+    max-height: none !important; 
     overflow: visible !important;
-    background: white !important; /* Asegura fondo blanco */
+    padding: 0 !important;
+    background: white !important; 
+  }
+
+  /* Liberar también los contenedores internos para que fluya el contenido */
+  body.imprimiendo-progresion .overlay-progresion > div, 
+  body.imprimiendo-progresion .contenedor-columnas { 
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    box-shadow: none !important; 
+  }
+
+  /* Evitar que un estándar se parta a la mitad entre dos páginas */
+  body.imprimiendo-progresion .prog-estandar-item {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    margin-bottom: 10px !important;
   }
 
   /* Oculta los botones dentro del modal para que no se impriman */
