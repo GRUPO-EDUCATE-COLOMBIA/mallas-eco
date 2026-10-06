@@ -126,24 +126,24 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
 .btn-top { display: none; position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px; background: var(--eco-green); color: white; border: none; border-radius: 50%; font-size: 1.5rem; cursor: pointer; z-index: 5000; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
 
 @media print {
-  /* 1. Reglas generales */
-  .no-print, header, .filtros, .btn-top, .contenedor-herramientas-reporte, .modal-notificacion, .loading-overlay { 
-    display: none !important; 
-  }
+ /* 1. Reglas generales */
+ .no-print, header, .filtros, .btn-top, .contenedor-herramientas-reporte, .modal-notificacion, .loading-overlay { 
+   display: none !important; 
+ }
   
   body:not(.imprimiendo-progresion) .overlay-progresion { 
     display: none !important; 
-  }
+ }
 
-  main { position: static !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
-  .item-malla { break-inside: avoid; border: 1px solid #000 !important; }
+ main { position: static !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+ .item-malla { break-inside: avoid; border: 1px solid #000 !important; }
   
-  .watermark-print { 
+ .watermark-print { 
     display: block !important; position: fixed; top: 50%; left: 50%; 
     transform: translate(-50%, -50%) rotate(-45deg); font-size: 5rem; 
     color: rgba(180, 180, 180, 0.12) !important; font-weight: 700; 
     z-index: 99999 !important; pointer-events: none; white-space: nowrap; 
-  }
+ }
 
   /* ------------------------------------------------------------------------ */
   /* 3. REGLAS EXCLUSIVAS PARA IMPRESIÓN DE PROGRESIÓN (CON TUS CLASES REALES)*/
@@ -153,7 +153,7 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
   body.imprimiendo-progresion main { display: none !important; }
 
   /* Liberar el body para múltiples páginas */
-  html, body.imprimiendo-progresion {
+ html, body.imprimiendo-progresion {
     height: auto !important;
     min-height: 100% !important;
     overflow: visible !important;
@@ -209,5 +209,5 @@ main { max-width: 1300px; margin: 0 auto; padding: 1.5rem; }
   body.imprimiendo-progresion #prog-next,
   body.imprimiendo-progresion #btn-imprimir-progresion {
     display: none !important;
-  }
+ }
 }
