@@ -99,7 +99,7 @@
     ],
     "2": [
       {
-        "componente": "Lingüístico (Convversación)",
+        "componente": "Lingüístico (Conversación)",
         "estandar": ["Conversación"],
         "dba": [
           "Intercambia ideas y opiniones sencillas con compañeros y profesores, siguiendo modelos a través de imágenes."
@@ -167,8 +167,8 @@
     ],
     "3": [
       {
-        "componente": "Lingüístico (Conversación)",
-        "estandar": ["Conversación"],
+        "componente": "Lingüístico (sación)",
+        "estandar": ["sación"],
         "dba": [
           "Intercambia ideas y opiniones sencillas con compañeros y profesores, siguiendo modelos a través de imágenes."
         ],
@@ -256,7 +256,7 @@
     ],
     "4": [
       {
-        "componente": "Lingüístico Conversación",
+        "componente": "Lingüístico (Conversación)",
         "estandar": ["Conversación"],
         "dba": [
           "Intercambia ideas y opiniones sencillas con compañeros y profesores, siguiendo modelos a través de imágenes."
